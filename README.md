@@ -4,6 +4,8 @@
 
 **Your League of Legends season, wrapped.**
 
+[Try it here!](https://rift-recap-azure.vercel.app/)
+
 Drop in a Riot ID and get a scrollable, animated story of your games: who you are as a player, the champions that carry you, the nights you'd rather forget. Then challenge a friend, or your whole squad.
 
 ![Next.js 16](https://img.shields.io/badge/Next.js-16-black?logo=nextdotjs)
