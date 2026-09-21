@@ -13,16 +13,5 @@
   "reveal": "{verdict} {line}",
   "pick": "Pilih seorang pemain.",
   "score": "Lihat skormu",
-  "next": "Penghargaan berikutnya",
-  "guess": {
-    "eyebrow": "Tebak arketipemu",
-    "lead": "Tiga petunjuk, empat arketipe. Kamu yang mana?",
-    "clueMain": "Paling sering dimainkan: {champion}",
-    "clueRate": "Win rate {rate}",
-    "clueKda": "KDA {kda}",
-    "group": "Arketipe kamu yang mana?",
-    "right": "Tepat. Kamu kenal gayamu sendiri.",
-    "wrong": "Hampir. Kamu {title}.",
-    "next": "Lanjut untuk melihat hasil lengkapnya."
-  }
+  "next": "Penghargaan berikutnya"
 }

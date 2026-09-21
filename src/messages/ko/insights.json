@@ -109,12 +109,6 @@
       "line": "와드를 치우고 모두에게 알려요."
     }
   },
-  "chapters": {
-    "part": "{n}부",
-    "range": "{from}–{to}",
-    "same": "처음부터 끝까지 {title}. 자신이 누구인지 알고 있어요.",
-    "changed": "처음엔 {first}, 마지막엔 {last}. 변화의 시즌이었어요."
-  },
   "tilt": {
     "tilt": "승리 후에는 {afterWin}를, 패배 후에는 {afterLoss}만 이겨요. 게임 사이에 산책이라도 해 볼까요.",
     "resilient": "한 판 지면 다음 게임의 {afterLoss}를 이겨요. 승리 후의 {afterWin}보다 높아요. 패배가 오히려 불을 붙여요.",

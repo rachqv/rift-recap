@@ -253,11 +253,6 @@
     "wonBehind": "<b>{wins}</b> gagnées sur {total} en partant derrière",
     "lead": "Tes {games, plural, one {# dernière partie de voie} other {# dernières parties de voie}}, contre ton adversaire de voie"
   },
-  "chapters": {
-    "eyebrow": "Ta saison en chapitres",
-    "wins": "{rate} de victoires",
-    "note": "Chaque chapitre est évalué sur ses propres parties, donc les courts sont moins fiables."
-  },
   "flames": {
     "eyebrow": "Vieilles flammes",
     "lead": "Des champions que tu connais bien et que tu as à peine touchés cette saison",
@@ -328,10 +323,8 @@
     "comps": "Compos",
     "normals": "Normales",
     "aram": "ARAM",
-    "chapters": "Chapitres",
     "trophies": "Trophées",
     "rank": "Rang",
-    "guess": "Devinette",
     "you": "Toi",
     "back": "Retour"
   },

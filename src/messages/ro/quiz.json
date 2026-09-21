@@ -13,16 +13,5 @@
   "reveal": "{verdict} {line}",
   "pick": "Alege un jucător.",
   "score": "Vezi scorul tău",
-  "next": "Următorul premiu",
-  "guess": {
-    "eyebrow": "Ghicește-ți arhetipul",
-    "lead": "Trei indicii, patru arhetipuri. Care ești tu?",
-    "clueMain": "Cel mai jucat: {champion}",
-    "clueRate": "Rata de victorii {rate}",
-    "clueKda": "KDA {kda}",
-    "group": "Ce arhetip ești?",
-    "right": "Exact. Îți cunoști jocul.",
-    "wrong": "Aproape. Ești {title}.",
-    "next": "Continuă pentru dezvăluirea completă."
-  }
+  "next": "Următorul premiu"
 }

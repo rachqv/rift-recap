@@ -109,12 +109,6 @@
       "line": "Kitakarítod a wardokat, és mindenkinek elmondod."
     }
   },
-  "chapters": {
-    "part": "{n}. rész",
-    "range": "{from}–{to}",
-    "same": "{title} az elejétől a végéig. Tudod, ki vagy.",
-    "changed": "{first} típusként indultál, és {last} típusként fejezted be. A változás szezonja."
-  },
   "tilt": {
     "tilt": "Győzelem után {afterWin} nyersz, de vereség után csak {afterLoss}. Talán sétálj egyet a meccsek között.",
     "resilient": "Ha elveszítesz egyet, a következők {afterLoss} részét nyered meg, többet, mint a győzelem utáni {afterWin}. A vereségek csak felpörgetnek.",

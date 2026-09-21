@@ -253,11 +253,6 @@
     "wonBehind": "Menang <b>{wins}</b> dari {total} saat tertinggal",
     "lead": "{games, plural, other {# pertandingan lane}} terakhirmu, melawan lawan lane-mu"
   },
-  "chapters": {
-    "eyebrow": "Musimmu dalam bab",
-    "wins": "{rate} menang",
-    "note": "Setiap bab dinilai dari pertandingannya sendiri, jadi bab yang pendek kurang pasti."
-  },
   "flames": {
     "eyebrow": "Cinta lama",
     "lead": "Champion yang kamu kenal baik dan nyaris tak kamu sentuh musim ini",
@@ -328,10 +323,8 @@
     "comps": "Komposisi tim",
     "normals": "Normal",
     "aram": "ARAM",
-    "chapters": "Bab",
     "trophies": "Piala",
     "rank": "Peringkat",
-    "guess": "Tebak",
     "you": "Kamu",
     "back": "Kembali"
   },

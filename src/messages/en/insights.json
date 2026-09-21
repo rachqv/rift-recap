@@ -109,12 +109,6 @@
       "line": "You clear the wards and tell everyone about it."
     }
   },
-  "chapters": {
-    "part": "Part {n}",
-    "range": "{from}–{to}",
-    "same": "{title} from start to finish. You know who you are.",
-    "changed": "You started as {first} and finished as {last}. A season of change."
-  },
   "tilt": {
     "tilt": "You win {afterWin} after a win but only {afterLoss} after a loss. Maybe take a walk between games.",
     "resilient": "Lose one and you win {afterLoss} of the next, more than the {afterWin} after a win. Losses just fire you up.",

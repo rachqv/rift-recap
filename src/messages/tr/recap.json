@@ -253,11 +253,6 @@
     "wonBehind": "Geriden {total} maçın <b>{wins}</b> tanesi kazanıldı",
     "lead": "Son {games, plural, one {# koridor maçın} other {# koridor maçın}}, koridor rakibine karşı"
   },
-  "chapters": {
-    "eyebrow": "Bölümlerle sezonun",
-    "wins": "{rate} galibiyet",
-    "note": "Her bölüm kendi maçlarına göre puanlanır, o yüzden kısa olanlar daha az kesindir."
-  },
   "flames": {
     "eyebrow": "Eski aşklar",
     "lead": "İyi bildiğin ama bu sezon neredeyse hiç oynamadığın şampiyonlar",
@@ -328,10 +323,8 @@
     "comps": "Kompozisyonlar",
     "normals": "Normaller",
     "aram": "ARAM",
-    "chapters": "Bölümler",
     "trophies": "Kupalar",
     "rank": "Rütbe",
-    "guess": "Tahmin",
     "you": "Sen",
     "back": "Geri"
   },

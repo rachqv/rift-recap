@@ -109,12 +109,6 @@
       "line": "Du räumst die Wards und erzählst es allen."
     }
   },
-  "chapters": {
-    "part": "Teil {n}",
-    "range": "{from}–{to}",
-    "same": "{title} von Anfang bis Ende. Du weißt, wer du bist.",
-    "changed": "Du hast als {first} angefangen und als {last} aufgehört. Eine Saison des Wandels."
-  },
   "tilt": {
     "tilt": "Nach einem Sieg gewinnst du {afterWin}, nach einer Niederlage nur {afterLoss}. Vielleicht hilft ein Spaziergang zwischen den Spielen.",
     "resilient": "Verlierst du eins, gewinnst du {afterLoss} der nächsten, mehr als die {afterWin} nach einem Sieg. Niederlagen spornen dich an.",

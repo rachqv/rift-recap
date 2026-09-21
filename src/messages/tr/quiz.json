@@ -13,16 +13,5 @@
   "reveal": "{verdict} {line}",
   "pick": "Bir oyuncu seç.",
   "score": "Puanını gör",
-  "next": "Sonraki ödül",
-  "guess": {
-    "eyebrow": "Arketipini tahmin et",
-    "lead": "Üç ipucu, dört arketip. Hangisisin?",
-    "clueMain": "En çok oynanan: {champion}",
-    "clueRate": "Galibiyet oranı {rate}",
-    "clueKda": "KDA {kda}",
-    "group": "Hangi arketipsin?",
-    "right": "Tam isabet. Oyununu iyi biliyorsun.",
-    "wrong": "Neredeyse. Sen {title}.",
-    "next": "Tam açıklama için devam et."
-  }
+  "next": "Sonraki ödül"
 }

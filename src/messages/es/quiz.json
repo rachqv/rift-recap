@@ -13,16 +13,5 @@
   "reveal": "{verdict} {line}",
   "pick": "Elige a un jugador.",
   "score": "Ver tu puntuación",
-  "next": "Siguiente premio",
-  "guess": {
-    "eyebrow": "Adivina tu arquetipo",
-    "lead": "Tres pistas, cuatro arquetipos. ¿Cuál eres tú?",
-    "clueMain": "Más jugado: {champion}",
-    "clueRate": "Porcentaje de victorias {rate}",
-    "clueKda": "KDA {kda}",
-    "group": "¿Qué arquetipo eres?",
-    "right": "Justo. Conoces bien tu juego.",
-    "wrong": "Casi. Eres {title}.",
-    "next": "Sigue para ver la revelación completa."
-  }
+  "next": "Siguiente premio"
 }

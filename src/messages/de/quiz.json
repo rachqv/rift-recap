@@ -13,16 +13,5 @@
   "reveal": "{verdict} {line}",
   "pick": "Wähle einen Spieler.",
   "score": "Ergebnis ansehen",
-  "next": "Nächste Auszeichnung",
-  "guess": {
-    "eyebrow": "Errate deinen Archetyp",
-    "lead": "Drei Hinweise, vier Archetypen. Welcher bist du?",
-    "clueMain": "Am meisten gespielt: {champion}",
-    "clueRate": "Siegquote {rate}",
-    "clueKda": "KDA {kda}",
-    "group": "Welcher Archetyp bist du?",
-    "right": "Volltreffer. Du kennst dein Spiel.",
-    "wrong": "Knapp daneben. Du bist {title}.",
-    "next": "Weiter geht's zur ganzen Enthüllung."
-  }
+  "next": "Nächste Auszeichnung"
 }

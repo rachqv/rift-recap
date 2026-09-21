@@ -13,16 +13,5 @@
   "reveal": "{verdict} {line}",
   "pick": "Escolha um jogador.",
   "score": "Ver sua pontuação",
-  "next": "Próximo prêmio",
-  "guess": {
-    "eyebrow": "Adivinhe seu arquétipo",
-    "lead": "Três pistas, quatro arquétipos. Qual é você?",
-    "clueMain": "Mais jogado: {champion}",
-    "clueRate": "Taxa de vitórias {rate}",
-    "clueKda": "KDA {kda}",
-    "group": "Qual arquétipo é você?",
-    "right": "Acertou. Você conhece o seu jogo.",
-    "wrong": "Quase. Você é {title}.",
-    "next": "Continue para ver a revelação completa."
-  }
+  "next": "Próximo prêmio"
 }

@@ -109,12 +109,6 @@
       "line": "ワードを掃除して、みんなに知らせる。"
     }
   },
-  "chapters": {
-    "part": "第{n}章",
-    "range": "{from}〜{to}",
-    "same": "最初から最後まで{title}。自分が何者か分かっている。",
-    "changed": "始まりは{first}、終わりは{last}。変化のシーズンだった。"
-  },
   "tilt": {
     "tilt": "勝利の後は{afterWin}、敗北の後は{afterLoss}しか勝てない。試合の合間に散歩でもしてみては。",
     "resilient": "1敗しても次の試合の{afterLoss}に勝つ。勝利の後の{afterWin}より高い。負けるほど燃えるタイプ。",

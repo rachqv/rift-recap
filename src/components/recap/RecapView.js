@@ -4,9 +4,7 @@ import { artSeed, resolveArt } from "@/lib/recap/art";
 import { SEASON_START } from "@/lib/recap/config";
 import { getBingo } from "@/lib/recap/bingo";
 import { getBlame } from "@/lib/recap/blame";
-import { getPersonaChapters } from "@/lib/recap/chapters";
 import { pickKeystones } from "@/lib/recap/runes";
-import { buildPersonaGuess } from "@/lib/recap/guess";
 import { getPatchForm } from "@/lib/recap/patches";
 import { getPoolAdvice } from "@/lib/recap/pool";
 import { getFormCurve } from "@/lib/recap/formcurve";
@@ -23,11 +21,10 @@ import { getTiltGuard } from "@/lib/recap/tiltguard";
 import { buildSummary } from "@/lib/recap/summary";
 import { getTierList } from "@/lib/recap/tierlist";
 import { squadPath, versusPath } from "@/lib/squad/parse";
-import { championId, championName, getItemIndex, getRuneIndex } from "@/lib/riot/ddragon";
+import { championId, getItemIndex, getRuneIndex } from "@/lib/riot/ddragon";
 import { pickSplashes } from "@/lib/riot/skins";
 import { BlameSlide, CalendarSlide, ClockSlide, ComfortSlide, FormCurveSlide, GrayScreenSlide, HabitsSlide, ItemsSlide, ObjectivesSlide, PatchSlide, PoolSlide, ProgressSlide, RunesSlide, TierListSlide, TiltGuardSlide, TiltSlide, TrophiesSlide, WeekSlide } from "./dataSlides";
-import { ChaptersSlide, DamageProfileSlide, EarlyGameSlide, HighlightsSlide, LaneSlide, OldFlamesSlide, SessionsSlide, TeamCompSlide } from "./extraSlides";
-import PersonaGuess from "./PersonaGuess";
+import { DamageProfileSlide, EarlyGameSlide, HighlightsSlide, LaneSlide, OldFlamesSlide, SessionsSlide, TeamCompSlide } from "./extraSlides";
 import Story from "./Story";
 import {
   ChampionSlide,
@@ -71,8 +68,8 @@ function readStats({ recap, index, mastery, t }) {
   };
 }
 
-/** The reads that need more than the recap: the games one by one (`activity`, `matches`), the week before, or a saved snapshot. */
-function readHistory({ recap, account, activity, matches, before, saved, index, t }, rank) {
+/** The reads that need more than the recap: the games one by one (`activity`), the week before, or a saved snapshot. */
+function readHistory({ recap, activity, before, saved, t }, rank) {
   const showCalendar = hasEnoughDays(activity);
   return {
     showCalendar,
@@ -83,7 +80,6 @@ function readHistory({ recap, account, activity, matches, before, saved, index, 
     week: before ? getWeekCompare(recap, before.recap, t) : null,
     sessions: getSessions(activity),
     tiltGuard: activity ? getTiltGuard(activity) : null,
-    chapters: matches ? getPersonaChapters(matches, account.puuid ?? "demo", { nameOf: (id) => championName(index, id), tagsOf: tagsOf(index) }, t) : null,
     progress: saved ? compareToSnapshot(saved, recap, rank, t) : null,
   };
 }
@@ -122,8 +118,6 @@ async function readView(props) {
     comfortArt,
     items: pickFavoriteItems(recap.items, itemIndex, recap),
     runes: pickKeystones(recap.keystones, runeIndex),
-    // A game just before the reveal: guess the archetype from three clues. Seeded by the player, so a reload keeps the same options.
-    guess: buildPersonaGuess(recap, persona, { topName: championName(index, recap.topChampions[0].id), seed: `${account.gameName}#${account.tagLine}` }, t),
     season: range === "season" ? t("recap.season", { year: SEASON_START.getUTCFullYear() }) : t(`common.range.${range}`),
   };
 }
@@ -175,22 +169,20 @@ function playstyleSlides({ t, recap, index, lane, gold, earlyGame, habits, items
   ];
 }
 
-function socialAndModeSlides({ t, recap, account, summoner, index, art, duoHref, versusHref, comp, modes, chapters }) {
+function socialAndModeSlides({ t, recap, account, summoner, index, art, duoHref, versusHref, comp, modes }) {
   return [
     recap.duo && [t("recap.rail.duo"), <DuoSlide t={t} key="duo" duo={recap.duo} account={account} summoner={summoner} index={index} art={art.duo} profileHref={duoHref} versusHref={versusHref} />],
     (recap.nemesis || recap.bestMatchup) && [t("recap.rail.matchups"), <MatchupSlide t={t} key="matchups" nemesis={recap.nemesis} bestMatchup={recap.bestMatchup} index={index} art={art} />],
     comp && [t("recap.rail.comps"), <TeamCompSlide t={t} key="comp" comp={comp} />],
     modes.normal && [t("recap.rail.normals"), <ModeSlide t={t} key="normal" mode="normal" stats={modes.normal} rift={recap} ranked={modes.ranked} index={index} art={art.normal} />],
     modes.aram && [t("recap.rail.aram"), <ModeSlide t={t} key="aram" mode="aram" stats={modes.aram} rift={recap} ranked={modes.ranked} index={index} art={art.aram} />],
-    chapters && [t("recap.rail.chapters"), <ChaptersSlide t={t} key="chapters" chapters={chapters} />],
   ];
 }
 
-function closingSlides({ t, recap, index, bingo, share, rank, guess, persona, art, links }) {
+function closingSlides({ t, recap, index, bingo, share, rank, persona, art, links }) {
   return [
     bingo.unlocked > 0 && [t("recap.rail.trophies"), <TrophiesSlide t={t} key="trophies" bingo={bingo} share={share} />],
     rank && [t("recap.rail.rank"), <RankSlide t={t} key="rank" rank={rank} />],
-    [t("recap.rail.guess"), <PersonaGuess key="guess" guess={guess} />],
     [t("recap.rail.you"), <PersonaSlide t={t} key="persona" persona={persona} recap={recap} index={index} art={art.persona} share={share} links={links} snapshot={recapSnapshot(recap, persona, rank)} />],
   ];
 }

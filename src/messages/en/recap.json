@@ -253,11 +253,6 @@
     "wonBehind": "Won <b>{wins}</b> of {total} from behind",
     "lead": "Your latest {games, plural, one {# lane game} other {# lane games}}, against your lane opponent"
   },
-  "chapters": {
-    "eyebrow": "Your season in chapters",
-    "wins": "{rate} wins",
-    "note": "Each chapter is scored on its own games, so short ones are less certain."
-  },
   "flames": {
     "eyebrow": "Old flames",
     "lead": "Champions you know well and hardly touched this season",
@@ -328,10 +323,8 @@
     "comps": "Team comps",
     "normals": "Normals",
     "aram": "ARAM",
-    "chapters": "Chapters",
     "trophies": "Trophies",
     "rank": "Rank",
-    "guess": "Guess",
     "you": "You",
     "back": "Back"
   },

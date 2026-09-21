@@ -109,12 +109,6 @@
       "line": "你清掉眼位，還要告訴所有人。"
     }
   },
-  "chapters": {
-    "part": "第{n}章",
-    "range": "{from}–{to}",
-    "same": "從頭到尾都是{title}。你很清楚自己是誰。",
-    "changed": "你從{first}開始，以{last}收尾。充滿變化的一個賽季。"
-  },
   "tilt": {
     "tilt": "贏了之後你能贏{afterWin}，輸了之後只能贏{afterLoss}。也許對局之間該出去走走。",
     "resilient": "輸一場後你能贏下之後{afterLoss}的對局，比贏後的{afterWin}還高。失敗只會讓你更來勁。",

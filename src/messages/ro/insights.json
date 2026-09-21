@@ -109,12 +109,6 @@
       "line": "Cureți warduri și le spui tuturor."
     }
   },
-  "chapters": {
-    "part": "Partea {n}",
-    "range": "{from}–{to}",
-    "same": "{title} de la început până la sfârșit. Știi cine ești.",
-    "changed": "Ai început ca {first} și ai terminat ca {last}. Un sezon al schimbării."
-  },
   "tilt": {
     "tilt": "Câștigi {afterWin} după o victorie, dar doar {afterLoss} după o înfrângere. Poate ieși la o plimbare între meciuri.",
     "resilient": "Pierzi unul și câștigi {afterLoss} din următoarele, mai mult decât {afterWin} după o victorie. Înfrângerile te aprind.",

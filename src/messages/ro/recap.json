@@ -253,11 +253,6 @@
     "wonBehind": "Câștigate <b>{wins}</b> din {total} din urmă",
     "lead": "Ultimele tale {games, plural, one {# meci de culoar} few {# meciuri de culoar} other {# de meciuri de culoar}}, față de adversarul de culoar"
   },
-  "chapters": {
-    "eyebrow": "Sezonul tău pe capitole",
-    "wins": "{rate} victorii",
-    "note": "Fiecare capitol este evaluat pe propriile meciuri, deci cele scurte sunt mai puțin sigure."
-  },
   "flames": {
     "eyebrow": "Vechi flăcări",
     "lead": "Campioni pe care îi cunoști bine și abia i-ai atins în acest sezon",
@@ -328,10 +323,8 @@
     "comps": "Compoziții",
     "normals": "Normale",
     "aram": "ARAM",
-    "chapters": "Capitole",
     "trophies": "Trofee",
     "rank": "Rang",
-    "guess": "Ghicește",
     "you": "Tu",
     "back": "Înapoi"
   },

@@ -13,16 +13,5 @@
   "reveal": "{verdict} {line}",
   "pick": "플레이어를 선택하세요.",
   "score": "점수 보기",
-  "next": "다음 어워드",
-  "guess": {
-    "eyebrow": "내 아키타입 맞히기",
-    "lead": "힌트 세 개, 아키타입 네 개. 나는 어느 쪽일까요?",
-    "clueMain": "가장 많이 플레이: {champion}",
-    "clueRate": "승률 {rate}",
-    "clueKda": "KDA {kda}",
-    "group": "나는 어떤 아키타입일까요?",
-    "right": "정답이에요. 자기 플레이를 잘 아시네요.",
-    "wrong": "아쉬워요. 당신의 아키타입은 {title}.",
-    "next": "계속 넘겨서 전체 결과를 확인하세요."
-  }
+  "next": "다음 어워드"
 }

@@ -253,11 +253,6 @@
     "wonBehind": "Ganaste <b>{wins}</b> de {total} yendo por detrás",
     "lead": "Tus últimas {games, plural, one {# partida de línea} other {# partidas de línea}}, frente a tu rival de línea"
   },
-  "chapters": {
-    "eyebrow": "Tu temporada en capítulos",
-    "wins": "{rate} de victorias",
-    "note": "Cada capítulo se puntúa con sus propias partidas, así que los cortos son menos fiables."
-  },
   "flames": {
     "eyebrow": "Viejas llamas",
     "lead": "Campeones que conoces bien y apenas tocaste esta temporada",
@@ -328,10 +323,8 @@
     "comps": "Composiciones",
     "normals": "Normales",
     "aram": "ARAM",
-    "chapters": "Capítulos",
     "trophies": "Trofeos",
     "rank": "Rango",
-    "guess": "Adivina",
     "you": "Tú",
     "back": "Volver"
   },

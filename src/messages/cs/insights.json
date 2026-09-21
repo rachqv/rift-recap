@@ -109,12 +109,6 @@
       "line": "Čistíš warda a říkáš to všem."
     }
   },
-  "chapters": {
-    "part": "Část {n}",
-    "range": "{from}–{to}",
-    "same": "{title} od začátku do konce. Víš, kdo jsi.",
-    "changed": "Začal jsi jako {first} a skončil jako {last}. Sezona změn."
-  },
   "tilt": {
     "tilt": "Po výhře vyhraješ {afterWin}, ale po prohře jen {afterLoss}. Možná se mezi zápasy projdi.",
     "resilient": "Prohraješ jeden a z dalších vyhraješ {afterLoss}, víc než {afterWin} po výhře. Prohry tě jen nakopnou.",

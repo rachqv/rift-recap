@@ -109,12 +109,6 @@
       "line": "Totemleri temizliyor ve herkese söylüyorsun."
     }
   },
-  "chapters": {
-    "part": "Bölüm {n}",
-    "range": "{from}–{to}",
-    "same": "Baştan sona {title}. Kim olduğunu biliyorsun.",
-    "changed": "{first} olarak başladın, {last} olarak bitirdin. Değişim dolu bir sezon."
-  },
   "tilt": {
     "tilt": "Galibiyetten sonra {afterWin}, yenilgiden sonra yalnızca {afterLoss} kazanıyorsun. Belki maçlar arasında yürüyüşe çık.",
     "resilient": "Birini kaybet, sonrakilerin {afterLoss} kadarını kazanıyorsun; galibiyetten sonraki {afterWin} oranından fazla. Yenilgiler seni sadece hırslandırıyor.",

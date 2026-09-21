@@ -109,12 +109,6 @@
       "line": "Tu nettoies les balises et tu le fais savoir à tout le monde."
     }
   },
-  "chapters": {
-    "part": "Partie {n}",
-    "range": "{from}–{to}",
-    "same": "{title} du début à la fin. Tu sais qui tu es.",
-    "changed": "Tu as commencé comme {first} et fini comme {last}. Une saison de changements."
-  },
   "tilt": {
     "tilt": "Tu gagnes {afterWin} après une victoire mais seulement {afterLoss} après une défaite. Va peut-être te promener entre deux parties.",
     "resilient": "Perds-en une et tu gagnes {afterLoss} des suivantes, plus que les {afterWin} après une victoire. Les défaites te motivent.",

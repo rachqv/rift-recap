@@ -13,16 +13,5 @@
   "reveal": "{verdict} {line}",
   "pick": "Pick a player.",
   "score": "See your score",
-  "next": "Next award",
-  "guess": {
-    "eyebrow": "Guess your archetype",
-    "lead": "Three clues, four archetypes. Which one are you?",
-    "clueMain": "Most played: {champion}",
-    "clueRate": "Win rate {rate}",
-    "clueKda": "KDA {kda}",
-    "group": "Which archetype are you?",
-    "right": "Spot on. You know your own game.",
-    "wrong": "Not quite. You're {title}.",
-    "next": "Keep going for the full reveal."
-  }
+  "next": "Next award"
 }

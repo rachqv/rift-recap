@@ -253,11 +253,6 @@
     "wonBehind": "뒤진 상태에서 {total}게임 중 <b>{wins}</b>승",
     "lead": "최근 {games, plural, other {#번의 라인전}}, 라인 상대와 비교"
   },
-  "chapters": {
-    "eyebrow": "챕터로 보는 나의 시즌",
-    "wins": "승률 {rate}",
-    "note": "각 챕터는 자체 게임만으로 평가하므로 짧은 챕터일수록 덜 확실해요."
-  },
   "flames": {
     "eyebrow": "옛 연인들",
     "lead": "잘 알지만 이번 시즌엔 거의 만지지 않은 챔피언들",
@@ -328,10 +323,8 @@
     "comps": "팀 구성",
     "normals": "일반",
     "aram": "칼바람",
-    "chapters": "챕터",
     "trophies": "트로피",
     "rank": "랭크",
-    "guess": "맞히기",
     "you": "나",
     "back": "뒤로"
   },

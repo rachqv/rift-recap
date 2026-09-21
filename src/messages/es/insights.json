@@ -109,12 +109,6 @@
       "line": "Limpias las balizas y se lo cuentas a todo el mundo."
     }
   },
-  "chapters": {
-    "part": "Parte {n}",
-    "range": "{from}–{to}",
-    "same": "{title} de principio a fin. Sabes quién eres.",
-    "changed": "Empezaste como {first} y acabaste como {last}. Una temporada de cambios."
-  },
   "tilt": {
     "tilt": "Ganas el {afterWin} tras una victoria, pero solo el {afterLoss} tras una derrota. Quizá te venga bien dar un paseo entre partidas.",
     "resilient": "Pierdes una y ganas el {afterLoss} de las siguientes, más que el {afterWin} tras una victoria. Las derrotas te motivan.",

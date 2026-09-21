@@ -1,4 +1,4 @@
-/* Damage profile, team comps, nights, highlights, lane check, early game, chapters and old flames */
+/* Damage profile, team comps, nights, highlights, lane check, early game and old flames */
 .headline {
   margin: 0;
   max-width: 34rem;
@@ -314,89 +314,6 @@
 
 .laneTile[data-good="false"] .laneValue {
   color: #ff8a9b;
-}
-
-/* Chapters */
-.chapters {
-  display: flex;
-  flex-direction: column;
-  width: min(100%, 30rem);
-}
-
-.chapter {
-  --accent-chapter: var(--accent);
-  position: relative;
-  display: grid;
-  grid-template-columns: 5.5rem 1.4rem minmax(0, 1fr);
-  align-items: center;
-  gap: 0.6rem;
-  min-height: 3.6rem;
-}
-
-.chapterWhen,
-.chapterWho {
-  display: flex;
-  flex-direction: column;
-}
-
-.chapterWhen {
-  align-items: flex-end;
-  font-weight: 700;
-  color: var(--text);
-}
-
-.chapterWho {
-  align-items: flex-start;
-  font-family: var(--font-display), Georgia, serif;
-  font-size: 1.15rem;
-  font-weight: 800;
-  text-align: start;
-  color: var(--accent-chapter);
-  filter: brightness(1.2);
-}
-
-.chapterWhen small,
-.chapterWho small {
-  font-family: var(--font-body), system-ui, sans-serif;
-  font-size: 0.68rem;
-  font-weight: 400;
-  color: var(--muted);
-}
-
-/* A line down the middle, with a dot for each chapter. */
-.chapterDot {
-  position: relative;
-  align-self: stretch;
-  display: grid;
-  place-items: center;
-}
-
-.chapterDot::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  width: 2px;
-  background: rgba(200, 170, 110, 0.35);
-}
-
-.chapter:first-child .chapterDot::before {
-  top: 50%;
-}
-
-.chapterDot[data-last="true"]::before {
-  bottom: 50%;
-}
-
-.chapterDot::after {
-  content: "";
-  position: relative;
-  width: 0.85rem;
-  height: 0.85rem;
-  border: 2px solid #050b18;
-  border-radius: 50%;
-  background: var(--accent-chapter);
-  box-shadow: 0 0 14px var(--accent-chapter);
 }
 
 /* Old flames */

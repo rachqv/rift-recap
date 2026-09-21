@@ -253,11 +253,6 @@
     "wonBehind": "Hátrányból {total} meccsből <b>{wins}</b> nyert",
     "lead": "A legutóbbi {games, plural, one {# sávmeccsed} other {# sávmeccsed}}, a sávellenféllel szemben"
   },
-  "chapters": {
-    "eyebrow": "A szezonod fejezetekben",
-    "wins": "{rate} győzelem",
-    "note": "Minden fejezetet a saját meccsei alapján értékelünk, ezért a rövidek kevésbé megbízhatók."
-  },
   "flames": {
     "eyebrow": "Régi lángok",
     "lead": "Bajnokok, akiket jól ismersz, és alig érintettél ebben a szezonban",
@@ -328,10 +323,8 @@
     "comps": "Összetételek",
     "normals": "Normál",
     "aram": "ARAM",
-    "chapters": "Fejezetek",
     "trophies": "Trófeák",
     "rank": "Rang",
-    "guess": "Tipp",
     "you": "Te",
     "back": "Vissza"
   },

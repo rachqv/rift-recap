@@ -253,11 +253,6 @@
     "wonBehind": "Thắng <b>{wins}</b> trên {total} trận khi thua thế",
     "lead": "{games, plural, other {# trận đi đường}} gần nhất của bạn, so với đối thủ đường"
   },
-  "chapters": {
-    "eyebrow": "Mùa giải của bạn theo từng chương",
-    "wins": "Thắng {rate}",
-    "note": "Mỗi chương được chấm theo các trận của chính nó, nên chương ngắn kém chắc chắn hơn."
-  },
   "flames": {
     "eyebrow": "Tình cũ",
     "lead": "Những tướng bạn rất quen nhưng hầu như không đụng đến mùa này",
@@ -328,10 +323,8 @@
     "comps": "Đội hình",
     "normals": "Đấu thường",
     "aram": "ARAM",
-    "chapters": "Chương",
     "trophies": "Cúp",
     "rank": "Hạng",
-    "guess": "Đoán",
     "you": "Bạn",
     "back": "Quay lại"
   },

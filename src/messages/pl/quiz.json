@@ -13,16 +13,5 @@
   "reveal": "{verdict} {line}",
   "pick": "Wybierz gracza.",
   "score": "Zobacz swój wynik",
-  "next": "Następna nagroda",
-  "guess": {
-    "eyebrow": "Zgadnij swój archetyp",
-    "lead": "Trzy wskazówki, cztery archetypy. Który to ty?",
-    "clueMain": "Najczęściej grany: {champion}",
-    "clueRate": "Odsetek wygranych {rate}",
-    "clueKda": "KDA {kda}",
-    "group": "Którym archetypem jesteś?",
-    "right": "W dziesiątkę. Znasz swoją grę.",
-    "wrong": "Prawie. Jesteś: {title}.",
-    "next": "Idź dalej po pełne odsłonięcie."
-  }
+  "next": "Następna nagroda"
 }

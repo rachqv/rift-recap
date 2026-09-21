@@ -109,12 +109,6 @@
       "line": "Você limpa os wards e conta para todo mundo."
     }
   },
-  "chapters": {
-    "part": "Parte {n}",
-    "range": "{from}–{to}",
-    "same": "{title} do começo ao fim. Você sabe quem é.",
-    "changed": "Você começou como {first} e terminou como {last}. Uma temporada de mudanças."
-  },
   "tilt": {
     "tilt": "Você vence {afterWin} depois de uma vitória, mas só {afterLoss} depois de uma derrota. Talvez uma caminhada entre as partidas ajude.",
     "resilient": "Perdeu uma e você vence {afterLoss} das próximas, mais que os {afterWin} depois de uma vitória. Derrota só te dá mais fogo.",

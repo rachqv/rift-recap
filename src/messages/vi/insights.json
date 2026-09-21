@@ -109,12 +109,6 @@
       "line": "Bạn dọn mắt và báo cho tất cả mọi người."
     }
   },
-  "chapters": {
-    "part": "Phần {n}",
-    "range": "{from}–{to}",
-    "same": "{title} từ đầu đến cuối. Bạn biết mình là ai.",
-    "changed": "Bạn bắt đầu là {first} và kết thúc là {last}. Một mùa giải thay đổi."
-  },
   "tilt": {
     "tilt": "Bạn thắng {afterWin} sau một trận thắng nhưng chỉ {afterLoss} sau một trận thua. Có lẽ nên đi dạo giữa các trận.",
     "resilient": "Thua một trận thì bạn thắng {afterLoss} số trận sau, cao hơn {afterWin} sau khi thắng. Thua chỉ khiến bạn hăng hơn.",

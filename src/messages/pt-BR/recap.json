@@ -253,11 +253,6 @@
     "wonBehind": "Venceu <b>{wins}</b> de {total} partindo de trás",
     "lead": "Suas últimas {games, plural, one {# partida de rota} other {# partidas de rota}}, contra o seu oponente de rota"
   },
-  "chapters": {
-    "eyebrow": "Sua temporada em capítulos",
-    "wins": "{rate} de vitórias",
-    "note": "Cada capítulo é avaliado só com as suas partidas, então os curtos são menos certos."
-  },
   "flames": {
     "eyebrow": "Antigas paixões",
     "lead": "Campeões que você conhece bem e mal tocou nesta temporada",
@@ -328,10 +323,8 @@
     "comps": "Composições",
     "normals": "Normais",
     "aram": "ARAM",
-    "chapters": "Capítulos",
     "trophies": "Troféus",
     "rank": "Elo",
-    "guess": "Palpite",
     "you": "Você",
     "back": "Voltar"
   },

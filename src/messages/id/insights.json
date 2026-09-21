@@ -109,12 +109,6 @@
       "line": "Kamu membersihkan ward dan memberi tahu semua orang."
     }
   },
-  "chapters": {
-    "part": "Bagian {n}",
-    "range": "{from}–{to}",
-    "same": "{title} dari awal sampai akhir. Kamu tahu siapa dirimu.",
-    "changed": "Kamu mulai sebagai {first} dan berakhir sebagai {last}. Musim penuh perubahan."
-  },
   "tilt": {
     "tilt": "Kamu menang {afterWin} setelah menang tapi hanya {afterLoss} setelah kalah. Mungkin jalan-jalan dulu di sela pertandingan.",
     "resilient": "Kalah satu, kamu menang {afterLoss} dari pertandingan berikutnya, lebih tinggi dari {afterWin} setelah menang. Kekalahan justru membuatmu bersemangat.",

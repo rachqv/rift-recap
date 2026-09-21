@@ -253,11 +253,6 @@
     "wonBehind": "ビハインドから{total}試合中<b>{wins}</b>勝",
     "lead": "直近の{games, plural, other {#試合}}のレーン戦、レーン相手との比較"
   },
-  "chapters": {
-    "eyebrow": "章で見るあなたのシーズン",
-    "wins": "勝率{rate}",
-    "note": "各章はその章の試合だけで評価するため、短い章ほど確実性は下がります。"
-  },
   "flames": {
     "eyebrow": "かつての情熱",
     "lead": "よく知っているのに、今シーズンはほとんど使わなかったチャンピオン",
@@ -328,10 +323,8 @@
     "comps": "チーム構成",
     "normals": "ノーマル",
     "aram": "ARAM",
-    "chapters": "章",
     "trophies": "トロフィー",
     "rank": "ランク",
-    "guess": "予想",
     "you": "あなた",
     "back": "戻る"
   },

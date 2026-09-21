@@ -253,11 +253,6 @@
     "wonBehind": "<b>{wins}</b> von {total} aus dem Rückstand gewonnen",
     "lead": "Deine letzten {games, plural, one {# Lane-Spiel} other {# Lane-Spiele}}, gegen deinen Lane-Gegner"
   },
-  "chapters": {
-    "eyebrow": "Deine Saison in Kapiteln",
-    "wins": "{rate} Siege",
-    "note": "Jedes Kapitel wird nur anhand seiner eigenen Spiele bewertet, kurze sind daher weniger aussagekräftig."
-  },
   "flames": {
     "eyebrow": "Alte Flammen",
     "lead": "Champions, die du gut kennst und in dieser Saison kaum angefasst hast",
@@ -328,10 +323,8 @@
     "comps": "Teamkomps",
     "normals": "Normals",
     "aram": "ARAM",
-    "chapters": "Kapitel",
     "trophies": "Trophäen",
     "rank": "Rang",
-    "guess": "Raten",
     "you": "Du",
     "back": "Zurück"
   },

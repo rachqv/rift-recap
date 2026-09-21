@@ -13,16 +13,5 @@
   "reveal": "{verdict} {line}",
   "pick": "プレイヤーを選んでください。",
   "score": "スコアを見る",
-  "next": "次のアワード",
-  "guess": {
-    "eyebrow": "自分のアーキタイプを当てよう",
-    "lead": "ヒント3つ、選択肢4つ。あなたはどれ？",
-    "clueMain": "最も使用：{champion}",
-    "clueRate": "勝率{rate}",
-    "clueKda": "KDA {kda}",
-    "group": "どのアーキタイプ？",
-    "right": "大正解。自分のプレイをよく分かっている。",
-    "wrong": "惜しい。あなたは{title}。",
-    "next": "先へ進んで結果を確認しよう。"
-  }
+  "next": "次のアワード"
 }

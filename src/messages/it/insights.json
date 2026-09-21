@@ -109,12 +109,6 @@
       "line": "Ripulisci le sentinelle e lo racconti a tutti."
     }
   },
-  "chapters": {
-    "part": "Parte {n}",
-    "range": "{from}–{to}",
-    "same": "{title} dall'inizio alla fine. Sai chi sei.",
-    "changed": "Hai iniziato come {first} e finito come {last}. Una stagione di cambiamenti."
-  },
   "tilt": {
     "tilt": "Vinci il {afterWin} dopo una vittoria ma solo il {afterLoss} dopo una sconfitta. Forse fai una passeggiata tra una partita e l'altra.",
     "resilient": "Ne perdi una e vinci il {afterLoss} delle successive, più del {afterWin} dopo una vittoria. Le sconfitte ti caricano.",

@@ -1,7 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { buildRecap } from "./buildRecap";
 import { buildEarlyGame } from "./early";
-import { chunkGames, getPersonaChapters } from "./chapters";
 import { getOldFlames } from "./mastery";
 import { getDamageProfile, getGoldHabits, getHighlights, getLaneCheck, getTeamComp } from "./playstyle";
 import { rangeLinks, splitAt, withRange } from "./range";
@@ -145,43 +144,6 @@ describe("getOldFlames", () => {
   it("drops low mastery and unknown champions, and returns null with nothing", () => {
     expect(getOldFlames([entry(157, 5000), entry(9999, 900000)], recap, keyToId)).toBeNull();
     expect(getOldFlames(null, recap, keyToId)).toBeNull();
-  });
-});
-
-describe("persona chapters", () => {
-  const rift = (t, win, champion = "Ahri") => ({
-    metadata: { matchId: `EUW1_${t}` },
-    info: {
-      gameMode: "CLASSIC",
-      gameDuration: 1800,
-      gameCreation: t,
-      participants: [{ puuid: "me", teamId: 100, win, kills: 5, deaths: 3, assists: 5, championName: champion, teamPosition: "MIDDLE" }],
-      teams: [],
-    },
-  });
-  const month = (m) => Date.UTC(2026, m, 10);
-  const games = (m, n, champion) => Array.from({ length: n }, (_, i) => rift(month(m) + i * HOUR, i % 2 === 0, champion));
-  const names = { nameOf: (id) => id, tagsOf: () => undefined };
-
-  it("splits by month, merging a small month into the one after it", () => {
-    const wrapped = games(0, 20).concat(games(1, 4), games(2, 20));
-    const chunks = chunkGames(wrapped.sort((a, b) => a.info.gameCreation - b.info.gameCreation));
-    expect(chunks.map((c) => c.games.length)).toEqual([20, 24]); // February's 4 games joined March
-  });
-
-  it("cuts a single month into equal parts", () => {
-    const chunks = chunkGames(games(3, 60));
-    expect(chunks).toHaveLength(4);
-    expect(chunks.map((c) => c.label)).toEqual(["Part 1", "Part 2", "Part 3", "Part 4"]);
-  });
-
-  it("gives each chapter its own archetype, and needs enough games", () => {
-    const matches = [...games(0, 20, "Ahri"), ...games(1, 20, "Zed")];
-    const chapters = getPersonaChapters(matches, "me", names);
-    expect(chapters).toHaveLength(2);
-    expect(chapters.map((c) => c.label)).toEqual(["Jan", "Feb"]);
-    expect(chapters.every((c) => c.persona.title && c.games === 20)).toBe(true);
-    expect(getPersonaChapters(games(0, 20), "me", names)).toBeNull();
   });
 });
 

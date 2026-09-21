@@ -1,4 +1,3 @@
-import { chaptersLine } from "@/lib/recap/chapters";
 import { earlyLine } from "@/lib/recap/early";
 import { defaultT } from "@/lib/i18n/en";
 import { pointsText } from "@/lib/recap/mastery";
@@ -214,38 +213,6 @@ export function EarlyGameSlide({ early, t = defaultT }) {
       </Reveal>
       <Reveal i={6} as="p" className={styles.lead}>
         {t("recap.early.lead", { games: early.games })}
-      </Reveal>
-    </Slide>
-  );
-}
-
-/** The archetype for each stretch of the season. `chapters` is from `getPersonaChapters`. */
-export function ChaptersSlide({ chapters, t = defaultT }) {
-  return (
-    <Slide>
-      <Reveal i={0} className={base.eyebrow}>
-        {t("recap.chapters.eyebrow")}
-      </Reveal>
-      <Reveal i={1} className={styles.chapters} role="list">
-        {chapters.map((chapter, i) => (
-          <div key={chapter.label} className={styles.chapter} style={{ "--accent-chapter": chapter.persona.accent }} role="listitem">
-            <span className={styles.chapterWhen}>
-              {chapter.label}
-              <small>{t("recap.gamesLabel", { count: chapter.games })}</small>
-            </span>
-            <span className={styles.chapterDot} aria-hidden="true" data-last={i === chapters.length - 1} />
-            <span className={styles.chapterWho}>
-              {chapter.persona.title}
-              <small>{t("recap.chapters.wins", { rate: t.percent(chapter.winRate) })}</small>
-            </span>
-          </div>
-        ))}
-      </Reveal>
-      <Reveal i={2} as="p" className={base.caption}>
-        {chaptersLine(chapters, t)}
-      </Reveal>
-      <Reveal i={3} as="p" className={styles.lead}>
-        {t("recap.chapters.note")}
       </Reveal>
     </Slide>
   );

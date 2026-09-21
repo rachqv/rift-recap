@@ -253,11 +253,6 @@
     "wonBehind": "Vyhráno <b>{wins}</b> z {total} z pozadí",
     "lead": "Tvých posledních {games, plural, one {# zápas na lajně} few {# zápasy na lajně} other {# zápasů na lajně}}, proti soupeři z lajny"
   },
-  "chapters": {
-    "eyebrow": "Tvoje sezona po kapitolách",
-    "wins": "{rate} výher",
-    "note": "Každá kapitola se hodnotí podle vlastních zápasů, takže krátké jsou méně jisté."
-  },
   "flames": {
     "eyebrow": "Staré lásky",
     "lead": "Šampioni, které dobře znáš a v této sezoně jsi na ně sotva sáhl",
@@ -328,10 +323,8 @@
     "comps": "Složení",
     "normals": "Normální",
     "aram": "ARAM",
-    "chapters": "Kapitoly",
     "trophies": "Trofeje",
     "rank": "Rank",
-    "guess": "Hádej",
     "you": "Ty",
     "back": "Zpět"
   },

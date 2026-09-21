@@ -253,11 +253,6 @@
     "wonBehind": "落后时{total}局赢了<b>{wins}</b>局",
     "lead": "你最近的{games, plural, other {#局对线}}，与对线对手比较"
   },
-  "chapters": {
-    "eyebrow": "分章看你的赛季",
-    "wins": "胜率{rate}",
-    "note": "每一章只按自己的对局评分，所以较短的章节不太确定。"
-  },
   "flames": {
     "eyebrow": "旧爱",
     "lead": "你很熟悉，但本赛季几乎没碰过的英雄",
@@ -328,10 +323,8 @@
     "comps": "阵容",
     "normals": "匹配",
     "aram": "大乱斗",
-    "chapters": "章节",
     "trophies": "奖杯",
     "rank": "段位",
-    "guess": "猜类型",
     "you": "你",
     "back": "返回"
   },

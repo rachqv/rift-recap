@@ -253,11 +253,6 @@
     "wonBehind": "Wygrane <b>{wins}</b> z {total} z przegrywania",
     "lead": "Twoje ostatnie {games, plural, one {# gra na linii} few {# gry na linii} many {# gier na linii} other {# gry na linii}}, przeciw rywalowi z linii"
   },
-  "chapters": {
-    "eyebrow": "Twój sezon w rozdziałach",
-    "wins": "{rate} wygranych",
-    "note": "Każdy rozdział jest oceniany według własnych gier, więc krótkie są mniej pewne."
-  },
   "flames": {
     "eyebrow": "Dawne miłości",
     "lead": "Bohaterowie, których dobrze znasz i ledwo dotknąłeś w tym sezonie",
@@ -328,10 +323,8 @@
     "comps": "Składy",
     "normals": "Normalne",
     "aram": "ARAM",
-    "chapters": "Rozdziały",
     "trophies": "Trofea",
     "rank": "Ranga",
-    "guess": "Zgadnij",
     "you": "Ty",
     "back": "Wróć"
   },

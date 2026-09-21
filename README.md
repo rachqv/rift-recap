@@ -25,16 +25,16 @@ Rift Recap has three modes. Each one is a full-screen story you scroll (or arrow
 
 ### 🧙 Solo recap
 
-Up to about 39 slides, depending on how much data a player has. Slides with too little data are skipped instead of showing empty numbers.
+Up to about 37 slides, depending on how much data a player has. Slides with too little data are skipped instead of showing empty numbers.
 
 | | |
 |---|---|
-| **Who you are** | One of **34 archetypes** (The Closer, The Explorer, The Phoenix, The Thief...), scored statistically against typical players, with a rarity tier and an estimated share of players. Just before the reveal you can **guess your archetype** from three clues, with three fair decoys (never an archetype you also scored high on) |
+| **Who you are** | One of **34 archetypes** (The Closer, The Explorer, The Phoenix, The Thief...), scored statistically against typical players, with a rarity tier and an estimated share of players. |
 | **Your games** | Win rate, streaks, KDA, a dot for every game, your season as a rolling win-rate line with your best and worst stretch, a calendar heatmap, your win rate by time of day and weekday, your win rate **patch by patch** (with your best and worst patch when the gap is more than luck), your best and worst *nights* |
 | **Your champions** | Signature champion (with their voice line), a comfort zone, S-to-D **tier list**, **champions to try** (ones you have hardly played that are built like the ones you win with, by class, stats and resource), champions you have mastery on but stopped playing, and a **champion report** for each champion you play: the same slides (win rate, combat, highlights, runes, items, matchups, patches) over just your games on it, set against your overall win rate only when there are enough games for the gap to mean more than luck. Reached from the signature champion slide (`/recap/<region>/<name>/<tag>/champion/<champion>`; the demo has one at `/demo/champion/<champion>`) |
 | **How you play** | Your **keystone rune** (the one you take most, and whether another keystone wins clearly more for you), damage profile, lane check against your lane opponent, early vs. late game at 15 minutes, gold left unspent, ping style, summoner spells, surrenders |
 | **Mindset** | Do you tilt after a loss? In your losses, were you the carry or the weak link? Plus a **tilt guard**: your win rate on the next game after 1, 2 and 3+ losses in a row within a sitting, where your "stop sign" is, and a note if you are on a losing streak right now |
-| **Progress** | 24 unlockable **trophies** laid out as a 5×5 **bingo board** (finish a row, column or diagonal), your archetype month by month, and a "since last time" comparison |
+| **Progress** | 24 unlockable **trophies** laid out as a 5×5 **bingo board** (finish a row, column or diagonal), and a "since last time" comparison |
 
 ### 🤝 Head-to-head
 
@@ -151,7 +151,7 @@ Some decisions worth knowing about:
 
 - **No database.** Recent players live in `localStorage`. "Save to compare later" and "rematch" pack a few numbers into the URL (`?since=`), validated and clamped when read. Nothing about a player is stored on a server.
 - **Pure logic, well tested.** Match data goes in, display-ready numbers come out, in plain functions under `src/lib`. Anything that could quietly be wrong (streaks, tiers, sessions, timelines, snapshots, archetype scoring) has unit tests.
-- **Honest about small samples.** Win rates are shrunk toward 50% for small samples, slides are skipped when there isn't enough data, and short chapters and rarity numbers are labelled as estimates. Patterns need a gap bigger than luck would give before they are called out: the tilt guard's stop sign, the best and worst time of day, and "better" or "worse" in a week-on-week comparison (a wider band than for a season) all have thresholds, and a comparison against the previous 7 days is left out if the game cap means that period may be incomplete.
+- **Honest about small samples.** Win rates are shrunk toward 50% for small samples, slides are skipped when there isn't enough data, and rarity numbers are labelled as estimates. Patterns need a gap bigger than luck would give before they are called out: the tilt guard's stop sign, the best and worst time of day, and "better" or "worse" in a week-on-week comparison (a wider band than for a season) all have thresholds, and a comparison against the previous 7 days is left out if the game cap means that period may be incomplete.
 - **Archetypes are balanced by simulation.** Each archetype is scored as how many standard deviations a player sits above a typical one, and the thresholds were tuned by simulating tens of thousands of seasons so no single archetype dominates. Rarity percentages come from those same simulations, so treat them as estimates about a typical player pool, not counts of real players.
 - **Old games are cached, new games never wait.** A finished match never changes, so each one is cached for a week. The list of a player's recent matches, and their ranked entry, are fetched fresh on every view, so a game that just ended shows up immediately and only that new game costs a request. Account lookups are cached for a day and profile data for an hour.
 - **Riot's key stays on the server.** Every Riot call goes through a server-only module (`import "server-only"`), with retry on short rate-limit waits and a week-long cache for finished matches.
@@ -245,7 +245,7 @@ npm run test:stories:ci    # build Storybook, then test every story in a real br
 
 Components are documented as **stories** (`*.stories.js` next to each component), and each story has a `play` function that clicks, types and presses keys like a user and then asserts on the result. The [Storybook test runner](https://github.com/storybookjs/test-runner) runs those in Chromium through **Jest** and Playwright.
 
-The stories cover the slideshow and its keyboard, rail and sound controls, the squad quiz (a perfect score, all wrong, play again), the recent-players list, the range switch, the dropdown's keyboard behavior, the archetype guessing game (a wrong guess and a right one), the squad lineup (a swap and a settled squad), champions to try, the gold-lead chart's scrubbing, the result strip, and the data slides (tier list, trophy bingo board, tilt, tilt guard, was-it-you, damage, when you win, patch by patch, your season as a line, last 7 days vs the 7 before, your keystone rune, the champion link and report, the squad vs squad slides and their share row). Stories use the same seeded sample data as the demo pages (`src/test/fixtures.js`), so they are deterministic.
+The stories cover the slideshow and its keyboard, rail and sound controls, the squad quiz (a perfect score, all wrong, play again), the recent-players list, the range switch, the dropdown's keyboard behavior, the squad lineup (a swap and a settled squad), champions to try, the gold-lead chart's scrubbing, the result strip, and the data slides (tier list, trophy bingo board, tilt, tilt guard, was-it-you, damage, when you win, patch by patch, your season as a line, last 7 days vs the 7 before, your keystone rune, the champion link and report, the squad vs squad slides and their share row). Stories use the same seeded sample data as the demo pages (`src/test/fixtures.js`), so they are deterministic.
 
 First-time setup for the test runner needs the browser it drives:
 

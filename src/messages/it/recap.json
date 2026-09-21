@@ -253,11 +253,6 @@
     "wonBehind": "Vinte <b>{wins}</b> su {total} partendo in svantaggio",
     "lead": "Le tue ultime {games, plural, one {# partita in corsia} other {# partite in corsia}}, contro il tuo avversario di corsia"
   },
-  "chapters": {
-    "eyebrow": "La tua stagione in capitoli",
-    "wins": "{rate} di vittorie",
-    "note": "Ogni capitolo è valutato sulle sue partite, quindi quelli brevi sono meno certi."
-  },
   "flames": {
     "eyebrow": "Vecchie fiamme",
     "lead": "Campioni che conosci bene e che hai toccato appena in questa stagione",
@@ -328,10 +323,8 @@
     "comps": "Composizioni",
     "normals": "Normali",
     "aram": "ARAM",
-    "chapters": "Capitoli",
     "trophies": "Trofei",
     "rank": "Rango",
-    "guess": "Indovina",
     "you": "Tu",
     "back": "Indietro"
   },

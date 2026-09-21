@@ -109,12 +109,6 @@
       "line": "Czyścisz totemy i mówisz o tym wszystkim."
     }
   },
-  "chapters": {
-    "part": "Część {n}",
-    "range": "{from}–{to}",
-    "same": "{title} od początku do końca. Wiesz, kim jesteś.",
-    "changed": "Zacząłeś jako {first}, a skończyłeś jako {last}. Sezon zmian."
-  },
   "tilt": {
     "tilt": "Po wygranej wygrywasz {afterWin}, ale po porażce tylko {afterLoss}. Może przejdź się między grami.",
     "resilient": "Przegraj jedną, a wygrywasz {afterLoss} następnych, więcej niż {afterWin} po wygranej. Porażki tylko cię nakręcają.",

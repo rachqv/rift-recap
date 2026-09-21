@@ -13,16 +13,5 @@
   "reveal": "{verdict} {line}",
   "pick": "Hãy chọn một người chơi.",
   "score": "Xem điểm của bạn",
-  "next": "Giải thưởng tiếp theo",
-  "guess": {
-    "eyebrow": "Đoán kiểu người chơi của bạn",
-    "lead": "Ba manh mối, bốn kiểu người chơi. Bạn là kiểu nào?",
-    "clueMain": "Chơi nhiều nhất: {champion}",
-    "clueRate": "Tỷ lệ thắng {rate}",
-    "clueKda": "KDA {kda}",
-    "group": "Bạn là kiểu người chơi nào?",
-    "right": "Chính xác. Bạn hiểu lối chơi của mình.",
-    "wrong": "Gần đúng. Bạn là {title}.",
-    "next": "Tiếp tục để xem kết quả đầy đủ."
-  }
+  "next": "Giải thưởng tiếp theo"
 }
