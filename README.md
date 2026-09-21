@@ -274,5 +274,3 @@ Built on data from Riot Games' API, Data Dragon and Community Dragon. Fonts: [Ci
 ## 📄 License
 
 No license has been chosen yet. Add a `LICENSE` file before accepting contributions or reuse.
-#   r i f t - r e c a p  
- 
