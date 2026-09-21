@@ -1,0 +1,181 @@
+{
+  "awards": {
+    "objectiveSteal": {
+      "title": "오브젝트를 훔칠 것 같은 사람",
+      "tagline": "드래곤을 조심하세요. 그리고 사라지는 걸 지켜보세요.",
+      "label": "스틸한 오브젝트",
+      "line": "{name} 님이 오브젝트 {count, plural, other {#개}}를 스틸했어요. 안전한 건 아무것도 없어요."
+    },
+    "objectiveTake": {
+      "title": "오브젝트를 가져갈 것 같은 사람",
+      "tagline": "드래곤이 가는 곳에 이 사람도 가요.",
+      "label": "분당 오브젝트 피해량",
+      "line": "{name} 님은 오브젝트에 분당 {value}의 피해를 줬어요."
+    },
+    "deaths": {
+      "title": "최다 데스",
+      "tagline": "회색 화면? 이 사람들은 시즌 이용권이 있어요.",
+      "label": "게임당 데스",
+      "line": "{name} 님은 한 게임의 약 {minutes}분을 회색 화면을 보며 보냈어요."
+    },
+    "pings": {
+      "title": "뒷좌석 운전사",
+      "tagline": "자기 팀에게 \"후퇴\" 핑을 찍을 것 같은 사람.",
+      "label": "게임당 핑",
+      "line": "{name} 님은 한 게임에 {value}번 핑을 찍었어요. 미니맵이 쉴 틈이 없었어요."
+    },
+    "vision": {
+      "title": "등대",
+      "tagline": "모두를 위해 불을 켜 줬어요.",
+      "label": "분당 시야 점수",
+      "line": "{name} 님의 분당 시야 점수는 {value}. 아무도 혼자 어둠 속에 들어가지 않았어요."
+    },
+    "tank": {
+      "title": "샌드백",
+      "tagline": "팀을 위해 가장 많은 피해를 흡수했어요.",
+      "label": "게임당 받은 피해",
+      "line": "{name} 님은 한 게임에 {value}의 피해를 흡수했어요."
+    },
+    "assists": {
+      "title": "가장 좋은 친구",
+      "tagline": "언제나 판을 깔아 줘요.",
+      "label": "게임당 어시스트",
+      "line": "{name} 님은 평균 어시스트 {value}개예요. 팀이 가장 좋아하는 팀원이에요."
+    },
+    "carry": {
+      "title": "캐리",
+      "tagline": "모두를 위해 이겨 줄 것 같은 사람.",
+      "label": "KDA",
+      "line": "KDA {value}. {name} 님이 무거운 짐을 다 짊어졌어요."
+    },
+    "damage": {
+      "title": "헤비 히터",
+      "tagline": "체력 바가 닿기만 해도 녹아요.",
+      "label": "분당 피해량",
+      "line": "{name} 님은 매분 챔피언에게 {value}의 피해를 줬어요."
+    },
+    "farm": {
+      "title": "농부",
+      "tagline": "대포 웨이브를 하나도 놓치지 않았어요.",
+      "label": "분당 CS",
+      "line": "분당 미니언 {value}마리. {name} 님은 언제나 웨이브에 있었어요."
+    },
+    "present": {
+      "title": "언제나 그 자리에",
+      "tagline": "한타가 있었다면 이 사람도 있었어요.",
+      "label": "킬 관여율",
+      "line": "{name} 님은 팀 킬의 {value}에 관여했어요."
+    },
+    "cc": {
+      "title": "군중 제어 전문가",
+      "tagline": "적을 붙잡아 두어 다른 사람들이 일할 수 있게 했어요.",
+      "label": "게임당 군중 제어 시간(초)",
+      "line": "{name} 님은 한 게임에 적을 {value, plural, other {#초}} 동안 묶어 뒀어요."
+    }
+  },
+  "chemistry": {
+    "destiny": "운명의 듀오",
+    "great": "환상의 호흡",
+    "solid": "든든한 파트너",
+    "awkward": "함께하면 어색",
+    "apart": "따로가 더 나아요"
+  },
+  "slides": {
+    "intro": {
+      "eyebrow": "스쿼드 리캡",
+      "together": "{count, plural, other {함께한 게임}}",
+      "hours": "{n, plural, other {<b>{value}</b>시간}}",
+      "note": "찾은 {found}게임 중 함께한 최근 {loaded}게임을 기준으로 해요."
+    },
+    "record": {
+      "eyebrow": "우리의 전적",
+      "label": "함께할 때 승률",
+      "bestStreak": "최고 연승 <good>{count, plural, other {#연승}}</good>",
+      "worstSkid": "최악 연패 <bad>{count, plural, other {#연패}}</bad>",
+      "all": "{members} 모두 함께 {games, plural, other {<b>#</b>게임}}",
+      "machine": "함께 큐를 잡으면 기계 같아요.",
+      "good": "패배보다 승리가 많아요. 스쿼드가 제 몫을 해요.",
+      "balanced": "완벽한 균형이에요. 혼돈이지만 재미있는 종류의 혼돈이에요.",
+      "rough": "결과는 험난했어요. 그래도 단톡방엔 이야깃거리가 많겠죠."
+    },
+    "pairs": {
+      "eyebrow": "듀오 케미",
+      "best": "최고의 듀오",
+      "worst": "노력이 필요해요",
+      "games": "함께한 {count, plural, other {#게임}}",
+      "chemistry": "{icon} 케미 {score} · {label}",
+      "captionBoth": "{a}와(과) {b}는 같이 큐를 잡을 만해요. {c}와(과) {d}는, 글쎄요.",
+      "captionBest": "{a}와(과) {b}가 가장 강한 조합이에요."
+    },
+    "award": {
+      "eyebrow": "어워드 {position} / {total}",
+      "runner": "{n}위. {name} <b>{display}</b>"
+    },
+    "board": {
+      "eyebrow": "리더보드",
+      "aria": "스쿼드 리더보드",
+      "kda": "KDA",
+      "deaths": "데스",
+      "damage": "피해/분",
+      "awards": "어워드",
+      "note": "KDA 순으로 정렬했어요. 어워드는 각자 집에 가져간 트로피예요."
+    },
+    "finale": {
+      "mvp": "스쿼드 MVP",
+      "none": "이게 우리 스쿼드",
+      "awards": "{count, plural, other {어워드 #개}}로 누구보다 많아요.",
+      "recap": "{name} 님의 리캡",
+      "versus": "1대1 비교: {a} 대 {b}",
+      "shareTitle": "우리의 리그 오브 레전드 스쿼드 리캡: {names}",
+      "another": "다른 스쿼드 시작하기"
+    },
+    "rivalry": {
+      "eyebrow": "아군 오사",
+      "lead": "서로 다른 팀에서 만난 {count, plural, other {#번}}의 맞대결 전적",
+      "aria": "1대1 전적",
+      "cell": "{wins, plural, other {#승}}, {losses, plural, other {#패}}",
+      "even": "{a}와(과) {b}는 {games, plural, other {#번}}의 맞대결에서 정확히 동률이에요.",
+      "edge": "{winner}이(가) {loser}을(를) {hi} 대 {lo}로 앞서요. 스쿼드 최대의 라이벌 관계예요."
+    },
+    "combos": {
+      "eyebrow": "누구와 큐를 잡을까",
+      "trio": "최고의 트리오",
+      "duo": "최고의 듀오",
+      "record": "함께한 {games, plural, other {#게임}}에서 {wins}승 {losses}패",
+      "caption": "{names}: 함께 큐를 잡으면 승률이 말해 줘요.",
+      "games": "{count, plural, other {#게임}}"
+    },
+    "roles": {
+      "eyebrow": "최적 라인업",
+      "aria": "멤버별 추천 역할",
+      "swap": "이론상 최적 라인업이에요: 함께한 게임 기준으로 각자 가장 많이 이기는 역할이에요. 표본이 작으니 참고용으로 봐 주세요.",
+      "settled": "모두 이미 가장 많이 이기는 역할로 뛰고 있어요. 바꿀 것이 없어요.",
+      "was": "평소 {role}"
+    }
+  },
+  "rail": {
+    "start": "시작",
+    "record": "전적",
+    "duos": "듀오",
+    "roles": "역할",
+    "queue": "큐 파트너",
+    "rivals": "라이벌",
+    "quiz": "퀴즈",
+    "board": "보드",
+    "mvp": "MVP"
+  },
+  "page": {
+    "title": "{names} · 스쿼드 리캡",
+    "titleDemo": "샘플 스쿼드 리캡 · Rift Recap",
+    "titleEmpty": "스쿼드 리캡 · Rift Recap",
+    "description": "스쿼드가 함께 플레이한 게임으로 주는 그룹 어워드: 최다 데스, 최다 오브젝트 스틸 등.",
+    "pickServer": "서버를 선택하세요.",
+    "unreadable": "{names}을(를) 읽지 못했어요. Riot ID는 이름#TAG 형식이에요.",
+    "atLeastTwo": "Riot ID를 두 개 이상 입력하세요.",
+    "atMostFive": "스쿼드는 최대 다섯 명이에요.",
+    "notFound": "{region}에서 {names}에 해당하는 플레이어를 찾지 못했어요. 철자와 서버를 확인해 주세요.",
+    "noShared": "{where} 함께한 게임이 없어요. 함께한 게임을 기준으로 하므로 더 긴 기간이나 같이 큐를 잡는 사람들로 시도해 보세요.",
+    "whereSeason": "최근 {count}게임 중",
+    "whereRange": "{range} 동안"
+  }
+}

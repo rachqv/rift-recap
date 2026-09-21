@@ -1,0 +1,15 @@
+{
+  "keyRejected": "A chave da API da Riot foi recusada. As chaves de desenvolvimento expiram a cada 24 horas, então gere uma nova.",
+  "notFound": "Nenhum jogador encontrado com esse Riot ID nessa região. Confira a grafia e a região.",
+  "rateLimit": "O limite de requisições da Riot foi atingido. Espere um minuto e tente de novo.",
+  "api": "A API da Riot falhou.",
+  "cardFailed": "Não foi possível desenhar o card.",
+  "unknownRegion": "Região desconhecida.",
+  "noGamesCard": "Não há partidas para desenhar um card.",
+  "noSharedGames": "Esses jogadores não têm partidas juntos.",
+  "badSquad": "Parâmetros do grupo inválidos.",
+  "playerMissing": "Um desses jogadores não foi encontrado.",
+  "badVersus": "Parâmetros do frente a frente inválidos.",
+  "samePlayers": "Escolha dois jogadores diferentes.",
+  "notEnough": "Não há partidas suficientes para comparar."
+}

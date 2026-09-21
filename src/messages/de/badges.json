@@ -1,0 +1,98 @@
+{
+  "penta": {
+    "name": "Pentakill",
+    "text": "Erziele einen Pentakill."
+  },
+  "quadra": {
+    "name": "Quadra-Sammler",
+    "text": "Erziele {target, plural, one {# Quadrakill} other {# Quadrakills}}."
+  },
+  "triple": {
+    "name": "Dreifache Bedrohung",
+    "text": "Erziele {target, plural, one {# Triplekill} other {# Triplekills}}."
+  },
+  "flawless": {
+    "name": "Makellos",
+    "text": "Beende ein Spiel, ohne zu sterben."
+  },
+  "flawless5": {
+    "name": "Unantastbar",
+    "text": "Beende {target, plural, one {# Spiel} other {# Spiele}}, ohne zu sterben."
+  },
+  "streak": {
+    "name": "In Flammen",
+    "text": "Gewinne {target, plural, one {# Spiel} other {# Spiele}} in Folge."
+  },
+  "winrate": {
+    "name": "Gewinner",
+    "text": "Halte eine Siegquote von {target} über {games}+ Spiele."
+  },
+  "kills": {
+    "name": "Kill-Maschine",
+    "text": "Erziele {target, plural, one {# Kill} other {# Kills}} in einem Spiel."
+  },
+  "perfect": {
+    "name": "Perfektes Spiel",
+    "text": "Spiele ein Spiel mit einer KDA von {target}+."
+  },
+  "firstblood": {
+    "name": "First-Blood-König",
+    "text": "Hole {target, plural, one {# Mal} other {# Mal}} First Blood."
+  },
+  "thief": {
+    "name": "Objektivdieb",
+    "text": "Stiehl ein Objektiv."
+  },
+  "turrets": {
+    "name": "Abrissbirne",
+    "text": "Zerstöre {target, plural, one {# Turm} other {# Türme}}."
+  },
+  "variety": {
+    "name": "Allrounder",
+    "text": "Spiele {target, plural, one {# anderen Champion} other {# verschiedene Champions}}."
+  },
+  "loyal": {
+    "name": "Treu",
+    "text": "Spiele denselben Champion {target, plural, one {# Mal} other {# Mal}}."
+  },
+  "marathon": {
+    "name": "Marathon",
+    "text": "Spiele ein Spiel, das länger als {minutes} Minuten dauert."
+  },
+  "bounce": {
+    "name": "Comeback",
+    "text": "Gewinne {target} der Spiele nach einer Niederlage."
+  },
+  "hours": {
+    "name": "Zeit auf der Kluft",
+    "text": "Verbringe {target, plural, one {# Stunde} other {# Stunden}} in Spielen."
+  },
+  "dragon": {
+    "name": "Drachentöter",
+    "text": "Gib {target, plural, one {# Drachen} other {# Drachen}} den Todesstoß."
+  },
+  "baron": {
+    "name": "Baron-Jäger",
+    "text": "Gib {target, plural, one {# Baron} other {# Baronen}} den Todesstoß."
+  },
+  "teamplayer": {
+    "name": "Teamplayer",
+    "text": "Sei an {target} der Kills deines Teams beteiligt."
+  },
+  "duo": {
+    "name": "Unzertrennlich",
+    "text": "Spiele {target, plural, one {# Spiel} other {# Spiele}} mit demselben Mitspieler."
+  },
+  "vision": {
+    "name": "Allessehend",
+    "text": "Erreiche im Schnitt {target} Vision Score pro Minute."
+  },
+  "farm": {
+    "name": "Farm-Meister",
+    "text": "Erreiche im Schnitt {target} CS pro Minute."
+  },
+  "roles": {
+    "name": "Rollenwechsler",
+    "text": "Spiele alle {target, plural, one {# Rolle} other {# Rollen}}."
+  }
+}

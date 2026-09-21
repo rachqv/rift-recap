@@ -1,0 +1,381 @@
+{
+  "season": "Сезон {year}",
+  "strip": "{wins, plural, one {# победа} few {# победы} many {# побед} other {# победы}} и {losses, plural, one {# поражение} few {# поражения} many {# поражений} other {# поражения}}, от самой старой игры",
+  "record": "{wins}П · {losses}Н",
+  "recordChip": "<good>{wins}</good>П <bad>{losses}</bad>Н",
+  "winRateChip": "<b>{rate}</b> побед",
+  "kdaChip": "<b>{kda}</b> KDA",
+  "gamesChip": "{count, plural, one {<b>#</b> игра} few {<b>#</b> игры} many {<b>#</b> игр} other {<b>#</b> игры}}",
+  "gamesLabel": "{count, plural, one {# игра} few {# игры} many {# игр} other {# игры}}",
+  "intro": {
+    "eyebrow": "Итоги: {season}",
+    "caption": "{games, plural, other {Мы просмотрели # ваших игр. Готовы узнать, как вы сыграли?}}",
+    "scroll": "Листайте"
+  },
+  "games": {
+    "eyebrow": "Вы были в игре",
+    "played": "{count, plural, one {сыгранная игра} few {сыгранные игры} many {сыгранных игр} other {сыгранной игры}}",
+    "riftOnly": "{count, plural, one {игра на Ущелье призывателей} few {игры на Ущелье призывателей} many {игр на Ущелье призывателей} other {игры на Ущелье призывателей}}",
+    "wins": "{count, plural, one {<good>#</good> победа} few {<good>#</good> победы} many {<good>#</good> побед} other {<good>#</good> победы}}",
+    "losses": "{count, plural, one {<bad>#</bad> поражение} few {<bad>#</bad> поражения} many {<bad>#</bad> поражений} other {<bad>#</bad> поражения}}",
+    "hours": "{n, plural, one {<b>{value}</b> час} few {<b>{value}</b> часа} many {<b>{value}</b> часов} other {<b>{value}</b> часа}}"
+  },
+  "win": {
+    "eyebrow": "Ваш процент побед"
+  },
+  "champion": {
+    "eyebrow": "Ваш коронный чемпион",
+    "more": "Все ваши игры на {champion}",
+    "back": "Назад к полному итогу",
+    "pageTitle": "{champion} · {name}#{tag} · Rift Recap",
+    "pageEyebrow": "Отчёт по чемпиону",
+    "noneTitle": "Нет игр на этом чемпионе",
+    "none": "У {who} нет игр на {champion} за этот период. Попробуйте другого чемпиона из итогов."
+  },
+  "kda": {
+    "eyebrow": "Ваша боевая статистика",
+    "kills": "убийств",
+    "deaths": "смертей",
+    "assists": "ассистов",
+    "perGame": "{value} / игра",
+    "best": "Ваша лучшая игра",
+    "bestLine": "{champion} · {kills}/{deaths}/{assists}",
+    "victory": "Победа",
+    "defeat": "Поражение"
+  },
+  "style": {
+    "eyebrow": "Как вы играете",
+    "mainRole": "основная роль · {share}",
+    "cs": "добиваний в минуту",
+    "vision": "обзор в минуту",
+    "damage": "урон в минуту",
+    "kp": "участие в убийствах",
+    "penta": "{count, plural, one {<b>#</b> пентакилл} few {<b>#</b> пентакилла} many {<b>#</b> пентакиллов} other {<b>#</b> пентакилла}}",
+    "quadra": "{count, plural, one {<b>#</b> квадракилл} few {<b>#</b> квадракилла} many {<b>#</b> квадракиллов} other {<b>#</b> квадракилла}}",
+    "triple": "{count, plural, one {<b>#</b> трипл-килл} few {<b>#</b> трипл-килла} many {<b>#</b> трипл-киллов} other {<b>#</b> трипл-килла}}",
+    "firstBloods": "{count, plural, one {<b>#</b> первая кровь} few {<b>#</b> первые крови} many {<b>#</b> первых кровей} other {<b>#</b> первой крови}}",
+    "deathless": "{count, plural, one {<b>#</b> игра без смертей} few {<b>#</b> игры без смертей} many {<b>#</b> игр без смертей} other {<b>#</b> игры без смертей}}",
+    "longestWon": "Ваша самая долгая игра длилась {duration} на {champion}. И вы её выиграли.",
+    "longestLost": "Ваша самая долгая игра длилась {duration} на {champion}. Иногда они просто заканчиваются плохо."
+  },
+  "mode": {
+    "aram": {
+      "eyebrow": "В Воющей бездне",
+      "label": "{count, plural, one {игра ARAM} few {игры ARAM} many {игр ARAM} other {игры ARAM}}"
+    },
+    "normal": {
+      "eyebrow": "Просто ради удовольствия",
+      "label": "{count, plural, one {обычная игра} few {обычные игры} many {обычных игр} other {обычной игры}}"
+    }
+  },
+  "rank": {
+    "emblem": "Эмблема: {title}",
+    "lp": "<b>{lp}</b> очк. лиги",
+    "caption": "Ваш ранг прямо сейчас. Каждый подъём начинается со следующей игры."
+  },
+  "persona": {
+    "eyebrow": "В этом сезоне вы были",
+    "also": "Также немного: {list}",
+    "main": "Мейн <b>{champion}</b>",
+    "shareTitle": "Мой сезон в League: {title}",
+    "compare": "Сравнить с другом",
+    "squad": "Итоги отряда",
+    "search": "Найти другого игрока",
+    "count": "1 из {count} архетипов",
+    "countEstimate": "1 из {count} архетипов · редкость — оценка"
+  },
+  "calendar": {
+    "eyebrow": "Ваш календарь",
+    "note": "По вашим последним {count, plural, one {# игре} few {# играм} many {# играм} other {# играм}}."
+  },
+  "clock": {
+    "eyebrow": "Когда вы побеждаете"
+  },
+  "items": {
+    "eyebrow": "Ваш любимый предмет",
+    "inGames": "{games, plural, one {В <b>{count}</b> из вашей # игры} few {В <b>{count}</b> из ваших # игр} many {В <b>{count}</b> из ваших # игр} other {В <b>{count}</b> из ваших # игр}}",
+    "winWith": "<b>{rate}</b> побед с ним",
+    "without": "<b>{rate}</b> без него",
+    "boots": "Ботинки"
+  },
+  "objectives": {
+    "eyebrow": "Цели",
+    "lead": "Ваши команды взяли за {games, plural, one {# игру} few {# игры} many {# игр} other {# игры}}",
+    "tiles": {
+      "tower": "Башни",
+      "dragon": "Драконы",
+      "baron": "Бароны",
+      "herald": "Герольды",
+      "grubs": "Личинки Бездны",
+      "inhibitor": "Ингибиторы"
+    },
+    "youTotal": "вы: {count}",
+    "youSecured": "вы обеспечили {count}",
+    "perGame": "{value} за игру",
+    "firstTower": "Первая башня в <b>{rate}</b> игр",
+    "withWithout": "<good>{withIt}</good> побед с ней · <b>{without}</b> без неё",
+    "stolen": "<b>{count}</b> украдено"
+  },
+  "tilt": {
+    "eyebrow": {
+      "tilt": "Проверка на тильт",
+      "resilient": "Проверка на возвращение",
+      "steady": "Проверка настроя"
+    },
+    "afterWin": "После победы",
+    "afterLoss": "После поражения",
+    "tilts": "Тильтует после поражения",
+    "bounces": "Возвращается"
+  },
+  "comfort": {
+    "eyebrow": "Ваша зона комфорта",
+    "lead": "Процент побед по чемпионам при общем {rate}"
+  },
+  "gray": {
+    "eyebrow": "Серый экран",
+    "unit": "ч",
+    "spentDead": "в мёртвом состоянии",
+    "aliveAria": "Жив {alive} времени, мёртв {dead}",
+    "alive": "Жив {value}",
+    "dead": "Мёртв {value}",
+    "share": "<b>{share}</b> вашего времени в игре",
+    "perGame": "<b>{minutes}</b> мин за игру",
+    "films": "{n, plural, one {Около <b>#</b> фильма} few {Около <b>#</b> фильмов} many {Около <b>#</b> фильмов} other {Около <b>#</b> фильма}}"
+  },
+  "progress": {
+    "eyebrow": "С прошлого раза",
+    "lead": "{date} · {saved, plural, one {# игра} few {# игры} many {# игр} other {# игры}} → сейчас {games}",
+    "was": " · были: {persona}",
+    "improved": "<good>▲ {count}</good> улучшилось",
+    "slipped": "<bad>▼ {count}</bad> ухудшилось",
+    "mood": {
+      "better": "улучшилось",
+      "worse": "ухудшилось",
+      "flat": "без изменений"
+    }
+  },
+  "trophies": {
+    "eyebrow": "Ваша полка трофеев",
+    "of": "из {total} открыто",
+    "unlocked": "Открыто",
+    "progress": "{percent} выполнено",
+    "next": "Ближе всего к открытию: {name} ({percent}). {text}",
+    "all": "Каждый трофей, который вы могли получить, вы получили.",
+    "lines": "Бинго <b>{count}</b>",
+    "free": "Бесплатно",
+    "board": "Поле бинго трофеев",
+    "nextBingo": "Следующее бинго: {name} ({percent}). {text}",
+    "shareTitle": "Моё бинго трофеев в Rift Recap"
+  },
+  "blame": {
+    "eyebrow": "Это были вы?",
+    "carry": "Вы вытащили",
+    "weak": "Слабое звено",
+    "team": "Командная работа",
+    "across": "В ваших {losses, plural, one {# поражении} few {# поражениях} many {# поражениях} other {# поражениях}}",
+    "topDamage": "Больше всего урона",
+    "chance": "По одной случайности было бы {rate}",
+    "deaths": "Смерти команды",
+    "average": "Среднее — {rate}"
+  },
+  "tierList": {
+    "eyebrow": "Ваш тир-лист",
+    "aria": "Тир-лист чемпионов",
+    "title": "{name}: {winRate} за {games, plural, one {# игру} few {# игры} many {# игр} other {# игры}}",
+    "note": "Отсортирован по проценту побед, затем по KDA. Чемпионы менее чем с 4 играми не учитываются."
+  },
+  "habits": {
+    "eyebrow": "Ваши привычки",
+    "pings": "{value} пингов за игру",
+    "flash": "Скачок на {key} · {value} использований за игру",
+    "pairShare": "в {share} игр",
+    "quits": "{enemy} вражеских сдач · {ours} ваших",
+    "ping": "Стиль пингов",
+    "spells": "Заклинания призывателя",
+    "surrender": "Закончилась сдачей"
+  },
+  "damage": {
+    "eyebrow": "Ваш урон",
+    "parts": {
+      "physical": "Физический",
+      "magic": "Магический",
+      "true": "Чистый"
+    },
+    "partAria": "{label} {share}"
+  },
+  "comp": {
+    "eyebrow": "Состав команды",
+    "with": "С классом <b>{class}</b>",
+    "games": "{withGames, plural, one {# игра} few {# игры} many {# игр} other {# игры}} против {withoutGames, plural, one {# игры} few {# игр} many {# игр} other {# игр}} без",
+    "versus": "против {rate}"
+  },
+  "sessions": {
+    "eyebrow": "Ваши вечера",
+    "lead": "{count, plural, one {# сессия} few {# сессии} many {# сессий} other {# сессии}} · около {avg} игр в каждой",
+    "best": "Лучший вечер",
+    "worst": "Худший вечер",
+    "longest": "Самая долгая сессия",
+    "meta": "{games, plural, one {# игра} few {# игры} many {# игр} other {# игры}} · {date}"
+  },
+  "highlights": {
+    "eyebrow": "Лучшие моменты",
+    "minutes": "{count, plural, one {# минута} few {# минуты} many {# минут} other {# минуты}}",
+    "meta": "{what} · {date}",
+    "won": "Победа",
+    "lost": "Поражение",
+    "caption": "Игры, о которых вы будете рассказывать на вечеринках."
+  },
+  "lane": {
+    "lane": "Проверка линии",
+    "gold": "Привычки с золотом",
+    "cs": "Добивания против оппонента по линии",
+    "goldDiff": "Золото против оппонента по линии",
+    "damage": "Урон против оппонента по линии",
+    "unspent": "Нетраченное золото в конце",
+    "ahead": "Впереди по золоту в <b>{rate}</b> из {games, plural, one {# игры} few {# игр} many {# игр} other {# игр}}",
+    "kills": "{value} убийств за игру",
+    "csValue": "{value} добиваний"
+  },
+  "early": {
+    "eyebrow": "На 15-й минуте",
+    "titles": {
+      "early": "Тиран ранней игры",
+      "late": "Набирающий силу к концу",
+      "steady": "Твёрдая рука"
+    },
+    "parts": {
+      "ahead": "Впереди",
+      "even": "Ничья",
+      "behind": "Позади"
+    },
+    "aria": "{label} в {n, plural, one {# игре} few {# играх} many {# играх} other {# играх}}",
+    "wonAhead": "Выиграно <good>{wins}</good> из {total} с преимуществом",
+    "wonBehind": "Выиграно <b>{wins}</b> из {total} с отставанием",
+    "lead": "Ваши последние {games, plural, one {# игра на линии} few {# игры на линии} many {# игр на линии} other {# игры на линии}} против оппонента по линии"
+  },
+  "chapters": {
+    "eyebrow": "Ваш сезон по главам",
+    "wins": "{rate} побед",
+    "note": "Каждая глава оценивается по своим играм, поэтому короткие менее надёжны."
+  },
+  "flames": {
+    "eyebrow": "Старые увлечения",
+    "lead": "Чемпионы, которых вы хорошо знаете и почти не играли в этом сезоне",
+    "mastery": "Мастерство {level} · {played}",
+    "notPlayed": "не играли",
+    "caption": "У {champion} за плечами {points} очков мастерства. Он скучает по вам."
+  },
+  "social": {
+    "duo": {
+      "eyebrow": "Ваш дуэт",
+      "together": "{count, plural, one {игра вместе} few {игры вместе} many {игр вместе} other {игры вместе}}",
+      "winTogether": "<b>{rate}</b> побед вместе",
+      "apart": "<b>{rate}</b> по отдельности",
+      "combo": "Лучшее комбо <b>{pair}</b>",
+      "alone": "Каждая игра в этом сезоне была с {name}. Вот это верность.",
+      "better": "С {name} вы выигрываете {withRate}, а без {without}. Держите группу вместе.",
+      "worse": "С {name} вы выигрываете меньше ({withRate} против {without} в одиночку). Дружба важнее статистики.",
+      "same": "Примерно тот же процент побед с {name} и без. Дело в компании.",
+      "seeRecap": "Итоги игрока {name}",
+      "versus": "Дуэль"
+    },
+    "matchup": {
+      "single": "Ваш оппонент по линии",
+      "both": "Немезида против лучшего матчапа",
+      "nemesis": "Ваша немезида",
+      "best": "Ваш лучший матчап",
+      "vs": "VS",
+      "record": "<good>{wins}П</good> <bad>{losses}Н</bad>",
+      "meta": "{rate} побед",
+      "metaAs": "{rate} побед · за {champion}",
+      "insightBoth": "Забаньте {nemesis} и надейтесь на {best}.",
+      "insightNemesis": "{nemesis} — ваш криптонит. Подумайте о бане.",
+      "insightBest": "У {best} не было шансов против вас."
+    }
+  },
+  "rail": {
+    "start": "Начало",
+    "games": "Игры",
+    "week": "Неделя к неделе",
+    "form": "Форма",
+    "calendar": "Календарь",
+    "clock": "Часы",
+    "patches": "Патчи",
+    "nights": "Вечера",
+    "wins": "Победы",
+    "progress": "Прогресс",
+    "tilt": "Тильт",
+    "tiltGuard": "Знак «стоп»",
+    "blame": "Это вы?",
+    "champion": "Чемпион",
+    "comfort": "Комфорт",
+    "flames": "Увлечения",
+    "tierList": "Тир-лист",
+    "pool": "Попробовать",
+    "combat": "Бой",
+    "highlights": "Моменты",
+    "damage": "Урон",
+    "gray": "Серый экран",
+    "playstyle": "Стиль",
+    "lane": "Линия",
+    "early": "Ранняя игра",
+    "habits": "Привычки",
+    "items": "Предметы",
+    "runes": "Руны",
+    "objectives": "Цели",
+    "duo": "Дуэт",
+    "matchups": "Матчапы",
+    "comps": "Составы",
+    "normals": "Обычные",
+    "aram": "ARAM",
+    "chapters": "Главы",
+    "trophies": "Трофеи",
+    "rank": "Ранг",
+    "guess": "Угадайка",
+    "you": "Вы",
+    "back": "Назад"
+  },
+  "page": {
+    "title": "{name}#{tag} · Rift Recap",
+    "description": "Итоги сезона League of Legends: статистика, архетип и карточка, которой можно поделиться.",
+    "failed": "Не удалось загрузить эти итоги",
+    "noGamesTitle": "Пока нет игр",
+    "noGames": "Мы не нашли игр игрока {who} с {since}. Сыграйте несколько матчей и возвращайтесь.",
+    "noRangeTitle": "Нет игр за этот период",
+    "noRange": "Игрок {who} не сыграл ни одной игры с {since}. Попробуйте более длинный период."
+  },
+  "tiltguard": {
+    "eyebrow": "Страж тильта",
+    "step1": "После 1 поражения",
+    "step2": "После 2 подряд",
+    "step3": "После 3+ подряд",
+    "live": "Прямо сейчас"
+  },
+  "formcurve": {
+    "eyebrow": "Ваш сезон в виде линии",
+    "lead": "Процент побед за любые {games}",
+    "best": "Лучший <b>{rate}</b> · закончился {date}",
+    "worst": "Худший <b>{rate}</b> · закончился {date}",
+    "now": "Сейчас <b>{rate}</b>",
+    "aria": "Скользящий процент побед: лучший {best}, худший {worst}, последний {now}",
+    "shareTitle": "Мой сезон в виде линии"
+  },
+  "week": {
+    "eyebrow": "Последние 7 дней и предыдущие 7",
+    "lead": "{now} сейчас · {before} до этого"
+  },
+  "patches": {
+    "eyebrow": "Патч за патчем",
+    "title": "Процент побед по патчам"
+  },
+  "runes": {
+    "eyebrow": "Ваша ключевая руна",
+    "winWith": "<b>{rate}</b> побед с ней",
+    "without": "<b>{rate}</b> без неё"
+  },
+  "pool": {
+    "eyebrow": "Чемпионы, которых стоит попробовать",
+    "because": "Потому что {champion} вам подходит: {rate} побед",
+    "note": "Подобраны по схожему классу и стилю игры. Это совет, а не обещание."
+  }
+}

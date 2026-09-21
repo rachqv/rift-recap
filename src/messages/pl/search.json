@@ -1,0 +1,15 @@
+{
+  "placeholder": "Riot ID (Nazwa#TAG)",
+  "riotId": "Riot ID",
+  "region": "Region",
+  "submit": "Pokaż moje podsumowanie",
+  "suggestions": "Podpowiedzi graczy",
+  "heading": {
+    "recent": "Ostatnie wyszukiwania",
+    "sample": "Przykładowi gracze"
+  },
+  "sample": "Przykład",
+  "count": "{count, plural, one {# dostępna podpowiedź} few {# dostępne podpowiedzi} many {# dostępnych podpowiedzi} other {# dostępnej podpowiedzi}}",
+  "empty": "Żaden zapisany gracz nie pasuje. Naciśnij Enter, aby wyszukać <strong>{query}</strong> w Riot.",
+  "clear": "Wyczyść ostatnie wyszukiwania"
+}

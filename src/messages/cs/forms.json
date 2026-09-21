@@ -1,0 +1,39 @@
+{
+  "tryRange": "Zkus jiné časové období:",
+  "field": {
+    "recent": "Nedávní hráči"
+  },
+  "squad": {
+    "title": "Souhrn týmu",
+    "lead": "Zadej dvě až pět Riot ID ze stejného serveru. Podíváme se na zápasy, které jste odehráli <em>spolu</em>, a rozdáme ocenění.",
+    "server": "Server",
+    "player": "Hráč {n} (Jméno#TAG)",
+    "playerOptional": "Hráč {n} (Jméno#TAG) nepovinné",
+    "playerAria": "Riot ID hráče {n}",
+    "submit": "Zobrazit souhrn týmu",
+    "fine": "Nejlépe funguje s lidmi, se kterými chodíš do fronty, protože bere v úvahu jen společné zápasy. <link>Zobrazit ukázkový tým</link>"
+  },
+  "clash": {
+    "title": "Tým proti týmu",
+    "lead": "Dva týmy po dvou až pěti hráčích ze stejného serveru. Díváme se na hry, ve kterých jste hráli <em>proti sobě</em>, třeba vlastní 5v5.",
+    "server": "Server",
+    "sideA": "Tým 1",
+    "sideB": "Tým 2",
+    "player": "{side}, hráč {n} (Jméno#TAG)",
+    "playerOptional": "{side}, hráč {n} (Jméno#TAG) nepovinné",
+    "playerAria": "Riot ID hráče {n}, {side}",
+    "submit": "Porovnat týmy",
+    "fine": "Počítají se jen hry, kde byli alespoň dva z každého týmu na opačných stranách. <link>Zobrazit ukázku</link>"
+  },
+  "versus": {
+    "title": "Tváří v tvář",
+    "lead": "Vyber dva hráče a zjisti, kdo vede: statistika po statistice, styl po stylu a jak si vedete, když chodíte do fronty spolu.",
+    "player1": "Hráč 1",
+    "player2": "Hráč 2",
+    "serverAria": "Server pro {label}",
+    "riotId": "Riot ID (Jméno#TAG)",
+    "riotIdAria": "Riot ID pro {label}",
+    "submit": "Porovnat",
+    "fine": "Porovnává nedávné zápasy každého hráče. <link>Zobrazit ukázkový souboj</link>"
+  }
+}

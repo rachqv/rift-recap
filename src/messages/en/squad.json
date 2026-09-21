@@ -1,0 +1,181 @@
+{
+  "awards": {
+    "objectiveSteal": {
+      "title": "Most likely to steal the objective",
+      "tagline": "Watch your dragon. Then watch it disappear.",
+      "label": "objectives stolen",
+      "line": "{name} stole {count, plural, one {# objective} other {# objectives}}. Nothing is safe."
+    },
+    "objectiveTake": {
+      "title": "Most likely to take the objective",
+      "tagline": "Where the dragon goes, so do they.",
+      "label": "damage to objectives a minute",
+      "line": "{name} put {value} damage a minute into objectives."
+    },
+    "deaths": {
+      "title": "Most deaths",
+      "tagline": "Gray screen? They have a season pass.",
+      "label": "deaths a game",
+      "line": "{name} spent about {minutes} minutes of every game staring at the gray screen."
+    },
+    "pings": {
+      "title": "The Backseat Driver",
+      "tagline": "Most likely to ping 'get back' at their own team.",
+      "label": "pings a game",
+      "line": "{name} pinged {value} times a game. The minimap never got a break."
+    },
+    "vision": {
+      "title": "The Lighthouse",
+      "tagline": "Turned the lights on for everyone else.",
+      "label": "vision score a minute",
+      "line": "{value} vision score a minute from {name}. Nobody walked into the dark alone."
+    },
+    "tank": {
+      "title": "The Punching Bag",
+      "tagline": "Absorbed the most damage, for the team.",
+      "label": "damage taken a game",
+      "line": "{name} soaked up {value} damage a game."
+    },
+    "assists": {
+      "title": "The Best Friend",
+      "tagline": "Always there to set it up.",
+      "label": "assists a game",
+      "line": "{name} averaged {value} assists. The team's favorite teammate."
+    },
+    "carry": {
+      "title": "The Carry",
+      "tagline": "Most likely to win it for everyone else.",
+      "label": "KDA",
+      "line": "A {value} KDA. {name} did the heavy lifting."
+    },
+    "damage": {
+      "title": "The Heavy Hitter",
+      "tagline": "Health bars melt on contact.",
+      "label": "damage a minute",
+      "line": "{value} damage to champions every minute from {name}."
+    },
+    "farm": {
+      "title": "The Farmer",
+      "tagline": "Not one cannon wave left behind.",
+      "label": "CS a minute",
+      "line": "{value} minions a minute. {name} was always at the wave."
+    },
+    "present": {
+      "title": "Always There",
+      "tagline": "If a fight happened, they were in it.",
+      "label": "kill participation",
+      "line": "{name} took part in {value} of the team's kills."
+    },
+    "cc": {
+      "title": "The Crowd Controller",
+      "tagline": "Held the enemy still so the rest could work.",
+      "label": "seconds of crowd control a game",
+      "line": "{name} kept enemies locked down for {value, plural, one {# second} other {# seconds}} a game."
+    }
+  },
+  "chemistry": {
+    "destiny": "Duo of destiny",
+    "great": "Great chemistry",
+    "solid": "Solid partners",
+    "awkward": "Awkward together",
+    "apart": "Better apart"
+  },
+  "slides": {
+    "intro": {
+      "eyebrow": "Squad recap",
+      "together": "{count, plural, one {game together} other {games together}}",
+      "hours": "{n, plural, one {<b>{value}</b> hour} other {<b>{value}</b> hours}}",
+      "note": "Based on your {loaded} most recent games together (of {found} found)."
+    },
+    "record": {
+      "eyebrow": "Your record",
+      "label": "win rate together",
+      "bestStreak": "Best streak <good>{count, plural, one {# win} other {# wins}}</good>",
+      "worstSkid": "Worst skid <bad>{count, plural, one {# loss} other {# losses}}</bad>",
+      "all": "All {members} together in {games, plural, one {<b>#</b> game} other {<b>#</b> games}}",
+      "machine": "A machine when you queue together.",
+      "good": "More wins than losses. The squad delivers.",
+      "balanced": "Perfectly balanced. Chaos, but the fun kind.",
+      "rough": "Rough results. The group chat has stories, though."
+    },
+    "pairs": {
+      "eyebrow": "Duo chemistry",
+      "best": "Best duo",
+      "worst": "Needs work",
+      "games": "{count, plural, one {# game} other {# games}} together",
+      "chemistry": "{icon} {score} chemistry · {label}",
+      "captionBoth": "{a} and {b} are the ones to queue. {c} and {d}, maybe not.",
+      "captionBest": "{a} and {b} are your strongest pairing."
+    },
+    "award": {
+      "eyebrow": "Award {position} of {total}",
+      "runner": "{n}. {name} <b>{display}</b>"
+    },
+    "board": {
+      "eyebrow": "The leaderboard",
+      "aria": "Squad leaderboard",
+      "kda": "KDA",
+      "deaths": "Deaths",
+      "damage": "Dmg/min",
+      "awards": "Awards",
+      "note": "Sorted by KDA. Awards are the trophies each of you took home."
+    },
+    "finale": {
+      "mvp": "Squad MVP",
+      "none": "That's the squad",
+      "awards": "{count, plural, one {# award} other {# awards}}, more than anyone else.",
+      "recap": "{name}'s recap",
+      "versus": "Head-to-head: {a} vs {b}",
+      "shareTitle": "Our League squad recap: {names}",
+      "another": "Start another squad"
+    },
+    "rivalry": {
+      "eyebrow": "Friendly fire",
+      "lead": "Your record against each other, {count, plural, one {# meeting} other {# meetings}} on opposite teams",
+      "aria": "Head-to-head records",
+      "cell": "{wins, plural, one {# win} other {# wins}}, {losses, plural, one {# loss} other {# losses}}",
+      "even": "{a} and {b} are dead even over {games, plural, one {# meeting} other {# meetings}}.",
+      "edge": "{winner} has the edge over {loser}, {hi} to {lo}. The biggest rivalry in the squad."
+    },
+    "combos": {
+      "eyebrow": "Who to queue with",
+      "trio": "Best trio",
+      "duo": "Best duo",
+      "record": "{wins}W {losses}L in {games, plural, one {# game} other {# games}} together",
+      "caption": "{names}: queue together and the win rate speaks for itself.",
+      "games": "{count, plural, one {# game} other {# games}}"
+    },
+    "roles": {
+      "eyebrow": "Your best lineup",
+      "aria": "Suggested role for each member",
+      "swap": "On paper, this is your best lineup: everyone in the role they win most, going by your games together. A small sample, so take it as a hint.",
+      "settled": "Everyone already plays the role they win most. Nothing to swap.",
+      "was": "usually {role}"
+    }
+  },
+  "rail": {
+    "start": "Start",
+    "record": "Record",
+    "duos": "Duos",
+    "roles": "Roles",
+    "queue": "Who to queue",
+    "rivals": "Rivals",
+    "quiz": "Quiz",
+    "board": "Board",
+    "mvp": "MVP"
+  },
+  "page": {
+    "title": "{names} · Squad recap",
+    "titleDemo": "Sample squad recap · Rift Recap",
+    "titleEmpty": "Squad recap · Rift Recap",
+    "description": "Group awards from the games a squad played together: most deaths, most objective steals and more.",
+    "pickServer": "Pick a server.",
+    "unreadable": "Couldn't read {names}. Riot IDs look like Name#TAG.",
+    "atLeastTwo": "Enter at least two Riot IDs.",
+    "atMostFive": "A squad has at most five players.",
+    "notFound": "No player found for {names} on {region}. Check the spelling and the server.",
+    "noShared": "None of you share a game {where}. This works from games played together, so try a longer range or people you queue with.",
+    "whereSeason": "in your latest {count}",
+    "whereRange": "in the {range}"
+  }
+}

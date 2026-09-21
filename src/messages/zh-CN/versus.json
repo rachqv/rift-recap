@@ -1,0 +1,400 @@
+{
+  "rows": {
+    "winRate": "胜率",
+    "kda": "KDA",
+    "kills": "每局击杀",
+    "deaths": "每局死亡",
+    "assists": "每局助攻",
+    "cs": "每分钟补刀",
+    "vision": "每分钟视野",
+    "damage": "每分钟伤害",
+    "kp": "参团率"
+  },
+  "verdict": {
+    "tie": "各占{score}项。你们势均力敌得吓人。",
+    "sweep": "{name}拿下了所有关键项目。{other}还有很多要追赶。",
+    "clear": "{name}以{hi}项对{lo}项获胜。差距不小。",
+    "edge": "{name}以{hi}项对{lo}项险胜。{other}紧随其后。"
+  },
+  "rematch": {
+    "changed": "领先者易主了：现在{name}领先。",
+    "improved": "{name}自那以后进步更多（胜率{better}个百分点对{worse}个百分点）。",
+    "same": "和上次的情况差不多。"
+  },
+  "groups": {
+    "moments": {
+      "label": "高光",
+      "eyebrow": "重大时刻"
+    },
+    "habits": {
+      "label": "习惯",
+      "eyebrow": "峡谷习惯"
+    },
+    "form": {
+      "label": "状态",
+      "eyebrow": "状态与韧性"
+    },
+    "identity": {
+      "label": "各是谁",
+      "eyebrow": "各是谁"
+    }
+  },
+  "short": {
+    "win": "{value}胜",
+    "loss": "{value}负",
+    "record": "{rate} · {games}局",
+    "champs": "{count, plural, other {#英雄}}",
+    "minutes": "{value}分钟",
+    "hours": "{value}小时",
+    "level": "{value}级",
+    "seconds": "{value}秒",
+    "epic": "龙{dragons} 大龙{barons}",
+    "none": "无",
+    "noneLower": "无",
+    "penta": "{count}五",
+    "quadra": "{count}四",
+    "triple": "{count}三"
+  },
+  "multi": {
+    "penta": "{count, plural, other {#次五杀}}",
+    "quadra": "{count, plural, other {#次四杀}}",
+    "triple": "{count, plural, other {#次三杀}}"
+  },
+  "trend": {
+    "steady": "{name}稳定在{rate}",
+    "change": "{name}的胜率从{early}变为{late}"
+  },
+  "scenarios": {
+    "multikills": {
+      "title": "精彩集锦",
+      "tagline": "五杀、四杀和三杀，按敌方聊天有多吵来加权。",
+      "line": "{name}收集了{list}。集锦文件夹已经满了。"
+    },
+    "firstBlood": {
+      "title": "一血",
+      "tagline": "总得有人先开团。",
+      "line": "{name}在{rate}的对局中拿到一血。{other}总是优雅地迟到。"
+    },
+    "flawless": {
+      "title": "零死亡对局",
+      "tagline": "从头到尾零死亡。",
+      "line": "{name}有{count, plural, other {#局}}一次都没死。不可触碰。"
+    },
+    "careerGame": {
+      "title": "生涯之局",
+      "tagline": "他们会在聚会上一直提起的一局。",
+      "line": "{name}用{champion}打出了{kills}/{deaths}/{assists}。",
+      "lineLost": "{name}用{champion}打出了{kills}/{deaths}/{assists}，居然还输了。太惨了。"
+    },
+    "spree": {
+      "title": "最大连杀",
+      "tagline": "不死连续击杀。",
+      "line": "{name}不死连杀{count}人。快叫消防队。"
+    },
+    "lifespan": {
+      "title": "最长存活",
+      "tagline": "一次连续存活的最长时间。",
+      "line": "{name}曾连续存活{time}。泉水几乎不认识他。"
+    },
+    "soloKills": {
+      "title": "单杀",
+      "tagline": "一对一，无需帮助。",
+      "line": "{name}平均每局{value}次单杀。有些人就是喜欢1对1。"
+    },
+    "dodge": {
+      "title": "黑客帝国",
+      "tagline": "只打中空气的技能。",
+      "line": "{name}每局躲开{value}个技能。难命中，更难抓住。"
+    },
+    "thief": {
+      "title": "目标窃贼",
+      "tagline": "龙？什么龙？",
+      "line": "{name}偷取了{count, plural, other {#个}}目标。{other}应该多盯着龙坑。"
+    },
+    "epic": {
+      "title": "史诗野怪杀手",
+      "tagline": "亲手终结的龙与大龙。",
+      "line": "{name}拿下了{dragons, plural, other {#条}}龙和{barons, plural, other {#条}}大龙的最后一击。"
+    },
+    "siege": {
+      "title": "拆迁队",
+      "tagline": "队伍防御塔中由自己拆掉的比例。",
+      "line": "{name}拆掉了队伍{share}的防御塔。建成的东西没一个能留下。"
+    },
+    "objDamage": {
+      "title": "目标伤害",
+      "tagline": "每局对防御塔、龙和大龙造成的伤害。",
+      "line": "{name}每局对目标造成{value}伤害。地图对他来说只是待办清单。"
+    },
+    "flash": {
+      "title": "闪现成瘾",
+      "tagline": "每局闪现次数。总在冷却中。",
+      "line": "{name}每局闪现{value}次。{other}要么更勇敢，要么更慢。"
+    },
+    "grayScreen": {
+      "title": "灰屏时间",
+      "tagline": "每局中处于死亡状态的比例。越少越好。",
+      "line": "{other}每局有{otherShare}的时间在等复活。{name}只有{share}。"
+    },
+    "pings": {
+      "title": "后座指挥官",
+      "tagline": "每局信号数。",
+      "line": "{name}每局发了{value}次信号。小地图从未歇过。"
+    },
+    "pinks": {
+      "title": "控制守卫预算",
+      "tagline": "每局放置的控制守卫。",
+      "line": "{name}每局放{value}个控制守卫。{other}把金币留着以备不时之需。"
+    },
+    "sweeper": {
+      "title": "排眼达人",
+      "tagline": "每局清除的敌方眼位。",
+      "line": "{name}每局清除{value}个敌方眼位。在那盏灯笼下什么都藏不住。"
+    },
+    "gold": {
+      "title": "淘金者",
+      "tagline": "每分钟获得的金币。",
+      "line": "{name}每分钟赚{value}金币，{other}是{otherValue}。有人更常回城购物。"
+    },
+    "tank": {
+      "title": "沙包",
+      "tagline": "每局承受的伤害。",
+      "line": "{name}每局承受了{value}伤害。总得有人来。"
+    },
+    "medic": {
+      "title": "队伍医生",
+      "tagline": "每局对队友的治疗和护盾。",
+      "line": "{name}每局为队伍治疗和护盾了{value}伤害。"
+    },
+    "cc": {
+      "title": "群体控制",
+      "tagline": "每局控制敌人的秒数。",
+      "line": "{name}每局控制敌人{value, plural, other {#秒}}。别动。"
+    },
+    "whiteFlag": {
+      "title": "白旗",
+      "tagline": "以投降告终的败局。",
+      "line": "{name}的队伍在{share}的败局中投降了。{other}会战斗到水晶。"
+    },
+    "crit": {
+      "title": "最大暴击",
+      "tagline": "打出的最重的一次暴击。",
+      "line": "{name}曾打出{value}的暴击。这一下上了群聊。"
+    },
+    "teamDamage": {
+      "title": "扛起伤害",
+      "tagline": "占队伍对英雄伤害的比例。",
+      "line": "{name}打出了队伍{share}的伤害。其余队友站在旁边。"
+    },
+    "hotStreak": {
+      "title": "连胜狂",
+      "tagline": "最长连胜。",
+      "line": "{name}曾连胜{win}局。{other}最高只有{lose}。"
+    },
+    "tilt": {
+      "title": "心态深渊",
+      "tagline": "最长连败。越短越好。",
+      "line": "{other}曾连败{lose}局。{name}从没超过{win}。"
+    },
+    "momentum": {
+      "title": "势头",
+      "tagline": "较新一半对局与较早一半对局的胜率对比。",
+      "line": "{first}，而{second}。"
+    },
+    "ladder": {
+      "title": "天梯位置",
+      "tagline": "谁在排位天梯上更高。",
+      "line": "{name}（{title}）排在{other}（{otherTitle}）之上。正式的吹牛资本。"
+    },
+    "seasonRanked": {
+      "title": "赛季排位战绩",
+      "tagline": "本赛季所有排位对局的胜率。",
+      "line": "{name}的排位胜率为{rate}，{other}为{otherRate}。"
+    },
+    "rankedForm": {
+      "title": "排位压力",
+      "tagline": "最近排位对局的胜率。",
+      "line": "{name}在胜点攸关时胜率{rate}。{other}胜率{otherRate}。"
+    },
+    "normals": {
+      "title": "无压力对局",
+      "tagline": "最近匹配对局的胜率。",
+      "line": "{name}的匹配胜率为{rate}，{other}为{otherRate}。放松状态很适合他。"
+    },
+    "aram": {
+      "title": "深渊居民",
+      "tagline": "大乱斗桥上的胜率。",
+      "line": "{name}在桥上胜率{rate}。{other}胜率{otherRate}。混乱总会偏向某个人。"
+    },
+    "signature": {
+      "title": "主角气场",
+      "tagline": "最常用英雄的胜率。",
+      "line": "{name}用{champion}胜率{rate}。{other}用{otherChampion}胜率{otherRate}。"
+    },
+    "pool": {
+      "title": "英雄池",
+      "tagline": "使用过多少个不同的英雄。",
+      "line": "{name}用了{count, plural, other {#个}}不同的英雄。{other}定在了{otherCount}个。你们有一位喜欢多样性。"
+    },
+    "roleLoyalty": {
+      "title": "位置忠诚度",
+      "tagline": "有多少时间花在同一个位置上。",
+      "line": "{name}有{share}的时间打{role}。{other}走位更自由。"
+    },
+    "closer": {
+      "title": "终结者",
+      "tagline": "平均对局时长。越短越赢。",
+      "line": "{name}的对局{value}分钟就结束。{other}的要打{otherValue}。有人赶时间。"
+    },
+    "marathon": {
+      "title": "马拉松对局",
+      "tagline": "最长的一局。",
+      "line": "{name}曾用{champion}打了{time}并赢下了比赛。零食功不可没。",
+      "lineLost": "{name}曾用{champion}打了{time}但输掉了比赛。零食功不可没。"
+    },
+    "hours": {
+      "title": "峡谷时光",
+      "tagline": "在这些对局中度过的时间。",
+      "line": "{name}累计{value}小时，{other}累计{otherValue}。也许该去摸摸草了。"
+    },
+    "level": {
+      "title": "资深账号",
+      "tagline": "召唤师等级。",
+      "line": "{name}是{level}级，{other}是{otherLevel}级。你们中有一位已经在这里很久了。"
+    },
+    "kryptonite": {
+      "title": "克星",
+      "tagline": "最难对付的对线对手，以及结果如何。",
+      "line": "{other}总是输给{enemy}（{record}）。{name}最大的敌人{theirEnemy}就温和多了。",
+      "lineNone": "{other}打不过{enemy}（{record}）。{name}根本没有天敌。"
+    },
+    "bully": {
+      "title": "最爱的受害者",
+      "tagline": "在对线中被打得最多的英雄。",
+      "line": "{name}对阵{champion}的战绩是{record}。那个英雄该换条路了。"
+    }
+  },
+  "slides": {
+    "small": "（样本较少，轻松看待就好。）",
+    "intro": {
+      "eyebrow": "正面对决",
+      "unranked": "未定级",
+      "games": "已分析{count, plural, other {#局}}",
+      "vs": "VS",
+      "differentServers": "服务器不同，因此没有可比较的共同对局。"
+    },
+    "stats": {
+      "eyebrow": "数据一览",
+      "aria": "数据比较",
+      "ties": "有{count, plural, other {#项}}太接近，难分高下。"
+    },
+    "style": {
+      "eyebrow": "两位不同的玩家",
+      "meta": "{games, plural, other {#局}} · 胜率{rate}",
+      "metaRole": "{games, plural, other {#局}} · 胜率{rate} · {role}"
+    },
+    "scenario": {
+      "eyebrow": "{group} · {position}/{total}",
+      "wins": "胜出",
+      "leads": "领先",
+      "vs": "对"
+    },
+    "rhythm": {
+      "eyebrow": "你们的游玩时间",
+      "note": "按你自己的时区显示。"
+    },
+    "faceoff": {
+      "eyebrow": "面对面",
+      "meetings": "{count, plural, other {作为对手交手<b>#</b>次}}",
+      "duels": "{count, plural, other {<b>#</b>次对线}} · {left}–{right}",
+      "better": "更常打出更高KDA的是<b>{name}</b>",
+      "last": "你们上一次交手",
+      "lastRole": "你们上一次交手，位置是{role}",
+      "roles": {
+        "TOP": "上路",
+        "JUNGLE": "野区",
+        "MIDDLE": "中路",
+        "BOTTOM": "下路",
+        "UTILITY": "辅助",
+        "other": "同一条路"
+      },
+      "won": "胜利",
+      "lost": "失败",
+      "meta": "{champion} · {kills}/{deaths}/{assists}",
+      "even": "作为对手时势均力敌。加赛早就该来了。",
+      "sweep": "{name}从未输给{other}。{other}随时可以申请再战。",
+      "edge": "{name}占上风，{hi}比{lo}。{other}正在谋划复仇。"
+    },
+    "timeline": {
+      "eyebrow": "逐分钟",
+      "kills": "在<b>{meetings, plural, other {#次}}</b>交手中互相的击杀",
+      "solo": "单杀：<sa>{left}</sa> – <sb>{right}</sb>",
+      "ahead": "{minute}分钟时领先：<sa>{left}</sa> – <sb>{right}</sb>",
+      "aheadLevel": "（持平{count}次）",
+      "firstDeath": "先死亡：<sa>{left}</sa> – <sb>{right}</sb>",
+      "firstDragon": "首条龙：<sa>{left}</sa> – <sb>{right}</sb>",
+      "goldLead": "<b>{name}</b>的平均经济领先为<b>{gold}</b>",
+      "noEdge": "在你们互换的击杀上，谁也没有优势。",
+      "killsLead": "你们互换的击杀由{name}占优。前期目前还是个谜。",
+      "level": "平均在{minute}分钟时持平。无论谁赢，都是后期见分晓。",
+      "lead": "{leader}通常在{minute}分钟时领先，平均领先{gold}金币。",
+      "allWon": "{lead}而且每一次领先都转化成了胜利。{other}永远找不到翻盘的路。",
+      "noneWon": "{lead}不知怎么的，这些对局他全输了。{other}是翻盘之王。",
+      "someWon": "{lead}在这{ahead}次领先中，他拿下了{won}次。"
+    },
+    "together": {
+      "eyebrow": "一起游玩时",
+      "chemistry": "默契 · {label}",
+      "carry": "在你们的同队对局中，{name}以{kda}的KDA带飞。",
+      "even": "一起游玩时势均力敌。",
+      "topDamage": "伤害第一：<sa>{left}</sa> – <sb>{right}</sb>",
+      "winsMore": "当<side>{name}</side>伤害最高时胜率更高",
+      "winsMoreRates": "（{rate}对{other}）",
+      "apart": "<side>{name}</side>分开时{apart} → 同队时{together}",
+      "each": "{aName}{a}，{bName}{b}分",
+      "eachOne": "{name}{value}分",
+      "lift": "你们俩一起打比分开打赢得更多（{each}）。继续一起排吧。",
+      "drag": "你们俩一起打比分开打赢得更少（{each}）。也许该和别人排。",
+      "mixed": "一起打对你们中的一位帮助更大（{each}）。",
+      "flat": "一起排队时你们的胜率几乎不变。只是有个伴。"
+    },
+    "verdict": {
+      "eyebrow": "裁决",
+      "rows": "{count, plural, other {#项}}",
+      "wins": "{name}获胜",
+      "tie": "太接近，难分高下",
+      "score": "{a}项对{b}项",
+      "scoreTied": "{a}项对{b}项，{ties}项持平",
+      "main": "主玩：<b>{champion}</b>",
+      "rematchChip": "{date}：<sa>{left}</sa> – <sb>{right}</sb>",
+      "sideBets": "附加赌注 <sa>{left}</sa> – <sb>{right}</sb>",
+      "sideBetsNote": "但附加赌注是{name}赢了，群聊有话题了。",
+      "recap": "{name}的回顾",
+      "shareTitle": "{a}对{b}：英雄联盟正面对决",
+      "again": "新的对决"
+    }
+  },
+  "rail": {
+    "start": "开始",
+    "numbers": "数据",
+    "styles": "风格",
+    "hours": "时长",
+    "together": "同队",
+    "faceoff": "对峙",
+    "timeline": "时间线",
+    "verdict": "裁决"
+  },
+  "page": {
+    "titleDemo": "示例正面对决 · Rift Recap",
+    "titleEmpty": "正面对决 · Rift Recap",
+    "title": "{a}对{b} · 正面对决",
+    "description": "逐项比较两位英雄联盟玩家，还包括他们一起打时的表现。",
+    "unreadableTwo": "无法读取{who}。Riot ID 的格式类似“名称#TAG”。",
+    "first": "第一位玩家",
+    "second": "第二位玩家",
+    "malformed": "无法读取该链接中的其中一位玩家。",
+    "notFound": "其中一位玩家未找到。请检查拼写和服务器。",
+    "same": "请选择两位不同的玩家。",
+    "noGames": "自{since}以来没有找到{names}的对局，所以暂时没有可比较的内容。"
+  }
+}

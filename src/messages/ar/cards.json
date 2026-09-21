@@ -1,0 +1,39 @@
+{
+  "thisSeason": "في هذا الموسم، كنتُ",
+  "disclaimer": "Rift Recap غير معتمد من Riot Games ولا يعكس آراء Riot Games أو أي جهة مشاركة رسميًا في إنتاج ممتلكات Riot Games أو إدارتها.",
+  "games": "المباريات",
+  "winRate": "نسبة الفوز",
+  "kda": "KDA",
+  "trophies": "الكؤوس",
+  "rank": "الرتبة",
+  "main": "الأساسي",
+  "topChampion": "أفضل بطل",
+  "gamesCount": "{count, plural, zero {# مباراة} one {مباراة واحدة} two {مباراتان} few {# مباريات} many {# مباراة} other {# مباراة}}",
+  "squad": {
+    "header": "ملخص الفريق",
+    "gamesTogether": "مباريات معًا",
+    "hours": "ساعات",
+    "together": "معًا",
+    "awards": "الجوائز"
+  },
+  "versus": {
+    "header": "وجهًا لوجه",
+    "vs": "ضد",
+    "rowsWon": "صفوف مكسوبة",
+    "scenarios": "أفضل السيناريوهات",
+    "numbers": "الأرقام",
+    "unranked": "بلا رتبة"
+  },
+  "bingo": {
+    "header": "بينغو الكؤوس",
+    "free": "مجاني",
+    "lines": "بينغو",
+    "next": "البينغو التالي: {name}"
+  },
+  "form": {
+    "best": "أفضل فترة",
+    "worst": "أسوأ فترة",
+    "now": "الآن",
+    "ended": "انتهت في {date}"
+  }
+}

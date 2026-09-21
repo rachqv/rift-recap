@@ -1,0 +1,98 @@
+{
+  "penta": {
+    "name": "ペンタキル",
+    "text": "ペンタキルを達成する。"
+  },
+  "quadra": {
+    "name": "クアドラコレクター",
+    "text": "{target, plural, other {#回}}クアドラキルを達成する。"
+  },
+  "triple": {
+    "name": "トリプルの脅威",
+    "text": "{target, plural, other {#回}}トリプルキルを達成する。"
+  },
+  "flawless": {
+    "name": "ノーデス",
+    "text": "1度も死なずに試合を終える。"
+  },
+  "flawless5": {
+    "name": "触れられない者",
+    "text": "{target, plural, other {#試合}}を1度も死なずに終える。"
+  },
+  "streak": {
+    "name": "絶好調",
+    "text": "{target, plural, other {#試合}}連続で勝利する。"
+  },
+  "winrate": {
+    "name": "勝者",
+    "text": "{games}試合以上で勝率{target}を保つ。"
+  },
+  "kills": {
+    "name": "キルマシーン",
+    "text": "1試合で{target, plural, other {#キル}}を達成する。"
+  },
+  "perfect": {
+    "name": "パーフェクトゲーム",
+    "text": "KDA {target}以上で試合をプレイする。"
+  },
+  "firstblood": {
+    "name": "ファーストブラッドの王",
+    "text": "ファーストブラッドを{target, plural, other {#回}}奪う。"
+  },
+  "thief": {
+    "name": "オブジェクトの盗人",
+    "text": "オブジェクトをスチールする。"
+  },
+  "turrets": {
+    "name": "破壊者",
+    "text": "{target, plural, other {#基}}のタワーを破壊する。"
+  },
+  "variety": {
+    "name": "何でも屋",
+    "text": "{target, plural, other {#体}}の異なるチャンピオンをプレイする。"
+  },
+  "loyal": {
+    "name": "忠誠",
+    "text": "同じチャンピオンを{target, plural, other {#回}}プレイする。"
+  },
+  "marathon": {
+    "name": "マラソン",
+    "text": "{minutes}分より長い試合をプレイする。"
+  },
+  "bounce": {
+    "name": "巻き返し",
+    "text": "敗北後の試合の{target}に勝利する。"
+  },
+  "hours": {
+    "name": "リフトで過ごした時間",
+    "text": "試合で{target, plural, other {#時間}}を過ごす。"
+  },
+  "dragon": {
+    "name": "ドラゴンスレイヤー",
+    "text": "ドラゴンに{target, plural, other {#回}}とどめを刺す。"
+  },
+  "baron": {
+    "name": "バロンハンター",
+    "text": "バロンに{target, plural, other {#回}}とどめを刺す。"
+  },
+  "teamplayer": {
+    "name": "チームプレイヤー",
+    "text": "チームのキルの{target}に関与する。"
+  },
+  "duo": {
+    "name": "相棒",
+    "text": "同じ味方と{target, plural, other {#試合}}プレイする。"
+  },
+  "vision": {
+    "name": "千里眼",
+    "text": "1分あたり平均{target}のビジョンスコアを出す。"
+  },
+  "farm": {
+    "name": "ファームの達人",
+    "text": "1分あたり平均{target}のCSを稼ぐ。"
+  },
+  "roles": {
+    "name": "オールラウンダー",
+    "text": "全{target, plural, other {#つ}}のロールをプレイする。"
+  }
+}

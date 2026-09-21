@@ -1,0 +1,30 @@
+{
+  "same": "Avete gli stessi orari. Inquietante.",
+  "daysShort": "{value}g",
+  "nightOwl": {
+    "title": "Gufo notturno",
+    "tagline": "Partite che iniziano dopo mezzanotte.",
+    "line": "Il {share} delle partite di {name} inizia dopo mezzanotte. {other} ha un orario per andare a letto."
+  },
+  "earlyBird": {
+    "title": "Mattiniero",
+    "tagline": "Partite che iniziano prima di mezzogiorno.",
+    "line": "Il {share} delle partite di {name} è prima di mezzogiorno. In coda con il caffè. {other} dorme fino a tardi."
+  },
+  "weekend": {
+    "title": "Guerriero del weekend",
+    "tagline": "Partite giocate di sabato o domenica.",
+    "line": "Il {share} delle partite di {name} cade nel weekend. {other} è più un giocatore da giorni feriali."
+  },
+  "streak": {
+    "title": "Abitudine quotidiana",
+    "tagline": "La serie più lunga di giorni di fila con una partita.",
+    "line": "{name} ha giocato {days, plural, one {# giorno} other {# giorni}} di fila. {other} si è fermato dopo {otherDays}."
+  },
+  "binge": {
+    "title": "Giornata no-stop",
+    "tagline": "Il maggior numero di partite in un solo giorno.",
+    "line": "{name} una volta ha giocato {games, plural, one {# partita} other {# partite}} in un solo giorno. La cena è saltata."
+  },
+  "label": "Scenari"
+}

@@ -1,0 +1,400 @@
+{
+  "rows": {
+    "winRate": "Siegquote",
+    "kda": "KDA",
+    "kills": "Kills pro Spiel",
+    "deaths": "Tode pro Spiel",
+    "assists": "Assists pro Spiel",
+    "cs": "CS pro Minute",
+    "vision": "Sicht pro Minute",
+    "damage": "Schaden pro Minute",
+    "kp": "Kill-Beteiligung"
+  },
+  "verdict": {
+    "tie": "Je {score} Zeilen. Ihr seid unheimlich ausgeglichen.",
+    "sweep": "{name} holt jede Zeile, die zählt. {other} hat einiges aufzuholen.",
+    "clear": "{name} gewinnt {hi} Zeilen zu {lo}. Es war nicht knapp.",
+    "edge": "{name} gewinnt knapp, {hi} Zeilen zu {lo}. {other} ist direkt dahinter."
+  },
+  "rematch": {
+    "changed": "Die Führung hat gewechselt: {name} liegt jetzt vorn.",
+    "improved": "{name} hat sich seitdem stärker verbessert ({better} gegen {worse} Punkte Siegquote).",
+    "same": "Ungefähr dasselbe Bild wie beim letzten Mal."
+  },
+  "groups": {
+    "moments": {
+      "label": "Momente",
+      "eyebrow": "Große Momente"
+    },
+    "habits": {
+      "label": "Gewohnheiten",
+      "eyebrow": "Gewohnheiten auf der Kluft"
+    },
+    "form": {
+      "label": "Form",
+      "eyebrow": "Form und Biss"
+    },
+    "identity": {
+      "label": "Wer ist wer",
+      "eyebrow": "Wer ist wer"
+    }
+  },
+  "short": {
+    "win": "{value}S",
+    "loss": "{value}N",
+    "record": "{rate} · {games}Sp.",
+    "champs": "{count, plural, one {# Champ} other {# Champs}}",
+    "minutes": "{value} Min.",
+    "hours": "{value} Std.",
+    "level": "Lv. {value}",
+    "seconds": "{value} Sek.",
+    "epic": "{dragons}D {barons}B",
+    "none": "Keine",
+    "noneLower": "keine",
+    "penta": "{count}P",
+    "quadra": "{count}Q",
+    "triple": "{count}T"
+  },
+  "multi": {
+    "penta": "{count, plural, one {# Pentakill} other {# Pentakills}}",
+    "quadra": "{count, plural, one {# Quadrakill} other {# Quadrakills}}",
+    "triple": "{count, plural, one {# Triplekill} other {# Triplekills}}"
+  },
+  "trend": {
+    "steady": "{name} blieb stabil bei {rate}",
+    "change": "{name} ging von {early} auf {late} Siege"
+  },
+  "scenarios": {
+    "multikills": {
+      "title": "Highlight-Video",
+      "tagline": "Pentas, Quadras und Triples, gewichtet danach, wie laut der gegnerische Chat wurde.",
+      "line": "{name} hat {list} gesammelt. Der Highlight-Ordner ist voll."
+    },
+    "firstBlood": {
+      "title": "First Blood",
+      "tagline": "Jemand muss den Kampf beginnen.",
+      "line": "{name} hat in {rate} der Spiele First Blood geholt. {other} kommt stilvoll zu spät."
+    },
+    "flawless": {
+      "title": "Makellose Spiele",
+      "tagline": "Null Tode, von Anfang bis Ende.",
+      "line": "{name} hat {count, plural, one {# Spiel} other {# Spiele}} beendet, ohne einmal zu sterben. Unantastbar."
+    },
+    "careerGame": {
+      "title": "Karrierespiel",
+      "tagline": "Das, von dem sie auf Partys erzählen werden.",
+      "line": "{name} spielte {kills}/{deaths}/{assists} auf {champion}.",
+      "lineLost": "{name} spielte {kills}/{deaths}/{assists} auf {champion} und hat trotzdem verloren. Hart."
+    },
+    "spree": {
+      "title": "Größte Serie",
+      "tagline": "Kills in Folge, ohne zu sterben.",
+      "line": "{name} hat {count} Kills aneinandergereiht, ohne zu sterben. Ruft jemand die Feuerwehr."
+    },
+    "lifespan": {
+      "title": "Längstes Leben",
+      "tagline": "Die längste Zeit, die sie am Stück am Leben blieben.",
+      "line": "{name} blieb einmal {time} am Stück am Leben. Der Brunnen kannte sie kaum."
+    },
+    "soloKills": {
+      "title": "Solo-Kills",
+      "tagline": "Eins gegen eins, ohne Hilfe.",
+      "line": "{name} kommt im Schnitt auf {value} Solo-Kills pro Spiel. Manche mögen einfach 1v1."
+    },
+    "dodge": {
+      "title": "Die Matrix",
+      "tagline": "Skillshots, die nur Luft treffen.",
+      "line": "{name} ist pro Spiel {value} Skillshots ausgewichen. Schwer zu treffen, noch schwerer zu fangen."
+    },
+    "thief": {
+      "title": "Objektivdieb",
+      "tagline": "Drache? Welcher Drache?",
+      "line": "{name} hat {count, plural, one {# Objektiv} other {# Objektive}} gestohlen. {other} sollte die Grube besser im Auge behalten."
+    },
+    "epic": {
+      "title": "Bezwinger epischer Monster",
+      "tagline": "Drachen und Barone persönlich erledigt.",
+      "line": "{name} hat {dragons, plural, one {# Drachen} other {# Drachen}} und {barons, plural, one {# Baron} other {# Baronen}} den letzten Schlag verpasst."
+    },
+    "siege": {
+      "title": "Abrisskolonne",
+      "tagline": "Anteil der Türme ihres Teams, die sie zerstört haben.",
+      "line": "{name} hat {share} der Türme seines Teams zerstört. Nichts Gebautes überlebt."
+    },
+    "objDamage": {
+      "title": "Objektivschaden",
+      "tagline": "Schaden an Türmen, Drachen und Baronen pro Spiel.",
+      "line": "{name} hat pro Spiel {value} Schaden in Objektive gesteckt. Die Karte ist nur eine To-do-Liste."
+    },
+    "flash": {
+      "title": "Blitz-Süchtiger",
+      "tagline": "Blitz-Einsätze pro Spiel. Er ist immer in der Abklingzeit.",
+      "line": "{name} setzt pro Spiel {value} Mal Blitz ein. {other} ist entweder mutiger oder langsamer."
+    },
+    "grayScreen": {
+      "title": "Zeit auf dem grauen Bildschirm",
+      "tagline": "Anteil jedes Spiels, den man tot verbringt. Weniger ist besser.",
+      "line": "{other} verbringt {otherShare} jedes Spiels mit Warten auf den Respawn. {name} nur {share}."
+    },
+    "pings": {
+      "title": "Beifahrer-Besserwisser",
+      "tagline": "Pings pro Spiel.",
+      "line": "{name} hat {value} Mal pro Spiel gepingt. Die Minimap bekam nie eine Pause."
+    },
+    "pinks": {
+      "title": "Kontroll-Ward-Budget",
+      "tagline": "Platzierte Kontroll-Wards pro Spiel.",
+      "line": "{name} setzt pro Spiel {value} Kontroll-Wards. {other} spart das Gold für schlechte Zeiten."
+    },
+    "sweeper": {
+      "title": "Ward-Kehrer",
+      "tagline": "Geräumte gegnerische Wards pro Spiel.",
+      "line": "{name} hat pro Spiel {value} gegnerische Wards geräumt. Vor dieser Laterne versteckt sich nichts."
+    },
+    "gold": {
+      "title": "Goldgräber",
+      "tagline": "Verdientes Gold pro Minute.",
+      "line": "{name} verdient {value} Gold pro Minute gegenüber {otherValue} bei {other}. Jemand geht öfter einkaufen."
+    },
+    "tank": {
+      "title": "Punchingball",
+      "tagline": "Aufgesogener Schaden pro Spiel.",
+      "line": "{name} hat {value} Schaden pro Spiel aufgesogen. Jemand musste es tun."
+    },
+    "medic": {
+      "title": "Team-Sanitäter",
+      "tagline": "Heilung und Schilde auf Mitspielern, pro Spiel.",
+      "line": "{name} hat pro Spiel {value} Schaden für das Team geheilt und abgeschirmt."
+    },
+    "cc": {
+      "title": "Massenkontrolle",
+      "tagline": "Sekunden, die Gegner festgehalten wurden, pro Spiel.",
+      "line": "{name} hat Gegner pro Spiel {value, plural, one {# Sekunde} other {# Sekunden}} lang festgesetzt. Stillhalten."
+    },
+    "whiteFlag": {
+      "title": "Weiße Flagge",
+      "tagline": "Niederlagen, die mit einer Aufgabe endeten.",
+      "line": "Das Team von {name} hat in {share} der Niederlagen aufgegeben. {other} kämpft bis zum Nexus."
+    },
+    "crit": {
+      "title": "Größter Krit",
+      "tagline": "Der härteste einzelne Krit.",
+      "line": "{name} hat einmal für {value} kritisch getroffen. Der ging in den Gruppenchat."
+    },
+    "teamDamage": {
+      "title": "Den Schaden tragen",
+      "tagline": "Anteil am Schaden des Teams an Champions.",
+      "line": "{name} hat {share} des Schadens seines Teams gemacht. Der Rest stand daneben."
+    },
+    "hotStreak": {
+      "title": "Siegesserie",
+      "tagline": "Längste Serie von Siegen.",
+      "line": "{name} hat einmal {win} in Folge gewonnen. {other} kam auf höchstens {lose}."
+    },
+    "tilt": {
+      "title": "Tilt-Tiefe",
+      "tagline": "Längste Serie von Niederlagen. Kürzer ist besser.",
+      "line": "{other} hat einmal {lose} in Folge verloren. {name} kam nie über {win} hinaus."
+    },
+    "momentum": {
+      "title": "Momentum",
+      "tagline": "Siegquote in der neueren Hälfte der Spiele gegenüber der älteren.",
+      "line": "{first}, während {second}."
+    },
+    "ladder": {
+      "title": "Ladder-Position",
+      "tagline": "Wer in der Ranked-Ladder höher steht.",
+      "line": "{name} ({title}) steht über {other} ({otherTitle}). Angeberrechte, offiziell."
+    },
+    "seasonRanked": {
+      "title": "Ranked-Bilanz der Saison",
+      "tagline": "Siegquote über alle Ranked-Spiele dieser Saison.",
+      "line": "{name} gewinnt {rate} der Ranked-Spiele gegenüber {otherRate} bei {other}."
+    },
+    "rankedForm": {
+      "title": "Ranked-Druck",
+      "tagline": "Siegquote in den letzten Ranked-Spielen.",
+      "line": "{name} gewinnt {rate}, wenn LP auf dem Spiel stehen. {other} gewinnt {otherRate}."
+    },
+    "normals": {
+      "title": "Nichts steht auf dem Spiel",
+      "tagline": "Siegquote in den letzten Normal-Spielen.",
+      "line": "{name} gewinnt {rate} der Normals gegenüber {otherRate} bei {other}. Entspannt steht ihnen."
+    },
+    "aram": {
+      "title": "Abgrund-Bewohner",
+      "tagline": "Siegquote auf der ARAM-Brücke.",
+      "line": "{name} gewinnt {rate} auf der Brücke. {other} gewinnt {otherRate}. Das Chaos bevorzugt jemanden."
+    },
+    "signature": {
+      "title": "Hauptcharakter-Energie",
+      "tagline": "Siegquote auf ihrem meistgespielten Champion.",
+      "line": "{name} gewinnt {rate} auf {champion}. {other} gewinnt {otherRate} auf {otherChampion}."
+    },
+    "pool": {
+      "title": "Champion-Pool",
+      "tagline": "Wie viele verschiedene Champions sie gespielt haben.",
+      "line": "{name} hat {count, plural, one {# anderen Champion} other {# verschiedene Champions}} gespielt. {other} hat sich auf {otherCount} festgelegt. Einer von euch mag Abwechslung."
+    },
+    "roleLoyalty": {
+      "title": "Rollentreue",
+      "tagline": "Wie viel ihrer Zeit auf eine Rolle entfällt.",
+      "line": "{name} spielt {share} der Zeit {role}. {other} bewegt sich freier."
+    },
+    "closer": {
+      "title": "Der Finisher",
+      "tagline": "Durchschnittliche Spieldauer. Kürzer gewinnt.",
+      "line": "Die Spiele von {name} sind in {value} Minuten vorbei. Die von {other} brauchen {otherValue}. Jemand hat noch was vor."
+    },
+    "marathon": {
+      "title": "Marathon-Spiel",
+      "tagline": "Das längste einzelne Spiel.",
+      "line": "{name} hat einmal {time} auf {champion} gespielt und es gewonnen. Snacks waren im Spiel.",
+      "lineLost": "{name} hat einmal {time} auf {champion} gespielt und es verloren. Snacks waren im Spiel."
+    },
+    "hours": {
+      "title": "Zeit auf der Kluft",
+      "tagline": "In diesen Spielen verbrachte Stunden.",
+      "line": "{name} hat {value} Stunden gesammelt. {other} hat {otherValue} gesammelt. Vielleicht mal Gras anfassen."
+    },
+    "level": {
+      "title": "Account-Veteran",
+      "tagline": "Beschwörerstufe.",
+      "line": "{name} ist Stufe {level}. {other} ist Stufe {otherLevel}. Einer von euch ist schon länger dabei."
+    },
+    "kryptonite": {
+      "title": "Kryptonit",
+      "tagline": "Ihr schlimmster Lane-Gegner und wie es lief.",
+      "line": "{other} verliert immer wieder gegen {enemy} ({record}). {name}s schlimmster Gegner, {theirEnemy}, ist eine freundlichere Geschichte.",
+      "lineNone": "{other} kann {enemy} nicht schlagen ({record}). {name} hat gar keine Nemesis."
+    },
+    "bully": {
+      "title": "Lieblingsopfer",
+      "tagline": "Der Champion, den sie in der Lane am meisten verprügeln.",
+      "line": "{name} steht gegen {champion} bei {record}. Dieser Champion sollte sich eine neue Lane suchen."
+    }
+  },
+  "slides": {
+    "small": "(Eine kleine Stichprobe, nimm es also nicht zu ernst.)",
+    "intro": {
+      "eyebrow": "Kopf-an-Kopf",
+      "unranked": "Ungewertet",
+      "games": "{count, plural, one {# Spiel} other {# Spiele}} analysiert",
+      "vs": "VS",
+      "differentServers": "Verschiedene Server, also gibt es keine gemeinsamen Spiele zum Vergleichen."
+    },
+    "stats": {
+      "eyebrow": "Die Zahlen",
+      "aria": "Statistikvergleich",
+      "ties": "{count, plural, one {# Zeile war} other {# Zeilen waren}} zu knapp, um sie zu entscheiden."
+    },
+    "style": {
+      "eyebrow": "Zwei verschiedene Spieler",
+      "meta": "{games, plural, one {# Spiel} other {# Spiele}} · {rate} Siege",
+      "metaRole": "{games, plural, one {# Spiel} other {# Spiele}} · {rate} Siege · {role}"
+    },
+    "scenario": {
+      "eyebrow": "{group} · {position} von {total}",
+      "wins": "Gewinnt",
+      "leads": "Führt",
+      "vs": "gegen"
+    },
+    "rhythm": {
+      "eyebrow": "Wann ihr spielt",
+      "note": "In deiner eigenen Zeitzone."
+    },
+    "faceoff": {
+      "eyebrow": "Von Angesicht zu Angesicht",
+      "meetings": "{count, plural, one {<b>#</b> Begegnung als Gegner} other {<b>#</b> Begegnungen als Gegner}}",
+      "duels": "{count, plural, one {<b>#</b> Lane-Duell} other {<b>#</b> Lane-Duelle}} · {left}–{right}",
+      "better": "Öfter die bessere KDA: <b>{name}</b>",
+      "last": "Das letzte Mal, als ihr euch getroffen habt",
+      "lastRole": "Das letzte Mal, als ihr euch getroffen habt, als {role}",
+      "roles": {
+        "TOP": "Top-Lane",
+        "JUNGLE": "Jungle",
+        "MIDDLE": "Mid-Lane",
+        "BOTTOM": "Bot-Lane",
+        "UTILITY": "Support",
+        "other": "dieselbe Lane"
+      },
+      "won": "Gewonnen",
+      "lost": "Verloren",
+      "meta": "{champion} · {kills}/{deaths}/{assists}",
+      "even": "Völlig gleichauf, wenn ihr in gegnerischen Teams seid. Der Tiebreaker ist längst überfällig.",
+      "sweep": "{name} hat nie gegen {other} verloren. {other} darf gern ein Rematch verlangen.",
+      "edge": "{name} hat die Oberhand, {hi} zu {lo}. {other} sinnt auf Rache."
+    },
+    "timeline": {
+      "eyebrow": "Minute für Minute",
+      "kills": "Kills aufeinander, über <b>{meetings, plural, one {# Begegnung} other {# Begegnungen}}</b>",
+      "solo": "Solo-Kills: <sa>{left}</sa> – <sb>{right}</sb>",
+      "ahead": "Vorn nach {minute} Min.: <sa>{left}</sa> – <sb>{right}</sb>",
+      "aheadLevel": "({count} gleichauf)",
+      "firstDeath": "Als Erster gestorben: <sa>{left}</sa> – <sb>{right}</sb>",
+      "firstDragon": "Erster Drache: <sa>{left}</sa> – <sb>{right}</sb>",
+      "goldLead": "<b>{gold}</b> durchschnittlicher Goldvorsprung für <b>{name}</b>",
+      "noEdge": "Keiner von euch hat bei den getauschten Kills die Nase vorn.",
+      "killsLead": "{name} holt die Kills, die ihr tauscht. Das Early Game bleibt vorerst ein Rätsel.",
+      "level": "Im Schnitt nach {minute} Minuten völlig gleichauf. Wer auch gewinnt, es entscheidet sich später.",
+      "lead": "{leader} liegt nach {minute} Minuten meist vorn, im Schnitt um {gold} Gold.",
+      "allWon": "{lead} Und jeder Vorsprung wurde zum Sieg. {other} findet nie einen Weg zurück.",
+      "noneWon": "{lead} Irgendwie hat er jedes dieser Spiele verloren. {other} ist der Comeback-König.",
+      "someWon": "{lead} Er hat {won} von {ahead} dieser Vorsprünge ins Ziel gebracht."
+    },
+    "together": {
+      "eyebrow": "Wenn ihr zusammen spielt",
+      "chemistry": "Chemie · {label}",
+      "carry": "In euren gemeinsamen Spielen trägt {name} mit einer KDA von {kda}.",
+      "even": "Völlig gleichauf, wenn ihr zusammen spielt.",
+      "topDamage": "Höchster Schaden: <sa>{left}</sa> – <sb>{right}</sb>",
+      "winsMore": "Gewinnt mehr, wenn <side>{name}</side> beim Schaden führt",
+      "winsMoreRates": "({rate} gegen {other})",
+      "apart": "<side>{name}</side> {apart} getrennt → {together} zusammen",
+      "each": "{aName} {a}, {bName} {b} Punkte",
+      "eachOne": "{value} Punkte für {name}",
+      "lift": "Ihr gewinnt beide zusammen mehr als getrennt ({each}). Spielt weiter zusammen.",
+      "drag": "Ihr gewinnt beide zusammen weniger als getrennt ({each}). Vielleicht solltet ihr mit anderen spielen.",
+      "mixed": "Zusammen zu spielen hilft einem von euch mehr als dem anderen ({each}).",
+      "flat": "Eure Siegquote ändert sich kaum, wenn ihr zusammen spielt. Es ist nur Gesellschaft."
+    },
+    "verdict": {
+      "eyebrow": "Das Urteil",
+      "rows": "{count, plural, one {# Zeile} other {# Zeilen}}",
+      "wins": "{name} gewinnt",
+      "tie": "Zu knapp, um es zu entscheiden",
+      "score": "{a} Zeilen zu {b}",
+      "scoreTied": "{a} Zeilen zu {b}, {ties} unentschieden",
+      "main": "Main: <b>{champion}</b>",
+      "rematchChip": "{date}: <sa>{left}</sa> – <sb>{right}</sb>",
+      "sideBets": "Nebenwetten <sa>{left}</sa> – <sb>{right}</sb>",
+      "sideBetsNote": "Aber {name} gewinnt die Nebenwetten, also hat der Gruppenchat Stoff.",
+      "recap": "Rückblick von {name}",
+      "shareTitle": "{a} gegen {b}: League-Kopf-an-Kopf",
+      "again": "Neues Duell"
+    }
+  },
+  "rail": {
+    "start": "Start",
+    "numbers": "Zahlen",
+    "styles": "Stile",
+    "hours": "Stunden",
+    "together": "Zusammen",
+    "faceoff": "Duell",
+    "timeline": "Zeitleiste",
+    "verdict": "Urteil"
+  },
+  "page": {
+    "titleDemo": "Beispiel-Kopf-an-Kopf · Rift Recap",
+    "titleEmpty": "Kopf-an-Kopf · Rift Recap",
+    "title": "{a} gegen {b} · Kopf-an-Kopf",
+    "description": "Zwei League-Spieler, Statistik für Statistik verglichen, dazu wie sie zusammen abschneiden.",
+    "unreadableTwo": "{who} konnte nicht gelesen werden. Riot-IDs sehen aus wie Name#TAG.",
+    "first": "den ersten Spieler",
+    "second": "den zweiten Spieler",
+    "malformed": "Einer der Spieler in diesem Link konnte nicht gelesen werden.",
+    "notFound": "Einer dieser Spieler wurde nicht gefunden. Prüfe die Schreibweise und den Server.",
+    "same": "Wähle zwei verschiedene Spieler.",
+    "noGames": "Seit {since} wurden keine Spiele für {names} gefunden, also gibt es noch nichts zu vergleichen."
+  }
+}

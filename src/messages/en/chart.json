@@ -1,0 +1,9 @@
+{
+  "aria": "Gold lead between {a} and {b} over the latest game they played against each other. {result}",
+  "aheadEnd": "{name} is ahead by {gold} at the end.",
+  "levelEnd": "Level at the end.",
+  "minute": "Minute <b>{minute}</b>",
+  "ahead": "<b>{name}</b> {gold} gold ahead",
+  "level": "Level",
+  "won": "{name} won"
+}

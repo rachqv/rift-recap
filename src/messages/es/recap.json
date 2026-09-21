@@ -1,0 +1,381 @@
+{
+  "season": "Temporada {year}",
+  "strip": "{wins, plural, one {# victoria} other {# victorias}} y {losses, plural, one {# derrota} other {# derrotas}}, de la partida más antigua a la más reciente",
+  "record": "{wins}V · {losses}D",
+  "recordChip": "<good>{wins}</good>V <bad>{losses}</bad>D",
+  "winRateChip": "<b>{rate}</b> de victorias",
+  "kdaChip": "<b>{kda}</b> KDA",
+  "gamesChip": "{count, plural, one {<b>#</b> partida} other {<b>#</b> partidas}}",
+  "gamesLabel": "{count, plural, one {# partida} other {# partidas}}",
+  "intro": {
+    "eyebrow": "Resumen de {season}",
+    "caption": "{games, plural, other {Repasamos # de tus partidas. ¿Listo para ver cómo te fue?}}",
+    "scroll": "Desliza"
+  },
+  "games": {
+    "eyebrow": "Estuviste ahí",
+    "played": "{count, plural, one {partida jugada} other {partidas jugadas}}",
+    "riftOnly": "{count, plural, one {partida en la Grieta del Invocador} other {partidas en la Grieta del Invocador}}",
+    "wins": "{count, plural, one {<good>#</good> victoria} other {<good>#</good> victorias}}",
+    "losses": "{count, plural, one {<bad>#</bad> derrota} other {<bad>#</bad> derrotas}}",
+    "hours": "{n, plural, one {<b>{value}</b> hora} other {<b>{value}</b> horas}}"
+  },
+  "win": {
+    "eyebrow": "Tu porcentaje de victorias"
+  },
+  "champion": {
+    "eyebrow": "Tu campeón insignia",
+    "more": "Todas tus partidas con {champion}",
+    "back": "Volver a tu resumen completo",
+    "pageTitle": "{champion} · {name}#{tag} · Rift Recap",
+    "pageEyebrow": "Informe del campeón",
+    "noneTitle": "Sin partidas con este campeón",
+    "none": "{who} no tiene partidas con {champion} en este periodo. Prueba con otro campeón del resumen."
+  },
+  "kda": {
+    "eyebrow": "Tus estadísticas de combate",
+    "kills": "asesinatos",
+    "deaths": "muertes",
+    "assists": "asistencias",
+    "perGame": "{value} / partida",
+    "best": "Tu mejor partida",
+    "bestLine": "{champion} · {kills}/{deaths}/{assists}",
+    "victory": "Victoria",
+    "defeat": "Derrota"
+  },
+  "style": {
+    "eyebrow": "Cómo juegas",
+    "mainRole": "rol principal · {share}",
+    "cs": "CS por minuto",
+    "vision": "visión por minuto",
+    "damage": "daño por minuto",
+    "kp": "participación en asesinatos",
+    "penta": "{count, plural, one {<b>#</b> pentakill} other {<b>#</b> pentakills}}",
+    "quadra": "{count, plural, one {<b>#</b> quadrakill} other {<b>#</b> quadrakills}}",
+    "triple": "{count, plural, one {<b>#</b> triplekill} other {<b>#</b> triplekills}}",
+    "firstBloods": "{count, plural, one {<b>#</b> primera sangre} other {<b>#</b> primeras sangres}}",
+    "deathless": "{count, plural, one {<b>#</b> partida sin morir} other {<b>#</b> partidas sin morir}}",
+    "longestWon": "Tu partida más larga duró {duration} con {champion}. Y además la ganaste.",
+    "longestLost": "Tu partida más larga duró {duration} con {champion}. A veces simplemente no acaban bien."
+  },
+  "mode": {
+    "aram": {
+      "eyebrow": "Al Abismo de los Lamentos",
+      "label": "{count, plural, one {partida de ARAM} other {partidas de ARAM}}"
+    },
+    "normal": {
+      "eyebrow": "Solo por diversión",
+      "label": "{count, plural, one {partida normal} other {partidas normales}}"
+    }
+  },
+  "rank": {
+    "emblem": "Emblema de {title}",
+    "lp": "<b>{lp}</b> PL",
+    "caption": "Tu rango ahora mismo. Toda subida empieza con la siguiente partida."
+  },
+  "persona": {
+    "eyebrow": "Esta temporada, fuiste",
+    "also": "También destacan: {list}",
+    "main": "Principal: <b>{champion}</b>",
+    "shareTitle": "Mi temporada de League: {title}",
+    "compare": "Compárate con un amigo",
+    "squad": "Resumen de equipo",
+    "search": "Buscar a otro jugador",
+    "count": "1 de {count} arquetipos",
+    "countEstimate": "1 de {count} arquetipos · la rareza es una estimación"
+  },
+  "calendar": {
+    "eyebrow": "Tu calendario",
+    "note": "Basado en tus últimas {count, plural, one {# partida} other {# partidas}}."
+  },
+  "clock": {
+    "eyebrow": "Cuándo ganas"
+  },
+  "items": {
+    "eyebrow": "Tu objeto de confianza",
+    "inGames": "{games, plural, one {En <b>{count}</b> de tus # partida} other {En <b>{count}</b> de tus # partidas}}",
+    "winWith": "<b>{rate}</b> de victorias con él",
+    "without": "<b>{rate}</b> sin él",
+    "boots": "Botas"
+  },
+  "objectives": {
+    "eyebrow": "Objetivos",
+    "lead": "Tus equipos consiguieron, en {games, plural, one {# partida} other {# partidas}}",
+    "tiles": {
+      "tower": "Torretas",
+      "dragon": "Dragones",
+      "baron": "Barones",
+      "herald": "Heraldos",
+      "grubs": "Larvas del Vacío",
+      "inhibitor": "Inhibidores"
+    },
+    "youTotal": "tú: {count}",
+    "youSecured": "aseguraste {count}",
+    "perGame": "{value} por partida",
+    "firstTower": "Primera torreta en el <b>{rate}</b> de las partidas",
+    "withWithout": "<good>{withIt}</good> de victorias con ella · <b>{without}</b> sin ella",
+    "stolen": "<b>{count}</b> robados"
+  },
+  "tilt": {
+    "eyebrow": {
+      "tilt": "Prueba de tilt",
+      "resilient": "Prueba de remontada",
+      "steady": "Prueba de mentalidad"
+    },
+    "afterWin": "Tras una victoria",
+    "afterLoss": "Tras una derrota",
+    "tilts": "Se tiltea tras perder",
+    "bounces": "Se recupera"
+  },
+  "comfort": {
+    "eyebrow": "Tu zona de confort",
+    "lead": "Porcentaje de victorias por campeón, frente a tu {rate} total"
+  },
+  "gray": {
+    "eyebrow": "La pantalla gris",
+    "unit": "h",
+    "spentDead": "muerto",
+    "aliveAria": "Vivo el {alive} del tiempo, muerto el {dead}",
+    "alive": "Vivo {value}",
+    "dead": "Muerto {value}",
+    "share": "<b>{share}</b> de tu tiempo en partida",
+    "perGame": "<b>{minutes}</b> min por partida",
+    "films": "{n, plural, one {Unas <b>#</b> película} other {Unas <b>#</b> películas}}"
+  },
+  "progress": {
+    "eyebrow": "Desde la última vez",
+    "lead": "{date} · {saved, plural, one {# partida} other {# partidas}} → ahora {games}",
+    "was": " · eras {persona}",
+    "improved": "<good>▲ {count}</good> mejoraron",
+    "slipped": "<bad>▼ {count}</bad> empeoraron",
+    "mood": {
+      "better": "mejoró",
+      "worse": "empeoró",
+      "flat": "sin cambios"
+    }
+  },
+  "trophies": {
+    "eyebrow": "Tu vitrina de trofeos",
+    "of": "de {total} desbloqueados",
+    "unlocked": "Desbloqueado",
+    "progress": "Al {percent}",
+    "next": "El más cercano a desbloquear: {name} ({percent}). {text}",
+    "all": "Todos los trofeos que podías ganar, los ganaste.",
+    "lines": "Bingos <b>{count}</b>",
+    "free": "Gratis",
+    "board": "Tablero de bingo de trofeos",
+    "nextBingo": "Próximo bingo: {name} ({percent}). {text}",
+    "shareTitle": "Mi bingo de trofeos de Rift Recap"
+  },
+  "blame": {
+    "eyebrow": "¿Fue culpa tuya?",
+    "carry": "Cargaste con el equipo",
+    "weak": "El eslabón débil",
+    "team": "Esfuerzo de equipo",
+    "across": "En tus {losses, plural, one {# derrota} other {# derrotas}}",
+    "topDamage": "Mayor daño",
+    "chance": "Por pura casualidad sería el {rate}",
+    "deaths": "Muertes del equipo",
+    "average": "El promedio es el {rate}"
+  },
+  "tierList": {
+    "eyebrow": "Tu lista de niveles",
+    "aria": "Lista de niveles de campeones",
+    "title": "{name}: {winRate} en {games, plural, one {# partida} other {# partidas}}",
+    "note": "Ordenados por victorias y luego por KDA. Los campeones con menos de 4 partidas se dejan fuera."
+  },
+  "habits": {
+    "eyebrow": "Tus hábitos",
+    "pings": "{value} pings por partida",
+    "flash": "Destello en {key} · {value} usos por partida",
+    "pairShare": "en el {share} de las partidas",
+    "quits": "{enemy} rendiciones enemigas · {ours} tuyas",
+    "ping": "Estilo de ping",
+    "spells": "Hechizos de invocador",
+    "surrender": "Terminaron en rendición"
+  },
+  "damage": {
+    "eyebrow": "Tu daño",
+    "parts": {
+      "physical": "Físico",
+      "magic": "Mágico",
+      "true": "Verdadero"
+    },
+    "partAria": "{label} {share}"
+  },
+  "comp": {
+    "eyebrow": "Composición de equipo",
+    "with": "Con un <b>{class}</b>",
+    "games": "{withGames, plural, one {# partida} other {# partidas}} frente a {withoutGames, plural, one {# partida} other {# partidas}} sin él",
+    "versus": "frente a {rate}"
+  },
+  "sessions": {
+    "eyebrow": "Tus noches",
+    "lead": "{count, plural, one {# sesión} other {# sesiones}} · unas {avg} partidas cada una",
+    "best": "Mejor noche",
+    "worst": "Peor noche",
+    "longest": "Sesión más larga",
+    "meta": "{games, plural, one {# partida} other {# partidas}} · {date}"
+  },
+  "highlights": {
+    "eyebrow": "Vídeo de highlights",
+    "minutes": "{count, plural, one {# minuto} other {# minutos}}",
+    "meta": "{what} · {date}",
+    "won": "Ganada",
+    "lost": "Perdida",
+    "caption": "Las partidas que sacarás en las fiestas."
+  },
+  "lane": {
+    "lane": "Revisión de línea",
+    "gold": "Hábitos de oro",
+    "cs": "CS frente al rival de línea",
+    "goldDiff": "Oro frente al rival de línea",
+    "damage": "Daño frente al rival de línea",
+    "unspent": "Oro sin gastar al final",
+    "ahead": "Por delante en oro en el <b>{rate}</b> de {games, plural, one {# partida} other {# partidas}}",
+    "kills": "{value} asesinatos por partida",
+    "csValue": "{value} CS"
+  },
+  "early": {
+    "eyebrow": "A los 15 minutos",
+    "titles": {
+      "early": "Matón del early game",
+      "late": "Escalador del late game",
+      "steady": "Pulso firme"
+    },
+    "parts": {
+      "ahead": "Por delante",
+      "even": "Igualado",
+      "behind": "Por detrás"
+    },
+    "aria": "{label} en {n, plural, one {# partida} other {# partidas}}",
+    "wonAhead": "Ganaste <good>{wins}</good> de {total} yendo por delante",
+    "wonBehind": "Ganaste <b>{wins}</b> de {total} yendo por detrás",
+    "lead": "Tus últimas {games, plural, one {# partida de línea} other {# partidas de línea}}, frente a tu rival de línea"
+  },
+  "chapters": {
+    "eyebrow": "Tu temporada en capítulos",
+    "wins": "{rate} de victorias",
+    "note": "Cada capítulo se puntúa con sus propias partidas, así que los cortos son menos fiables."
+  },
+  "flames": {
+    "eyebrow": "Viejas llamas",
+    "lead": "Campeones que conoces bien y apenas tocaste esta temporada",
+    "mastery": "Maestría {level} · {played}",
+    "notPlayed": "sin jugar",
+    "caption": "{champion} tiene {points} puntos de maestría a sus espaldas. Te echa de menos."
+  },
+  "social": {
+    "duo": {
+      "eyebrow": "Tu dúo",
+      "together": "{count, plural, one {partida juntos} other {partidas juntos}}",
+      "winTogether": "<b>{rate}</b> de victorias juntos",
+      "apart": "<b>{rate}</b> por separado",
+      "combo": "Mejor combinación: <b>{pair}</b>",
+      "alone": "Todas las partidas de esta temporada fueron con {name}. Eso es compromiso.",
+      "better": "Ganas el {withRate} con {name} y el {without} sin {name}. Que no se rompa la banda.",
+      "worse": "Ganas menos con {name} ({withRate} frente al {without} en solitario). La amistad por encima de las estadísticas.",
+      "same": "Más o menos el mismo porcentaje de victorias con o sin {name}. Lo importante es la compañía.",
+      "seeRecap": "Ver el resumen de {name}",
+      "versus": "Cara a cara"
+    },
+    "matchup": {
+      "single": "Tu rival de línea",
+      "both": "Némesis frente a mejor duelo",
+      "nemesis": "Tu némesis",
+      "best": "Tu mejor duelo",
+      "vs": "VS",
+      "record": "<good>{wins}V</good> <bad>{losses}D</bad>",
+      "meta": "{rate} de victorias",
+      "metaAs": "{rate} de victorias · con {champion}",
+      "insightBoth": "Veta a {nemesis} y espera a {best}.",
+      "insightNemesis": "{nemesis} es tu kriptonita. Plantéate vetarlo.",
+      "insightBest": "{best} nunca tuvo ninguna oportunidad contra ti."
+    }
+  },
+  "rail": {
+    "start": "Inicio",
+    "games": "Partidas",
+    "week": "Semana a semana",
+    "form": "Forma",
+    "calendar": "Calendario",
+    "clock": "Reloj",
+    "patches": "Parches",
+    "nights": "Noches",
+    "wins": "Victorias",
+    "progress": "Progreso",
+    "tilt": "Tilt",
+    "tiltGuard": "Señal de stop",
+    "blame": "¿Tú?",
+    "champion": "Campeón",
+    "comfort": "Confort",
+    "flames": "Viejas llamas",
+    "tierList": "Niveles",
+    "pool": "Probar",
+    "combat": "Combate",
+    "highlights": "Highlights",
+    "damage": "Daño",
+    "gray": "Pantalla gris",
+    "playstyle": "Estilo",
+    "lane": "Línea",
+    "early": "Early game",
+    "habits": "Hábitos",
+    "items": "Objetos",
+    "runes": "Runas",
+    "objectives": "Objetivos",
+    "duo": "Dúo",
+    "matchups": "Duelos",
+    "comps": "Composiciones",
+    "normals": "Normales",
+    "aram": "ARAM",
+    "chapters": "Capítulos",
+    "trophies": "Trofeos",
+    "rank": "Rango",
+    "guess": "Adivina",
+    "you": "Tú",
+    "back": "Volver"
+  },
+  "page": {
+    "title": "{name}#{tag} · Rift Recap",
+    "description": "Un resumen de temporada de League of Legends: estadísticas, un arquetipo y una tarjeta para compartir.",
+    "failed": "No se pudo cargar este resumen",
+    "noGamesTitle": "Aún no hay partidas",
+    "noGames": "No encontramos ninguna partida de {who} desde el {since}. Juega unas cuantas y vuelve.",
+    "noRangeTitle": "No hay partidas en este periodo",
+    "noRange": "{who} no ha jugado ninguna partida desde el {since}. Prueba con un periodo más largo."
+  },
+  "tiltguard": {
+    "eyebrow": "Guardián del tilt",
+    "step1": "Tras 1 derrota",
+    "step2": "Tras 2 seguidas",
+    "step3": "Tras 3+ seguidas",
+    "live": "Ahora mismo"
+  },
+  "formcurve": {
+    "eyebrow": "Tu temporada como una línea",
+    "lead": "Porcentaje de victorias en cualquier tramo de {games}",
+    "best": "Mejor <b>{rate}</b> · terminó el {date}",
+    "worst": "Peor <b>{rate}</b> · terminó el {date}",
+    "now": "Ahora <b>{rate}</b>",
+    "aria": "Porcentaje de victorias móvil: mejor {best}, peor {worst}, último {now}",
+    "shareTitle": "Mi temporada como una línea"
+  },
+  "week": {
+    "eyebrow": "Últimos 7 días vs los 7 anteriores",
+    "lead": "{now} ahora · {before} antes"
+  },
+  "patches": {
+    "eyebrow": "Parche a parche",
+    "title": "Porcentaje de victorias por parche"
+  },
+  "runes": {
+    "eyebrow": "Tu runa clave",
+    "winWith": "<b>{rate}</b> de victorias con ella",
+    "without": "<b>{rate}</b> sin ella"
+  },
+  "pool": {
+    "eyebrow": "Campeones para probar",
+    "because": "Porque {champion} te funciona: {rate} de victorias",
+    "note": "Elegidos por clase y estilo de juego parecidos. Una sugerencia, no una promesa."
+  }
+}

@@ -1,0 +1,142 @@
+.fan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem 0;
+}
+
+.card {
+  position: relative;
+  translate: calc(var(--px, 0) * 10px) calc(var(--py, 0) * 6px);
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  width: 14rem;
+  min-height: 10.5rem;
+  padding: 1.25rem;
+  border: 1px solid rgba(200, 170, 110, 0.3);
+  border-radius: 16px;
+  background: linear-gradient(160deg, rgba(20, 40, 80, 0.75), rgba(8, 16, 34, 0.75));
+  backdrop-filter: blur(10px);
+  box-shadow:
+    0 30px 60px -25px rgba(0, 0, 0, 0.8),
+    inset 0 1px 0 rgba(255, 255, 255, 0.06);
+  animation: float 6s ease-in-out infinite;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  border-color: var(--hextech);
+  box-shadow:
+    0 30px 60px -25px rgba(10, 200, 185, 0.45),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+/* Fan layout: each card gets its own tilt and float phase. */
+.c1 {
+  --r: -8deg;
+  --y: 1.5rem;
+  animation-delay: 0s;
+}
+.c2 {
+  --r: -3deg;
+  --y: 0rem;
+  animation-delay: -1.5s;
+}
+.c3 {
+  --r: 3deg;
+  --y: 0rem;
+  animation-delay: -3s;
+}
+.c4 {
+  --r: 8deg;
+  --y: 1.5rem;
+  animation-delay: -4.5s;
+}
+
+.label {
+  font-size: 0.7rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.big {
+  font-family: var(--font-display), Georgia, serif;
+  font-size: 2rem;
+  line-height: 1.1;
+  background: linear-gradient(90deg, var(--gold-bright), var(--accent));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.hint {
+  margin-top: auto;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
+.meter {
+  height: 6px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.08);
+  overflow: hidden;
+}
+
+.meter span {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, var(--hextech), var(--gold-bright));
+  box-shadow: 0 0 10px var(--hextech);
+}
+
+.bars {
+  display: flex;
+  align-items: flex-end;
+  gap: 5px;
+  height: 2.5rem;
+  margin-top: auto;
+}
+
+.bars span {
+  flex: 1;
+  border-radius: 3px 3px 0 0;
+  background: linear-gradient(to top, rgba(10, 200, 185, 0.2), var(--hextech));
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(var(--y)) rotate(var(--r));
+  }
+  50% {
+    transform: translateY(calc(var(--y) - 0.9rem)) rotate(var(--r));
+  }
+}
+
+@media (max-width: 960px) {
+  .fan {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    justify-items: center;
+  }
+  .c1,
+  .c2,
+  .c3,
+  .c4 {
+    --r: 0deg;
+    --y: 0rem;
+  }
+}
+
+@media (max-width: 520px) {
+  .fan {
+    grid-template-columns: 1fr;
+  }
+  .card {
+    width: min(100%, 20rem);
+  }
+}

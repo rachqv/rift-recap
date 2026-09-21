@@ -1,0 +1,39 @@
+{
+  "thisSeason": "Mùa này, tôi là",
+  "disclaimer": "Rift Recap không được Riot Games chứng thực và không phản ánh quan điểm hay ý kiến của Riot Games hoặc bất kỳ ai chính thức tham gia sản xuất hay quản lý các tài sản của Riot Games.",
+  "games": "Trận",
+  "winRate": "Tỷ lệ thắng",
+  "kda": "KDA",
+  "trophies": "Cúp",
+  "rank": "Hạng",
+  "main": "Main",
+  "topChampion": "Tướng hàng đầu",
+  "gamesCount": "{count, plural, other {# trận}}",
+  "squad": {
+    "header": "Tổng kết nhóm",
+    "gamesTogether": "Trận chơi cùng nhau",
+    "hours": "Giờ",
+    "together": "Cùng nhau",
+    "awards": "Giải thưởng"
+  },
+  "versus": {
+    "header": "Đối đầu",
+    "vs": "VS",
+    "rowsWon": "Mục thắng",
+    "scenarios": "Tình huống hay nhất",
+    "numbers": "Các con số",
+    "unranked": "Chưa xếp hạng"
+  },
+  "bingo": {
+    "header": "Bingo cúp",
+    "free": "Miễn phí",
+    "lines": "Bingo",
+    "next": "Bingo tiếp theo: {name}"
+  },
+  "form": {
+    "best": "Giai đoạn tốt nhất",
+    "worst": "Giai đoạn tệ nhất",
+    "now": "Hiện tại",
+    "ended": "Kết thúc {date}"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "thisSeason": "ซีซันนี้ ฉันคือ",
+  "disclaimer": "Rift Recap ไม่ได้รับการรับรองจาก Riot Games และไม่ได้สะท้อนมุมมองหรือความคิดเห็นของ Riot Games หรือบุคคลใดที่เกี่ยวข้องกับการผลิตหรือจัดการทรัพย์สินของ Riot Games อย่างเป็นทางการ",
+  "games": "เกม",
+  "winRate": "อัตราชนะ",
+  "kda": "KDA",
+  "trophies": "ถ้วยรางวัล",
+  "rank": "แรงค์",
+  "main": "เมน",
+  "topChampion": "แชมเปียนยอดนิยม",
+  "gamesCount": "{count, plural, other {# เกม}}",
+  "squad": {
+    "header": "สรุปทีม",
+    "gamesTogether": "เกมที่เล่นด้วยกัน",
+    "hours": "ชั่วโมง",
+    "together": "ด้วยกัน",
+    "awards": "รางวัล"
+  },
+  "versus": {
+    "header": "ตัวต่อตัว",
+    "vs": "VS",
+    "rowsWon": "หัวข้อที่ชนะ",
+    "scenarios": "ฉากเด็ด",
+    "numbers": "ตัวเลข",
+    "unranked": "ยังไม่มีแรงค์"
+  },
+  "bingo": {
+    "header": "บิงโกถ้วยรางวัล",
+    "free": "ฟรี",
+    "lines": "บิงโก",
+    "next": "บิงโกถัดไป: {name}"
+  },
+  "form": {
+    "best": "ช่วงที่ดีที่สุด",
+    "worst": "ช่วงที่แย่ที่สุด",
+    "now": "ตอนนี้",
+    "ended": "จบเมื่อ {date}"
+  }
+}

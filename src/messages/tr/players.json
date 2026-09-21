@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "title": "Oyuncuların · Rift Recap"
+  },
+  "title": "Oyuncuların",
+  "lead": "Bu cihazda aradığın herkes; özetlerine, kafa kafaya karşılaşmaya veya takıma kısayolla.",
+  "empty": "Henüz oyuncu yok. <home>Ana sayfada</home> birini ara, burada görünecek.",
+  "recap": "Özet",
+  "versus": "Kafa kafaya",
+  "squad": "Takım",
+  "remove": "{name} oyuncusunu bu listeden kaldır",
+  "clear": "Hepsini temizle",
+  "pin": "{name} oyuncusunu en üste sabitle",
+  "unpin": "{name} sabitlemesini kaldır",
+  "clearUnpinned": "Sabitlenmeyenleri temizle"
+}

@@ -1,0 +1,14 @@
+{
+  "meta": { "title": "Tus jugadores · Rift Recap" },
+  "title": "Tus jugadores",
+  "lead": "Todos los jugadores que has buscado en este dispositivo, con acceso directo a su resumen, un cara a cara o un equipo.",
+  "empty": "Aún no hay jugadores. Busca a alguien en la <home>página de inicio</home> y aparecerá aquí.",
+  "recap": "Resumen",
+  "versus": "Cara a cara",
+  "squad": "Equipo",
+  "remove": "Quitar a {name} de esta lista",
+  "clear": "Borrar todo",
+  "pin": "Fijar a {name} arriba",
+  "unpin": "Dejar de fijar a {name}",
+  "clearUnpinned": "Borrar los no fijados"
+}

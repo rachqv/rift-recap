@@ -1,0 +1,30 @@
+{
+  "same": "Hrajete ve stejnou dobu. Děsivé.",
+  "daysShort": "{value} d",
+  "nightOwl": {
+    "title": "Noční sova",
+    "tagline": "Zápasy, které začínají po půlnoci.",
+    "line": "{share} zápasů hráče {name} začíná po půlnoci. Hráč {other} má večerku."
+  },
+  "earlyBird": {
+    "title": "Ranní ptáče",
+    "tagline": "Zápasy, které začínají před polednem.",
+    "line": "{share} zápasů hráče {name} je před polednem. Do fronty s kávou. Hráč {other} si přispí."
+  },
+  "weekend": {
+    "title": "Víkendový válečník",
+    "tagline": "Zápasy odehrané v sobotu nebo v neděli.",
+    "line": "{share} zápasů hráče {name} připadá na víkend. Hráč {other} je spíš hráč všedních dnů."
+  },
+  "streak": {
+    "title": "Denní zvyk",
+    "tagline": "Nejdelší řada dní po sobě se zápasem.",
+    "line": "Hráč {name} hrál {days, plural, one {# den} few {# dny} other {# dní}} v řadě. Hráč {other} si dal pauzu po {otherDays}."
+  },
+  "binge": {
+    "title": "Maratonský den",
+    "tagline": "Nejvíc zápasů za jediný den.",
+    "line": "Hráč {name} jednou odehrál {games, plural, one {# zápas} few {# zápasy} other {# zápasů}} za jediný den. Večeře se vynechala."
+  },
+  "label": "Scénáře"
+}

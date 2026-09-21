@@ -1,0 +1,400 @@
+{
+  "rows": {
+    "winRate": "승률",
+    "kda": "KDA",
+    "kills": "게임당 킬",
+    "deaths": "게임당 데스",
+    "assists": "게임당 어시스트",
+    "cs": "분당 CS",
+    "vision": "분당 시야",
+    "damage": "분당 피해량",
+    "kp": "킬 관여율"
+  },
+  "verdict": {
+    "tie": "각자 {score}개 항목씩이에요. 소름 돋을 만큼 팽팽해요.",
+    "sweep": "{name} 님이 중요한 항목을 모두 가져갔어요. {other} 님은 따라잡을 게 많아요.",
+    "clear": "{name} 님이 {hi}개 대 {lo}개 항목으로 이겼어요. 접전이 아니었어요.",
+    "edge": "{name} 님이 {hi}개 대 {lo}개 항목으로 근소하게 앞서요. {other} 님이 바로 뒤에 있어요."
+  },
+  "rematch": {
+    "changed": "선두가 바뀌었어요. 이제 {name} 님이 앞서요.",
+    "improved": "{name} 님이 그때보다 더 많이 성장했어요(승률 {better}포인트 대 {worse}포인트).",
+    "same": "지난번과 거의 같은 구도예요."
+  },
+  "groups": {
+    "moments": {
+      "label": "명장면",
+      "eyebrow": "큰 순간들"
+    },
+    "habits": {
+      "label": "습관",
+      "eyebrow": "협곡에서의 습관"
+    },
+    "form": {
+      "label": "폼",
+      "eyebrow": "폼과 근성"
+    },
+    "identity": {
+      "label": "누가 누구",
+      "eyebrow": "누가 누구"
+    }
+  },
+  "short": {
+    "win": "{value}승",
+    "loss": "{value}패",
+    "record": "{rate} · {games}게임",
+    "champs": "{count, plural, other {#챔프}}",
+    "minutes": "{value}분",
+    "hours": "{value}시간",
+    "level": "Lv {value}",
+    "seconds": "{value}초",
+    "epic": "용{dragons} 바론{barons}",
+    "none": "없음",
+    "noneLower": "없음",
+    "penta": "{count}P",
+    "quadra": "{count}Q",
+    "triple": "{count}T"
+  },
+  "multi": {
+    "penta": "{count, plural, other {펜타킬 #회}}",
+    "quadra": "{count, plural, other {쿼드라킬 #회}}",
+    "triple": "{count, plural, other {트리플킬 #회}}"
+  },
+  "trend": {
+    "steady": "{name} 님은 {rate}에서 유지했어요",
+    "change": "{name} 님은 승률이 {early}에서 {late}로 바뀌었어요"
+  },
+  "scenarios": {
+    "multikills": {
+      "title": "하이라이트",
+      "tagline": "적 채팅이 얼마나 시끄러웠는지를 가중치로 둔 펜타, 쿼드라, 트리플.",
+      "line": "{name} 님이 {list}을(를) 모았어요. 하이라이트 폴더가 가득 찼어요."
+    },
+    "firstBlood": {
+      "title": "퍼스트 블러드",
+      "tagline": "누군가는 싸움을 시작해야 하니까요.",
+      "line": "{name} 님이 게임의 {rate}에서 퍼스트 블러드를 땄어요. {other} 님은 멋지게 늦게 도착해요."
+    },
+    "flawless": {
+      "title": "무결점 게임",
+      "tagline": "처음부터 끝까지 데스 0.",
+      "line": "{name} 님이 한 번도 죽지 않고 {count, plural, other {#게임}}을 끝냈어요. 언터처블이에요."
+    },
+    "careerGame": {
+      "title": "인생 게임",
+      "tagline": "파티에서 두고두고 얘기할 그 게임.",
+      "line": "{name} 님이 {champion} 챔피언으로 {kills}/{deaths}/{assists}를 기록했어요.",
+      "lineLost": "{name} 님이 {champion} 챔피언으로 {kills}/{deaths}/{assists}를 기록하고도 졌어요. 가혹해요."
+    },
+    "spree": {
+      "title": "최대 연속 킬",
+      "tagline": "죽지 않고 이어 간 킬.",
+      "line": "{name} 님이 죽지 않고 {count}킬을 이었어요. 누가 소방서에 전화 좀 해 주세요."
+    },
+    "lifespan": {
+      "title": "가장 긴 생존",
+      "tagline": "한 번에 가장 오래 살아남은 시간.",
+      "line": "{name} 님이 한 번은 {time} 동안 계속 살아 있었어요. 샘물이 거의 몰라볼 정도예요."
+    },
+    "soloKills": {
+      "title": "솔로 킬",
+      "tagline": "일대일, 도움은 필요 없어요.",
+      "line": "{name} 님은 게임당 평균 솔로 킬 {value}회예요. 1대1을 좋아하는 사람이 있어요."
+    },
+    "dodge": {
+      "title": "매트릭스",
+      "tagline": "허공만 가르는 스킬샷.",
+      "line": "{name} 님은 게임당 스킬샷 {value}개를 피했어요. 맞히기도 어렵고, 잡기는 더 어려워요."
+    },
+    "thief": {
+      "title": "오브젝트 도둑",
+      "tagline": "드래곤? 무슨 드래곤이요?",
+      "line": "{name} 님이 오브젝트 {count, plural, other {#개}}를 스틸했어요. {other} 님은 구덩이를 더 잘 지켜봐야 해요."
+    },
+    "epic": {
+      "title": "에픽 몬스터 사냥꾼",
+      "tagline": "드래곤과 바론을 직접 마무리했어요.",
+      "line": "{name} 님이 드래곤 {dragons, plural, other {#마리}}와 바론 {barons, plural, other {#마리}}에게 결정타를 날렸어요."
+    },
+    "siege": {
+      "title": "철거 팀",
+      "tagline": "팀 포탑 중 직접 철거한 비율.",
+      "line": "{name} 님이 팀 포탑의 {share}를 철거했어요. 지은 것은 무엇도 살아남지 못해요."
+    },
+    "objDamage": {
+      "title": "오브젝트 피해량",
+      "tagline": "게임당 포탑, 드래곤, 바론에 준 피해량.",
+      "line": "{name} 님은 게임당 오브젝트에 {value}의 피해를 줬어요. 지도는 그저 할 일 목록이에요."
+    },
+    "flash": {
+      "title": "점멸 중독",
+      "tagline": "게임당 점멸 사용 횟수. 늘 쿨다운 중이에요.",
+      "line": "{name} 님은 게임당 점멸을 {value}번 써요. {other} 님은 더 용감하거나 더 느려요."
+    },
+    "grayScreen": {
+      "title": "회색 화면 시간",
+      "tagline": "매 게임에서 죽어 있는 시간 비율. 적을수록 좋아요.",
+      "line": "{other} 님은 매 게임의 {otherShare}를 부활 대기로 보내요. {name} 님은 겨우 {share}예요."
+    },
+    "pings": {
+      "title": "뒷좌석 운전사",
+      "tagline": "게임당 핑.",
+      "line": "{name} 님은 한 게임에 {value}번 핑을 찍었어요. 미니맵이 쉴 틈이 없었어요."
+    },
+    "pinks": {
+      "title": "제어 와드 예산",
+      "tagline": "게임당 설치한 제어 와드.",
+      "line": "{name} 님은 게임당 제어 와드를 {value}개 설치해요. {other} 님은 골드를 비상시를 위해 아껴 둬요."
+    },
+    "sweeper": {
+      "title": "와드 청소부",
+      "tagline": "게임당 제거한 적 와드.",
+      "line": "{name} 님은 게임당 적 와드 {value}개를 제거했어요. 그 랜턴 앞에서는 아무것도 숨을 수 없어요."
+    },
+    "gold": {
+      "title": "금광꾼",
+      "tagline": "분당 획득 골드.",
+      "line": "{name} 님은 분당 {value} 골드를 벌고 {other} 님은 {otherValue} 골드예요. 누군가는 상점을 더 자주 가요."
+    },
+    "tank": {
+      "title": "샌드백",
+      "tagline": "게임당 흡수한 피해.",
+      "line": "{name} 님은 게임당 {value}의 피해를 흡수했어요. 누군가는 해야 했어요."
+    },
+    "medic": {
+      "title": "팀 의무병",
+      "tagline": "게임당 아군에게 준 회복과 보호막.",
+      "line": "{name} 님은 게임당 팀을 위해 {value}의 피해량만큼 회복과 보호막을 줬어요."
+    },
+    "cc": {
+      "title": "군중 제어",
+      "tagline": "게임당 적을 묶어 둔 시간(초).",
+      "line": "{name} 님은 게임당 적을 {value, plural, other {#초}} 동안 묶어 뒀어요. 가만히 있어요."
+    },
+    "whiteFlag": {
+      "title": "백기",
+      "tagline": "항복으로 끝난 패배.",
+      "line": "{name} 님의 팀은 패배의 {share}에서 항복했어요. {other} 님은 넥서스까지 싸워요."
+    },
+    "crit": {
+      "title": "최대 치명타",
+      "tagline": "한 번에 터뜨린 가장 강한 치명타.",
+      "line": "{name} 님이 한 번은 {value}의 치명타를 넣었어요. 그건 단톡방에 올라갔어요."
+    },
+    "teamDamage": {
+      "title": "피해량을 짊어진 사람",
+      "tagline": "팀의 챔피언 대상 피해량 중 차지한 비율.",
+      "line": "{name} 님이 팀 피해량의 {share}를 냈어요. 나머지 팀원은 옆에 서 있었어요."
+    },
+    "hotStreak": {
+      "title": "연승 가도",
+      "tagline": "최장 연승.",
+      "line": "{name} 님은 한 번 {win}연승을 했어요. {other} 님의 최고는 {lose}이에요."
+    },
+    "tilt": {
+      "title": "틸트의 깊이",
+      "tagline": "최장 연패. 짧을수록 좋아요.",
+      "line": "{other} 님은 한 번 {lose}연패를 했어요. {name} 님은 {win}을 넘겨 가라앉은 적이 없어요."
+    },
+    "momentum": {
+      "title": "기세",
+      "tagline": "최근 절반 게임과 이전 절반 게임의 승률 비교.",
+      "line": "{first}, 한편 {second}."
+    },
+    "ladder": {
+      "title": "래더 순위",
+      "tagline": "랭크 래더에서 누가 더 위에 있는지.",
+      "line": "{name} 님({title})이 {other} 님({otherTitle})보다 위에 있어요. 공식적인 자랑 거리예요."
+    },
+    "seasonRanked": {
+      "title": "시즌 랭크 전적",
+      "tagline": "이번 시즌 모든 랭크 게임의 승률.",
+      "line": "{name} 님은 랭크 게임 승률 {rate}, {other} 님은 {otherRate}이에요."
+    },
+    "rankedForm": {
+      "title": "랭크의 압박",
+      "tagline": "최근 랭크 게임의 승률.",
+      "line": "{name} 님은 LP가 걸리면 {rate}를 이겨요. {other} 님은 {otherRate}를 이겨요."
+    },
+    "normals": {
+      "title": "걸린 게 없을 때",
+      "tagline": "최근 일반 게임의 승률.",
+      "line": "{name} 님은 일반 게임 승률 {rate}, {other} 님은 {otherRate}예요. 여유가 잘 어울려요."
+    },
+    "aram": {
+      "title": "나락의 주민",
+      "tagline": "칼바람 나락 다리 위의 승률.",
+      "line": "{name} 님은 다리에서 {rate}를 이겨요. {other} 님은 {otherRate}예요. 혼돈은 누군가의 편이에요."
+    },
+    "signature": {
+      "title": "주인공 기운",
+      "tagline": "가장 많이 한 챔피언의 승률.",
+      "line": "{name} 님은 {champion} 챔피언으로 {rate}를 이겨요. {other} 님은 {otherChampion} 챔피언으로 {otherRate}를 이겨요."
+    },
+    "pool": {
+      "title": "챔피언 폭",
+      "tagline": "서로 다른 챔피언을 몇 명이나 플레이했는지.",
+      "line": "{name} 님은 서로 다른 챔피언 {count, plural, other {#명}}을 플레이했어요. {other} 님은 {otherCount}에 정착했어요. 둘 중 한 명은 다양함을 좋아해요."
+    },
+    "roleLoyalty": {
+      "title": "포지션 의리",
+      "tagline": "시간 중 한 포지션에 쓴 비율.",
+      "line": "{name} 님은 시간의 {share}를 {role} 포지션에 써요. {other} 님은 더 자유롭게 돌아다녀요."
+    },
+    "closer": {
+      "title": "마무리 투수",
+      "tagline": "평균 게임 시간. 짧은 쪽이 이겨요.",
+      "line": "{name} 님의 게임은 {value}분 만에 끝나요. {other} 님의 게임은 {otherValue}이 걸려요. 누군가는 갈 곳이 있어요."
+    },
+    "marathon": {
+      "title": "마라톤 게임",
+      "tagline": "가장 긴 단일 게임.",
+      "line": "{name} 님이 한 번 {champion} 챔피언으로 {time} 동안 플레이해서 이겼어요. 간식이 동원됐어요.",
+      "lineLost": "{name} 님이 한 번 {champion} 챔피언으로 {time} 동안 플레이하고 졌어요. 간식이 동원됐어요."
+    },
+    "hours": {
+      "title": "협곡에서 보낸 시간",
+      "tagline": "이 게임들에서 보낸 시간.",
+      "line": "{name} 님은 {value}시간, {other} 님은 {otherValue}을 기록했어요. 잔디도 좀 밟아 보세요."
+    },
+    "level": {
+      "title": "계정의 고참",
+      "tagline": "소환사 레벨.",
+      "line": "{name} 님은 레벨 {level}, {other} 님은 레벨 {otherLevel}이에요. 둘 중 한 명은 여기 오래 있었어요."
+    },
+    "kryptonite": {
+      "title": "크립토나이트",
+      "tagline": "가장 상대하기 어려운 라인 상대와 그 결과.",
+      "line": "{other} 님은 {enemy} 챔피언에게 계속 져요({record}). {name} 님의 최악의 적 {theirEnemy} 챔피언은 그나마 다정한 이야기예요.",
+      "lineNone": "{other} 님은 {enemy} 챔피언을 이기지 못해요({record}). {name} 님에게는 천적이 아예 없어요."
+    },
+    "bully": {
+      "title": "단골 희생양",
+      "tagline": "라인에서 가장 많이 두들겨 팬 챔피언.",
+      "line": "{name} 님은 {champion} 챔피언을 상대로 {record}예요. 그 챔피언은 다른 라인을 찾아야 해요."
+    }
+  },
+  "slides": {
+    "small": "(표본이 적으니 가볍게 받아들이세요.)",
+    "intro": {
+      "eyebrow": "1대1 비교",
+      "unranked": "언랭크",
+      "games": "{count, plural, other {#게임}} 분석",
+      "vs": "VS",
+      "differentServers": "서버가 달라서 비교할 공통 게임이 없어요."
+    },
+    "stats": {
+      "eyebrow": "숫자로 보기",
+      "aria": "통계 비교",
+      "ties": "{count, plural, other {#개}} 항목은 너무 팽팽해서 가리지 못했어요."
+    },
+    "style": {
+      "eyebrow": "서로 다른 두 플레이어",
+      "meta": "{games, plural, other {#게임}} · 승률 {rate}",
+      "metaRole": "{games, plural, other {#게임}} · 승률 {rate} · {role}"
+    },
+    "scenario": {
+      "eyebrow": "{group} · {position} / {total}",
+      "wins": "승리",
+      "leads": "앞섬",
+      "vs": "대"
+    },
+    "rhythm": {
+      "eyebrow": "플레이하는 시간대",
+      "note": "내 시간대 기준이에요."
+    },
+    "faceoff": {
+      "eyebrow": "정면 승부",
+      "meetings": "{count, plural, other {적으로 <b>#</b>번 만남}}",
+      "duels": "{count, plural, other {라인전 <b>#</b>번}} · {left}–{right}",
+      "better": "더 자주 KDA가 높은 사람: <b>{name}</b> 님",
+      "last": "마지막으로 만난 게임",
+      "lastRole": "마지막으로 만난 게임, 포지션은 {role}",
+      "roles": {
+        "TOP": "탑 라인",
+        "JUNGLE": "정글",
+        "MIDDLE": "미드 라인",
+        "BOTTOM": "바텀 라인",
+        "UTILITY": "서포터",
+        "other": "같은 라인"
+      },
+      "won": "승리",
+      "lost": "패배",
+      "meta": "{champion} · {kills}/{deaths}/{assists}",
+      "even": "상대 팀일 때는 정확히 동률이에요. 결판이 오래전에 났어야 해요.",
+      "sweep": "{name} 님은 {other} 님에게 한 번도 진 적이 없어요. {other} 님은 언제든 재대결을 요청해도 좋아요.",
+      "edge": "{name} 님이 {hi} 대 {lo}로 우세해요. {other} 님이 복수를 노리고 있어요."
+    },
+    "timeline": {
+      "eyebrow": "분 단위로",
+      "kills": "<b>{meetings, plural, other {#번}}</b>의 맞대결에서 서로에게 낸 킬",
+      "solo": "솔로 킬: <sa>{left}</sa> – <sb>{right}</sb>",
+      "ahead": "{minute}분 시점 앞섬: <sa>{left}</sa> – <sb>{right}</sb>",
+      "aheadLevel": "(동점 {count})",
+      "firstDeath": "먼저 죽은 횟수: <sa>{left}</sa> – <sb>{right}</sb>",
+      "firstDragon": "첫 드래곤: <sa>{left}</sa> – <sb>{right}</sb>",
+      "goldLead": "<b>{name}</b> 님의 평균 골드 우위 <b>{gold}</b>",
+      "noEdge": "주고받은 킬에서는 두 사람 모두 우위가 없어요.",
+      "killsLead": "주고받는 킬은 {name} 님이 가져가요. 초반은 아직 미지수예요.",
+      "level": "{minute}분 시점에는 평균 정확히 동률이에요. 누가 이기든 승부는 나중에 갈려요.",
+      "lead": "{leader} 님은 보통 {minute}분 시점에 평균 {gold} 골드 앞서요.",
+      "allWon": "{lead} 그리고 모든 우위가 승리로 이어졌어요. {other} 님은 뒤집을 길을 찾지 못해요.",
+      "noneWon": "{lead} 어째선지 그 게임들을 모두 졌어요. {other} 님은 역전의 왕이에요.",
+      "someWon": "{lead} 그 {ahead}번의 우위 중 {won}번을 마무리했어요."
+    },
+    "together": {
+      "eyebrow": "함께 플레이할 때",
+      "chemistry": "케미 · {label}",
+      "carry": "함께한 게임에서는 {name} 님이 KDA {kda}로 캐리해요.",
+      "even": "함께 플레이하면 정확히 동률이에요.",
+      "topDamage": "피해량 1위: <sa>{left}</sa> – <sb>{right}</sb>",
+      "winsMore": "<side>{name}</side> 님이 피해량을 이끌 때 더 잘 이겨요",
+      "winsMoreRates": "({rate} 대 {other})",
+      "apart": "<side>{name}</side> 님 따로 {apart} → 함께 {together}",
+      "each": "{aName} {a}점, {bName} {b}점",
+      "eachOne": "{name} 님 {value}점",
+      "lift": "두 사람 모두 따로일 때보다 함께일 때 더 잘 이겨요({each}). 계속 같이 큐를 잡으세요.",
+      "drag": "두 사람 모두 따로일 때보다 함께일 때 덜 이겨요({each}). 다른 사람들과 큐를 잡아 볼까요.",
+      "mixed": "함께 플레이하는 게 한 사람에게 더 도움이 돼요({each}).",
+      "flat": "함께 큐를 잡아도 승률은 거의 그대로예요. 그냥 같이 노는 거예요."
+    },
+    "verdict": {
+      "eyebrow": "판정",
+      "rows": "{count, plural, other {#개 항목}}",
+      "wins": "{name} 님 승리",
+      "tie": "너무 팽팽해서 가리기 어려워요",
+      "score": "{a}개 대 {b}개 항목",
+      "scoreTied": "{a}개 대 {b}개 항목, {ties}개 동률",
+      "main": "주력: <b>{champion}</b> 챔피언",
+      "rematchChip": "{date}: <sa>{left}</sa> – <sb>{right}</sb>",
+      "sideBets": "사이드 베팅 <sa>{left}</sa> – <sb>{right}</sb>",
+      "sideBetsNote": "하지만 사이드 베팅은 {name} 님이 이겼으니 단톡방에 이야깃거리가 생겼어요.",
+      "recap": "{name} 님의 리캡",
+      "shareTitle": "{a} 대 {b}: 리그 오브 레전드 1대1 비교",
+      "again": "새 매치업"
+    }
+  },
+  "rail": {
+    "start": "시작",
+    "numbers": "숫자",
+    "styles": "스타일",
+    "hours": "시간",
+    "together": "함께",
+    "faceoff": "정면 승부",
+    "timeline": "타임라인",
+    "verdict": "판정"
+  },
+  "page": {
+    "titleDemo": "샘플 1대1 비교 · Rift Recap",
+    "titleEmpty": "1대1 비교 · Rift Recap",
+    "title": "{a} 대 {b} · 1대1 비교",
+    "description": "두 리그 오브 레전드 플레이어를 통계별로 비교하고, 함께할 때의 성적도 살펴봐요.",
+    "unreadableTwo": "{who}을(를) 읽지 못했어요. Riot ID는 이름#TAG 형식이에요.",
+    "first": "첫 번째 플레이어",
+    "second": "두 번째 플레이어",
+    "malformed": "링크에 있는 플레이어 중 한 명을 읽지 못했어요.",
+    "notFound": "그중 한 명을 찾지 못했어요. 철자와 서버를 확인해 주세요.",
+    "same": "서로 다른 두 플레이어를 선택해 주세요.",
+    "noGames": "{since} 이후 {names}의 게임을 찾지 못해서 아직 비교할 게 없어요."
+  }
+}

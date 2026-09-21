@@ -1,0 +1,28 @@
+{
+  "verdict": {
+    "perfect": "Kamu mengenal skuadmu lebih baik daripada skuad mengenal dirinya sendiri.",
+    "good": "Lumayan. Jelas kamu sudah memperhatikan.",
+    "low": "Mungkin kamu perlu lebih banyak waktu bersama teman-temanmu."
+  },
+  "result": "Hasil kuis",
+  "round": "Siapa yang menang? {step} dari {total}",
+  "again": "Main lagi",
+  "group": "Siapa yang meraih penghargaan ini?",
+  "right": "Benar!",
+  "wrong": "Salah, itu {name}.",
+  "reveal": "{verdict} {line}",
+  "pick": "Pilih seorang pemain.",
+  "score": "Lihat skormu",
+  "next": "Penghargaan berikutnya",
+  "guess": {
+    "eyebrow": "Tebak arketipemu",
+    "lead": "Tiga petunjuk, empat arketipe. Kamu yang mana?",
+    "clueMain": "Paling sering dimainkan: {champion}",
+    "clueRate": "Win rate {rate}",
+    "clueKda": "KDA {kda}",
+    "group": "Arketipe kamu yang mana?",
+    "right": "Tepat. Kamu kenal gayamu sendiri.",
+    "wrong": "Hampir. Kamu {title}.",
+    "next": "Lanjut untuk melihat hasil lengkapnya."
+  }
+}

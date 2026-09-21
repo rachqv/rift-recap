@@ -1,0 +1,381 @@
+{
+  "season": "{year} 시즌",
+  "strip": "{wins, plural, other {#승}} {losses, plural, other {#패}}, 오래된 게임부터",
+  "record": "{wins}승 · {losses}패",
+  "recordChip": "<good>{wins}</good>승 <bad>{losses}</bad>패",
+  "winRateChip": "승률 <b>{rate}</b>",
+  "kdaChip": "KDA <b>{kda}</b>",
+  "gamesChip": "{count, plural, other {<b>#</b>게임}}",
+  "gamesLabel": "{count, plural, other {#게임}}",
+  "intro": {
+    "eyebrow": "{season} 리캡",
+    "caption": "{games, plural, other {#게임을 살펴봤어요. 결과를 볼 준비 되셨나요?}}",
+    "scroll": "스크롤"
+  },
+  "games": {
+    "eyebrow": "당신은 그 자리에 있었어요",
+    "played": "{count, plural, other {플레이한 게임}}",
+    "riftOnly": "{count, plural, other {소환사의 협곡 게임}}",
+    "wins": "{count, plural, other {<good>#</good>승}}",
+    "losses": "{count, plural, other {<bad>#</bad>패}}",
+    "hours": "{n, plural, other {<b>{value}</b>시간}}"
+  },
+  "win": {
+    "eyebrow": "나의 승률"
+  },
+  "champion": {
+    "eyebrow": "나의 대표 챔피언",
+    "more": "{champion}의 모든 게임",
+    "back": "전체 요약으로 돌아가기",
+    "pageTitle": "{champion} · {name}#{tag} · Rift Recap",
+    "pageEyebrow": "챔피언 리포트",
+    "noneTitle": "이 챔피언의 게임이 없어요",
+    "none": "{who}님은 이 기간에 {champion} 게임이 없어요. 요약에서 다른 챔피언을 골라 보세요."
+  },
+  "kda": {
+    "eyebrow": "나의 전투 기록",
+    "kills": "킬",
+    "deaths": "데스",
+    "assists": "어시스트",
+    "perGame": "게임당 {value}",
+    "best": "최고의 게임",
+    "bestLine": "{champion} · {kills}/{deaths}/{assists}",
+    "victory": "승리",
+    "defeat": "패배"
+  },
+  "style": {
+    "eyebrow": "플레이 스타일",
+    "mainRole": "주 포지션 · {share}",
+    "cs": "분당 CS",
+    "vision": "분당 시야",
+    "damage": "분당 피해량",
+    "kp": "킬 관여율",
+    "penta": "{count, plural, other {펜타킬 <b>#</b>회}}",
+    "quadra": "{count, plural, other {쿼드라킬 <b>#</b>회}}",
+    "triple": "{count, plural, other {트리플킬 <b>#</b>회}}",
+    "firstBloods": "{count, plural, other {퍼스트 블러드 <b>#</b>회}}",
+    "deathless": "{count, plural, other {무데스 게임 <b>#</b>회}}",
+    "longestWon": "가장 긴 게임은 {champion} 챔피언으로 {duration}이었고, 그 게임을 이기기까지 했어요.",
+    "longestLost": "가장 긴 게임은 {champion} 챔피언으로 {duration}이었어요. 어떤 게임은 그냥 좋게 끝나지 않아요."
+  },
+  "mode": {
+    "aram": {
+      "eyebrow": "칼바람 나락에서",
+      "label": "{count, plural, other {칼바람 나락 게임}}"
+    },
+    "normal": {
+      "eyebrow": "그냥 재미로",
+      "label": "{count, plural, other {일반 게임}}"
+    }
+  },
+  "rank": {
+    "emblem": "{title} 엠블럼",
+    "lp": "<b>{lp}</b> LP",
+    "caption": "지금의 랭크예요. 모든 상승은 다음 게임에서 시작돼요."
+  },
+  "persona": {
+    "eyebrow": "이번 시즌 나는",
+    "also": "그 밖에도 약간: {list}",
+    "main": "<b>{champion}</b> 챔피언 주력",
+    "shareTitle": "나의 리그 오브 레전드 시즌: {title}",
+    "compare": "친구와 비교하기",
+    "squad": "스쿼드 리캡",
+    "search": "다른 플레이어 검색",
+    "count": "{count}가지 유형 중 하나",
+    "countEstimate": "{count}가지 유형 중 하나 · 희귀도는 추정치예요"
+  },
+  "calendar": {
+    "eyebrow": "나의 달력",
+    "note": "최근 {count, plural, other {#게임}}을 기준으로 해요."
+  },
+  "clock": {
+    "eyebrow": "언제 이기나요"
+  },
+  "items": {
+    "eyebrow": "즐겨 쓰는 아이템",
+    "inGames": "{games, plural, other {#게임 중 <b>{count}</b>게임에서}}",
+    "winWith": "가지고 있을 때 승률 <b>{rate}</b>",
+    "without": "없을 때 <b>{rate}</b>",
+    "boots": "신발"
+  },
+  "objectives": {
+    "eyebrow": "오브젝트",
+    "lead": "{games, plural, other {#게임}} 동안 팀이 가져간 수",
+    "tiles": {
+      "tower": "포탑",
+      "dragon": "드래곤",
+      "baron": "바론",
+      "herald": "전령",
+      "grubs": "공허 유충",
+      "inhibitor": "억제기"
+    },
+    "youTotal": "나: {count}",
+    "youSecured": "내가 {count}개 확보",
+    "perGame": "게임당 {value}",
+    "firstTower": "게임의 <b>{rate}</b>에서 첫 포탑",
+    "withWithout": "있을 때 승률 <good>{withIt}</good> · 없을 때 <b>{without}</b>",
+    "stolen": "<b>{count}</b>회 스틸"
+  },
+  "tilt": {
+    "eyebrow": {
+      "tilt": "틸트 체크",
+      "resilient": "반등 체크",
+      "steady": "멘탈 체크"
+    },
+    "afterWin": "승리 후",
+    "afterLoss": "패배 후",
+    "tilts": "패배 후 틸트",
+    "bounces": "다시 일어남"
+  },
+  "comfort": {
+    "eyebrow": "나의 안전지대",
+    "lead": "챔피언별 승률, 전체는 {rate}"
+  },
+  "gray": {
+    "eyebrow": "회색 화면",
+    "unit": "시간",
+    "spentDead": "죽어 있던 시간",
+    "aliveAria": "전체 시간의 {alive}는 생존, {dead}는 사망",
+    "alive": "생존 {value}",
+    "dead": "사망 {value}",
+    "share": "게임 시간의 <b>{share}</b>",
+    "perGame": "게임당 <b>{minutes}</b>분",
+    "films": "{n, plural, other {영화 약 <b>#</b>편}}"
+  },
+  "progress": {
+    "eyebrow": "지난번 이후",
+    "lead": "{date} · {saved, plural, other {#게임}} → 지금 {games}",
+    "was": " · 이전 유형: {persona}",
+    "improved": "<good>▲ {count}</good>개 향상",
+    "slipped": "<bad>▼ {count}</bad>개 하락",
+    "mood": {
+      "better": "향상",
+      "worse": "하락",
+      "flat": "변화 없음"
+    }
+  },
+  "trophies": {
+    "eyebrow": "나의 트로피 선반",
+    "of": "{total}개 중 해제",
+    "unlocked": "해제됨",
+    "progress": "{percent} 달성",
+    "next": "해제에 가장 가까운 것: {name} ({percent}). {text}",
+    "all": "얻을 수 있는 트로피를 모두 얻었어요.",
+    "lines": "빙고 <b>{count}</b>",
+    "free": "프리",
+    "board": "트로피 빙고 판",
+    "nextBingo": "다음 빙고: {name} ({percent}). {text}",
+    "shareTitle": "나의 Rift Recap 트로피 빙고"
+  },
+  "blame": {
+    "eyebrow": "당신 탓이었을까요?",
+    "carry": "내가 캐리했어요",
+    "weak": "약한 고리",
+    "team": "팀 전체의 몫",
+    "across": "{losses, plural, other {#패}} 동안",
+    "topDamage": "피해량 1위",
+    "chance": "우연만으로는 {rate}",
+    "deaths": "팀 데스",
+    "average": "평균은 {rate}"
+  },
+  "tierList": {
+    "eyebrow": "나의 티어 리스트",
+    "aria": "챔피언 티어 리스트",
+    "title": "{name}: {games, plural, other {#게임}}에서 {winRate}",
+    "note": "승률순, 그다음 KDA순이에요. 4게임 미만 챔피언은 제외돼요."
+  },
+  "habits": {
+    "eyebrow": "나의 습관",
+    "pings": "게임당 핑 {value}회",
+    "flash": "점멸은 {key} 키 · 게임당 {value}회",
+    "pairShare": "게임의 {share}에서",
+    "quits": "적 항복 {enemy}회 · 우리 팀 {ours}회",
+    "ping": "핑 스타일",
+    "spells": "소환사 주문",
+    "surrender": "항복으로 종료"
+  },
+  "damage": {
+    "eyebrow": "나의 피해량",
+    "parts": {
+      "physical": "물리",
+      "magic": "마법",
+      "true": "고정"
+    },
+    "partAria": "{label} {share}"
+  },
+  "comp": {
+    "eyebrow": "팀 구성",
+    "with": "<b>{class}</b> 유형이 있을 때",
+    "games": "있을 때 {withGames, plural, other {#게임}}, 없을 때 {withoutGames, plural, other {#게임}}",
+    "versus": "{rate}와 비교"
+  },
+  "sessions": {
+    "eyebrow": "나의 밤들",
+    "lead": "{count, plural, other {#회}}의 플레이 · 한 번에 약 {avg}게임",
+    "best": "최고의 밤",
+    "worst": "최악의 밤",
+    "longest": "가장 긴 플레이",
+    "meta": "{games, plural, other {#게임}} · {date}"
+  },
+  "highlights": {
+    "eyebrow": "하이라이트",
+    "minutes": "{count, plural, other {#분}}",
+    "meta": "{what} · {date}",
+    "won": "승리",
+    "lost": "패배",
+    "caption": "파티에서 꺼내게 될 게임들이에요."
+  },
+  "lane": {
+    "lane": "라인전 체크",
+    "gold": "골드 습관",
+    "cs": "라인 상대와 CS 비교",
+    "goldDiff": "라인 상대와 골드 비교",
+    "damage": "라인 상대와 피해량 비교",
+    "unspent": "게임 종료 시 남은 골드",
+    "ahead": "{games, plural, other {#게임}} 중 <b>{rate}</b>에서 골드 앞섬",
+    "kills": "게임당 {value}킬",
+    "csValue": "CS {value}"
+  },
+  "early": {
+    "eyebrow": "15분 시점",
+    "titles": {
+      "early": "초반의 폭군",
+      "late": "후반에 강해지는 타입",
+      "steady": "안정적인 손"
+    },
+    "parts": {
+      "ahead": "앞섬",
+      "even": "동점",
+      "behind": "뒤짐"
+    },
+    "aria": "{n, plural, other {#게임}}에서 {label}",
+    "wonAhead": "앞선 상태에서 {total}게임 중 <good>{wins}</good>승",
+    "wonBehind": "뒤진 상태에서 {total}게임 중 <b>{wins}</b>승",
+    "lead": "최근 {games, plural, other {#번의 라인전}}, 라인 상대와 비교"
+  },
+  "chapters": {
+    "eyebrow": "챕터로 보는 나의 시즌",
+    "wins": "승률 {rate}",
+    "note": "각 챕터는 자체 게임만으로 평가하므로 짧은 챕터일수록 덜 확실해요."
+  },
+  "flames": {
+    "eyebrow": "옛 연인들",
+    "lead": "잘 알지만 이번 시즌엔 거의 만지지 않은 챔피언들",
+    "mastery": "숙련도 {level} · {played}",
+    "notPlayed": "플레이 안 함",
+    "caption": "{champion} 챔피언에게는 숙련도 {points}점이 쌓여 있어요. 당신을 그리워해요."
+  },
+  "social": {
+    "duo": {
+      "eyebrow": "나의 듀오",
+      "together": "{count, plural, other {함께한 게임}}",
+      "winTogether": "함께할 때 승률 <b>{rate}</b>",
+      "apart": "따로일 때 <b>{rate}</b>",
+      "combo": "최고의 조합 <b>{pair}</b>",
+      "alone": "이번 시즌 모든 게임을 {name} 님과 함께했어요. 이게 의리예요.",
+      "better": "{name} 님과는 {withRate}, 없을 땐 {without}를 이겨요. 밴드를 계속 유지하세요.",
+      "worse": "{name} 님과 함께하면 덜 이겨요({withRate} 대 혼자 {without}). 통계보다 우정이에요.",
+      "same": "{name} 님이 있든 없든 승률은 비슷해요. 중요한 건 함께하는 시간이에요.",
+      "seeRecap": "{name} 님의 리캡 보기",
+      "versus": "1대1 비교"
+    },
+    "matchup": {
+      "single": "나의 라인 상대",
+      "both": "천적과 최고의 상성",
+      "nemesis": "나의 천적",
+      "best": "나의 최고 상성",
+      "vs": "VS",
+      "record": "<good>{wins}승</good> <bad>{losses}패</bad>",
+      "meta": "승률 {rate}",
+      "metaAs": "승률 {rate} · {champion} 챔피언으로",
+      "insightBoth": "{nemesis} 챔피언을 밴하고 {best} 챔피언이 걸리길 바라세요.",
+      "insightNemesis": "{nemesis} 챔피언은 크립토나이트예요. 밴을 고려해 보세요.",
+      "insightBest": "{best} 챔피언은 당신을 상대로 기회가 없었어요."
+    }
+  },
+  "rail": {
+    "start": "시작",
+    "games": "게임",
+    "week": "주간 변화",
+    "form": "폼",
+    "calendar": "달력",
+    "clock": "시계",
+    "patches": "패치",
+    "nights": "밤",
+    "wins": "승리",
+    "progress": "진척",
+    "tilt": "틸트",
+    "tiltGuard": "스톱 신호",
+    "blame": "내 탓?",
+    "champion": "챔피언",
+    "comfort": "안전지대",
+    "flames": "옛 연인",
+    "tierList": "티어 리스트",
+    "pool": "도전",
+    "combat": "전투",
+    "highlights": "하이라이트",
+    "damage": "피해량",
+    "gray": "회색 화면",
+    "playstyle": "스타일",
+    "lane": "라인",
+    "early": "초반",
+    "habits": "습관",
+    "items": "아이템",
+    "runes": "룬",
+    "objectives": "오브젝트",
+    "duo": "듀오",
+    "matchups": "상성",
+    "comps": "팀 구성",
+    "normals": "일반",
+    "aram": "칼바람",
+    "chapters": "챕터",
+    "trophies": "트로피",
+    "rank": "랭크",
+    "guess": "맞히기",
+    "you": "나",
+    "back": "뒤로"
+  },
+  "page": {
+    "title": "{name}#{tag} · Rift Recap",
+    "description": "리그 오브 레전드 시즌 리캡: 통계, 유형, 공유할 수 있는 카드.",
+    "failed": "이 리캡을 불러오지 못했어요",
+    "noGamesTitle": "아직 게임이 없어요",
+    "noGames": "{since} 이후 {who}의 게임을 찾지 못했어요. 몇 판 플레이한 뒤 다시 와 주세요.",
+    "noRangeTitle": "이 기간에는 게임이 없어요",
+    "noRange": "{who}은(는) {since} 이후 게임을 하지 않았어요. 더 긴 기간을 시도해 보세요."
+  },
+  "tiltguard": {
+    "eyebrow": "틸트 가드",
+    "step1": "1패 뒤",
+    "step2": "2연패 뒤",
+    "step3": "3연패 이상 뒤",
+    "live": "지금"
+  },
+  "formcurve": {
+    "eyebrow": "한 줄로 보는 나의 시즌",
+    "lead": "{games} 단위 승률",
+    "best": "최고 <b>{rate}</b> · {date} 종료",
+    "worst": "최저 <b>{rate}</b> · {date} 종료",
+    "now": "지금 <b>{rate}</b>",
+    "aria": "이동 승률: 최고 {best}, 최저 {worst}, 최근 {now}",
+    "shareTitle": "한 줄로 보는 나의 시즌"
+  },
+  "week": {
+    "eyebrow": "최근 7일 vs 그 전 7일",
+    "lead": "지금 {now} · 그 전 {before}"
+  },
+  "patches": {
+    "eyebrow": "패치별 성적",
+    "title": "패치별 승률"
+  },
+  "runes": {
+    "eyebrow": "나의 핵심 룬",
+    "winWith": "가지고 있을 때 승률 <b>{rate}</b>",
+    "without": "없을 때 <b>{rate}</b>"
+  },
+  "pool": {
+    "eyebrow": "도전해 볼 챔피언",
+    "because": "잘 맞는 챔피언: {champion} (승률 {rate})",
+    "note": "비슷한 클래스와 플레이 스타일로 골랐어요. 제안일 뿐, 보장은 아니에요."
+  }
+}

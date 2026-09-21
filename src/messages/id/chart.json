@@ -1,0 +1,9 @@
+{
+  "aria": "Selisih emas antara {a} dan {b} pada pertandingan terakhir yang mereka mainkan satu sama lain. {result}",
+  "aheadEnd": "{name} unggul {gold} di akhir.",
+  "levelEnd": "Imbang di akhir.",
+  "minute": "Menit ke-<b>{minute}</b>",
+  "ahead": "<b>{name}</b> unggul {gold} emas",
+  "level": "Imbang",
+  "won": "{name} menang"
+}

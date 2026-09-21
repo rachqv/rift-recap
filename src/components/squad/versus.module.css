@@ -1,0 +1,828 @@
+/* Head-to-head slides. Player A is gold, player B is teal. */
+
+.note {
+  margin: 0;
+  font-size: 0.78rem;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+  text-align: center;
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.9);
+}
+
+/* Split backdrop */
+.split {
+  position: absolute;
+  inset: 0;
+  display: flex;
+}
+
+.half {
+  position: relative;
+  flex: 1;
+  overflow: hidden;
+  opacity: 0.55;
+}
+
+.halfImg {
+  object-fit: cover;
+  object-position: 55% 18%;
+  filter: brightness(1.1) saturate(1.1);
+}
+
+.halfShade {
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(to bottom, rgba(5, 11, 24, 0.5), rgba(5, 11, 24, 0.15) 40%, rgba(5, 11, 24, 0.92) 92%),
+    linear-gradient(to var(--fade, right), transparent 45%, rgba(5, 11, 24, 0.9));
+}
+
+.half[data-side="a"] {
+  --fade: right;
+  box-shadow: inset -60px 0 90px -60px rgba(224, 180, 88, 0.55);
+}
+
+.half[data-side="b"] {
+  --fade: left;
+  box-shadow: inset 60px 0 90px -60px rgba(10, 200, 185, 0.55);
+}
+
+/* Intro face-off */
+.faceOff {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: clamp(1rem, 6vw, 5rem);
+  width: min(100%, 44rem);
+}
+
+.contender {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.3rem;
+  min-width: 0;
+}
+
+.contenderName {
+  max-width: 100%;
+  overflow: hidden;
+  font-family: var(--font-display), Georgia, serif;
+  font-size: clamp(1.3rem, min(4.5vw, 4.5vh), 2.2rem);
+  font-weight: 800;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: var(--text);
+  text-shadow: 0 2px 14px rgba(0, 0, 0, 0.9);
+}
+
+.contender[data-side="a"] .contenderName {
+  color: #f6dea0;
+}
+
+.contender[data-side="b"] .contenderName {
+  color: #6ef0e4;
+}
+
+.contenderTag {
+  font-size: 0.85rem;
+  color: var(--muted);
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.9);
+}
+
+.contender small {
+  color: #d9d3c3;
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.9);
+}
+
+.vsBadge {
+  position: absolute;
+  top: 28%;
+  left: 50%;
+  display: grid;
+  place-items: center;
+  width: 3.4rem;
+  height: 3.4rem;
+  border: 2px solid var(--accent);
+  border-radius: 50%;
+  background: #0a1428;
+  box-shadow: 0 0 34px rgba(200, 170, 110, 0.65);
+  font-family: var(--font-display), Georgia, serif;
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: var(--gold-bright);
+  transform: translate(-50%, -50%);
+}
+
+.rank,
+.unranked {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.2rem 0.75rem 0.2rem 0.4rem;
+  border: 1px solid color-mix(in srgb, var(--tier, var(--muted)) 60%, transparent);
+  border-radius: 999px;
+  background: rgba(5, 11, 24, 0.7);
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--tier, var(--muted));
+}
+
+.unranked {
+  padding-inline-start: 0.75rem;
+  --tier: var(--muted);
+}
+
+.rankEmblem {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+/* Stat comparison */
+.scoreline {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 1rem;
+  font-family: var(--font-display), Georgia, serif;
+  font-weight: 800;
+}
+
+.scoreline span {
+  max-width: 10rem;
+  overflow: hidden;
+  font-size: clamp(1rem, 3vw, 1.4rem);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.scoreline b {
+  font-size: clamp(1.8rem, 6vh, 2.8rem);
+  color: var(--text);
+}
+
+.tableWrap {
+  width: min(100%, 38rem);
+}
+
+.rows {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(0.3rem, 1.2vh, 0.6rem);
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 4.2rem minmax(0, 1fr) 4.2rem;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.35rem 0.7rem;
+  border: 1px solid rgba(200, 170, 110, 0.2);
+  border-radius: 12px;
+  background: rgba(5, 11, 24, 0.62);
+  backdrop-filter: blur(10px);
+}
+
+.valueA,
+.valueB {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--muted);
+}
+
+.valueA {
+  text-align: start;
+}
+
+.valueB {
+  text-align: end;
+}
+
+.row[data-winner="a"] .valueA {
+  font-weight: 800;
+  color: #f6dea0;
+}
+
+.row[data-winner="b"] .valueB {
+  font-weight: 800;
+  color: #6ef0e4;
+}
+
+.mid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  min-width: 0;
+}
+
+.rowLabel {
+  font-size: 0.66rem;
+  letter-spacing: 0.14em;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.bar {
+  display: flex;
+  height: 0.5rem;
+  overflow: hidden;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.bar span {
+  height: 100%;
+  transition: opacity 0.3s;
+}
+
+.bar [data-side="a"] {
+  background: linear-gradient(90deg, #a07a3a, #e0b458);
+}
+
+.bar [data-side="b"] {
+  flex: 1;
+  background: linear-gradient(90deg, #0ac8b9, #087f77);
+}
+
+/* The side that lost the row is dimmed; ties leave both at full strength. */
+.row[data-winner="a"] .bar [data-side="b"],
+.row[data-winner="b"] .bar [data-side="a"] {
+  opacity: 0.4;
+}
+
+/* Scenarios: the stat rows' look, with a title and a punchline in the middle and room for longer values. */
+.matchup {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 0.7rem;
+  font-family: var(--font-display), Georgia, serif;
+  font-weight: 800;
+}
+
+.matchup span {
+  max-width: 10rem;
+  overflow: hidden;
+  font-size: clamp(1rem, 3vw, 1.3rem);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.matchup i {
+  font-size: 0.8rem;
+  font-style: italic;
+  font-weight: 500;
+  color: var(--muted);
+}
+
+.scenario {
+  grid-template-columns: minmax(3.6rem, 5.2rem) minmax(0, 1fr) minmax(3.6rem, 5.2rem);
+  padding-block: 0.5rem;
+}
+
+.scenario[data-winner="a"] {
+  border-color: rgba(224, 180, 88, 0.4);
+}
+
+.scenario[data-winner="b"] {
+  border-color: rgba(10, 200, 185, 0.4);
+}
+
+.scenario .valueA,
+.scenario .valueB {
+  font-size: 0.85rem;
+  line-height: 1.2;
+  overflow-wrap: anywhere;
+}
+
+.scenarioTitle {
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.scenarioTagline {
+  font-size: 0.66rem;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+}
+
+.scenarioLine {
+  font-size: 0.78rem;
+  line-height: 1.35;
+  text-wrap: balance;
+  color: #d9d3c3;
+}
+
+/* One scenario per slide: a big icon and title, then the two players face to face. Tinted by the winner's color (--tone). */
+.scenarioIcon {
+  font-size: clamp(2.2rem, 7vh, 3.6rem);
+  line-height: 1;
+  filter: drop-shadow(0 0 22px color-mix(in srgb, var(--tone) 70%, transparent));
+}
+
+.scenarioHeading {
+  margin: 0;
+  max-width: 34rem;
+  font-size: clamp(1.7rem, min(8vw, 8vh, calc((100vw - 4.5rem) / (var(--chars, 8) * 0.82))), 3.4rem);
+  font-weight: 800;
+  line-height: 1.04;
+  text-align: center;
+  text-transform: uppercase;
+  text-wrap: balance;
+  background: linear-gradient(180deg, #fff6dc, var(--tone) 75%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  filter: drop-shadow(0 6px 26px rgba(0, 0, 0, 0.7));
+}
+
+.showdown {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: clamp(0.8rem, 4vw, 2.4rem);
+  width: min(100%, 34rem);
+}
+
+.fighter {
+  --side: #e0b458;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.3rem;
+  min-width: 0;
+  padding: 0.9rem 0.6rem 0.7rem;
+  border: 1px solid rgba(200, 170, 110, 0.18);
+  border-radius: 20px;
+  background: rgba(5, 11, 24, 0.55);
+  backdrop-filter: blur(10px);
+  opacity: 0.72;
+}
+
+.fighter[data-side="b"] {
+  --side: #0ac8b9;
+}
+
+/* The winner is lit in their own color; the other side stays quiet. */
+.fighter[data-won="true"] {
+  border-color: color-mix(in srgb, var(--side) 65%, transparent);
+  background: rgba(5, 11, 24, 0.75);
+  box-shadow: 0 0 44px -14px var(--side);
+  opacity: 1;
+}
+
+.fighterName {
+  max-width: 100%;
+  overflow: hidden;
+  font-size: 0.95rem;
+  font-weight: 700;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: var(--text);
+}
+
+.fighterValue {
+  font-family: var(--font-display), Georgia, serif;
+  font-size: clamp(1.2rem, 4.2vw, 1.7rem);
+  font-weight: 800;
+  line-height: 1.15;
+  text-align: center;
+  text-wrap: balance;
+  overflow-wrap: anywhere;
+  color: var(--muted);
+}
+
+.fighter[data-won="true"] .fighterValue {
+  color: var(--side);
+  filter: brightness(1.25);
+}
+
+.fighterTag {
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--side);
+}
+
+.showdown .vsBadge {
+  top: 40%;
+  width: 2.6rem;
+  height: 2.6rem;
+  font-size: 0.85rem;
+}
+
+/* Same footprint as a full slide of scenarios, so the page doesn't jump when the browser fills it in. */
+.rhythmPlaceholder {
+  min-height: 20rem;
+}
+
+/* Face to face */
+.meeting {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: min(100%, 40rem);
+}
+
+.meetingLabel {
+  font-size: 0.7rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--muted);
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.9);
+}
+
+.meetingSides {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+}
+
+.meetingSide {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  min-width: 0;
+  padding: 0.6rem 0.75rem;
+  border: 1px solid color-mix(in srgb, var(--side) 55%, transparent);
+  border-radius: 14px;
+  background: rgba(5, 11, 24, 0.7);
+  backdrop-filter: blur(10px);
+  text-align: start;
+}
+
+.meetingSide[data-side="a"] {
+  --side: #e0b458;
+}
+
+.meetingSide[data-side="b"] {
+  --side: #0ac8b9;
+}
+
+.meetingSide span {
+  min-width: 0;
+}
+
+.meetingSide b {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: var(--side);
+  filter: brightness(1.25);
+}
+
+.meetingSide small {
+  color: var(--muted);
+}
+
+.meetingSide em {
+  margin-inline-start: auto;
+  font-size: 0.7rem;
+  font-style: normal;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.meetingSide[data-win="true"] em {
+  color: #3ddc97;
+}
+
+.meetingSide[data-win="false"] em {
+  color: #e84057;
+}
+
+/* Play styles */
+.styleGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  width: min(100%, 44rem);
+}
+
+.styleCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 1.1rem 1rem;
+  border: 1px solid color-mix(in srgb, var(--side) 55%, transparent);
+  border-radius: 18px;
+  background: rgba(5, 11, 24, 0.7);
+  backdrop-filter: blur(12px);
+  box-shadow: 0 0 36px -14px var(--side);
+  text-align: center;
+}
+
+.styleName {
+  max-width: 100%;
+  overflow: hidden;
+  font-weight: 700;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: var(--side);
+  filter: brightness(1.25);
+}
+
+.persona {
+  font-family: var(--font-display), Georgia, serif;
+  font-size: clamp(1.2rem, 3.6vw, 1.7rem);
+  font-weight: 800;
+  line-height: 1.1;
+  text-transform: uppercase;
+  color: var(--accent-card, var(--gold-bright));
+  filter: brightness(1.3);
+}
+
+.tagline {
+  font-size: 0.85rem;
+  font-style: italic;
+  color: #d9d3c3;
+}
+
+.mainChamp {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-top: 0.4rem;
+  text-align: start;
+}
+
+.mainChamp b {
+  display: block;
+  color: var(--text);
+}
+
+.mainChamp small {
+  color: var(--muted);
+}
+
+.champIcon {
+  border: 2px solid rgba(200, 170, 110, 0.6);
+  border-radius: 10px;
+}
+
+/* Verdict: both players, the winner larger and crowned, the runner-up smaller and quieter. */
+.podium {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: clamp(1rem, 6vw, 2.4rem);
+  margin-top: 0.9rem;
+  margin-bottom: 0.9rem;
+}
+
+.contestant {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.15rem;
+  min-width: 0;
+  max-width: 9rem;
+  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.95);
+}
+
+/* Only the runner-up's icon is toned down: the names stay fully readable over the splash art. */
+.contestant[data-role="loser"] .champion {
+  opacity: 0.8;
+}
+
+.champion {
+  position: relative;
+  display: grid;
+  place-items: center;
+  margin-bottom: 0.25rem;
+}
+
+.contestantName {
+  max-width: 100%;
+  padding: 0.1rem 0.65rem;
+  border-radius: 999px;
+  background: rgba(5, 11, 24, 0.72);
+  backdrop-filter: blur(8px);
+  overflow: hidden;
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #f0e6d2;
+}
+
+.contestant[data-side="a"] .contestantName {
+  color: #f6dea0;
+}
+
+.contestant[data-side="b"] .contestantName {
+  color: #6ef0e4;
+}
+
+.contestantRows {
+  padding: 0 0.5rem;
+  border-radius: 999px;
+  background: rgba(5, 11, 24, 0.6);
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.crown {
+  position: absolute;
+  top: -1.5rem;
+  font-size: 2rem;
+  line-height: 1;
+  color: var(--tone);
+  filter: brightness(1.3) drop-shadow(0 2px 6px rgba(0, 0, 0, 0.9)) drop-shadow(0 0 14px var(--tone));
+}
+
+/* Verdict links (same look as the squad finale) */
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.chipLink {
+  padding: 0.45rem 0.95rem;
+  border: 1px solid rgba(200, 170, 110, 0.4);
+  border-radius: 999px;
+  background: rgba(5, 11, 24, 0.65);
+  backdrop-filter: blur(8px);
+  color: var(--gold-bright);
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.chipLink:hover {
+  border-color: var(--gold-bright);
+  background: rgba(200, 170, 110, 0.15);
+}
+
+@media (max-width: 520px) {
+  .faceOff {
+    gap: 0.5rem;
+  }
+
+  .row {
+    grid-template-columns: 3.4rem minmax(0, 1fr) 3.4rem;
+    gap: 0.4rem;
+    padding: 0.3rem 0.5rem;
+  }
+
+  .valueA,
+  .valueB {
+    font-size: 0.85rem;
+  }
+
+  .styleGrid,
+  .meetingSides {
+    grid-template-columns: 1fr;
+    gap: 0.6rem;
+  }
+
+  .scenario {
+    grid-template-columns: minmax(3rem, 4.2rem) minmax(0, 1fr) minmax(3rem, 4.2rem);
+  }
+
+  .styleCard {
+    padding: 0.7rem 0.8rem;
+    gap: 0.2rem;
+  }
+
+  .mainChamp {
+    margin-top: 0.15rem;
+  }
+}
+
+@media (max-height: 820px) {
+  .scenarioTagline {
+    display: none;
+  }
+}
+
+@media (max-height: 720px) {
+  .tagline {
+    display: none;
+  }
+}
+
+/* Most phones: the verdict has a lot on it, so drop the row counts under the two icons (the score is in the line below). */
+@media (max-height: 900px) {
+  .contestantRows {
+    display: none;
+  }
+}
+
+/* Short screens: smaller icons on the verdict, so the skin name at the bottom never runs into the buttons. */
+@media (max-height: 820px) {
+  .podium {
+    margin-top: 0.2rem;
+    margin-bottom: 0.4rem;
+  }
+
+  .contestant[data-role="winner"] .champion > :first-child {
+    width: clamp(3.4rem, 9vh, 4.6rem);
+    height: clamp(3.4rem, 9vh, 4.6rem);
+  }
+
+  .contestant[data-role="loser"] .champion > :first-child {
+    width: clamp(2.6rem, 7vh, 3.6rem);
+    height: clamp(2.6rem, 7vh, 3.6rem);
+  }
+
+  .contestantRows {
+    display: none;
+  }
+
+  .crown {
+    top: -1.35rem;
+    font-size: 1.7rem;
+  }
+}
+
+/* Gold lead chart on the timeline slide */
+.chartWrap {
+  width: min(100%, 38rem);
+}
+
+.goldChart {
+  margin: 0;
+}
+
+.goldChart svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  touch-action: pan-y;
+  cursor: crosshair;
+}
+
+.chartGrid {
+  stroke: rgba(240, 230, 210, 0.12);
+  stroke-width: 1;
+}
+
+.chartZero {
+  stroke: rgba(240, 230, 210, 0.4);
+  stroke-width: 1;
+  stroke-dasharray: 4 4;
+}
+
+.chartTick {
+  font-size: 11px;
+  fill: var(--muted);
+}
+
+.chartCursor {
+  stroke: rgba(240, 230, 210, 0.5);
+  stroke-width: 1;
+  opacity: 0.35;
+}
+
+.chartCursor[data-active="true"] {
+  opacity: 1;
+}
+
+.chartReadout {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.3rem 1.1rem;
+  padding-top: 0.35rem;
+  font-size: 0.8rem;
+  color: var(--muted);
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.9);
+}
+
+.chartReadout b {
+  color: var(--text);
+}
+
+.chartReadout i {
+  display: inline-block;
+  width: 0.6rem;
+  height: 0.6rem;
+  margin-inline-end: 0.35rem;
+  border-radius: 50%;
+}
+
+@media (max-height: 820px) {
+  .chartResult {
+    display: none;
+  }
+}
+
+/* Small phones: the verdict has to fit on one screen, so the sentence under the score (the score is already shown) and the main champion chip go. */
+@media (max-height: 720px) {
+  .verdictCaption,
+  .mainChip {
+    display: none;
+  }
+}

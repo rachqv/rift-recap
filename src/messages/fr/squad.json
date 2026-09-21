@@ -1,0 +1,181 @@
+{
+  "awards": {
+    "objectiveSteal": {
+      "title": "Le plus susceptible de voler l'objectif",
+      "tagline": "Surveille ton dragon. Puis regarde-le disparaître.",
+      "label": "objectifs volés",
+      "line": "{name} a volé {count, plural, one {# objectif} other {# objectifs}}. Rien n'est en sécurité."
+    },
+    "objectiveTake": {
+      "title": "Le plus susceptible de prendre l'objectif",
+      "tagline": "Là où va le dragon, ils vont aussi.",
+      "label": "dégâts aux objectifs par minute",
+      "line": "{name} a infligé {value} de dégâts par minute aux objectifs."
+    },
+    "deaths": {
+      "title": "Le plus de morts",
+      "tagline": "L'écran gris ? Ils ont un abonnement annuel.",
+      "label": "morts par partie",
+      "line": "{name} a passé environ {minutes} minutes de chaque partie à regarder l'écran gris."
+    },
+    "pings": {
+      "title": "Le Conducteur du siège arrière",
+      "tagline": "Le plus susceptible de pinguer « reculez » à sa propre équipe.",
+      "label": "pings par partie",
+      "line": "{name} a pingué {value} fois par partie. La minimap n'a jamais eu de répit."
+    },
+    "vision": {
+      "title": "Le Phare",
+      "tagline": "A allumé la lumière pour tous les autres.",
+      "label": "score de vision par minute",
+      "line": "{value} de score de vision par minute pour {name}. Personne n'a marché seul dans le noir."
+    },
+    "tank": {
+      "title": "Le Punching-ball",
+      "tagline": "A absorbé le plus de dégâts, pour l'équipe.",
+      "label": "dégâts subis par partie",
+      "line": "{name} a encaissé {value} de dégâts par partie."
+    },
+    "assists": {
+      "title": "Le Meilleur ami",
+      "tagline": "Toujours là pour préparer le coup.",
+      "label": "assistances par partie",
+      "line": "{name} a fait en moyenne {value} assistances. Le coéquipier préféré de l'équipe."
+    },
+    "carry": {
+      "title": "Le Carry",
+      "tagline": "Le plus susceptible de gagner pour tous les autres.",
+      "label": "KDA",
+      "line": "Un KDA de {value}. {name} a fait le gros du travail."
+    },
+    "damage": {
+      "title": "Le Poids lourd",
+      "tagline": "Les barres de vie fondent au contact.",
+      "label": "dégâts par minute",
+      "line": "{value} de dégâts aux champions chaque minute pour {name}."
+    },
+    "farm": {
+      "title": "Le Fermier",
+      "tagline": "Pas une seule vague de canon laissée derrière.",
+      "label": "CS par minute",
+      "line": "{value} sbires par minute. {name} était toujours à la vague."
+    },
+    "present": {
+      "title": "Toujours là",
+      "tagline": "S'il y a eu un combat, ils y étaient.",
+      "label": "participation aux éliminations",
+      "line": "{name} a participé à {value} des éliminations de l'équipe."
+    },
+    "cc": {
+      "title": "Le Contrôleur de foule",
+      "tagline": "A immobilisé l'ennemi pour que les autres travaillent.",
+      "label": "secondes de contrôle par partie",
+      "line": "{name} a immobilisé les ennemis pendant {value, plural, one {# seconde} other {# secondes}} par partie."
+    }
+  },
+  "chemistry": {
+    "destiny": "Duo du destin",
+    "great": "Super alchimie",
+    "solid": "Partenaires solides",
+    "awkward": "Mal à l'aise ensemble",
+    "apart": "Meilleurs séparés"
+  },
+  "slides": {
+    "intro": {
+      "eyebrow": "Récap d'équipe",
+      "together": "{count, plural, one {partie ensemble} other {parties ensemble}}",
+      "hours": "{n, plural, one {<b>{value}</b> heure} other {<b>{value}</b> heures}}",
+      "note": "Basé sur vos {loaded} parties les plus récentes ensemble (sur {found} trouvées)."
+    },
+    "record": {
+      "eyebrow": "Votre bilan",
+      "label": "taux de victoire ensemble",
+      "bestStreak": "Meilleure série <good>{count, plural, one {# victoire} other {# victoires}}</good>",
+      "worstSkid": "Pire série <bad>{count, plural, one {# défaite} other {# défaites}}</bad>",
+      "all": "Les {members} ensemble en {games, plural, one {<b>#</b> partie} other {<b>#</b> parties}}",
+      "machine": "Une machine quand vous jouez ensemble.",
+      "good": "Plus de victoires que de défaites. L'équipe assure.",
+      "balanced": "Parfaitement équilibré. Du chaos, mais le genre amusant.",
+      "rough": "Des résultats difficiles. Mais le groupe de discussion a des histoires à raconter."
+    },
+    "pairs": {
+      "eyebrow": "Alchimie des duos",
+      "best": "Meilleur duo",
+      "worst": "À travailler",
+      "games": "{count, plural, one {# partie} other {# parties}} ensemble",
+      "chemistry": "{icon} {score} d'alchimie · {label}",
+      "captionBoth": "{a} et {b} sont ceux à mettre ensemble. {c} et {d}, peut-être pas.",
+      "captionBest": "{a} et {b} forment votre duo le plus fort."
+    },
+    "award": {
+      "eyebrow": "Récompense {position} sur {total}",
+      "runner": "{n}. {name} <b>{display}</b>"
+    },
+    "board": {
+      "eyebrow": "Le classement",
+      "aria": "Classement de l'équipe",
+      "kda": "KDA",
+      "deaths": "Morts",
+      "damage": "Dég./min",
+      "awards": "Récomp.",
+      "note": "Trié par KDA. Les récompenses sont les trophées que chacun a remportés."
+    },
+    "finale": {
+      "mvp": "MVP de l'équipe",
+      "none": "Voilà l'équipe",
+      "awards": "{count, plural, one {# récompense} other {# récompenses}}, plus que n'importe qui.",
+      "recap": "Récap de {name}",
+      "versus": "Face à face : {a} contre {b}",
+      "shareTitle": "Notre récap d'équipe League : {names}",
+      "another": "Commencer une autre équipe"
+    },
+    "rivalry": {
+      "eyebrow": "Tir ami",
+      "lead": "Votre bilan les uns contre les autres, {count, plural, one {# rencontre} other {# rencontres}} dans des équipes opposées",
+      "aria": "Bilans en face à face",
+      "cell": "{wins, plural, one {# victoire} other {# victoires}}, {losses, plural, one {# défaite} other {# défaites}}",
+      "even": "{a} et {b} sont à égalité parfaite sur {games, plural, one {# rencontre} other {# rencontres}}.",
+      "edge": "{winner} a l'avantage sur {loser}, {hi} à {lo}. La plus grande rivalité de l'équipe."
+    },
+    "combos": {
+      "eyebrow": "Avec qui jouer",
+      "trio": "Meilleur trio",
+      "duo": "Meilleur duo",
+      "record": "{wins}V {losses}D en {games, plural, one {# partie} other {# parties}} ensemble",
+      "caption": "{names} : jouez ensemble et le taux de victoire parle de lui-même.",
+      "games": "{count, plural, one {# partie} other {# parties}}"
+    },
+    "roles": {
+      "eyebrow": "La meilleure composition",
+      "aria": "Rôle suggéré pour chaque membre",
+      "swap": "Sur le papier, voici la meilleure composition : chacun dans le rôle où il gagne le plus, d'après vos parties ensemble. Un petit échantillon, donc à prendre comme une piste.",
+      "settled": "Chacun joue déjà le rôle où il gagne le plus. Rien à échanger.",
+      "was": "d'habitude {role}"
+    }
+  },
+  "rail": {
+    "start": "Début",
+    "record": "Bilan",
+    "duos": "Duos",
+    "roles": "Rôles",
+    "queue": "Avec qui jouer",
+    "rivals": "Rivaux",
+    "quiz": "Quiz",
+    "board": "Classement",
+    "mvp": "MVP"
+  },
+  "page": {
+    "title": "{names} · Récap d'équipe",
+    "titleDemo": "Récap d'équipe d'exemple · Rift Recap",
+    "titleEmpty": "Récap d'équipe · Rift Recap",
+    "description": "Des récompenses de groupe tirées des parties jouées ensemble : le plus de morts, le plus de vols d'objectifs et plus encore.",
+    "pickServer": "Choisis un serveur.",
+    "unreadable": "Impossible de lire {names}. Les Riot ID ressemblent à Nom#TAG.",
+    "atLeastTwo": "Entre au moins deux Riot ID.",
+    "atMostFive": "Une équipe compte cinq joueurs au maximum.",
+    "notFound": "Aucun joueur trouvé pour {names} sur {region}. Vérifie l'orthographe et le serveur.",
+    "noShared": "Aucun de vous n'a de partie en commun {where}. Ça fonctionne avec les parties jouées ensemble, alors essaie une période plus longue ou des gens avec qui tu joues.",
+    "whereSeason": "dans vos {count} dernières",
+    "whereRange": "sur la période : {range}"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "sections": "回顧章節",
+  "controls": "投影片與聲音",
+  "play": "播放投影片",
+  "pause": "暫停",
+  "resume": "繼續",
+  "stop": "停止投影片",
+  "mute": "靜音",
+  "unmute": "取消靜音",
+  "volume": "音量",
+  "playing": "投影片播放中",
+  "paused": "投影片已暫停",
+  "label": "你的回顧",
+  "previous": "上一張投影片",
+  "next": "下一張投影片",
+  "copyLink": "複製此投影片的連結"
+}

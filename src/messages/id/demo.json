@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "title": "Contoh rangkuman · Rift Recap"
+  },
+  "switcher": {
+    "label": "Pemain contoh",
+    "previous": "Pemain contoh sebelumnya",
+    "next": "Pemain contoh berikutnya",
+    "player": "Pemain contoh",
+    "show": "Tampilkan"
+  },
+  "players": {
+    "onetrick": "One-Trick",
+    "specialist": "Spesialis",
+    "explorer": "Penjelajah",
+    "chameleon": "Bunglon",
+    "showstopper": "Pusat perhatian",
+    "slayer": "Pembantai",
+    "daredevil": "Nekat",
+    "support": "Pengatur serangan",
+    "unlucky": "Pahlawan sial",
+    "phoenix": "Feniks",
+    "risingstar": "Bintang naik daun",
+    "streaker": "Rentetan panas",
+    "scout": "Pengintai",
+    "farmer": "Petani",
+    "heavyhitter": "Pemukul berat",
+    "everpresent": "Selalu hadir",
+    "opener": "Pembuka",
+    "untouchable": "Tak tersentuh",
+    "closer": "Penutup",
+    "marathoner": "Pelari maraton",
+    "speedrunner": "Speedrunner",
+    "assassin": "Pembunuh",
+    "archmage": "Penyihir agung",
+    "sharpshooter": "Penembak jitu",
+    "brawler": "Petarung jalanan",
+    "bulwark": "Benteng",
+    "aramfan": "Penggemar ARAM",
+    "casual": "Santai",
+    "demolisher": "Penghancur",
+    "thief": "Pencuri",
+    "grinder": "Pekerja keras",
+    "pathfinder": "Pembuka jalan",
+    "islander": "Penghuni pulau",
+    "centerpiece": "Pusat permainan",
+    "carry": "Carry",
+    "guardian": "Penjaga"
+  }
+}

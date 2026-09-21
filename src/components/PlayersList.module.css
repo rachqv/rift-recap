@@ -1,0 +1,132 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem 1rem;
+  padding: 0.7rem 0.9rem;
+  border: 1px solid rgba(200, 170, 110, 0.3);
+  border-radius: 14px;
+  background: rgba(15, 31, 61, 0.6);
+}
+
+.row[data-pinned] {
+  border-color: rgba(200, 170, 110, 0.6);
+}
+
+.who {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.15rem 0.4rem;
+  min-width: 0;
+}
+
+.name {
+  font-weight: 700;
+  color: var(--text);
+  overflow-wrap: anywhere;
+}
+
+.tag {
+  color: var(--muted);
+}
+
+.badge {
+  padding: 0.1rem 0.55rem;
+  border: 1px solid rgba(200, 170, 110, 0.35);
+  border-radius: 999px;
+  font-size: 0.68rem;
+  letter-spacing: 0.06em;
+  color: var(--gold-bright);
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.actions a {
+  padding: 0.3rem 0.75rem;
+  border: 1px solid rgba(10, 200, 185, 0.45);
+  border-radius: 999px;
+  color: var(--text);
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.2s, border-color 0.2s;
+}
+
+.actions a:hover {
+  border-color: var(--hextech);
+  background: rgba(10, 200, 185, 0.15);
+}
+
+.pin,
+.forget {
+  display: grid;
+  place-items: center;
+  width: 1.7rem;
+  height: 1.7rem;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  color: var(--muted);
+  font: inherit;
+  cursor: pointer;
+}
+
+.pin:hover,
+.pin[aria-pressed="true"] {
+  background: rgba(200, 170, 110, 0.18);
+  color: var(--gold-bright);
+}
+
+.pin:focus-visible,
+.forget:focus-visible {
+  outline: 2px solid var(--hextech);
+  outline-offset: 2px;
+}
+
+.forget:hover {
+  background: rgba(232, 64, 87, 0.2);
+  color: #ff8a9b;
+}
+
+.clear {
+  align-self: flex-start;
+  margin-top: 0.6rem;
+  padding: 0.35rem 0.9rem;
+  border: 1px solid rgba(160, 155, 140, 0.4);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--muted);
+  font: inherit;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.clear:hover {
+  color: var(--text);
+}
+
+.empty {
+  margin: 0;
+  line-height: 1.55;
+  color: #d9d3c3;
+}
+
+.empty a {
+  color: var(--gold-bright);
+}

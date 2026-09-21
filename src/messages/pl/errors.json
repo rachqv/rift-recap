@@ -1,0 +1,15 @@
+{
+  "keyRejected": "Klucz API Riot został odrzucony. Klucze deweloperskie wygasają co 24 godziny, więc wygeneruj nowy.",
+  "notFound": "Nie znaleziono gracza z tym Riot ID w tym regionie. Sprawdź pisownię i region.",
+  "rateLimit": "Osiągnięto limit zapytań Riot. Poczekaj minutę i spróbuj ponownie.",
+  "api": "API Riot zwróciło błąd.",
+  "cardFailed": "Nie udało się narysować karty.",
+  "unknownRegion": "Nieznany region.",
+  "noGamesCard": "Brak gier, z których można narysować kartę.",
+  "noSharedGames": "Ci gracze nie mają wspólnych gier.",
+  "badSquad": "Nieprawidłowe parametry drużyny.",
+  "playerMissing": "Nie znaleziono jednego z tych graczy.",
+  "badVersus": "Nieprawidłowe parametry pojedynku.",
+  "samePlayers": "Wybierz dwóch różnych graczy.",
+  "notEnough": "Za mało gier do porównania."
+}

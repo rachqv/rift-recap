@@ -1,0 +1,9 @@
+{
+  "aria": "{a} ile {b} arasında birbirlerine karşı oynadıkları son maçtaki altın farkı. {result}",
+  "aheadEnd": "Sonunda {name} {gold} önde.",
+  "levelEnd": "Sonunda berabere.",
+  "minute": "<b>{minute}</b>. dakika",
+  "ahead": "<b>{name}</b> {gold} altın önde",
+  "level": "Berabere",
+  "won": "{name} kazandı"
+}

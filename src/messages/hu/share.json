@@ -1,0 +1,11 @@
+{
+  "share": "Megosztás",
+  "download": "Kártya letöltése",
+  "copyLink": "Link másolása",
+  "linkCopied": "Link átmásolva",
+  "copyFailed": "Nem sikerült átmásolni a linket",
+  "shareFailed": "Nem sikerült megnyitni a megosztási ablakot",
+  "saveLater": "Mentés a későbbi összehasonlításhoz",
+  "saveRematch": "Mentés a visszavágóhoz",
+  "savedOpenLater": "Link átmásolva. Nyisd meg később"
+}

@@ -1,0 +1,81 @@
+{
+  "language": {
+    "label": "Jazyk"
+  },
+  "range": {
+    "label": "Časové období",
+    "season": "Tato sezona",
+    "90d": "Posledních 90 dní",
+    "30d": "Posledních 30 dní",
+    "7d": "Posledních 7 dní"
+  },
+  "regions": {
+    "na1": "Severní Amerika",
+    "br1": "Brazílie",
+    "la1": "LAN",
+    "la2": "LAS",
+    "euw1": "Západní Evropa",
+    "eun1": "Severní a východní Evropa",
+    "tr1": "Turecko",
+    "ru": "Rusko",
+    "me1": "Blízký východ",
+    "kr": "Korea",
+    "jp1": "Japonsko",
+    "oc1": "Oceánie",
+    "ph2": "Filipíny",
+    "sg2": "Singapur",
+    "th2": "Thajsko",
+    "tw2": "Tchaj-wan",
+    "vn2": "Vietnam"
+  },
+  "message": {
+    "tryAnother": "Zkus jiného hráče",
+    "tryServer": "Možná jiný server?",
+    "notFoundTitle": "Stránka nenalezena",
+    "notFoundText": "Tahle stránka neexistuje nebo byla přesunuta. Vrať se a vyhledej hráče.",
+    "crashTitle": "Něco se pokazilo",
+    "crashText": "Stránka se nenačetla správně. Zkus to znovu nebo vyhledej jiného hráče.",
+    "retry": "Zkusit znovu"
+  },
+  "loading": {
+    "recap1": "Vyvoláváme tvoji historii zápasů…",
+    "recap2": "Počítáme každý last hit…",
+    "recap3": "Radíme se s věštcem Riftu…",
+    "recap4": "Leštíme tvoje pentakilly…",
+    "squad1": "Hledáme vaše společné zápasy…",
+    "squad2": "Počítáme, kdo pingal nejvíc…",
+    "squad3": "Vážíme smrti…",
+    "squad4": "Rytíme trofeje…",
+    "versus1": "Poměřujeme oba hráče…",
+    "versus2": "Stahujeme dvě historie zápasů…",
+    "versus3": "Počítáme každý last hit…",
+    "versus4": "Připravujeme verdikt…"
+  },
+  "meta": {
+    "description": "Web, který ti během sezony ukáže tvoji cestu ve hře League of Legends"
+  },
+  "roles": {
+    "TOP": "Top",
+    "JUNGLE": "Džungle",
+    "MIDDLE": "Mid",
+    "BOTTOM": "Bot",
+    "UTILITY": "Podpora"
+  },
+  "tiers": {
+    "IRON": "Železo",
+    "BRONZE": "Bronz",
+    "SILVER": "Stříbro",
+    "GOLD": "Zlato",
+    "PLATINUM": "Platina",
+    "EMERALD": "Smaragd",
+    "DIAMOND": "Diamant",
+    "MASTER": "Mistr",
+    "GRANDMASTER": "Velmistr",
+    "CHALLENGER": "Vyzyvatel"
+  },
+  "queues": {
+    "RANKED_SOLO_5x5": "Hodnocená Sólo/Duo",
+    "RANKED_FLEX_SR": "Hodnocená Flex"
+  },
+  "rankTitle": "{tier} {division}"
+}

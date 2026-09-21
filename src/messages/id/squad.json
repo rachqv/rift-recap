@@ -1,0 +1,181 @@
+{
+  "awards": {
+    "objectiveSteal": {
+      "title": "Paling mungkin mencuri objektif",
+      "tagline": "Jaga naga kalian. Lalu lihat ia menghilang.",
+      "label": "objektif dicuri",
+      "line": "{name} mencuri {count, plural, other {# objektif}}. Tak ada yang aman."
+    },
+    "objectiveTake": {
+      "title": "Paling mungkin mengambil objektif",
+      "tagline": "Ke mana naga pergi, mereka ikut.",
+      "label": "damage ke objektif per menit",
+      "line": "{name} memberi {value} damage per menit ke objektif."
+    },
+    "deaths": {
+      "title": "Paling banyak mati",
+      "tagline": "Layar abu-abu? Mereka punya tiket musiman.",
+      "label": "kematian per pertandingan",
+      "line": "{name} menghabiskan sekitar {minutes} menit tiap pertandingan menatap layar abu-abu."
+    },
+    "pings": {
+      "title": "Sopir kursi belakang",
+      "tagline": "Paling mungkin ping 'mundur' ke timnya sendiri.",
+      "label": "ping per pertandingan",
+      "line": "{name} ping {value} kali per pertandingan. Minimap tak pernah istirahat."
+    },
+    "vision": {
+      "title": "Mercusuar",
+      "tagline": "Menyalakan lampu untuk semua orang.",
+      "label": "skor vision per menit",
+      "line": "{value} skor vision per menit dari {name}. Tak ada yang masuk gelap sendirian."
+    },
+    "tank": {
+      "title": "Samsak",
+      "tagline": "Menyerap damage terbanyak demi tim.",
+      "label": "damage diterima per pertandingan",
+      "line": "{name} menyerap {value} damage per pertandingan."
+    },
+    "assists": {
+      "title": "Sahabat terbaik",
+      "tagline": "Selalu ada untuk menyiapkan serangan.",
+      "label": "assist per pertandingan",
+      "line": "{name} rata-rata {value} assist. Rekan tim favorit tim."
+    },
+    "carry": {
+      "title": "Carry",
+      "tagline": "Paling mungkin memenangkan pertandingan untuk semua orang.",
+      "label": "KDA",
+      "line": "KDA {value}. {name} mengerjakan tugas berat."
+    },
+    "damage": {
+      "title": "Pemukul berat",
+      "tagline": "Bar darah meleleh saat disentuh.",
+      "label": "damage per menit",
+      "line": "{value} damage ke champion setiap menit dari {name}."
+    },
+    "farm": {
+      "title": "Petani",
+      "tagline": "Tak satu pun wave meriam tertinggal.",
+      "label": "CS per menit",
+      "line": "{value} minion per menit. {name} selalu ada di wave."
+    },
+    "present": {
+      "title": "Selalu hadir",
+      "tagline": "Kalau ada pertarungan, mereka ada di dalamnya.",
+      "label": "keterlibatan kill",
+      "line": "{name} ikut serta dalam {value} kill tim."
+    },
+    "cc": {
+      "title": "Pengendali kerumunan",
+      "tagline": "Menahan musuh agar yang lain bisa bekerja.",
+      "label": "detik crowd control per pertandingan",
+      "line": "{name} mengunci musuh selama {value, plural, other {# detik}} per pertandingan."
+    }
+  },
+  "chemistry": {
+    "destiny": "Duo takdir",
+    "great": "Chemistry hebat",
+    "solid": "Partner solid",
+    "awkward": "Canggung bersama",
+    "apart": "Lebih baik terpisah"
+  },
+  "slides": {
+    "intro": {
+      "eyebrow": "Rangkuman skuad",
+      "together": "{count, plural, other {pertandingan bersama}}",
+      "hours": "{n, plural, other {<b>{value}</b> jam}}",
+      "note": "Berdasarkan {loaded} pertandingan terbaru kalian bersama (dari {found} yang ditemukan)."
+    },
+    "record": {
+      "eyebrow": "Rekor kalian",
+      "label": "win rate bersama",
+      "bestStreak": "Rentetan terbaik <good>{count, plural, other {# kemenangan}}</good>",
+      "worstSkid": "Rentetan terburuk <bad>{count, plural, other {# kekalahan}}</bad>",
+      "all": "Semua {members} orang bersama dalam {games, plural, other {<b>#</b> pertandingan}}",
+      "machine": "Sebuah mesin saat antre bersama.",
+      "good": "Lebih banyak menang daripada kalah. Skuad ini bisa diandalkan.",
+      "balanced": "Seimbang sempurna. Kacau, tapi kacau yang menyenangkan.",
+      "rough": "Hasilnya berat. Tapi grup chat punya banyak cerita."
+    },
+    "pairs": {
+      "eyebrow": "Chemistry duo",
+      "best": "Duo terbaik",
+      "worst": "Perlu perbaikan",
+      "games": "{count, plural, other {# pertandingan}} bersama",
+      "chemistry": "{icon} chemistry {score} · {label}",
+      "captionBoth": "{a} dan {b} adalah pasangan yang cocok antre bareng. {c} dan {d}, mungkin tidak.",
+      "captionBest": "{a} dan {b} adalah pasangan terkuat kalian."
+    },
+    "award": {
+      "eyebrow": "Penghargaan {position} dari {total}",
+      "runner": "{n}. {name} <b>{display}</b>"
+    },
+    "board": {
+      "eyebrow": "Papan peringkat",
+      "aria": "Papan peringkat skuad",
+      "kda": "KDA",
+      "deaths": "Mati",
+      "damage": "Dmg/mnt",
+      "awards": "Penghargaan",
+      "note": "Diurutkan berdasarkan KDA. Penghargaan adalah piala yang dibawa pulang masing-masing."
+    },
+    "finale": {
+      "mvp": "MVP skuad",
+      "none": "Itulah skuadnya",
+      "awards": "{count, plural, other {# penghargaan}}, lebih banyak dari siapa pun.",
+      "recap": "Rangkuman {name}",
+      "versus": "Adu langsung: {a} vs {b}",
+      "shareTitle": "Rangkuman skuad League kami: {names}",
+      "another": "Mulai skuad lain"
+    },
+    "rivalry": {
+      "eyebrow": "Friendly fire",
+      "lead": "Rekor kalian melawan satu sama lain, {count, plural, other {# pertemuan}} di tim yang berlawanan",
+      "aria": "Rekor adu langsung",
+      "cell": "{wins, plural, other {# menang}}, {losses, plural, other {# kalah}}",
+      "even": "{a} dan {b} imbang sempurna dalam {games, plural, other {# pertemuan}}.",
+      "edge": "{winner} unggul atas {loser}, {hi} lawan {lo}. Persaingan terbesar di skuad."
+    },
+    "combos": {
+      "eyebrow": "Antre dengan siapa",
+      "trio": "Trio terbaik",
+      "duo": "Duo terbaik",
+      "record": "{wins}M {losses}K dalam {games, plural, other {# pertandingan}} bersama",
+      "caption": "{names}: antre bersama dan win rate akan bicara sendiri.",
+      "games": "{count, plural, other {# pertandingan}}"
+    },
+    "roles": {
+      "eyebrow": "Susunan terbaik",
+      "aria": "Role yang disarankan untuk tiap anggota",
+      "swap": "Di atas kertas, ini susunan terbaik: masing-masing di role yang paling sering menang, berdasarkan game kalian bersama. Sampelnya kecil, jadi anggap sebagai petunjuk.",
+      "settled": "Semua sudah main di role yang paling sering menang. Tidak ada yang perlu ditukar.",
+      "was": "biasanya {role}"
+    }
+  },
+  "rail": {
+    "start": "Mulai",
+    "record": "Rekor",
+    "duos": "Duo",
+    "roles": "Role",
+    "queue": "Antre dengan siapa",
+    "rivals": "Rival",
+    "quiz": "Kuis",
+    "board": "Papan",
+    "mvp": "MVP"
+  },
+  "page": {
+    "title": "{names} · Rangkuman skuad",
+    "titleDemo": "Contoh rangkuman skuad · Rift Recap",
+    "titleEmpty": "Rangkuman skuad · Rift Recap",
+    "description": "Penghargaan grup dari pertandingan yang dimainkan skuad bersama: paling banyak mati, paling banyak mencuri objektif, dan lainnya.",
+    "pickServer": "Pilih server.",
+    "unreadable": "Tidak bisa membaca {names}. Riot ID berbentuk Nama#TAG.",
+    "atLeastTwo": "Masukkan setidaknya dua Riot ID.",
+    "atMostFive": "Sebuah skuad paling banyak lima pemain.",
+    "notFound": "Tidak ada pemain untuk {names} di {region}. Periksa ejaan dan server.",
+    "noShared": "Tidak ada dari kalian yang punya pertandingan bersama {where}. Ini bekerja dari pertandingan yang dimainkan bersama, jadi coba rentang waktu lebih panjang atau orang yang biasa kamu ajak antre.",
+    "whereSeason": "dalam {count} pertandingan terakhir kalian",
+    "whereRange": "dalam rentang {range}"
+  }
+}

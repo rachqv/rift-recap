@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "title": "สรุปตัวอย่าง · Rift Recap"
+  },
+  "switcher": {
+    "label": "ผู้เล่นตัวอย่าง",
+    "previous": "ผู้เล่นตัวอย่างก่อนหน้า",
+    "next": "ผู้เล่นตัวอย่างถัดไป",
+    "player": "ผู้เล่นตัวอย่าง",
+    "show": "แสดง"
+  },
+  "players": {
+    "onetrick": "วันทริก",
+    "specialist": "ผู้เชี่ยวชาญ",
+    "explorer": "นักสำรวจ",
+    "chameleon": "กิ้งก่า",
+    "showstopper": "ตัวชูโรง",
+    "slayer": "นักสังหาร",
+    "daredevil": "คนบ้าบิ่น",
+    "support": "ตัวเชื่อมเกม",
+    "unlucky": "ฮีโร่ดวงซวย",
+    "phoenix": "ฟีนิกซ์",
+    "risingstar": "ดาวรุ่ง",
+    "streaker": "สตรีคร้อนแรง",
+    "scout": "หน่วยสอดแนม",
+    "farmer": "ชาวไร่",
+    "heavyhitter": "มือหนัก",
+    "everpresent": "อยู่ทุกที่",
+    "opener": "ผู้เปิดเกม",
+    "untouchable": "แตะต้องไม่ได้",
+    "closer": "ผู้ปิดเกม",
+    "marathoner": "นักวิ่งมาราธอน",
+    "speedrunner": "สปีดรันเนอร์",
+    "assassin": "แอสซาซิน",
+    "archmage": "จอมเวทระดับสูง",
+    "sharpshooter": "มือปืนแม่นยำ",
+    "brawler": "นักต่อย",
+    "bulwark": "ปราการ",
+    "aramfan": "แฟน ARAM",
+    "casual": "สายชิล",
+    "demolisher": "ทีมรื้อถอน",
+    "thief": "โจร",
+    "grinder": "สายฟาร์ม",
+    "pathfinder": "ผู้นำทาง",
+    "islander": "ชาวเกาะ",
+    "centerpiece": "ศูนย์กลาง",
+    "carry": "แครี่",
+    "guardian": "ผู้พิทักษ์"
+  }
+}

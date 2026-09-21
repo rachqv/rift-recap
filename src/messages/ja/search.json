@@ -1,0 +1,15 @@
+{
+  "placeholder": "Riot ID（名前#TAG）",
+  "riotId": "Riot ID",
+  "region": "リージョン",
+  "submit": "リキャップを見る",
+  "suggestions": "プレイヤーの候補",
+  "heading": {
+    "recent": "最近の検索",
+    "sample": "サンプルプレイヤー"
+  },
+  "sample": "サンプル",
+  "count": "{count, plural, other {#件の候補があります}}",
+  "empty": "保存済みのプレイヤーに一致するものがありません。Enterキーを押すと、Riotで<strong>{query}</strong>を検索します。",
+  "clear": "最近の検索を消去"
+}

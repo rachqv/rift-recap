@@ -1,0 +1,42 @@
+{
+  "insight": {
+    "nightOwl": "試合の{share}が深夜0時を過ぎてから始まっている。リフトは眠らない。あなたも。",
+    "earlyBird": "試合の{share}が正午前。コーヒー片手にキューに入っている。",
+    "weekend": "試合の{share}が週末。土曜日はリフトの日。",
+    "weekday": "ほとんどの試合が平日。グラインドに休みはない。",
+    "streak": "{days, plural, other {#日}}連続で試合をプレイ。もう習慣だ。",
+    "steady": "カレンダー全体に均等に散らばっている。パターンはなし、ただLeagueがあるだけ。"
+  },
+  "aria": "{days, plural, other {#日}}間の{games, plural, other {#試合}}のカレンダー",
+  "before": "{date}: 読み込んだ最も古い試合より前",
+  "day": "{date}: {detail}",
+  "dayGames": "{games, plural, other {#試合}}、{wins}勝",
+  "dayNone": "試合なし",
+  "fewer": "少ない",
+  "more": "多い",
+  "activeDays": "{count, plural, other {アクティブ<b>#</b>日}}",
+  "busiest": "最も多い日 <b>{date}</b> · {games, plural, other {#試合}}",
+  "streak": "最長連続 <b>{days, plural, other {#日}}</b>",
+  "favorite": "お気に入りの曜日 <b>{day}</b>",
+  "prime": "ゴールデンタイム <b>{hour}</b>",
+  "parts": {
+    "night": "深夜",
+    "morning": "朝",
+    "afternoon": "昼",
+    "evening": "夜"
+  },
+  "bestPart": "<b>{part}</b>が最高 · 勝率<good>{rate}</good>",
+  "worstPart": "（{part}は<bad>{rate}</bad>）",
+  "bestMonth": "最高の月 <b>{month}</b> · <good>{rate}</good>",
+  "worstMonth": "· 最低は<b>{month}</b> <bad>{rate}</bad>",
+  "clock": {
+    "day": "一番勝てる曜日は{best}、勝率{bestRate}。一番負ける曜日は{worst}、勝率はわずか{worstRate}。",
+    "part": "一番勝てる時間帯は{best}、勝率{bestRate}。一番負ける時間帯は{worst}、勝率はわずか{worstRate}。",
+    "steady": "時間帯や曜日で勝率はほとんど変わらない。いつ遊んでも、同じプレイヤー。",
+    "byPart": "時間帯",
+    "byDay": "曜日",
+    "bar": "{label}：勝率{rate}、{detail}",
+    "barFew": "{label}：{detail}。比べるには試合数が少なすぎる。",
+    "aria": "時間帯別・曜日別の勝率"
+  }
+}

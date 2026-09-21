@@ -1,0 +1,9 @@
+{
+  "aria": "Chênh lệch vàng giữa {a} và {b} trong trận gần nhất họ đối đầu nhau. {result}",
+  "aheadEnd": "Cuối trận {name} dẫn trước {gold}.",
+  "levelEnd": "Cuối trận hòa nhau.",
+  "minute": "Phút <b>{minute}</b>",
+  "ahead": "<b>{name}</b> dẫn {gold} vàng",
+  "level": "Hòa",
+  "won": "{name} thắng"
+}

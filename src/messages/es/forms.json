@@ -1,0 +1,39 @@
+{
+  "tryRange": "Prueba otro periodo:",
+  "field": {
+    "recent": "Jugadores recientes"
+  },
+  "squad": {
+    "title": "Resumen de equipo",
+    "lead": "Introduce de dos a cinco Riot ID del mismo servidor. Miramos las partidas que jugasteis <em>juntos</em> y repartimos los premios.",
+    "server": "Servidor",
+    "player": "Jugador {n} (Nombre#TAG)",
+    "playerOptional": "Jugador {n} (Nombre#TAG), opcional",
+    "playerAria": "Riot ID del jugador {n}",
+    "submit": "Ver el resumen del equipo",
+    "fine": "Funciona mejor con gente con la que juegas en cola, ya que solo cuenta las partidas compartidas. <link>Ver un equipo de ejemplo</link>"
+  },
+  "clash": {
+    "title": "Equipo contra equipo",
+    "lead": "Dos equipos de dos a cinco jugadores, del mismo servidor. Miramos las partidas en las que jugasteis <em>uno contra otro</em>, como una personalizada 5v5.",
+    "server": "Servidor",
+    "sideA": "Equipo 1",
+    "sideB": "Equipo 2",
+    "player": "{side}, jugador {n} (Nombre#TAG)",
+    "playerOptional": "{side}, jugador {n} (Nombre#TAG) opcional",
+    "playerAria": "Riot ID del jugador {n} de {side}",
+    "submit": "Comparar los equipos",
+    "fine": "Solo cuenta partidas con al menos dos de cada equipo en bandos contrarios. <link>Ver un ejemplo</link>"
+  },
+  "versus": {
+    "title": "Cara a cara",
+    "lead": "Elige a dos jugadores y mira quién sale ganando: estadística a estadística, estilo a estilo, y cómo les va cuando juegan juntos.",
+    "player1": "Jugador 1",
+    "player2": "Jugador 2",
+    "serverAria": "Servidor de {label}",
+    "riotId": "Riot ID (Nombre#TAG)",
+    "riotIdAria": "Riot ID de {label}",
+    "submit": "Comparar",
+    "fine": "Compara las últimas partidas de cada jugador. <link>Ver un duelo de ejemplo</link>"
+  }
+}

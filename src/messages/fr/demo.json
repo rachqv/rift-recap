@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "title": "Récap d'exemple · Rift Recap"
+  },
+  "switcher": {
+    "label": "Joueurs d'exemple",
+    "previous": "Joueur d'exemple précédent",
+    "next": "Joueur d'exemple suivant",
+    "player": "Joueur d'exemple",
+    "show": "Afficher"
+  },
+  "players": {
+    "onetrick": "One-Trick",
+    "specialist": "Spécialiste",
+    "explorer": "Explorateur",
+    "chameleon": "Caméléon",
+    "showstopper": "Vedette",
+    "slayer": "Tueur",
+    "daredevil": "Casse-cou",
+    "support": "Meneur de jeu",
+    "unlucky": "Héros malchanceux",
+    "phoenix": "Phénix",
+    "risingstar": "Étoile montante",
+    "streaker": "Série chaude",
+    "scout": "Éclaireur",
+    "farmer": "Fermier",
+    "heavyhitter": "Poids lourd",
+    "everpresent": "Toujours présent",
+    "opener": "Ouvreur",
+    "untouchable": "Intouchable",
+    "closer": "Finisseur",
+    "marathoner": "Marathonien",
+    "speedrunner": "Speedrunner",
+    "assassin": "Assassin",
+    "archmage": "Archimage",
+    "sharpshooter": "Tireur d'élite",
+    "brawler": "Bagarreur",
+    "bulwark": "Rempart",
+    "aramfan": "Fan d'ARAM",
+    "casual": "Décontracté",
+    "demolisher": "Démolisseur",
+    "thief": "Voleur",
+    "grinder": "Acharné",
+    "pathfinder": "Éclaireur de jungle",
+    "islander": "Insulaire",
+    "centerpiece": "Pièce maîtresse",
+    "carry": "Carry",
+    "guardian": "Gardien"
+  }
+}

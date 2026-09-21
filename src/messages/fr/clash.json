@@ -1,0 +1,55 @@
+{
+  "team": "Équipe {name}",
+  "line": {
+    "few": "{games} entre les équipes pour l'instant : trop tôt pour trancher.",
+    "level": "{a} à {b} : à peu près à égalité. Un écart aussi petit peut n'être que de la chance.",
+    "lead": "{name} mène, {win} à {lose}. C'est plus que ce que la chance suffirait à expliquer."
+  },
+  "rail": {
+    "start": "Les équipes",
+    "lanes": "Voie par voie",
+    "numbers": "Les chiffres",
+    "stars": "Les meilleurs",
+    "end": "Récaps d'équipe"
+  },
+  "slides": {
+    "intro": {
+      "eyebrow": "Équipe contre équipe",
+      "played": "{games} jouées l'une contre l'autre"
+    },
+    "lanes": {
+      "eyebrow": "Voie par voie",
+      "aria": "Résultats par voie",
+      "note": "Une voie n'apparaît que si les deux équipes y avaient quelqu'un. Chaque partie revient au joueur de la voie qui a le meilleur KDA."
+    },
+    "numbers": {
+      "eyebrow": "Comment chaque équipe a joué",
+      "aria": "Moyennes par joueur et par partie",
+      "note": "Moyenne par joueur et par partie.",
+      "kda": "KDA",
+      "damage": "Dégâts aux champions",
+      "gold": "Or gagné",
+      "vision": "Score de vision"
+    },
+    "stars": {
+      "eyebrow": "Les meilleurs",
+      "best": "Meilleur KDA de l'équipe {team}",
+      "stat": "{kda} de KDA sur {games}",
+      "record": "{wins} victoires sur {games}",
+      "note": "Seuls les joueurs ayant au moins {min} parties entre les équipes sont pris en compte."
+    },
+    "end": {
+      "eyebrow": "Pour continuer",
+      "recap": "Récap d'équipe : {team}"
+    }
+  },
+  "page": {
+    "title": "{a} vs {b} · Équipe contre équipe",
+    "titleDemo": "Exemple d'équipe contre équipe · Rift Recap",
+    "titleEmpty": "Équipe contre équipe · Rift Recap",
+    "description": "Deux équipes face à face : qui gagne, voie par voie, et comment chaque camp a joué.",
+    "overlap": "{names} ne peut pas être dans les deux équipes.",
+    "atLeastTwo": "Chaque équipe a besoin d'au moins deux Riot ID.",
+    "noClash": "Ces équipes n'ont aucune partie l'une contre l'autre {where}. Il faut des parties où au moins deux joueurs de chaque équipe étaient dans le même match, dans des camps opposés, comme une personnalisée 5v5."
+  }
+}

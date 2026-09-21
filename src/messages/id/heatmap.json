@@ -1,0 +1,42 @@
+{
+  "insight": {
+    "nightOwl": "{share} pertandinganmu dimulai lewat tengah malam. Rift tak pernah tidur, dan kamu juga.",
+    "earlyBird": "{share} pertandinganmu sebelum tengah hari. Antre sambil ngopi.",
+    "weekend": "{share} pertandinganmu jatuh di akhir pekan. Sabtu adalah hari untuk Rift.",
+    "weekday": "Hampir semua pertandinganmu di hari kerja. Grinding tidak kenal hari libur.",
+    "streak": "{days, plural, other {# hari}} berturut-turut ada pertandingan. Itu sudah kebiasaan.",
+    "steady": "Stabil, tersebar di seluruh kalender. Tanpa pola, cuma League."
+  },
+  "aria": "Kalender {games, plural, other {# pertandingan}} dalam {days, plural, other {# hari}}",
+  "before": "{date}: sebelum pertandingan tertua yang dimuat",
+  "day": "{date}: {detail}",
+  "dayGames": "{games, plural, other {# pertandingan}}, menang {wins}",
+  "dayNone": "tidak ada pertandingan",
+  "fewer": "Lebih sedikit",
+  "more": "Lebih banyak",
+  "activeDays": "{count, plural, other {<b>#</b> hari aktif}}",
+  "busiest": "Hari tersibuk <b>{date}</b> · {games, plural, other {# pertandingan}}",
+  "streak": "Rentetan terpanjang <b>{days, plural, other {# hari}}</b>",
+  "favorite": "Hari favorit <b>{day}</b>",
+  "prime": "Jam emas <b>{hour}</b>",
+  "parts": {
+    "night": "malam",
+    "morning": "pagi",
+    "afternoon": "siang",
+    "evening": "sore"
+  },
+  "bestPart": "Terbaik di <b>{part}</b> · menang <good>{rate}</good>",
+  "worstPart": "(<bad>{rate}</bad> di waktu {part})",
+  "bestMonth": "Bulan terbaik <b>{month}</b> · <good>{rate}</good>",
+  "worstMonth": "· terburuk <b>{month}</b> <bad>{rate}</bad>",
+  "clock": {
+    "day": "Hari terbaikmu: {best}, menang {bestRate}. Terburuk: {worst}, hanya {worstRate}.",
+    "part": "Waktu terbaikmu: {best}, menang {bestRate}. Terburuk: {worst}, hanya {worstRate}.",
+    "steady": "Persentase kemenanganmu nyaris tidak berubah menurut jam. Hari apa pun, jam berapa pun: pemain yang sama.",
+    "byPart": "Waktu dalam sehari",
+    "byDay": "Hari dalam seminggu",
+    "bar": "{label}: menang {rate}, {detail}",
+    "barFew": "{label}: {detail}. Terlalu sedikit pertandingan untuk dibandingkan.",
+    "aria": "Persentase kemenangan menurut waktu dalam sehari dan hari dalam seminggu"
+  }
+}

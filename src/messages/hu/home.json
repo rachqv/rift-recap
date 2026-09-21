@@ -1,0 +1,43 @@
+{
+  "badge": "Szezonösszegzés",
+  "title": {
+    "line1": "A szezonod,",
+    "line2": "összefoglalva."
+  },
+  "subtitle": "Minden meccs, minden pentakill, minden kétes Flash. Add meg a Riot ID-det, és éld át újra a Szurdokban megtett utadat.",
+  "error": "Add meg a Riot ID-det Név#TAG formában, és válassz régiót.",
+  "hint": "Nincs szükség bejelentkezésre. Csak a Riot ID-d kell. <link>Minta összegzés megtekintése →</link>",
+  "modes": {
+    "squad": "Csapatösszegzés",
+    "versus": "Szemtől szemben",
+    "clash": "Csapat csapat ellen",
+    "players": "A játékosaid"
+  },
+  "features": {
+    "title": "Mi van az összegzésedben",
+    "champions": {
+      "title": "A bajnokaid",
+      "text": "Ki vitt el a hátán, ki került neked LP-be, és melyik az a választás, amit nem tudsz megállni, hogy ne zárd le."
+    },
+    "climb": {
+      "title": "A kapaszkodásod",
+      "text": "Nyerési arány, KDA és rangváltozás az egész szezonban, történetként elmesélve."
+    },
+    "time": {
+      "title": "Az időd",
+      "text": "A Szurdokban töltött órák, a leghosszabb meccsed, a legkésőbbi éjszakai sorbaállásod."
+    }
+  },
+  "sample": {
+    "label": "Minta összegzőkártyák",
+    "games": "Lejátszott meccsek",
+    "days": "≈ {days} nap a Szurdokban",
+    "signature": "Védjegybajnok",
+    "record": "{games} meccs · {winRate} nyerési arány",
+    "kda": "Szezon KDA",
+    "peak": "Csúcsrang",
+    "peakRank": "Smaragd II",
+    "climbed": "+{lp} LP mászás ebben a szezonban"
+  },
+  "footer": "A Rift Recapet nem támogatja a Riot Games, és nem tükrözi a Riot Games vagy bárki más véleményét, aki hivatalosan részt vesz a Riot Games tulajdonok előállításában vagy kezelésében. A Riot Games és minden kapcsolódó tulajdon a Riot Games, Inc. védjegye vagy bejegyzett védjegye."
+}

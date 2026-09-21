@@ -1,0 +1,400 @@
+{
+  "rows": {
+    "winRate": "Win rate",
+    "kda": "KDA",
+    "kills": "Kill per pertandingan",
+    "deaths": "Mati per pertandingan",
+    "assists": "Assist per pertandingan",
+    "cs": "CS per menit",
+    "vision": "Vision per menit",
+    "damage": "Damage per menit",
+    "kp": "Keterlibatan kill"
+  },
+  "verdict": {
+    "tie": "Masing-masing {score} baris. Kalian seimbang secara mengerikan.",
+    "sweep": "{name} mengambil setiap baris yang penting. {other} masih harus mengejar banyak.",
+    "clear": "{name} menang {hi} baris lawan {lo}. Tidak ketat sama sekali.",
+    "edge": "{name} unggul tipis, {hi} baris lawan {lo}. {other} tepat di belakangnya."
+  },
+  "rematch": {
+    "changed": "Posisi teratas berpindah tangan: kini {name} di puncak.",
+    "improved": "{name} lebih banyak berkembang sejak saat itu ({better} lawan {worse} poin win rate).",
+    "same": "Gambaran yang hampir sama seperti terakhir kali."
+  },
+  "groups": {
+    "moments": {
+      "label": "Momen",
+      "eyebrow": "Momen besar"
+    },
+    "habits": {
+      "label": "Kebiasaan",
+      "eyebrow": "Kebiasaan di Rift"
+    },
+    "form": {
+      "label": "Performa",
+      "eyebrow": "Performa dan ketangguhan"
+    },
+    "identity": {
+      "label": "Siapa siapa",
+      "eyebrow": "Siapa siapa"
+    }
+  },
+  "short": {
+    "win": "{value}M",
+    "loss": "{value}K",
+    "record": "{rate} · {games}p",
+    "champs": "{count, plural, other {# champ}}",
+    "minutes": "{value} mnt",
+    "hours": "{value}j",
+    "level": "Lv {value}",
+    "seconds": "{value}d",
+    "epic": "{dragons}N {barons}B",
+    "none": "Tidak ada",
+    "noneLower": "tidak ada",
+    "penta": "{count}P",
+    "quadra": "{count}Q",
+    "triple": "{count}T"
+  },
+  "multi": {
+    "penta": "{count, plural, other {# pentakill}}",
+    "quadra": "{count, plural, other {# quadrakill}}",
+    "triple": "{count, plural, other {# triple kill}}"
+  },
+  "trend": {
+    "steady": "{name} stabil di {rate}",
+    "change": "{name} naik dari {early} ke {late} menang"
+  },
+  "scenarios": {
+    "multikills": {
+      "title": "Video highlight",
+      "tagline": "Penta, quadra, dan triple, dibobot berdasarkan seberapa ribut chat musuh.",
+      "line": "{name} mengumpulkan {list}. Folder highlight sudah penuh."
+    },
+    "firstBlood": {
+      "title": "First blood",
+      "tagline": "Seseorang harus memulai pertarungan.",
+      "line": "{name} mengambil first blood di {rate} pertandingan. {other} datang terlambat dengan gaya."
+    },
+    "flawless": {
+      "title": "Pertandingan tanpa cela",
+      "tagline": "Nol kematian, dari awal sampai akhir.",
+      "line": "{name} menyelesaikan {count, plural, other {# pertandingan}} tanpa mati sekali pun. Tak tersentuh."
+    },
+    "careerGame": {
+      "title": "Pertandingan karier",
+      "tagline": "Pertandingan yang akan mereka ceritakan di pesta.",
+      "line": "{name} mencetak {kills}/{deaths}/{assists} dengan {champion}.",
+      "lineLost": "{name} mencetak {kills}/{deaths}/{assists} dengan {champion} dan tetap kalah. Pahit."
+    },
+    "spree": {
+      "title": "Spree terbesar",
+      "tagline": "Kill berturut-turut tanpa mati.",
+      "line": "{name} merangkai {count} kill tanpa mati. Tolong panggil pemadam kebakaran."
+    },
+    "lifespan": {
+      "title": "Hidup terlama",
+      "tagline": "Waktu terlama mereka bertahan hidup sekali jalan.",
+      "line": "{name} pernah bertahan hidup selama {time} tanpa putus. Air mancur nyaris tak mengenalnya."
+    },
+    "soloKills": {
+      "title": "Solo kill",
+      "tagline": "Satu lawan satu, tanpa perlu bantuan.",
+      "line": "{name} rata-rata {value} solo kill per pertandingan. Ada orang yang memang suka 1v1."
+    },
+    "dodge": {
+      "title": "The Matrix",
+      "tagline": "Skillshot yang hanya mengenai udara.",
+      "line": "{name} menghindari {value} skillshot per pertandingan. Sulit dikenai, lebih sulit ditangkap."
+    },
+    "thief": {
+      "title": "Pencuri objektif",
+      "tagline": "Naga? Naga yang mana?",
+      "line": "{name} mencuri {count, plural, other {# objektif}}. {other} sebaiknya lebih waspada terhadap lubang."
+    },
+    "epic": {
+      "title": "Pemburu monster epik",
+      "tagline": "Naga dan Baron yang dituntaskan sendiri.",
+      "line": "{name} melakukan pukulan terakhir pada {dragons, plural, other {# naga}} dan {barons, plural, other {# Baron}}."
+    },
+    "siege": {
+      "title": "Kru pembongkaran",
+      "tagline": "Porsi menara tim yang mereka hancurkan.",
+      "line": "{name} menghancurkan {share} menara timnya. Tak ada bangunan yang selamat."
+    },
+    "objDamage": {
+      "title": "Damage objektif",
+      "tagline": "Damage ke menara, naga, dan Baron per pertandingan.",
+      "line": "{name} memberi {value} damage per pertandingan ke objektif. Peta hanyalah daftar tugas."
+    },
+    "flash": {
+      "title": "Pecandu Flash",
+      "tagline": "Jumlah tekan Flash per pertandingan. Selalu cooldown.",
+      "line": "{name} memakai Flash {value} kali per pertandingan. {other} entah lebih berani atau lebih lambat."
+    },
+    "grayScreen": {
+      "title": "Waktu di layar abu-abu",
+      "tagline": "Porsi setiap pertandingan dalam keadaan mati. Makin sedikit makin baik.",
+      "line": "{other} menghabiskan {otherShare} setiap pertandingan menunggu respawn. {name} hanya {share}."
+    },
+    "pings": {
+      "title": "Sopir kursi belakang",
+      "tagline": "Ping per pertandingan.",
+      "line": "{name} ping {value} kali per pertandingan. Minimap tak pernah istirahat."
+    },
+    "pinks": {
+      "title": "Anggaran pink ward",
+      "tagline": "Control ward yang dipasang per pertandingan.",
+      "line": "{name} memasang {value} control ward per pertandingan. {other} menyimpan emasnya untuk hari hujan."
+    },
+    "sweeper": {
+      "title": "Penyapu ward",
+      "tagline": "Ward musuh yang dibersihkan per pertandingan.",
+      "line": "{name} membersihkan {value} ward musuh per pertandingan. Tak ada yang bersembunyi dari lentera itu."
+    },
+    "gold": {
+      "title": "Penambang emas",
+      "tagline": "Emas yang didapat per menit.",
+      "line": "{name} mendapat {value} emas per menit dibanding {otherValue} milik {other}. Ada yang lebih sering belanja."
+    },
+    "tank": {
+      "title": "Samsak",
+      "tagline": "Damage yang diserap per pertandingan.",
+      "line": "{name} menyerap {value} damage per pertandingan. Seseorang harus melakukannya."
+    },
+    "medic": {
+      "title": "Medis tim",
+      "tagline": "Heal dan shield untuk rekan tim per pertandingan.",
+      "line": "{name} menyembuhkan dan melindungi {value} damage per pertandingan untuk tim."
+    },
+    "cc": {
+      "title": "Crowd control",
+      "tagline": "Detik musuh tertahan per pertandingan.",
+      "line": "{name} mengunci musuh selama {value, plural, other {# detik}} per pertandingan. Diam di tempat."
+    },
+    "whiteFlag": {
+      "title": "Bendera putih",
+      "tagline": "Kekalahan yang berakhir dengan menyerah.",
+      "line": "Tim {name} menyerah di {share} kekalahan mereka. {other} bertarung sampai Nexus."
+    },
+    "crit": {
+      "title": "Crit terbesar",
+      "tagline": "Crit tunggal terkeras yang pernah mendarat.",
+      "line": "{name} pernah crit sebesar {value}. Yang itu masuk ke grup chat."
+    },
+    "teamDamage": {
+      "title": "Memikul damage",
+      "tagline": "Porsi damage tim ke champion.",
+      "line": "{name} memberi {share} damage timnya. Sisa tim berdiri di dekatnya."
+    },
+    "hotStreak": {
+      "title": "Rentetan panas",
+      "tagline": "Rentetan menang terpanjang.",
+      "line": "{name} pernah menang {win} berturut-turut. {other} mentok di {lose}."
+    },
+    "tilt": {
+      "title": "Kedalaman tilt",
+      "tagline": "Rentetan kalah terpanjang. Makin pendek makin baik.",
+      "line": "{other} pernah kalah {lose} berturut-turut. {name} tak pernah tenggelam melewati {win}."
+    },
+    "momentum": {
+      "title": "Momentum",
+      "tagline": "Win rate di paruh pertandingan yang lebih baru dibanding paruh yang lebih lama.",
+      "line": "{first}, sementara {second}."
+    },
+    "ladder": {
+      "title": "Posisi ladder",
+      "tagline": "Siapa yang lebih tinggi di ladder ranked.",
+      "line": "{name} ({title}) berada di atas {other} ({otherTitle}). Hak pamer, secara resmi."
+    },
+    "seasonRanked": {
+      "title": "Rekor ranked musim ini",
+      "tagline": "Win rate di semua pertandingan ranked musim ini.",
+      "line": "{name} menang {rate} pertandingan ranked dibanding {otherRate} milik {other}."
+    },
+    "rankedForm": {
+      "title": "Tekanan ranked",
+      "tagline": "Win rate di pertandingan ranked terbaru.",
+      "line": "{name} menang {rate} saat LP dipertaruhkan. {other} menang {otherRate}."
+    },
+    "normals": {
+      "title": "Tak ada yang dipertaruhkan",
+      "tagline": "Win rate di pertandingan normal terbaru.",
+      "line": "{name} menang {rate} pertandingan normal dibanding {otherRate} milik {other}. Santai cocok untuknya."
+    },
+    "aram": {
+      "title": "Penghuni Abyss",
+      "tagline": "Win rate di jembatan ARAM.",
+      "line": "{name} menang {rate} di jembatan. {other} menang {otherRate}. Kekacauan berpihak pada seseorang."
+    },
+    "signature": {
+      "title": "Aura tokoh utama",
+      "tagline": "Win rate di champion yang paling sering dimainkan.",
+      "line": "{name} menang {rate} dengan {champion}. {other} menang {otherRate} dengan {otherChampion}."
+    },
+    "pool": {
+      "title": "Pool champion",
+      "tagline": "Berapa banyak champion berbeda yang mereka mainkan.",
+      "line": "{name} memainkan {count, plural, other {# champion}} berbeda. {other} berhenti di {otherCount}. Salah satu dari kalian suka variasi."
+    },
+    "roleLoyalty": {
+      "title": "Kesetiaan pada role",
+      "tagline": "Seberapa banyak waktu mereka untuk satu role.",
+      "line": "{name} bermain {role} selama {share} waktunya. {other} bergerak lebih bebas."
+    },
+    "closer": {
+      "title": "Sang penutup",
+      "tagline": "Rata-rata durasi pertandingan. Lebih singkat menang.",
+      "line": "Pertandingan {name} selesai dalam {value} menit. Milik {other} butuh {otherValue}. Ada yang punya tempat untuk dituju."
+    },
+    "marathon": {
+      "title": "Pertandingan maraton",
+      "tagline": "Satu pertandingan terpanjang.",
+      "line": "{name} pernah bermain {time} dengan {champion} dan menang. Camilan ikut terlibat.",
+      "lineLost": "{name} pernah bermain {time} dengan {champion} dan kalah. Camilan ikut terlibat."
+    },
+    "hours": {
+      "title": "Waktu di Rift",
+      "tagline": "Jam yang dihabiskan di pertandingan ini.",
+      "line": "{name} mencatat {value} jam. {other} mencatat {otherValue}. Mungkin perlu menyentuh rumput."
+    },
+    "level": {
+      "title": "Veteran akun",
+      "tagline": "Level summoner.",
+      "line": "{name} level {level}. {other} level {otherLevel}. Salah satu dari kalian sudah lama di sini."
+    },
+    "kryptonite": {
+      "title": "Kryptonite",
+      "tagline": "Lawan lane terburuk mereka, dan bagaimana hasilnya.",
+      "line": "{other} terus kalah dari {enemy} ({record}). Musuh terburuk {name}, {theirEnemy}, adalah cerita yang lebih lembut.",
+      "lineNone": "{other} tak bisa mengalahkan {enemy} ({record}). {name} sama sekali tak punya musuh bebuyutan."
+    },
+    "bully": {
+      "title": "Korban favorit",
+      "tagline": "Champion yang paling sering mereka hajar di lane.",
+      "line": "{name} {record} melawan {champion}. Champion itu sebaiknya mencari lane baru."
+    }
+  },
+  "slides": {
+    "small": "(Sampelnya kecil, jadi tanggapi dengan santai.)",
+    "intro": {
+      "eyebrow": "Adu langsung",
+      "unranked": "Belum berperingkat",
+      "games": "{count, plural, other {# pertandingan}} dianalisis",
+      "vs": "VS",
+      "differentServers": "Server berbeda, jadi tidak ada pertandingan bersama untuk dibandingkan."
+    },
+    "stats": {
+      "eyebrow": "Angka-angkanya",
+      "aria": "Perbandingan statistik",
+      "ties": "{count, plural, other {# baris}} terlalu ketat untuk ditentukan."
+    },
+    "style": {
+      "eyebrow": "Dua pemain yang berbeda",
+      "meta": "{games, plural, other {# pertandingan}} · menang {rate}",
+      "metaRole": "{games, plural, other {# pertandingan}} · menang {rate} · {role}"
+    },
+    "scenario": {
+      "eyebrow": "{group} · {position} dari {total}",
+      "wins": "Menang",
+      "leads": "Unggul",
+      "vs": "lawan"
+    },
+    "rhythm": {
+      "eyebrow": "Kapan kalian bermain",
+      "note": "Dalam zona waktumu sendiri."
+    },
+    "faceoff": {
+      "eyebrow": "Tatap muka",
+      "meetings": "{count, plural, other {<b>#</b> pertemuan sebagai musuh}}",
+      "duels": "{count, plural, other {<b>#</b> duel lane}} · {left}–{right}",
+      "better": "KDA lebih baik lebih sering: <b>{name}</b>",
+      "last": "Terakhir kali kalian bertemu",
+      "lastRole": "Terakhir kali kalian bertemu, sebagai {role}",
+      "roles": {
+        "TOP": "lane atas",
+        "JUNGLE": "jungle",
+        "MIDDLE": "lane tengah",
+        "BOTTOM": "lane bawah",
+        "UTILITY": "support",
+        "other": "lane yang sama"
+      },
+      "won": "Menang",
+      "lost": "Kalah",
+      "meta": "{champion} · {kills}/{deaths}/{assists}",
+      "even": "Imbang sempurna saat kalian di tim berlawanan. Penentu sudah lama dinanti.",
+      "sweep": "{name} tak pernah kalah dari {other}. {other} silakan minta rematch.",
+      "edge": "{name} unggul, {hi} lawan {lo}. {other} sedang merencanakan balas dendam."
+    },
+    "timeline": {
+      "eyebrow": "Menit demi menit",
+      "kills": "Kill satu sama lain, dalam <b>{meetings, plural, other {# pertemuan}}</b>",
+      "solo": "Solo kill: <sa>{left}</sa> – <sb>{right}</sb>",
+      "ahead": "Unggul di menit {minute}: <sa>{left}</sa> – <sb>{right}</sb>",
+      "aheadLevel": "({count} imbang)",
+      "firstDeath": "Mati lebih dulu: <sa>{left}</sa> – <sb>{right}</sb>",
+      "firstDragon": "Naga pertama: <sa>{left}</sa> – <sb>{right}</sb>",
+      "goldLead": "<b>{gold}</b> rata-rata keunggulan emas untuk <b>{name}</b>",
+      "noEdge": "Tak satu pun dari kalian unggul dalam kill yang saling ditukar.",
+      "killsLead": "{name} mengambil kill yang kalian tukar. Early game masih jadi misteri untuk saat ini.",
+      "level": "Imbang sempurna di menit {minute} secara rata-rata. Siapa pun yang menang, ditentukan belakangan.",
+      "lead": "{leader} biasanya unggul di menit {minute}, rata-rata {gold} emas.",
+      "allWon": "{lead} Dan setiap keunggulan berubah jadi kemenangan. {other} tak pernah menemukan jalan kembali.",
+      "noneWon": "{lead} Entah bagaimana mereka kalah di semua pertandingan itu. {other} adalah raja comeback.",
+      "someWon": "{lead} Mereka menutup {won} dari {ahead} keunggulan itu."
+    },
+    "together": {
+      "eyebrow": "Saat kalian bermain bersama",
+      "chemistry": "Chemistry · {label}",
+      "carry": "Di pertandingan kalian bersama, {name} membawa tim dengan KDA {kda}.",
+      "even": "Imbang sempurna saat bermain bersama.",
+      "topDamage": "Damage teratas: <sa>{left}</sa> – <sb>{right}</sb>",
+      "winsMore": "Lebih sering menang saat <side>{name}</side> memimpin damage",
+      "winsMoreRates": "({rate} lawan {other})",
+      "apart": "<side>{name}</side> {apart} terpisah → {together} bersama",
+      "each": "{aName} {a}, {bName} {b} poin",
+      "eachOne": "{value} poin untuk {name}",
+      "lift": "Kalian berdua lebih sering menang bersama daripada terpisah ({each}). Teruslah antre bareng.",
+      "drag": "Kalian berdua lebih jarang menang bersama daripada terpisah ({each}). Mungkin antre dengan orang lain.",
+      "mixed": "Bermain bersama lebih menguntungkan salah satu dari kalian ({each}).",
+      "flat": "Win rate kalian nyaris tak berubah saat antre bersama. Hanya soal kebersamaan."
+    },
+    "verdict": {
+      "eyebrow": "Putusan",
+      "rows": "{count, plural, other {# baris}}",
+      "wins": "{name} menang",
+      "tie": "Terlalu ketat untuk ditentukan",
+      "score": "{a} baris lawan {b}",
+      "scoreTied": "{a} baris lawan {b}, {ties} imbang",
+      "main": "Main: <b>{champion}</b>",
+      "rematchChip": "{date}: <sa>{left}</sa> – <sb>{right}</sb>",
+      "sideBets": "Taruhan sampingan <sa>{left}</sa> – <sb>{right}</sb>",
+      "sideBetsNote": "Tapi {name} memenangkan taruhan sampingan, jadi grup chat punya bahan.",
+      "recap": "Rangkuman {name}",
+      "shareTitle": "{a} vs {b}: adu langsung League",
+      "again": "Matchup baru"
+    }
+  },
+  "rail": {
+    "start": "Mulai",
+    "numbers": "Angka",
+    "styles": "Gaya",
+    "hours": "Jam",
+    "together": "Bersama",
+    "faceoff": "Tatap muka",
+    "timeline": "Linimasa",
+    "verdict": "Putusan"
+  },
+  "page": {
+    "titleDemo": "Contoh adu langsung · Rift Recap",
+    "titleEmpty": "Adu langsung · Rift Recap",
+    "title": "{a} vs {b} · Adu langsung",
+    "description": "Dua pemain League dibandingkan statistik demi statistik, plus bagaimana mereka bermain bersama.",
+    "unreadableTwo": "Tidak bisa membaca {who}. Riot ID berbentuk Nama#TAG.",
+    "first": "pemain pertama",
+    "second": "pemain kedua",
+    "malformed": "Salah satu pemain di tautan itu tidak bisa dibaca.",
+    "notFound": "Salah satu pemain itu tidak ditemukan. Periksa ejaan dan server.",
+    "same": "Pilih dua pemain yang berbeda.",
+    "noGames": "Tidak ada pertandingan untuk {names} sejak {since}, jadi belum ada yang bisa dibandingkan."
+  }
+}

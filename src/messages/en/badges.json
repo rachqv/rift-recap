@@ -1,0 +1,98 @@
+{
+  "penta": {
+    "name": "Pentakill",
+    "text": "Land a pentakill."
+  },
+  "quadra": {
+    "name": "Quadra collector",
+    "text": "Get {target, plural, one {# quadrakill} other {# quadrakills}}."
+  },
+  "triple": {
+    "name": "Triple threat",
+    "text": "Get {target, plural, one {# triple kill} other {# triple kills}}."
+  },
+  "flawless": {
+    "name": "Flawless",
+    "text": "Finish a game without dying."
+  },
+  "flawless5": {
+    "name": "Untouchable",
+    "text": "Finish {target, plural, one {# game} other {# games}} without dying."
+  },
+  "streak": {
+    "name": "On fire",
+    "text": "Win {target, plural, one {# game} other {# games}} in a row."
+  },
+  "winrate": {
+    "name": "Winner",
+    "text": "Hold a {target} win rate over {games}+ games."
+  },
+  "kills": {
+    "name": "Kill machine",
+    "text": "Get {target, plural, one {# kill} other {# kills}} in one game."
+  },
+  "perfect": {
+    "name": "Perfect game",
+    "text": "Play a game with a {target}+ KDA."
+  },
+  "firstblood": {
+    "name": "First blood king",
+    "text": "Draw first blood {target, plural, one {# time} other {# times}}."
+  },
+  "thief": {
+    "name": "Objective thief",
+    "text": "Steal an objective."
+  },
+  "turrets": {
+    "name": "Demolisher",
+    "text": "Take down {target, plural, one {# turret} other {# turrets}}."
+  },
+  "variety": {
+    "name": "Jack of all trades",
+    "text": "Play {target, plural, one {# different champion} other {# different champions}}."
+  },
+  "loyal": {
+    "name": "Loyalist",
+    "text": "Play one champion {target, plural, one {# time} other {# times}}."
+  },
+  "marathon": {
+    "name": "Marathon",
+    "text": "Play a game longer than {minutes} minutes."
+  },
+  "bounce": {
+    "name": "Bounce back",
+    "text": "Win {target} of the games after a loss."
+  },
+  "hours": {
+    "name": "Time on the Rift",
+    "text": "Spend {target, plural, one {# hour} other {# hours}} in games."
+  },
+  "dragon": {
+    "name": "Dragon slayer",
+    "text": "Land the killing blow on {target, plural, one {# dragon} other {# dragons}}."
+  },
+  "baron": {
+    "name": "Baron hunter",
+    "text": "Land the killing blow on {target, plural, one {# Baron} other {# Barons}}."
+  },
+  "teamplayer": {
+    "name": "Team player",
+    "text": "Take part in {target} of your team's kills."
+  },
+  "duo": {
+    "name": "Ride or die",
+    "text": "Play {target, plural, one {# game} other {# games}} with the same teammate."
+  },
+  "vision": {
+    "name": "All-seeing",
+    "text": "Average {target} vision score per minute."
+  },
+  "farm": {
+    "name": "Farm master",
+    "text": "Average {target} CS per minute."
+  },
+  "roles": {
+    "name": "Role player",
+    "text": "Play all {target, plural, one {# role} other {# roles}}."
+  }
+}

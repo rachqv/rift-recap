@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "title": "Ukázkový souhrn · Rift Recap"
+  },
+  "switcher": {
+    "label": "Ukázkoví hráči",
+    "previous": "Předchozí ukázkový hráč",
+    "next": "Další ukázkový hráč",
+    "player": "Ukázkový hráč",
+    "show": "Zobrazit"
+  },
+  "players": {
+    "onetrick": "One-Trick",
+    "specialist": "Specialista",
+    "explorer": "Objevitel",
+    "chameleon": "Chameleon",
+    "showstopper": "Hvězda večera",
+    "slayer": "Zabiják",
+    "daredevil": "Odvážlivec",
+    "support": "Tvůrce hry",
+    "unlucky": "Smolař",
+    "phoenix": "Fénix",
+    "risingstar": "Vycházející hvězda",
+    "streaker": "Žhavá série",
+    "scout": "Zvěd",
+    "farmer": "Farmář",
+    "heavyhitter": "Těžká váha",
+    "everpresent": "Vždy přítomný",
+    "opener": "Zahajovač",
+    "untouchable": "Nedotknutelný",
+    "closer": "Zakončovatel",
+    "marathoner": "Maratonec",
+    "speedrunner": "Speedrunner",
+    "assassin": "Zabiják ze stínu",
+    "archmage": "Arcimág",
+    "sharpshooter": "Ostrostřelec",
+    "brawler": "Rváč",
+    "bulwark": "Bašta",
+    "aramfan": "Fanoušek ARAM",
+    "casual": "Příležitostný hráč",
+    "demolisher": "Demolice",
+    "thief": "Zloděj",
+    "grinder": "Dříč",
+    "pathfinder": "Stopař",
+    "islander": "Ostrovan",
+    "centerpiece": "Středobod",
+    "carry": "Carry",
+    "guardian": "Strážce"
+  }
+}

@@ -1,0 +1,381 @@
+{
+  "season": "{year}年シーズン",
+  "strip": "{wins, plural, other {#勝}}{losses, plural, other {#敗}}、古い試合から順に",
+  "record": "{wins}勝 · {losses}敗",
+  "recordChip": "<good>{wins}</good>勝 <bad>{losses}</bad>敗",
+  "winRateChip": "勝率<b>{rate}</b>",
+  "kdaChip": "KDA <b>{kda}</b>",
+  "gamesChip": "{count, plural, other {<b>#</b>試合}}",
+  "gamesLabel": "{count, plural, other {#試合}}",
+  "intro": {
+    "eyebrow": "{season}リキャップ",
+    "caption": "{games, plural, other {あなたの#試合を振り返りました。結果を見る準備はできましたか？}}",
+    "scroll": "スクロール"
+  },
+  "games": {
+    "eyebrow": "あなたはここにいた",
+    "played": "{count, plural, other {試合をプレイ}}",
+    "riftOnly": "{count, plural, other {サモナーズリフトの試合}}",
+    "wins": "{count, plural, other {<good>#</good>勝}}",
+    "losses": "{count, plural, other {<bad>#</bad>敗}}",
+    "hours": "{n, plural, other {<b>{value}</b>時間}}"
+  },
+  "win": {
+    "eyebrow": "あなたの勝率"
+  },
+  "champion": {
+    "eyebrow": "あなたのシグネチャーチャンピオン",
+    "more": "{champion}の全試合",
+    "back": "全体のまとめに戻る",
+    "pageTitle": "{champion} · {name}#{tag} · Rift Recap",
+    "pageEyebrow": "チャンピオンレポート",
+    "noneTitle": "このチャンピオンの試合がありません",
+    "none": "{who}は、この期間に{champion}で試合をしていません。まとめから別のチャンピオンを試してみてください。"
+  },
+  "kda": {
+    "eyebrow": "あなたの戦闘スタッツ",
+    "kills": "キル",
+    "deaths": "デス",
+    "assists": "アシスト",
+    "perGame": "{value} / 試合",
+    "best": "あなたのベストゲーム",
+    "bestLine": "{champion} · {kills}/{deaths}/{assists}",
+    "victory": "勝利",
+    "defeat": "敗北"
+  },
+  "style": {
+    "eyebrow": "あなたのプレイスタイル",
+    "mainRole": "メインロール · {share}",
+    "cs": "1分あたりのCS",
+    "vision": "1分あたりの視界",
+    "damage": "1分あたりのダメージ",
+    "kp": "キル関与率",
+    "penta": "{count, plural, other {<b>#</b>回のペンタキル}}",
+    "quadra": "{count, plural, other {<b>#</b>回のクアドラキル}}",
+    "triple": "{count, plural, other {<b>#</b>回のトリプルキル}}",
+    "firstBloods": "{count, plural, other {<b>#</b>回のファーストブラッド}}",
+    "deathless": "{count, plural, other {<b>#</b>試合のノーデス}}",
+    "longestWon": "最長の試合は{champion}で{duration}。しかも勝った。",
+    "longestLost": "最長の試合は{champion}で{duration}。こういう試合は、良い結末にならないこともある。"
+  },
+  "mode": {
+    "aram": {
+      "eyebrow": "ハウリングアビスへ",
+      "label": "{count, plural, other {ARAMの試合}}"
+    },
+    "normal": {
+      "eyebrow": "気軽に楽しむ",
+      "label": "{count, plural, other {ノーマルの試合}}"
+    }
+  },
+  "rank": {
+    "emblem": "{title}のエンブレム",
+    "lp": "<b>{lp}</b> LP",
+    "caption": "現在のランク。どの昇格も次の試合から始まる。"
+  },
+  "persona": {
+    "eyebrow": "今シーズンのあなたは",
+    "also": "そして少し: {list}",
+    "main": "<b>{champion}</b>メイン",
+    "shareTitle": "私のLeagueシーズン: {title}",
+    "compare": "友達と比べる",
+    "squad": "スクワッドリキャップ",
+    "search": "別のプレイヤーを検索",
+    "count": "{count}種類のうちの1つ",
+    "countEstimate": "{count}種類のうちの1つ · レアリティは推定値"
+  },
+  "calendar": {
+    "eyebrow": "あなたのカレンダー",
+    "note": "直近の{count, plural, other {#試合}}をもとにしています。"
+  },
+  "clock": {
+    "eyebrow": "勝てる時間"
+  },
+  "items": {
+    "eyebrow": "定番アイテム",
+    "inGames": "{games, plural, other {#試合中<b>{count}</b>試合で}}",
+    "winWith": "ありの勝率<b>{rate}</b>",
+    "without": "なしは<b>{rate}</b>",
+    "boots": "ブーツ"
+  },
+  "objectives": {
+    "eyebrow": "オブジェクト",
+    "lead": "{games, plural, other {#試合}}でチームが獲得した数",
+    "tiles": {
+      "tower": "タワー",
+      "dragon": "ドラゴン",
+      "baron": "バロン",
+      "herald": "ヘラルド",
+      "grubs": "ヴォイドグラブ",
+      "inhibitor": "インヒビター"
+    },
+    "youTotal": "あなた: {count}",
+    "youSecured": "あなたが{count}を確保",
+    "perGame": "1試合あたり{value}",
+    "firstTower": "最初のタワーは試合の<b>{rate}</b>",
+    "withWithout": "ありで勝率<good>{withIt}</good> · なしで<b>{without}</b>",
+    "stolen": "<b>{count}</b>回スチール"
+  },
+  "tilt": {
+    "eyebrow": {
+      "tilt": "ティルトチェック",
+      "resilient": "巻き返しチェック",
+      "steady": "メンタルチェック"
+    },
+    "afterWin": "勝利の後",
+    "afterLoss": "敗北の後",
+    "tilts": "敗北後にティルトする",
+    "bounces": "巻き返す"
+  },
+  "comfort": {
+    "eyebrow": "コンフォートゾーン",
+    "lead": "チャンピオン別の勝率（全体は{rate}）"
+  },
+  "gray": {
+    "eyebrow": "グレー画面",
+    "unit": "時間",
+    "spentDead": "死亡していた時間",
+    "aliveAria": "生存{alive}、死亡{dead}",
+    "alive": "生存 {value}",
+    "dead": "死亡 {value}",
+    "share": "ゲーム内時間の<b>{share}</b>",
+    "perGame": "1試合あたり<b>{minutes}</b>分",
+    "films": "{n, plural, other {映画約<b>#</b>本分}}"
+  },
+  "progress": {
+    "eyebrow": "前回から",
+    "lead": "{date} · {saved, plural, other {#試合}} → 現在{games}",
+    "was": " · 以前は{persona}",
+    "improved": "<good>▲ {count}</good>項目が向上",
+    "slipped": "<bad>▼ {count}</bad>項目が下降",
+    "mood": {
+      "better": "向上",
+      "worse": "下降",
+      "flat": "変化なし"
+    }
+  },
+  "trophies": {
+    "eyebrow": "トロフィー棚",
+    "of": "{total}個中 解除済み",
+    "unlocked": "解除済み",
+    "progress": "達成率{percent}",
+    "next": "解除まであと少し: {name}（{percent}）。{text}",
+    "all": "獲得できるトロフィーはすべて獲得した。",
+    "lines": "ビンゴ <b>{count}</b>",
+    "free": "フリー",
+    "board": "トロフィービンゴの盤面",
+    "nextBingo": "次のビンゴ：{name}（{percent}）。{text}",
+    "shareTitle": "私のRift Recapトロフィービンゴ"
+  },
+  "blame": {
+    "eyebrow": "あなたのせい？",
+    "carry": "キャリーした",
+    "weak": "弱い鎖",
+    "team": "チームの総力戦",
+    "across": "{losses, plural, other {#敗}}の中で",
+    "topDamage": "ダメージトップ",
+    "chance": "偶然なら{rate}",
+    "deaths": "チームのデス",
+    "average": "平均は{rate}"
+  },
+  "tierList": {
+    "eyebrow": "あなたのティアリスト",
+    "aria": "チャンピオンのティアリスト",
+    "title": "{name}: {games, plural, other {#試合}}で{winRate}",
+    "note": "勝率、次にKDAの順。4試合未満のチャンピオンは除外。"
+  },
+  "habits": {
+    "eyebrow": "あなたの習慣",
+    "pings": "1試合あたり{value}回のピン",
+    "flash": "フラッシュは{key} · 1試合あたり{value}回",
+    "pairShare": "試合の{share}で",
+    "quits": "敵のサレンダー{enemy}回 · 味方は{ours}回",
+    "ping": "ピンのスタイル",
+    "spells": "サモナースペル",
+    "surrender": "サレンダーで終了"
+  },
+  "damage": {
+    "eyebrow": "あなたのダメージ",
+    "parts": {
+      "physical": "物理",
+      "magic": "魔法",
+      "true": "確定"
+    },
+    "partAria": "{label} {share}"
+  },
+  "comp": {
+    "eyebrow": "チーム構成",
+    "with": "<b>{class}</b>がいる場合",
+    "games": "{withGames, plural, other {#試合}}、いない場合は{withoutGames, plural, other {#試合}}",
+    "versus": "対 {rate}"
+  },
+  "sessions": {
+    "eyebrow": "あなたの夜",
+    "lead": "{count, plural, other {#セッション}} · 1回あたり約{avg}試合",
+    "best": "最高の夜",
+    "worst": "最悪の夜",
+    "longest": "最長のセッション",
+    "meta": "{games, plural, other {#試合}} · {date}"
+  },
+  "highlights": {
+    "eyebrow": "ハイライト",
+    "minutes": "{count, plural, other {#分}}",
+    "meta": "{what} · {date}",
+    "won": "勝利",
+    "lost": "敗北",
+    "caption": "パーティーで語りたくなる試合。"
+  },
+  "lane": {
+    "lane": "レーンチェック",
+    "gold": "ゴールドの習慣",
+    "cs": "レーン相手とのCS",
+    "goldDiff": "レーン相手とのゴールド",
+    "damage": "レーン相手とのダメージ",
+    "unspent": "試合終了時の未使用ゴールド",
+    "ahead": "{games, plural, other {#試合}}中<b>{rate}</b>でゴールドリード",
+    "kills": "1試合あたり{value}キル",
+    "csValue": "{value} CS"
+  },
+  "early": {
+    "eyebrow": "15分時点",
+    "titles": {
+      "early": "序盤の暴君",
+      "late": "後半に伸びるタイプ",
+      "steady": "安定した腕"
+    },
+    "parts": {
+      "ahead": "リード",
+      "even": "互角",
+      "behind": "ビハインド"
+    },
+    "aria": "{n, plural, other {#試合}}で{label}",
+    "wonAhead": "リードから{total}試合中<good>{wins}</good>勝",
+    "wonBehind": "ビハインドから{total}試合中<b>{wins}</b>勝",
+    "lead": "直近の{games, plural, other {#試合}}のレーン戦、レーン相手との比較"
+  },
+  "chapters": {
+    "eyebrow": "章で見るあなたのシーズン",
+    "wins": "勝率{rate}",
+    "note": "各章はその章の試合だけで評価するため、短い章ほど確実性は下がります。"
+  },
+  "flames": {
+    "eyebrow": "かつての情熱",
+    "lead": "よく知っているのに、今シーズンはほとんど使わなかったチャンピオン",
+    "mastery": "マスタリー{level} · {played}",
+    "notPlayed": "未プレイ",
+    "caption": "{champion}には{points}マスタリーポイントが積まれている。あなたを恋しがっている。"
+  },
+  "social": {
+    "duo": {
+      "eyebrow": "あなたのデュオ",
+      "together": "{count, plural, other {試合を一緒に}}",
+      "winTogether": "一緒だと勝率<b>{rate}</b>",
+      "apart": "別々だと<b>{rate}</b>",
+      "combo": "ベストコンボ <b>{pair}</b>",
+      "alone": "今シーズンのすべての試合が{name}と一緒。これぞ本気。",
+      "better": "{name}と一緒だと勝率{withRate}、いないと{without}。バンドは解散しないように。",
+      "worse": "{name}と一緒だと勝率が下がる（{withRate}対ソロの{without}）。数字より友情。",
+      "same": "{name}がいてもいなくても勝率はほぼ同じ。大事なのは仲間との時間。",
+      "seeRecap": "{name}のリキャップを見る",
+      "versus": "ヘッドトゥヘッド"
+    },
+    "matchup": {
+      "single": "あなたのレーン相手",
+      "both": "宿敵とベストマッチアップ",
+      "nemesis": "あなたの宿敵",
+      "best": "あなたのベストマッチアップ",
+      "vs": "VS",
+      "record": "<good>{wins}勝</good> <bad>{losses}敗</bad>",
+      "meta": "勝率{rate}",
+      "metaAs": "勝率{rate} · {champion}使用時",
+      "insightBoth": "{nemesis}をバンして、{best}を引くことを祈ろう。",
+      "insightNemesis": "{nemesis}は天敵。バンを検討しよう。",
+      "insightBest": "{best}はあなたに全く歯が立たなかった。"
+    }
+  },
+  "rail": {
+    "start": "スタート",
+    "games": "試合",
+    "week": "週ごとの変化",
+    "form": "調子",
+    "calendar": "カレンダー",
+    "clock": "時計",
+    "patches": "パッチ",
+    "nights": "夜",
+    "wins": "勝利",
+    "progress": "進捗",
+    "tilt": "ティルト",
+    "tiltGuard": "ストップサイン",
+    "blame": "誰のせい？",
+    "champion": "チャンピオン",
+    "comfort": "コンフォート",
+    "flames": "かつての情熱",
+    "tierList": "ティアリスト",
+    "pool": "次に試す",
+    "combat": "戦闘",
+    "highlights": "ハイライト",
+    "damage": "ダメージ",
+    "gray": "グレー画面",
+    "playstyle": "スタイル",
+    "lane": "レーン",
+    "early": "序盤",
+    "habits": "習慣",
+    "items": "アイテム",
+    "runes": "ルーン",
+    "objectives": "オブジェクト",
+    "duo": "デュオ",
+    "matchups": "マッチアップ",
+    "comps": "チーム構成",
+    "normals": "ノーマル",
+    "aram": "ARAM",
+    "chapters": "章",
+    "trophies": "トロフィー",
+    "rank": "ランク",
+    "guess": "予想",
+    "you": "あなた",
+    "back": "戻る"
+  },
+  "page": {
+    "title": "{name}#{tag} · Rift Recap",
+    "description": "リーグ・オブ・レジェンドのシーズンリキャップ。スタッツ、アーキタイプ、共有できるカード付き。",
+    "failed": "このリキャップを読み込めませんでした",
+    "noGamesTitle": "まだ試合がありません",
+    "noGames": "{who}の{since}以降の試合は見つかりませんでした。何試合かプレイしてから、また来てください。",
+    "noRangeTitle": "この期間に試合がありません",
+    "noRange": "{who}は{since}以降、試合をプレイしていません。もっと長い期間を試してください。"
+  },
+  "tiltguard": {
+    "eyebrow": "ティルトガード",
+    "step1": "1敗のあと",
+    "step2": "2連敗のあと",
+    "step3": "3連敗以上のあと",
+    "live": "いま"
+  },
+  "formcurve": {
+    "eyebrow": "シーズンを一本の線で",
+    "lead": "どの{games}でも見た勝率",
+    "best": "最高 <b>{rate}</b> · {date}に終了",
+    "worst": "最低 <b>{rate}</b> · {date}に終了",
+    "now": "いま <b>{rate}</b>",
+    "aria": "移動勝率：最高{best}、最低{worst}、直近{now}",
+    "shareTitle": "私のシーズンを一本の線で"
+  },
+  "week": {
+    "eyebrow": "過去7日と、その前の7日",
+    "lead": "今：{now}・前：{before}"
+  },
+  "patches": {
+    "eyebrow": "パッチごとの成績",
+    "title": "パッチ別勝率"
+  },
+  "runes": {
+    "eyebrow": "あなたのキーストーン",
+    "winWith": "ありの勝率<b>{rate}</b>",
+    "without": "なしは<b>{rate}</b>"
+  },
+  "pool": {
+    "eyebrow": "試してみたいチャンピオン",
+    "because": "{champion}が合っているから：勝率{rate}",
+    "note": "クラスやプレイスタイルが近いチャンピオンを選びました。提案であって、保証ではありません。"
+  }
+}

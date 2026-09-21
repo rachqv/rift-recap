@@ -1,0 +1,30 @@
+{
+  "same": "İkiniz de aynı saatlerde oynuyorsunuz. Ürpertici.",
+  "daysShort": "{value} g",
+  "nightOwl": {
+    "title": "Gece kuşu",
+    "tagline": "Gece yarısından sonra başlayan maçlar.",
+    "line": "{name} adlı oyuncunun maçlarının {share} kadarı gece yarısından sonra başlıyor. {other} adlı oyuncunun yatma saati var."
+  },
+  "earlyBird": {
+    "title": "Erken kalkan",
+    "tagline": "Öğleden önce başlayan maçlar.",
+    "line": "{name} adlı oyuncunun maçlarının {share} kadarı öğleden önce. Kahveyle sıraya giriyor. {other} adlı oyuncu geç kalkıyor."
+  },
+  "weekend": {
+    "title": "Hafta sonu savaşçısı",
+    "tagline": "Cumartesi veya pazar oynanan maçlar.",
+    "line": "{name} adlı oyuncunun maçlarının {share} kadarı hafta sonuna denk geliyor. {other} adlı oyuncu daha çok hafta içi oynuyor."
+  },
+  "streak": {
+    "title": "Günlük alışkanlık",
+    "tagline": "Üst üste maç oynanan en uzun gün serisi.",
+    "line": "{name} adlı oyuncu üst üste {days, plural, one {# gün} other {# gün}} oynadı. {other} adlı oyuncu {otherDays} sonra ara verdi."
+  },
+  "binge": {
+    "title": "Maraton günü",
+    "tagline": "Tek bir günde en çok maç.",
+    "line": "{name} adlı oyuncu bir gün içinde {games, plural, one {# maç} other {# maç}} oynadı. Akşam yemeği atlandı."
+  },
+  "label": "Senaryolar"
+}

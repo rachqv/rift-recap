@@ -1,0 +1,15 @@
+{
+  "placeholder": "Riot ID (الاسم#TAG)",
+  "riotId": "Riot ID",
+  "region": "المنطقة",
+  "submit": "اعرض ملخصي",
+  "suggestions": "اقتراحات اللاعبين",
+  "heading": {
+    "recent": "عمليات البحث الأخيرة",
+    "sample": "لاعبون تجريبيون"
+  },
+  "sample": "تجريبي",
+  "count": "{count, plural, one {اقتراح واحد متاح} two {اقتراحان متاحان} few {# اقتراحات متاحة} other {# اقتراحًا متاحًا}}",
+  "empty": "لا يوجد لاعب محفوظ مطابق. اضغط Enter للبحث عن <strong>{query}</strong> لدى Riot.",
+  "clear": "مسح عمليات البحث الأخيرة"
+}

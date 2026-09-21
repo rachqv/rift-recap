@@ -1,0 +1,43 @@
+{
+  "badge": "Riepilogo di stagione",
+  "title": {
+    "line1": "La tua stagione,",
+    "line2": "in sintesi."
+  },
+  "subtitle": "Ogni partita, ogni pentakill, ogni Flash discutibile. Inserisci il tuo Riot ID e rivivi il tuo viaggio sulla Landa.",
+  "error": "Inserisci il tuo Riot ID nel formato Nome#TAG e scegli una regione.",
+  "hint": "Nessun login. Solo il tuo Riot ID. <link>Guarda un riepilogo di esempio →</link>",
+  "modes": {
+    "squad": "Riepilogo del gruppo",
+    "versus": "Testa a testa",
+    "clash": "Squadra contro squadra",
+    "players": "I tuoi giocatori"
+  },
+  "features": {
+    "title": "Cosa c'è nel tuo riepilogo",
+    "champions": {
+      "title": "I tuoi campioni",
+      "text": "Chi ti ha portato in spalla, chi ti è costato PL e il campione che non riesci a smettere di scegliere."
+    },
+    "climb": {
+      "title": "La tua scalata",
+      "text": "Tasso di vittorie, KDA e andamento del rango lungo tutta la stagione, raccontati come una storia."
+    },
+    "time": {
+      "title": "Il tuo tempo",
+      "text": "Le ore passate sulla Landa, la tua partita più lunga, la tua ultima coda notturna."
+    }
+  },
+  "sample": {
+    "label": "Carte di riepilogo di esempio",
+    "games": "Partite giocate",
+    "days": "≈ {days} giorni passati sulla Landa",
+    "signature": "Campione distintivo",
+    "record": "{games} partite · {winRate} di vittorie",
+    "kda": "KDA della stagione",
+    "peak": "Rango massimo",
+    "peakRank": "Smeraldo II",
+    "climbed": "+{lp} PL scalati in questa stagione"
+  },
+  "footer": "Rift Recap non è approvato da Riot Games e non riflette le opinioni di Riot Games né di chiunque sia ufficialmente coinvolto nella produzione o nella gestione delle proprietà di Riot Games. Riot Games e tutte le proprietà associate sono marchi o marchi registrati di Riot Games, Inc."
+}

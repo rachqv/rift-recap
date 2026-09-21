@@ -1,0 +1,81 @@
+{
+  "language": {
+    "label": "Language"
+  },
+  "range": {
+    "label": "Time range",
+    "season": "This season",
+    "90d": "Last 90 days",
+    "30d": "Last 30 days",
+    "7d": "Last 7 days"
+  },
+  "regions": {
+    "na1": "North America",
+    "br1": "Brazil",
+    "la1": "LAN",
+    "la2": "LAS",
+    "euw1": "EU West",
+    "eun1": "EU Nordic & East",
+    "tr1": "Turkey",
+    "ru": "Russia",
+    "me1": "Middle East",
+    "kr": "Korea",
+    "jp1": "Japan",
+    "oc1": "Oceania",
+    "ph2": "Philippines",
+    "sg2": "Singapore",
+    "th2": "Thailand",
+    "tw2": "Taiwan",
+    "vn2": "Vietnam"
+  },
+  "message": {
+    "tryAnother": "Try another player",
+    "tryServer": "Maybe another server?",
+    "notFoundTitle": "Page not found",
+    "notFoundText": "That page doesn't exist, or it moved. Head back and search for a player.",
+    "crashTitle": "Something went wrong",
+    "crashText": "That page didn't load properly. Try again, or search for another player.",
+    "retry": "Try again"
+  },
+  "loading": {
+    "recap1": "Summoning your match history…",
+    "recap2": "Counting every last-hit…",
+    "recap3": "Consulting the Rift oracle…",
+    "recap4": "Polishing your pentakills…",
+    "squad1": "Finding your games together…",
+    "squad2": "Counting who pinged the most…",
+    "squad3": "Weighing up the deaths…",
+    "squad4": "Engraving the trophies…",
+    "versus1": "Sizing up both players…",
+    "versus2": "Pulling two match histories…",
+    "versus3": "Counting every last-hit…",
+    "versus4": "Preparing the verdict…"
+  },
+  "meta": {
+    "description": "A website to know your League of Legends journey as the season progresses"
+  },
+  "roles": {
+    "TOP": "Top",
+    "JUNGLE": "Jungle",
+    "MIDDLE": "Mid",
+    "BOTTOM": "Bot",
+    "UTILITY": "Support"
+  },
+  "tiers": {
+    "IRON": "Iron",
+    "BRONZE": "Bronze",
+    "SILVER": "Silver",
+    "GOLD": "Gold",
+    "PLATINUM": "Platinum",
+    "EMERALD": "Emerald",
+    "DIAMOND": "Diamond",
+    "MASTER": "Master",
+    "GRANDMASTER": "Grandmaster",
+    "CHALLENGER": "Challenger"
+  },
+  "queues": {
+    "RANKED_SOLO_5x5": "Ranked Solo/Duo",
+    "RANKED_FLEX_SR": "Ranked Flex"
+  },
+  "rankTitle": "{tier} {division}"
+}

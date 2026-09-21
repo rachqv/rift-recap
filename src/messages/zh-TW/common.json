@@ -1,0 +1,81 @@
+{
+  "language": {
+    "label": "語言"
+  },
+  "range": {
+    "label": "時間範圍",
+    "season": "本賽季",
+    "90d": "最近90天",
+    "30d": "最近30天",
+    "7d": "最近7天"
+  },
+  "regions": {
+    "na1": "北美",
+    "br1": "巴西",
+    "la1": "拉丁美洲北部",
+    "la2": "拉丁美洲南部",
+    "euw1": "西歐",
+    "eun1": "北歐與東歐",
+    "tr1": "土耳其",
+    "ru": "俄羅斯",
+    "me1": "中東",
+    "kr": "韓國",
+    "jp1": "日本",
+    "oc1": "大洋洲",
+    "ph2": "菲律賓",
+    "sg2": "新加坡",
+    "th2": "泰國",
+    "tw2": "台灣",
+    "vn2": "越南"
+  },
+  "message": {
+    "tryAnother": "試試其他玩家",
+    "tryServer": "也許在其他伺服器？",
+    "notFoundTitle": "找不到頁面",
+    "notFoundText": "這個頁面不存在，或已被移動。返回並搜尋一位玩家吧。",
+    "crashTitle": "出了點問題",
+    "crashText": "頁面沒有正確載入。請重試，或搜尋其他玩家。",
+    "retry": "重試"
+  },
+  "loading": {
+    "recap1": "正在召喚你的對局紀錄…",
+    "recap2": "正在數每一次補兵…",
+    "recap3": "正在請教峽谷神諭…",
+    "recap4": "正在替你的五殺拋光…",
+    "squad1": "正在尋找你們的同隊對局…",
+    "squad2": "正在數誰的訊號打得最多…",
+    "squad3": "正在秤量死亡次數…",
+    "squad4": "正在雕刻獎盃…",
+    "versus1": "正在打量兩位玩家…",
+    "versus2": "正在調閱兩份對局紀錄…",
+    "versus3": "正在數每一次補兵…",
+    "versus4": "正在準備裁決…"
+  },
+  "meta": {
+    "description": "一個隨賽季推進，帶你回顧英雄聯盟旅程的網站"
+  },
+  "roles": {
+    "TOP": "上路",
+    "JUNGLE": "打野",
+    "MIDDLE": "中路",
+    "BOTTOM": "下路",
+    "UTILITY": "輔助"
+  },
+  "tiers": {
+    "IRON": "鐵牌",
+    "BRONZE": "銅牌",
+    "SILVER": "銀牌",
+    "GOLD": "金牌",
+    "PLATINUM": "白金",
+    "EMERALD": "翡翠",
+    "DIAMOND": "鑽石",
+    "MASTER": "大師",
+    "GRANDMASTER": "宗師",
+    "CHALLENGER": "菁英"
+  },
+  "queues": {
+    "RANKED_SOLO_5x5": "單雙積分",
+    "RANKED_FLEX_SR": "彈性積分"
+  },
+  "rankTitle": "{tier} {division}"
+}

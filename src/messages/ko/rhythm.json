@@ -1,0 +1,30 @@
+{
+  "same": "두 사람의 플레이 시간대가 똑같아요. 소름 돋아요.",
+  "daysShort": "{value}일",
+  "nightOwl": {
+    "title": "올빼미",
+    "tagline": "자정 이후에 시작하는 게임.",
+    "line": "{name} 님의 게임 중 {share}가 자정 이후에 시작돼요. {other} 님에게는 취침 시간이 있어요."
+  },
+  "earlyBird": {
+    "title": "아침형",
+    "tagline": "정오 전에 시작하는 게임.",
+    "line": "{name} 님의 게임 중 {share}가 정오 전이에요. 커피와 함께 큐를 잡아요. {other} 님은 늦잠을 자요."
+  },
+  "weekend": {
+    "title": "주말 전사",
+    "tagline": "토요일이나 일요일에 한 게임.",
+    "line": "{name} 님의 게임 중 {share}가 주말이에요. {other} 님은 평일 플레이어에 가까워요."
+  },
+  "streak": {
+    "title": "매일의 습관",
+    "tagline": "게임을 연속으로 한 최장 일수.",
+    "line": "{name} 님은 {days, plural, other {#일}} 연속으로 플레이했어요. {other} 님은 {otherDays} 후에 쉬었어요."
+  },
+  "binge": {
+    "title": "폭주의 날",
+    "tagline": "하루에 가장 많이 한 게임 수.",
+    "line": "{name} 님은 하루에 {games, plural, other {#게임}}을 한 적이 있어요. 저녁은 건너뛰었어요."
+  },
+  "label": "시나리오"
+}

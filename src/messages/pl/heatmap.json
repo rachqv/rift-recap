@@ -1,0 +1,42 @@
+{
+  "insight": {
+    "nightOwl": "{share} twoich gier zaczyna się po północy. Kanion nigdy nie śpi, ty też nie.",
+    "earlyBird": "{share} twoich gier odbywa się przed południem. Kolejka z kawą w ręku.",
+    "weekend": "{share} twoich gier przypada na weekendy. Soboty są dla Kanionu.",
+    "weekday": "Prawie wszystkie twoje gry są w dni robocze. Grind nie bierze wolnych dni.",
+    "streak": "{days, plural, one {# dzień} few {# dni} many {# dni} other {# dnia}} z rzędu z grą. To już nawyk.",
+    "steady": "Równomiernie rozłożone w kalendarzu. Żadnego schematu, po prostu League."
+  },
+  "aria": "Kalendarz {games, plural, one {# gry} few {# gier} many {# gier} other {# gier}} w {days, plural, one {# dniu} few {# dniach} many {# dniach} other {# dniach}}",
+  "before": "{date}: przed twoją najstarszą wczytaną grą",
+  "day": "{date}: {detail}",
+  "dayGames": "{games, plural, one {# gra} few {# gry} many {# gier} other {# gry}}, wygrane: {wins}",
+  "dayNone": "brak gier",
+  "fewer": "Mniej",
+  "more": "Więcej",
+  "activeDays": "{count, plural, one {<b>#</b> aktywny dzień} few {<b>#</b> aktywne dni} many {<b>#</b> aktywnych dni} other {<b>#</b> aktywnego dnia}}",
+  "busiest": "Najbardziej zajęty dzień <b>{date}</b> · {games, plural, one {# gra} few {# gry} many {# gier} other {# gry}}",
+  "streak": "Najdłuższa seria <b>{days, plural, one {# dzień} few {# dni} many {# dni} other {# dnia}}</b>",
+  "favorite": "Ulubiony dzień <b>{day}</b>",
+  "prime": "Najlepsza pora <b>{hour}</b>",
+  "parts": {
+    "night": "noc",
+    "morning": "rano",
+    "afternoon": "popołudnie",
+    "evening": "wieczór"
+  },
+  "bestPart": "Najlepiej: <b>{part}</b> · <good>{rate}</good> wygranych",
+  "worstPart": "(<bad>{rate}</bad> w porze: {part})",
+  "bestMonth": "Najlepszy miesiąc <b>{month}</b> · <good>{rate}</good>",
+  "worstMonth": "· najgorszy <b>{month}</b> <bad>{rate}</bad>",
+  "clock": {
+    "day": "Twój najlepszy dzień: {best}, {bestRate} wygranych. Najgorszy: {worst}, tylko {worstRate}.",
+    "part": "Twoja najlepsza pora dnia: {best}, {bestRate} wygranych. Najgorsza: {worst}, tylko {worstRate}.",
+    "steady": "Twój odsetek wygranych prawie nie zależy od zegara. Każdy dzień, każda godzina: ten sam gracz.",
+    "byPart": "Pora dnia",
+    "byDay": "Dzień tygodnia",
+    "bar": "{label}: {rate} wygranych, {detail}",
+    "barFew": "{label}: {detail}. Za mało gier, żeby porównać.",
+    "aria": "Odsetek wygranych według pory dnia i dnia tygodnia"
+  }
+}

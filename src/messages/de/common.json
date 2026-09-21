@@ -1,0 +1,81 @@
+{
+  "language": {
+    "label": "Sprache"
+  },
+  "range": {
+    "label": "Zeitraum",
+    "season": "Diese Saison",
+    "90d": "Letzte 90 Tage",
+    "30d": "Letzte 30 Tage",
+    "7d": "Letzte 7 Tage"
+  },
+  "regions": {
+    "na1": "Nordamerika",
+    "br1": "Brasilien",
+    "la1": "LAN",
+    "la2": "LAS",
+    "euw1": "EU West",
+    "eun1": "EU Nord & Ost",
+    "tr1": "Türkei",
+    "ru": "Russland",
+    "me1": "Naher Osten",
+    "kr": "Korea",
+    "jp1": "Japan",
+    "oc1": "Ozeanien",
+    "ph2": "Philippinen",
+    "sg2": "Singapur",
+    "th2": "Thailand",
+    "tw2": "Taiwan",
+    "vn2": "Vietnam"
+  },
+  "message": {
+    "tryAnother": "Anderen Spieler ausprobieren",
+    "tryServer": "Vielleicht ein anderer Server?",
+    "notFoundTitle": "Seite nicht gefunden",
+    "notFoundText": "Diese Seite gibt es nicht oder sie wurde verschoben. Geh zurück und suche einen Spieler.",
+    "crashTitle": "Etwas ist schiefgelaufen",
+    "crashText": "Die Seite wurde nicht richtig geladen. Versuche es erneut oder suche einen anderen Spieler.",
+    "retry": "Erneut versuchen"
+  },
+  "loading": {
+    "recap1": "Dein Spielverlauf wird beschworen…",
+    "recap2": "Jeder letzte Treffer wird gezählt…",
+    "recap3": "Das Orakel der Kluft wird befragt…",
+    "recap4": "Deine Pentakills werden poliert…",
+    "squad1": "Eure gemeinsamen Spiele werden gesucht…",
+    "squad2": "Wer am meisten gepingt hat, wird gezählt…",
+    "squad3": "Die Tode werden abgewogen…",
+    "squad4": "Die Trophäen werden graviert…",
+    "versus1": "Beide Spieler werden begutachtet…",
+    "versus2": "Zwei Spielverläufe werden geladen…",
+    "versus3": "Jeder letzte Treffer wird gezählt…",
+    "versus4": "Das Urteil wird vorbereitet…"
+  },
+  "meta": {
+    "description": "Eine Website, mit der du deine League-of-Legends-Reise im Laufe der Saison kennenlernst"
+  },
+  "roles": {
+    "TOP": "Top",
+    "JUNGLE": "Jungle",
+    "MIDDLE": "Mid",
+    "BOTTOM": "Bot",
+    "UTILITY": "Support"
+  },
+  "tiers": {
+    "IRON": "Eisen",
+    "BRONZE": "Bronze",
+    "SILVER": "Silber",
+    "GOLD": "Gold",
+    "PLATINUM": "Platin",
+    "EMERALD": "Smaragd",
+    "DIAMOND": "Diamant",
+    "MASTER": "Master",
+    "GRANDMASTER": "Grandmaster",
+    "CHALLENGER": "Challenger"
+  },
+  "queues": {
+    "RANKED_SOLO_5x5": "Ranked Solo/Duo",
+    "RANKED_FLEX_SR": "Ranked Flex"
+  },
+  "rankTitle": "{tier} {division}"
+}

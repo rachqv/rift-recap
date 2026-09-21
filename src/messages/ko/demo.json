@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "title": "샘플 리캡 · Rift Recap"
+  },
+  "switcher": {
+    "label": "샘플 플레이어",
+    "previous": "이전 샘플 플레이어",
+    "next": "다음 샘플 플레이어",
+    "player": "샘플 플레이어",
+    "show": "보기"
+  },
+  "players": {
+    "onetrick": "원트릭",
+    "specialist": "스페셜리스트",
+    "explorer": "탐험가",
+    "chameleon": "카멜레온",
+    "showstopper": "쇼 스토퍼",
+    "slayer": "학살자",
+    "daredevil": "무모한 용사",
+    "support": "플레이메이커",
+    "unlucky": "불운의 영웅",
+    "phoenix": "불사조",
+    "risingstar": "떠오르는 별",
+    "streaker": "연승 가도",
+    "scout": "정찰병",
+    "farmer": "농부",
+    "heavyhitter": "헤비 히터",
+    "everpresent": "언제나 현장에",
+    "opener": "선제공격수",
+    "untouchable": "언터처블",
+    "closer": "마무리 투수",
+    "marathoner": "마라토너",
+    "speedrunner": "스피드러너",
+    "assassin": "암살자",
+    "archmage": "대마법사",
+    "sharpshooter": "명사수",
+    "brawler": "싸움꾼",
+    "bulwark": "보루",
+    "aramfan": "칼바람 팬",
+    "casual": "캐주얼",
+    "demolisher": "철거반",
+    "thief": "도둑",
+    "grinder": "노력파",
+    "pathfinder": "개척자",
+    "islander": "섬 주민",
+    "centerpiece": "중심축",
+    "carry": "캐리",
+    "guardian": "수호자"
+  }
+}

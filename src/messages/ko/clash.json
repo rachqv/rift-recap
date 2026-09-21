@@ -1,0 +1,55 @@
+{
+  "team": "{name} 팀",
+  "line": {
+    "few": "팀 간 대결은 지금까지 {games}. 판단하기엔 일러요.",
+    "level": "{a} 대 {b}: 거의 비슷해요. 이 정도 차이는 운일 수 있어요.",
+    "lead": "{name} 팀이 {win} 대 {lose}로 앞서요. 운만으로 설명하기 어려운 차이예요."
+  },
+  "rail": {
+    "start": "팀",
+    "lanes": "라인별",
+    "numbers": "수치",
+    "stars": "돋보인 선수",
+    "end": "팀 리캡"
+  },
+  "slides": {
+    "intro": {
+      "eyebrow": "팀 vs 팀",
+      "played": "서로 맞붙은 게임: {games}"
+    },
+    "lanes": {
+      "eyebrow": "라인별",
+      "aria": "라인별 결과",
+      "note": "두 팀 모두 해당 라인에 선수가 있을 때만 표시돼요. 각 게임은 그 라인에서 KDA가 더 좋았던 쪽의 몫이에요."
+    },
+    "numbers": {
+      "eyebrow": "각 팀의 플레이",
+      "aria": "플레이어당, 게임당 평균",
+      "note": "플레이어당, 게임당 평균이에요.",
+      "kda": "KDA",
+      "damage": "챔피언에게 가한 피해량",
+      "gold": "획득한 골드",
+      "vision": "시야 점수"
+    },
+    "stars": {
+      "eyebrow": "돋보인 선수",
+      "best": "{team}의 최고 KDA",
+      "stat": "{games}, KDA {kda}",
+      "record": "{games} 중 {wins}승",
+      "note": "팀 간 게임이 {min}판 이상인 플레이어만 대상이에요."
+    },
+    "end": {
+      "eyebrow": "계속 보기",
+      "recap": "스쿼드 리캡: {team}"
+    }
+  },
+  "page": {
+    "title": "{a} vs {b} · 팀 vs 팀",
+    "titleDemo": "팀 vs 팀 샘플 · Rift Recap",
+    "titleEmpty": "팀 vs 팀 · Rift Recap",
+    "description": "두 팀의 맞대결: 누가 이기는지, 라인별 결과, 각 팀의 플레이까지.",
+    "overlap": "{names}은(는) 두 팀에 동시에 들어갈 수 없어요.",
+    "atLeastTwo": "각 팀에는 Riot ID가 두 개 이상 필요해요.",
+    "noClash": "이 팀들은 {where} 서로 맞붙은 게임이 없어요. 각 팀에서 두 명 이상이 같은 게임에서 상대편으로 만난 게임(예: 사용자 설정 5v5)이 필요해요."
+  }
+}

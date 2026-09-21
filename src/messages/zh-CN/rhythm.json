@@ -1,0 +1,30 @@
+{
+  "same": "你们俩的作息一模一样。有点吓人。",
+  "daysShort": "{value}天",
+  "nightOwl": {
+    "title": "夜猫子",
+    "tagline": "午夜之后开始的对局。",
+    "line": "{name}有{share}的对局在午夜后开始。{other}是有作息的。"
+  },
+  "earlyBird": {
+    "title": "早起鸟",
+    "tagline": "中午之前开始的对局。",
+    "line": "{name}有{share}的对局在中午前。喝着咖啡排队。{other}睡懒觉。"
+  },
+  "weekend": {
+    "title": "周末战士",
+    "tagline": "在周六或周日打的对局。",
+    "line": "{name}有{share}的对局在周末。{other}更像是工作日玩家。"
+  },
+  "streak": {
+    "title": "每日习惯",
+    "tagline": "连续有对局的最长天数。",
+    "line": "{name}连续玩了{days, plural, other {#天}}。{other}在{otherDays}后休息了。"
+  },
+  "binge": {
+    "title": "狂肝日",
+    "tagline": "单日最多对局数。",
+    "line": "{name}曾在一天里打了{games, plural, other {#局}}。晚饭被跳过了。"
+  },
+  "label": "场景"
+}

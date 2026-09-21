@@ -1,0 +1,55 @@
+{
+  "team": "Echipa {name}",
+  "line": {
+    "few": "{games} între echipe până acum: prea devreme ca să spunem.",
+    "level": "{a} la {b}: aproape egal. O diferență atât de mică poate fi doar noroc.",
+    "lead": "{name} conduce cu {win} la {lose}. E mai mult decât ar explica norocul."
+  },
+  "rail": {
+    "start": "Echipele",
+    "lanes": "Culoar cu culoar",
+    "numbers": "Cifrele",
+    "stars": "Cei mai buni",
+    "end": "Rezumatele echipelor"
+  },
+  "slides": {
+    "intro": {
+      "eyebrow": "Echipă contra echipă",
+      "played": "{games} jucate una împotriva celeilalte"
+    },
+    "lanes": {
+      "eyebrow": "Culoar cu culoar",
+      "aria": "Rezultate pe culoar",
+      "note": "Un culoar apare doar dacă ambele echipe au avut pe cineva în el. Fiecare joc revine jucătorului cu KDA mai bun de pe culoar."
+    },
+    "numbers": {
+      "eyebrow": "Cum a jucat fiecare echipă",
+      "aria": "Medii pe jucător, pe joc",
+      "note": "Media pe jucător, pe joc.",
+      "kda": "KDA",
+      "damage": "Daune aduse campionilor",
+      "gold": "Aur câștigat",
+      "vision": "Scor de vizibilitate"
+    },
+    "stars": {
+      "eyebrow": "Cei mai buni",
+      "best": "Cel mai bun KDA din echipa {team}",
+      "stat": "KDA {kda} în {games}",
+      "record": "A câștigat {wins} din {games}",
+      "note": "Contează doar jucătorii cu cel puțin {min} jocuri între echipe."
+    },
+    "end": {
+      "eyebrow": "Mai departe",
+      "recap": "Rezumatul echipei: {team}"
+    }
+  },
+  "page": {
+    "title": "{a} vs {b} · Echipă contra echipă",
+    "titleDemo": "Exemplu de echipă contra echipă · Rift Recap",
+    "titleEmpty": "Echipă contra echipă · Rift Recap",
+    "description": "Două echipe față în față: cine câștigă, culoar cu culoar și cum a jucat fiecare parte.",
+    "overlap": "{names} nu poate fi în ambele echipe.",
+    "atLeastTwo": "Fiecare echipă are nevoie de cel puțin două Riot ID-uri.",
+    "noClash": "Aceste echipe nu au jocuri una împotriva celeilalte {where}. Sunt necesare jocuri în care cel puțin doi din fiecare echipă au fost în același meci, de părți opuse, ca un 5v5 personalizat."
+  }
+}

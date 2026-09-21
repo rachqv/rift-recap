@@ -1,0 +1,15 @@
+{
+  "keyRejected": "Der Riot-API-Schlüssel wurde abgelehnt. Entwicklerschlüssel laufen alle 24 Stunden ab, also erzeuge einen neuen.",
+  "notFound": "Kein Spieler mit dieser Riot-ID in dieser Region gefunden. Prüfe die Schreibweise und die Region.",
+  "rateLimit": "Das Anfragelimit von Riot wurde erreicht. Warte eine Minute und versuche es erneut.",
+  "api": "Die Riot-API ist fehlgeschlagen.",
+  "cardFailed": "Die Karte konnte nicht erstellt werden.",
+  "unknownRegion": "Unbekannte Region.",
+  "noGamesCard": "Keine Spiele, aus denen eine Karte erstellt werden könnte.",
+  "noSharedGames": "Diese Spieler haben keine gemeinsamen Spiele.",
+  "badSquad": "Ungültige Squad-Parameter.",
+  "playerMissing": "Einer dieser Spieler wurde nicht gefunden.",
+  "badVersus": "Ungültige Kopf-an-Kopf-Parameter.",
+  "samePlayers": "Wähle zwei verschiedene Spieler.",
+  "notEnough": "Nicht genug Spiele zum Vergleichen."
+}

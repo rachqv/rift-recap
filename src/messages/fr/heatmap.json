@@ -1,0 +1,42 @@
+{
+  "insight": {
+    "nightOwl": "{share} de tes parties commencent après minuit. La Faille ne dort jamais, et toi non plus.",
+    "earlyBird": "{share} de tes parties ont lieu avant midi. Tu lances la file avec ton café.",
+    "weekend": "{share} de tes parties ont lieu le week-end. Le samedi, c'est pour la Faille.",
+    "weekday": "Presque toutes tes parties ont lieu en semaine. Le grind ne prend pas de jour de repos.",
+    "streak": "{days, plural, one {# jour} other {# jours}} d'affilée avec une partie. C'est devenu une habitude.",
+    "steady": "Régulier, réparti sur tout le calendrier. Pas de schéma, juste du League."
+  },
+  "aria": "Calendrier de {games, plural, one {# partie} other {# parties}} sur {days, plural, one {# jour} other {# jours}}",
+  "before": "{date} : avant ta plus ancienne partie chargée",
+  "day": "{date} : {detail}",
+  "dayGames": "{games, plural, one {# partie} other {# parties}}, {wins} gagnées",
+  "dayNone": "aucune partie",
+  "fewer": "Moins",
+  "more": "Plus",
+  "activeDays": "{count, plural, one {<b>#</b> jour actif} other {<b>#</b> jours actifs}}",
+  "busiest": "Jour le plus chargé <b>{date}</b> · {games, plural, one {# partie} other {# parties}}",
+  "streak": "Plus longue série <b>{days, plural, one {# jour} other {# jours}}</b>",
+  "favorite": "Jour préféré <b>{day}</b>",
+  "prime": "Heure de pointe <b>{hour}</b>",
+  "parts": {
+    "night": "nuit",
+    "morning": "matin",
+    "afternoon": "après-midi",
+    "evening": "soir"
+  },
+  "bestPart": "Meilleur moment : <b>{part}</b> · <good>{rate}</good> de victoires",
+  "worstPart": "(<bad>{rate}</bad> en {part})",
+  "bestMonth": "Meilleur mois <b>{month}</b> · <good>{rate}</good>",
+  "worstMonth": "· pire <b>{month}</b> <bad>{rate}</bad>",
+  "clock": {
+    "day": "Ton meilleur jour : {best}, {bestRate} de victoires. Le pire : {worst}, seulement {worstRate}.",
+    "part": "Ton meilleur moment de la journée : {best}, {bestRate} de victoires. Le pire : {worst}, seulement {worstRate}.",
+    "steady": "Ton taux de victoire bouge à peine avec l'horloge. N'importe quel jour, à n'importe quelle heure : le même joueur.",
+    "byPart": "Moment de la journée",
+    "byDay": "Jour de la semaine",
+    "bar": "{label} : {rate} de victoires, {detail}",
+    "barFew": "{label} : {detail}. Trop peu de parties pour comparer.",
+    "aria": "Taux de victoire par moment de la journée et par jour de la semaine"
+  }
+}

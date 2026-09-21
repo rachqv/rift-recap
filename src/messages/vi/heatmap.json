@@ -1,0 +1,42 @@
+{
+  "insight": {
+    "nightOwl": "{share} số trận của bạn bắt đầu sau nửa đêm. Rift không bao giờ ngủ, và bạn cũng vậy.",
+    "earlyBird": "{share} số trận của bạn diễn ra trước buổi trưa. Xếp hàng cùng ly cà phê.",
+    "weekend": "{share} số trận của bạn rơi vào cuối tuần. Thứ Bảy là dành cho Rift.",
+    "weekday": "Gần như mọi trận của bạn đều vào ngày thường. Cày cuốc không nghỉ phép.",
+    "streak": "{days, plural, other {# ngày}} liên tiếp có trận. Đó là thói quen rồi.",
+    "steady": "Đều đặn, rải khắp lịch. Không có quy luật, chỉ có Liên Minh."
+  },
+  "aria": "Lịch {games, plural, other {# trận}} trong {days, plural, other {# ngày}}",
+  "before": "{date}: trước trận sớm nhất đã tải của bạn",
+  "day": "{date}: {detail}",
+  "dayGames": "{games, plural, other {# trận}}, thắng {wins}",
+  "dayNone": "không có trận",
+  "fewer": "Ít hơn",
+  "more": "Nhiều hơn",
+  "activeDays": "{count, plural, other {<b>#</b> ngày hoạt động}}",
+  "busiest": "Ngày bận nhất <b>{date}</b> · {games, plural, other {# trận}}",
+  "streak": "Chuỗi dài nhất <b>{days, plural, other {# ngày}}</b>",
+  "favorite": "Ngày yêu thích <b>{day}</b>",
+  "prime": "Giờ vàng <b>{hour}</b>",
+  "parts": {
+    "night": "đêm",
+    "morning": "sáng",
+    "afternoon": "chiều",
+    "evening": "tối"
+  },
+  "bestPart": "Tốt nhất vào <b>{part}</b> · thắng <good>{rate}</good>",
+  "worstPart": "(<bad>{rate}</bad> vào {part})",
+  "bestMonth": "Tháng tốt nhất <b>{month}</b> · <good>{rate}</good>",
+  "worstMonth": "· tệ nhất <b>{month}</b> <bad>{rate}</bad>",
+  "clock": {
+    "day": "Ngày mạnh nhất của bạn: {best}, thắng {bestRate}. Ngày yếu nhất: {worst}, chỉ {worstRate}.",
+    "part": "Khung giờ mạnh nhất của bạn: {best}, thắng {bestRate}. Yếu nhất: {worst}, chỉ {worstRate}.",
+    "steady": "Tỷ lệ thắng của bạn gần như không đổi theo giờ giấc. Ngày nào, giờ nào: vẫn là một người chơi.",
+    "byPart": "Buổi trong ngày",
+    "byDay": "Thứ trong tuần",
+    "bar": "{label}: thắng {rate}, {detail}",
+    "barFew": "{label}: {detail}. Quá ít trận để so sánh.",
+    "aria": "Tỷ lệ thắng theo buổi trong ngày và thứ trong tuần"
+  }
+}

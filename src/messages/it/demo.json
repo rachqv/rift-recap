@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "title": "Riepilogo di esempio · Rift Recap"
+  },
+  "switcher": {
+    "label": "Giocatori di esempio",
+    "previous": "Giocatore di esempio precedente",
+    "next": "Giocatore di esempio successivo",
+    "player": "Giocatore di esempio",
+    "show": "Mostra"
+  },
+  "players": {
+    "onetrick": "One-Trick",
+    "specialist": "Specialista",
+    "explorer": "Esploratore",
+    "chameleon": "Camaleonte",
+    "showstopper": "Mattatore",
+    "slayer": "Sterminatore",
+    "daredevil": "Temerario",
+    "support": "Regista",
+    "unlucky": "Eroe sfortunato",
+    "phoenix": "Fenice",
+    "risingstar": "Stella nascente",
+    "streaker": "Serie calda",
+    "scout": "Esploratore avanzato",
+    "farmer": "Contadino",
+    "heavyhitter": "Peso massimo",
+    "everpresent": "Sempre presente",
+    "opener": "Apripista",
+    "untouchable": "Intoccabile",
+    "closer": "Finalizzatore",
+    "marathoner": "Maratoneta",
+    "speedrunner": "Speedrunner",
+    "assassin": "Assassino",
+    "archmage": "Arcimago",
+    "sharpshooter": "Tiratore scelto",
+    "brawler": "Attaccabrighe",
+    "bulwark": "Baluardo",
+    "aramfan": "Fan dell'ARAM",
+    "casual": "Occasionale",
+    "demolisher": "Demolitore",
+    "thief": "Ladro",
+    "grinder": "Instancabile",
+    "pathfinder": "Pioniere",
+    "islander": "Isolano",
+    "centerpiece": "Fulcro",
+    "carry": "Carry",
+    "guardian": "Guardiano"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "sections": "Az összegzés szakaszai",
+  "controls": "Diavetítés és hang",
+  "play": "Diavetítés lejátszása",
+  "pause": "Szünet",
+  "resume": "Folytatás",
+  "stop": "Diavetítés leállítása",
+  "mute": "Némítás",
+  "unmute": "Némítás feloldása",
+  "volume": "Hangerő",
+  "playing": "A diavetítés játszik",
+  "paused": "A diavetítés szünetel",
+  "label": "Az összegzésed",
+  "previous": "Előző dia",
+  "next": "Következő dia",
+  "copyLink": "Hivatkozás másolása erre a diára"
+}

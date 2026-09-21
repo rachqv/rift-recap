@@ -1,0 +1,81 @@
+{
+  "language": {
+    "label": "Limbă"
+  },
+  "range": {
+    "label": "Interval de timp",
+    "season": "Acest sezon",
+    "90d": "Ultimele 90 de zile",
+    "30d": "Ultimele 30 de zile",
+    "7d": "Ultimele 7 zile"
+  },
+  "regions": {
+    "na1": "America de Nord",
+    "br1": "Brazilia",
+    "la1": "LAN",
+    "la2": "LAS",
+    "euw1": "Europa de Vest",
+    "eun1": "Europa Nordică și de Est",
+    "tr1": "Turcia",
+    "ru": "Rusia",
+    "me1": "Orientul Mijlociu",
+    "kr": "Coreea",
+    "jp1": "Japonia",
+    "oc1": "Oceania",
+    "ph2": "Filipine",
+    "sg2": "Singapore",
+    "th2": "Thailanda",
+    "tw2": "Taiwan",
+    "vn2": "Vietnam"
+  },
+  "message": {
+    "tryAnother": "Încearcă alt jucător",
+    "tryServer": "Poate alt server?",
+    "notFoundTitle": "Pagina nu a fost găsită",
+    "notFoundText": "Această pagină nu există sau a fost mutată. Întoarce-te și caută un jucător.",
+    "crashTitle": "Ceva nu a mers bine",
+    "crashText": "Pagina nu s-a încărcat corect. Încearcă din nou sau caută alt jucător.",
+    "retry": "Încearcă din nou"
+  },
+  "loading": {
+    "recap1": "Îți invocăm istoricul de meciuri…",
+    "recap2": "Numărăm fiecare last hit…",
+    "recap3": "Consultăm oracolul Faliei…",
+    "recap4": "Lustruim pentakill-urile tale…",
+    "squad1": "Căutăm meciurile jucate împreună…",
+    "squad2": "Numărăm cine a dat cele mai multe ping-uri…",
+    "squad3": "Cântărim morțile…",
+    "squad4": "Gravăm trofeele…",
+    "versus1": "Analizăm ambii jucători…",
+    "versus2": "Extragem două istorice de meciuri…",
+    "versus3": "Numărăm fiecare last hit…",
+    "versus4": "Pregătim verdictul…"
+  },
+  "meta": {
+    "description": "Un site care te ajută să-ți cunoști parcursul în League of Legends pe măsură ce sezonul avansează"
+  },
+  "roles": {
+    "TOP": "Top",
+    "JUNGLE": "Junglă",
+    "MIDDLE": "Mid",
+    "BOTTOM": "Bot",
+    "UTILITY": "Suport"
+  },
+  "tiers": {
+    "IRON": "Fier",
+    "BRONZE": "Bronz",
+    "SILVER": "Argint",
+    "GOLD": "Aur",
+    "PLATINUM": "Platină",
+    "EMERALD": "Smarald",
+    "DIAMOND": "Diamant",
+    "MASTER": "Master",
+    "GRANDMASTER": "Grandmaster",
+    "CHALLENGER": "Challenger"
+  },
+  "queues": {
+    "RANKED_SOLO_5x5": "Clasat Solo/Duo",
+    "RANKED_FLEX_SR": "Clasat Flex"
+  },
+  "rankTitle": "{tier} {division}"
+}

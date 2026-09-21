@@ -1,0 +1,11 @@
+{
+  "share": "Paylaş",
+  "download": "Kartı indir",
+  "copyLink": "Bağlantıyı kopyala",
+  "linkCopied": "Bağlantı kopyalandı",
+  "copyFailed": "Bağlantı kopyalanamadı",
+  "shareFailed": "Paylaşım menüsü açılamadı",
+  "saveLater": "Sonra karşılaştırmak için kaydet",
+  "saveRematch": "Rövanş için kaydet",
+  "savedOpenLater": "Bağlantı kopyalandı. Sonra aç"
+}

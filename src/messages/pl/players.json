@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "title": "Twoi gracze · Rift Recap"
+  },
+  "title": "Twoi gracze",
+  "lead": "Wszyscy, których wyszukałeś na tym urządzeniu, ze skrótem do ich podsumowania, pojedynku lub drużyny.",
+  "empty": "Na razie brak graczy. Wyszukaj kogoś na <home>stronie głównej</home>, a pojawi się tutaj.",
+  "recap": "Podsumowanie",
+  "versus": "Jeden na jednego",
+  "squad": "Drużyna",
+  "remove": "Usuń {name} z tej listy",
+  "clear": "Wyczyść wszystko",
+  "pin": "Przypnij {name} na górze",
+  "unpin": "Odepnij {name}",
+  "clearUnpinned": "Wyczyść nieprzypięte"
+}

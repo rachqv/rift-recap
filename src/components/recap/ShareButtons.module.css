@@ -1,0 +1,59 @@
+.wrap {
+  position: relative;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.55rem;
+}
+
+.button,
+.primary {
+  padding: 0.6rem 1.15rem;
+  border-radius: 999px;
+  font: inherit;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 0.15s, filter 0.15s, border-color 0.2s, background 0.2s;
+}
+
+.button {
+  border: 1px solid rgba(200, 170, 110, 0.5);
+  background: rgba(5, 11, 24, 0.65);
+  backdrop-filter: blur(8px);
+  color: var(--gold-bright);
+}
+
+.button:hover {
+  border-color: var(--gold-bright);
+  background: rgba(200, 170, 110, 0.15);
+}
+
+.primary {
+  border: 0;
+  background: linear-gradient(120deg, var(--gold-bright), var(--accent) 45%, #e0a94a);
+  color: #1a1204;
+  box-shadow: 0 8px 24px -10px rgba(200, 170, 110, 0.8);
+}
+
+.primary:hover {
+  transform: translateY(-1px);
+  filter: brightness(1.08);
+}
+
+/* Floats under the buttons, so a message appearing never moves them (or makes the slide taller). */
+.status {
+  position: absolute;
+  top: calc(100% + 0.2rem);
+  inset-inline-end: 0;
+  inset-inline-start: 0;
+  margin: 0;
+  text-align: center;
+  font-size: 0.78rem;
+  color: var(--gold-bright);
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.9);
+}

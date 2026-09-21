@@ -1,0 +1,55 @@
+{
+  "team": "{name} takımı",
+  "line": {
+    "few": "Takımlar arasında şimdiye kadar {games}: karar vermek için erken.",
+    "level": "{a}-{b}: neredeyse eşit. Bu kadar küçük bir fark şans olabilir.",
+    "lead": "{name} önde, {win}-{lose}. Bu, şansın açıklayacağından fazla."
+  },
+  "rail": {
+    "start": "Takımlar",
+    "lanes": "Koridor koridor",
+    "numbers": "Rakamlar",
+    "stars": "Öne çıkanlar",
+    "end": "Takım özetleri"
+  },
+  "slides": {
+    "intro": {
+      "eyebrow": "Takıma karşı takım",
+      "played": "Birbirine karşı {games}"
+    },
+    "lanes": {
+      "eyebrow": "Koridor koridor",
+      "aria": "Koridorlara göre sonuçlar",
+      "note": "Bir koridor, yalnızca iki takımın da orada birisi olduysa görünür. Her oyun, koridorda daha iyi KDA'ya sahip oyuncuya yazılır."
+    },
+    "numbers": {
+      "eyebrow": "Her takım nasıl oynadı",
+      "aria": "Oyuncu başına, oyun başına ortalamalar",
+      "note": "Oyuncu başına, oyun başına ortalama.",
+      "kda": "KDA",
+      "damage": "Şampiyonlara hasar",
+      "gold": "Kazanılan altın",
+      "vision": "Görüş puanı"
+    },
+    "stars": {
+      "eyebrow": "Öne çıkanlar",
+      "best": "{team} takımının en iyi KDA'sı",
+      "stat": "{games} boyunca {kda} KDA",
+      "record": "{games} oyundan {wins} galibiyet",
+      "note": "Yalnızca takımlar arasında en az {min} oyunu olan oyuncular sayılır."
+    },
+    "end": {
+      "eyebrow": "Devam et",
+      "recap": "Takım özeti: {team}"
+    }
+  },
+  "page": {
+    "title": "{a} vs {b} · Takıma karşı takım",
+    "titleDemo": "Takıma karşı takım örneği · Rift Recap",
+    "titleEmpty": "Takıma karşı takım · Rift Recap",
+    "description": "İki takım karşı karşıya: kim kazanıyor, koridor koridor ve her taraf nasıl oynadı.",
+    "overlap": "{names} iki takımda birden olamaz.",
+    "atLeastTwo": "Her takımın en az iki Riot ID'si olmalı.",
+    "noClash": "Bu takımların {where} birbirine karşı oyunu yok. Her takımdan en az iki kişinin aynı maçta karşı taraflarda olduğu oyunlar gerekir, örneğin özel bir 5v5."
+  }
+}

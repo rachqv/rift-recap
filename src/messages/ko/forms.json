@@ -1,0 +1,39 @@
+{
+  "tryRange": "다른 기간을 시도해 보세요:",
+  "field": {
+    "recent": "최근 플레이어"
+  },
+  "squad": {
+    "title": "스쿼드 리캡",
+    "lead": "같은 서버의 Riot ID를 두 개에서 다섯 개까지 입력하세요. <em>함께</em> 플레이한 게임을 살펴보고 어워드를 나눠 드려요.",
+    "server": "서버",
+    "player": "플레이어 {n} (이름#TAG)",
+    "playerOptional": "플레이어 {n} (이름#TAG) 선택",
+    "playerAria": "플레이어 {n}의 Riot ID",
+    "submit": "스쿼드 리캡 보기",
+    "fine": "함께한 게임만 보기 때문에 같이 큐를 돌리는 사람들과 가장 잘 맞아요. <link>샘플 스쿼드 보기</link>"
+  },
+  "clash": {
+    "title": "팀 vs 팀",
+    "lead": "같은 서버의 2~5명으로 이뤄진 두 팀. <em>서로 맞붙은</em> 게임(예: 사용자 설정 5v5)을 살펴봐요.",
+    "server": "서버",
+    "sideA": "1팀",
+    "sideB": "2팀",
+    "player": "{side}, 플레이어 {n} (이름#TAG)",
+    "playerOptional": "{side}, 플레이어 {n} (이름#TAG) 선택",
+    "playerAria": "{side} 플레이어 {n}의 Riot ID",
+    "submit": "팀 비교하기",
+    "fine": "각 팀에서 두 명 이상이 상대편으로 만난 게임만 세요. <link>샘플 보기</link>"
+  },
+  "versus": {
+    "title": "1대1 비교",
+    "lead": "두 플레이어를 골라 누가 앞서는지 확인해 보세요. 통계별로, 스타일별로, 그리고 함께 큐를 돌릴 때의 성적까지 비교해요.",
+    "player1": "플레이어 1",
+    "player2": "플레이어 2",
+    "serverAria": "{label} 서버",
+    "riotId": "Riot ID (이름#TAG)",
+    "riotIdAria": "{label}의 Riot ID",
+    "submit": "비교하기",
+    "fine": "각 플레이어의 최근 게임을 비교해요. <link>샘플 매치업 보기</link>"
+  }
+}

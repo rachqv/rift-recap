@@ -1,0 +1,55 @@
+{
+  "team": "{name} csapata",
+  "line": {
+    "few": "{games} a csapatok között eddig: még korai eldönteni.",
+    "level": "{a}–{b}: nagyjából egál. Ekkora különbség simán lehet szerencse.",
+    "lead": "{name} vezet, {win}–{lose}. Ez több, mint amit a szerencse megmagyarázna."
+  },
+  "rail": {
+    "start": "A csapatok",
+    "lanes": "Sáv sávról sávra",
+    "numbers": "A számok",
+    "stars": "Kiemelkedők",
+    "end": "Csapatösszegzések"
+  },
+  "slides": {
+    "intro": {
+      "eyebrow": "Csapat csapat ellen",
+      "played": "{games} egymás ellen"
+    },
+    "lanes": {
+      "eyebrow": "Sáv sávról sávra",
+      "aria": "Eredmények sávonként",
+      "note": "Egy sáv csak akkor jelenik meg, ha mindkét csapatnak volt benne játékosa. Minden meccset az a játékos kap, akinek jobb a KDA-ja a sávban."
+    },
+    "numbers": {
+      "eyebrow": "Hogyan játszott az egyes csapat",
+      "aria": "Átlagok játékosonként és meccsenként",
+      "note": "Átlag játékosonként és meccsenként.",
+      "kda": "KDA",
+      "damage": "Bajnokoknak okozott sebzés",
+      "gold": "Szerzett arany",
+      "vision": "Látáspontszám"
+    },
+    "stars": {
+      "eyebrow": "Kiemelkedők",
+      "best": "{team} legjobb KDA-ja",
+      "stat": "{kda} KDA, {games}",
+      "record": "{wins} győzelem {games} közül",
+      "note": "Csak azok a játékosok számítanak, akiknek legalább {min} meccse van a csapatok között."
+    },
+    "end": {
+      "eyebrow": "Tovább",
+      "recap": "Csapatösszegzés: {team}"
+    }
+  },
+  "page": {
+    "title": "{a} vs {b} · Csapat csapat ellen",
+    "titleDemo": "Példa: csapat csapat ellen · Rift Recap",
+    "titleEmpty": "Csapat csapat ellen · Rift Recap",
+    "description": "Két csapat szemtől szemben: ki nyer, sávról sávra, és hogyan játszott mindkét oldal.",
+    "overlap": "{names} nem lehet mindkét csapatban.",
+    "atLeastTwo": "Mindkét csapathoz legalább két Riot ID kell.",
+    "noClash": "Ezeknek a csapatoknak nincs egymás elleni meccse {where}. Olyan meccsek kellenek, ahol mindkét csapatból legalább ketten ellenkező oldalon játszottak ugyanabban a meccsben, például egy egyéni 5v5."
+  }
+}

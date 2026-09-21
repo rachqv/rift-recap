@@ -1,0 +1,17 @@
+{
+  "sections": "Secciones del resumen",
+  "controls": "Presentación y sonido",
+  "play": "Reproducir presentación",
+  "pause": "Pausa",
+  "resume": "Continuar",
+  "stop": "Detener presentación",
+  "mute": "Silenciar",
+  "unmute": "Activar sonido",
+  "volume": "Volumen",
+  "playing": "Presentación en marcha",
+  "paused": "Presentación en pausa",
+  "label": "Tu resumen",
+  "previous": "Diapositiva anterior",
+  "next": "Diapositiva siguiente",
+  "copyLink": "Copiar enlace a esta diapositiva"
+}

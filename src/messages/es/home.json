@@ -1,0 +1,43 @@
+{
+  "badge": "Resumen de temporada",
+  "title": {
+    "line1": "Tu temporada,",
+    "line2": "resumida."
+  },
+  "subtitle": "Cada partida, cada pentakill, cada Destello cuestionable. Introduce tu Riot ID y revive tu viaje por la Grieta.",
+  "error": "Introduce tu Riot ID con el formato Nombre#TAG y elige una región.",
+  "hint": "Sin registro. Solo tu Riot ID. <link>Ver un resumen de ejemplo →</link>",
+  "modes": {
+    "squad": "Resumen de equipo",
+    "versus": "Cara a cara",
+    "clash": "Equipo contra equipo",
+    "players": "Tus jugadores"
+  },
+  "features": {
+    "title": "Qué incluye tu resumen",
+    "champions": {
+      "title": "Tus campeones",
+      "text": "Quién te hizo ganar, quién te costó PL y esa elección que no puedes dejar de fijar."
+    },
+    "climb": {
+      "title": "Tu ascenso",
+      "text": "Porcentaje de victorias, KDA y evolución de rango durante toda la temporada, contado como una historia."
+    },
+    "time": {
+      "title": "Tu tiempo",
+      "text": "Las horas que pasaste en la Grieta, tu partida más larga, tu cola más nocturna."
+    }
+  },
+  "sample": {
+    "label": "Tarjetas de resumen de ejemplo",
+    "games": "Partidas jugadas",
+    "days": "≈ {days} días en la Grieta",
+    "signature": "Campeón insignia",
+    "record": "{games} partidas · {winRate} de victorias",
+    "kda": "KDA de la temporada",
+    "peak": "Rango máximo",
+    "peakRank": "Esmeralda II",
+    "climbed": "+{lp} PL ganados esta temporada"
+  },
+  "footer": "Rift Recap no cuenta con el respaldo de Riot Games ni refleja las opiniones de Riot Games ni de nadie que participe oficialmente en la producción o gestión de las propiedades de Riot Games. Riot Games y todas las propiedades asociadas son marcas comerciales o marcas registradas de Riot Games, Inc."
+}

@@ -1,0 +1,11 @@
+{
+  "share": "分享",
+  "download": "下載卡片",
+  "copyLink": "複製連結",
+  "linkCopied": "已複製連結",
+  "copyFailed": "無法複製連結",
+  "shareFailed": "無法開啟分享面板",
+  "saveLater": "儲存以便稍後比較",
+  "saveRematch": "儲存以便再戰",
+  "savedOpenLater": "已複製連結。稍後開啟"
+}

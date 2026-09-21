@@ -1,0 +1,55 @@
+{
+  "team": "Time {name}",
+  "line": {
+    "few": "{games} entre os grupos até agora: cedo demais para dizer.",
+    "level": "{a} a {b}: quase empatado. Uma diferença tão pequena pode ser sorte.",
+    "lead": "{name} está na frente, {win} a {lose}. Isso é mais do que a sorte explicaria."
+  },
+  "rail": {
+    "start": "Os grupos",
+    "lanes": "Rota por rota",
+    "numbers": "Os números",
+    "stars": "Destaques",
+    "end": "Resumos dos grupos"
+  },
+  "slides": {
+    "intro": {
+      "eyebrow": "Grupo contra grupo",
+      "played": "{games} disputadas entre os dois"
+    },
+    "lanes": {
+      "eyebrow": "Rota por rota",
+      "aria": "Resultados por rota",
+      "note": "Uma rota só aparece quando os dois grupos tinham alguém nela. Cada partida fica com quem teve o melhor KDA na rota."
+    },
+    "numbers": {
+      "eyebrow": "Como cada grupo jogou",
+      "aria": "Médias por jogador, por partida",
+      "note": "Média por jogador, por partida.",
+      "kda": "KDA",
+      "damage": "Dano em campeões",
+      "gold": "Ouro ganho",
+      "vision": "Pontuação de visão"
+    },
+    "stars": {
+      "eyebrow": "Destaques",
+      "best": "Melhor KDA do time {team}",
+      "stat": "{kda} de KDA em {games}",
+      "record": "Venceu {wins} de {games}",
+      "note": "Só entram jogadores com pelo menos {min} partidas entre os grupos."
+    },
+    "end": {
+      "eyebrow": "Continue explorando",
+      "recap": "Resumo do grupo: {team}"
+    }
+  },
+  "page": {
+    "title": "{a} vs {b} · Grupo contra grupo",
+    "titleDemo": "Exemplo de grupo contra grupo · Rift Recap",
+    "titleEmpty": "Grupo contra grupo · Rift Recap",
+    "description": "Dois grupos frente a frente: quem vence, rota por rota e como cada lado jogou.",
+    "overlap": "{names} não pode estar nos dois grupos.",
+    "atLeastTwo": "Cada grupo precisa de pelo menos dois Riot IDs.",
+    "noClash": "Esses grupos não têm partidas um contra o outro {where}. É preciso ter partidas com pelo menos dois de cada grupo em times opostos, como uma personalizada 5v5."
+  }
+}

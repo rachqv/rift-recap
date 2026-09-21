@@ -1,0 +1,215 @@
+{
+  "onetrick": {
+    "title": "원트릭",
+    "tagline": "무엇보다 의리.",
+    "description": "게임의 {share}가 {top} 챔피언이었어요. 누군가는 고집이라 부르고, 우리는 숙련이라 불러요."
+  },
+  "specialist": {
+    "title": "스페셜리스트",
+    "tagline": "두 챔피언으로 완벽한 숙련.",
+    "description": "게임의 {share}가 {top} 챔피언 또는 {second} 챔피언이었어요. 자신이 뭘 잘하는지 정확히 알고 있어요."
+  },
+  "explorer": {
+    "title": "탐험가",
+    "tagline": "하나만 고를 이유가 있을까요? 전부 해 보면 되는데.",
+    "description": "{games, plural, other {#게임}} 동안 서로 다른 챔피언 {unique, plural, other {#명}}. 한곳에 오래 머무르지 않아요."
+  },
+  "chameleon": {
+    "title": "카멜레온",
+    "tagline": "포지션 채우기? 문제없어요.",
+    "description": "서로 다른 포지션 {roles, plural, other {#개}}에 특별한 선호는 없어요. 어느 라인이든 내 집이라 팀이 고마워해요."
+  },
+  "showstopper": {
+    "title": "쇼 스토퍼",
+    "tagline": "하이라이트 영상을 위해 태어났어요.",
+    "description": "펜타킬 {penta, plural, other {#회}}, 쿼드라킬 {quadra, plural, other {#회}}, 트리플킬 {triple, plural, other {#회}}. 클립은 당신이 만들어요.",
+    "descriptionAlt": "쿼드라킬 {quadra, plural, other {#회}}과 트리플킬 {triple, plural, other {#회}}. 한타가 어지러워질수록 당신의 존재감이 커져요."
+  },
+  "thief": {
+    "title": "도둑",
+    "tagline": "멋진 드래곤이네요. 이제 제 거예요.",
+    "description": "오브젝트 {count, plural, other {#개}} 스틸. 공정해야 한다고 말한 사람은 없어요."
+  },
+  "slayer": {
+    "title": "학살자",
+    "tagline": "킬을 따러 온 사람이에요.",
+    "description": "{games, plural, other {#게임}}에서 {kills, plural, other {#킬}}, 한 게임에 약 {perGame}킬이에요. 당신의 이름은 킬 로그에 살아 있어요."
+  },
+  "daredevil": {
+    "title": "무모한 용사",
+    "tagline": "어떤 싸움이든 걸어 볼 가치가 있어요.",
+    "description": "{deaths, plural, other {#데스}}에도 후회는 없어요. 한타에 뛰어드는 걸 멈춘 적이 없어요."
+  },
+  "playmaker": {
+    "title": "플레이메이커",
+    "tagline": "팀의 가장 좋은 친구.",
+    "description": "{assists, plural, other {#어시스트}}, 한 게임에 {perGame}개. 판을 깔고 영광은 팀에게 양보해요."
+  },
+  "unlucky": {
+    "title": "불운의 영웅",
+    "tagline": "훌륭한 기록, 의심스러운 팀원들.",
+    "description": "KDA {kda}인데 승률은 {winRate}뿐이에요. 숫자는 당신 잘못이 아니라고 말해요."
+  },
+  "phoenix": {
+    "title": "불사조",
+    "tagline": "매번 다시 일어나요.",
+    "description": "{streak}연패를 겪고도 승률 {winRate}로 마무리했어요. 이게 근성이에요."
+  },
+  "risingstar": {
+    "title": "떠오르는 별",
+    "tagline": "시즌이 진행될수록 실력이 늘었어요.",
+    "description": "승률이 {early}에서 {late}로 올랐어요. 추세선은 위쪽만 가리켜요."
+  },
+  "streaker": {
+    "title": "연승 가도",
+    "tagline": "한번 이기기 시작하면 멈추지 않아요.",
+    "description": "최고 기록은 {streak}연승이에요. 아무도 상대 팀이 되고 싶어 하지 않았어요."
+  },
+  "scout": {
+    "title": "정찰병",
+    "tagline": "당신의 와드는 아무것도 놓치지 않아요.",
+    "description": "분당 시야 점수 {vision}. 모두를 위해 불을 켜 줬어요."
+  },
+  "farmer": {
+    "title": "농부",
+    "tagline": "골드는 삶의 방식이에요.",
+    "description": "분당 미니언 {cs}마리. 대포 웨이브는 하나도 놓치지 않아요."
+  },
+  "heavyhitter": {
+    "title": "헤비 히터",
+    "tagline": "피해를 줘요. 아주 많이요.",
+    "description": "매분 챔피언에게 {damage}의 피해를 줘요. 당신 곁에서 체력 바는 오래 버티지 못해요."
+  },
+  "everpresent": {
+    "title": "언제나 현장에",
+    "tagline": "모든 한타에 당신이 있어요.",
+    "description": "팀 킬의 {kp}에 관여했어요. 한타가 있었다면 그 자리에 있었어요."
+  },
+  "opener": {
+    "title": "선제공격수",
+    "tagline": "퍼스트 블러드가 인사예요.",
+    "description": "퍼스트 블러드 {count, plural, other {#회}}. 다른 사람들이 오기도 전에 파티를 시작해요."
+  },
+  "demolisher": {
+    "title": "철거반",
+    "tagline": "기초가 있다면 무너뜨려요.",
+    "description": "{games, plural, other {#게임}}에서 포탑 {turrets, plural, other {#개}}, 한 게임에 약 {perGame}개예요. 건물들이 당신을 두려워해요."
+  },
+  "untouchable": {
+    "title": "언터처블",
+    "tagline": "죽는 건 다른 사람들 몫이에요.",
+    "description": "한 게임에 데스는 겨우 {perGame}이고, 한 번도 죽지 않은 게임이 {deathless, plural, other {#게임}}이에요.",
+    "descriptionAlt": "한 게임에 데스는 겨우 {perGame}이에요. 회색 화면이 당신을 거의 몰라요."
+  },
+  "closer": {
+    "title": "마무리 투수",
+    "tagline": "게임을 이겨요. 간단하죠.",
+    "description": "승률은 {winRate}. 당신이 큐를 잡으면 상대 팀은 걱정해야 해요."
+  },
+  "marathoner": {
+    "title": "마라토너",
+    "tagline": "당신이 끝내자고 하기 전까지 게임은 끝나지 않아요.",
+    "description": "게임이 평균 {minutes}분 걸렸어요. 말 그대로 긴 승부를 해요."
+  },
+  "speedrunner": {
+    "title": "스피드러너",
+    "tagline": "왜 기다려요? 지금 끝내요.",
+    "description": "게임이 평균 {minutes}분밖에 걸리지 않았어요. 주전자가 끓기 전에 넥서스가 무너져요."
+  },
+  "assassin": {
+    "title": "암살자",
+    "tagline": "들어가서, 처치하고, 사라져요.",
+    "description": "게임의 {share}에서 암살자를 플레이했어요. 표적을 정하면 지워 버려요."
+  },
+  "archmage": {
+    "title": "대마법사",
+    "tagline": "쿨다운은 그저 권고 사항이에요.",
+    "description": "게임의 {share}에서 마법사를 플레이했어요. 주문이 먼저, 질문은 나중이에요."
+  },
+  "sharpshooter": {
+    "title": "명사수",
+    "tagline": "사거리는 삶의 방식이에요.",
+    "description": "게임의 {share}에서 원거리 딜러를 플레이했어요. 모든 싸움은 안전한 거리에서 보는 게 더 좋아요."
+  },
+  "brawler": {
+    "title": "싸움꾼",
+    "tagline": "가까이서, 직접.",
+    "description": "게임의 {share}에서 전사를 플레이했어요. 팔이 닿는 거리의 싸움을 좋아해요."
+  },
+  "bulwark": {
+    "title": "보루",
+    "tagline": "아무것도 당신을 지나가지 못해요.",
+    "description": "게임의 {share}에서 탱커를 플레이했어요. 누군가는 피해를 받아 내야 하고, 그게 당신이에요."
+  },
+  "pathfinder": {
+    "title": "개척자",
+    "tagline": "정글은 당신 거예요.",
+    "description": "게임의 {share}에서 포지션이 {role}였어요. 모든 캠프, 모든 타이머, 모든 부쉬를 알고 있어요."
+  },
+  "islander": {
+    "title": "섬 주민",
+    "tagline": "탑 라인. 생각과 단둘이.",
+    "description": "게임의 {share}에서 포지션이 {role}였어요. 라인 하나를 통째로 독차지하고, 그게 마음에 들어요."
+  },
+  "centerpiece": {
+    "title": "중심축",
+    "tagline": "모든 길은 미드로 통해요.",
+    "description": "게임의 {share}에서 포지션이 {role}였어요. 지도가 만나고 한타가 시작되는 곳에 있어요."
+  },
+  "carry": {
+    "title": "캐리",
+    "tagline": "누군가는 팀을 짊어져야죠.",
+    "description": "게임의 {share}에서 포지션이 {role}였어요. 후반에 팀이 핸들을 맡기면 당신이 해내요."
+  },
+  "guardian": {
+    "title": "수호자",
+    "tagline": "팀을 살려 둬요.",
+    "description": "게임의 {share}에서 포지션이 {role}였어요. 보호막, 회복, 보호, 와드. 팀은 당신으로 굴러가요."
+  },
+  "grinder": {
+    "title": "노력파",
+    "tagline": "꾸준하고 믿음직하고, 언제나 큐 중.",
+    "description": "{games, plural, other {#게임}}에 {hours}시간의 꾸준한 노력. 당신만큼 반복 연습하는 사람은 없어요."
+  },
+  "rarity": {
+    "common": "일반",
+    "uncommon": "고급",
+    "rare": "희귀",
+    "legendary": "전설",
+    "under": "{share} 미만",
+    "about": "약 {share}",
+    "chip": "<b>{tier}</b> · 전체 플레이어의 {share}",
+    "badge": "{tier} · 전체 플레이어의 {share}"
+  },
+  "duration": "{minutes}분",
+  "insights": {
+    "games": {
+      "days": "협곡 안에서 꼬박 {days}일을 보낸 셈이에요.",
+      "films": "순수한 리그 오브 레전드로 장편 영화 {films, plural, other {약 #편}}을 본 것과 같아요."
+    },
+    "win": {
+      "dominant": "압도적이에요. 상대 팀이 당신 이름을 보고 한숨을 쉬었어요.",
+      "good": "패배보다 승리가 많아요. LP가 술술 들어와요.",
+      "balanced": "모든 것이 그래야 하듯, 완벽한 균형이에요.",
+      "challenge": "매치메이커가 시련을 줬는데도 계속 큐를 돌렸어요.",
+      "rough": "힘든 시기예요. 모든 전설에는 구원의 서사가 있고, 당신의 서사는 지금 시작돼요."
+    },
+    "streak": {
+      "long": "최장 기록은 {streak, plural, other {#연승}}이에요.",
+      "short": "연승은 짧았지만 매 게임이 새로운 시작이었어요."
+    },
+    "comeback": "{streak}연패에서도 다시 일어났어요.",
+    "champion": {
+      "oneTrick": "게임의 {share}가 {top} 챔피언이었어요. 원트릭의 기운이 느껴져요.",
+      "variety": "서로 다른 챔피언 {unique, plural, other {#명}}을 플레이했지만 집은 {top} 챔피언이었어요.",
+      "favorite": "{top} 챔피언으로 {games, plural, other {#게임}}. 확실한 최애예요."
+    },
+    "kda": {
+      "rarelyDie": "거의 죽지 않아요. 적 정글러가 정말 싫어해요.",
+      "everyFight": "모든 한타가 당신의 한타예요.",
+      "teamFirst": "팀이 우선이에요. 당신의 캐리들이 빚을 졌어요.",
+      "bold": "대담하고 공격적이에요. 회색 화면을 꽤 많이 봤어요.",
+      "balanced": "균형 잡힌, 믿을 만한 수치예요."
+    }
+  }
+}

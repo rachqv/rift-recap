@@ -1,0 +1,28 @@
+{
+  "verdict": {
+    "perfect": "You know your squad better than the squad knows itself.",
+    "good": "Not bad. You've clearly been watching.",
+    "low": "You may want to spend more time with your friends."
+  },
+  "result": "Quiz result",
+  "round": "Who won it? {step} of {total}",
+  "again": "Play again",
+  "group": "Who won this award?",
+  "right": "Right!",
+  "wrong": "Nope, it was {name}.",
+  "reveal": "{verdict} {line}",
+  "pick": "Pick a player.",
+  "score": "See your score",
+  "next": "Next award",
+  "guess": {
+    "eyebrow": "Guess your archetype",
+    "lead": "Three clues, four archetypes. Which one are you?",
+    "clueMain": "Most played: {champion}",
+    "clueRate": "Win rate {rate}",
+    "clueKda": "KDA {kda}",
+    "group": "Which archetype are you?",
+    "right": "Spot on. You know your own game.",
+    "wrong": "Not quite. You're {title}.",
+    "next": "Keep going for the full reveal."
+  }
+}

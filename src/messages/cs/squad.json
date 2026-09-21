@@ -1,0 +1,181 @@
+{
+  "awards": {
+    "objectiveSteal": {
+      "title": "Nejspíš ukradne cíl",
+      "tagline": "Hlídej si draka. A pak sleduj, jak mizí.",
+      "label": "ukradené cíle",
+      "line": "Hráč {name} ukradl {count, plural, one {# cíl} few {# cíle} other {# cílů}}. Nic není v bezpečí."
+    },
+    "objectiveTake": {
+      "title": "Nejspíš získá cíl",
+      "tagline": "Kam jde drak, tam jdou i oni.",
+      "label": "poškození cílů za minutu",
+      "line": "Hráč {name} udělil cílům {value} poškození za minutu."
+    },
+    "deaths": {
+      "title": "Nejvíc smrtí",
+      "tagline": "Šedá obrazovka? Mají sezonní permanentku.",
+      "label": "smrtí za zápas",
+      "line": "Hráč {name} strávil zhruba {minutes} minut každého zápasu zíráním na šedou obrazovku."
+    },
+    "pings": {
+      "title": "Řidič ze zadního sedadla",
+      "tagline": "Nejspíš pinguje „ustup“ vlastnímu týmu.",
+      "label": "pingů za zápas",
+      "line": "Hráč {name} pingal {value}krát za zápas. Minimapa neměla klid."
+    },
+    "vision": {
+      "title": "Maják",
+      "tagline": "Rozsvítil všem ostatním.",
+      "label": "bodů vize za minutu",
+      "line": "{value} bodů vize za minutu od hráče {name}. Nikdo nešel do tmy sám."
+    },
+    "tank": {
+      "title": "Boxovací pytel",
+      "tagline": "Pohltil pro tým nejvíc poškození.",
+      "label": "přijaté poškození za zápas",
+      "line": "Hráč {name} pohltil {value} poškození za zápas."
+    },
+    "assists": {
+      "title": "Nejlepší přítel",
+      "tagline": "Vždy tam, aby akci připravil.",
+      "label": "asistencí za zápas",
+      "line": "Hráč {name} měl v průměru {value} asistencí. Oblíbený spoluhráč týmu."
+    },
+    "carry": {
+      "title": "Carry",
+      "tagline": "Nejspíš vyhraje za všechny ostatní.",
+      "label": "KDA",
+      "line": "KDA {value}. Hráč {name} odvedl tu těžkou práci."
+    },
+    "damage": {
+      "title": "Těžká váha",
+      "tagline": "Životní lišty se při dotyku tají.",
+      "label": "poškození za minutu",
+      "line": "{value} poškození šampionům každou minutu od hráče {name}."
+    },
+    "farm": {
+      "title": "Farmář",
+      "tagline": "Ani jedna vlna s kanónem nezůstala pozadu.",
+      "label": "CS za minutu",
+      "line": "{value} miniónů za minutu. Hráč {name} byl vždy u vlny."
+    },
+    "present": {
+      "title": "Vždy tam",
+      "tagline": "Pokud byl boj, byli v něm.",
+      "label": "účast na zabitích",
+      "line": "Hráč {name} se zúčastnil {value} zabití týmu."
+    },
+    "cc": {
+      "title": "Kontrola davu",
+      "tagline": "Držel nepřítele na místě, aby ostatní mohli pracovat.",
+      "label": "sekund kontroly za zápas",
+      "line": "Hráč {name} držel nepřátele zablokované {value, plural, one {# sekundu} few {# sekundy} other {# sekund}} za zápas."
+    }
+  },
+  "chemistry": {
+    "destiny": "Dvojice osudu",
+    "great": "Skvělá chemie",
+    "solid": "Spolehliví parťáci",
+    "awkward": "Spolu nepohodlní",
+    "apart": "Zvlášť lepší"
+  },
+  "slides": {
+    "intro": {
+      "eyebrow": "Souhrn týmu",
+      "together": "{count, plural, one {zápas spolu} few {zápasy spolu} other {zápasů spolu}}",
+      "hours": "{n, plural, one {<b>{value}</b> hodina} few {<b>{value}</b> hodiny} other {<b>{value}</b> hodin}}",
+      "note": "Podle vašich {loaded} nejnovějších společných zápasů (z {found} nalezených)."
+    },
+    "record": {
+      "eyebrow": "Vaše bilance",
+      "label": "poměr výher spolu",
+      "bestStreak": "Nejlepší série <good>{count, plural, one {# výhra} few {# výhry} other {# výher}}</good>",
+      "worstSkid": "Nejhorší série <bad>{count, plural, one {# prohra} few {# prohry} other {# proher}}</bad>",
+      "all": "Všech {members} spolu v {games, plural, one {<b>#</b> zápase} few {<b>#</b> zápasech} other {<b>#</b> zápasech}}",
+      "machine": "Stroj, když chodíte do fronty spolu.",
+      "good": "Víc výher než proher. Tým podává výkon.",
+      "balanced": "Dokonale vyrovnané. Chaos, ale ten zábavný.",
+      "rough": "Těžké výsledky. Skupinový chat ale má příběhy."
+    },
+    "pairs": {
+      "eyebrow": "Chemie dvojic",
+      "best": "Nejlepší dvojice",
+      "worst": "Chce to práci",
+      "games": "{count, plural, one {# zápas} few {# zápasy} other {# zápasů}} spolu",
+      "chemistry": "{icon} chemie {score} · {label}",
+      "captionBoth": "{a} a {b} jsou ti, které stojí za to dát do fronty spolu. {c} a {d}, možná ne.",
+      "captionBest": "{a} a {b} jsou vaše nejsilnější dvojice."
+    },
+    "award": {
+      "eyebrow": "Ocenění {position} z {total}",
+      "runner": "{n}. {name} <b>{display}</b>"
+    },
+    "board": {
+      "eyebrow": "Žebříček",
+      "aria": "Žebříček týmu",
+      "kda": "KDA",
+      "deaths": "Smrti",
+      "damage": "Pošk./min",
+      "awards": "Ocenění",
+      "note": "Seřazeno podle KDA. Ocenění jsou trofeje, které si každý odnesl domů."
+    },
+    "finale": {
+      "mvp": "MVP týmu",
+      "none": "To je tým",
+      "awards": "{count, plural, one {# ocenění} few {# ocenění} other {# ocenění}}, víc než kdokoli jiný.",
+      "recap": "Souhrn hráče {name}",
+      "versus": "Tváří v tvář: {a} proti {b}",
+      "shareTitle": "Souhrn našeho týmu v Leagueu: {names}",
+      "another": "Začít další tým"
+    },
+    "rivalry": {
+      "eyebrow": "Přátelská palba",
+      "lead": "Vaše bilance proti sobě, {count, plural, one {# setkání} few {# setkání} other {# setkání}} v protilehlých týmech",
+      "aria": "Bilance soubojů",
+      "cell": "{wins, plural, one {# výhra} few {# výhry} other {# výher}}, {losses, plural, one {# prohra} few {# prohry} other {# proher}}",
+      "even": "{a} a {b} jsou po {games, plural, one {# setkání} few {# setkáních} other {# setkáních}} úplně vyrovnaní.",
+      "edge": "{winner} má navrch nad {loser}, {hi} ku {lo}. Největší rivalita v týmu."
+    },
+    "combos": {
+      "eyebrow": "S kým do fronty",
+      "trio": "Nejlepší trojice",
+      "duo": "Nejlepší dvojice",
+      "record": "{wins}V {losses}P v {games, plural, one {# zápase} few {# zápasech} other {# zápasech}} spolu",
+      "caption": "{names}: choďte do fronty spolu a poměr výher promluví sám.",
+      "games": "{count, plural, one {# zápas} few {# zápasy} other {# zápasů}}"
+    },
+    "roles": {
+      "eyebrow": "Nejlepší sestava",
+      "aria": "Doporučená role pro každého člena",
+      "swap": "Na papíře je to nejlepší sestava: každý v roli, ve které vyhrává nejvíc, podle vašich společných her. Malý vzorek, berte to jako nápovědu.",
+      "settled": "Každý už hraje roli, ve které vyhrává nejvíc. Není co měnit.",
+      "was": "obvykle {role}"
+    }
+  },
+  "rail": {
+    "start": "Začátek",
+    "record": "Bilance",
+    "duos": "Dvojice",
+    "roles": "Role",
+    "queue": "S kým do fronty",
+    "rivals": "Rivalové",
+    "quiz": "Kvíz",
+    "board": "Žebříček",
+    "mvp": "MVP"
+  },
+  "page": {
+    "title": "{names} · Souhrn týmu",
+    "titleDemo": "Ukázkový souhrn týmu · Rift Recap",
+    "titleEmpty": "Souhrn týmu · Rift Recap",
+    "description": "Skupinová ocenění ze zápasů, které tým odehrál spolu: nejvíc smrtí, nejvíc ukradených cílů a další.",
+    "pickServer": "Vyber server.",
+    "unreadable": "Nepodařilo se přečíst {names}. Riot ID vypadají jako Jméno#TAG.",
+    "atLeastTwo": "Zadej alespoň dvě Riot ID.",
+    "atMostFive": "Tým má nejvýše pět hráčů.",
+    "notFound": "Pro {names} nebyl v oblasti {region} nalezen žádný hráč. Zkontroluj pravopis a server.",
+    "noShared": "Nikdo z vás nemá společný zápas {where}. Funguje to ze zápasů odehraných spolu, takže zkus delší období nebo lidi, se kterými chodíš do fronty.",
+    "whereSeason": "v posledních {count} zápasech",
+    "whereRange": "v období: {range}"
+  }
+}

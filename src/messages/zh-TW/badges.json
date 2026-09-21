@@ -1,0 +1,98 @@
+{
+  "penta": {
+    "name": "五殺",
+    "text": "完成一次五殺。"
+  },
+  "quadra": {
+    "name": "四殺收藏家",
+    "text": "完成{target, plural, other {#次}}四殺。"
+  },
+  "triple": {
+    "name": "三殺威脅",
+    "text": "完成{target, plural, other {#次}}三殺。"
+  },
+  "flawless": {
+    "name": "零死亡",
+    "text": "一場對局全程不死亡。"
+  },
+  "flawless5": {
+    "name": "不可觸碰",
+    "text": "{target, plural, other {#場}}對局全程不死亡。"
+  },
+  "streak": {
+    "name": "勢如破竹",
+    "text": "連勝{target, plural, other {#場}}。"
+  },
+  "winrate": {
+    "name": "贏家",
+    "text": "在{games}+場對局中維持{target}的勝率。"
+  },
+  "kills": {
+    "name": "擊殺機器",
+    "text": "單場取得{target, plural, other {#次擊殺}}。"
+  },
+  "perfect": {
+    "name": "完美對局",
+    "text": "打出 KDA 達到{target}+的一場對局。"
+  },
+  "firstblood": {
+    "name": "第一滴血之王",
+    "text": "拿下{target, plural, other {#次}}第一滴血。"
+  },
+  "thief": {
+    "name": "目標竊賊",
+    "text": "偷取一個史詩目標。"
+  },
+  "turrets": {
+    "name": "拆遷隊",
+    "text": "摧毀{target, plural, other {#座}}防禦塔。"
+  },
+  "variety": {
+    "name": "全能選手",
+    "text": "使用{target, plural, other {#位}}不同的英雄。"
+  },
+  "loyal": {
+    "name": "忠誠",
+    "text": "使用同一位英雄{target, plural, other {#次}}。"
+  },
+  "marathon": {
+    "name": "馬拉松",
+    "text": "打一場超過{minutes}分鐘的對局。"
+  },
+  "bounce": {
+    "name": "絕地反彈",
+    "text": "在敗北後的對局中取得{target}的勝率。"
+  },
+  "hours": {
+    "name": "峽谷時光",
+    "text": "在對局中度過{target, plural, other {#小時}}。"
+  },
+  "dragon": {
+    "name": "屠龍勇士",
+    "text": "拿下{target, plural, other {#條}}小龍的最後一擊。"
+  },
+  "baron": {
+    "name": "大龍獵手",
+    "text": "拿下{target, plural, other {#次}}大龍的最後一擊。"
+  },
+  "teamplayer": {
+    "name": "團隊玩家",
+    "text": "參與團隊{target}的擊殺。"
+  },
+  "duo": {
+    "name": "形影不離",
+    "text": "與同一位隊友進行{target, plural, other {#場}}對局。"
+  },
+  "vision": {
+    "name": "洞察全圖",
+    "text": "平均每分鐘視野得分達到{target}。"
+  },
+  "farm": {
+    "name": "補刀大師",
+    "text": "平均每分鐘補刀達到{target}。"
+  },
+  "roles": {
+    "name": "全能選手",
+    "text": "打遍全部{target, plural, other {#個}}位置。"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "badge": "Retrospectiva da temporada",
+  "title": {
+    "line1": "Sua temporada,",
+    "line2": "em retrospectiva."
+  },
+  "subtitle": "Cada partida, cada pentakill, cada Flash duvidoso. Informe seu Riot ID e reviva sua jornada pela Fenda.",
+  "error": "Digite seu Riot ID no formato Nome#TAG e escolha uma região.",
+  "hint": "Sem login. Só o seu Riot ID. <link>Ver um resumo de exemplo →</link>",
+  "modes": {
+    "squad": "Resumo do grupo",
+    "versus": "Frente a frente",
+    "clash": "Grupo contra grupo",
+    "players": "Seus jogadores"
+  },
+  "features": {
+    "title": "O que tem no seu resumo",
+    "champions": {
+      "title": "Seus campeões",
+      "text": "Quem carregou você, quem custou seus PDLs e o campeão que você não para de escolher."
+    },
+    "climb": {
+      "title": "Sua subida",
+      "text": "Taxa de vitória, KDA e evolução de elo ao longo da temporada, contados como uma história."
+    },
+    "time": {
+      "title": "Seu tempo",
+      "text": "Horas passadas na Fenda, sua partida mais longa, sua última fila da madrugada."
+    }
+  },
+  "sample": {
+    "label": "Cards de resumo de exemplo",
+    "games": "Partidas jogadas",
+    "days": "≈ {days} dias passados na Fenda",
+    "signature": "Campeão de assinatura",
+    "record": "{games} partidas · {winRate} de vitórias",
+    "kda": "KDA da temporada",
+    "peak": "Elo máximo",
+    "peakRank": "Esmeralda II",
+    "climbed": "+{lp} PDL ganhos nesta temporada"
+  },
+  "footer": "O Rift Recap não é endossado pela Riot Games e não reflete as opiniões da Riot Games nem de qualquer pessoa oficialmente envolvida na produção ou no gerenciamento das propriedades da Riot Games. Riot Games e todas as propriedades associadas são marcas comerciais ou marcas registradas da Riot Games, Inc."
+}

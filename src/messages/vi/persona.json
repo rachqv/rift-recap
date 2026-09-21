@@ -1,0 +1,215 @@
+{
+  "onetrick": {
+    "title": "One-Trick",
+    "tagline": "Trung thành trên hết.",
+    "description": "{share} số trận của bạn là {top}. Người ta gọi đó là cứng đầu. Chúng tôi gọi đó là thành thạo."
+  },
+  "specialist": {
+    "title": "Chuyên gia",
+    "tagline": "Hai tướng, thành thạo tuyệt đối.",
+    "description": "{share} số trận của bạn là {top} hoặc {second}. Bạn biết chính xác mình giỏi gì."
+  },
+  "explorer": {
+    "title": "Nhà thám hiểm",
+    "tagline": "Sao phải chọn một khi có thể chơi hết?",
+    "description": "{unique, plural, other {# tướng}} khác nhau trong {games, plural, other {# trận}}. Bạn không bao giờ ở yên một chỗ lâu."
+  },
+  "chameleon": {
+    "title": "Tắc kè hoa",
+    "tagline": "Bị dồn vị trí? Không vấn đề.",
+    "description": "{roles, plural, other {# vị trí}} khác nhau và không có vị trí ưa thích. Đường nào cũng là nhà, và đồng đội biết ơn bạn."
+  },
+  "showstopper": {
+    "title": "Tâm điểm",
+    "tagline": "Sinh ra để có mặt trong đoạn highlight.",
+    "description": "{penta, plural, other {# Pentakill}}, {quadra, plural, other {# Quadrakill}} và {triple, plural, other {# Triple}}. Bạn tạo ra các đoạn clip.",
+    "descriptionAlt": "{quadra, plural, other {# Quadrakill}} và {triple, plural, other {# Triple Kill}}. Khi giao tranh rối loạn, bạn lên tiếng."
+  },
+  "thief": {
+    "title": "Kẻ trộm",
+    "tagline": "Con rồng đẹp đấy. Tiếc là giờ nó là của tôi.",
+    "description": "Cướp {count, plural, other {# mục tiêu}}. Chẳng ai bảo phải công bằng."
+  },
+  "slayer": {
+    "title": "Kẻ sát nhân",
+    "tagline": "Bạn đến đây để lấy mạng.",
+    "description": "{kills, plural, other {# lần hạ gục}} qua {games, plural, other {# trận}}, khoảng {perGame} mỗi trận. Tên bạn sống trong bảng hạ gục."
+  },
+  "daredevil": {
+    "title": "Liều mạng",
+    "tagline": "Giao tranh nào cũng đáng tham gia.",
+    "description": "{deaths, plural, other {# lần chết}} và không hề hối tiếc. Bạn chưa bao giờ ngừng lao vào giao tranh."
+  },
+  "playmaker": {
+    "title": "Người kiến tạo",
+    "tagline": "Người bạn tốt nhất của đội.",
+    "description": "{assists, plural, other {# lượt hỗ trợ}}, {perGame} mỗi trận. Bạn dựng đường, nhường vinh quang cho đồng đội."
+  },
+  "unlucky": {
+    "title": "Anh hùng xui xẻo",
+    "tagline": "Chỉ số đẹp, đồng đội đáng ngờ.",
+    "description": "KDA {kda} nhưng chỉ thắng {winRate}. Các con số nói rằng không phải lỗi của bạn."
+  },
+  "phoenix": {
+    "title": "Phượng hoàng",
+    "tagline": "Lần nào bạn cũng đứng dậy.",
+    "description": "Chuỗi thua {streak} trận, vậy mà bạn vẫn kết thúc với {winRate} thắng. Đó là bản lĩnh."
+  },
+  "risingstar": {
+    "title": "Ngôi sao đang lên",
+    "tagline": "Bạn giỏi hơn theo từng tuần của mùa giải.",
+    "description": "Tỷ lệ thắng của bạn tăng từ {early} lên {late}. Đường xu hướng chỉ hướng lên."
+  },
+  "streaker": {
+    "title": "Chuỗi thắng nóng",
+    "tagline": "Đã thắng là không dừng lại.",
+    "description": "Chuỗi thắng {streak} trận lúc đỉnh cao. Không ai muốn ở phe đối diện."
+  },
+  "scout": {
+    "title": "Trinh sát",
+    "tagline": "Không gì thoát khỏi mắt của bạn.",
+    "description": "{vision} điểm tầm nhìn mỗi phút. Bạn bật đèn cho mọi người."
+  },
+  "farmer": {
+    "title": "Nông dân",
+    "tagline": "Vàng là lẽ sống.",
+    "description": "{cs} lính mỗi phút. Không bỏ sót làn lính pháo nào."
+  },
+  "heavyhitter": {
+    "title": "Sát thương hạng nặng",
+    "tagline": "Bạn gây sát thương. Rất nhiều.",
+    "description": "{damage} sát thương lên tướng mỗi phút. Thanh máu không trụ được lâu bên cạnh bạn."
+  },
+  "everpresent": {
+    "title": "Luôn có mặt",
+    "tagline": "Giao tranh nào bạn cũng ở đó.",
+    "description": "Bạn tham gia {kp} số lần hạ gục của đội. Có giao tranh là có bạn."
+  },
+  "opener": {
+    "title": "Người mở màn",
+    "tagline": "First Blood là cái bắt tay của bạn.",
+    "description": "{count, plural, other {# First Blood}}. Bạn mở tiệc trước khi ai đó kịp đến."
+  },
+  "demolisher": {
+    "title": "Đội phá dỡ",
+    "tagline": "Có nền móng thì sẽ sập.",
+    "description": "{turrets, plural, other {# trụ}} trong {games, plural, other {# trận}}, khoảng {perGame} mỗi trận. Công trình đều sợ bạn."
+  },
+  "untouchable": {
+    "title": "Bất khả xâm phạm",
+    "tagline": "Chết là việc của người khác.",
+    "description": "Chỉ {perGame} lần chết mỗi trận, và {deathless, plural, other {# trận}} không chết lần nào.",
+    "descriptionAlt": "Chỉ {perGame} lần chết mỗi trận. Màn hình xám hầu như không biết bạn."
+  },
+  "closer": {
+    "title": "Người chốt hạ",
+    "tagline": "Bạn thắng trận. Đơn giản vậy thôi.",
+    "description": "Tỷ lệ thắng {winRate}. Khi bạn vào hàng chờ, đội địch nên lo lắng."
+  },
+  "marathoner": {
+    "title": "Vận động viên marathon",
+    "tagline": "Trận đấu chỉ kết thúc khi bạn bảo vậy.",
+    "description": "Các trận của bạn kéo dài trung bình {minutes} phút. Bạn chơi ván dài, theo đúng nghĩa đen."
+  },
+  "speedrunner": {
+    "title": "Speedrunner",
+    "tagline": "Sao phải chờ? Kết thúc luôn đi.",
+    "description": "Các trận của bạn chỉ kéo dài trung bình {minutes} phút. Nhà chính sập trước khi nước sôi."
+  },
+  "assassin": {
+    "title": "Sát thủ",
+    "tagline": "Vào, ra rồi biến mất.",
+    "description": "{share} số trận của bạn là sát thủ. Bạn chọn mục tiêu rồi xóa sổ."
+  },
+  "archmage": {
+    "title": "Đại pháp sư",
+    "tagline": "Thời gian hồi chiêu chỉ là gợi ý.",
+    "description": "{share} số trận của bạn là pháp sư. Phép trước, câu hỏi sau."
+  },
+  "sharpshooter": {
+    "title": "Thiện xạ",
+    "tagline": "Tầm đánh là lối sống.",
+    "description": "{share} số trận của bạn là xạ thủ. Giao tranh nào cũng hay hơn khi nhìn từ khoảng cách an toàn."
+  },
+  "brawler": {
+    "title": "Dân đánh nhau",
+    "tagline": "Cận chiến, tận tay.",
+    "description": "{share} số trận của bạn là đấu sĩ. Bạn thích giao tranh trong tầm với."
+  },
+  "bulwark": {
+    "title": "Pháo đài",
+    "tagline": "Không gì vượt qua được bạn.",
+    "description": "{share} số trận của bạn là tướng đỡ đòn. Ai đó phải hứng sát thương, và đó là bạn."
+  },
+  "pathfinder": {
+    "title": "Người dẫn đường",
+    "tagline": "Khu rừng là của bạn.",
+    "description": "{share} số trận của bạn ở vị trí {role}. Bạn biết từng trại quái, từng đồng hồ và từng bụi cỏ."
+  },
+  "islander": {
+    "title": "Người đảo hoang",
+    "tagline": "Đường trên. Một mình với suy nghĩ.",
+    "description": "{share} số trận của bạn ở vị trí {role}. Cả một đường cho riêng mình, và bạn thích thế."
+  },
+  "centerpiece": {
+    "title": "Trung tâm",
+    "tagline": "Mọi con đường đều đi qua giữa.",
+    "description": "{share} số trận của bạn ở vị trí {role}. Bạn ở nơi bản đồ giao nhau và giao tranh bắt đầu."
+  },
+  "carry": {
+    "title": "Carry",
+    "tagline": "Phải có người gánh đội.",
+    "description": "{share} số trận của bạn ở vị trí {role}. Đội giao tay lái cho bạn về cuối trận, và bạn hoàn thành."
+  },
+  "guardian": {
+    "title": "Người bảo hộ",
+    "tagline": "Bạn giữ cho cả đội sống sót.",
+    "description": "{share} số trận của bạn ở vị trí {role}. Khiên, hồi máu, bảo vệ và cắm mắt. Cả đội vận hành nhờ bạn."
+  },
+  "grinder": {
+    "title": "Cày cuốc",
+    "tagline": "Đều đặn, đáng tin, luôn trong hàng chờ.",
+    "description": "{games, plural, other {# trận}} và {hours} giờ làm việc đều đặn. Không ai luyện tập như bạn."
+  },
+  "rarity": {
+    "common": "Phổ biến",
+    "uncommon": "Ít gặp",
+    "rare": "Hiếm",
+    "legendary": "Huyền thoại",
+    "under": "dưới {share}",
+    "about": "khoảng {share}",
+    "chip": "<b>{tier}</b> · {share} người chơi",
+    "badge": "{tier} · {share} người chơi"
+  },
+  "duration": "{minutes} phút",
+  "insights": {
+    "games": {
+      "days": "Tức là {days} ngày trọn vẹn trong Rift.",
+      "films": "Tương đương khoảng {films, plural, other {# bộ phim điện ảnh}} toàn Liên Minh."
+    },
+    "win": {
+      "dominant": "Áp đảo. Đội địch thấy tên bạn liền thở dài.",
+      "good": "Thắng nhiều hơn thua. LP đang chảy về.",
+      "balanced": "Cân bằng hoàn hảo, như mọi thứ nên thế.",
+      "challenge": "Hệ thống ghép trận thử thách bạn, và bạn vẫn tiếp tục xếp hàng.",
+      "rough": "Một giai đoạn khó khăn. Huyền thoại nào cũng có chương chuộc lỗi, và của bạn bắt đầu từ bây giờ."
+    },
+    "streak": {
+      "long": "Chuỗi dài nhất của bạn: {streak, plural, other {# trận thắng}} liên tiếp.",
+      "short": "Chuỗi thắng của bạn ngắn, nhưng mỗi trận là một khởi đầu mới."
+    },
+    "comeback": "Bạn còn hồi phục được sau chuỗi thua {streak} trận.",
+    "champion": {
+      "oneTrick": "{share} số trận của bạn là {top}. Đó là năng lượng của một one-trick.",
+      "variety": "Bạn đã chơi {unique, plural, other {# tướng}} khác nhau, nhưng {top} mới là nhà.",
+      "favorite": "{games, plural, other {# trận}} với {top}. Một tướng yêu thích rõ ràng."
+    },
+    "kda": {
+      "rarelyDie": "Bạn gần như không chết. Đi rừng địch ghét điều này.",
+      "everyFight": "Giao tranh nào cũng là giao tranh của bạn.",
+      "teamFirst": "Tinh thần đồng đội trước hết. Các carry nợ bạn một lời cảm ơn.",
+      "bold": "Táo bạo và hung hăng. Bạn đã thấy màn hình xám khá nhiều.",
+      "balanced": "Các chỉ số cân bằng, đáng tin cậy."
+    }
+  }
+}

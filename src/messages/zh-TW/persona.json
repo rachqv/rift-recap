@@ -1,0 +1,215 @@
+{
+  "onetrick": {
+    "title": "單一英雄玩家",
+    "tagline": "忠誠高於一切。",
+    "description": "你有{share}的對局用的是{top}。有人管這叫固執，我們管這叫精通。"
+  },
+  "specialist": {
+    "title": "專精玩家",
+    "tagline": "兩位英雄，完全精通。",
+    "description": "你有{share}的對局用的是{top}或{second}。你清楚自己擅長什麼。"
+  },
+  "explorer": {
+    "title": "探索者",
+    "tagline": "能全玩，何必只選一個？",
+    "description": "{games, plural, other {#場}}裡用了{unique, plural, other {#位}}不同的英雄。你從不在一個地方久留。"
+  },
+  "chameleon": {
+    "title": "變色龍",
+    "tagline": "補位？沒問題。",
+    "description": "打了{roles, plural, other {#個}}不同的位置，沒有特別偏愛。每條路都是家，隊友很感激。"
+  },
+  "showstopper": {
+    "title": "全場焦點",
+    "tagline": "生來就是為了精華。",
+    "description": "{penta, plural, other {#次}}五殺、{quadra, plural, other {#次}}四殺和{triple, plural, other {#次}}三殺。精華影片是你做出來的。",
+    "descriptionAlt": "{quadra, plural, other {#次}}四殺和{triple, plural, other {#次}}三殺。團戰越亂，你越響亮。"
+  },
+  "thief": {
+    "title": "竊賊",
+    "tagline": "好龍。可惜現在是我的了。",
+    "description": "偷取了{count, plural, other {#個}}目標。沒人說一定要公平。"
+  },
+  "slayer": {
+    "title": "屠戮者",
+    "tagline": "你來這裡就是為了擊殺。",
+    "description": "{games, plural, other {#場}}中共{kills, plural, other {#次擊殺}}，平均每場約{perGame}次。你的名字常駐擊殺播報。"
+  },
+  "daredevil": {
+    "title": "亡命之徒",
+    "tagline": "每場戰鬥都值得一打。",
+    "description": "{deaths, plural, other {#次死亡}}，毫無後悔。你從未停止衝進戰場。"
+  },
+  "playmaker": {
+    "title": "組織者",
+    "tagline": "隊伍最好的朋友。",
+    "description": "{assists, plural, other {#次助攻}}，平均每場{perGame}次。你把局鋪好，把榮耀留給隊友。"
+  },
+  "unlucky": {
+    "title": "不幸的英雄",
+    "tagline": "數據漂亮，隊友存疑。",
+    "description": "KDA 達到{kda}，勝率卻只有{winRate}。數據說明這不是你的錯。"
+  },
+  "phoenix": {
+    "title": "鳳凰",
+    "tagline": "你每次都能浴火重生。",
+    "description": "經歷過{streak}連敗，最終勝率仍達到{winRate}。這就是韌性。"
+  },
+  "risingstar": {
+    "title": "新星",
+    "tagline": "隨著賽季推進，你越打越好。",
+    "description": "你的勝率從{early}升到{late}。趨勢線只朝一個方向：向上。"
+  },
+  "streaker": {
+    "title": "連勝狂",
+    "tagline": "一旦開始贏，就停不下來。",
+    "description": "巔峰時連勝{streak}場。沒人想站在對面。"
+  },
+  "scout": {
+    "title": "偵察兵",
+    "tagline": "什麼都逃不過你的眼位。",
+    "description": "每分鐘{vision}視野分數。你為所有人點亮了燈。"
+  },
+  "farmer": {
+    "title": "農場主",
+    "tagline": "金幣就是生活方式。",
+    "description": "每分鐘{cs}隻小兵。砲車兵線一波都不漏。"
+  },
+  "heavyhitter": {
+    "title": "重砲手",
+    "tagline": "你打傷害，而且是大量傷害。",
+    "description": "每分鐘對英雄造成{damage}傷害。血條在你身邊撐不了多久。"
+  },
+  "everpresent": {
+    "title": "無所不在",
+    "tagline": "每一場團戰你都在。",
+    "description": "你參與了隊伍{kp}的擊殺。只要有團戰，就有你。"
+  },
+  "opener": {
+    "title": "開團者",
+    "tagline": "第一滴血就是你的握手禮。",
+    "description": "{count, plural, other {#次}}第一滴血。別人還沒到，你就開始了派對。"
+  },
+  "demolisher": {
+    "title": "拆遷隊",
+    "tagline": "只要有地基，它就會倒下。",
+    "description": "{games, plural, other {#場}}中拆了{turrets, plural, other {#座}}防禦塔，平均每場約{perGame}座。建築都怕你。"
+  },
+  "untouchable": {
+    "title": "不可觸碰",
+    "tagline": "死亡是別人的事。",
+    "description": "每場僅{perGame}次死亡，其中有{deathless, plural, other {#場}}一次都沒死。",
+    "descriptionAlt": "每場僅{perGame}次死亡。灰畫面幾乎不認識你。"
+  },
+  "closer": {
+    "title": "終結者",
+    "tagline": "你就是贏。就這麼簡單。",
+    "description": "勝率{winRate}。你一開始排隊，對面就該擔心了。"
+  },
+  "marathoner": {
+    "title": "馬拉松選手",
+    "tagline": "你不說結束，比賽就不會結束。",
+    "description": "你的對局平均時長{minutes}分鐘。你打的是字面意義上的持久戰。"
+  },
+  "speedrunner": {
+    "title": "速通玩家",
+    "tagline": "何必等？現在就結束。",
+    "description": "你的對局平均只有{minutes}分鐘。水還沒燒開，水晶就爆了。"
+  },
+  "assassin": {
+    "title": "刺客",
+    "tagline": "切入、撤離、消失。",
+    "description": "你有{share}的對局用的是刺客。選定目標，直接抹除。"
+  },
+  "archmage": {
+    "title": "大法師",
+    "tagline": "冷卻時間只是個建議。",
+    "description": "你有{share}的對局用的是法師。先放技能，再問問題。"
+  },
+  "sharpshooter": {
+    "title": "神射手",
+    "tagline": "射程就是生活方式。",
+    "description": "你有{share}的對局用的是射手。每場戰鬥在安全距離外看都更好。"
+  },
+  "brawler": {
+    "title": "鬥士",
+    "tagline": "近身肉搏。",
+    "description": "你有{share}的對局用的是戰士。你喜歡伸手就能碰到的戰鬥。"
+  },
+  "bulwark": {
+    "title": "堅盾",
+    "tagline": "沒有什麼能越過你。",
+    "description": "你有{share}的對局用的是坦克。總得有人扛傷害，那就是你。"
+  },
+  "pathfinder": {
+    "title": "開拓者",
+    "tagline": "野區是你的。",
+    "description": "你有{share}的對局位置是{role}。你熟悉每個野怪營地、每個計時和每片草叢。"
+  },
+  "islander": {
+    "title": "孤島居民",
+    "tagline": "上路。與自己的思緒獨處。",
+    "description": "你有{share}的對局位置是{role}。整條路都歸你，而你喜歡這樣。"
+  },
+  "centerpiece": {
+    "title": "核心",
+    "tagline": "條條大路通中路。",
+    "description": "你有{share}的對局位置是{role}。你身處地圖交會之處，也是團戰發起之地。"
+  },
+  "carry": {
+    "title": "帶飛者",
+    "tagline": "總得有人撐起隊伍。",
+    "description": "你有{share}的對局位置是{role}。後期隊友把方向盤交給你，而你能交出答卷。"
+  },
+  "guardian": {
+    "title": "守護者",
+    "tagline": "你讓隊伍活下去。",
+    "description": "你有{share}的對局位置是{role}。護盾、治療、保護和眼位。隊伍靠你運轉。"
+  },
+  "grinder": {
+    "title": "肝帝",
+    "tagline": "穩定、可靠、永遠在排隊。",
+    "description": "{games, plural, other {#場}}對局、{hours}小時的持續投入。沒人像你這樣刷。"
+  },
+  "rarity": {
+    "common": "普通",
+    "uncommon": "少見",
+    "rare": "稀有",
+    "legendary": "傳說",
+    "under": "低於{share}",
+    "about": "約{share}",
+    "chip": "<b>{tier}</b> · 占玩家的{share}",
+    "badge": "{tier} · 占玩家的{share}"
+  },
+  "duration": "{minutes}分鐘",
+  "insights": {
+    "games": {
+      "days": "相當於在峽谷裡度過了整整{days}天。",
+      "films": "相當於看了{films, plural, other {約#部}}純英雄聯盟的長片電影。"
+    },
+    "win": {
+      "dominant": "統治力十足。敵方隊伍看到你的名字就嘆氣。",
+      "good": "贏多輸少。LP 源源不絕。",
+      "balanced": "完美均衡，正如萬物應有的樣子。",
+      "challenge": "配對系統給了你一場考驗，而你繼續排隊。",
+      "rough": "一段艱難時期。每個傳奇都有救贖篇章，而你的現在開始。"
+    },
+    "streak": {
+      "long": "你最長的連勝是{streak, plural, other {#連勝}}。",
+      "short": "你的連勝不長，但每一場都是新的開始。"
+    },
+    "comeback": "你甚至從{streak}連敗中重新站了起來。",
+    "champion": {
+      "oneTrick": "你有{share}的對局用的是{top}。這就是單一英雄玩家的氣場。",
+      "variety": "你用了{unique, plural, other {#位}}不同的英雄，但{top}才是你的家。",
+      "favorite": "用{top}打了{games, plural, other {#場}}。明顯的最愛。"
+    },
+    "kda": {
+      "rarelyDie": "你幾乎不死。敵方打野恨死這一點。",
+      "everyFight": "每一場戰鬥都是你的戰鬥。",
+      "teamFirst": "團隊至上。你的帶飛對象欠你人情。",
+      "bold": "大膽又激進。你見過不少灰畫面。",
+      "balanced": "均衡而可靠的數據。"
+    }
+  }
+}

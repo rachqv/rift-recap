@@ -1,0 +1,81 @@
+{
+  "language": {
+    "label": "Idioma"
+  },
+  "range": {
+    "label": "Período",
+    "season": "Esta temporada",
+    "90d": "Últimos 90 dias",
+    "30d": "Últimos 30 dias",
+    "7d": "Últimos 7 dias"
+  },
+  "regions": {
+    "na1": "América do Norte",
+    "br1": "Brasil",
+    "la1": "LAN",
+    "la2": "LAS",
+    "euw1": "Europa Oeste",
+    "eun1": "Europa Nórdica e Leste",
+    "tr1": "Turquia",
+    "ru": "Rússia",
+    "me1": "Oriente Médio",
+    "kr": "Coreia",
+    "jp1": "Japão",
+    "oc1": "Oceania",
+    "ph2": "Filipinas",
+    "sg2": "Singapura",
+    "th2": "Tailândia",
+    "tw2": "Taiwan",
+    "vn2": "Vietnã"
+  },
+  "message": {
+    "tryAnother": "Tentar outro jogador",
+    "tryServer": "Talvez em outro servidor?",
+    "notFoundTitle": "Página não encontrada",
+    "notFoundText": "Essa página não existe ou foi movida. Volte e procure um jogador.",
+    "crashTitle": "Algo deu errado",
+    "crashText": "A página não carregou direito. Tente de novo ou procure outro jogador.",
+    "retry": "Tentar de novo"
+  },
+  "loading": {
+    "recap1": "Invocando seu histórico de partidas…",
+    "recap2": "Contando cada último golpe…",
+    "recap3": "Consultando o oráculo da Fenda…",
+    "recap4": "Dando brilho nos seus pentakills…",
+    "squad1": "Encontrando as partidas de vocês juntos…",
+    "squad2": "Contando quem mais pingou…",
+    "squad3": "Pesando as mortes…",
+    "squad4": "Gravando os troféus…",
+    "versus1": "Analisando os dois jogadores…",
+    "versus2": "Puxando dois históricos de partidas…",
+    "versus3": "Contando cada último golpe…",
+    "versus4": "Preparando o veredito…"
+  },
+  "meta": {
+    "description": "Um site para conhecer sua jornada no League of Legends ao longo da temporada"
+  },
+  "roles": {
+    "TOP": "Topo",
+    "JUNGLE": "Selva",
+    "MIDDLE": "Meio",
+    "BOTTOM": "Atirador",
+    "UTILITY": "Suporte"
+  },
+  "tiers": {
+    "IRON": "Ferro",
+    "BRONZE": "Bronze",
+    "SILVER": "Prata",
+    "GOLD": "Ouro",
+    "PLATINUM": "Platina",
+    "EMERALD": "Esmeralda",
+    "DIAMOND": "Diamante",
+    "MASTER": "Mestre",
+    "GRANDMASTER": "Grão-Mestre",
+    "CHALLENGER": "Desafiante"
+  },
+  "queues": {
+    "RANKED_SOLO_5x5": "Ranqueada Solo/Duo",
+    "RANKED_FLEX_SR": "Ranqueada Flex"
+  },
+  "rankTitle": "{tier} {division}"
+}

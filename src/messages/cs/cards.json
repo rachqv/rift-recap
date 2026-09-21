@@ -1,0 +1,39 @@
+{
+  "thisSeason": "V této sezoně jsem byl",
+  "disclaimer": "Rift Recap není podporován společností Riot Games a neodráží názory Riot Games ani nikoho, kdo se oficiálně podílí na tvorbě nebo správě majetku Riot Games.",
+  "games": "Zápasy",
+  "winRate": "Poměr výher",
+  "kda": "KDA",
+  "trophies": "Trofeje",
+  "rank": "Rank",
+  "main": "Main",
+  "topChampion": "Nejlepší šampion",
+  "gamesCount": "{count, plural, one {# zápas} few {# zápasy} other {# zápasů}}",
+  "squad": {
+    "header": "Souhrn týmu",
+    "gamesTogether": "Společné zápasy",
+    "hours": "Hodiny",
+    "together": "Spolu",
+    "awards": "Ocenění"
+  },
+  "versus": {
+    "header": "Tváří v tvář",
+    "vs": "VS",
+    "rowsWon": "Vyhrané řádky",
+    "scenarios": "Nejlepší scénáře",
+    "numbers": "Čísla",
+    "unranked": "Bez ranku"
+  },
+  "bingo": {
+    "header": "Bingo trofejí",
+    "free": "Zdarma",
+    "lines": "Bingo",
+    "next": "Další bingo: {name}"
+  },
+  "form": {
+    "best": "Nejlepší období",
+    "worst": "Nejhorší období",
+    "now": "Teď",
+    "ended": "Skončilo {date}"
+  }
+}

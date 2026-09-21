@@ -1,0 +1,256 @@
+{
+  "blame": {
+    "carry": "在你{topRate}的敗局中，你打出了最高傷害，而且幾乎沒怎麼送人頭。是隊友拖了後腿。",
+    "weak": "在敗局中，你占了隊伍死亡數的{deathShare}，傷害也很少排第一。先照照鏡子吧。",
+    "team": "在敗局中你的表現和隊伍平均水準相當，占隊伍傷害的{damageShare}。沒人該背鍋，或者人人都該。"
+  },
+  "sessions": {
+    "contrast": "一晚{bestWins}-{bestLosses}，另一晚{worstWins}-{worstLosses}。同一位玩家，不同的夜晚。",
+    "marathon": "一口氣打了{games, plural, other {#場}}。記得多喝水。",
+    "best": "你最棒的一晚戰績是{wins}-{losses}。去追回那種狀態吧。"
+  },
+  "early": {
+    "early": "在{ahead}的對局中，你15分鐘時領先對線對手，而且能把優勢拿下。前期霸主。",
+    "late": "在{behind}的對局中15分鐘時落後，但其中你仍贏下了{comeback}。你後期成長強，從不放棄。",
+    "steady": "15分鐘時有{ahead}的對局領先、{behind}落後。勝負要到後期才分曉。"
+  },
+  "tierlist": {
+    "solo": "{best}就是你的全部。",
+    "uniform": "你的整個英雄池都在{tier}梯隊，{best}以{winRate}領先。",
+    "leadS": "{best}是你的 S 級選擇，勝率{winRate}。",
+    "leadOther": "沒有英雄達到 S 級。{best}以{winRate}位居{tier}梯隊榜首。",
+    "lastD": "{worst}是你的 D 級選擇，勝率{winRate}。",
+    "lastOther": "{worst}墊底，位於{tier}梯隊，勝率{winRate}。",
+    "both": "{lead}{last}"
+  },
+  "items": {
+    "better": "有{name}時你贏下{withIt}的對局，沒有時是{without}。它確實有兩下子。",
+    "worse": "你出{name}時勝率比較低（{withIt}對{without}）。是忠誠還是習慣？",
+    "habit": "{name}是你{share}對局的收尾裝備。有些習慣就是改不掉。",
+    "friend": "{name}出現在你{share}對局的最終出裝裡。一位可靠的朋友。"
+  },
+  "habits": {
+    "flashEdge": "閃現在{key}鍵，每場{perGame}次。你在刀尖上跳舞。",
+    "flashCalm": "閃現在{key}鍵，每場{perGame}次。你把它留給關鍵時刻。",
+    "pair": "{a}和{b}出現在你{share}的對局裡。你很清楚自己喜歡什麼。",
+    "surrenderOften": "你有{rate}的對局以投降作結。總有人有事要忙。",
+    "surrenderUs": "你的隊伍比對面更常投降（{weQuit}對{enemyQuit}）。保持樂觀。",
+    "surrenderThem": "對方隊伍投降了{enemyQuit}次，你的隊伍是{weQuit}次。他們看到你來了。",
+    "surrenderRare": "只有{rate}的對局以投降作結。你會一路打到底。"
+  },
+  "spells": {
+    "1": "淨化",
+    "3": "虛弱",
+    "4": "閃現",
+    "6": "鬼魂疾步",
+    "7": "治癒術",
+    "11": "懲戒",
+    "12": "傳送",
+    "13": "洞察",
+    "14": "點燃",
+    "21": "屏障",
+    "32": "標記",
+    "unknown": "某個技能"
+  },
+  "pings": {
+    "getBackPings": {
+      "label": "撤退",
+      "title": "操心的人",
+      "line": "你把訊號都用來叫大家撤退。隊伍能活下來全靠你。"
+    },
+    "enemyMissingPings": {
+      "label": "敵人失蹤",
+      "title": "瞭望員",
+      "line": "「失蹤！」是你的口頭禪。沒有人能在你不知情時走進迷霧。"
+    },
+    "onMyWayPings": {
+      "label": "正在趕來",
+      "title": "救援者",
+      "line": "你永遠在路上。到不到得了就是另一回事了。"
+    },
+    "assistMePings": {
+      "label": "請求協助",
+      "title": "煽動者",
+      "line": "你發訊號求助，隊伍就趕來了。至少你是這麼希望的。"
+    },
+    "needVisionPings": {
+      "label": "需要視野",
+      "title": "視野乞討者",
+      "line": "誰來插個眼吧。你每場都在問。"
+    },
+    "commandPings": {
+      "label": "指揮",
+      "title": "指揮官",
+      "line": "你指向地圖，期待隊伍跟上。大多數時候他們會。"
+    },
+    "pushPings": {
+      "label": "推進",
+      "title": "推線手",
+      "line": "推、推、推。你想現在就把那座塔拆了。"
+    },
+    "holdPings": {
+      "label": "堅守",
+      "title": "城牆",
+      "line": "守住陣線。你是混亂大廳裡冷靜的聲音。"
+    },
+    "allInPings": {
+      "label": "全力進攻",
+      "title": "全押商人",
+      "line": "你發出全力進攻的訊號時，不管別人願不願意，團戰都會打起來。"
+    },
+    "enemyVisionPings": {
+      "label": "敵方視野",
+      "title": "觀察員",
+      "line": "你把每一個敵方眼位都報出來。什麼都躲不過你。"
+    },
+    "visionClearedPings": {
+      "label": "視野已清除",
+      "title": "清潔工",
+      "line": "你清掉眼位，還要告訴所有人。"
+    }
+  },
+  "chapters": {
+    "part": "第{n}章",
+    "range": "{from}–{to}",
+    "same": "從頭到尾都是{title}。你很清楚自己是誰。",
+    "changed": "你從{first}開始，以{last}收尾。充滿變化的一個賽季。"
+  },
+  "tilt": {
+    "tilt": "贏了之後你能贏{afterWin}，輸了之後只能贏{afterLoss}。也許對局之間該出去走走。",
+    "resilient": "輸一場後你能贏下之後{afterLoss}的對局，比贏後的{afterWin}還高。失敗只會讓你更來勁。",
+    "steady": "贏後{afterWin}，輸後{afterLoss}。沒什麼能動搖你。"
+  },
+  "comfort": {
+    "trust": "{best}能把你的勝率帶到{bestRate}。值得信賴的選擇。",
+    "drag": "{best}能把你的勝率帶到{bestRate}，{worst}卻把你拖到{worstRate}。是時候放手了嗎？"
+  },
+  "gray": {
+    "heavy": "每場有{share}的時間在盯著灰畫面。泉水都認識你了。",
+    "some": "每場大約{minutes}分鐘在等復活。積少成多。",
+    "light": "你只有{share}的時間處於死亡狀態。灰畫面幾乎不認識你。"
+  },
+  "modes": {
+    "aramPenta": "在橋上{penta, plural, other {#次}}五殺。深淵激發了你的混亂本性。",
+    "aramKills": "每場{kills}次擊殺。亂鬥才是你的舞台。",
+    "aramBetter": "你在深淵裡比在峽谷裡贏得更多。滾雪球很適合你。",
+    "aramWorse": "峽谷對你比深淵更友善。那座橋是個蠻荒之地。",
+    "aramSteady": "{top}帶你走過了混亂。就像在峽谷一樣穩定。",
+    "normalBetter": "沒有壓力時你打得更好。你的一般對戰勝率高於積分。",
+    "normalWorse": "積分賽才能逼出你最好的一面。一般對戰只是熱身。",
+    "normalExplore": "{games, plural, other {#場}}一般對戰中用了{unique, plural, other {#位}}不同的英雄。這裡是你的實驗場。",
+    "normalMain": "沒有壓力時你的首選是{top}（勝率{winRate}）。"
+  },
+  "objectives": {
+    "stolen": "偷取了{count, plural, other {#個}}目標。某處的敵方打野可能還在生氣。",
+    "firstTower": "拿下首座防禦塔：有它時你贏下{withIt}的對局，沒有時是{without}。",
+    "firstDragon": "拿下第一條龍：有它時你贏下{withIt}的對局，沒有時是{without}。",
+    "firstHerald": "拿下峽谷先鋒：有它時你贏下{withIt}的對局，沒有時是{without}。",
+    "firstBaron": "拿下第一隻男爵：有它時你贏下{withIt}的對局，沒有時是{without}。",
+    "turrets": "你拆了隊伍{share}的防禦塔。拆遷是團隊運動，而你就是拆遷本身。",
+    "barons": "拿下{count, plural, other {#隻}}男爵。男爵坑一開，你就在那兒。",
+    "dragons": "拿下{count, plural, other {#條}}龍。峽谷裡的野生動物都怕你。",
+    "default": "這些對局中你的隊伍共拿下{dragons, plural, other {#條}}龍和{towers, plural, other {#座}}防禦塔。每個目標都算數。"
+  },
+  "damage": {
+    "spellslinger": {
+      "style": "法術槍手",
+      "line": "你的傷害有{share}是魔法傷害。護甲只是個建議。"
+    },
+    "steel": {
+      "style": "鋼鐵勝過法術",
+      "line": "你的傷害有{share}是物理傷害。出護甲的對手恨死你了。"
+    },
+    "trueDamage": {
+      "style": "真實傷害愛好者",
+      "line": "你的傷害有{share}完全無視抗性。真陰險。"
+    },
+    "mixed": {
+      "style": "混合威脅",
+      "line": "物理與魔法均衡。敵人沒辦法只堆一種抗性。"
+    }
+  },
+  "lane": {
+    "bully": "在{rate}的對局中你的經濟領先對線對手，平均領先{gold}金幣。對線霸凌者。",
+    "behind": "在{rate}的對局中對線對手賺得比你多。是時候檢視你的兵線管理了。",
+    "even": "你和對線對手勢均力敵：在{rate}的對局中經濟領先。"
+  },
+  "gold": {
+    "high": "你結束對局時平均還剩{gold}金幣沒花。相當於一件沒買的裝備。",
+    "mid": "對局結束時大約剩{gold}金幣。不算差，也不完美。",
+    "low": "只剩{gold}金幣沒花。賺多快就花多快。"
+  },
+  "classes": {
+    "Tank": "坦克",
+    "Marksman": "射手",
+    "Mage": "法師",
+    "Assassin": "刺客",
+    "Fighter": "戰士",
+    "Support": "輔助"
+  },
+  "comp": {
+    "better": "隊伍裡有{class}時你的勝率是{withRate}，沒有時是{withoutRate}。多要一個吧。",
+    "worse": "隊伍裡有{class}時你的勝率只有{withRate}（沒有時{withoutRate}）。是巧合還是詛咒？"
+  },
+  "highlights": {
+    "penta": "五殺",
+    "kills": "最多擊殺",
+    "kda": "最佳 KDA",
+    "longest": "最長對局"
+  },
+  "progress": {
+    "rows": {
+      "wr": "勝率",
+      "kda": "KDA",
+      "k": "每場擊殺",
+      "d": "每場死亡",
+      "a": "每場助攻",
+      "cs": "每分鐘補兵",
+      "vs": "每分鐘視野",
+      "dm": "每分鐘傷害",
+      "kp": "參團率",
+      "rank": "段位"
+    },
+    "flat": "自那之後沒有太大變化。穩定也是一種實力。",
+    "allUp": "全面進步：{total}項數據中有{better}項上升，沒有下降。",
+    "allDown": "比較艱難的一段：{total}項數據中有{worse}項下降。每次攀升都有起伏。",
+    "moreUp": "上升多於下降：{better}項數據進步，{worse}項下滑。",
+    "mixed": "喜憂參半：{better}項數據進步，{worse}項下滑。"
+  },
+  "classInline": {
+    "Tank": "坦克",
+    "Marksman": "射手",
+    "Mage": "法師",
+    "Assassin": "刺客",
+    "Fighter": "戰士",
+    "Support": "輔助"
+  },
+  "tiltguard": {
+    "stop": "連敗{losses}場後，下一場勝率為{rate}（平時為{base}）。這就是你的止損訊號。",
+    "keepGoing": "但你仍有{keep}的機率繼續排隊。",
+    "steady": "即使連敗{losses}場，勝率仍有{rate}。連敗影響不了你。",
+    "liveStop": "你現在正連敗{run}場，這種情況後下一場勝率為{rate}。也許該停一停了。",
+    "liveInfo": "你現在正連敗{run}場。這種情況後下一場勝率為{rate}。"
+  },
+  "formcurve": {
+    "swing": "最低時為{worst}，最高時為{best}（每{games}為一組）。",
+    "steady": "任意{games}內，你的勝率都在{worst}到{best}之間。非常穩定。",
+    "hot": "最近狀態火熱：近{games}勝率{now}（賽季平均{avg}）。",
+    "cold": "最近有些艱難：近{games}勝率{now}（賽季平均{avg}）。",
+    "even": "最近維持平時水準：近{games}勝率{now}（賽季平均{avg}）。"
+  },
+  "patches": {
+    "swing": "你在版本{best}表現最好（{bestRate}），在版本{worst}表現最差（{worstRate}）。",
+    "steady": "版本更替之間，你的勝率始終在{worstRate}到{bestRate}之間。新版本幾乎影響不了你。"
+  },
+  "runes": {
+    "better": "使用{best}勝率{bestRate}，使用{favorite}為{favoriteRate}。值得多用？",
+    "loyal": "{share}的對局都用{name}。找到基石符文後，你就一直用它。",
+    "plain": "{name}是你的基石符文：{games}勝率{rate}。"
+  },
+  "championPage": {
+    "better": "{name}高於你的平時水準：勝率{rate}（整體{overall}）。",
+    "worse": "{name}比較吃力：勝率{rate}（整體{overall}）。",
+    "level": "{name}與你的平時水準相當：{rate}（整體{overall}）。",
+    "few": "{name}目前{games}：勝率{rate}。"
+  }
+}

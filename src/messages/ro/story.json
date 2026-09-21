@@ -1,0 +1,17 @@
+{
+  "sections": "Secțiunile rezumatului",
+  "controls": "Prezentare și sunet",
+  "play": "Redă prezentarea",
+  "pause": "Pauză",
+  "resume": "Reia",
+  "stop": "Oprește prezentarea",
+  "mute": "Fără sunet",
+  "unmute": "Cu sunet",
+  "volume": "Volum",
+  "playing": "Prezentare în curs",
+  "paused": "Prezentare în pauză",
+  "label": "Rezumatul tău",
+  "previous": "Slide-ul anterior",
+  "next": "Slide-ul următor",
+  "copyLink": "Copiază linkul către acest slide"
+}

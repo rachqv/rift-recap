@@ -1,0 +1,381 @@
+{
+  "season": "{year} sezonu",
+  "strip": "{wins, plural, one {# galibiyet} other {# galibiyet}} ve {losses, plural, one {# yenilgi} other {# yenilgi}}, en eski maç önce",
+  "record": "{wins}G · {losses}Y",
+  "recordChip": "<good>{wins}</good>G <bad>{losses}</bad>Y",
+  "winRateChip": "<b>{rate}</b> galibiyet oranı",
+  "kdaChip": "<b>{kda}</b> KDA",
+  "gamesChip": "{count, plural, one {<b>#</b> maç} other {<b>#</b> maç}}",
+  "gamesLabel": "{count, plural, one {# maç} other {# maç}}",
+  "intro": {
+    "eyebrow": "{season} özeti",
+    "caption": "{games, plural, other {# maçını inceledik. Nasıl geçtiğini görmeye hazır mısın?}}",
+    "scroll": "Kaydır"
+  },
+  "games": {
+    "eyebrow": "Sahadaydın",
+    "played": "{count, plural, one {oynanan maç} other {oynanan maç}}",
+    "riftOnly": "{count, plural, one {Çağırıcı Vadisi maçı} other {Çağırıcı Vadisi maçı}}",
+    "wins": "{count, plural, one {<good>#</good> galibiyet} other {<good>#</good> galibiyet}}",
+    "losses": "{count, plural, one {<bad>#</bad> yenilgi} other {<bad>#</bad> yenilgi}}",
+    "hours": "{n, plural, one {<b>{value}</b> saat} other {<b>{value}</b> saat}}"
+  },
+  "win": {
+    "eyebrow": "Galibiyet oranın"
+  },
+  "champion": {
+    "eyebrow": "İmza şampiyonun",
+    "more": "{champion} ile tüm maçların",
+    "back": "Tam özete dön",
+    "pageTitle": "{champion} · {name}#{tag} · Rift Recap",
+    "pageEyebrow": "Şampiyon raporu",
+    "noneTitle": "Bu şampiyonla maç yok",
+    "none": "{who} bu dönemde {champion} ile maç oynamamış. Özetten başka bir şampiyon dene."
+  },
+  "kda": {
+    "eyebrow": "Savaş istatistiklerin",
+    "kills": "öldürme",
+    "deaths": "ölüm",
+    "assists": "asist",
+    "perGame": "{value} / maç",
+    "best": "En iyi maçın",
+    "bestLine": "{champion} · {kills}/{deaths}/{assists}",
+    "victory": "Zafer",
+    "defeat": "Yenilgi"
+  },
+  "style": {
+    "eyebrow": "Nasıl oynuyorsun",
+    "mainRole": "ana rol · {share}",
+    "cs": "dakika başına CS",
+    "vision": "dakika başına görüş",
+    "damage": "dakika başına hasar",
+    "kp": "öldürmelere katılım",
+    "penta": "{count, plural, one {<b>#</b> pentakill} other {<b>#</b> pentakill}}",
+    "quadra": "{count, plural, one {<b>#</b> quadrakill} other {<b>#</b> quadrakill}}",
+    "triple": "{count, plural, one {<b>#</b> triple kill} other {<b>#</b> triple kill}}",
+    "firstBloods": "{count, plural, one {<b>#</b> ilk kan} other {<b>#</b> ilk kan}}",
+    "deathless": "{count, plural, one {<b>#</b> ölümsüz maç} other {<b>#</b> ölümsüz maç}}",
+    "longestWon": "En uzun maçın {champion} ile {duration} sürdü. Üstelik kazandın.",
+    "longestLost": "En uzun maçın {champion} ile {duration} sürdü. Bazen sadece iyi bitmiyorlar."
+  },
+  "mode": {
+    "aram": {
+      "eyebrow": "Uluyan Uçurum'da",
+      "label": "{count, plural, one {ARAM maçı} other {ARAM maçı}}"
+    },
+    "normal": {
+      "eyebrow": "Sadece eğlence için",
+      "label": "{count, plural, one {normal maç} other {normal maç}}"
+    }
+  },
+  "rank": {
+    "emblem": "{title} amblemi",
+    "lp": "<b>{lp}</b> LP",
+    "caption": "Şu anki rütben. Her tırmanış bir sonraki maçla başlar."
+  },
+  "persona": {
+    "eyebrow": "Bu sezon sen",
+    "also": "Ayrıca biraz: {list}",
+    "main": "<b>{champion}</b> main",
+    "shareTitle": "Benim League sezonum: {title}",
+    "compare": "Bir arkadaşla karşılaştır",
+    "squad": "Takım özeti",
+    "search": "Başka bir oyuncu ara",
+    "count": "{count} arketipten 1'i",
+    "countEstimate": "{count} arketipten 1'i · nadirlik bir tahmindir"
+  },
+  "calendar": {
+    "eyebrow": "Takvimin",
+    "note": "Son {count, plural, one {# maçına} other {# maçına}} dayanıyor."
+  },
+  "clock": {
+    "eyebrow": "Ne zaman kazanıyorsun"
+  },
+  "items": {
+    "eyebrow": "Favori eşyan",
+    "inGames": "{games, plural, one {# maçının <b>{count}</b> tanesinde} other {# maçının <b>{count}</b> tanesinde}}",
+    "winWith": "onunla <b>{rate}</b> galibiyet oranı",
+    "without": "onsuz <b>{rate}</b>",
+    "boots": "Botlar"
+  },
+  "objectives": {
+    "eyebrow": "Hedefler",
+    "lead": "Takımların {games, plural, one {# maçta} other {# maçta}} aldı",
+    "tiles": {
+      "tower": "Kuleler",
+      "dragon": "Ejderhalar",
+      "baron": "Baronlar",
+      "herald": "Haberciler",
+      "grubs": "Boşluk Larvaları",
+      "inhibitor": "Engelleyiciler"
+    },
+    "youTotal": "sen: {count}",
+    "youSecured": "sen {count} tanesini aldın",
+    "perGame": "maç başına {value}",
+    "firstTower": "Maçların <b>{rate}</b> kadarında ilk kule",
+    "withWithout": "onunla <good>{withIt}</good> galibiyet · onsuz <b>{without}</b>",
+    "stolen": "<b>{count}</b> çalındı"
+  },
+  "tilt": {
+    "eyebrow": {
+      "tilt": "Tilt kontrolü",
+      "resilient": "Geri dönüş kontrolü",
+      "steady": "Zihniyet kontrolü"
+    },
+    "afterWin": "Galibiyetten sonra",
+    "afterLoss": "Yenilgiden sonra",
+    "tilts": "Yenilgiden sonra tilt olur",
+    "bounces": "Geri döner"
+  },
+  "comfort": {
+    "eyebrow": "Konfor alanın",
+    "lead": "Genelde {rate} iken şampiyona göre galibiyet oranı"
+  },
+  "gray": {
+    "eyebrow": "Gri ekran",
+    "unit": "sa",
+    "spentDead": "ölü geçen",
+    "aliveAria": "Zamanın {alive} kadarı hayatta, {dead} kadarı ölü",
+    "alive": "Hayatta {value}",
+    "dead": "Ölü {value}",
+    "share": "Oyun içi zamanının <b>{share}</b> kadarı",
+    "perGame": "maç başına <b>{minutes}</b> dk",
+    "films": "{n, plural, one {Yaklaşık <b>#</b> film} other {Yaklaşık <b>#</b> film}}"
+  },
+  "progress": {
+    "eyebrow": "Geçen seferden beri",
+    "lead": "{date} · {saved, plural, one {# maç} other {# maç}} → şimdi {games}",
+    "was": " · eskiden: {persona}",
+    "improved": "<good>▲ {count}</good> iyileşti",
+    "slipped": "<bad>▼ {count}</bad> geriledi",
+    "mood": {
+      "better": "iyileşti",
+      "worse": "geriledi",
+      "flat": "değişmedi"
+    }
+  },
+  "trophies": {
+    "eyebrow": "Kupa rafın",
+    "of": "{total} kupadan açıldı",
+    "unlocked": "Açıldı",
+    "progress": "{percent} tamamlandı",
+    "next": "Açılmaya en yakın: {name} ({percent}). {text}",
+    "all": "Kazanabileceğin her kupayı kazandın.",
+    "lines": "Bingo <b>{count}</b>",
+    "free": "Bedava",
+    "board": "Kupa bingosu tablosu",
+    "nextBingo": "Sıradaki bingo: {name} ({percent}). {text}",
+    "shareTitle": "Rift Recap kupa bingom"
+  },
+  "blame": {
+    "eyebrow": "Sen miydin?",
+    "carry": "Sen taşıdın",
+    "weak": "Zayıf halka",
+    "team": "Takım çabası",
+    "across": "{losses, plural, one {# yenilgin} other {# yenilgin}} boyunca",
+    "topDamage": "En yüksek hasar",
+    "chance": "Tek başına şans {rate} olurdu",
+    "deaths": "Takımın ölümleri",
+    "average": "Ortalama {rate}"
+  },
+  "tierList": {
+    "eyebrow": "Kademe listen",
+    "aria": "Şampiyon kademe listesi",
+    "title": "{name}: {games, plural, one {# maçta} other {# maçta}} {winRate}",
+    "note": "Galibiyet oranına, sonra KDA'ya göre sıralı. 4 maçtan az oynanan şampiyonlar dışarıda bırakıldı."
+  },
+  "habits": {
+    "eyebrow": "Alışkanlıkların",
+    "pings": "maç başına {value} ping",
+    "flash": "{key} tuşunda Sıçra · maç başına {value} kullanım",
+    "pairShare": "maçların {share} kadarında",
+    "quits": "{enemy} rakip pes · {ours} seninkiler",
+    "ping": "Ping tarzı",
+    "spells": "Çağırıcı büyüleri",
+    "surrender": "Pes etmeyle bitti"
+  },
+  "damage": {
+    "eyebrow": "Hasarın",
+    "parts": {
+      "physical": "Fiziksel",
+      "magic": "Büyü",
+      "true": "Gerçek"
+    },
+    "partAria": "{label} {share}"
+  },
+  "comp": {
+    "eyebrow": "Takım kompozisyonu",
+    "with": "Takımda: <b>{class}</b>",
+    "games": "{withGames, plural, one {# maç} other {# maç}}, onsuz {withoutGames, plural, one {# maç} other {# maç}}",
+    "versus": "karşı {rate}"
+  },
+  "sessions": {
+    "eyebrow": "Gecelerin",
+    "lead": "{count, plural, one {# oturum} other {# oturum}} · her biri yaklaşık {avg} maç",
+    "best": "En iyi gece",
+    "worst": "En kötü gece",
+    "longest": "En uzun oturum",
+    "meta": "{games, plural, one {# maç} other {# maç}} · {date}"
+  },
+  "highlights": {
+    "eyebrow": "Öne çıkanlar",
+    "minutes": "{count, plural, one {# dakika} other {# dakika}}",
+    "meta": "{what} · {date}",
+    "won": "Kazandı",
+    "lost": "Kaybetti",
+    "caption": "Partilerde anlatacağın maçlar."
+  },
+  "lane": {
+    "lane": "Koridor kontrolü",
+    "gold": "Altın alışkanlıkları",
+    "cs": "Koridor rakibine karşı CS",
+    "goldDiff": "Koridor rakibine karşı altın",
+    "damage": "Koridor rakibine karşı hasar",
+    "unspent": "Sonda harcanmamış altın",
+    "ahead": "{games, plural, one {# maçın} other {# maçın}} <b>{rate}</b> kadarında altında önde",
+    "kills": "maç başına {value} öldürme",
+    "csValue": "{value} CS"
+  },
+  "early": {
+    "eyebrow": "15. dakikada",
+    "titles": {
+      "early": "Erken oyunun zorbası",
+      "late": "Geç oyunda güçlenen",
+      "steady": "Sabit el"
+    },
+    "parts": {
+      "ahead": "Önde",
+      "even": "Berabere",
+      "behind": "Geride"
+    },
+    "aria": "{n, plural, one {# maçta} other {# maçta}} {label}",
+    "wonAhead": "Önden {total} maçın <good>{wins}</good> tanesi kazanıldı",
+    "wonBehind": "Geriden {total} maçın <b>{wins}</b> tanesi kazanıldı",
+    "lead": "Son {games, plural, one {# koridor maçın} other {# koridor maçın}}, koridor rakibine karşı"
+  },
+  "chapters": {
+    "eyebrow": "Bölümlerle sezonun",
+    "wins": "{rate} galibiyet",
+    "note": "Her bölüm kendi maçlarına göre puanlanır, o yüzden kısa olanlar daha az kesindir."
+  },
+  "flames": {
+    "eyebrow": "Eski aşklar",
+    "lead": "İyi bildiğin ama bu sezon neredeyse hiç oynamadığın şampiyonlar",
+    "mastery": "Ustalık {level} · {played}",
+    "notPlayed": "oynanmadı",
+    "caption": "{champion} şampiyonunun arkasında {points} ustalık puanı var. Seni özlüyor."
+  },
+  "social": {
+    "duo": {
+      "eyebrow": "İkilin",
+      "together": "{count, plural, one {birlikte maç} other {birlikte maç}}",
+      "winTogether": "birlikte <b>{rate}</b> galibiyet oranı",
+      "apart": "ayrı <b>{rate}</b>",
+      "combo": "En iyi kombo <b>{pair}</b>",
+      "alone": "Bu sezonki her maç {name} ile oldu. Bu bağlılık.",
+      "better": "{name} ile {withRate}, onsuz {without} kazanıyorsun. Grubu bir arada tut.",
+      "worse": "{name} ile daha az kazanıyorsun ({withRate} karşı tek başına {without}). Arkadaşlık istatistikten önce gelir.",
+      "same": "{name} ile de onsuz da yaklaşık aynı galibiyet oranı. Mesele arkadaşlık.",
+      "seeRecap": "{name} özetine bak",
+      "versus": "Kafa kafaya"
+    },
+    "matchup": {
+      "single": "Koridor rakibin",
+      "both": "Baş düşman ve en iyi eşleşme",
+      "nemesis": "Baş düşmanın",
+      "best": "En iyi eşleşmen",
+      "vs": "VS",
+      "record": "<good>{wins}G</good> <bad>{losses}Y</bad>",
+      "meta": "{rate} galibiyet oranı",
+      "metaAs": "{rate} galibiyet oranı · {champion} olarak",
+      "insightBoth": "{nemesis} şampiyonunu yasakla ve {best} gelmesini um.",
+      "insightNemesis": "{nemesis} senin kriptonitin. Yasaklamayı düşün.",
+      "insightBest": "{best} sana karşı hiç şans bulamadı."
+    }
+  },
+  "rail": {
+    "start": "Başlangıç",
+    "games": "Maçlar",
+    "week": "Haftadan haftaya",
+    "form": "Form",
+    "calendar": "Takvim",
+    "clock": "Saat",
+    "patches": "Yamalar",
+    "nights": "Geceler",
+    "wins": "Galibiyetler",
+    "progress": "İlerleme",
+    "tilt": "Tilt",
+    "tiltGuard": "Dur işareti",
+    "blame": "Sen miydin?",
+    "champion": "Şampiyon",
+    "comfort": "Konfor",
+    "flames": "Eski aşklar",
+    "tierList": "Kademe listesi",
+    "pool": "Dene",
+    "combat": "Savaş",
+    "highlights": "Öne çıkanlar",
+    "damage": "Hasar",
+    "gray": "Gri ekran",
+    "playstyle": "Oyun tarzı",
+    "lane": "Koridor",
+    "early": "Erken oyun",
+    "habits": "Alışkanlıklar",
+    "items": "Eşyalar",
+    "runes": "Rünler",
+    "objectives": "Hedefler",
+    "duo": "İkili",
+    "matchups": "Eşleşmeler",
+    "comps": "Kompozisyonlar",
+    "normals": "Normaller",
+    "aram": "ARAM",
+    "chapters": "Bölümler",
+    "trophies": "Kupalar",
+    "rank": "Rütbe",
+    "guess": "Tahmin",
+    "you": "Sen",
+    "back": "Geri"
+  },
+  "page": {
+    "title": "{name}#{tag} · Rift Recap",
+    "description": "Bir League of Legends sezon özeti: istatistikler, bir arketip ve paylaşılabilir bir kart.",
+    "failed": "Bu özet yüklenemedi",
+    "noGamesTitle": "Henüz maç yok",
+    "noGames": "{since} tarihinden beri {who} için hiç maç bulamadık. Birkaç maç oyna ve geri gel.",
+    "noRangeTitle": "Bu zaman aralığında maç yok",
+    "noRange": "{who}, {since} tarihinden beri hiç maç oynamadı. Daha uzun bir aralık dene."
+  },
+  "tiltguard": {
+    "eyebrow": "Tilt bekçisi",
+    "step1": "1 yenilgi sonrası",
+    "step2": "Üst üste 2 sonrası",
+    "step3": "Üst üste 3+ sonrası",
+    "live": "Şu an"
+  },
+  "formcurve": {
+    "eyebrow": "Sezonun bir çizgi olarak",
+    "lead": "Herhangi {games} içinde galibiyet oranı",
+    "best": "En iyi <b>{rate}</b> · {date} tarihinde bitti",
+    "worst": "En kötü <b>{rate}</b> · {date} tarihinde bitti",
+    "now": "Şimdi <b>{rate}</b>",
+    "aria": "Kayan galibiyet oranı: en iyi {best}, en kötü {worst}, son {now}",
+    "shareTitle": "Sezonum bir çizgi olarak"
+  },
+  "week": {
+    "eyebrow": "Son 7 gün ve ondan önceki 7 gün",
+    "lead": "{now} şimdi · {before} öncesinde"
+  },
+  "patches": {
+    "eyebrow": "Yama yama",
+    "title": "Yamaya göre galibiyet oranı"
+  },
+  "runes": {
+    "eyebrow": "Ana rünün",
+    "winWith": "onunla <b>{rate}</b> galibiyet oranı",
+    "without": "onsuz <b>{rate}</b>"
+  },
+  "pool": {
+    "eyebrow": "Denenecek şampiyonlar",
+    "because": "Çünkü {champion} sana iyi geliyor: {rate} galibiyet",
+    "note": "Benzer sınıf ve oyun tarzına göre seçildi. Bir öneri, söz değil."
+  }
+}

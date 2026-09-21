@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "title": "範例回顧 · Rift Recap"
+  },
+  "switcher": {
+    "label": "範例玩家",
+    "previous": "上一位範例玩家",
+    "next": "下一位範例玩家",
+    "player": "範例玩家",
+    "show": "顯示"
+  },
+  "players": {
+    "onetrick": "單一英雄玩家",
+    "specialist": "專精玩家",
+    "explorer": "探索者",
+    "chameleon": "變色龍",
+    "showstopper": "全場焦點",
+    "slayer": "屠戮者",
+    "daredevil": "亡命之徒",
+    "support": "組織者",
+    "unlucky": "不幸的英雄",
+    "phoenix": "鳳凰",
+    "risingstar": "新星",
+    "streaker": "連勝狂",
+    "scout": "偵察兵",
+    "farmer": "農場主",
+    "heavyhitter": "重砲手",
+    "everpresent": "無所不在",
+    "opener": "開團者",
+    "untouchable": "不可觸碰",
+    "closer": "終結者",
+    "marathoner": "馬拉松選手",
+    "speedrunner": "速通玩家",
+    "assassin": "刺客",
+    "archmage": "大法師",
+    "sharpshooter": "神射手",
+    "brawler": "鬥士",
+    "bulwark": "堅盾",
+    "aramfan": "隨機單中愛好者",
+    "casual": "休閒玩家",
+    "demolisher": "拆遷隊",
+    "thief": "竊賊",
+    "grinder": "肝帝",
+    "pathfinder": "開拓者",
+    "islander": "孤島居民",
+    "centerpiece": "核心",
+    "carry": "帶飛者",
+    "guardian": "守護者"
+  }
+}

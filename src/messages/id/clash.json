@@ -1,0 +1,55 @@
+{
+  "team": "Tim {name}",
+  "line": {
+    "few": "{games} antar kedua tim sejauh ini: masih terlalu awal untuk menyimpulkan.",
+    "level": "{a} lawan {b}: hampir imbang. Selisih sekecil ini bisa saja cuma keberuntungan.",
+    "lead": "{name} unggul {win} lawan {lose}. Itu lebih dari yang bisa dijelaskan oleh keberuntungan."
+  },
+  "rail": {
+    "start": "Kedua tim",
+    "lanes": "Lane demi lane",
+    "numbers": "Angka-angkanya",
+    "stars": "Yang menonjol",
+    "end": "Rangkuman tim"
+  },
+  "slides": {
+    "intro": {
+      "eyebrow": "Tim lawan tim",
+      "played": "{games} saling berhadapan"
+    },
+    "lanes": {
+      "eyebrow": "Lane demi lane",
+      "aria": "Hasil per lane",
+      "note": "Sebuah lane hanya muncul jika kedua tim punya pemain di sana. Tiap game diberikan kepada pemain lane dengan KDA lebih baik."
+    },
+    "numbers": {
+      "eyebrow": "Cara main tiap tim",
+      "aria": "Rata-rata per pemain, per game",
+      "note": "Rata-rata per pemain, per game.",
+      "kda": "KDA",
+      "damage": "Damage ke champion",
+      "gold": "Gold yang didapat",
+      "vision": "Skor visi"
+    },
+    "stars": {
+      "eyebrow": "Yang menonjol",
+      "best": "KDA terbaik tim {team}",
+      "stat": "KDA {kda} dalam {games}",
+      "record": "Menang {wins} dari {games}",
+      "note": "Hanya pemain dengan minimal {min} game antar kedua tim yang dihitung."
+    },
+    "end": {
+      "eyebrow": "Lanjutkan",
+      "recap": "Rangkuman skuad: {team}"
+    }
+  },
+  "page": {
+    "title": "{a} vs {b} · Tim lawan tim",
+    "titleDemo": "Contoh tim lawan tim · Rift Recap",
+    "titleEmpty": "Tim lawan tim · Rift Recap",
+    "description": "Dua tim saling berhadapan: siapa yang menang, lane demi lane, dan bagaimana kedua sisi bermain.",
+    "overlap": "{names} tidak bisa berada di kedua tim.",
+    "atLeastTwo": "Setiap tim butuh minimal dua Riot ID.",
+    "noClash": "Kedua tim ini tidak punya game saling berhadapan {where}. Dibutuhkan game dengan minimal dua orang dari tiap tim berada di match yang sama di sisi berlawanan, seperti custom 5v5."
+  }
+}

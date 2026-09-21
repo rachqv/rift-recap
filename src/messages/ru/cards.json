@@ -1,0 +1,39 @@
+{
+  "thisSeason": "В этом сезоне я был",
+  "disclaimer": "Rift Recap не одобрен Riot Games и не отражает взгляды или мнения Riot Games или лиц, официально причастных к созданию или управлению проектами Riot Games.",
+  "games": "Игры",
+  "winRate": "Побед",
+  "kda": "KDA",
+  "trophies": "Трофеи",
+  "rank": "Ранг",
+  "main": "Основной",
+  "topChampion": "Лучший чемпион",
+  "gamesCount": "{count, plural, one {# игра} few {# игры} many {# игр} other {# игры}}",
+  "squad": {
+    "header": "Отряд",
+    "gamesTogether": "Игр вместе",
+    "hours": "Часов",
+    "together": "Вместе",
+    "awards": "Награды"
+  },
+  "versus": {
+    "header": "Дуэль",
+    "vs": "VS",
+    "rowsWon": "Строк выиграно",
+    "scenarios": "Лучшие сценарии",
+    "numbers": "В цифрах",
+    "unranked": "Без ранга"
+  },
+  "bingo": {
+    "header": "Бинго трофеев",
+    "free": "Бесплатно",
+    "lines": "Бинго",
+    "next": "Следующее бинго: {name}"
+  },
+  "form": {
+    "best": "Лучший период",
+    "worst": "Худший период",
+    "now": "Сейчас",
+    "ended": "Закончился {date}"
+  }
+}

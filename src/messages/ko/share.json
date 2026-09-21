@@ -1,0 +1,11 @@
+{
+  "share": "공유",
+  "download": "카드 다운로드",
+  "copyLink": "링크 복사",
+  "linkCopied": "링크를 복사했어요",
+  "copyFailed": "링크를 복사하지 못했어요",
+  "shareFailed": "공유 창을 열지 못했어요",
+  "saveLater": "나중에 비교하려고 저장",
+  "saveRematch": "재대결을 위해 저장",
+  "savedOpenLater": "링크를 복사했어요. 나중에 열어 보세요"
+}

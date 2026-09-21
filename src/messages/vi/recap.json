@@ -1,0 +1,381 @@
+{
+  "season": "Mùa {year}",
+  "strip": "{wins, plural, other {# trận thắng}} và {losses, plural, other {# trận thua}}, trận cũ nhất trước",
+  "record": "{wins}T · {losses}B",
+  "recordChip": "<good>{wins}</good>T <bad>{losses}</bad>B",
+  "winRateChip": "Thắng <b>{rate}</b>",
+  "kdaChip": "<b>{kda}</b> KDA",
+  "gamesChip": "{count, plural, other {<b>#</b> trận}}",
+  "gamesLabel": "{count, plural, other {# trận}}",
+  "intro": {
+    "eyebrow": "Tổng kết {season}",
+    "caption": "{games, plural, other {Chúng tôi đã xem qua # trận của bạn. Sẵn sàng xem bạn chơi thế nào chưa?}}",
+    "scroll": "Cuộn xuống"
+  },
+  "games": {
+    "eyebrow": "Bạn đã có mặt",
+    "played": "{count, plural, other {trận đã chơi}}",
+    "riftOnly": "{count, plural, other {trận Summoner's Rift}}",
+    "wins": "{count, plural, other {<good>#</good> trận thắng}}",
+    "losses": "{count, plural, other {<bad>#</bad> trận thua}}",
+    "hours": "{n, plural, other {<b>{value}</b> giờ}}"
+  },
+  "win": {
+    "eyebrow": "Tỷ lệ thắng của bạn"
+  },
+  "champion": {
+    "eyebrow": "Tướng đặc trưng của bạn",
+    "more": "Tất cả trận của bạn với {champion}",
+    "back": "Quay lại bản tổng kết đầy đủ",
+    "pageTitle": "{champion} · {name}#{tag} · Rift Recap",
+    "pageEyebrow": "Báo cáo tướng",
+    "noneTitle": "Chưa có trận nào với tướng này",
+    "none": "{who} chưa có trận nào với {champion} trong khoảng thời gian này. Hãy thử tướng khác trong bản tổng kết."
+  },
+  "kda": {
+    "eyebrow": "Chỉ số chiến đấu của bạn",
+    "kills": "hạ gục",
+    "deaths": "lần chết",
+    "assists": "hỗ trợ",
+    "perGame": "{value} / trận",
+    "best": "Trận hay nhất của bạn",
+    "bestLine": "{champion} · {kills}/{deaths}/{assists}",
+    "victory": "Chiến thắng",
+    "defeat": "Thất bại"
+  },
+  "style": {
+    "eyebrow": "Cách bạn chơi",
+    "mainRole": "vị trí chính · {share}",
+    "cs": "CS mỗi phút",
+    "vision": "tầm nhìn mỗi phút",
+    "damage": "sát thương mỗi phút",
+    "kp": "tỷ lệ tham gia hạ gục",
+    "penta": "{count, plural, other {<b>#</b> Pentakill}}",
+    "quadra": "{count, plural, other {<b>#</b> Quadrakill}}",
+    "triple": "{count, plural, other {<b>#</b> Triple Kill}}",
+    "firstBloods": "{count, plural, other {<b>#</b> First Blood}}",
+    "deathless": "{count, plural, other {<b>#</b> trận không chết}}",
+    "longestWon": "Trận dài nhất của bạn kéo dài {duration} với {champion}. Và bạn còn thắng nữa.",
+    "longestLost": "Trận dài nhất của bạn kéo dài {duration} với {champion}. Có những trận cứ kết thúc không mấy vui vẻ."
+  },
+  "mode": {
+    "aram": {
+      "eyebrow": "Xuống Vực Gào Thét",
+      "label": "{count, plural, other {trận ARAM}}"
+    },
+    "normal": {
+      "eyebrow": "Chỉ để giải trí",
+      "label": "{count, plural, other {trận đấu thường}}"
+    }
+  },
+  "rank": {
+    "emblem": "Huy hiệu {title}",
+    "lp": "<b>{lp}</b> LP",
+    "caption": "Hạng hiện tại của bạn. Mọi hành trình leo hạng bắt đầu từ trận kế tiếp."
+  },
+  "persona": {
+    "eyebrow": "Mùa này, bạn là",
+    "also": "Cũng có chút: {list}",
+    "main": "Main <b>{champion}</b>",
+    "shareTitle": "Mùa Liên Minh của tôi: {title}",
+    "compare": "So sánh với bạn bè",
+    "squad": "Tổng kết nhóm",
+    "search": "Tìm người chơi khác",
+    "count": "1 trong {count} kiểu người chơi",
+    "countEstimate": "1 trong {count} kiểu người chơi · độ hiếm chỉ là ước tính"
+  },
+  "calendar": {
+    "eyebrow": "Lịch của bạn",
+    "note": "Dựa trên {count, plural, other {# trận}} gần nhất của bạn."
+  },
+  "clock": {
+    "eyebrow": "Khi nào bạn thắng"
+  },
+  "items": {
+    "eyebrow": "Trang bị bạn hay lên",
+    "inGames": "{games, plural, other {Trong <b>{count}</b> trên # trận của bạn}}",
+    "winWith": "Thắng <b>{rate}</b> khi có nó",
+    "without": "<b>{rate}</b> khi không có",
+    "boots": "Giày"
+  },
+  "objectives": {
+    "eyebrow": "Mục tiêu",
+    "lead": "Đội của bạn đã lấy, qua {games, plural, other {# trận}}",
+    "tiles": {
+      "tower": "Trụ",
+      "dragon": "Rồng",
+      "baron": "Baron",
+      "herald": "Sứ Giả Khe Nứt",
+      "grubs": "Ấu Trùng Hư Không",
+      "inhibitor": "Nhà lính"
+    },
+    "youTotal": "bạn: {count}",
+    "youSecured": "bạn chốt {count}",
+    "perGame": "{value} mỗi trận",
+    "firstTower": "Trụ đầu tiên trong <b>{rate}</b> số trận",
+    "withWithout": "Thắng <good>{withIt}</good> khi có nó · <b>{without}</b> khi không",
+    "stolen": "Cướp <b>{count}</b>"
+  },
+  "tilt": {
+    "eyebrow": {
+      "tilt": "Kiểm tra tilt",
+      "resilient": "Kiểm tra vùng lên",
+      "steady": "Kiểm tra tâm lý"
+    },
+    "afterWin": "Sau khi thắng",
+    "afterLoss": "Sau khi thua",
+    "tilts": "Tilt sau khi thua",
+    "bounces": "Vùng lên"
+  },
+  "comfort": {
+    "eyebrow": "Vùng an toàn của bạn",
+    "lead": "Tỷ lệ thắng theo tướng, so với {rate} tổng thể"
+  },
+  "gray": {
+    "eyebrow": "Màn hình xám",
+    "unit": "giờ",
+    "spentDead": "thời gian nằm xuống",
+    "aliveAria": "Sống {alive} thời gian, chết {dead}",
+    "alive": "Sống {value}",
+    "dead": "Chết {value}",
+    "share": "<b>{share}</b> thời gian trong trận của bạn",
+    "perGame": "<b>{minutes}</b> phút mỗi trận",
+    "films": "{n, plural, other {Khoảng <b>#</b> bộ phim}}"
+  },
+  "progress": {
+    "eyebrow": "Kể từ lần trước",
+    "lead": "{date} · {saved, plural, other {# trận}} → nay {games}",
+    "was": " · trước là {persona}",
+    "improved": "<good>▲ {count}</good> cải thiện",
+    "slipped": "<bad>▼ {count}</bad> tụt xuống",
+    "mood": {
+      "better": "cải thiện",
+      "worse": "tụt xuống",
+      "flat": "không đổi"
+    }
+  },
+  "trophies": {
+    "eyebrow": "Kệ cúp của bạn",
+    "of": "trên {total} đã mở khóa",
+    "unlocked": "Đã mở khóa",
+    "progress": "Đạt {percent}",
+    "next": "Gần mở khóa nhất: {name} ({percent}). {text}",
+    "all": "Mọi chiếc cúp bạn có thể đạt được, bạn đều đã đạt.",
+    "lines": "Bingo <b>{count}</b>",
+    "free": "Miễn phí",
+    "board": "Bảng bingo cúp",
+    "nextBingo": "Bingo tiếp theo: {name} ({percent}). {text}",
+    "shareTitle": "Bingo cúp Rift Recap của tôi"
+  },
+  "blame": {
+    "eyebrow": "Có phải bạn không?",
+    "carry": "Bạn đã gánh",
+    "weak": "Mắt xích yếu",
+    "team": "Nỗ lực của cả đội",
+    "across": "Qua {losses, plural, other {# trận thua}} của bạn",
+    "topDamage": "Sát thương cao nhất",
+    "chance": "Chỉ riêng may rủi là {rate}",
+    "deaths": "Số lần chết của đội",
+    "average": "Trung bình là {rate}"
+  },
+  "tierList": {
+    "eyebrow": "Bảng xếp bậc của bạn",
+    "aria": "Bảng xếp bậc tướng",
+    "title": "{name}: {winRate} trong {games, plural, other {# trận}}",
+    "note": "Xếp theo tỷ lệ thắng, rồi đến KDA. Tướng dưới 4 trận bị loại."
+  },
+  "habits": {
+    "eyebrow": "Thói quen của bạn",
+    "pings": "{value} ping mỗi trận",
+    "flash": "Tốc Biến ở phím {key} · {value} lần mỗi trận",
+    "pairShare": "trong {share} số trận",
+    "quits": "{enemy} lần địch đầu hàng · {ours} lần phe bạn",
+    "ping": "Phong cách ping",
+    "spells": "Phép bổ trợ",
+    "surrender": "Kết thúc bằng đầu hàng"
+  },
+  "damage": {
+    "eyebrow": "Sát thương của bạn",
+    "parts": {
+      "physical": "Vật lý",
+      "magic": "Phép",
+      "true": "Chuẩn"
+    },
+    "partAria": "{label} {share}"
+  },
+  "comp": {
+    "eyebrow": "Đội hình",
+    "with": "Khi có <b>{class}</b>",
+    "games": "{withGames, plural, other {# trận}} so với {withoutGames, plural, other {# trận}} khi không có",
+    "versus": "so với {rate}"
+  },
+  "sessions": {
+    "eyebrow": "Những đêm của bạn",
+    "lead": "{count, plural, other {# lần chơi liền}} · khoảng {avg} trận mỗi lần",
+    "best": "Đêm tốt nhất",
+    "worst": "Đêm tệ nhất",
+    "longest": "Lần chơi liền dài nhất",
+    "meta": "{games, plural, other {# trận}} · {date}"
+  },
+  "highlights": {
+    "eyebrow": "Khoảnh khắc nổi bật",
+    "minutes": "{count, plural, other {# phút}}",
+    "meta": "{what} · {date}",
+    "won": "Thắng",
+    "lost": "Thua",
+    "caption": "Những trận bạn sẽ kể trong các buổi tiệc."
+  },
+  "lane": {
+    "lane": "Kiểm tra đường",
+    "gold": "Thói quen về vàng",
+    "cs": "CS so với đối thủ đường",
+    "goldDiff": "Vàng so với đối thủ đường",
+    "damage": "Sát thương so với đối thủ đường",
+    "unspent": "Vàng chưa tiêu cuối trận",
+    "ahead": "Dẫn về vàng trong <b>{rate}</b> của {games, plural, other {# trận}}",
+    "kills": "{value} hạ gục mỗi trận",
+    "csValue": "{value} CS"
+  },
+  "early": {
+    "eyebrow": "Ở phút 15",
+    "titles": {
+      "early": "Bạo chúa đầu game",
+      "late": "Mạnh dần về cuối",
+      "steady": "Đôi tay vững"
+    },
+    "parts": {
+      "ahead": "Dẫn",
+      "even": "Hòa",
+      "behind": "Thua thế"
+    },
+    "aria": "{label} trong {n, plural, other {# trận}}",
+    "wonAhead": "Thắng <good>{wins}</good> trên {total} trận khi dẫn",
+    "wonBehind": "Thắng <b>{wins}</b> trên {total} trận khi thua thế",
+    "lead": "{games, plural, other {# trận đi đường}} gần nhất của bạn, so với đối thủ đường"
+  },
+  "chapters": {
+    "eyebrow": "Mùa giải của bạn theo từng chương",
+    "wins": "Thắng {rate}",
+    "note": "Mỗi chương được chấm theo các trận của chính nó, nên chương ngắn kém chắc chắn hơn."
+  },
+  "flames": {
+    "eyebrow": "Tình cũ",
+    "lead": "Những tướng bạn rất quen nhưng hầu như không đụng đến mùa này",
+    "mastery": "Thành thạo {level} · {played}",
+    "notPlayed": "chưa chơi",
+    "caption": "{champion} có {points} điểm thành thạo. Nó nhớ bạn."
+  },
+  "social": {
+    "duo": {
+      "eyebrow": "Bạn song hành",
+      "together": "{count, plural, other {trận chơi cùng nhau}}",
+      "winTogether": "Thắng <b>{rate}</b> khi chơi cùng",
+      "apart": "<b>{rate}</b> khi tách ra",
+      "combo": "Combo hay nhất <b>{pair}</b>",
+      "alone": "Mọi trận trong mùa này đều là với {name}. Đó là sự gắn bó.",
+      "better": "Bạn thắng {withRate} khi chơi với {name} và {without} khi không. Giữ ban nhạc bên nhau nhé.",
+      "worse": "Bạn thắng ít hơn khi chơi với {name} ({withRate} so với {without} khi solo). Tình bạn quan trọng hơn chỉ số.",
+      "same": "Tỷ lệ thắng gần như nhau dù có hay không có {name}. Quan trọng là bầu bạn.",
+      "seeRecap": "Xem tổng kết của {name}",
+      "versus": "Đối đầu"
+    },
+    "matchup": {
+      "single": "Đối thủ đường của bạn",
+      "both": "Kẻ thù không đội trời chung và cặp đấu hay nhất",
+      "nemesis": "Kẻ thù truyền kiếp",
+      "best": "Cặp đấu hay nhất của bạn",
+      "vs": "VS",
+      "record": "<good>{wins}T</good> <bad>{losses}B</bad>",
+      "meta": "Thắng {rate}",
+      "metaAs": "Thắng {rate} · khi chơi {champion}",
+      "insightBoth": "Cấm {nemesis} và hy vọng gặp {best}.",
+      "insightNemesis": "{nemesis} là khắc tinh của bạn. Hãy cân nhắc cấm nó.",
+      "insightBest": "{best} chưa bao giờ có cửa trước bạn."
+    }
+  },
+  "rail": {
+    "start": "Bắt đầu",
+    "games": "Trận",
+    "week": "Tuần này và trước",
+    "form": "Phong độ",
+    "calendar": "Lịch",
+    "clock": "Đồng hồ",
+    "patches": "Bản cập nhật",
+    "nights": "Đêm",
+    "wins": "Thắng",
+    "progress": "Tiến bộ",
+    "tilt": "Tilt",
+    "tiltGuard": "Biển báo dừng",
+    "blame": "Do bạn?",
+    "champion": "Tướng",
+    "comfort": "Vùng an toàn",
+    "flames": "Tình cũ",
+    "tierList": "Xếp bậc",
+    "pool": "Nên thử",
+    "combat": "Chiến đấu",
+    "highlights": "Nổi bật",
+    "damage": "Sát thương",
+    "gray": "Màn hình xám",
+    "playstyle": "Lối chơi",
+    "lane": "Đường",
+    "early": "Đầu game",
+    "habits": "Thói quen",
+    "items": "Trang bị",
+    "runes": "Ngọc",
+    "objectives": "Mục tiêu",
+    "duo": "Song hành",
+    "matchups": "Cặp đấu",
+    "comps": "Đội hình",
+    "normals": "Đấu thường",
+    "aram": "ARAM",
+    "chapters": "Chương",
+    "trophies": "Cúp",
+    "rank": "Hạng",
+    "guess": "Đoán",
+    "you": "Bạn",
+    "back": "Quay lại"
+  },
+  "page": {
+    "title": "{name}#{tag} · Rift Recap",
+    "description": "Tổng kết mùa giải Liên Minh Huyền Thoại: chỉ số, kiểu người chơi và thẻ để chia sẻ.",
+    "failed": "Không thể tải bản tổng kết này",
+    "noGamesTitle": "Chưa có trận nào",
+    "noGames": "Chúng tôi không tìm thấy trận nào của {who} kể từ {since}. Hãy chơi vài trận rồi quay lại.",
+    "noRangeTitle": "Không có trận nào trong khoảng thời gian này",
+    "noRange": "{who} chưa chơi trận nào kể từ {since}. Hãy thử khoảng thời gian dài hơn."
+  },
+  "tiltguard": {
+    "eyebrow": "Người canh tilt",
+    "step1": "Sau 1 trận thua",
+    "step2": "Sau 2 liên tiếp",
+    "step3": "Sau 3+ liên tiếp",
+    "live": "Ngay lúc này"
+  },
+  "formcurve": {
+    "eyebrow": "Mùa giải của bạn là một đường",
+    "lead": "Tỷ lệ thắng trong bất kỳ {games} nào",
+    "best": "Cao nhất <b>{rate}</b> · kết thúc {date}",
+    "worst": "Thấp nhất <b>{rate}</b> · kết thúc {date}",
+    "now": "Hiện tại <b>{rate}</b>",
+    "aria": "Tỷ lệ thắng trượt: cao nhất {best}, thấp nhất {worst}, gần nhất {now}",
+    "shareTitle": "Mùa giải của tôi là một đường"
+  },
+  "week": {
+    "eyebrow": "7 ngày qua so với 7 ngày trước đó",
+    "lead": "{now} hiện tại · {before} trước đó"
+  },
+  "patches": {
+    "eyebrow": "Từng bản cập nhật",
+    "title": "Tỷ lệ thắng theo bản"
+  },
+  "runes": {
+    "eyebrow": "Ngọc chủ chốt của bạn",
+    "winWith": "Thắng <b>{rate}</b> khi có nó",
+    "without": "<b>{rate}</b> khi không có"
+  },
+  "pool": {
+    "eyebrow": "Tướng nên thử",
+    "because": "Vì {champion} hợp với bạn: tỷ lệ thắng {rate}",
+    "note": "Chọn theo lớp và lối chơi tương tự. Chỉ là gợi ý, không phải lời hứa."
+  }
+}

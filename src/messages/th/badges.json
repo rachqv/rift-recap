@@ -1,0 +1,98 @@
+{
+  "penta": {
+    "name": "เพนทาคิล",
+    "text": "ทำเพนทาคิลให้ได้"
+  },
+  "quadra": {
+    "name": "นักสะสมควอดราคิล",
+    "text": "ทำควอดราคิลให้ได้ {target, plural, other {# ครั้ง}}"
+  },
+  "triple": {
+    "name": "ภัยคุกคามทริปเปิลคิล",
+    "text": "ทำทริปเปิลคิลให้ได้ {target, plural, other {# ครั้ง}}"
+  },
+  "flawless": {
+    "name": "ไร้ที่ติ",
+    "text": "จบเกมโดยไม่ตายเลยสักครั้ง"
+  },
+  "flawless5": {
+    "name": "แตะต้องไม่ได้",
+    "text": "จบเกมโดยไม่ตายเลยให้ได้ {target, plural, other {# เกม}}"
+  },
+  "streak": {
+    "name": "ไฟลุก",
+    "text": "ชนะติดต่อกัน {target, plural, other {# เกม}}"
+  },
+  "winrate": {
+    "name": "ผู้ชนะ",
+    "text": "รักษาอัตราชนะ {target} ให้ได้เกิน {games} เกม"
+  },
+  "kills": {
+    "name": "เครื่องจักรสังหาร",
+    "text": "ทำ {target, plural, other {# คิล}} ในเกมเดียว"
+  },
+  "perfect": {
+    "name": "เกมสมบูรณ์แบบ",
+    "text": "เล่นเกมที่มี KDA ตั้งแต่ {target} ขึ้นไป"
+  },
+  "firstblood": {
+    "name": "ราชาเฟิร์สต์บลัด",
+    "text": "ทำเฟิร์สต์บลัดให้ได้ {target, plural, other {# ครั้ง}}"
+  },
+  "thief": {
+    "name": "จอมขโมยออบเจกต์",
+    "text": "ขโมยออบเจกต์ให้ได้"
+  },
+  "turrets": {
+    "name": "ทีมรื้อถอน",
+    "text": "ทำลาย {target, plural, other {# ป้อม}}"
+  },
+  "variety": {
+    "name": "เก่งรอบด้าน",
+    "text": "เล่นแชมเปียนที่แตกต่างกัน {target, plural, other {# ตัว}}"
+  },
+  "loyal": {
+    "name": "ภักดี",
+    "text": "เล่นแชมเปียนตัวเดียวกัน {target, plural, other {# ครั้ง}}"
+  },
+  "marathon": {
+    "name": "มาราธอน",
+    "text": "เล่นเกมที่ยาวนานกว่า {minutes} นาที"
+  },
+  "bounce": {
+    "name": "ลุกขึ้นสู้",
+    "text": "ชนะ {target} ของเกมหลังจากแพ้"
+  },
+  "hours": {
+    "name": "เวลาบนริฟต์",
+    "text": "ใช้เวลาในเกมรวม {target, plural, other {# ชั่วโมง}}"
+  },
+  "dragon": {
+    "name": "นักล่ามังกร",
+    "text": "ปิดท้ายมังกร {target, plural, other {# ตัว}}"
+  },
+  "baron": {
+    "name": "นักล่าบารอน",
+    "text": "ปิดท้ายบารอน {target, plural, other {# ครั้ง}}"
+  },
+  "teamplayer": {
+    "name": "ผู้เล่นเพื่อทีม",
+    "text": "มีส่วนร่วมใน {target} ของการสังหารของทีม"
+  },
+  "duo": {
+    "name": "คู่หูตลอดกาล",
+    "text": "เล่น {target, plural, other {# เกม}} กับเพื่อนร่วมทีมคนเดิม"
+  },
+  "vision": {
+    "name": "ตาทิพย์",
+    "text": "ทำคะแนนวิชันเฉลี่ย {target} ต่อนาที"
+  },
+  "farm": {
+    "name": "เจ้าแห่งการฟาร์ม",
+    "text": "ฟาร์มเฉลี่ย {target} CS ต่อนาที"
+  },
+  "roles": {
+    "name": "เล่นได้ทุกตำแหน่ง",
+    "text": "เล่นให้ครบทั้ง {target, plural, other {# ตำแหน่ง}}"
+  }
+}

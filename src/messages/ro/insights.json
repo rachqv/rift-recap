@@ -1,0 +1,256 @@
+{
+  "blame": {
+    "carry": "În {topRate} din înfrângeri ai dat cele mai multe daune și aproape nu ai murit. Echipa te-a dezamăgit.",
+    "weak": "În înfrângeri ai avut {deathShare} din morțile echipei și rar ai fost primul la daune. Uită-te mai întâi în oglindă.",
+    "team": "În înfrângeri ai fost la media echipei: {damageShare} din daune. Nimeni de vinovat, sau toți."
+  },
+  "sessions": {
+    "contrast": "O seară de {bestWins}-{bestLosses} și una de {worstWins}-{worstLosses}. Același jucător, seri diferite.",
+    "marathon": "{games, plural, one {# meci} few {# meciuri} other {# de meciuri}} dintr-o suflare. Hidratează-te.",
+    "best": "Cea mai bună seară a ta s-a încheiat {wins}-{losses}. Urmărește-o."
+  },
+  "early": {
+    "early": "În față față de adversarul de culoar la minutul 15 în {ahead} din meciuri, și tu duci treaba la capăt. Tiranul începutului de meci.",
+    "late": "În urmă la minutul 15 în {behind} din meciuri, dar tot câștigi {comeback} dintre ele. Te dezvolți târziu și nu renunți niciodată.",
+    "steady": "În față la minutul 15 în {ahead} din meciuri și în urmă în {behind}. Meciul se decide mai târziu."
+  },
+  "tierlist": {
+    "solo": "{best} e tot ce ai.",
+    "uniform": "Tot setul tău de campioni e în tierul {tier}, condus de {best} cu {winRate}.",
+    "leadS": "{best} e alegerea ta din tierul S cu {winRate}.",
+    "leadOther": "Niciunul nu a ajuns în tierul S. {best} conduce lista ta în tierul {tier} cu {winRate}.",
+    "lastD": "{worst} e alegerea ta din tierul D cu {winRate}.",
+    "lastOther": "{worst} e la coadă, în tierul {tier}, cu {winRate}.",
+    "both": "{lead} {last}"
+  },
+  "items": {
+    "better": "Câștigi {withIt} din meciuri cu {name} și {without} fără el. Face ceva bine.",
+    "worse": "Rata ta de victorii e mai mică atunci când construiești {name} ({withIt} față de {without}). Loialitate sau obicei?",
+    "habit": "{name} a încheiat {share} din meciurile tale. Unele obiceiuri rămân.",
+    "friend": "{name} a fost la final în {share} din meciurile tale. Un prieten de încredere."
+  },
+  "habits": {
+    "flashEdge": "Flash pe {key}, {perGame} folosiri pe meci. Trăiești la limită.",
+    "flashCalm": "Flash pe {key}, {perGame} folosiri pe meci. Îl păstrezi pentru când contează.",
+    "pair": "{a} și {b} în {share} din meciurile tale. Știi ce îți place.",
+    "surrenderOften": "{rate} din meciurile tale s-au încheiat cu predare. Cineva are mereu ceva de făcut.",
+    "surrenderUs": "Echipa ta s-a predat mai des decât inamicul ({weQuit} la {enemyQuit}). Rămâi optimist.",
+    "surrenderThem": "Echipa adversă a ridicat pavilionul alb de {enemyQuit} ori față de {weQuit} ale echipei tale. Te-au văzut venind.",
+    "surrenderRare": "Doar {rate} din meciurile tale s-au încheiat cu predare. Le joci până la capăt."
+  },
+  "spells": {
+    "1": "Curățare",
+    "3": "Epuizare",
+    "4": "Flash",
+    "6": "Fantomă",
+    "7": "Vindecare",
+    "11": "Pedeapsă",
+    "12": "Teleportare",
+    "13": "Claritate",
+    "14": "Aprindere",
+    "21": "Barieră",
+    "32": "Marcaj",
+    "unknown": "o vrajă"
+  },
+  "pings": {
+    "getBackPings": {
+      "label": "Retrageți-vă",
+      "title": "Îngrijoratul",
+      "line": "Îți folosești ping-urile ca să le spui oamenilor să se retragă. Echipa ta e vie datorită ție."
+    },
+    "enemyMissingPings": {
+      "label": "Inamic dispărut",
+      "title": "Cercetașul",
+      "line": "„Lipsește!” e replica ta. Nimeni nu intră în ceață fără să știi tu."
+    },
+    "onMyWayPings": {
+      "label": "Sunt pe drum",
+      "title": "Salvatorul",
+      "line": "Ești mereu pe drum. Dacă ajungi sau nu, e altă poveste."
+    },
+    "assistMePings": {
+      "label": "Ajutați-mă",
+      "title": "Instigatorul",
+      "line": "Dai ping după ajutor și echipa vine în fugă. Sau măcar sperezi asta."
+    },
+    "needVisionPings": {
+      "label": "Trebuie viziune",
+      "title": "Cerșetorul de viziune",
+      "line": "Cineva, vă rog, puneți un ward. Ceri la fiecare meci."
+    },
+    "commandPings": {
+      "label": "Comandă",
+      "title": "Comandantul",
+      "line": "Arăți spre hartă și te aștepți ca echipa să te urmeze. De cele mai multe ori o face."
+    },
+    "pushPings": {
+      "label": "Împinge",
+      "title": "Împingătorul de valuri",
+      "line": "Împinge, împinge, împinge. Vrei turnul ăla jos acum."
+    },
+    "holdPings": {
+      "label": "Rezistă",
+      "title": "Zidul",
+      "line": "Țineți linia. Ești vocea calmă dintr-un lobby haotic."
+    },
+    "allInPings": {
+      "label": "All-in",
+      "title": "Negustorul de all-in",
+      "line": "Când dai ping de all-in, lupta are loc, fie că le place oamenilor sau nu."
+    },
+    "enemyVisionPings": {
+      "label": "Viziune inamică",
+      "title": "Observatorul",
+      "line": "Anunți fiecare ward inamic. Nimic nu se ascunde de tine."
+    },
+    "visionClearedPings": {
+      "label": "Viziune curățată",
+      "title": "Îngrijitorul",
+      "line": "Cureți warduri și le spui tuturor."
+    }
+  },
+  "chapters": {
+    "part": "Partea {n}",
+    "range": "{from}–{to}",
+    "same": "{title} de la început până la sfârșit. Știi cine ești.",
+    "changed": "Ai început ca {first} și ai terminat ca {last}. Un sezon al schimbării."
+  },
+  "tilt": {
+    "tilt": "Câștigi {afterWin} după o victorie, dar doar {afterLoss} după o înfrângere. Poate ieși la o plimbare între meciuri.",
+    "resilient": "Pierzi unul și câștigi {afterLoss} din următoarele, mai mult decât {afterWin} după o victorie. Înfrângerile te aprind.",
+    "steady": "{afterWin} după o victorie, {afterLoss} după o înfrângere. Nimic nu te clintește."
+  },
+  "comfort": {
+    "trust": "{best} te duce la {bestRate}. O alegere de încredere.",
+    "drag": "{best} te duce la {bestRate}. {worst} te trage în jos la {worstRate}. E timpul să renunți?"
+  },
+  "gray": {
+    "heavy": "Sunt {share} din fiecare meci petrecut uitându-te la ecranul gri. Fântâna îți știe numele.",
+    "some": "Cam {minutes} minute pe meci așteptând respawn-ul. Se adună.",
+    "light": "Doar {share} din timpul tău mort. Ecranul gri abia te cunoaște."
+  },
+  "modes": {
+    "aramPenta": "{penta, plural, one {# pentakill} few {# pentakilluri} other {# de pentakilluri}} pe pod. Abisul îți scoate haosul la suprafață.",
+    "aramKills": "{kills} eliminări pe meci. O încăierare e locul unde strălucești.",
+    "aramBetter": "Câștigi mai mult în Abis decât pe Falie. Bulgărele de zăpadă ți se potrivește.",
+    "aramWorse": "Falia te tratează mai bine decât Abisul. Podul acela e un loc sălbatic.",
+    "aramSteady": "{top} te-a purtat prin haos. Constant, ca pe Falie.",
+    "normalBetter": "Joci mai bine când nu e nimic în joc. Rata ta la normale o depășește pe cea din clasat.",
+    "normalWorse": "Clasatul scoate ce e mai bun din tine. Normalele sunt turul tău de încălzire.",
+    "normalExplore": "{unique, plural, one {# campion diferit} few {# campioni diferiți} other {# de campioni diferiți}} în {games, plural, one {# meci normal} few {# meciuri normale} other {# de meciuri normale}}. Aici experimentezi.",
+    "normalMain": "{top} a fost alegerea ta când nu era nimic în joc ({winRate} victorii)."
+  },
+  "objectives": {
+    "stolen": "{count, plural, one {# obiectiv furat} few {# obiective furate} other {# de obiective furate}}. Undeva, un junglist inamic încă e supărat.",
+    "firstTower": "Ia primul turn: câștigi {withIt} din meciuri cu el și {without} fără.",
+    "firstDragon": "Ia primul dragon: câștigi {withIt} din meciuri cu el și {without} fără.",
+    "firstHerald": "Ia primul Vestitor: câștigi {withIt} din meciuri cu el și {without} fără.",
+    "firstBaron": "Ia primul Baron: câștigi {withIt} din meciuri cu el și {without} fără.",
+    "turrets": "Ai distrus {share} din turnurile echipei tale. Demolarea e un sport de echipă, iar tu ești demolarea.",
+    "barons": "{count, plural, one {# Baron asigurat} few {# Baroni asigurați} other {# de Baroni asigurați}}. Când se deschide groapa, ești acolo.",
+    "dragons": "{count, plural, one {# dragon asigurat} few {# dragoni asigurați} other {# de dragoni asigurați}}. Fauna Faliei se teme de tine.",
+    "default": "Echipele tale au luat {dragons, plural, one {# dragon} few {# dragoni} other {# de dragoni}} și {towers, plural, one {# turn} few {# turnuri} other {# de turnuri}} în aceste meciuri. Fiecare obiectiv contează."
+  },
+  "damage": {
+    "spellslinger": {
+      "style": "Aruncătorul de vrăji",
+      "line": "{share} din daunele tale sunt magice. Armura e doar o sugestie."
+    },
+    "steel": {
+      "style": "Oțel peste vrăji",
+      "line": "{share} din daunele tale sunt fizice. Inamicii care iau armură te urăsc."
+    },
+    "trueDamage": {
+      "style": "Pasionat de daune pure",
+      "line": "{share} din daunele tale ignoră complet rezistențele. Perfid."
+    },
+    "mixed": {
+      "style": "Amenințarea mixtă",
+      "line": "Fizic și magic în echilibru. Inamicul nu poate stivui o singură rezistență."
+    }
+  },
+  "lane": {
+    "bully": "Termini în față față de adversarul de culoar la aur în {rate} din meciuri, cu {gold} aur în medie. Tiranul culoarului.",
+    "behind": "Adversarul tău de culoar câștigă mai mult decât tine în {rate} din meciuri. E timpul să te uiți la gestionarea valurilor.",
+    "even": "Tu și adversarul de culoar vă luați la trântă egal: în față la aur în {rate} din meciuri."
+  },
+  "gold": {
+    "high": "Ai încheiat meciurile cu {gold} aur nefolosit în medie. E un obiect pe care nu l-ai cumpărat niciodată.",
+    "mid": "Rămân cam {gold} aur la sfârșitul unui meci. Nu rău, dar nici perfect.",
+    "low": "Doar {gold} aur nefolosit. Îl cheltuiești la fel de repede cum îl câștigi."
+  },
+  "classes": {
+    "Tank": "Tank",
+    "Marksman": "Trăgător",
+    "Mage": "Mag",
+    "Assassin": "Asasin",
+    "Fighter": "Luptător",
+    "Support": "Suport"
+  },
+  "comp": {
+    "better": "Cu un {class} în echipă câștigi {withRate}, față de {withoutRate} fără. Cere unul.",
+    "worse": "Cu un {class} în echipă câștigi doar {withRate} ({withoutRate} fără). Coincidență sau blestem?"
+  },
+  "highlights": {
+    "penta": "Pentakill",
+    "kills": "Cele mai multe eliminări",
+    "kda": "Cel mai bun KDA",
+    "longest": "Cel mai lung meci"
+  },
+  "progress": {
+    "rows": {
+      "wr": "Rata de victorii",
+      "kda": "KDA",
+      "k": "Eliminări pe meci",
+      "d": "Morți pe meci",
+      "a": "Asistențe pe meci",
+      "cs": "CS pe minut",
+      "vs": "Viziune pe minut",
+      "dm": "Daune pe minut",
+      "kp": "Participare la eliminări",
+      "rank": "Rang"
+    },
+    "flat": "De atunci nu s-a mișcat nimic cu adevărat. Consecvența e o abilitate.",
+    "allUp": "Mai bine pe toate planurile: {better} din {total} statistici au crescut și niciuna nu a scăzut.",
+    "allDown": "O perioadă mai grea: {worse} din {total} statistici au scăzut. Orice urcuș are și căderi.",
+    "moreUp": "Mai multe în creștere decât în scădere: {better} statistici s-au îmbunătățit și {worse} au scăzut.",
+    "mixed": "O imagine amestecată: {better} statistici s-au îmbunătățit, {worse} au scăzut."
+  },
+  "classInline": {
+    "Tank": "tank",
+    "Marksman": "trăgător",
+    "Mage": "mag",
+    "Assassin": "asasin",
+    "Fighter": "luptător",
+    "Support": "suport"
+  },
+  "tiltguard": {
+    "stop": "După {losses} înfrângeri la rând câștigi {rate} din meciurile următoare, față de {base} de obicei. Acesta e semnalul tău de oprire.",
+    "keepGoing": "Și totuși intri din nou la coadă în {keep} din cazuri.",
+    "steady": "Chiar și după {losses} înfrângeri la rând câștigi {rate}. Seriile nu te clintesc.",
+    "liveStop": "Chiar acum ești într-o serie de înfrângeri: {run} la rând. După o serie ca asta câștigi {rate} din meciul următor. Poate ar trebui să te oprești.",
+    "liveInfo": "Chiar acum ești într-o serie de înfrângeri: {run} la rând. După una ca asta câștigi {rate} din meciul următor."
+  },
+  "formcurve": {
+    "swing": "De la {worst} în cel mai slab moment la {best} în cel mai bun, pe ferestre de {games}.",
+    "steady": "În orice interval de {games} ai rămas între {worst} și {best}. Foarte constant.",
+    "hot": "În ultima vreme ești pe val: {now} în ultimele tale {games}, față de {avg} în sezon.",
+    "cold": "În ultima vreme e mai greu: {now} în ultimele tale {games}, față de {avg} în sezon.",
+    "even": "În ultima vreme ești la nivelul tău obișnuit: {now} în ultimele tale {games}, {avg} în sezon."
+  },
+  "patches": {
+    "swing": "Ți-a mers cel mai bine în patch-ul {best} ({bestRate}) și cel mai slab în {worst} ({worstRate}).",
+    "steady": "Patch după patch ai rămas între {worstRate} și {bestRate}. Patch-urile noi abia te clintesc."
+  },
+  "runes": {
+    "better": "Cu {best} câștigi {bestRate}, față de {favoriteRate} cu {favorite}. Merită s-o iei mai des?",
+    "loyal": "{name} în {share} din meciurile tale. Odată ce găsești runa principală, nu mai renunți.",
+    "plain": "{name} este runa ta principală: {rate} victorii în {games}."
+  },
+  "championPage": {
+    "better": "{name} depășește nivelul tău obișnuit: {rate} față de {overall} în total.",
+    "worse": "{name} e mai greu: {rate} față de {overall} în total.",
+    "level": "{name} e la nivelul tău obișnuit: {rate}, {overall} în total.",
+    "few": "{games} cu {name} până acum: {rate} victorii."
+  }
+}

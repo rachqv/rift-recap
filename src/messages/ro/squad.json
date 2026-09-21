@@ -1,0 +1,181 @@
+{
+  "awards": {
+    "objectiveSteal": {
+      "title": "Cel mai probabil să fure obiectivul",
+      "tagline": "Ai grijă de dragonul tău. Apoi privește-l cum dispare.",
+      "label": "obiective furate",
+      "line": "{name} a furat {count, plural, one {# obiectiv} few {# obiective} other {# de obiective}}. Nimic nu e în siguranță."
+    },
+    "objectiveTake": {
+      "title": "Cel mai probabil să ia obiectivul",
+      "tagline": "Unde merge dragonul, merg și ei.",
+      "label": "daune la obiective pe minut",
+      "line": "{name} a dat {value} daune pe minut obiectivelor."
+    },
+    "deaths": {
+      "title": "Cele mai multe morți",
+      "tagline": "Ecran gri? Au abonament pe sezon.",
+      "label": "morți pe meci",
+      "line": "{name} a petrecut cam {minutes} minute din fiecare meci uitându-se la ecranul gri."
+    },
+    "pings": {
+      "title": "Șoferul de pe bancheta din spate",
+      "tagline": "Cel mai probabil să dea ping „retrageți-vă” propriei echipe.",
+      "label": "ping-uri pe meci",
+      "line": "{name} a dat ping de {value} ori pe meci. Harta mică nu a avut pace."
+    },
+    "vision": {
+      "title": "Farul",
+      "tagline": "A aprins lumina pentru toți ceilalți.",
+      "label": "scor de viziune pe minut",
+      "line": "{value} scor de viziune pe minut de la {name}. Nimeni nu a intrat singur în întuneric."
+    },
+    "tank": {
+      "title": "Sacul de box",
+      "tagline": "A absorbit cele mai multe daune pentru echipă.",
+      "label": "daune primite pe meci",
+      "line": "{name} a absorbit {value} daune pe meci."
+    },
+    "assists": {
+      "title": "Cel mai bun prieten",
+      "tagline": "Mereu acolo ca să pregătească acțiunea.",
+      "label": "asistențe pe meci",
+      "line": "{name} a avut în medie {value} asistențe. Coechipierul preferat al echipei."
+    },
+    "carry": {
+      "title": "Carry-ul",
+      "tagline": "Cel mai probabil să câștige pentru toți ceilalți.",
+      "label": "KDA",
+      "line": "Un KDA de {value}. {name} a făcut munca grea."
+    },
+    "damage": {
+      "title": "Lovitorul greu",
+      "tagline": "Barele de viață se topesc la contact.",
+      "label": "daune pe minut",
+      "line": "{value} daune campionilor în fiecare minut de la {name}."
+    },
+    "farm": {
+      "title": "Fermierul",
+      "tagline": "Niciun val cu tun nu a fost lăsat în urmă.",
+      "label": "CS pe minut",
+      "line": "{value} minioni pe minut. {name} a fost mereu la val."
+    },
+    "present": {
+      "title": "Mereu acolo",
+      "tagline": "Dacă a fost o luptă, au fost în ea.",
+      "label": "participare la eliminări",
+      "line": "{name} a participat la {value} din eliminările echipei."
+    },
+    "cc": {
+      "title": "Controlorul de mulțimi",
+      "tagline": "A ținut inamicul pe loc ca ceilalți să lucreze.",
+      "label": "secunde de control pe meci",
+      "line": "{name} a ținut inamicii blocați {value, plural, one {# secundă} few {# secunde} other {# de secunde}} pe meci."
+    }
+  },
+  "chemistry": {
+    "destiny": "Duo-ul destinului",
+    "great": "Chimie grozavă",
+    "solid": "Parteneri solizi",
+    "awkward": "Stânjenitori împreună",
+    "apart": "Mai bine separat"
+  },
+  "slides": {
+    "intro": {
+      "eyebrow": "Rezumatul echipei",
+      "together": "{count, plural, one {meci împreună} few {meciuri împreună} other {de meciuri împreună}}",
+      "hours": "{n, plural, one {<b>{value}</b> oră} few {<b>{value}</b> ore} other {<b>{value}</b> de ore}}",
+      "note": "Pe baza celor mai recente {loaded} meciuri ale voastre împreună (din {found} găsite)."
+    },
+    "record": {
+      "eyebrow": "Palmaresul vostru",
+      "label": "rata de victorii împreună",
+      "bestStreak": "Cea mai bună serie <good>{count, plural, one {# victorie} few {# victorii} other {# de victorii}}</good>",
+      "worstSkid": "Cea mai proastă serie <bad>{count, plural, one {# înfrângere} few {# înfrângeri} other {# de înfrângeri}}</bad>",
+      "all": "Toți cei {members} împreună în {games, plural, one {<b>#</b> meci} few {<b>#</b> meciuri} other {<b>#</b> de meciuri}}",
+      "machine": "O mașină când intrați la coadă împreună.",
+      "good": "Mai multe victorii decât înfrângeri. Echipa livrează.",
+      "balanced": "Perfect echilibrat. Haos, dar de genul distractiv.",
+      "rough": "Rezultate grele. Dar grupul de chat are povești."
+    },
+    "pairs": {
+      "eyebrow": "Chimia duo-urilor",
+      "best": "Cel mai bun duo",
+      "worst": "Trebuie lucrat",
+      "games": "{count, plural, one {# meci} few {# meciuri} other {# de meciuri}} împreună",
+      "chemistry": "{icon} {score} chimie · {label}",
+      "captionBoth": "{a} și {b} sunt cei cu care merită să intri la coadă. {c} și {d}, poate nu.",
+      "captionBest": "{a} și {b} sunt cea mai puternică pereche a voastră."
+    },
+    "award": {
+      "eyebrow": "Premiul {position} din {total}",
+      "runner": "{n}. {name} <b>{display}</b>"
+    },
+    "board": {
+      "eyebrow": "Clasamentul",
+      "aria": "Clasamentul echipei",
+      "kda": "KDA",
+      "deaths": "Morți",
+      "damage": "Daune/min",
+      "awards": "Premii",
+      "note": "Sortat după KDA. Premiile sunt trofeele pe care fiecare le-a luat acasă."
+    },
+    "finale": {
+      "mvp": "MVP-ul echipei",
+      "none": "Asta e echipa",
+      "awards": "{count, plural, one {# premiu} few {# premii} other {# de premii}}, mai multe decât oricine altcineva.",
+      "recap": "Rezumatul lui {name}",
+      "versus": "Față în față: {a} vs {b}",
+      "shareTitle": "Rezumatul echipei noastre de League: {names}",
+      "another": "Începe altă echipă"
+    },
+    "rivalry": {
+      "eyebrow": "Foc prietenesc",
+      "lead": "Palmaresul vostru unul împotriva celuilalt, {count, plural, one {# întâlnire} few {# întâlniri} other {# de întâlniri}} în echipe opuse",
+      "aria": "Palmaresuri față în față",
+      "cell": "{wins, plural, one {# victorie} few {# victorii} other {# de victorii}}, {losses, plural, one {# înfrângere} few {# înfrângeri} other {# de înfrângeri}}",
+      "even": "{a} și {b} sunt la egalitate perfectă după {games, plural, one {# întâlnire} few {# întâlniri} other {# de întâlniri}}.",
+      "edge": "{winner} are avantaj asupra lui {loser}, {hi} la {lo}. Cea mai mare rivalitate din echipă."
+    },
+    "combos": {
+      "eyebrow": "Cu cine să intri la coadă",
+      "trio": "Cel mai bun trio",
+      "duo": "Cel mai bun duo",
+      "record": "{wins}V {losses}Î în {games, plural, one {# meci} few {# meciuri} other {# de meciuri}} împreună",
+      "caption": "{names}: intrați la coadă împreună și rata de victorii vorbește de la sine.",
+      "games": "{count, plural, one {# meci} few {# meciuri} other {# de meciuri}}"
+    },
+    "roles": {
+      "eyebrow": "Cea mai bună formație",
+      "aria": "Rol sugerat pentru fiecare membru",
+      "swap": "Pe hârtie, aceasta este cea mai bună formație: fiecare în rolul în care câștigă cel mai des, după meciurile voastre împreună. Un eșantion mic, deci luați-o ca pe un indiciu.",
+      "settled": "Toți joacă deja rolul în care câștigă cel mai des. Nimic de schimbat.",
+      "was": "de obicei {role}"
+    }
+  },
+  "rail": {
+    "start": "Început",
+    "record": "Palmares",
+    "duos": "Duo-uri",
+    "roles": "Roluri",
+    "queue": "Cu cine la coadă",
+    "rivals": "Rivali",
+    "quiz": "Test",
+    "board": "Clasament",
+    "mvp": "MVP"
+  },
+  "page": {
+    "title": "{names} · Rezumatul echipei",
+    "titleDemo": "Rezumat de echipă exemplu · Rift Recap",
+    "titleEmpty": "Rezumatul echipei · Rift Recap",
+    "description": "Premii de grup din meciurile jucate împreună de o echipă: cele mai multe morți, cele mai multe obiective furate și altele.",
+    "pickServer": "Alege un server.",
+    "unreadable": "Nu am putut citi {names}. Riot ID-urile arată ca Nume#TAG.",
+    "atLeastTwo": "Introdu cel puțin două Riot ID-uri.",
+    "atMostFive": "O echipă are cel mult cinci jucători.",
+    "notFound": "Niciun jucător găsit pentru {names} pe {region}. Verifică ortografia și serverul.",
+    "noShared": "Niciunul dintre voi nu are un meci comun {where}. Funcționează pe baza meciurilor jucate împreună, așa că încearcă un interval mai lung sau oameni cu care intri la coadă.",
+    "whereSeason": "în ultimele voastre {count}",
+    "whereRange": "în intervalul: {range}"
+  }
+}

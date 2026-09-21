@@ -1,0 +1,43 @@
+{
+  "badge": "Podsumowanie sezonu",
+  "title": {
+    "line1": "Twój sezon,",
+    "line2": "w pigułce."
+  },
+  "subtitle": "Każda gra, każdy pentakill, każdy wątpliwy Błysk. Wpisz swoje Riot ID i przeżyj jeszcze raz swoją podróż przez Kanion.",
+  "error": "Wpisz swoje Riot ID w formacie Nazwa#TAG i wybierz region.",
+  "hint": "Bez logowania. Tylko twoje Riot ID. <link>Zobacz przykładowe podsumowanie →</link>",
+  "modes": {
+    "squad": "Podsumowanie drużyny",
+    "versus": "Jeden na jednego",
+    "clash": "Drużyna przeciw drużynie",
+    "players": "Twoi gracze"
+  },
+  "features": {
+    "title": "Co zawiera twoje podsumowanie",
+    "champions": {
+      "title": "Twoi bohaterowie",
+      "text": "Kto cię poniósł, kto kosztował cię LP i ten jeden pick, którego nie potrafisz nie wybrać."
+    },
+    "climb": {
+      "title": "Twoja wspinaczka",
+      "text": "Odsetek wygranych, KDA i zmiany rangi w całym sezonie, opowiedziane jak historia."
+    },
+    "time": {
+      "title": "Twój czas",
+      "text": "Godziny spędzone na Kanionie, twoja najdłuższa gra, twoja najpóźniejsza nocna kolejka."
+    }
+  },
+  "sample": {
+    "label": "Przykładowe karty podsumowania",
+    "games": "Rozegrane gry",
+    "days": "≈ {days} dni spędzonych na Kanionie",
+    "signature": "Bohater znak rozpoznawczy",
+    "record": "{games} gier · {winRate} wygranych",
+    "kda": "KDA sezonu",
+    "peak": "Najwyższa ranga",
+    "peakRank": "Szmaragd II",
+    "climbed": "+{lp} LP zdobytych w tym sezonie"
+  },
+  "footer": "Rift Recap nie jest wspierany przez Riot Games i nie odzwierciedla poglądów ani opinii Riot Games ani osób oficjalnie zaangażowanych w tworzenie lub zarządzanie własnościami Riot Games. Riot Games i wszystkie powiązane własności są znakami towarowymi lub zastrzeżonymi znakami towarowymi Riot Games, Inc."
+}

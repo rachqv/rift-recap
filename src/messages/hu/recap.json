@@ -1,0 +1,381 @@
+{
+  "season": "{year}. szezon",
+  "strip": "{wins, plural, one {# győzelem} other {# győzelem}} és {losses, plural, one {# vereség} other {# vereség}}, a legrégebbi meccstől kezdve",
+  "record": "{wins}GY · {losses}V",
+  "recordChip": "<good>{wins}</good>GY <bad>{losses}</bad>V",
+  "winRateChip": "<b>{rate}</b> nyerési arány",
+  "kdaChip": "<b>{kda}</b> KDA",
+  "gamesChip": "{count, plural, one {<b>#</b> meccs} other {<b>#</b> meccs}}",
+  "gamesLabel": "{count, plural, one {# meccs} other {# meccs}}",
+  "intro": {
+    "eyebrow": "{season} összegzés",
+    "caption": "{games, plural, other {Átnéztük # meccsedet. Készen állsz, hogy megnézd, hogyan teljesítettél?}}",
+    "scroll": "Görgess"
+  },
+  "games": {
+    "eyebrow": "Megjelentél",
+    "played": "{count, plural, one {lejátszott meccs} other {lejátszott meccs}}",
+    "riftOnly": "{count, plural, one {Idézők Szurdoka meccs} other {Idézők Szurdoka meccs}}",
+    "wins": "{count, plural, one {<good>#</good> győzelem} other {<good>#</good> győzelem}}",
+    "losses": "{count, plural, one {<bad>#</bad> vereség} other {<bad>#</bad> vereség}}",
+    "hours": "{n, plural, one {<b>{value}</b> óra} other {<b>{value}</b> óra}}"
+  },
+  "win": {
+    "eyebrow": "A nyerési arányod"
+  },
+  "champion": {
+    "eyebrow": "A védjegybajnokod",
+    "more": "Minden {champion} meccsed",
+    "back": "Vissza a teljes összefoglalóhoz",
+    "pageTitle": "{champion} · {name}#{tag} · Rift Recap",
+    "pageEyebrow": "Bajnok-jelentés",
+    "noneTitle": "Nincs meccs ezzel a bajnokkal",
+    "none": "Nincs meccs ezzel a bajnokkal ({champion}) ebben az időszakban: {who}. Próbálj másikat az összefoglalóból."
+  },
+  "kda": {
+    "eyebrow": "A harci statisztikáid",
+    "kills": "ölés",
+    "deaths": "halál",
+    "assists": "assziszt",
+    "perGame": "{value} / meccs",
+    "best": "A legjobb meccsed",
+    "bestLine": "{champion} · {kills}/{deaths}/{assists}",
+    "victory": "Győzelem",
+    "defeat": "Vereség"
+  },
+  "style": {
+    "eyebrow": "Hogyan játszol",
+    "mainRole": "fő szerep · {share}",
+    "cs": "CS percenként",
+    "vision": "látás percenként",
+    "damage": "sebzés percenként",
+    "kp": "ölésben való részvétel",
+    "penta": "{count, plural, one {<b>#</b> pentakill} other {<b>#</b> pentakill}}",
+    "quadra": "{count, plural, one {<b>#</b> quadrakill} other {<b>#</b> quadrakill}}",
+    "triple": "{count, plural, one {<b>#</b> triple kill} other {<b>#</b> triple kill}}",
+    "firstBloods": "{count, plural, one {<b>#</b> első vér} other {<b>#</b> első vér}}",
+    "deathless": "{count, plural, one {<b>#</b> halál nélküli meccs} other {<b>#</b> halál nélküli meccs}}",
+    "longestWon": "A leghosszabb meccsed {duration} volt {champion} bajnokkal. És meg is nyerted.",
+    "longestLost": "A leghosszabb meccsed {duration} volt {champion} bajnokkal. Van, hogy egyszerűen nem végződnek jól."
+  },
+  "mode": {
+    "aram": {
+      "eyebrow": "Az Üvöltő Szakadékban",
+      "label": "{count, plural, one {ARAM meccs} other {ARAM meccs}}"
+    },
+    "normal": {
+      "eyebrow": "Csak szórakozásból",
+      "label": "{count, plural, one {normál meccs} other {normál meccs}}"
+    }
+  },
+  "rank": {
+    "emblem": "{title} jelvény",
+    "lp": "<b>{lp}</b> LP",
+    "caption": "A jelenlegi rangod. Minden mászás a következő meccsel kezdődik."
+  },
+  "persona": {
+    "eyebrow": "Ebben a szezonban te voltál",
+    "also": "És egy kicsit: {list}",
+    "main": "<b>{champion}</b> main",
+    "shareTitle": "A League szezonom: {title}",
+    "compare": "Hasonlítsd össze egy baráttal",
+    "squad": "Csapatösszegzés",
+    "search": "Másik játékos keresése",
+    "count": "{count} típusból 1",
+    "countEstimate": "{count} típusból 1 · a ritkaság becslés"
+  },
+  "calendar": {
+    "eyebrow": "A naptárad",
+    "note": "A legutóbbi {count, plural, one {# meccsed} other {# meccsed}} alapján."
+  },
+  "clock": {
+    "eyebrow": "Mikor nyersz"
+  },
+  "items": {
+    "eyebrow": "A kedvenc tárgyad",
+    "inGames": "{games, plural, one {A(z) # meccsedből <b>{count}</b>-ban} other {A(z) # meccsedből <b>{count}</b>-ban}}",
+    "winWith": "<b>{rate}</b> nyerési arány vele",
+    "without": "<b>{rate}</b> nélküle",
+    "boots": "Csizma"
+  },
+  "objectives": {
+    "eyebrow": "Célpontok",
+    "lead": "A csapataid ennyit szereztek {games, plural, one {# meccsen} other {# meccsen}}",
+    "tiles": {
+      "tower": "Tornyok",
+      "dragon": "Sárkányok",
+      "baron": "Baronok",
+      "herald": "Hírnökök",
+      "grubs": "Ürlárvák",
+      "inhibitor": "Inhibitorok"
+    },
+    "youTotal": "te: {count}",
+    "youSecured": "te {count} biztosítottál",
+    "perGame": "{value} meccsenként",
+    "firstTower": "Első torony a meccsek <b>{rate}</b> részében",
+    "withWithout": "<good>{withIt}</good> győzelem vele · <b>{without}</b> nélküle",
+    "stolen": "<b>{count}</b> ellopva"
+  },
+  "tilt": {
+    "eyebrow": {
+      "tilt": "Tilt-ellenőrzés",
+      "resilient": "Visszatérés-ellenőrzés",
+      "steady": "Hozzáállás-ellenőrzés"
+    },
+    "afterWin": "Győzelem után",
+    "afterLoss": "Vereség után",
+    "tilts": "Vereség után tiltel",
+    "bounces": "Visszapattan"
+  },
+  "comfort": {
+    "eyebrow": "A komfortzónád",
+    "lead": "Nyerési arány bajnokonként, összesen {rate} mellett"
+  },
+  "gray": {
+    "eyebrow": "A szürke képernyő",
+    "unit": "ó",
+    "spentDead": "halottként töltött idő",
+    "aliveAria": "Az idő {alive} részében élve, {dead} részében halott",
+    "alive": "Élve {value}",
+    "dead": "Halott {value}",
+    "share": "a játékidőd <b>{share}</b> része",
+    "perGame": "meccsenként <b>{minutes}</b> perc",
+    "films": "{n, plural, one {Körülbelül <b>#</b> film} other {Körülbelül <b>#</b> film}}"
+  },
+  "progress": {
+    "eyebrow": "A legutóbbi óta",
+    "lead": "{date} · {saved, plural, one {# meccs} other {# meccs}} → most {games}",
+    "was": " · korábban: {persona}",
+    "improved": "<good>▲ {count}</good> javult",
+    "slipped": "<bad>▼ {count}</bad> romlott",
+    "mood": {
+      "better": "javult",
+      "worse": "romlott",
+      "flat": "nincs változás"
+    }
+  },
+  "trophies": {
+    "eyebrow": "A trófeapolcod",
+    "of": "{total} közül feloldva",
+    "unlocked": "Feloldva",
+    "progress": "{percent} teljesítve",
+    "next": "Legközelebb a feloldáshoz: {name} ({percent}). {text}",
+    "all": "Minden trófeát megszereztél, amit megszerezhettél.",
+    "lines": "Bingó <b>{count}</b>",
+    "free": "Ingyen",
+    "board": "Trófea-bingótábla",
+    "nextBingo": "Következő bingó: {name} ({percent}). {text}",
+    "shareTitle": "A Rift Recap trófea-bingóm"
+  },
+  "blame": {
+    "eyebrow": "Te voltál?",
+    "carry": "Te vitted a hátadon",
+    "weak": "A leggyengébb láncszem",
+    "team": "Csapatmunka",
+    "across": "A(z) {losses, plural, one {# vereséged} other {# vereséged}} során",
+    "topDamage": "Legtöbb sebzés",
+    "chance": "Pusztán a véletlen {rate} lenne",
+    "deaths": "A csapat halálai",
+    "average": "Az átlag {rate}"
+  },
+  "tierList": {
+    "eyebrow": "A tier listád",
+    "aria": "Bajnok tier list",
+    "title": "{name}: {winRate} {games, plural, one {# meccsen} other {# meccsen}}",
+    "note": "Nyerési arány szerint rendezve, majd KDA szerint. A 4 meccsnél kevesebbet játszott bajnokok kimaradnak."
+  },
+  "habits": {
+    "eyebrow": "A szokásaid",
+    "pings": "meccsenként {value} ping",
+    "flash": "Flash a(z) {key} gombon · meccsenként {value} használat",
+    "pairShare": "a meccsek {share} részében",
+    "quits": "{enemy} ellenséges feladás · {ours} a tiéd",
+    "ping": "Pingstílus",
+    "spells": "Idézői varázslatok",
+    "surrender": "Feladással végződött"
+  },
+  "damage": {
+    "eyebrow": "A sebzésed",
+    "parts": {
+      "physical": "Fizikai",
+      "magic": "Mágikus",
+      "true": "Igaz"
+    },
+    "partAria": "{label} {share}"
+  },
+  "comp": {
+    "eyebrow": "Csapatösszetétel",
+    "with": "Ha van <b>{class}</b>",
+    "games": "{withGames, plural, one {# meccs} other {# meccs}} szemben {withoutGames, plural, one {# meccs} other {# meccs}} nélküle",
+    "versus": "szemben {rate}"
+  },
+  "sessions": {
+    "eyebrow": "Az estéid",
+    "lead": "{count, plural, one {# menet} other {# menet}} · menetenként nagyjából {avg} meccs",
+    "best": "Legjobb este",
+    "worst": "Legrosszabb este",
+    "longest": "Leghosszabb menet",
+    "meta": "{games, plural, one {# meccs} other {# meccs}} · {date}"
+  },
+  "highlights": {
+    "eyebrow": "A legjobb pillanatok",
+    "minutes": "{count, plural, one {# perc} other {# perc}}",
+    "meta": "{what} · {date}",
+    "won": "Nyert",
+    "lost": "Vesztett",
+    "caption": "A meccsek, amiket partikon fogsz emlegetni."
+  },
+  "lane": {
+    "lane": "Sávellenőrzés",
+    "gold": "Aranyszokások",
+    "cs": "CS a sávellenféllel szemben",
+    "goldDiff": "Arany a sávellenféllel szemben",
+    "damage": "Sebzés a sávellenféllel szemben",
+    "unspent": "El nem költött arany a végén",
+    "ahead": "Aranyban vezetsz a(z) {games, plural, one {# meccs} other {# meccs}} <b>{rate}</b> részében",
+    "kills": "meccsenként {value} ölés",
+    "csValue": "{value} CS"
+  },
+  "early": {
+    "eyebrow": "A 15. percben",
+    "titles": {
+      "early": "A korai játék zsarnoka",
+      "late": "Későn erősödő",
+      "steady": "Biztos kéz"
+    },
+    "parts": {
+      "ahead": "Előny",
+      "even": "Egyenlő",
+      "behind": "Hátrány"
+    },
+    "aria": "{label} {n, plural, one {# meccsen} other {# meccsen}}",
+    "wonAhead": "Előnyből {total} meccsből <good>{wins}</good> nyert",
+    "wonBehind": "Hátrányból {total} meccsből <b>{wins}</b> nyert",
+    "lead": "A legutóbbi {games, plural, one {# sávmeccsed} other {# sávmeccsed}}, a sávellenféllel szemben"
+  },
+  "chapters": {
+    "eyebrow": "A szezonod fejezetekben",
+    "wins": "{rate} győzelem",
+    "note": "Minden fejezetet a saját meccsei alapján értékelünk, ezért a rövidek kevésbé megbízhatók."
+  },
+  "flames": {
+    "eyebrow": "Régi lángok",
+    "lead": "Bajnokok, akiket jól ismersz, és alig érintettél ebben a szezonban",
+    "mastery": "Mesterségi szint {level} · {played}",
+    "notPlayed": "nem játszott",
+    "caption": "{champion} bajnok mögött {points} mesterségi pont áll. Hiányzol neki."
+  },
+  "social": {
+    "duo": {
+      "eyebrow": "A duód",
+      "together": "{count, plural, one {közös meccs} other {közös meccs}}",
+      "winTogether": "<b>{rate}</b> nyerési arány együtt",
+      "apart": "<b>{rate}</b> külön",
+      "combo": "Legjobb kombó <b>{pair}</b>",
+      "alone": "Az idei szezon minden meccse {name} nevű játékossal volt. Ez elköteleződés.",
+      "better": "{name} nevű játékossal {withRate} a nyerési arányod, nélküle {without}. Tartsátok együtt a bandát.",
+      "worse": "{name} nevű játékossal kevesebbet nyersz ({withRate} szemben az egyedüli {without}). A barátság többet ér a statisztikánál.",
+      "same": "Nagyjából ugyanaz a nyerési arányod {name} nevű játékossal és nélküle. A társaság a lényeg.",
+      "seeRecap": "{name} összegzésének megtekintése",
+      "versus": "Szemtől szemben"
+    },
+    "matchup": {
+      "single": "A sávellenfeled",
+      "both": "Ősellenség és a legjobb párharc",
+      "nemesis": "Az ősellenséged",
+      "best": "A legjobb párharcod",
+      "vs": "VS",
+      "record": "<good>{wins}GY</good> <bad>{losses}V</bad>",
+      "meta": "{rate} nyerési arány",
+      "metaAs": "{rate} nyerési arány · {champion} bajnokként",
+      "insightBoth": "Tiltsd ki: {nemesis}, és reméld, hogy {best} jön.",
+      "insightNemesis": "{nemesis} a te kriptonitod. Fontold meg a tiltást.",
+      "insightBest": "{best} sosem esélyes veled szemben."
+    }
+  },
+  "rail": {
+    "start": "Kezdés",
+    "games": "Meccsek",
+    "week": "Hétről hétre",
+    "form": "Forma",
+    "calendar": "Naptár",
+    "clock": "Óra",
+    "patches": "Patchek",
+    "nights": "Esték",
+    "wins": "Győzelmek",
+    "progress": "Haladás",
+    "tilt": "Tilt",
+    "tiltGuard": "Stopjel",
+    "blame": "Te voltál?",
+    "champion": "Bajnok",
+    "comfort": "Komfort",
+    "flames": "Régi lángok",
+    "tierList": "Tier list",
+    "pool": "Próbáld ki",
+    "combat": "Harc",
+    "highlights": "Kiemelések",
+    "damage": "Sebzés",
+    "gray": "Szürke képernyő",
+    "playstyle": "Játékstílus",
+    "lane": "Sáv",
+    "early": "Korai játék",
+    "habits": "Szokások",
+    "items": "Tárgyak",
+    "runes": "Rúnák",
+    "objectives": "Célpontok",
+    "duo": "Duó",
+    "matchups": "Párharcok",
+    "comps": "Összetételek",
+    "normals": "Normál",
+    "aram": "ARAM",
+    "chapters": "Fejezetek",
+    "trophies": "Trófeák",
+    "rank": "Rang",
+    "guess": "Tipp",
+    "you": "Te",
+    "back": "Vissza"
+  },
+  "page": {
+    "title": "{name}#{tag} · Rift Recap",
+    "description": "Egy League of Legends szezonösszegzés: statisztikák, egy típus és egy megosztható kártya.",
+    "failed": "Nem sikerült betölteni ezt az összegzést",
+    "noGamesTitle": "Még nincs meccs",
+    "noGames": "{since} óta nem találtunk meccset ehhez: {who}. Játssz pár meccset, és térj vissza.",
+    "noRangeTitle": "Nincs meccs ebben az időszakban",
+    "noRange": "{who} {since} óta nem játszott meccset. Próbálj hosszabb időszakot."
+  },
+  "tiltguard": {
+    "eyebrow": "Tilt-őr",
+    "step1": "1 vereség után",
+    "step2": "2 egymás után",
+    "step3": "3+ egymás után",
+    "live": "Éppen most"
+  },
+  "formcurve": {
+    "eyebrow": "A szezonod vonalként",
+    "lead": "Győzelmi arány bármelyik {games} alatt",
+    "best": "Legjobb <b>{rate}</b> · vége: {date}",
+    "worst": "Legrosszabb <b>{rate}</b> · vége: {date}",
+    "now": "Most <b>{rate}</b>",
+    "aria": "Gördülő győzelmi arány: legjobb {best}, legrosszabb {worst}, legutóbbi {now}",
+    "shareTitle": "A szezonom vonalként"
+  },
+  "week": {
+    "eyebrow": "Elmúlt 7 nap vs az előző 7",
+    "lead": "{now} most · {before} előtte"
+  },
+  "patches": {
+    "eyebrow": "Patchről patchre",
+    "title": "Győzelmi arány patchenként"
+  },
+  "runes": {
+    "eyebrow": "A kulcsrúnád",
+    "winWith": "<b>{rate}</b> nyerési arány vele",
+    "without": "<b>{rate}</b> nélküle"
+  },
+  "pool": {
+    "eyebrow": "Kipróbálandó bajnokok",
+    "because": "Mert {champion} bejön neked: {rate} győzelmi arány",
+    "note": "Hasonló osztály és játékstílus alapján választva. Javaslat, nem ígéret."
+  }
+}

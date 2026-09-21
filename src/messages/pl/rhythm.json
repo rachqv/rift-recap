@@ -1,0 +1,30 @@
+{
+  "same": "Gracie o tych samych porach. Upiorne.",
+  "daysShort": "{value} d",
+  "nightOwl": {
+    "title": "Nocny marek",
+    "tagline": "Gry zaczynające się po północy.",
+    "line": "{share} gier gracza {name} zaczyna się po północy. {other} ma godzinę pójścia spać."
+  },
+  "earlyBird": {
+    "title": "Ranny ptaszek",
+    "tagline": "Gry zaczynające się przed południem.",
+    "line": "{share} gier gracza {name} jest przed południem. Kolejka z kawą. {other} śpi do późna."
+  },
+  "weekend": {
+    "title": "Weekendowy wojownik",
+    "tagline": "Gry rozegrane w sobotę lub niedzielę.",
+    "line": "{share} gier gracza {name} wypada w weekend. {other} to raczej gracz z dni roboczych."
+  },
+  "streak": {
+    "title": "Codzienny nawyk",
+    "tagline": "Najdłuższa seria dni z rzędu z grą.",
+    "line": "{name} grał {days, plural, one {# dzień} few {# dni} many {# dni} other {# dnia}} z rzędu. {other} zrobił przerwę po {otherDays}."
+  },
+  "binge": {
+    "title": "Dzień maratonu",
+    "tagline": "Najwięcej gier w jednym dniu.",
+    "line": "{name} zagrał kiedyś {games, plural, one {# grę} few {# gry} many {# gier} other {# gry}} w jednym dniu. Kolacja została pominięta."
+  },
+  "label": "Scenariusze"
+}

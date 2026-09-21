@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "title": "Δείγμα ανασκόπησης · Rift Recap"
+  },
+  "switcher": {
+    "label": "Δείγματα παικτών",
+    "previous": "Προηγούμενος παίκτης δείγματος",
+    "next": "Επόμενος παίκτης δείγματος",
+    "player": "Παίκτης δείγματος",
+    "show": "Εμφάνιση"
+  },
+  "players": {
+    "onetrick": "One-Trick",
+    "specialist": "Ειδικός",
+    "explorer": "Εξερευνητής",
+    "chameleon": "Χαμαιλέων",
+    "showstopper": "Πρωταγωνιστής",
+    "slayer": "Εξολοθρευτής",
+    "daredevil": "Απερίσκεπτος",
+    "support": "Δημιουργός παιχνιδιού",
+    "unlucky": "Άτυχος ήρωας",
+    "phoenix": "Φοίνικας",
+    "risingstar": "Ανερχόμενο αστέρι",
+    "streaker": "Φλογερή σειρά",
+    "scout": "Ανιχνευτής",
+    "farmer": "Αγρότης",
+    "heavyhitter": "Βαρύ χτύπημα",
+    "everpresent": "Πάντα παρών",
+    "opener": "Ανοιχτήρι",
+    "untouchable": "Άθικτος",
+    "closer": "Κλείστης",
+    "marathoner": "Μαραθωνοδρόμος",
+    "speedrunner": "Speedrunner",
+    "assassin": "Δολοφόνος",
+    "archmage": "Αρχιμάγος",
+    "sharpshooter": "Ελεύθερος σκοπευτής",
+    "brawler": "Καυγατζής",
+    "bulwark": "Προπύργιο",
+    "aramfan": "Φαν του ARAM",
+    "casual": "Χαλαρός",
+    "demolisher": "Κατεδαφιστής",
+    "thief": "Κλέφτης",
+    "grinder": "Εργάτης",
+    "pathfinder": "Πρωτοπόρος",
+    "islander": "Νησιώτης",
+    "centerpiece": "Κεντρικό σημείο",
+    "carry": "Carry",
+    "guardian": "Φύλακας"
+  }
+}

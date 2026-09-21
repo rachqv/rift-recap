@@ -1,0 +1,81 @@
+{
+  "language": {
+    "label": "Ngôn ngữ"
+  },
+  "range": {
+    "label": "Khoảng thời gian",
+    "season": "Mùa này",
+    "90d": "90 ngày qua",
+    "30d": "30 ngày qua",
+    "7d": "7 ngày qua"
+  },
+  "regions": {
+    "na1": "Bắc Mỹ",
+    "br1": "Brazil",
+    "la1": "LAN",
+    "la2": "LAS",
+    "euw1": "Tây Âu",
+    "eun1": "Bắc và Đông Âu",
+    "tr1": "Thổ Nhĩ Kỳ",
+    "ru": "Nga",
+    "me1": "Trung Đông",
+    "kr": "Hàn Quốc",
+    "jp1": "Nhật Bản",
+    "oc1": "Châu Đại Dương",
+    "ph2": "Philippines",
+    "sg2": "Singapore",
+    "th2": "Thái Lan",
+    "tw2": "Đài Loan",
+    "vn2": "Việt Nam"
+  },
+  "message": {
+    "tryAnother": "Thử người chơi khác",
+    "tryServer": "Có thể ở máy chủ khác?",
+    "notFoundTitle": "Không tìm thấy trang",
+    "notFoundText": "Trang này không tồn tại hoặc đã được chuyển. Hãy quay lại và tìm một người chơi.",
+    "crashTitle": "Đã xảy ra lỗi",
+    "crashText": "Trang không tải đúng cách. Hãy thử lại hoặc tìm người chơi khác.",
+    "retry": "Thử lại"
+  },
+  "loading": {
+    "recap1": "Đang triệu hồi lịch sử trận đấu của bạn…",
+    "recap2": "Đang đếm từng cú last hit…",
+    "recap3": "Đang hỏi ý kiến nhà tiên tri của Rift…",
+    "recap4": "Đang đánh bóng các Pentakill của bạn…",
+    "squad1": "Đang tìm những trận các bạn chơi cùng nhau…",
+    "squad2": "Đang đếm xem ai ping nhiều nhất…",
+    "squad3": "Đang cân đo số lần chết…",
+    "squad4": "Đang khắc cúp…",
+    "versus1": "Đang đánh giá cả hai người chơi…",
+    "versus2": "Đang lấy hai lịch sử trận đấu…",
+    "versus3": "Đang đếm từng cú last hit…",
+    "versus4": "Đang chuẩn bị phán quyết…"
+  },
+  "meta": {
+    "description": "Trang web giúp bạn nhìn lại hành trình Liên Minh Huyền Thoại của mình khi mùa giải trôi qua"
+  },
+  "roles": {
+    "TOP": "Đường trên",
+    "JUNGLE": "Đi rừng",
+    "MIDDLE": "Đường giữa",
+    "BOTTOM": "Xạ thủ",
+    "UTILITY": "Hỗ trợ"
+  },
+  "tiers": {
+    "IRON": "Sắt",
+    "BRONZE": "Đồng",
+    "SILVER": "Bạc",
+    "GOLD": "Vàng",
+    "PLATINUM": "Bạch Kim",
+    "EMERALD": "Ngọc Lục Bảo",
+    "DIAMOND": "Kim Cương",
+    "MASTER": "Cao Thủ",
+    "GRANDMASTER": "Đại Cao Thủ",
+    "CHALLENGER": "Thách Đấu"
+  },
+  "queues": {
+    "RANKED_SOLO_5x5": "Xếp hạng Đơn/Đôi",
+    "RANKED_FLEX_SR": "Xếp hạng Linh hoạt"
+  },
+  "rankTitle": "{tier} {division}"
+}

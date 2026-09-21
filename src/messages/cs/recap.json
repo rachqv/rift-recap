@@ -1,0 +1,381 @@
+{
+  "season": "Sezona {year}",
+  "strip": "{wins, plural, one {# výhra} few {# výhry} other {# výher}} a {losses, plural, one {# prohra} few {# prohry} other {# proher}}, od nejstaršího zápasu",
+  "record": "{wins}V · {losses}P",
+  "recordChip": "<good>{wins}</good>V <bad>{losses}</bad>P",
+  "winRateChip": "<b>{rate}</b> výher",
+  "kdaChip": "<b>{kda}</b> KDA",
+  "gamesChip": "{count, plural, one {<b>#</b> zápas} few {<b>#</b> zápasy} other {<b>#</b> zápasů}}",
+  "gamesLabel": "{count, plural, one {# zápas} few {# zápasy} other {# zápasů}}",
+  "intro": {
+    "eyebrow": "Souhrn: {season}",
+    "caption": "{games, plural, other {Prošli jsme # tvých zápasů. Jsi připraven zjistit, jak ses vedl?}}",
+    "scroll": "Posuň dolů"
+  },
+  "games": {
+    "eyebrow": "Byl jsi u toho",
+    "played": "{count, plural, one {odehraný zápas} few {odehrané zápasy} other {odehraných zápasů}}",
+    "riftOnly": "{count, plural, one {zápas na Summoner's Rift} few {zápasy na Summoner's Rift} other {zápasů na Summoner's Rift}}",
+    "wins": "{count, plural, one {<good>#</good> výhra} few {<good>#</good> výhry} other {<good>#</good> výher}}",
+    "losses": "{count, plural, one {<bad>#</bad> prohra} few {<bad>#</bad> prohry} other {<bad>#</bad> proher}}",
+    "hours": "{n, plural, one {<b>{value}</b> hodina} few {<b>{value}</b> hodiny} other {<b>{value}</b> hodin}}"
+  },
+  "win": {
+    "eyebrow": "Tvůj poměr výher"
+  },
+  "champion": {
+    "eyebrow": "Tvůj podpisový šampion",
+    "more": "Všechny tvoje hry s {champion}",
+    "back": "Zpět na celý přehled",
+    "pageTitle": "{champion} · {name}#{tag} · Rift Recap",
+    "pageEyebrow": "Report šampiona",
+    "noneTitle": "Žádné hry s tímto šampionem",
+    "none": "{who} nemá v tomto období žádné hry s {champion}. Zkus jiného šampiona z přehledu."
+  },
+  "kda": {
+    "eyebrow": "Tvoje bojové statistiky",
+    "kills": "zabití",
+    "deaths": "smrtí",
+    "assists": "asistencí",
+    "perGame": "{value} / zápas",
+    "best": "Tvůj nejlepší zápas",
+    "bestLine": "{champion} · {kills}/{deaths}/{assists}",
+    "victory": "Výhra",
+    "defeat": "Prohra"
+  },
+  "style": {
+    "eyebrow": "Jak hraješ",
+    "mainRole": "hlavní role · {share}",
+    "cs": "CS za minutu",
+    "vision": "vize za minutu",
+    "damage": "poškození za minutu",
+    "kp": "účast na zabitích",
+    "penta": "{count, plural, one {<b>#</b> pentakill} few {<b>#</b> pentakilly} other {<b>#</b> pentakillů}}",
+    "quadra": "{count, plural, one {<b>#</b> quadrakill} few {<b>#</b> quadrakilly} other {<b>#</b> quadrakillů}}",
+    "triple": "{count, plural, one {<b>#</b> triple kill} few {<b>#</b> triple killy} other {<b>#</b> triple killů}}",
+    "firstBloods": "{count, plural, one {<b>#</b> první krev} few {<b>#</b> první krve} other {<b>#</b> prvních krví}}",
+    "deathless": "{count, plural, one {<b>#</b> zápas bez smrti} few {<b>#</b> zápasy bez smrti} other {<b>#</b> zápasů bez smrti}}",
+    "longestWon": "Tvůj nejdelší zápas trval {duration} za {champion}. A ještě jsi ho vyhrál.",
+    "longestLost": "Tvůj nejdelší zápas trval {duration} za {champion}. Někdy prostě nekončí dobře."
+  },
+  "mode": {
+    "aram": {
+      "eyebrow": "Dolů do Vyjící propasti",
+      "label": "{count, plural, one {zápas ARAM} few {zápasy ARAM} other {zápasů ARAM}}"
+    },
+    "normal": {
+      "eyebrow": "Jen pro zábavu",
+      "label": "{count, plural, one {normální zápas} few {normální zápasy} other {normálních zápasů}}"
+    }
+  },
+  "rank": {
+    "emblem": "Znak {title}",
+    "lp": "<b>{lp}</b> LP",
+    "caption": "Tvůj rank právě teď. Každý výstup začíná dalším zápasem."
+  },
+  "persona": {
+    "eyebrow": "V této sezoně jsi byl",
+    "also": "A trochu i: {list}",
+    "main": "Main <b>{champion}</b>",
+    "shareTitle": "Moje sezona v Leagueu: {title}",
+    "compare": "Porovnat s přítelem",
+    "squad": "Souhrn týmu",
+    "search": "Hledat jiného hráče",
+    "count": "1 z {count} archetypů",
+    "countEstimate": "1 z {count} archetypů · vzácnost je odhad"
+  },
+  "calendar": {
+    "eyebrow": "Tvůj kalendář",
+    "note": "Podle tvých posledních {count, plural, one {# zápasu} few {# zápasů} other {# zápasů}}."
+  },
+  "clock": {
+    "eyebrow": "Kdy vyhráváš"
+  },
+  "items": {
+    "eyebrow": "Tvůj oblíbený předmět",
+    "inGames": "{games, plural, one {V <b>{count}</b> z tvého # zápasu} few {V <b>{count}</b> z tvých # zápasů} other {V <b>{count}</b> z tvých # zápasů}}",
+    "winWith": "<b>{rate}</b> výher s ním",
+    "without": "<b>{rate}</b> bez něj",
+    "boots": "Boty"
+  },
+  "objectives": {
+    "eyebrow": "Cíle",
+    "lead": "Tvoje týmy získaly v {games, plural, one {# zápase} few {# zápasech} other {# zápasech}}",
+    "tiles": {
+      "tower": "Věže",
+      "dragon": "Draci",
+      "baron": "Baroni",
+      "herald": "Heroldi",
+      "grubs": "Larvy Prázdnoty",
+      "inhibitor": "Inhibitory"
+    },
+    "youTotal": "ty: {count}",
+    "youSecured": "ty jsi zajistil {count}",
+    "perGame": "{value} za zápas",
+    "firstTower": "První věž v <b>{rate}</b> zápasů",
+    "withWithout": "<good>{withIt}</good> výher s ní · <b>{without}</b> bez ní",
+    "stolen": "<b>{count}</b> ukradeno"
+  },
+  "tilt": {
+    "eyebrow": {
+      "tilt": "Kontrola tiltu",
+      "resilient": "Kontrola návratu",
+      "steady": "Kontrola psychiky"
+    },
+    "afterWin": "Po výhře",
+    "afterLoss": "Po prohře",
+    "tilts": "Tiltuje po prohře",
+    "bounces": "Vrací se silněji"
+  },
+  "comfort": {
+    "eyebrow": "Tvoje komfortní zóna",
+    "lead": "Poměr výher podle šampiona, oproti {rate} celkově"
+  },
+  "gray": {
+    "eyebrow": "Šedá obrazovka",
+    "unit": "h",
+    "spentDead": "strávené mrtvý",
+    "aliveAria": "Naživu {alive} času, mrtvý {dead}",
+    "alive": "Naživu {value}",
+    "dead": "Mrtvý {value}",
+    "share": "<b>{share}</b> tvého času ve hře",
+    "perGame": "<b>{minutes}</b> min za zápas",
+    "films": "{n, plural, one {Asi <b>#</b> film} few {Asi <b>#</b> filmy} other {Asi <b>#</b> filmů}}"
+  },
+  "progress": {
+    "eyebrow": "Od minula",
+    "lead": "{date} · {saved, plural, one {# zápas} few {# zápasy} other {# zápasů}} → nyní {games}",
+    "was": " · dříve jsi byl: {persona}",
+    "improved": "<good>▲ {count}</good> se zlepšilo",
+    "slipped": "<bad>▼ {count}</bad> kleslo",
+    "mood": {
+      "better": "zlepšení",
+      "worse": "pokles",
+      "flat": "beze změny"
+    }
+  },
+  "trophies": {
+    "eyebrow": "Tvoje police s trofejemi",
+    "of": "z {total} odemčeno",
+    "unlocked": "Odemčeno",
+    "progress": "{percent} splněno",
+    "next": "Nejblíž odemčení: {name} ({percent}). {text}",
+    "all": "Každou trofej, kterou jsi mohl získat, jsi získal.",
+    "lines": "Bingo <b>{count}</b>",
+    "free": "Zdarma",
+    "board": "Bingo karta trofejí",
+    "nextBingo": "Další bingo: {name} ({percent}). {text}",
+    "shareTitle": "Moje bingo trofejí v Rift Recap"
+  },
+  "blame": {
+    "eyebrow": "Byl jsi to ty?",
+    "carry": "Táhl jsi tým",
+    "weak": "Slabý článek",
+    "team": "Týmové úsilí",
+    "across": "V tvých {losses, plural, one {# prohře} few {# prohrách} other {# prohrách}}",
+    "topDamage": "Nejvíc poškození",
+    "chance": "Samotná náhoda by dala {rate}",
+    "deaths": "Smrti týmu",
+    "average": "Průměr je {rate}"
+  },
+  "tierList": {
+    "eyebrow": "Tvůj tier list",
+    "aria": "Tier list šampionů",
+    "title": "{name}: {winRate} v {games, plural, one {# zápase} few {# zápasech} other {# zápasech}}",
+    "note": "Seřazeno podle poměru výher, pak KDA. Šampioni s méně než 4 zápasy jsou vynecháni."
+  },
+  "habits": {
+    "eyebrow": "Tvoje zvyky",
+    "pings": "{value} pingů za zápas",
+    "flash": "Skok na {key} · {value} použití za zápas",
+    "pairShare": "v {share} zápasů",
+    "quits": "{enemy} nepřátelských vzdání se · {ours} tvých",
+    "ping": "Styl pingů",
+    "spells": "Kouzla přivolávače",
+    "surrender": "Skončilo vzdáním se"
+  },
+  "damage": {
+    "eyebrow": "Tvoje poškození",
+    "parts": {
+      "physical": "Fyzické",
+      "magic": "Magické",
+      "true": "Čisté"
+    },
+    "partAria": "{label} {share}"
+  },
+  "comp": {
+    "eyebrow": "Složení týmu",
+    "with": "Když je v týmu <b>{class}</b>",
+    "games": "{withGames, plural, one {# zápas} few {# zápasy} other {# zápasů}} oproti {withoutGames, plural, one {# zápasu} few {# zápasům} other {# zápasům}} bez",
+    "versus": "oproti {rate}"
+  },
+  "sessions": {
+    "eyebrow": "Tvoje večery",
+    "lead": "{count, plural, one {# sezení} few {# sezení} other {# sezení}} · zhruba {avg} zápasů každé",
+    "best": "Nejlepší večer",
+    "worst": "Nejhorší večer",
+    "longest": "Nejdelší sezení",
+    "meta": "{games, plural, one {# zápas} few {# zápasy} other {# zápasů}} · {date}"
+  },
+  "highlights": {
+    "eyebrow": "Nejlepší momenty",
+    "minutes": "{count, plural, one {# minuta} few {# minuty} other {# minut}}",
+    "meta": "{what} · {date}",
+    "won": "Výhra",
+    "lost": "Prohra",
+    "caption": "Zápasy, které budeš vyprávět na večírcích."
+  },
+  "lane": {
+    "lane": "Kontrola lajny",
+    "gold": "Zvyky se zlatem",
+    "cs": "CS oproti soupeři z lajny",
+    "goldDiff": "Zlato oproti soupeři z lajny",
+    "damage": "Poškození oproti soupeři z lajny",
+    "unspent": "Nevyužité zlato na konci",
+    "ahead": "Vedení ve zlatě v <b>{rate}</b> z {games, plural, one {# zápasu} few {# zápasů} other {# zápasů}}",
+    "kills": "{value} zabití za zápas",
+    "csValue": "{value} CS"
+  },
+  "early": {
+    "eyebrow": "V 15. minutě",
+    "titles": {
+      "early": "Tyran early game",
+      "late": "Sílí v late game",
+      "steady": "Pevná ruka"
+    },
+    "parts": {
+      "ahead": "Vpředu",
+      "even": "Vyrovnaně",
+      "behind": "Pozadu"
+    },
+    "aria": "{label} v {n, plural, one {# zápase} few {# zápasech} other {# zápasech}}",
+    "wonAhead": "Vyhráno <good>{wins}</good> z {total} z vedení",
+    "wonBehind": "Vyhráno <b>{wins}</b> z {total} z pozadí",
+    "lead": "Tvých posledních {games, plural, one {# zápas na lajně} few {# zápasy na lajně} other {# zápasů na lajně}}, proti soupeři z lajny"
+  },
+  "chapters": {
+    "eyebrow": "Tvoje sezona po kapitolách",
+    "wins": "{rate} výher",
+    "note": "Každá kapitola se hodnotí podle vlastních zápasů, takže krátké jsou méně jisté."
+  },
+  "flames": {
+    "eyebrow": "Staré lásky",
+    "lead": "Šampioni, které dobře znáš a v této sezoně jsi na ně sotva sáhl",
+    "mastery": "Mistrovství {level} · {played}",
+    "notPlayed": "nehráno",
+    "caption": "{champion} má za sebou {points} bodů mistrovství. Stýská se mu po tobě."
+  },
+  "social": {
+    "duo": {
+      "eyebrow": "Tvoje dvojka",
+      "together": "{count, plural, one {zápas spolu} few {zápasy spolu} other {zápasů spolu}}",
+      "winTogether": "<b>{rate}</b> výher spolu",
+      "apart": "<b>{rate}</b> zvlášť",
+      "combo": "Nejlepší kombinace <b>{pair}</b>",
+      "alone": "Každý zápas této sezony byl s hráčem {name}. To je odhodlání.",
+      "better": "S hráčem {name} vyhráváš {withRate} a bez něj {without}. Drž kapelu pohromadě.",
+      "worse": "S hráčem {name} vyhráváš méně ({withRate} oproti {without} sólo). Přátelství před statistikami.",
+      "same": "Zhruba stejný poměr výher s hráčem {name} i bez něj. Jde o společnost.",
+      "seeRecap": "Zobrazit souhrn hráče {name}",
+      "versus": "Tváří v tvář"
+    },
+    "matchup": {
+      "single": "Tvůj soupeř z lajny",
+      "both": "Nemesis vs. nejlepší matchup",
+      "nemesis": "Tvoje nemesis",
+      "best": "Tvůj nejlepší matchup",
+      "vs": "VS",
+      "record": "<good>{wins}V</good> <bad>{losses}P</bad>",
+      "meta": "{rate} výher",
+      "metaAs": "{rate} výher · za {champion}",
+      "insightBoth": "Zabanuj {nemesis} a doufej v {best}.",
+      "insightNemesis": "{nemesis} je tvůj kryptonit. Zvaž ban.",
+      "insightBest": "{best} proti tobě nikdy neměl šanci."
+    }
+  },
+  "rail": {
+    "start": "Začátek",
+    "games": "Zápasy",
+    "week": "Týden po týdnu",
+    "form": "Forma",
+    "calendar": "Kalendář",
+    "clock": "Hodiny",
+    "patches": "Patche",
+    "nights": "Večery",
+    "wins": "Výhry",
+    "progress": "Pokrok",
+    "tilt": "Tilt",
+    "tiltGuard": "Stopka",
+    "blame": "Ty?",
+    "champion": "Šampion",
+    "comfort": "Komfort",
+    "flames": "Staré lásky",
+    "tierList": "Tier list",
+    "pool": "Zkus",
+    "combat": "Boj",
+    "highlights": "Momenty",
+    "damage": "Poškození",
+    "gray": "Šedá obrazovka",
+    "playstyle": "Styl hry",
+    "lane": "Lajna",
+    "early": "Early game",
+    "habits": "Zvyky",
+    "items": "Předměty",
+    "runes": "Runy",
+    "objectives": "Cíle",
+    "duo": "Dvojka",
+    "matchups": "Matchupy",
+    "comps": "Složení",
+    "normals": "Normální",
+    "aram": "ARAM",
+    "chapters": "Kapitoly",
+    "trophies": "Trofeje",
+    "rank": "Rank",
+    "guess": "Hádej",
+    "you": "Ty",
+    "back": "Zpět"
+  },
+  "page": {
+    "title": "{name}#{tag} · Rift Recap",
+    "description": "Souhrn sezony League of Legends: statistiky, archetyp a karta ke sdílení.",
+    "failed": "Tento souhrn se nepodařilo načíst",
+    "noGamesTitle": "Zatím žádné zápasy",
+    "noGames": "Od {since} jsme nenašli žádné zápasy hráče {who}. Odehraj pár zápasů a vrať se.",
+    "noRangeTitle": "V tomto období žádné zápasy",
+    "noRange": "Hráč {who} od {since} neodehrál žádný zápas. Zkus delší období."
+  },
+  "tiltguard": {
+    "eyebrow": "Hlídač tiltu",
+    "step1": "Po 1 prohře",
+    "step2": "Po 2 v řadě",
+    "step3": "Po 3+ v řadě",
+    "live": "Právě teď"
+  },
+  "formcurve": {
+    "eyebrow": "Tvoje sezona jako čára",
+    "lead": "Poměr výher z libovolných {games}",
+    "best": "Nejlepší <b>{rate}</b> · skončilo {date}",
+    "worst": "Nejhorší <b>{rate}</b> · skončilo {date}",
+    "now": "Teď <b>{rate}</b>",
+    "aria": "Klouzavý poměr výher: nejlepší {best}, nejhorší {worst}, poslední {now}",
+    "shareTitle": "Moje sezona jako čára"
+  },
+  "week": {
+    "eyebrow": "Posledních 7 dní vs předchozích 7",
+    "lead": "{now} teď · {before} předtím"
+  },
+  "patches": {
+    "eyebrow": "Patch po patchi",
+    "title": "Poměr výher podle patche"
+  },
+  "runes": {
+    "eyebrow": "Tvoje klíčová runa",
+    "winWith": "<b>{rate}</b> výher s ní",
+    "without": "<b>{rate}</b> bez ní"
+  },
+  "pool": {
+    "eyebrow": "Šampióni k vyzkoušení",
+    "because": "Protože ti {champion} jde: {rate} výher",
+    "note": "Vybráni podle podobné třídy a stylu hry. Doporučení, ne příslib."
+  }
+}

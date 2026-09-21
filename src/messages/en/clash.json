@@ -1,0 +1,55 @@
+{
+  "team": "Team {name}",
+  "line": {
+    "few": "{games} between the squads so far: too early to call it.",
+    "level": "{a} to {b}: about even. A gap this small could easily be luck.",
+    "lead": "{name} is ahead, {win} to {lose}. That is more than luck would explain."
+  },
+  "rail": {
+    "start": "The squads",
+    "lanes": "Lane by lane",
+    "numbers": "The numbers",
+    "stars": "Standouts",
+    "end": "Squad recaps"
+  },
+  "slides": {
+    "intro": {
+      "eyebrow": "Squad vs squad",
+      "played": "{games} played against each other"
+    },
+    "lanes": {
+      "eyebrow": "Lane by lane",
+      "aria": "Results by lane",
+      "note": "A lane only shows up when both squads had someone in it. Each game goes to the laner with the better KDA."
+    },
+    "numbers": {
+      "eyebrow": "How each squad played",
+      "aria": "Averages per player, per game",
+      "note": "Average per player, per game.",
+      "kda": "KDA",
+      "damage": "Damage to champions",
+      "gold": "Gold earned",
+      "vision": "Vision score"
+    },
+    "stars": {
+      "eyebrow": "Standouts",
+      "best": "Best KDA on {team}",
+      "stat": "{kda} KDA over {games}",
+      "record": "Won {wins} of {games}",
+      "note": "Only players with at least {min} games between the squads are considered."
+    },
+    "end": {
+      "eyebrow": "Keep going",
+      "recap": "Squad recap: {team}"
+    }
+  },
+  "page": {
+    "title": "{a} vs {b} · Squad vs squad",
+    "titleDemo": "Sample squad vs squad · Rift Recap",
+    "titleEmpty": "Squad vs squad · Rift Recap",
+    "description": "Two squads, head to head: who wins, lane by lane, and how each side played.",
+    "overlap": "{names} can't be on both squads.",
+    "atLeastTwo": "Each squad needs at least two Riot IDs.",
+    "noClash": "These squads have no games against each other {where}. It needs games where at least two of each squad were in the same match on opposite teams, like a custom 5v5."
+  }
+}

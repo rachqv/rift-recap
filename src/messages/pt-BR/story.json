@@ -1,0 +1,17 @@
+{
+  "sections": "Seções do resumo",
+  "controls": "Apresentação e som",
+  "play": "Iniciar apresentação",
+  "pause": "Pausar",
+  "resume": "Continuar",
+  "stop": "Parar apresentação",
+  "mute": "Silenciar",
+  "unmute": "Ativar som",
+  "volume": "Volume",
+  "playing": "Apresentação em andamento",
+  "paused": "Apresentação pausada",
+  "label": "Seu resumo",
+  "previous": "Slide anterior",
+  "next": "Próximo slide",
+  "copyLink": "Copiar link deste slide"
+}

@@ -1,0 +1,55 @@
+{
+  "team": "Tým {name}",
+  "line": {
+    "few": "{games} mezi týmy zatím: je brzy soudit.",
+    "level": "{a} : {b}: zhruba vyrovnáno. Tak malý rozdíl může být jen štěstí.",
+    "lead": "{name} vede {win} : {lose}. To je víc, než by vysvětlilo štěstí."
+  },
+  "rail": {
+    "start": "Týmy",
+    "lanes": "Lajna po lajně",
+    "numbers": "Čísla",
+    "stars": "Nejlepší",
+    "end": "Souhrny týmů"
+  },
+  "slides": {
+    "intro": {
+      "eyebrow": "Tým proti týmu",
+      "played": "{games} odehráno proti sobě"
+    },
+    "lanes": {
+      "eyebrow": "Lajna po lajně",
+      "aria": "Výsledky podle lajn",
+      "note": "Lajna se ukáže, jen když v ní měly oba týmy někoho. Každá hra připadne hráči z lajny s lepším KDA."
+    },
+    "numbers": {
+      "eyebrow": "Jak hrál každý tým",
+      "aria": "Průměry na hráče a hru",
+      "note": "Průměr na hráče a hru.",
+      "kda": "KDA",
+      "damage": "Poškození šampionů",
+      "gold": "Získané zlato",
+      "vision": "Skóre vidění"
+    },
+    "stars": {
+      "eyebrow": "Nejlepší",
+      "best": "Nejlepší KDA týmu {team}",
+      "stat": "KDA {kda} za {games}",
+      "record": "Vyhráno {wins} z {games}",
+      "note": "Počítají se jen hráči s alespoň {min} hrami mezi týmy."
+    },
+    "end": {
+      "eyebrow": "Pokračuj",
+      "recap": "Souhrn týmu: {team}"
+    }
+  },
+  "page": {
+    "title": "{a} vs {b} · Tým proti týmu",
+    "titleDemo": "Ukázka týmu proti týmu · Rift Recap",
+    "titleEmpty": "Tým proti týmu · Rift Recap",
+    "description": "Dva týmy tváří v tvář: kdo vyhrává, lajna po lajně a jak hrála každá strana.",
+    "overlap": "{names} nemůže být v obou týmech.",
+    "atLeastTwo": "Každý tým potřebuje alespoň dvě Riot ID.",
+    "noClash": "Tyto týmy spolu {where} nemají žádné hry. Potřebné jsou hry, kde byli alespoň dva z každého týmu ve stejném zápase na opačných stranách, třeba vlastní 5v5."
+  }
+}

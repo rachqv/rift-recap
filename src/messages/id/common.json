@@ -1,0 +1,81 @@
+{
+  "language": {
+    "label": "Bahasa"
+  },
+  "range": {
+    "label": "Rentang waktu",
+    "season": "Musim ini",
+    "90d": "90 hari terakhir",
+    "30d": "30 hari terakhir",
+    "7d": "7 hari terakhir"
+  },
+  "regions": {
+    "na1": "Amerika Utara",
+    "br1": "Brasil",
+    "la1": "LAN",
+    "la2": "LAS",
+    "euw1": "Eropa Barat",
+    "eun1": "Eropa Nordik & Timur",
+    "tr1": "Turki",
+    "ru": "Rusia",
+    "me1": "Timur Tengah",
+    "kr": "Korea",
+    "jp1": "Jepang",
+    "oc1": "Oseania",
+    "ph2": "Filipina",
+    "sg2": "Singapura",
+    "th2": "Thailand",
+    "tw2": "Taiwan",
+    "vn2": "Vietnam"
+  },
+  "message": {
+    "tryAnother": "Coba pemain lain",
+    "tryServer": "Mungkin di server lain?",
+    "notFoundTitle": "Halaman tidak ditemukan",
+    "notFoundText": "Halaman ini tidak ada atau sudah dipindahkan. Kembali dan cari pemain.",
+    "crashTitle": "Terjadi kesalahan",
+    "crashText": "Halaman tidak termuat dengan benar. Coba lagi atau cari pemain lain.",
+    "retry": "Coba lagi"
+  },
+  "loading": {
+    "recap1": "Memanggil riwayat pertandinganmu…",
+    "recap2": "Menghitung setiap last hit…",
+    "recap3": "Berkonsultasi dengan peramal Rift…",
+    "recap4": "Memoles pentakill-mu…",
+    "squad1": "Mencari pertandingan yang kalian mainkan bersama…",
+    "squad2": "Menghitung siapa yang paling banyak ping…",
+    "squad3": "Menimbang jumlah kematian…",
+    "squad4": "Mengukir piala…",
+    "versus1": "Menilai kedua pemain…",
+    "versus2": "Menarik dua riwayat pertandingan…",
+    "versus3": "Menghitung setiap last hit…",
+    "versus4": "Menyiapkan putusan…"
+  },
+  "meta": {
+    "description": "Situs untuk mengenal perjalanan League of Legends-mu seiring berjalannya musim"
+  },
+  "roles": {
+    "TOP": "Atas",
+    "JUNGLE": "Jungle",
+    "MIDDLE": "Tengah",
+    "BOTTOM": "Bawah",
+    "UTILITY": "Support"
+  },
+  "tiers": {
+    "IRON": "Besi",
+    "BRONZE": "Perunggu",
+    "SILVER": "Perak",
+    "GOLD": "Emas",
+    "PLATINUM": "Platinum",
+    "EMERALD": "Zamrud",
+    "DIAMOND": "Berlian",
+    "MASTER": "Master",
+    "GRANDMASTER": "Grandmaster",
+    "CHALLENGER": "Challenger"
+  },
+  "queues": {
+    "RANKED_SOLO_5x5": "Ranked Solo/Duo",
+    "RANKED_FLEX_SR": "Ranked Flex"
+  },
+  "rankTitle": "{tier} {division}"
+}

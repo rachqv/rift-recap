@@ -1,0 +1,256 @@
+{
+  "blame": {
+    "carry": "You dealt the most damage in {topRate} of your losses and barely fed. The team let you down.",
+    "weak": "In your losses you took {deathShare} of your team's deaths and rarely topped the damage. Look in the mirror first.",
+    "team": "In your losses you were about average for your team: {damageShare} of its damage. Nobody to blame, or everybody."
+  },
+  "sessions": {
+    "contrast": "A {bestWins}-{bestLosses} night and a {worstWins}-{worstLosses} one. Same player, different evenings.",
+    "marathon": "{games, plural, one {# game} other {# games}} in one sitting. Hydrate.",
+    "best": "Your best night went {wins}-{losses}. Chase it."
+  },
+  "early": {
+    "early": "Ahead of your lane opponent at 15 minutes in {ahead} of games, and you close them out. An early-game bully.",
+    "late": "Behind at 15 minutes in {behind} of games, yet you still win {comeback} of those. You scale, and you never give up.",
+    "steady": "Ahead at 15 in {ahead} of games and behind in {behind}. The game is decided later."
+  },
+  "tierlist": {
+    "solo": "{best} is all you've got.",
+    "uniform": "Your whole pool sits in {tier} tier, led by {best} at {winRate}.",
+    "leadS": "{best} is your S-tier pick at {winRate}.",
+    "leadOther": "Nothing reached S tier. {best} leads your list in {tier} tier at {winRate}.",
+    "lastD": "{worst} is your D-tier pick at {winRate}.",
+    "lastOther": "{worst} is at the bottom, in {tier} tier, with {winRate}.",
+    "both": "{lead} {last}"
+  },
+  "items": {
+    "better": "You win {withIt} of games with {name} and {without} without it. It's doing something right.",
+    "worse": "Your win rate is lower when you build {name} ({withIt} vs {without}). Loyalty, or habit?",
+    "habit": "{name} ended {share} of your games. Some habits you keep.",
+    "friend": "{name} finished {share} of your games. A reliable friend."
+  },
+  "habits": {
+    "flashEdge": "Flash on {key}, {perGame} casts a game. You live on the edge.",
+    "flashCalm": "Flash on {key}, {perGame} casts a game. You save it for when it counts.",
+    "pair": "{a} and {b} in {share} of your games. You know what you like.",
+    "surrenderOften": "{rate} of your games ended in a surrender. Somebody always has somewhere to be.",
+    "surrenderUs": "Your team gave up more often than the enemy did ({weQuit} to {enemyQuit}). Stay optimistic.",
+    "surrenderThem": "The other team waved the white flag {enemyQuit} times against your {weQuit}. They saw you coming.",
+    "surrenderRare": "Only {rate} of your games ended in a surrender. You play them out."
+  },
+  "spells": {
+    "1": "Cleanse",
+    "3": "Exhaust",
+    "4": "Flash",
+    "6": "Ghost",
+    "7": "Heal",
+    "11": "Smite",
+    "12": "Teleport",
+    "13": "Clarity",
+    "14": "Ignite",
+    "21": "Barrier",
+    "32": "Mark",
+    "unknown": "a spell"
+  },
+  "pings": {
+    "getBackPings": {
+      "label": "Get back",
+      "title": "The Worrier",
+      "line": "You spend your pings telling people to retreat. Your team is alive because of you."
+    },
+    "enemyMissingPings": {
+      "label": "Enemy missing",
+      "title": "The Lookout",
+      "line": "\"Missing!\" is your catchphrase. Nobody walks into the fog without you knowing."
+    },
+    "onMyWayPings": {
+      "label": "On my way",
+      "title": "The Rescuer",
+      "line": "You're always on the way. Whether you arrive is another story."
+    },
+    "assistMePings": {
+      "label": "Assist me",
+      "title": "The Instigator",
+      "line": "You ping for help and the team comes running. Or so you hope."
+    },
+    "needVisionPings": {
+      "label": "Need vision",
+      "title": "The Vision Beggar",
+      "line": "Somebody, please place a ward. You ask every game."
+    },
+    "commandPings": {
+      "label": "Command",
+      "title": "The Commander",
+      "line": "You point at the map and expect the team to follow. Mostly they do."
+    },
+    "pushPings": {
+      "label": "Push",
+      "title": "The Wave Pusher",
+      "line": "Push, push, push. You want that tower down now."
+    },
+    "holdPings": {
+      "label": "Hold",
+      "title": "The Wall",
+      "line": "Hold the line. You are the calm voice in a chaotic lobby."
+    },
+    "allInPings": {
+      "label": "All in",
+      "title": "The All-In Merchant",
+      "line": "When you ping all-in, the fight is happening whether people like it or not."
+    },
+    "enemyVisionPings": {
+      "label": "Enemy vision",
+      "title": "The Spotter",
+      "line": "You call out every enemy ward. Nothing hides from you."
+    },
+    "visionClearedPings": {
+      "label": "Vision cleared",
+      "title": "The Janitor",
+      "line": "You clear the wards and tell everyone about it."
+    }
+  },
+  "chapters": {
+    "part": "Part {n}",
+    "range": "{from}–{to}",
+    "same": "{title} from start to finish. You know who you are.",
+    "changed": "You started as {first} and finished as {last}. A season of change."
+  },
+  "tilt": {
+    "tilt": "You win {afterWin} after a win but only {afterLoss} after a loss. Maybe take a walk between games.",
+    "resilient": "Lose one and you win {afterLoss} of the next, more than the {afterWin} after a win. Losses just fire you up.",
+    "steady": "{afterWin} after a win, {afterLoss} after a loss. Nothing shakes you."
+  },
+  "comfort": {
+    "trust": "{best} lifts you to {bestRate}. A pick you can trust.",
+    "drag": "{best} lifts you to {bestRate}. {worst} drags you down to {worstRate}. Time to let it go?"
+  },
+  "gray": {
+    "heavy": "That's {share} of every game staring at the gray screen. The fountain knows you by name.",
+    "some": "About {minutes} minutes a game respawning. It adds up.",
+    "light": "Only {share} of your time dead. The gray screen barely knows you."
+  },
+  "modes": {
+    "aramPenta": "{penta, plural, one {# pentakill} other {# pentakills}} on the bridge. The Abyss brings out your chaos.",
+    "aramKills": "{kills} kills a game. A brawl is where you thrive.",
+    "aramBetter": "You win more in the Abyss than on the Rift. Snowballing suits you.",
+    "aramWorse": "The Rift treats you better than the Abyss. That bridge is a wild place.",
+    "aramSteady": "{top} carried you through the chaos. Steady, just like on the Rift.",
+    "normalBetter": "You play better with nothing on the line. Your normals beat your ranked win rate.",
+    "normalWorse": "Ranked brings out your best. Normals are your warm-up lap.",
+    "normalExplore": "{unique, plural, one {# different champion} other {# different champions}} in {games, plural, one {# normal} other {# normals}}. This is where you experiment.",
+    "normalMain": "{top} was your go-to when nothing was on the line ({winRate} wins)."
+  },
+  "objectives": {
+    "stolen": "{count, plural, one {# objective} other {# objectives}} stolen. Somewhere, an enemy jungler is still upset.",
+    "firstTower": "Get the first tower: you win {withIt} of games with it and {without} without.",
+    "firstDragon": "Get the first dragon: you win {withIt} of games with it and {without} without.",
+    "firstHerald": "Get the first Herald: you win {withIt} of games with it and {without} without.",
+    "firstBaron": "Get the first Baron: you win {withIt} of games with it and {without} without.",
+    "turrets": "You took {share} of your team's turrets. Demolition is a team sport, and you're the demolition.",
+    "barons": "{count, plural, one {# Baron} other {# Barons}} secured. When the pit opens, you're there.",
+    "dragons": "{count, plural, one {# dragon} other {# dragons}} secured. The Rift's wildlife fears you.",
+    "default": "Your teams took {dragons, plural, one {# dragon} other {# dragons}} and {towers, plural, one {# turret} other {# turrets}} across these games. Every objective counts."
+  },
+  "damage": {
+    "spellslinger": {
+      "style": "The Spellslinger",
+      "line": "{share} of your damage is magic. Armor is a suggestion."
+    },
+    "steel": {
+      "style": "Steel over spells",
+      "line": "{share} of your damage is physical. Enemies who build armor hate you."
+    },
+    "trueDamage": {
+      "style": "True damage enthusiast",
+      "line": "{share} of your damage ignores resistances entirely. Sneaky."
+    },
+    "mixed": {
+      "style": "The mixed threat",
+      "line": "Physical and magic in balance. The enemy can't stack just one resist."
+    }
+  },
+  "lane": {
+    "bully": "You finish ahead of your lane opponent on gold in {rate} of games, by {gold} gold on average. Lane bully.",
+    "behind": "Your lane opponent out-earns you in {rate} of games. Time to look at your wave management.",
+    "even": "You and your lane opponent trade blows evenly: ahead on gold in {rate} of games."
+  },
+  "gold": {
+    "high": "You ended games with {gold} gold unspent on average. That's an item you never bought.",
+    "mid": "About {gold} gold left over at the end of a game. Not bad, not perfect.",
+    "low": "Only {gold} gold unspent. You spend it as fast as you earn it."
+  },
+  "classes": {
+    "Tank": "Tank",
+    "Marksman": "Marksman",
+    "Mage": "Mage",
+    "Assassin": "Assassin",
+    "Fighter": "Fighter",
+    "Support": "Support"
+  },
+  "comp": {
+    "better": "With a {class} on your team you win {withRate}, against {withoutRate} without. Ask for one.",
+    "worse": "With a {class} on your team you win only {withRate} ({withoutRate} without). Coincidence, or curse?"
+  },
+  "highlights": {
+    "penta": "Pentakill",
+    "kills": "Most kills",
+    "kda": "Best KDA",
+    "longest": "Longest game"
+  },
+  "progress": {
+    "rows": {
+      "wr": "Win rate",
+      "kda": "KDA",
+      "k": "Kills a game",
+      "d": "Deaths a game",
+      "a": "Assists a game",
+      "cs": "CS a minute",
+      "vs": "Vision a minute",
+      "dm": "Damage a minute",
+      "kp": "Kill participation",
+      "rank": "Rank"
+    },
+    "flat": "Nothing has really moved since then. Consistency is a skill.",
+    "allUp": "Better across the board: {better} of {total} stats are up, and none slipped.",
+    "allDown": "A rougher stretch: {worse} of {total} stats are down. Every climb has dips.",
+    "moreUp": "More up than down: {better} stats improved and {worse} slipped.",
+    "mixed": "A mixed bag: {better} stats improved, {worse} slipped."
+  },
+  "classInline": {
+    "Tank": "tank",
+    "Marksman": "marksman",
+    "Mage": "mage",
+    "Assassin": "assassin",
+    "Fighter": "fighter",
+    "Support": "support"
+  },
+  "tiltguard": {
+    "stop": "After {losses} losses in a row you win {rate} of the next game, against {base} usually. That's your stop sign.",
+    "keepGoing": "And you queue up again {keep} of the time.",
+    "steady": "Even after {losses} losses in a row you win {rate}. Streaks don't shake you.",
+    "liveStop": "You're {run} losses deep right now, and after a streak like this you win {rate} of the next game. Maybe stop here.",
+    "liveInfo": "You're on a {run}-loss streak right now. After one like it you win {rate} of the next game."
+  },
+  "formcurve": {
+    "swing": "From {worst} at your lowest to {best} at your highest, {games} at a time.",
+    "steady": "Over any {games} you stayed between {worst} and {best}. Very steady.",
+    "hot": "Lately you're hot: {now} over your last {games}, against {avg} for the season.",
+    "cold": "Lately it's been rougher: {now} over your last {games}, against {avg} for the season.",
+    "even": "Lately you're right at your usual: {now} over your last {games}, {avg} for the season."
+  },
+  "patches": {
+    "swing": "You did best on patch {best} ({bestRate}) and worst on patch {worst} ({worstRate}).",
+    "steady": "Patch after patch you stayed between {worstRate} and {bestRate}. New patches barely move you."
+  },
+  "runes": {
+    "better": "{best} wins {bestRate} for you, against {favoriteRate} with {favorite}. Worth taking more often?",
+    "loyal": "{name} in {share} of your games. Once you find a keystone, you stick with it.",
+    "plain": "{name} is your keystone: {rate} win rate over {games}."
+  },
+  "championPage": {
+    "better": "{name} beats your usual: {rate} against {overall} overall.",
+    "worse": "{name} is a tougher one: {rate} against {overall} overall.",
+    "level": "{name} is right at your usual: {rate}, {overall} overall.",
+    "few": "{games} as {name} so far: {rate} win rate."
+  }
+}

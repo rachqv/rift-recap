@@ -1,0 +1,215 @@
+{
+  "onetrick": {
+    "title": "ワンチャンプ",
+    "tagline": "何よりも忠誠。",
+    "description": "試合の{share}が{top}。頑固と呼ぶ人もいる。私たちは熟練と呼ぶ。"
+  },
+  "specialist": {
+    "title": "スペシャリスト",
+    "tagline": "2体で完全なる熟練。",
+    "description": "試合の{share}が{top}か{second}。自分の得意を完璧に分かっている。"
+  },
+  "explorer": {
+    "title": "エクスプローラー",
+    "tagline": "1体に絞る必要なんてない。全部使えばいい。",
+    "description": "{games, plural, other {#試合}}で{unique, plural, other {#体}}の異なるチャンピオン。ひとところに留まらない。"
+  },
+  "chameleon": {
+    "title": "カメレオン",
+    "tagline": "オートフィル？問題なし。",
+    "description": "{roles, plural, other {#種類}}の異なるロールで、お気に入りはなし。どのレーンも我が家で、チームは感謝している。"
+  },
+  "showstopper": {
+    "title": "主役級",
+    "tagline": "ハイライトのために生まれた。",
+    "description": "{penta, plural, other {#回}}のペンタキル、{quadra, plural, other {#回}}のクアドラキル、{triple, plural, other {#回}}のトリプル。クリップを作るのはあなた。",
+    "descriptionAlt": "{quadra, plural, other {#回}}のクアドラキルと{triple, plural, other {#回}}のトリプルキル。混戦になるほど、あなたの出番。"
+  },
+  "thief": {
+    "title": "盗賊",
+    "tagline": "いいドラゴンだ。残念、今は俺のものだ。",
+    "description": "{count, plural, other {#個}}のオブジェクトをスチール。公平である必要があるなんて、誰も言っていない。"
+  },
+  "slayer": {
+    "title": "スレイヤー",
+    "tagline": "キルを取りに来た。",
+    "description": "{games, plural, other {#試合}}で{kills, plural, other {#キル}}、1試合あたり約{perGame}。あなたの名前はキルフィードに刻まれている。"
+  },
+  "daredevil": {
+    "title": "命知らず",
+    "tagline": "どんな戦いにも挑む価値がある。",
+    "description": "{deaths, plural, other {#デス}}、それでも後悔はゼロ。戦いに飛び込むのをやめなかった。"
+  },
+  "playmaker": {
+    "title": "プレイメーカー",
+    "tagline": "チームの最高の相棒。",
+    "description": "{assists, plural, other {#アシスト}}、1試合あたり{perGame}。プレイを組み立て、栄光はチームに譲る。"
+  },
+  "unlucky": {
+    "title": "不運のヒーロー",
+    "tagline": "素晴らしい数字、怪しい味方。",
+    "description": "KDA {kda}なのに勝率は{winRate}。数字は、あなたのせいではなかったと語っている。"
+  },
+  "phoenix": {
+    "title": "フェニックス",
+    "tagline": "何度でも蘇る。",
+    "description": "{streak}連敗を経験しても、勝率{winRate}で締めくくった。これぞ根性。"
+  },
+  "risingstar": {
+    "title": "ライジングスター",
+    "tagline": "シーズンが進むほど上手くなった。",
+    "description": "勝率は{early}から{late}へ上昇。トレンドラインは上を向くだけ。"
+  },
+  "streaker": {
+    "title": "連勝街道",
+    "tagline": "勝ち始めたら止まらない。",
+    "description": "最高で{streak}連勝。誰も敵チームにはなりたくなかった。"
+  },
+  "scout": {
+    "title": "スカウト",
+    "tagline": "あなたのワードから逃れられるものはない。",
+    "description": "1分あたりの視界スコアは{vision}。みんなのために明かりをつけた。"
+  },
+  "farmer": {
+    "title": "ファーマー",
+    "tagline": "ゴールドは生き方。",
+    "description": "1分あたり{cs}体のミニオン。キャノンウェーブは1つも取りこぼさない。"
+  },
+  "heavyhitter": {
+    "title": "ヘビーヒッター",
+    "tagline": "ダメージを出す。それも大量に。",
+    "description": "毎分{damage}のチャンピオンへのダメージ。あなたの周りでは体力バーは長持ちしない。"
+  },
+  "everpresent": {
+    "title": "常に最前線",
+    "tagline": "どの戦いにも、あなたがいる。",
+    "description": "チームのキルの{kp}に関与した。戦いがあれば、そこにあなたがいた。"
+  },
+  "opener": {
+    "title": "オープナー",
+    "tagline": "ファーストブラッドが挨拶代わり。",
+    "description": "ファーストブラッドは{count, plural, other {#回}}。誰かが来る前にパーティーを始める。"
+  },
+  "demolisher": {
+    "title": "解体屋",
+    "tagline": "土台があるなら、崩れ落ちる。",
+    "description": "{games, plural, other {#試合}}で{turrets, plural, other {#基}}のタワー、1試合あたり約{perGame}。建物はあなたを恐れている。"
+  },
+  "untouchable": {
+    "title": "アンタッチャブル",
+    "tagline": "死ぬのは他人の仕事。",
+    "description": "1試合あたりのデスはわずか{perGame}で、{deathless, plural, other {#試合}}は1度も死ななかった。",
+    "descriptionAlt": "1試合あたりのデスはわずか{perGame}。グレー画面とはほとんど縁がない。"
+  },
+  "closer": {
+    "title": "クローザー",
+    "tagline": "勝つ。ただそれだけ。",
+    "description": "勝率{winRate}。キューに入れば、敵チームは警戒したほうがいい。"
+  },
+  "marathoner": {
+    "title": "マラソンランナー",
+    "tagline": "試合はあなたが終わらせるまで終わらない。",
+    "description": "試合の長さは平均{minutes}分。文字どおりの長期戦を戦う。"
+  },
+  "speedrunner": {
+    "title": "スピードランナー",
+    "tagline": "待つ理由なんてない。今すぐ終わらせる。",
+    "description": "試合の長さは平均わずか{minutes}分。お湯が沸く前にネクサスが落ちている。"
+  },
+  "assassin": {
+    "title": "アサシン",
+    "tagline": "入って、出て、消える。",
+    "description": "試合の{share}がアサシン。標的を決めたら、消し去る。"
+  },
+  "archmage": {
+    "title": "大魔導師",
+    "tagline": "クールダウンなんて目安にすぎない。",
+    "description": "試合の{share}がメイジ。まず魔法、質問はそのあと。"
+  },
+  "sharpshooter": {
+    "title": "狙撃手",
+    "tagline": "射程は生き方。",
+    "description": "試合の{share}がマークスマン。戦いは安全な距離から見るのが一番。"
+  },
+  "brawler": {
+    "title": "ブロウラー",
+    "tagline": "間近で、直接。",
+    "description": "試合の{share}がファイター。戦いは手の届く距離で楽しむ。"
+  },
+  "bulwark": {
+    "title": "鉄壁",
+    "tagline": "何も通さない。",
+    "description": "試合の{share}がタンク。ダメージを吸う誰かが必要で、それがあなた。"
+  },
+  "pathfinder": {
+    "title": "開拓者",
+    "tagline": "ジャングルはあなたのもの。",
+    "description": "試合の{share}がロール: {role}。すべてのキャンプ、タイマー、茂みを知り尽くしている。"
+  },
+  "islander": {
+    "title": "孤島の住人",
+    "tagline": "トップレーン。自分の思考と二人きり。",
+    "description": "試合の{share}がロール: {role}。レーンをまるごと独り占め、それが気に入っている。"
+  },
+  "centerpiece": {
+    "title": "中心人物",
+    "tagline": "すべての道はミッドに通ず。",
+    "description": "試合の{share}がロール: {role}。マップが交わり、戦いが始まる場所にいる。"
+  },
+  "carry": {
+    "title": "キャリー",
+    "tagline": "誰かがチームを支えなければ。",
+    "description": "試合の{share}がロール: {role}。終盤にはハンドルを預けられ、あなたはそれに応える。"
+  },
+  "guardian": {
+    "title": "守護者",
+    "tagline": "チームを生かし続ける。",
+    "description": "試合の{share}がロール: {role}。シールド、ヒール、ピール、ワード。チームはあなたで回っている。"
+  },
+  "grinder": {
+    "title": "努力家",
+    "tagline": "安定して頼れて、いつもキューにいる。",
+    "description": "{games, plural, other {#試合}}と{hours}時間のコツコツとした積み重ね。あなたほど反復練習する人はいない。"
+  },
+  "rarity": {
+    "common": "コモン",
+    "uncommon": "アンコモン",
+    "rare": "レア",
+    "legendary": "レジェンダリー",
+    "under": "{share}未満",
+    "about": "約{share}",
+    "chip": "<b>{tier}</b> · プレイヤーの{share}",
+    "badge": "{tier} · プレイヤーの{share}"
+  },
+  "duration": "{minutes}分",
+  "insights": {
+    "games": {
+      "days": "リフトの中で丸{days}日を過ごした計算だ。",
+      "films": "純度100%のLeagueで、長編映画{films, plural, other {約#本}}分にあたる。"
+    },
+    "win": {
+      "dominant": "圧倒的。敵チームはあなたの名前を見てため息をついた。",
+      "good": "勝ちが負けを上回っている。LPは順調に流れている。",
+      "balanced": "すべてのものがそうあるべきように、完璧なバランス。",
+      "challenge": "マッチメイカーは試練を与えたが、あなたはキューに入り続けた。",
+      "rough": "苦しい時期。どんな伝説にも復活の物語がある。あなたのはここから始まる。"
+    },
+    "streak": {
+      "long": "最長の連勝は{streak, plural, other {#連勝}}。",
+      "short": "連勝は短かったが、毎試合が新しいスタートだった。"
+    },
+    "comeback": "{streak}連敗からも立ち直った。",
+    "champion": {
+      "oneTrick": "試合の{share}が{top}。ワンチャンプの気迫だ。",
+      "variety": "{unique, plural, other {#体}}の異なるチャンピオンを使ったが、ホームは{top}だった。",
+      "favorite": "{top}で{games, plural, other {#試合}}。明らかなお気に入り。"
+    },
+    "kda": {
+      "rarelyDie": "ほとんど死なない。敵のジャングラーはこれが大嫌い。",
+      "everyFight": "どの戦いも自分の戦い。",
+      "teamFirst": "チームファースト。キャリーたちはあなたに借りがある。",
+      "bold": "大胆で攻撃的。グレー画面をよく見てきた。",
+      "balanced": "バランスの取れた、頼れる数字。"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "insight": {
+    "nightOwl": "你有{share}的对局在午夜后开始。峡谷从不入睡，你也一样。",
+    "earlyBird": "你有{share}的对局在中午前。边喝咖啡边排队。",
+    "weekend": "你有{share}的对局在周末。周六属于峡谷。",
+    "weekday": "你几乎所有对局都在工作日。肝从不放假。",
+    "streak": "连续{days, plural, other {#天}}都有对局。这已经是习惯了。",
+    "steady": "均匀分布在整个日历上。没有规律，只有英雄联盟。"
+  },
+  "aria": "{days, plural, other {#天}}内{games, plural, other {#局}}对局的日历",
+  "before": "{date}：早于已加载的最早对局",
+  "day": "{date}：{detail}",
+  "dayGames": "{games, plural, other {#局}}，胜{wins}",
+  "dayNone": "无对局",
+  "fewer": "较少",
+  "more": "较多",
+  "activeDays": "{count, plural, other {活跃<b>#</b>天}}",
+  "busiest": "最忙的一天 <b>{date}</b> · {games, plural, other {#局}}",
+  "streak": "最长连续 <b>{days, plural, other {#天}}</b>",
+  "favorite": "最爱的日子 <b>{day}</b>",
+  "prime": "黄金时段 <b>{hour}</b>",
+  "parts": {
+    "night": "深夜",
+    "morning": "早上",
+    "afternoon": "下午",
+    "evening": "晚上"
+  },
+  "bestPart": "<b>{part}</b>表现最好 · 胜率<good>{rate}</good>",
+  "worstPart": "（{part}为<bad>{rate}</bad>）",
+  "bestMonth": "最佳月份 <b>{month}</b> · <good>{rate}</good>",
+  "worstMonth": "· 最差 <b>{month}</b> <bad>{rate}</bad>",
+  "clock": {
+    "day": "最强的一天：{best}，胜率{bestRate}。最弱的一天：{worst}，仅{worstRate}。",
+    "part": "最强的时段：{best}，胜率{bestRate}。最弱的时段：{worst}，仅{worstRate}。",
+    "steady": "你的胜率几乎不随时间变化。无论哪一天、几点开打：都是同一个你。",
+    "byPart": "时段",
+    "byDay": "星期",
+    "bar": "{label}：胜率{rate}，{detail}",
+    "barFew": "{label}：{detail}。对局太少，无法比较。",
+    "aria": "按时段和星期统计的胜率"
+  }
+}

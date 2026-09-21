@@ -1,0 +1,39 @@
+{
+  "thisSeason": "今シーズンの私は",
+  "disclaimer": "Rift Recap は Riot Games の公認サービスではなく、Riot Games または同社の制作・運営に公式に関わる方々の見解を反映するものではありません。",
+  "games": "試合数",
+  "winRate": "勝率",
+  "kda": "KDA",
+  "trophies": "トロフィー",
+  "rank": "ランク",
+  "main": "メイン",
+  "topChampion": "最多使用チャンピオン",
+  "gamesCount": "{count, plural, other {#試合}}",
+  "squad": {
+    "header": "スクワッドリキャップ",
+    "gamesTogether": "一緒にプレイ",
+    "hours": "時間",
+    "together": "共闘",
+    "awards": "アワード"
+  },
+  "versus": {
+    "header": "ヘッドトゥヘッド",
+    "vs": "VS",
+    "rowsWon": "勝利項目",
+    "scenarios": "注目の勝負",
+    "numbers": "数字で見る",
+    "unranked": "ランクなし"
+  },
+  "bingo": {
+    "header": "トロフィービンゴ",
+    "free": "フリー",
+    "lines": "ビンゴ",
+    "next": "次のビンゴ：{name}"
+  },
+  "form": {
+    "best": "最高の時期",
+    "worst": "最低の時期",
+    "now": "いま",
+    "ended": "{date}に終了"
+  }
+}

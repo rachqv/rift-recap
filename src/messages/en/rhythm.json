@@ -1,0 +1,30 @@
+{
+  "same": "You two keep the same hours. Spooky.",
+  "daysShort": "{value}d",
+  "nightOwl": {
+    "title": "Night owl",
+    "tagline": "Games that start after midnight.",
+    "line": "{share} of {name}'s games start after midnight. {other} has a bedtime."
+  },
+  "earlyBird": {
+    "title": "Early bird",
+    "tagline": "Games that start before noon.",
+    "line": "{share} of {name}'s games are before noon. Queueing with the coffee. {other} sleeps in."
+  },
+  "weekend": {
+    "title": "Weekend warrior",
+    "tagline": "Games played on a Saturday or Sunday.",
+    "line": "{share} of {name}'s games land on a weekend. {other} is more of a weekday player."
+  },
+  "streak": {
+    "title": "Daily habit",
+    "tagline": "Longest run of days in a row with a game.",
+    "line": "{name} played {days, plural, one {# day} other {# days}} in a row. {other} took a break after {otherDays}."
+  },
+  "binge": {
+    "title": "Binge day",
+    "tagline": "The most games in a single day.",
+    "line": "{name} once played {games, plural, one {# game} other {# games}} in a single day. Dinner was skipped."
+  },
+  "label": "Scenarios"
+}

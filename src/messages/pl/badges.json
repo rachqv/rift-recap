@@ -1,0 +1,98 @@
+{
+  "penta": {
+    "name": "Pentakill",
+    "text": "Zdobądź pentakill."
+  },
+  "quadra": {
+    "name": "Kolekcjoner quadrakilli",
+    "text": "Zdobądź {target, plural, one {# quadrakill} few {# quadrakille} many {# quadrakilli} other {# quadrakille}}."
+  },
+  "triple": {
+    "name": "Potrójne zagrożenie",
+    "text": "Zdobądź {target, plural, one {# triple kill} few {# triple kille} many {# triple killi} other {# triple kille}}."
+  },
+  "flawless": {
+    "name": "Bez skazy",
+    "text": "Zakończ grę bez śmierci."
+  },
+  "flawless5": {
+    "name": "Nietykalny",
+    "text": "Zakończ {target, plural, one {# grę} few {# gry} many {# gier} other {# gry}} bez śmierci."
+  },
+  "streak": {
+    "name": "W ogniu",
+    "text": "Wygraj {target, plural, one {# grę} few {# gry} many {# gier} other {# gry}} z rzędu."
+  },
+  "winrate": {
+    "name": "Zwycięzca",
+    "text": "Utrzymaj {target} wygranych w {games}+ grach."
+  },
+  "kills": {
+    "name": "Maszyna do zabijania",
+    "text": "Zdobądź {target, plural, one {# zabójstwo} few {# zabójstwa} many {# zabójstw} other {# zabójstwa}} w jednej grze."
+  },
+  "perfect": {
+    "name": "Idealna gra",
+    "text": "Zagraj grę z KDA {target}+."
+  },
+  "firstblood": {
+    "name": "Król pierwszej krwi",
+    "text": "Zdobądź pierwszą krew {target, plural, one {# raz} few {# razy} many {# razy} other {# razy}}."
+  },
+  "thief": {
+    "name": "Złodziej celów",
+    "text": "Ukradnij cel."
+  },
+  "turrets": {
+    "name": "Burzyciel",
+    "text": "Zniszcz {target, plural, one {# wieżę} few {# wieże} many {# wież} other {# wieże}}."
+  },
+  "variety": {
+    "name": "Człowiek orkiestra",
+    "text": "Zagraj {target, plural, one {# innym bohaterem} few {# różnymi bohaterami} many {# różnymi bohaterami} other {# różnymi bohaterami}}."
+  },
+  "loyal": {
+    "name": "Lojalista",
+    "text": "Zagraj tym samym bohaterem {target, plural, one {# raz} few {# razy} many {# razy} other {# razy}}."
+  },
+  "marathon": {
+    "name": "Maraton",
+    "text": "Zagraj grę dłuższą niż {minutes} min."
+  },
+  "bounce": {
+    "name": "Odbicie",
+    "text": "Wygraj {target} gier po porażce."
+  },
+  "hours": {
+    "name": "Czas na Kanionie",
+    "text": "Spędź w grach {target, plural, one {# godzinę} few {# godziny} many {# godzin} other {# godziny}}."
+  },
+  "dragon": {
+    "name": "Pogromca smoków",
+    "text": "Zadaj ostatni cios {target, plural, one {# smokowi} few {# smokom} many {# smokom} other {# smokom}}."
+  },
+  "baron": {
+    "name": "Łowca Barona",
+    "text": "Zadaj ostatni cios {target, plural, one {# Baronowi} few {# Baronom} many {# Baronom} other {# Baronom}}."
+  },
+  "teamplayer": {
+    "name": "Gracz zespołowy",
+    "text": "Uczestnicz w {target} zabójstw swojej drużyny."
+  },
+  "duo": {
+    "name": "Nierozłączni",
+    "text": "Zagraj {target, plural, one {# grę} few {# gry} many {# gier} other {# gry}} z tym samym sojusznikiem."
+  },
+  "vision": {
+    "name": "Wszystkowidzący",
+    "text": "Osiągaj średnio {target} punktów wizji na minutę."
+  },
+  "farm": {
+    "name": "Mistrz farmienia",
+    "text": "Osiągaj średnio {target} CS na minutę."
+  },
+  "roles": {
+    "name": "Wszechstronny",
+    "text": "Zagraj na wszystkich {target, plural, one {# pozycji} few {# pozycjach} many {# pozycjach} other {# pozycjach}}."
+  }
+}

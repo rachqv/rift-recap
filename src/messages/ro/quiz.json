@@ -1,0 +1,28 @@
+{
+  "verdict": {
+    "perfect": "Îți cunoști echipa mai bine decât se cunoaște echipa însăși.",
+    "good": "Nu-i rău. Se vede că ai fost atent.",
+    "low": "Poate ar trebui să petreci mai mult timp cu prietenii."
+  },
+  "result": "Rezultatul testului",
+  "round": "Cine a câștigat? {step} din {total}",
+  "again": "Joacă din nou",
+  "group": "Cine a câștigat acest premiu?",
+  "right": "Corect!",
+  "wrong": "Nu, a fost {name}.",
+  "reveal": "{verdict} {line}",
+  "pick": "Alege un jucător.",
+  "score": "Vezi scorul tău",
+  "next": "Următorul premiu",
+  "guess": {
+    "eyebrow": "Ghicește-ți arhetipul",
+    "lead": "Trei indicii, patru arhetipuri. Care ești tu?",
+    "clueMain": "Cel mai jucat: {champion}",
+    "clueRate": "Rata de victorii {rate}",
+    "clueKda": "KDA {kda}",
+    "group": "Ce arhetip ești?",
+    "right": "Exact. Îți cunoști jocul.",
+    "wrong": "Aproape. Ești {title}.",
+    "next": "Continuă pentru dezvăluirea completă."
+  }
+}

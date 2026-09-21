@@ -1,0 +1,15 @@
+{
+  "keyRejected": "Cheia API Riot a fost respinsă. Cheile de dezvoltare expiră la fiecare 24 de ore, deci generează una nouă.",
+  "notFound": "Nu a fost găsit niciun jucător cu acel Riot ID în regiunea respectivă. Verifică ortografia și regiunea.",
+  "rateLimit": "S-a atins limita de cereri Riot. Așteaptă un minut și încearcă din nou.",
+  "api": "API-ul Riot a eșuat.",
+  "cardFailed": "Nu s-a putut desena cardul.",
+  "unknownRegion": "Regiune necunoscută.",
+  "noGamesCard": "Nu există meciuri din care să se deseneze un card.",
+  "noSharedGames": "Acești jucători nu au meciuri împreună.",
+  "badSquad": "Parametri de echipă nevalizi.",
+  "playerMissing": "Unul dintre acei jucători nu a fost găsit.",
+  "badVersus": "Parametri față în față nevalizi.",
+  "samePlayers": "Alege doi jucători diferiți.",
+  "notEnough": "Nu sunt suficiente meciuri pentru comparație."
+}

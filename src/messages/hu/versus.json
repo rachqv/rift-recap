@@ -1,0 +1,400 @@
+{
+  "rows": {
+    "winRate": "Nyerési arány",
+    "kda": "KDA",
+    "kills": "Ölés meccsenként",
+    "deaths": "Halál meccsenként",
+    "assists": "Asszisztok meccsenként",
+    "cs": "CS percenként",
+    "vision": "Látás percenként",
+    "damage": "Sebzés percenként",
+    "kp": "Ölésben való részvétel"
+  },
+  "verdict": {
+    "tie": "Mindkettőtöké {score} sor. Kísértetiesen kiegyenlítettek vagytok.",
+    "sweep": "{name} minden fontos sort megnyer. {other} sokat pótolhat.",
+    "clear": "{name} {hi} sort nyer {lo} ellenében. Nem volt szoros.",
+    "edge": "{name} kis különbséggel nyer, {hi} sor a(z) {lo} ellenében. {other} közvetlenül mögötte van."
+  },
+  "rematch": {
+    "changed": "Az élen csere történt: most {name} vezet.",
+    "improved": "{name} többet fejlődött azóta ({better} szemben {worse} nyerési arány pont).",
+    "same": "Nagyjából ugyanaz a kép, mint legutóbb."
+  },
+  "groups": {
+    "moments": {
+      "label": "Pillanatok",
+      "eyebrow": "Nagy pillanatok"
+    },
+    "habits": {
+      "label": "Szokások",
+      "eyebrow": "Szokások a Szurdokban"
+    },
+    "form": {
+      "label": "Forma",
+      "eyebrow": "Forma és kitartás"
+    },
+    "identity": {
+      "label": "Ki kicsoda",
+      "eyebrow": "Ki kicsoda"
+    }
+  },
+  "short": {
+    "win": "{value}GY",
+    "loss": "{value}V",
+    "record": "{rate} · {games}m",
+    "champs": "{count, plural, one {# bajnok} other {# bajnok}}",
+    "minutes": "{value} perc",
+    "hours": "{value}ó",
+    "level": "{value}. szint",
+    "seconds": "{value}mp",
+    "epic": "{dragons}S {barons}B",
+    "none": "Nincs",
+    "noneLower": "nincs",
+    "penta": "{count}P",
+    "quadra": "{count}Q",
+    "triple": "{count}T"
+  },
+  "multi": {
+    "penta": "{count, plural, one {# pentakill} other {# pentakill}}",
+    "quadra": "{count, plural, one {# quadrakill} other {# quadrakill}}",
+    "triple": "{count, plural, one {# triple kill} other {# triple kill}}"
+  },
+  "trend": {
+    "steady": "{name} nyerési aránya stabil maradt: {rate}",
+    "change": "{name} nyerési aránya {early} értékről {late} értékre változott"
+  },
+  "scenarios": {
+    "multikills": {
+      "title": "A legjobb pillanatok",
+      "tagline": "Penták, quadrák és triple-ök, súlyozva azzal, mennyire hangos lett az ellenséges chat.",
+      "line": "{name} ezeket gyűjtötte: {list}. A kiemelések mappa megtelt."
+    },
+    "firstBlood": {
+      "title": "Első vér",
+      "tagline": "Valakinek el kell kezdenie a harcot.",
+      "line": "{name} a meccsek {rate} részében szerezte meg az első vért. {other} stílusosan késik."
+    },
+    "flawless": {
+      "title": "Hibátlan meccsek",
+      "tagline": "Nulla halál, az elejétől a végéig.",
+      "line": "{name} {count, plural, one {# meccset} other {# meccset}} fejezett be egyetlen halál nélkül. Érinthetetlen."
+    },
+    "careerGame": {
+      "title": "Élete meccse",
+      "tagline": "Az, amit partikon fognak emlegetni.",
+      "line": "{name} {kills}/{deaths}/{assists} teljesítményt nyújtott {champion} bajnokkal.",
+      "lineLost": "{name} {kills}/{deaths}/{assists} teljesítményt nyújtott {champion} bajnokkal, és mégis vesztett. Kemény."
+    },
+    "spree": {
+      "title": "Legnagyobb ölési széria",
+      "tagline": "Egymás utáni ölések halál nélkül.",
+      "line": "{name} halál nélkül {count} ölést fűzött össze. Valaki hívja a tűzoltókat."
+    },
+    "lifespan": {
+      "title": "Leghosszabb élet",
+      "tagline": "A leghosszabb idő, amit egyben életben töltöttek.",
+      "line": "{name} egyszer {time} időt élt túl megszakítás nélkül. A kút alig ismerte."
+    },
+    "soloKills": {
+      "title": "Solo ölések",
+      "tagline": "Egy az egy ellen, segítség nélkül.",
+      "line": "{name} meccsenként átlagosan {value} solo ölést szerez. Vannak, akik egyszerűen szeretik az 1v1-et."
+    },
+    "dodge": {
+      "title": "A Mátrix",
+      "tagline": "Skillshotok, amik csak a levegőt találják.",
+      "line": "{name} meccsenként {value} skillshotot kerülte ki. Nehéz eltalálni, még nehezebb elkapni."
+    },
+    "thief": {
+      "title": "Célpontlopó",
+      "tagline": "Sárkány? Milyen sárkány?",
+      "line": "{name} {count, plural, one {# célpontot} other {# célpontot}} lopott. {other} nevű játékosnak jobban kellene figyelnie a vermet."
+    },
+    "epic": {
+      "title": "Epikus szörnyvadász",
+      "tagline": "Személyesen levégzett sárkányok és Baronok.",
+      "line": "{name} {dragons, plural, one {# sárkányon} other {# sárkányon}} és {barons, plural, one {# Baronon} other {# Baronon}} adta be a végső csapást."
+    },
+    "siege": {
+      "title": "Bontócsapat",
+      "tagline": "A csapat tornyainak azon része, amit lerombolt.",
+      "line": "{name} a csapata tornyainak {share} részét rombolta le. Semmi felépített nem marad meg."
+    },
+    "objDamage": {
+      "title": "Célpontsebzés",
+      "tagline": "Toronyra, sárkányra és Baronra mért sebzés meccsenként.",
+      "line": "{name} meccsenként {value} sebzést okozott a célpontoknak. A térkép csak egy teendőlista."
+    },
+    "flash": {
+      "title": "Flash-függő",
+      "tagline": "Flash-használatok meccsenként. Mindig újratöltés alatt van.",
+      "line": "{name} meccsenként {value} alkalommal használ Flasht. {other} nevű játékos vagy bátrabb, vagy lassabb."
+    },
+    "grayScreen": {
+      "title": "Idő a szürke képernyőn",
+      "tagline": "A meccsek azon része, amit halottként töltenek. Kevesebb a jobb.",
+      "line": "{other} nevű játékos minden meccs {otherShare} részét újraéledésre várva tölti. {name} csak {share} részét."
+    },
+    "pings": {
+      "title": "A hátsó ülés sofőrje",
+      "tagline": "Ping meccsenként.",
+      "line": "{name} meccsenként {value} alkalommal pingelt. A minitérkép sosem pihent."
+    },
+    "pinks": {
+      "title": "Rózsaszín ward költségvetés",
+      "tagline": "Meccsenként lerakott kontrollwardok.",
+      "line": "{name} meccsenként {value} kontrollwardot rak le. {other} nevű játékos az aranyat esős napokra tartogatja."
+    },
+    "sweeper": {
+      "title": "Wardsöprő",
+      "tagline": "Meccsenként kitisztított ellenséges wardok.",
+      "line": "{name} meccsenként {value} ellenséges wardot tisztított ki. Semmi sem bújhat el attól a lámpástól."
+    },
+    "gold": {
+      "title": "Aranyásó",
+      "tagline": "Percenként megszerzett arany.",
+      "line": "{name} percenként {value} aranyat keres, míg {other} nevű játékos {otherValue} aranyat. Valaki gyakrabban jár vásárolni."
+    },
+    "tank": {
+      "title": "A bokszzsák",
+      "tagline": "Meccsenként felszívott sebzés.",
+      "line": "{name} meccsenként {value} sebzést szívott fel. Valakinek meg kellett tennie."
+    },
+    "medic": {
+      "title": "A csapat orvosa",
+      "tagline": "Meccsenként a csapattársakra mért gyógyítás és pajzs.",
+      "line": "{name} meccsenként {value} sebzést gyógyított és védett ki a csapat számára."
+    },
+    "cc": {
+      "title": "Tömegkontroll",
+      "tagline": "Meccsenként az ellenfelek helyben tartásának másodpercei.",
+      "line": "{name} meccsenként {value, plural, one {# másodpercig} other {# másodpercig}} tartotta lezárva az ellenfeleket. Maradj nyugton."
+    },
+    "whiteFlag": {
+      "title": "Fehér zászló",
+      "tagline": "Feladással végződő vereségek.",
+      "line": "{name} csapata a vereségeinek {share} részében feladta. {other} nevű játékos a Nexusig harcol."
+    },
+    "crit": {
+      "title": "Legnagyobb kritikus",
+      "tagline": "A legkeményebb egyetlen kritikus találat.",
+      "line": "{name} egyszer {value} kritikust ütött. Ez felkerült a csoportchatbe."
+    },
+    "teamDamage": {
+      "title": "Cipeli a sebzést",
+      "tagline": "A csapat bajnokokra mért sebzésének aránya.",
+      "line": "{name} a csapata sebzésének {share} részét adta. A többiek a közelben álltak."
+    },
+    "hotStreak": {
+      "title": "Forró széria",
+      "tagline": "Leghosszabb győzelmi sorozat.",
+      "line": "{name} egyszer {win} meccset nyert egymás után. {other} legfeljebb {lose} meccsig jutott."
+    },
+    "tilt": {
+      "title": "A tilt mélysége",
+      "tagline": "Leghosszabb vereségsorozat. Rövidebb a jobb.",
+      "line": "{other} nevű játékos egyszer {lose} meccset veszített egymás után. {name} sosem süllyedt {win} alá."
+    },
+    "momentum": {
+      "title": "Lendület",
+      "tagline": "Az újabb meccsfél nyerési aránya a régebbihez képest.",
+      "line": "{first}, míg {second}."
+    },
+    "ladder": {
+      "title": "Ranglistapozíció",
+      "tagline": "Ki áll feljebb a rangsorolt ranglistán.",
+      "line": "{name} ({title}) áll {other} ({otherTitle}) felett. Hivatalosan dicsekvési jog."
+    },
+    "seasonRanked": {
+      "title": "Szezon rangsorolt mérleg",
+      "tagline": "Nyerési arány az idei szezon összes rangsorolt meccsén.",
+      "line": "{name} a rangsorolt meccsek {rate} részét nyeri, míg {other} nevű játékos {otherRate} részét."
+    },
+    "rankedForm": {
+      "title": "Rangsorolt nyomás",
+      "tagline": "Nyerési arány a legutóbbi rangsorolt meccseken.",
+      "line": "{name} {rate} arányban nyer, ha LP a tét. {other} {otherRate} arányban nyer."
+    },
+    "normals": {
+      "title": "Nincs tét",
+      "tagline": "Nyerési arány a legutóbbi normál meccseken.",
+      "line": "{name} a normál meccsek {rate} részét nyeri, míg {other} nevű játékos {otherRate} részét. A lazaság jól áll neki."
+    },
+    "aram": {
+      "title": "A Szakadék lakója",
+      "tagline": "Nyerési arány az ARAM hídján.",
+      "line": "{name} a hídon {rate} arányban nyer. {other} {otherRate} arányban nyer. A káosz valakinek kedvez."
+    },
+    "signature": {
+      "title": "Főszereplő-energia",
+      "tagline": "Nyerési arány a legtöbbet játszott bajnokkal.",
+      "line": "{name} {champion} bajnokkal {rate} arányban nyer. {other} {otherChampion} bajnokkal {otherRate} arányban nyer."
+    },
+    "pool": {
+      "title": "Bajnokkészlet",
+      "tagline": "Hány különböző bajnokkal játszottak.",
+      "line": "{name} {count, plural, one {# különböző bajnokkal} other {# különböző bajnokkal}} játszott. {other} nevű játékos {otherCount} mellett állapodott meg. Egyikőtök szereti a változatosságot."
+    },
+    "roleLoyalty": {
+      "title": "Szerephűség",
+      "tagline": "Idejük mekkora része megy egyetlen szerepre.",
+      "line": "{name} az idő {share} részében ezt játssza: {role}. {other} szabadabban mozog."
+    },
+    "closer": {
+      "title": "A lezáró",
+      "tagline": "Átlagos meccshossz. A rövidebb nyer.",
+      "line": "{name} meccsei {value} perc alatt véget érnek. {other} nevű játékosé {otherValue} percig tartanak. Valakinek sietnie kell valahova."
+    },
+    "marathon": {
+      "title": "Maratoni meccs",
+      "tagline": "A leghosszabb egyedi meccs.",
+      "line": "{name} egyszer {time} időt játszott {champion} bajnokkal, és megnyerte. Falatozás is volt.",
+      "lineLost": "{name} egyszer {time} időt játszott {champion} bajnokkal, és elveszítette. Falatozás is volt."
+    },
+    "hours": {
+      "title": "Idő a Szurdokban",
+      "tagline": "Ezekben a meccsekben töltött órák.",
+      "line": "{name} {value} órát gyűjtött. {other} {otherValue} órát gyűjtött. Talán ideje füvet érinteni."
+    },
+    "level": {
+      "title": "A fiók veteránja",
+      "tagline": "Idézői szint.",
+      "line": "{name} {level}. szintű. {other} {otherLevel}. szintű. Egyikőtök már régóta itt van."
+    },
+    "kryptonite": {
+      "title": "Kriptonit",
+      "tagline": "A legrosszabb sávellenfelük, és hogy ment a dolog.",
+      "line": "{other} folyamatosan veszít {enemy} ellen ({record}). {name} legrosszabb ellensége, {theirEnemy}, kedvesebb történet.",
+      "lineNone": "{other} nem tudja legyőzni {enemy} bajnokot ({record}). {name} nevű játékosnak egyáltalán nincs ősellensége."
+    },
+    "bully": {
+      "title": "Kedvenc áldozat",
+      "tagline": "Az a bajnok, akit a legtöbbet vertek a sávban.",
+      "line": "{name} mérlege {champion} bajnok ellen: {record}. Annak a bajnoknak új sávot kellene keresnie."
+    }
+  },
+  "slides": {
+    "small": "(Kis minta, ezért vedd könnyedén.)",
+    "intro": {
+      "eyebrow": "Szemtől szemben",
+      "unranked": "Rang nélkül",
+      "games": "{count, plural, one {# meccs} other {# meccs}} elemezve",
+      "vs": "VS",
+      "differentServers": "Különböző szerverek, ezért nincsenek összehasonlítható közös meccsek."
+    },
+    "stats": {
+      "eyebrow": "A számok",
+      "aria": "Statisztikai összehasonlítás",
+      "ties": "{count, plural, one {# sor} other {# sor}} túl szoros volt az eldöntéshez."
+    },
+    "style": {
+      "eyebrow": "Két különböző játékos",
+      "meta": "{games, plural, one {# meccs} other {# meccs}} · {rate} győzelem",
+      "metaRole": "{games, plural, one {# meccs} other {# meccs}} · {rate} győzelem · {role}"
+    },
+    "scenario": {
+      "eyebrow": "{group} · {position}/{total}",
+      "wins": "Nyer",
+      "leads": "Vezet",
+      "vs": "szemben"
+    },
+    "rhythm": {
+      "eyebrow": "Mikor játszotok",
+      "note": "A saját időzónád szerint."
+    },
+    "faceoff": {
+      "eyebrow": "Szemtől szemben",
+      "meetings": "{count, plural, one {<b>#</b> találkozó ellenfelekként} other {<b>#</b> találkozó ellenfelekként}}",
+      "duels": "{count, plural, one {<b>#</b> sávpárbaj} other {<b>#</b> sávpárbaj}} · {left}–{right}",
+      "better": "Gyakrabban jobb KDA: <b>{name}</b>",
+      "last": "Legutóbbi találkozásotok",
+      "lastRole": "Legutóbbi találkozásotok, ezen a poszton: {role}",
+      "roles": {
+        "TOP": "top sáv",
+        "JUNGLE": "a dzsungel",
+        "MIDDLE": "középső sáv",
+        "BOTTOM": "alsó sáv",
+        "UTILITY": "támogató",
+        "other": "ugyanaz a sáv"
+      },
+      "won": "Nyert",
+      "lost": "Vesztett",
+      "meta": "{champion} · {kills}/{deaths}/{assists}",
+      "even": "Pontosan egyenlőek vagytok, ha ellenfelek vagytok. A döntő meccs rég esedékes.",
+      "sweep": "{name} soha nem veszített {other} ellen. {other} nyugodtan kérhet visszavágót.",
+      "edge": "{name} van fölényben, {hi} a(z) {lo} ellenében. {other} bosszút tervez."
+    },
+    "timeline": {
+      "eyebrow": "Percről percre",
+      "kills": "Egymásra mért ölések <b>{meetings, plural, one {# találkozó} other {# találkozó}}</b> során",
+      "solo": "Solo ölések: <sa>{left}</sa> – <sb>{right}</sb>",
+      "ahead": "Előny {minute} percnél: <sa>{left}</sa> – <sb>{right}</sb>",
+      "aheadLevel": "({count} döntetlen)",
+      "firstDeath": "Előbb halt meg: <sa>{left}</sa> – <sb>{right}</sb>",
+      "firstDragon": "Első sárkány: <sa>{left}</sa> – <sb>{right}</sb>",
+      "goldLead": "<b>{gold}</b> átlagos aranyelőny <b>{name}</b> számára",
+      "noEdge": "Egyikőtöknek sincs előnye a kicserélt ölésekben.",
+      "killsLead": "{name} viszi a kicserélt ölések többségét. A korai játék egyelőre rejtély.",
+      "level": "Átlagosan pontosan egyenlő {minute} percnél. Bárki nyer, később dől el.",
+      "lead": "{leader} általában vezet {minute} percnél, átlagosan {gold} arannyal.",
+      "allWon": "{lead} És minden előny győzelemmé vált. {other} sosem talál vissza.",
+      "noneWon": "{lead} Valahogy mindegyik meccset elveszítette. {other} a fordítások királya.",
+      "someWon": "{lead} Az {ahead} előnyből {won} alkalommal zárta le."
+    },
+    "together": {
+      "eyebrow": "Amikor együtt játszotok",
+      "chemistry": "Kémia · {label}",
+      "carry": "A közös meccsetekben {name} cipel {kda} KDA-val.",
+      "even": "Pontosan egyenlőek vagytok, ha együtt játszotok.",
+      "topDamage": "Legtöbb sebzés: <sa>{left}</sa> – <sb>{right}</sb>",
+      "winsMore": "Többet nyer, ha <side>{name}</side> vezet sebzésben",
+      "winsMoreRates": "({rate} szemben {other})",
+      "apart": "<side>{name}</side> {apart} külön → {together} együtt",
+      "each": "{aName} {a}, {bName} {b} pont",
+      "eachOne": "{value} pont {name} számára",
+      "lift": "Mindketten többet nyertek együtt, mint külön ({each}). Álljatok tovább együtt sorba.",
+      "drag": "Mindketten kevesebbet nyertek együtt, mint külön ({each}). Talán álljatok sorba másokkal.",
+      "mixed": "Az együttjátszás az egyikőtöknek jobban segít, mint a másiknak ({each}).",
+      "flat": "A nyerési arányotok alig változik, ha együtt álltok sorba. Csak társaság."
+    },
+    "verdict": {
+      "eyebrow": "Az ítélet",
+      "rows": "{count, plural, one {# sor} other {# sor}}",
+      "wins": "{name} nyer",
+      "tie": "Túl szoros az eldöntéshez",
+      "score": "{a} sor a(z) {b} ellenében",
+      "scoreTied": "{a} sor a(z) {b} ellenében, {ties} döntetlen",
+      "main": "Main: <b>{champion}</b>",
+      "rematchChip": "{date}: <sa>{left}</sa> – <sb>{right}</sb>",
+      "sideBets": "Mellékfogadások <sa>{left}</sa> – <sb>{right}</sb>",
+      "sideBetsNote": "De {name} nyeri a mellékfogadásokat, így a csoportchatnek lesz miről beszélnie.",
+      "recap": "{name} összegzése",
+      "shareTitle": "{a} és {b}: League szemtől szemben",
+      "again": "Új párharc"
+    }
+  },
+  "rail": {
+    "start": "Kezdés",
+    "numbers": "Számok",
+    "styles": "Stílusok",
+    "hours": "Órák",
+    "together": "Együtt",
+    "faceoff": "Összecsapás",
+    "timeline": "Idővonal",
+    "verdict": "Ítélet"
+  },
+  "page": {
+    "titleDemo": "Minta szemtől szemben · Rift Recap",
+    "titleEmpty": "Szemtől szemben · Rift Recap",
+    "title": "{a} és {b} · Szemtől szemben",
+    "description": "Két League-játékos összehasonlítva statisztikáról statisztikára, plusz hogy teljesítenek együtt.",
+    "unreadableTwo": "Nem sikerült beolvasni: {who}. A Riot ID-k Név#TAG formájúak.",
+    "first": "az első játékos",
+    "second": "a második játékos",
+    "malformed": "A linkben szereplő egyik játékost nem sikerült beolvasni.",
+    "notFound": "Az egyik játékos nem található. Ellenőrizd a helyesírást és a szervert.",
+    "same": "Válassz két különböző játékost.",
+    "noGames": "{since} óta nem találtunk meccset ehhez: {names}, így még nincs mit összehasonlítani."
+  }
+}

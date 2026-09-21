@@ -1,0 +1,181 @@
+{
+  "awards": {
+    "objectiveSteal": {
+      "title": "Mais provável de roubar o objetivo",
+      "tagline": "Cuide do seu dragão. Depois veja ele sumir.",
+      "label": "objetivos roubados",
+      "line": "{name} roubou {count, plural, one {# objetivo} other {# objetivos}}. Nada está seguro."
+    },
+    "objectiveTake": {
+      "title": "Mais provável de garantir o objetivo",
+      "tagline": "Onde o dragão vai, eles vão junto.",
+      "label": "dano em objetivos por minuto",
+      "line": "{name} causou {value} de dano por minuto em objetivos."
+    },
+    "deaths": {
+      "title": "Mais mortes",
+      "tagline": "Tela cinza? Eles têm passe anual.",
+      "label": "mortes por partida",
+      "line": "{name} passou cerca de {minutes} minutos de cada partida olhando para a tela cinza."
+    },
+    "pings": {
+      "title": "O Piloto de Banco de Trás",
+      "tagline": "Mais provável de pingar \"recuar\" para o próprio time.",
+      "label": "pings por partida",
+      "line": "{name} pingou {value} vezes por partida. O minimapa nunca teve descanso."
+    },
+    "vision": {
+      "title": "O Farol",
+      "tagline": "Acendeu as luzes para todo mundo.",
+      "label": "pontuação de visão por minuto",
+      "line": "{value} de pontuação de visão por minuto de {name}. Ninguém andou sozinho no escuro."
+    },
+    "tank": {
+      "title": "O Saco de Pancadas",
+      "tagline": "Absorveu mais dano, pelo time.",
+      "label": "dano recebido por partida",
+      "line": "{name} absorveu {value} de dano por partida."
+    },
+    "assists": {
+      "title": "O Melhor Amigo",
+      "tagline": "Sempre lá para preparar a jogada.",
+      "label": "assistências por partida",
+      "line": "{name} teve em média {value} assistências. O companheiro favorito do time."
+    },
+    "carry": {
+      "title": "O Carry",
+      "tagline": "Mais provável de ganhar por todo mundo.",
+      "label": "KDA",
+      "line": "Um KDA de {value}. {name} fez o trabalho pesado."
+    },
+    "damage": {
+      "title": "O Peso-Pesado",
+      "tagline": "Barras de vida derretem ao toque.",
+      "label": "dano por minuto",
+      "line": "{value} de dano a campeões por minuto de {name}."
+    },
+    "farm": {
+      "title": "O Fazendeiro",
+      "tagline": "Nenhuma onda de canhão ficou para trás.",
+      "label": "CS por minuto",
+      "line": "{value} tropas por minuto. {name} estava sempre na onda."
+    },
+    "present": {
+      "title": "Sempre Presente",
+      "tagline": "Se teve luta, eles estavam nela.",
+      "label": "participação em abates",
+      "line": "{name} participou de {value} dos abates do time."
+    },
+    "cc": {
+      "title": "O Controlador de Multidões",
+      "tagline": "Segurou o inimigo parado para os outros trabalharem.",
+      "label": "segundos de controle de grupo por partida",
+      "line": "{name} manteve os inimigos presos por {value, plural, one {# segundo} other {# segundos}} por partida."
+    }
+  },
+  "chemistry": {
+    "destiny": "Dupla do destino",
+    "great": "Ótima química",
+    "solid": "Parceiros sólidos",
+    "awkward": "Estranhos juntos",
+    "apart": "Melhor separados"
+  },
+  "slides": {
+    "intro": {
+      "eyebrow": "Resumo do grupo",
+      "together": "{count, plural, one {partida juntos} other {partidas juntos}}",
+      "hours": "{n, plural, one {<b>{value}</b> hora} other {<b>{value}</b> horas}}",
+      "note": "Com base nas suas {loaded} partidas mais recentes juntos (de {found} encontradas)."
+    },
+    "record": {
+      "eyebrow": "Seu retrospecto",
+      "label": "taxa de vitória juntos",
+      "bestStreak": "Melhor sequência <good>{count, plural, one {# vitória} other {# vitórias}}</good>",
+      "worstSkid": "Pior sequência <bad>{count, plural, one {# derrota} other {# derrotas}}</bad>",
+      "all": "Todos os {members} juntos em {games, plural, one {<b>#</b> partida} other {<b>#</b> partidas}}",
+      "machine": "Uma máquina quando jogam juntos.",
+      "good": "Mais vitórias que derrotas. O grupo entrega.",
+      "balanced": "Perfeitamente equilibrado. Caos, mas do tipo divertido.",
+      "rough": "Resultados difíceis. Mas o grupo do chat tem histórias."
+    },
+    "pairs": {
+      "eyebrow": "Química das duplas",
+      "best": "Melhor dupla",
+      "worst": "Precisa melhorar",
+      "games": "{count, plural, one {# partida} other {# partidas}} juntos",
+      "chemistry": "{icon} {score} de química · {label}",
+      "captionBoth": "{a} e {b} são os que devem jogar juntos. {c} e {d}, talvez não.",
+      "captionBest": "{a} e {b} são a sua dupla mais forte."
+    },
+    "award": {
+      "eyebrow": "Prêmio {position} de {total}",
+      "runner": "{n}. {name} <b>{display}</b>"
+    },
+    "board": {
+      "eyebrow": "O placar",
+      "aria": "Placar do grupo",
+      "kda": "KDA",
+      "deaths": "Mortes",
+      "damage": "Dano/min",
+      "awards": "Prêmios",
+      "note": "Ordenado por KDA. Os prêmios são os troféus que cada um levou para casa."
+    },
+    "finale": {
+      "mvp": "MVP do grupo",
+      "none": "Esse é o grupo",
+      "awards": "{count, plural, one {# prêmio} other {# prêmios}}, mais que qualquer outro.",
+      "recap": "Resumo de {name}",
+      "versus": "Frente a frente: {a} contra {b}",
+      "shareTitle": "O resumo do nosso grupo de League: {names}",
+      "another": "Começar outro grupo"
+    },
+    "rivalry": {
+      "eyebrow": "Fogo amigo",
+      "lead": "O retrospecto de vocês um contra o outro, {count, plural, one {# confronto} other {# confrontos}} em times opostos",
+      "aria": "Retrospectos frente a frente",
+      "cell": "{wins, plural, one {# vitória} other {# vitórias}}, {losses, plural, one {# derrota} other {# derrotas}}",
+      "even": "{a} e {b} estão empatados em {games, plural, one {# confronto} other {# confrontos}}.",
+      "edge": "{winner} leva vantagem sobre {loser}, {hi} a {lo}. A maior rivalidade do grupo."
+    },
+    "combos": {
+      "eyebrow": "Com quem jogar",
+      "trio": "Melhor trio",
+      "duo": "Melhor dupla",
+      "record": "{wins}V {losses}D em {games, plural, one {# partida} other {# partidas}} juntos",
+      "caption": "{names}: joguem juntos e a taxa de vitória fala por si.",
+      "games": "{count, plural, one {# partida} other {# partidas}}"
+    },
+    "roles": {
+      "eyebrow": "Melhor escalação",
+      "aria": "Função sugerida para cada membro",
+      "swap": "No papel, esta é a melhor escalação: cada um na função em que mais vence, pelas partidas de vocês juntos. Amostra pequena, então encare como uma dica.",
+      "settled": "Todo mundo já joga na função em que mais vence. Nada para trocar.",
+      "was": "geralmente {role}"
+    }
+  },
+  "rail": {
+    "start": "Início",
+    "record": "Retrospecto",
+    "duos": "Duplas",
+    "roles": "Funções",
+    "queue": "Com quem jogar",
+    "rivals": "Rivais",
+    "quiz": "Quiz",
+    "board": "Placar",
+    "mvp": "MVP"
+  },
+  "page": {
+    "title": "{names} · Resumo do grupo",
+    "titleDemo": "Resumo de grupo de exemplo · Rift Recap",
+    "titleEmpty": "Resumo do grupo · Rift Recap",
+    "description": "Prêmios de grupo a partir das partidas que jogaram juntos: mais mortes, mais roubos de objetivo e muito mais.",
+    "pickServer": "Escolha um servidor.",
+    "unreadable": "Não foi possível ler {names}. Riot IDs têm o formato Nome#TAG.",
+    "atLeastTwo": "Informe pelo menos dois Riot IDs.",
+    "atMostFive": "Um grupo tem no máximo cinco jogadores.",
+    "notFound": "Nenhum jogador encontrado para {names} em {region}. Confira a grafia e o servidor.",
+    "noShared": "Nenhum de vocês tem partidas em comum {where}. Isso funciona com partidas jogadas juntos, então tente um período mais longo ou pessoas com quem você joga.",
+    "whereSeason": "nas suas últimas {count}",
+    "whereRange": "em {range}"
+  }
+}

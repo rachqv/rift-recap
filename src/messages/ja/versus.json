@@ -1,0 +1,400 @@
+{
+  "rows": {
+    "winRate": "勝率",
+    "kda": "KDA",
+    "kills": "1試合あたりのキル",
+    "deaths": "1試合あたりのデス",
+    "assists": "1試合あたりのアシスト",
+    "cs": "1分あたりのCS",
+    "vision": "1分あたりの視界",
+    "damage": "1分あたりのダメージ",
+    "kp": "キル関与率"
+  },
+  "verdict": {
+    "tie": "どちらも{score}項目ずつ。不気味なほど互角。",
+    "sweep": "{name}が重要な項目をすべて獲得。{other}は追いつくべきことが山ほどある。",
+    "clear": "{name}が{hi}項目対{lo}項目で勝利。僅差ではなかった。",
+    "edge": "{name}が{hi}項目対{lo}項目でわずかに上回る。{other}はすぐ後ろにいる。"
+  },
+  "rematch": {
+    "changed": "首位が入れ替わった: 今は{name}がトップ。",
+    "improved": "{name}のほうが当時より伸びている（勝率{better}ポイント対{worse}ポイント）。",
+    "same": "前回とほぼ同じ状況。"
+  },
+  "groups": {
+    "moments": {
+      "label": "名場面",
+      "eyebrow": "大きな名場面"
+    },
+    "habits": {
+      "label": "習慣",
+      "eyebrow": "リフトでの習慣"
+    },
+    "form": {
+      "label": "調子",
+      "eyebrow": "調子と根性"
+    },
+    "identity": {
+      "label": "人となり",
+      "eyebrow": "人となり"
+    }
+  },
+  "short": {
+    "win": "{value}勝",
+    "loss": "{value}敗",
+    "record": "{rate} · {games}試合",
+    "champs": "{count, plural, other {#体}}",
+    "minutes": "{value}分",
+    "hours": "{value}時間",
+    "level": "Lv {value}",
+    "seconds": "{value}秒",
+    "epic": "ドラ{dragons} バロン{barons}",
+    "none": "なし",
+    "noneLower": "なし",
+    "penta": "{count}P",
+    "quadra": "{count}Q",
+    "triple": "{count}T"
+  },
+  "multi": {
+    "penta": "{count, plural, other {#回のペンタキル}}",
+    "quadra": "{count, plural, other {#回のクアドラキル}}",
+    "triple": "{count, plural, other {#回のトリプルキル}}"
+  },
+  "trend": {
+    "steady": "{name}は{rate}で安定",
+    "change": "{name}は勝率が{early}から{late}に変化"
+  },
+  "scenarios": {
+    "multikills": {
+      "title": "ハイライト",
+      "tagline": "ペンタ、クアドラ、トリプルを、敵チャットの荒れ具合で重み付け。",
+      "line": "{name}は{list}を獲得。ハイライトフォルダは満杯。"
+    },
+    "firstBlood": {
+      "title": "ファーストブラッド",
+      "tagline": "誰かが戦いを始めなければ。",
+      "line": "{name}は試合の{rate}でファーストブラッドを奪った。{other}はおしゃれに遅れてくる。"
+    },
+    "flawless": {
+      "title": "ノーデスの試合",
+      "tagline": "最初から最後までデスゼロ。",
+      "line": "{name}は{count, plural, other {#試合}}を1度も死なずに終えた。アンタッチャブル。"
+    },
+    "careerGame": {
+      "title": "キャリアゲーム",
+      "tagline": "パーティーで語り草になる1試合。",
+      "line": "{name}は{champion}で{kills}/{deaths}/{assists}。",
+      "lineLost": "{name}は{champion}で{kills}/{deaths}/{assists}だったのに負けた。つらい。"
+    },
+    "spree": {
+      "title": "最大のキルスプリー",
+      "tagline": "死なずに続けたキル数。",
+      "line": "{name}は死なずに{count}キルを繋げた。誰か消防署を呼んで。"
+    },
+    "lifespan": {
+      "title": "最長生存",
+      "tagline": "1度に生き延びた最長時間。",
+      "line": "{name}は一度、{time}連続で生き延びた。噴水はほとんど知らない相手。"
+    },
+    "soloKills": {
+      "title": "ソロキル",
+      "tagline": "1対1、助けはいらない。",
+      "line": "{name}は1試合平均{value}のソロキル。1v1が好きな人もいる。"
+    },
+    "dodge": {
+      "title": "マトリックス",
+      "tagline": "空を切るだけのスキルショット。",
+      "line": "{name}は1試合に{value}個のスキルショットを避けた。当てにくく、捕まえにくい。"
+    },
+    "thief": {
+      "title": "オブジェクトの盗人",
+      "tagline": "ドラゴン？ どのドラゴン？",
+      "line": "{name}は{count, plural, other {#個}}のオブジェクトをスチール。{other}はピットをもっと見張るべき。"
+    },
+    "epic": {
+      "title": "エピックモンスターの討伐者",
+      "tagline": "ドラゴンとバロンを自分の手で仕留めた。",
+      "line": "{name}は{dragons, plural, other {#体}}のドラゴンと{barons, plural, other {#体}}のバロンにとどめを刺した。"
+    },
+    "siege": {
+      "title": "解体チーム",
+      "tagline": "チームのタワーのうち、自分が壊した割合。",
+      "line": "{name}はチームのタワーの{share}を破壊。作られたものは何も生き残らない。"
+    },
+    "objDamage": {
+      "title": "オブジェクトダメージ",
+      "tagline": "1試合あたりのタワー、ドラゴン、バロンへのダメージ。",
+      "line": "{name}は1試合にオブジェクトへ{value}のダメージ。マップは単なるToDoリスト。"
+    },
+    "flash": {
+      "title": "フラッシュ中毒",
+      "tagline": "1試合あたりのフラッシュ使用回数。いつもクールダウン中。",
+      "line": "{name}は1試合に{value}回フラッシュを使う。{other}はより勇敢か、より遅いかのどちらか。"
+    },
+    "grayScreen": {
+      "title": "グレー画面での時間",
+      "tagline": "1試合のうち死んでいる時間の割合。少ないほど良い。",
+      "line": "{other}は1試合の{otherShare}をリスポーン待ちで過ごす。{name}はわずか{share}。"
+    },
+    "pings": {
+      "title": "後部座席の指揮官",
+      "tagline": "1試合あたりのピン。",
+      "line": "{name}は1試合に{value}回ピンを打った。ミニマップは一休みもできなかった。"
+    },
+    "pinks": {
+      "title": "コントロールワードの予算",
+      "tagline": "1試合あたりに置いたコントロールワード。",
+      "line": "{name}は1試合に{value}個のコントロールワードを置く。{other}はゴールドを万一に備えて取っておく。"
+    },
+    "sweeper": {
+      "title": "ワード掃除人",
+      "tagline": "1試合あたりに除去した敵のワード。",
+      "line": "{name}は1試合に敵のワードを{value}個除去。あのランタンからは何も隠れられない。"
+    },
+    "gold": {
+      "title": "ゴールドディガー",
+      "tagline": "1分あたりの獲得ゴールド。",
+      "line": "{name}は毎分{value}ゴールドを稼ぎ、{other}は{otherValue}。誰かはよりこまめに買い物をしている。"
+    },
+    "tank": {
+      "title": "サンドバッグ",
+      "tagline": "1試合あたりに吸収したダメージ。",
+      "line": "{name}は1試合に{value}のダメージを吸収した。誰かがやらなければ。"
+    },
+    "medic": {
+      "title": "チームの衛生兵",
+      "tagline": "1試合あたりの味方へのヒールとシールド。",
+      "line": "{name}は1試合にチームのために{value}のダメージ分をヒールとシールドで支えた。"
+    },
+    "cc": {
+      "title": "集団制御",
+      "tagline": "1試合あたりに敵を拘束した秒数。",
+      "line": "{name}は1試合に敵を{value, plural, other {#秒}}間拘束。動かないで。"
+    },
+    "whiteFlag": {
+      "title": "白旗",
+      "tagline": "サレンダーで終わった敗北。",
+      "line": "{name}のチームは敗北の{share}で降参した。{other}はネクサスまで戦う。"
+    },
+    "crit": {
+      "title": "最大のクリティカル",
+      "tagline": "1回で叩き出した最大のクリティカル。",
+      "line": "{name}は一度{value}のクリティカルを出した。あれはグループチャットに流れた。"
+    },
+    "teamDamage": {
+      "title": "ダメージを背負う",
+      "tagline": "チームのチャンピオンへのダメージに占める割合。",
+      "line": "{name}はチームのダメージの{share}を出した。残りのメンバーは近くに立っていた。"
+    },
+    "hotStreak": {
+      "title": "連勝街道",
+      "tagline": "最長の連勝。",
+      "line": "{name}は一度{win}連続で勝った。{other}の最高は{lose}。"
+    },
+    "tilt": {
+      "title": "ティルトの深さ",
+      "tagline": "最長の連敗。短いほど良い。",
+      "line": "{other}は一度{lose}連続で負けた。{name}は{win}を超えて沈んだことがない。"
+    },
+    "momentum": {
+      "title": "勢い",
+      "tagline": "新しいほうの半分と古いほうの半分の試合での勝率。",
+      "line": "{first}。一方、{second}。"
+    },
+    "ladder": {
+      "title": "ラダーの順位",
+      "tagline": "ランクラダーで上にいるのは誰か。",
+      "line": "{name}（{title}）が{other}（{otherTitle}）より上。公式に自慢できる。"
+    },
+    "seasonRanked": {
+      "title": "シーズンのランク戦績",
+      "tagline": "今シーズンのすべてのランク戦での勝率。",
+      "line": "{name}はランク戦で勝率{rate}、{other}は{otherRate}。"
+    },
+    "rankedForm": {
+      "title": "ランクのプレッシャー",
+      "tagline": "最近のランク戦での勝率。",
+      "line": "{name}はLPがかかると勝率{rate}。{other}は{otherRate}。"
+    },
+    "normals": {
+      "title": "何もかかっていない試合",
+      "tagline": "最近のノーマルでの勝率。",
+      "line": "{name}はノーマルで勝率{rate}、{other}は{otherRate}。リラックスが似合う。"
+    },
+    "aram": {
+      "title": "アビスの住人",
+      "tagline": "ARAMの橋での勝率。",
+      "line": "{name}は橋で勝率{rate}。{other}は{otherRate}。カオスは誰かの味方をする。"
+    },
+    "signature": {
+      "title": "主人公オーラ",
+      "tagline": "最も使ったチャンピオンでの勝率。",
+      "line": "{name}は{champion}で勝率{rate}。{other}は{otherChampion}で{otherRate}。"
+    },
+    "pool": {
+      "title": "チャンピオンプール",
+      "tagline": "使った異なるチャンピオンの数。",
+      "line": "{name}は{count, plural, other {#体}}の異なるチャンピオンを使った。{other}は{otherCount}に落ち着いた。どちらかは多彩さが好き。"
+    },
+    "roleLoyalty": {
+      "title": "ロールへの忠誠",
+      "tagline": "1つのロールに使う時間の割合。",
+      "line": "{name}は時間の{share}を{role}でプレイ。{other}はより自由に動き回る。"
+    },
+    "closer": {
+      "title": "クローザー",
+      "tagline": "平均試合時間。短いほうが勝ち。",
+      "line": "{name}の試合は{value}分で終わる。{other}は{otherValue}かかる。誰かは急いでいる。"
+    },
+    "marathon": {
+      "title": "マラソンゲーム",
+      "tagline": "最も長い1試合。",
+      "line": "{name}は一度{champion}で{time}プレイして勝った。おやつが必要だったはず。",
+      "lineLost": "{name}は一度{champion}で{time}プレイして負けた。おやつが必要だったはず。"
+    },
+    "hours": {
+      "title": "リフトで過ごした時間",
+      "tagline": "これらの試合で過ごした時間。",
+      "line": "{name}は{value}時間、{other}は{otherValue}を記録。たまには芝生に触れたほうがいいかも。"
+    },
+    "level": {
+      "title": "アカウントの古参",
+      "tagline": "サモナーレベル。",
+      "line": "{name}はレベル{level}、{other}はレベル{otherLevel}。どちらかはここに長くいる。"
+    },
+    "kryptonite": {
+      "title": "クリプトナイト",
+      "tagline": "最も苦手なレーン相手と、その結果。",
+      "line": "{other}は{enemy}に負け続けている（{record}）。{name}の最悪の敵{theirEnemy}のほうが、まだ優しい話。",
+      "lineNone": "{other}は{enemy}に勝てない（{record}）。{name}に宿敵はまったくいない。"
+    },
+    "bully": {
+      "title": "お気に入りの獲物",
+      "tagline": "レーンで最も叩きのめしたチャンピオン。",
+      "line": "{name}は{champion}に対して{record}。そのチャンピオンは別のレーンを探すべき。"
+    }
+  },
+  "slides": {
+    "small": "（サンプルが少ないので、軽く受け止めてください。）",
+    "intro": {
+      "eyebrow": "ヘッドトゥヘッド",
+      "unranked": "ランクなし",
+      "games": "{count, plural, other {#試合}}を分析",
+      "vs": "VS",
+      "differentServers": "サーバーが異なるため、比較できる共通の試合はありません。"
+    },
+    "stats": {
+      "eyebrow": "数字で見る",
+      "aria": "スタッツの比較",
+      "ties": "{count, plural, other {#項目}}は僅差すぎて決められなかった。"
+    },
+    "style": {
+      "eyebrow": "対照的な2人のプレイヤー",
+      "meta": "{games, plural, other {#試合}} · 勝率{rate}",
+      "metaRole": "{games, plural, other {#試合}} · 勝率{rate} · {role}"
+    },
+    "scenario": {
+      "eyebrow": "{group} · {position} / {total}",
+      "wins": "勝利",
+      "leads": "リード",
+      "vs": "対"
+    },
+    "rhythm": {
+      "eyebrow": "プレイする時間帯",
+      "note": "あなたのタイムゾーンで表示しています。"
+    },
+    "faceoff": {
+      "eyebrow": "真正面から",
+      "meetings": "{count, plural, other {敵として<b>#</b>回対戦}}",
+      "duels": "{count, plural, other {<b>#</b>回のレーン対決}} · {left}–{right}",
+      "better": "KDAが上回る回数が多いのは <b>{name}</b>",
+      "last": "最後に対戦した試合",
+      "lastRole": "最後に対戦した試合、ロールは{role}",
+      "roles": {
+        "TOP": "トップレーン",
+        "JUNGLE": "ジャングル",
+        "MIDDLE": "ミッドレーン",
+        "BOTTOM": "ボットレーン",
+        "UTILITY": "サポート",
+        "other": "同じレーン"
+      },
+      "won": "勝利",
+      "lost": "敗北",
+      "meta": "{champion} · {kills}/{deaths}/{assists}",
+      "even": "敵チームで戦うとぴったり互角。決着はとっくに待たれている。",
+      "sweep": "{name}は{other}に一度も負けていない。{other}はいつでもリマッチを申し込んでいい。",
+      "edge": "{name}が{hi}対{lo}で優勢。{other}は復讐を企んでいる。"
+    },
+    "timeline": {
+      "eyebrow": "1分ずつ見る",
+      "kills": "<b>{meetings, plural, other {#回}}</b>の対戦でお互いに取ったキル",
+      "solo": "ソロキル: <sa>{left}</sa> – <sb>{right}</sb>",
+      "ahead": "{minute}分時点でリード: <sa>{left}</sa> – <sb>{right}</sb>",
+      "aheadLevel": "（互角は{count}）",
+      "firstDeath": "先に死んだ回数: <sa>{left}</sa> – <sb>{right}</sb>",
+      "firstDragon": "先にドラゴンを取った回数: <sa>{left}</sa> – <sb>{right}</sb>",
+      "goldLead": "<b>{name}</b>の平均ゴールドリードは<b>{gold}</b>",
+      "noEdge": "取り合ったキルでは、どちらも優位に立てていない。",
+      "killsLead": "取り合ったキルは{name}が上回る。序盤の勝負はまだ謎のまま。",
+      "level": "{minute}分時点では平均でぴったり互角。誰が勝つにせよ、決まるのは後半。",
+      "lead": "{leader}は{minute}分時点で平均{gold}ゴールドリードしていることが多い。",
+      "allWon": "{lead} そしてそのリードはすべて勝利に繋がった。{other}に逆転の道はない。",
+      "noneWon": "{lead} どういうわけか、その試合はすべて落とした。{other}は逆転の王者。",
+      "someWon": "{lead} そのうち{ahead}回中{won}回を勝ち切った。"
+    },
+    "together": {
+      "eyebrow": "一緒にプレイした時",
+      "chemistry": "相性 · {label}",
+      "carry": "一緒にプレイした試合では、{name}がKDA {kda}でキャリーしている。",
+      "even": "一緒にプレイするとぴったり互角。",
+      "topDamage": "ダメージトップ: <sa>{left}</sa> – <sb>{right}</sb>",
+      "winsMore": "<side>{name}</side>がダメージトップだと勝ちやすい",
+      "winsMoreRates": "（{rate}対{other}）",
+      "apart": "<side>{name}</side> 別々では{apart} → 一緒では{together}",
+      "each": "{aName}は{a}、{bName}は{b}ポイント",
+      "eachOne": "{name}は{value}ポイント",
+      "lift": "2人とも別々より一緒のほうがよく勝つ（{each}）。これからも一緒にキューへ。",
+      "drag": "2人とも別々より一緒のほうが勝てない（{each}）。他の人と組んでみては。",
+      "mixed": "一緒にプレイすることは、片方により有利に働く（{each}）。",
+      "flat": "一緒にキューに入っても勝率はほとんど変わらない。ただの仲間。"
+    },
+    "verdict": {
+      "eyebrow": "判定",
+      "rows": "{count, plural, other {#項目}}",
+      "wins": "{name}の勝利",
+      "tie": "僅差すぎて決められない",
+      "score": "{a}項目対{b}項目",
+      "scoreTied": "{a}項目対{b}項目、引き分け{ties}",
+      "main": "メイン: <b>{champion}</b>",
+      "rematchChip": "{date}: <sa>{left}</sa> – <sb>{right}</sb>",
+      "sideBets": "サイドベット <sa>{left}</sa> – <sb>{right}</sb>",
+      "sideBetsNote": "でもサイドベットは{name}の勝ち。グループチャットのネタができた。",
+      "recap": "{name}のリキャップ",
+      "shareTitle": "{a}対{b}: Leagueヘッドトゥヘッド",
+      "again": "新しい対決"
+    }
+  },
+  "rail": {
+    "start": "スタート",
+    "numbers": "数字",
+    "styles": "スタイル",
+    "hours": "時間",
+    "together": "共闘",
+    "faceoff": "直接対決",
+    "timeline": "タイムライン",
+    "verdict": "判定"
+  },
+  "page": {
+    "titleDemo": "サンプルのヘッドトゥヘッド · Rift Recap",
+    "titleEmpty": "ヘッドトゥヘッド · Rift Recap",
+    "title": "{a}対{b} · ヘッドトゥヘッド",
+    "description": "2人のLeagueプレイヤーを統計ごとに比較し、一緒にプレイした時の成績も見ます。",
+    "unreadableTwo": "{who}を読み取れませんでした。Riot IDは「名前#TAG」の形式です。",
+    "first": "1人目のプレイヤー",
+    "second": "2人目のプレイヤー",
+    "malformed": "そのリンクのプレイヤーの1人を読み取れませんでした。",
+    "notFound": "そのプレイヤーのうち1人が見つかりませんでした。綴りとサーバーを確認してください。",
+    "same": "異なる2人のプレイヤーを選んでください。",
+    "noGames": "{names}の{since}以降の試合は見つからないため、まだ比較できるものがありません。"
+  }
+}

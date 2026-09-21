@@ -1,0 +1,55 @@
+{
+  "team": "Equipo {name}",
+  "line": {
+    "few": "{games} entre los equipos por ahora: es pronto para decidir.",
+    "level": "{a} a {b}: bastante igualados. Una diferencia tan pequeña puede ser suerte.",
+    "lead": "{name} va por delante, {win} a {lose}. Es más de lo que explicaría la suerte."
+  },
+  "rail": {
+    "start": "Los equipos",
+    "lanes": "Línea por línea",
+    "numbers": "Los números",
+    "stars": "Destacados",
+    "end": "Resúmenes de equipo"
+  },
+  "slides": {
+    "intro": {
+      "eyebrow": "Equipo contra equipo",
+      "played": "{games} jugadas entre ambos"
+    },
+    "lanes": {
+      "eyebrow": "Línea por línea",
+      "aria": "Resultados por línea",
+      "note": "Una línea solo aparece si los dos equipos tenían a alguien en ella. Cada partida se la lleva quien tuvo mejor KDA en la línea."
+    },
+    "numbers": {
+      "eyebrow": "Cómo jugó cada equipo",
+      "aria": "Medias por jugador y partida",
+      "note": "Media por jugador y partida.",
+      "kda": "KDA",
+      "damage": "Daño a campeones",
+      "gold": "Oro obtenido",
+      "vision": "Puntuación de visión"
+    },
+    "stars": {
+      "eyebrow": "Destacados",
+      "best": "Mejor KDA de {team}",
+      "stat": "{kda} de KDA en {games}",
+      "record": "Ganó {wins} de {games}",
+      "note": "Solo cuentan los jugadores con al menos {min} partidas entre los equipos."
+    },
+    "end": {
+      "eyebrow": "Sigue explorando",
+      "recap": "Resumen de equipo: {team}"
+    }
+  },
+  "page": {
+    "title": "{a} vs {b} · Equipo contra equipo",
+    "titleDemo": "Ejemplo de equipo contra equipo · Rift Recap",
+    "titleEmpty": "Equipo contra equipo · Rift Recap",
+    "description": "Dos equipos cara a cara: quién gana, línea por línea y cómo jugó cada uno.",
+    "overlap": "{names} no puede estar en los dos equipos.",
+    "atLeastTwo": "Cada equipo necesita al menos dos Riot ID.",
+    "noClash": "Estos equipos no tienen partidas entre sí {where}. Hacen falta partidas en las que al menos dos de cada equipo estuvieran en la misma partida en bandos contrarios, como una personalizada 5v5."
+  }
+}

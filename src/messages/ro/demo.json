@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "title": "Rezumat exemplu · Rift Recap"
+  },
+  "switcher": {
+    "label": "Jucători exemplu",
+    "previous": "Jucătorul exemplu anterior",
+    "next": "Următorul jucător exemplu",
+    "player": "Jucător exemplu",
+    "show": "Arată"
+  },
+  "players": {
+    "onetrick": "One-Trick",
+    "specialist": "Specialistul",
+    "explorer": "Exploratorul",
+    "chameleon": "Cameleonul",
+    "showstopper": "Vedeta",
+    "slayer": "Ucigașul",
+    "daredevil": "Temerarul",
+    "support": "Regizorul",
+    "unlucky": "Eroul ghinionist",
+    "phoenix": "Pasărea Phoenix",
+    "risingstar": "Steaua în ascensiune",
+    "streaker": "Seria fierbinte",
+    "scout": "Iscoada",
+    "farmer": "Fermierul",
+    "heavyhitter": "Lovitorul greu",
+    "everpresent": "Mereu prezent",
+    "opener": "Deschizătorul",
+    "untouchable": "Intangibilul",
+    "closer": "Finalizatorul",
+    "marathoner": "Maratonistul",
+    "speedrunner": "Speedrunnerul",
+    "assassin": "Asasinul",
+    "archmage": "Arhimagul",
+    "sharpshooter": "Ochitorul",
+    "brawler": "Bătăușul",
+    "bulwark": "Bastionul",
+    "aramfan": "Fanul ARAM",
+    "casual": "Relaxatul",
+    "demolisher": "Demolatorul",
+    "thief": "Hoțul",
+    "grinder": "Grinderul",
+    "pathfinder": "Descoperitorul",
+    "islander": "Insularul",
+    "centerpiece": "Piesa centrală",
+    "carry": "Carry-ul",
+    "guardian": "Gardianul"
+  }
+}

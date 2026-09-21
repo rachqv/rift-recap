@@ -1,0 +1,43 @@
+{
+  "badge": "Rezumatul sezonului",
+  "title": {
+    "line1": "Sezonul tău,",
+    "line2": "rezumat."
+  },
+  "subtitle": "Fiecare meci, fiecare pentakill, fiecare Flash discutabil. Introdu Riot ID-ul și retrăiește-ți călătoria prin Falie.",
+  "error": "Introdu Riot ID-ul sub forma Nume#TAG și alege o regiune.",
+  "hint": "Fără autentificare. Doar Riot ID-ul tău. <link>Vezi un rezumat exemplu →</link>",
+  "modes": {
+    "squad": "Rezumatul echipei",
+    "versus": "Față în față",
+    "clash": "Echipă contra echipă",
+    "players": "Jucătorii tăi"
+  },
+  "features": {
+    "title": "Ce conține rezumatul tău",
+    "champions": {
+      "title": "Campionii tăi",
+      "text": "Cine te-a dus în spate, cine te-a costat LP și alegerea pe care nu te poți opri să o blochezi."
+    },
+    "climb": {
+      "title": "Urcușul tău",
+      "text": "Rata de victorii, KDA și evoluția rangului pe tot sezonul, povestite ca o poveste."
+    },
+    "time": {
+      "title": "Timpul tău",
+      "text": "Orele petrecute pe Falie, cel mai lung meci, cea mai târzie coadă de noapte."
+    }
+  },
+  "sample": {
+    "label": "Carduri de rezumat exemplu",
+    "games": "Meciuri jucate",
+    "days": "≈ {days} zile petrecute pe Falie",
+    "signature": "Campion de semnătură",
+    "record": "{games} meciuri · {winRate} rată de victorii",
+    "kda": "KDA din sezon",
+    "peak": "Rang maxim",
+    "peakRank": "Smarald II",
+    "climbed": "+{lp} LP urcați în acest sezon"
+  },
+  "footer": "Rift Recap nu este susținut de Riot Games și nu reflectă opiniile Riot Games sau ale vreunei persoane implicate oficial în producerea ori gestionarea proprietăților Riot Games. Riot Games și toate proprietățile asociate sunt mărci comerciale sau mărci comerciale înregistrate ale Riot Games, Inc."
+}

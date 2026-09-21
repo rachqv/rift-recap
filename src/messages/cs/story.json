@@ -1,0 +1,17 @@
+{
+  "sections": "Sekce souhrnu",
+  "controls": "Prezentace a zvuk",
+  "play": "Přehrát prezentaci",
+  "pause": "Pozastavit",
+  "resume": "Pokračovat",
+  "stop": "Zastavit prezentaci",
+  "mute": "Ztlumit",
+  "unmute": "Zrušit ztlumení",
+  "volume": "Hlasitost",
+  "playing": "Prezentace hraje",
+  "paused": "Prezentace je pozastavena",
+  "label": "Tvůj souhrn",
+  "previous": "Předchozí snímek",
+  "next": "Další snímek",
+  "copyLink": "Kopírovat odkaz na tento snímek"
+}

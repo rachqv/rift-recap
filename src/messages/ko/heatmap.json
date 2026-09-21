@@ -1,0 +1,42 @@
+{
+  "insight": {
+    "nightOwl": "게임의 {share}가 자정 이후에 시작돼요. 협곡은 잠들지 않고, 당신도 마찬가지예요.",
+    "earlyBird": "게임의 {share}가 정오 전이에요. 커피와 함께 큐를 돌리네요.",
+    "weekend": "게임의 {share}가 주말이에요. 토요일은 협곡의 날이죠.",
+    "weekday": "거의 모든 게임이 평일이에요. 그라인드에는 휴일이 없어요.",
+    "streak": "{days, plural, other {#일}} 연속으로 게임을 했어요. 이건 습관이에요.",
+    "steady": "달력 전체에 고르게 퍼져 있어요. 패턴은 없고, 그냥 리그 오브 레전드예요."
+  },
+  "aria": "{days, plural, other {#일}} 동안 {games, plural, other {#게임}}의 달력",
+  "before": "{date}: 불러온 가장 오래된 게임보다 이전",
+  "day": "{date}: {detail}",
+  "dayGames": "{games, plural, other {#게임}}, {wins}승",
+  "dayNone": "게임 없음",
+  "fewer": "적음",
+  "more": "많음",
+  "activeDays": "{count, plural, other {활동한 날 <b>#</b>일}}",
+  "busiest": "가장 바쁜 날 <b>{date}</b> · {games, plural, other {#게임}}",
+  "streak": "최장 연속 <b>{days, plural, other {#일}}</b>",
+  "favorite": "즐겨 하는 요일 <b>{day}</b>",
+  "prime": "황금 시간대 <b>{hour}</b>",
+  "parts": {
+    "night": "새벽",
+    "morning": "아침",
+    "afternoon": "오후",
+    "evening": "저녁"
+  },
+  "bestPart": "<b>{part}</b>에 가장 잘함 · 승률 <good>{rate}</good>",
+  "worstPart": "({part} 시간대 <bad>{rate}</bad>)",
+  "bestMonth": "최고의 달 <b>{month}</b> · <good>{rate}</good>",
+  "worstMonth": "· 최악의 달 <b>{month}</b> <bad>{rate}</bad>",
+  "clock": {
+    "day": "가장 잘한 요일: {best}, 승률 {bestRate}. 가장 못한 요일: {worst}, 승률 {worstRate}뿐.",
+    "part": "가장 잘한 시간대: {best}, 승률 {bestRate}. 가장 못한 시간대: {worst}, 승률 {worstRate}뿐.",
+    "steady": "시간이나 요일에 따라 승률이 거의 변하지 않아요. 언제 해도 같은 플레이어예요.",
+    "byPart": "시간대",
+    "byDay": "요일",
+    "bar": "{label}: 승률 {rate}, {detail}",
+    "barFew": "{label}: {detail}. 비교하기엔 게임 수가 너무 적어요.",
+    "aria": "시간대별·요일별 승률"
+  }
+}

@@ -1,0 +1,400 @@
+{
+  "rows": {
+    "winRate": "Poměr výher",
+    "kda": "KDA",
+    "kills": "Zabití za zápas",
+    "deaths": "Smrti za zápas",
+    "assists": "Asistence za zápas",
+    "cs": "CS za minutu",
+    "vision": "Vize za minutu",
+    "damage": "Poškození za minutu",
+    "kp": "Účast na zabitích"
+  },
+  "verdict": {
+    "tie": "Každý {score} řádků. Jste podezřele vyrovnaní.",
+    "sweep": "{name} bere každý důležitý řádek. {other} má hodně co dohánět.",
+    "clear": "{name} vyhrává {hi} řádků ku {lo}. Nebylo to těsné.",
+    "edge": "{name} těsně vyhrává, {hi} řádků ku {lo}. {other} mu dýchá na záda."
+  },
+  "rematch": {
+    "changed": "Vedení změnilo majitele: nyní vede {name}.",
+    "improved": "{name} se od té doby zlepšil víc ({better} oproti {worse} bodům poměru výher).",
+    "same": "Zhruba stejný obraz jako minule."
+  },
+  "groups": {
+    "moments": {
+      "label": "Momenty",
+      "eyebrow": "Velké momenty"
+    },
+    "habits": {
+      "label": "Zvyky",
+      "eyebrow": "Zvyky na Riftu"
+    },
+    "form": {
+      "label": "Forma",
+      "eyebrow": "Forma a odhodlání"
+    },
+    "identity": {
+      "label": "Kdo je kdo",
+      "eyebrow": "Kdo je kdo"
+    }
+  },
+  "short": {
+    "win": "{value}V",
+    "loss": "{value}P",
+    "record": "{rate} · {games}z",
+    "champs": "{count, plural, one {# šamp.} few {# šamp.} other {# šamp.}}",
+    "minutes": "{value} min",
+    "hours": "{value} h",
+    "level": "Úr. {value}",
+    "seconds": "{value} s",
+    "epic": "{dragons}D {barons}B",
+    "none": "Žádné",
+    "noneLower": "žádné",
+    "penta": "{count}P",
+    "quadra": "{count}Q",
+    "triple": "{count}T"
+  },
+  "multi": {
+    "penta": "{count, plural, one {# pentakill} few {# pentakilly} other {# pentakillů}}",
+    "quadra": "{count, plural, one {# quadrakill} few {# quadrakilly} other {# quadrakillů}}",
+    "triple": "{count, plural, one {# triple kill} few {# triple killy} other {# triple killů}}"
+  },
+  "trend": {
+    "steady": "{name} se držel na {rate}",
+    "change": "{name} se posunul z {early} na {late} výher"
+  },
+  "scenarios": {
+    "multikills": {
+      "title": "Nejlepší momenty",
+      "tagline": "Penty, quadry a tripley, vážené tím, jak hlučný byl nepřátelský chat.",
+      "line": "Hráč {name} nasbíral: {list}. Složka s nejlepšími momenty je plná."
+    },
+    "firstBlood": {
+      "title": "První krev",
+      "tagline": "Někdo musí boj zahájit.",
+      "line": "Hráč {name} získal první krev v {rate} zápasů. Hráč {other} chodí pozdě se stylem."
+    },
+    "flawless": {
+      "title": "Bezchybné zápasy",
+      "tagline": "Nula smrtí, od začátku do konce.",
+      "line": "Hráč {name} dokončil {count, plural, one {# zápas} few {# zápasy} other {# zápasů}}, aniž by jednou zemřel. Nedotknutelný."
+    },
+    "careerGame": {
+      "title": "Zápas kariéry",
+      "tagline": "Ten, který budou vyprávět na večírcích.",
+      "line": "Hráč {name} zvládl {kills}/{deaths}/{assists} za {champion}.",
+      "lineLost": "Hráč {name} zvládl {kills}/{deaths}/{assists} za {champion} a přesto prohrál. Krutý."
+    },
+    "spree": {
+      "title": "Největší série",
+      "tagline": "Zabití v řadě bez smrti.",
+      "line": "Hráč {name} navázal {count} zabití bez smrti. Někdo zavolejte hasiče."
+    },
+    "lifespan": {
+      "title": "Nejdelší život",
+      "tagline": "Nejdelší doba, kterou vydrželi naživu v kuse.",
+      "line": "Hráč {name} jednou přežil {time} v kuse. Fontána ho sotva znala."
+    },
+    "soloKills": {
+      "title": "Solo zabití",
+      "tagline": "Jeden na jednoho, pomoc netřeba.",
+      "line": "Hráč {name} má v průměru {value} solo zabití za zápas. Někdo prostě miluje 1v1."
+    },
+    "dodge": {
+      "title": "Matrix",
+      "tagline": "Skillshoty, které trefí jen vzduch.",
+      "line": "Hráč {name} uhnul {value} skillshotům za zápas. Těžko zasáhnout, hůř chytit."
+    },
+    "thief": {
+      "title": "Zloděj cílů",
+      "tagline": "Drak? Jaký drak?",
+      "line": "Hráč {name} ukradl {count, plural, one {# cíl} few {# cíle} other {# cílů}}. Hráč {other} by měl jámu hlídat líp."
+    },
+    "epic": {
+      "title": "Lovec epických příšer",
+      "tagline": "Draci a Baroni dorazení osobně.",
+      "line": "Hráč {name} zasadil poslední ránu {dragons, plural, one {# drakovi} few {# drakům} other {# drakům}} a {barons, plural, one {# Baronovi} few {# Baronům} other {# Baronům}}."
+    },
+    "siege": {
+      "title": "Demoliční četa",
+      "tagline": "Podíl věží jejich týmu, které zbořili.",
+      "line": "Hráč {name} zbořil {share} věží svého týmu. Nic postaveného nepřežije."
+    },
+    "objDamage": {
+      "title": "Poškození cílů",
+      "tagline": "Poškození věží, draků a Baronů za zápas.",
+      "line": "Hráč {name} udělil cílům {value} poškození za zápas. Mapa je jen seznam úkolů."
+    },
+    "flash": {
+      "title": "Závislák na Skoku",
+      "tagline": "Použití Skoku za zápas. Vždycky je na cooldownu.",
+      "line": "Hráč {name} používá Skok {value}krát za zápas. Hráč {other} je buď odvážnější, nebo pomalejší."
+    },
+    "grayScreen": {
+      "title": "Čas na šedé obrazovce",
+      "tagline": "Podíl každého zápasu strávený mrtvý. Méně je lépe.",
+      "line": "Hráč {other} tráví {otherShare} každého zápasu čekáním na respawn. Hráč {name} jen {share}."
+    },
+    "pings": {
+      "title": "Řidič ze zadního sedadla",
+      "tagline": "Pingů za zápas.",
+      "line": "Hráč {name} pingal {value}krát za zápas. Minimapa neměla klid."
+    },
+    "pinks": {
+      "title": "Rozpočet na růžové warda",
+      "tagline": "Kontrolních wardů položených za zápas.",
+      "line": "Hráč {name} pokládá {value} kontrolních wardů za zápas. Hráč {other} šetří zlato na horší časy."
+    },
+    "sweeper": {
+      "title": "Zametač wardů",
+      "tagline": "Nepřátelských wardů vyčištěných za zápas.",
+      "line": "Hráč {name} vyčistil {value} nepřátelských wardů za zápas. Před tou lucernou se nic neschová."
+    },
+    "gold": {
+      "title": "Zlatokop",
+      "tagline": "Zlata vyděláno za minutu.",
+      "line": "Hráč {name} vydělává {value} zlata za minutu oproti {otherValue} u hráče {other}. Někdo chodí nakupovat častěji."
+    },
+    "tank": {
+      "title": "Boxovací pytel",
+      "tagline": "Pohlceného poškození za zápas.",
+      "line": "Hráč {name} pohltil {value} poškození za zápas. Někdo to dělat musel."
+    },
+    "medic": {
+      "title": "Týmový medik",
+      "tagline": "Léčení a štíty na spoluhráče za zápas.",
+      "line": "Hráč {name} vyléčil a ochránil {value} poškození za zápas pro tým."
+    },
+    "cc": {
+      "title": "Kontrola davu",
+      "tagline": "Sekund držení nepřátel na místě za zápas.",
+      "line": "Hráč {name} držel nepřátele zablokované {value, plural, one {# sekundu} few {# sekundy} other {# sekund}} za zápas. Ani se nehni."
+    },
+    "whiteFlag": {
+      "title": "Bílá vlajka",
+      "tagline": "Prohry, které skončily vzdáním se.",
+      "line": "Tým hráče {name} se vzdal v {share} proher. Hráč {other} bojuje až do Nexu."
+    },
+    "crit": {
+      "title": "Největší kritický zásah",
+      "tagline": "Nejtvrdší jediný kritický zásah.",
+      "line": "Hráč {name} jednou zasadil kritický zásah za {value}. Ten skončil ve skupinovém chatu."
+    },
+    "teamDamage": {
+      "title": "Nese poškození",
+      "tagline": "Podíl na poškození šampionů týmu.",
+      "line": "Hráč {name} udělil {share} poškození svého týmu. Zbytek týmu stál poblíž."
+    },
+    "hotStreak": {
+      "title": "Žhavá série",
+      "tagline": "Nejdelší řada výher.",
+      "line": "Hráč {name} jednou vyhrál {win} v řadě. Hráč {other} se zastavil na {lose}."
+    },
+    "tilt": {
+      "title": "Hloubka tiltu",
+      "tagline": "Nejdelší řada proher. Kratší je lepší.",
+      "line": "Hráč {other} jednou prohrál {lose} v řadě. Hráč {name} se nikdy nepropadl přes {win}."
+    },
+    "momentum": {
+      "title": "Tah",
+      "tagline": "Poměr výher v novější polovině zápasů oproti starší.",
+      "line": "{first}, zatímco {second}."
+    },
+    "ladder": {
+      "title": "Pozice na žebříčku",
+      "tagline": "Kdo je výš na hodnoceném žebříčku.",
+      "line": "Hráč {name} ({title}) je nad hráčem {other} ({otherTitle}). Právo se chlubit, oficiálně."
+    },
+    "seasonRanked": {
+      "title": "Hodnocená bilance sezony",
+      "tagline": "Poměr výher ve všech hodnocených zápasech této sezony.",
+      "line": "Hráč {name} vyhrává {rate} hodnocených zápasů oproti {otherRate} u hráče {other}."
+    },
+    "rankedForm": {
+      "title": "Tlak hodnocených",
+      "tagline": "Poměr výher v nedávných hodnocených zápasech.",
+      "line": "Hráč {name} vyhrává {rate}, když jde o LP. Hráč {other} vyhrává {otherRate}."
+    },
+    "normals": {
+      "title": "O nic nejde",
+      "tagline": "Poměr výher v nedávných normálních zápasech.",
+      "line": "Hráč {name} vyhrává {rate} normálních zápasů oproti {otherRate} u hráče {other}. Uvolnění mu sluší."
+    },
+    "aram": {
+      "title": "Obyvatel Propasti",
+      "tagline": "Poměr výher na mostě v ARAM.",
+      "line": "Hráč {name} vyhrává na mostě {rate}. Hráč {other} vyhrává {otherRate}. Chaos někomu přeje."
+    },
+    "signature": {
+      "title": "Energie hlavní postavy",
+      "tagline": "Poměr výher za nejčastěji hraného šampiona.",
+      "line": "Hráč {name} vyhrává {rate} za {champion}. Hráč {other} vyhrává {otherRate} za {otherChampion}."
+    },
+    "pool": {
+      "title": "Výběr šampionů",
+      "tagline": "Kolik různých šampionů hráli.",
+      "line": "Hráč {name} hrál za {count, plural, one {# jiného šampiona} few {# různé šampiony} other {# různých šampionů}}. Hráč {other} skončil u {otherCount}. Jednomu z vás se líbí rozmanitost."
+    },
+    "roleLoyalty": {
+      "title": "Věrnost roli",
+      "tagline": "Kolik jejich času jde na jednu roli.",
+      "line": "Hráč {name} hraje roli {role} {share} času. Hráč {other} se pohybuje volněji."
+    },
+    "closer": {
+      "title": "Zakončovatel",
+      "tagline": "Průměrná délka zápasu. Kratší vyhrává.",
+      "line": "Zápasy hráče {name} končí za {value} minut. Zápasy hráče {other} trvají {otherValue}. Někdo má kam spěchat."
+    },
+    "marathon": {
+      "title": "Maratonský zápas",
+      "tagline": "Nejdelší jednotlivý zápas.",
+      "line": "Hráč {name} jednou hrál {time} za {champion} a vyhrál. Nechyběly svačiny.",
+      "lineLost": "Hráč {name} jednou hrál {time} za {champion} a prohrál. Nechyběly svačiny."
+    },
+    "hours": {
+      "title": "Čas na Riftu",
+      "tagline": "Hodin strávených v těchto zápasech.",
+      "line": "Hráč {name} nasbíral {value} hodin. Hráč {other} nasbíral {otherValue}. Možná by se měl dotknout trávy."
+    },
+    "level": {
+      "title": "Veterán účtu",
+      "tagline": "Úroveň přivolávače.",
+      "line": "Hráč {name} je na úrovni {level}. Hráč {other} je na úrovni {otherLevel}. Jeden z vás je tu už dlouho."
+    },
+    "kryptonite": {
+      "title": "Kryptonit",
+      "tagline": "Jejich nejhorší soupeř z lajny a jak to dopadlo.",
+      "line": "Hráč {other} pořád prohrává proti {enemy} ({record}). Nejhorší nepřítel hráče {name}, {theirEnemy}, je mírnější příběh.",
+      "lineNone": "Hráč {other} nedokáže porazit {enemy} ({record}). Hráč {name} nemá žádnou nemesis."
+    },
+    "bully": {
+      "title": "Oblíbená oběť",
+      "tagline": "Šampion, kterého na lajně nejvíc mlátili.",
+      "line": "Hráč {name} je proti {champion} {record}. Ten šampion by si měl najít jinou lajnu."
+    }
+  },
+  "slides": {
+    "small": "(Malý vzorek, tak to ber s nadhledem.)",
+    "intro": {
+      "eyebrow": "Tváří v tvář",
+      "unranked": "Bez ranku",
+      "games": "{count, plural, one {# zápas analyzován} few {# zápasy analyzovány} other {# zápasů analyzováno}}",
+      "vs": "VS",
+      "differentServers": "Různé servery, takže nejsou žádné společné zápasy k porovnání."
+    },
+    "stats": {
+      "eyebrow": "Čísla",
+      "aria": "Porovnání statistik",
+      "ties": "{count, plural, one {# řádek byl} few {# řádky byly} other {# řádků bylo}} příliš těsných na rozhodnutí."
+    },
+    "style": {
+      "eyebrow": "Dva různí hráči",
+      "meta": "{games, plural, one {# zápas} few {# zápasy} other {# zápasů}} · {rate} výher",
+      "metaRole": "{games, plural, one {# zápas} few {# zápasy} other {# zápasů}} · {rate} výher · {role}"
+    },
+    "scenario": {
+      "eyebrow": "{group} · {position} z {total}",
+      "wins": "Vyhrává",
+      "leads": "Vede",
+      "vs": "proti"
+    },
+    "rhythm": {
+      "eyebrow": "Kdy hrajete",
+      "note": "Ve tvém vlastním časovém pásmu."
+    },
+    "faceoff": {
+      "eyebrow": "Tváří v tvář",
+      "meetings": "{count, plural, one {<b>#</b> setkání jako nepřátelé} few {<b>#</b> setkání jako nepřátelé} other {<b>#</b> setkání jako nepřátelé}}",
+      "duels": "{count, plural, one {<b>#</b> souboj na lajně} few {<b>#</b> souboje na lajně} other {<b>#</b> soubojů na lajně}} · {left}–{right}",
+      "better": "Častěji lepší KDA: <b>{name}</b>",
+      "last": "Když jste se potkali naposledy",
+      "lastRole": "Když jste se potkali naposledy, na roli: {role}",
+      "roles": {
+        "TOP": "top lajna",
+        "JUNGLE": "džungle",
+        "MIDDLE": "mid lajna",
+        "BOTTOM": "bot lajna",
+        "UTILITY": "podpora",
+        "other": "stejná lajna"
+      },
+      "won": "Výhra",
+      "lost": "Prohra",
+      "meta": "{champion} · {kills}/{deaths}/{assists}",
+      "even": "Úplně vyrovnaní, když jste v protilehlých týmech. Rozhodující zápas je dávno na čase.",
+      "sweep": "Hráč {name} nikdy neprohrál s hráčem {other}. Hráč {other} si může říct o odvetu.",
+      "edge": "Hráč {name} má navrch, {hi} ku {lo}. Hráč {other} plánuje pomstu."
+    },
+    "timeline": {
+      "eyebrow": "Minutu po minutě",
+      "kills": "Zabití navzájem, v <b>{meetings, plural, one {# setkání} few {# setkáních} other {# setkáních}}</b>",
+      "solo": "Solo zabití: <sa>{left}</sa> – <sb>{right}</sb>",
+      "ahead": "Vpředu v {minute}. minutě: <sa>{left}</sa> – <sb>{right}</sb>",
+      "aheadLevel": "({count} remíz)",
+      "firstDeath": "První zemřel: <sa>{left}</sa> – <sb>{right}</sb>",
+      "firstDragon": "První drak: <sa>{left}</sa> – <sb>{right}</sb>",
+      "goldLead": "<b>{gold}</b> průměrný náskok ve zlatě pro hráče <b>{name}</b>",
+      "noEdge": "Ani jeden z vás nemá navrch ve vyměněných zabitích.",
+      "killsLead": "Hráč {name} bere zabití, která si vyměňujete. Early game je zatím záhada.",
+      "level": "V průměru úplně vyrovnaní v {minute}. minutě. Ať vyhraje kdokoli, rozhodne se později.",
+      "lead": "{leader} obvykle vede v {minute}. minutě, v průměru o {gold} zlata.",
+      "allWon": "{lead} A každé vedení se změnilo ve výhru. Hráč {other} nikdy nenajde cestu zpátky.",
+      "noneWon": "{lead} Nějak prohrál každý z těch zápasů. Hráč {other} je král comebacků.",
+      "someWon": "{lead} Dotáhl {won} z {ahead} těchto vedení."
+    },
+    "together": {
+      "eyebrow": "Když hrajete spolu",
+      "chemistry": "Chemie · {label}",
+      "carry": "Ve vašich společných zápasech nese hráč {name} tým s KDA {kda}.",
+      "even": "Úplně vyrovnaní, když hrajete spolu.",
+      "topDamage": "Nejvíc poškození: <sa>{left}</sa> – <sb>{right}</sb>",
+      "winsMore": "Víc vyhrává, když <side>{name}</side> vede v poškození",
+      "winsMoreRates": "({rate} oproti {other})",
+      "apart": "<side>{name}</side> {apart} zvlášť → {together} spolu",
+      "each": "{aName} {a}, {bName} {b} bodů",
+      "eachOne": "{value} bodů pro hráče {name}",
+      "lift": "Oba vyhráváte víc spolu než zvlášť ({each}). Choďte do fronty dál spolu.",
+      "drag": "Oba vyhráváte méně spolu než zvlášť ({each}). Možná choďte do fronty s jinými lidmi.",
+      "mixed": "Hraní spolu pomáhá jednomu z vás víc než druhému ({each}).",
+      "flat": "Váš poměr výher se skoro nemění, když chodíte do fronty spolu. Je to jen společnost."
+    },
+    "verdict": {
+      "eyebrow": "Verdikt",
+      "rows": "{count, plural, one {# řádek} few {# řádky} other {# řádků}}",
+      "wins": "Vyhrává {name}",
+      "tie": "Příliš těsné na rozhodnutí",
+      "score": "{a} řádků ku {b}",
+      "scoreTied": "{a} řádků ku {b}, {ties} remíz",
+      "main": "Main: <b>{champion}</b>",
+      "rematchChip": "{date}: <sa>{left}</sa> – <sb>{right}</sb>",
+      "sideBets": "Vedlejší sázky <sa>{left}</sa> – <sb>{right}</sb>",
+      "sideBetsNote": "Ale vedlejší sázky vyhrává {name}, takže skupinový chat má o čem mluvit.",
+      "recap": "Souhrn hráče {name}",
+      "shareTitle": "{a} proti {b}: souboj v Leagueu",
+      "again": "Nový souboj"
+    }
+  },
+  "rail": {
+    "start": "Začátek",
+    "numbers": "Čísla",
+    "styles": "Styly",
+    "hours": "Hodiny",
+    "together": "Spolu",
+    "faceoff": "Střet",
+    "timeline": "Časová osa",
+    "verdict": "Verdikt"
+  },
+  "page": {
+    "titleDemo": "Ukázkový souboj · Rift Recap",
+    "titleEmpty": "Tváří v tvář · Rift Recap",
+    "title": "{a} proti {b} · Tváří v tvář",
+    "description": "Dva hráči Leaguu porovnaní statistika po statistice, plus jak si vedou spolu.",
+    "unreadableTwo": "Nepodařilo se přečíst {who}. Riot ID vypadají jako Jméno#TAG.",
+    "first": "prvního hráče",
+    "second": "druhého hráče",
+    "malformed": "Jednoho z hráčů v tomto odkazu se nepodařilo přečíst.",
+    "notFound": "Jeden z těchto hráčů nebyl nalezen. Zkontroluj pravopis a server.",
+    "same": "Vyber dva různé hráče.",
+    "noGames": "Od {since} nebyly nalezeny žádné zápasy pro {names}, takže zatím není co porovnávat."
+  }
+}

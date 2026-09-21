@@ -1,0 +1,39 @@
+{
+  "thisSeason": "이번 시즌 나는",
+  "disclaimer": "Rift Recap은 Riot Games의 승인을 받지 않았으며, Riot Games 또는 Riot Games 관련 자산의 제작이나 관리에 공식적으로 관여한 누구의 견해나 의견도 반영하지 않습니다.",
+  "games": "게임",
+  "winRate": "승률",
+  "kda": "KDA",
+  "trophies": "트로피",
+  "rank": "랭크",
+  "main": "주력",
+  "topChampion": "대표 챔피언",
+  "gamesCount": "{count, plural, other {#게임}}",
+  "squad": {
+    "header": "스쿼드 리캡",
+    "gamesTogether": "함께한 게임",
+    "hours": "시간",
+    "together": "함께",
+    "awards": "어워드"
+  },
+  "versus": {
+    "header": "1대1 비교",
+    "vs": "VS",
+    "rowsWon": "승리한 항목",
+    "scenarios": "명장면",
+    "numbers": "숫자로 보기",
+    "unranked": "언랭크"
+  },
+  "bingo": {
+    "header": "트로피 빙고",
+    "free": "프리",
+    "lines": "빙고",
+    "next": "다음 빙고: {name}"
+  },
+  "form": {
+    "best": "최고의 구간",
+    "worst": "최악의 구간",
+    "now": "지금",
+    "ended": "{date} 종료"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "title": "Przykładowe podsumowanie · Rift Recap"
+  },
+  "switcher": {
+    "label": "Przykładowi gracze",
+    "previous": "Poprzedni przykładowy gracz",
+    "next": "Następny przykładowy gracz",
+    "player": "Przykładowy gracz",
+    "show": "Pokaż"
+  },
+  "players": {
+    "onetrick": "One-Trick",
+    "specialist": "Specjalista",
+    "explorer": "Odkrywca",
+    "chameleon": "Kameleon",
+    "showstopper": "Gwiazda show",
+    "slayer": "Pogromca",
+    "daredevil": "Śmiałek",
+    "support": "Rozgrywający",
+    "unlucky": "Pechowy bohater",
+    "phoenix": "Feniks",
+    "risingstar": "Wschodząca gwiazda",
+    "streaker": "Gorąca passa",
+    "scout": "Zwiadowca",
+    "farmer": "Farmer",
+    "heavyhitter": "Ciężka artyleria",
+    "everpresent": "Zawsze obecny",
+    "opener": "Otwieracz",
+    "untouchable": "Nietykalny",
+    "closer": "Finiszer",
+    "marathoner": "Maratończyk",
+    "speedrunner": "Speedrunner",
+    "assassin": "Zabójca",
+    "archmage": "Arcymag",
+    "sharpshooter": "Strzelec wyborowy",
+    "brawler": "Zawadiaka",
+    "bulwark": "Bastion",
+    "aramfan": "Fan ARAM",
+    "casual": "Casual",
+    "demolisher": "Burzyciel",
+    "thief": "Złodziej",
+    "grinder": "Zapaleniec",
+    "pathfinder": "Tropiciel",
+    "islander": "Wyspiarz",
+    "centerpiece": "Centrum uwagi",
+    "carry": "Carry",
+    "guardian": "Strażnik"
+  }
+}

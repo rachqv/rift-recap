@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "title": "Minta összegzés · Rift Recap"
+  },
+  "switcher": {
+    "label": "Minta játékosok",
+    "previous": "Előző minta játékos",
+    "next": "Következő minta játékos",
+    "player": "Minta játékos",
+    "show": "Megjelenítés"
+  },
+  "players": {
+    "onetrick": "One-Trick",
+    "specialist": "Specialista",
+    "explorer": "Felfedező",
+    "chameleon": "Kaméleon",
+    "showstopper": "Főszereplő",
+    "slayer": "Gyilkos",
+    "daredevil": "Vakmerő",
+    "support": "Játékszervező",
+    "unlucky": "Balszerencsés hős",
+    "phoenix": "Főnix",
+    "risingstar": "Feltörekvő csillag",
+    "streaker": "Forró széria",
+    "scout": "Felderítő",
+    "farmer": "Farmer",
+    "heavyhitter": "Nehézsúlyú ütő",
+    "everpresent": "Mindig jelen van",
+    "opener": "Nyitó",
+    "untouchable": "Érinthetetlen",
+    "closer": "Lezáró",
+    "marathoner": "Maratoni futó",
+    "speedrunner": "Speedrunner",
+    "assassin": "Bérgyilkos",
+    "archmage": "Főmágus",
+    "sharpshooter": "Mesterlövész",
+    "brawler": "Verekedő",
+    "bulwark": "Bástya",
+    "aramfan": "ARAM-rajongó",
+    "casual": "Laza játékos",
+    "demolisher": "Bontócsapat",
+    "thief": "Tolvaj",
+    "grinder": "Gürizős",
+    "pathfinder": "Úttörő",
+    "islander": "Szigetlakó",
+    "centerpiece": "Középpont",
+    "carry": "Carry",
+    "guardian": "Őrző"
+  }
+}

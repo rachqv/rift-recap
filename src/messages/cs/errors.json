@@ -1,0 +1,15 @@
+{
+  "keyRejected": "Klíč Riot API byl odmítnut. Vývojářské klíče vyprší každých 24 hodin, takže si vygeneruj nový.",
+  "notFound": "V této oblasti nebyl nalezen žádný hráč s tímto Riot ID. Zkontroluj pravopis a oblast.",
+  "rateLimit": "Byl dosažen limit požadavků Riotu. Počkej minutu a zkus to znovu.",
+  "api": "Riot API selhalo.",
+  "cardFailed": "Kartu se nepodařilo vykreslit.",
+  "unknownRegion": "Neznámá oblast.",
+  "noGamesCard": "Žádné zápasy, ze kterých by šlo vykreslit kartu.",
+  "noSharedGames": "Tito hráči nemají žádné společné zápasy.",
+  "badSquad": "Neplatné parametry týmu.",
+  "playerMissing": "Jeden z těchto hráčů nebyl nalezen.",
+  "badVersus": "Neplatné parametry souboje.",
+  "samePlayers": "Vyber dva různé hráče.",
+  "notEnough": "Není dost zápasů k porovnání."
+}

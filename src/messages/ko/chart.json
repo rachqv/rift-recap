@@ -1,0 +1,9 @@
+{
+  "aria": "{a}와(과) {b}이(가) 서로 맞붙은 최근 게임의 골드 격차입니다. {result}",
+  "aheadEnd": "종료 시점에 {name} 님이 {gold} 앞서요.",
+  "levelEnd": "종료 시점에는 동점이에요.",
+  "minute": "<b>{minute}</b>분",
+  "ahead": "<b>{name}</b> 님이 골드 {gold} 앞섬",
+  "level": "동점",
+  "won": "{name} 님 승리"
+}

@@ -1,0 +1,215 @@
+{
+  "onetrick": {
+    "title": "One-Trick",
+    "tagline": "Lojalność ponad wszystko.",
+    "description": "{share} twoich gier to {top}. Niektórzy nazywają to uporem. My nazywamy to mistrzostwem."
+  },
+  "specialist": {
+    "title": "Specjalista",
+    "tagline": "Dwóch bohaterów, pełne mistrzostwo.",
+    "description": "{share} twoich gier to {top} lub {second}. Dokładnie wiesz, w czym jesteś dobry."
+  },
+  "explorer": {
+    "title": "Odkrywca",
+    "tagline": "Po co wybierać jednego, skoro można zagrać wszystkimi?",
+    "description": "{unique, plural, one {# inny bohater} few {# różnych bohaterów} many {# różnych bohaterów} other {# różnych bohaterów}} w {games, plural, one {# grze} few {# grach} many {# grach} other {# grach}}. Nigdy nie zostajesz długo w jednym miejscu."
+  },
+  "chameleon": {
+    "title": "Kameleon",
+    "tagline": "Wypełnić? Nie ma problemu.",
+    "description": "{roles, plural, one {# inna rola} few {# różne role} many {# różnych ról} other {# różnych ról}} i żadnej ulubionej. Każda linia to dom, a twoja drużyna jest wdzięczna."
+  },
+  "showstopper": {
+    "title": "Gwiazda show",
+    "tagline": "Stworzony dla klipów z najlepszymi momentami.",
+    "description": "{penta, plural, one {# pentakill} few {# pentakille} many {# pentakilli} other {# pentakille}}, {quadra, plural, one {# quadrakill} few {# quadrakille} many {# quadrakilli} other {# quadrakille}} i {triple, plural, one {# triple} few {# triple} many {# tripli} other {# triple}}. To ty robisz klipy.",
+    "descriptionAlt": "{quadra, plural, one {# quadrakill} few {# quadrakille} many {# quadrakilli} other {# quadrakille}} i {triple, plural, one {# triple kill} few {# triple kille} many {# triple killi} other {# triple kille}}. Gdy walki robią się chaotyczne, robisz hałas."
+  },
+  "thief": {
+    "title": "Złodziej",
+    "tagline": "Ładny smok. Szkoda, że jest teraz mój.",
+    "description": "{count, plural, one {# skradziony cel} few {# skradzione cele} many {# skradzionych celów} other {# skradzionego celu}}. Nikt nie mówił, że ma być uczciwie."
+  },
+  "slayer": {
+    "title": "Pogromca",
+    "tagline": "Przyszedłeś tu po zabójstwa.",
+    "description": "{kills, plural, one {# zabójstwo} few {# zabójstwa} many {# zabójstw} other {# zabójstwa}} w {games, plural, one {# grze} few {# grach} many {# grach} other {# grach}}, około {perGame} na mecz. Twoje imię żyje w kill feedzie."
+  },
+  "daredevil": {
+    "title": "Śmiałek",
+    "tagline": "Każda walka jest warta podjęcia.",
+    "description": "{deaths, plural, one {# śmierć} few {# śmierci} many {# śmierci} other {# śmierci}} i ani jednego żalu. Nigdy nie przestałeś wchodzić w walkę."
+  },
+  "playmaker": {
+    "title": "Rozgrywający",
+    "tagline": "Najlepszy przyjaciel twojej drużyny.",
+    "description": "{assists, plural, one {# asysta} few {# asysty} many {# asyst} other {# asysty}}, {perGame} na grę. Ustawiasz akcję i oddajesz chwałę drużynie."
+  },
+  "unlucky": {
+    "title": "Pechowy bohater",
+    "tagline": "Świetne statystyki, wątpliwi koledzy z drużyny.",
+    "description": "KDA {kda}, ale tylko {winRate} wygranych. Liczby mówią, że to nie ty."
+  },
+  "phoenix": {
+    "title": "Feniks",
+    "tagline": "Powstajesz za każdym razem.",
+    "description": "Seria {streak} porażek, a i tak skończyłeś z {winRate} wygranych. To hart ducha."
+  },
+  "risingstar": {
+    "title": "Wschodząca gwiazda",
+    "tagline": "Z sezonu na sezon stajesz się lepszy.",
+    "description": "Twój odsetek wygranych wzrósł z {early} do {late}. Linia trendu pnie się tylko w górę."
+  },
+  "streaker": {
+    "title": "Gorąca passa",
+    "tagline": "Gdy zaczynasz wygrywać, nie przestajesz.",
+    "description": "{streak} wygranych z rzędu w najlepszym momencie. Nikt nie chciał być w drugiej drużynie."
+  },
+  "scout": {
+    "title": "Zwiadowca",
+    "tagline": "Nic nie umknie twoim totemom.",
+    "description": "{vision} punktów wizji na minutę. Zapaliłeś światło dla wszystkich."
+  },
+  "farmer": {
+    "title": "Farmer",
+    "tagline": "Złoto to styl życia.",
+    "description": "{cs} stworów na minutę. Ani jednej fali z działem nie zostawiono."
+  },
+  "heavyhitter": {
+    "title": "Ciężka artyleria",
+    "tagline": "Zadajesz obrażenia. Dużo.",
+    "description": "{damage} obrażeń zadanych bohaterom co minutę. Paski zdrowia nie wytrzymują przy tobie długo."
+  },
+  "everpresent": {
+    "title": "Zawsze obecny",
+    "tagline": "Na każdej walce jesteś.",
+    "description": "Brałeś udział w {kp} zabójstw swojej drużyny. Jeśli była walka, byłeś w niej."
+  },
+  "opener": {
+    "title": "Otwieracz",
+    "tagline": "Pierwsza krew to twój uścisk dłoni.",
+    "description": "{count, plural, one {# pierwsza krew} few {# pierwsze krwie} many {# pierwszych krwi} other {# pierwszej krwi}}. Zaczynasz imprezę, zanim przyjdą inni."
+  },
+  "demolisher": {
+    "title": "Burzyciel",
+    "tagline": "Jeśli ma fundamenty, to upadnie.",
+    "description": "{turrets, plural, one {# wieża} few {# wieże} many {# wież} other {# wieży}} w {games, plural, one {# grze} few {# grach} many {# grach} other {# grach}}, około {perGame} na mecz. Budynki cię się boją."
+  },
+  "untouchable": {
+    "title": "Nietykalny",
+    "tagline": "Umieranie jest dla innych.",
+    "description": "Tylko {perGame} śmierci na grę i {deathless, plural, one {# gra} few {# gry} many {# gier} other {# gry}} bez ani jednej śmierci.",
+    "descriptionAlt": "Tylko {perGame} śmierci na grę. Szary ekran ledwo cię zna."
+  },
+  "closer": {
+    "title": "Finiszer",
+    "tagline": "Wygrywasz gry. To takie proste.",
+    "description": "Odsetek wygranych: {winRate}. Gdy wchodzisz do kolejki, drużyna przeciwna ma się czego obawiać."
+  },
+  "marathoner": {
+    "title": "Maratończyk",
+    "tagline": "Gry nie kończą się, dopóki tego nie powiesz.",
+    "description": "Twoje gry trwały średnio {minutes} min. Grasz na długi dystans, dosłownie."
+  },
+  "speedrunner": {
+    "title": "Speedrunner",
+    "tagline": "Po co czekać? Zakończ to teraz.",
+    "description": "Twoje gry trwały średnio zaledwie {minutes} min. Nexus leży, zanim zagotuje się woda."
+  },
+  "assassin": {
+    "title": "Zabójca",
+    "tagline": "Wchodzisz, wychodzisz i znikasz.",
+    "description": "{share} twoich gier to zabójcy. Wybierasz cel i go usuwasz."
+  },
+  "archmage": {
+    "title": "Arcymag",
+    "tagline": "Czasy odnowienia to tylko sugestie.",
+    "description": "{share} twoich gier to magowie. Najpierw zaklęcia, potem pytania."
+  },
+  "sharpshooter": {
+    "title": "Strzelec wyborowy",
+    "tagline": "Zasięg to styl życia.",
+    "description": "{share} twoich gier to strzelcy. Każda walka jest lepsza z bezpiecznej odległości."
+  },
+  "brawler": {
+    "title": "Zawadiaka",
+    "tagline": "Z bliska i osobiście.",
+    "description": "{share} twoich gier to wojownicy. Lubisz walki na wyciągnięcie ręki."
+  },
+  "bulwark": {
+    "title": "Bastion",
+    "tagline": "Nic cię nie minie.",
+    "description": "{share} twoich gier to tanki. Ktoś musi wchłaniać obrażenia i to ty."
+  },
+  "pathfinder": {
+    "title": "Tropiciel",
+    "tagline": "Dżungla jest twoja.",
+    "description": "{share} twoich gier to rola: {role}. Znasz każdy obóz, każdy timer i każdy krzak."
+  },
+  "islander": {
+    "title": "Wyspiarz",
+    "tagline": "Górna linia. Sam ze swoimi myślami.",
+    "description": "{share} twoich gier to rola: {role}. Cała linia dla ciebie i lubisz to tak."
+  },
+  "centerpiece": {
+    "title": "Centrum uwagi",
+    "tagline": "Wszystkie drogi prowadzą przez środek.",
+    "description": "{share} twoich gier to rola: {role}. Jesteś tam, gdzie mapa się schodzi i gdzie zaczynają się walki."
+  },
+  "carry": {
+    "title": "Carry",
+    "tagline": "Ktoś musi utrzymać drużynę.",
+    "description": "{share} twoich gier to rola: {role}. Drużyna oddaje ci ster późno w grze, a ty dowozisz."
+  },
+  "guardian": {
+    "title": "Strażnik",
+    "tagline": "Utrzymujesz drużynę przy życiu.",
+    "description": "{share} twoich gier to rola: {role}. Tarcze, leczenie, ochrona i totemy. Drużyna działa dzięki tobie."
+  },
+  "grinder": {
+    "title": "Zapaleniec",
+    "tagline": "Stały, niezawodny, zawsze w kolejce.",
+    "description": "{games, plural, one {# gra} few {# gry} many {# gier} other {# gry}} i {hours} godzin stałej pracy. Nikt nie trenuje tak jak ty."
+  },
+  "rarity": {
+    "common": "Pospolity",
+    "uncommon": "Niepospolity",
+    "rare": "Rzadki",
+    "legendary": "Legendarny",
+    "under": "poniżej {share}",
+    "about": "około {share}",
+    "chip": "<b>{tier}</b> · {share} graczy",
+    "badge": "{tier} · {share} graczy"
+  },
+  "duration": "{minutes} min",
+  "insights": {
+    "games": {
+      "days": "To {days} pełnych dni na Kanionie.",
+      "films": "To mniej więcej {films, plural, one {# film fabularny} few {# filmy fabularne} many {# filmów fabularnych} other {# filmu fabularnego}} czystego League."
+    },
+    "win": {
+      "dominant": "Dominujący. Drużyna przeciwna zobaczyła twoje imię i westchnęła.",
+      "good": "Więcej wygranych niż porażek. LP płyną.",
+      "balanced": "Idealnie zrównoważony, jak wszystko powinno być.",
+      "challenge": "Matchmaker rzucił ci wyzwanie, a ty dalej wchodziłeś do kolejki.",
+      "rough": "Trudny okres. Każda legenda ma swój łuk odkupienia, a twój zaczyna się teraz."
+    },
+    "streak": {
+      "long": "Twoja najdłuższa seria: {streak, plural, one {# wygrana} few {# wygrane} many {# wygranych} other {# wygranej}} z rzędu.",
+      "short": "Twoje serie wygranych były krótkie, ale każda gra to nowy początek."
+    },
+    "comeback": "Odbiłeś się nawet po serii {streak} porażek.",
+    "champion": {
+      "oneTrick": "{share} twoich gier to {top}. To energia one-tricka.",
+      "variety": "Zagrałeś {unique, plural, one {# innym bohaterem} few {# różnymi bohaterami} many {# różnymi bohaterami} other {# różnymi bohaterami}}, ale {top} był twoim domem.",
+      "favorite": "{games, plural, one {# gra} few {# gry} many {# gier} other {# gry}} jako {top}. Wyraźny faworyt."
+    },
+    "kda": {
+      "rarelyDie": "Prawie nie umierasz. Wrodzy leśnicy tego nie znoszą.",
+      "everyFight": "Każda walka to twoja walka.",
+      "teamFirst": "Drużyna na pierwszym miejscu. Twoi carry są ci coś winni.",
+      "bold": "Śmiały i agresywny. Dużo widziałeś szary ekran.",
+      "balanced": "Zrównoważone, niezawodne liczby."
+    }
+  }
+}

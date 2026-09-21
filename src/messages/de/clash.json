@@ -1,0 +1,55 @@
+{
+  "team": "Team {name}",
+  "line": {
+    "few": "{games} zwischen den Teams bisher: zu früh für ein Urteil.",
+    "level": "{a} zu {b}: ziemlich ausgeglichen. Ein so kleiner Abstand kann leicht Zufall sein.",
+    "lead": "{name} führt mit {win} zu {lose}. Das ist mehr, als Zufall erklären würde."
+  },
+  "rail": {
+    "start": "Die Teams",
+    "lanes": "Lane für Lane",
+    "numbers": "Die Zahlen",
+    "stars": "Herausragende",
+    "end": "Team-Rückblicke"
+  },
+  "slides": {
+    "intro": {
+      "eyebrow": "Team gegen Team",
+      "played": "{games} gegeneinander gespielt"
+    },
+    "lanes": {
+      "eyebrow": "Lane für Lane",
+      "aria": "Ergebnisse pro Lane",
+      "note": "Eine Lane erscheint nur, wenn beide Teams jemanden darin hatten. Jedes Spiel geht an den Laner mit dem besseren KDA."
+    },
+    "numbers": {
+      "eyebrow": "Wie jedes Team gespielt hat",
+      "aria": "Durchschnitt pro Spieler und Spiel",
+      "note": "Durchschnitt pro Spieler und Spiel.",
+      "kda": "KDA",
+      "damage": "Schaden an Champions",
+      "gold": "Verdientes Gold",
+      "vision": "Sichtwert"
+    },
+    "stars": {
+      "eyebrow": "Herausragende",
+      "best": "Bestes KDA bei Team {team}",
+      "stat": "{kda} KDA in {games}",
+      "record": "{wins} von {games} gewonnen",
+      "note": "Es zählen nur Spieler mit mindestens {min} Spielen zwischen den Teams."
+    },
+    "end": {
+      "eyebrow": "Weiter geht's",
+      "recap": "Squad-Rückblick: {team}"
+    }
+  },
+  "page": {
+    "title": "{a} vs {b} · Team gegen Team",
+    "titleDemo": "Beispiel für Team gegen Team · Rift Recap",
+    "titleEmpty": "Team gegen Team · Rift Recap",
+    "description": "Zwei Teams im direkten Vergleich: wer gewinnt, Lane für Lane und wie jede Seite gespielt hat.",
+    "overlap": "{names} kann nicht in beiden Teams sein.",
+    "atLeastTwo": "Jedes Team braucht mindestens zwei Riot-IDs.",
+    "noClash": "Diese Teams haben {where} keine Spiele gegeneinander. Es braucht Spiele, in denen mindestens zwei aus jedem Team im selben Match auf gegnerischen Seiten waren, etwa ein 5v5-Custom."
+  }
+}

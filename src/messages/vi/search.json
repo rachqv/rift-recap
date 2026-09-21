@@ -1,0 +1,15 @@
+{
+  "placeholder": "Riot ID (Tên#TAG)",
+  "riotId": "Riot ID",
+  "region": "Khu vực",
+  "submit": "Xem tổng kết của tôi",
+  "suggestions": "Gợi ý người chơi",
+  "heading": {
+    "recent": "Tìm kiếm gần đây",
+    "sample": "Người chơi mẫu"
+  },
+  "sample": "Mẫu",
+  "count": "{count, plural, other {Có # gợi ý}}",
+  "empty": "Không có người chơi đã lưu nào khớp. Nhấn Enter để tra <strong>{query}</strong> trên Riot.",
+  "clear": "Xóa tìm kiếm gần đây"
+}

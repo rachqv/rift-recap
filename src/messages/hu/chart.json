@@ -1,0 +1,9 @@
+{
+  "aria": "Aranykülönbség {a} és {b} között a legutóbbi egymás elleni meccsükön. {result}",
+  "aheadEnd": "A végén {name} {gold} előnnyel vezet.",
+  "levelEnd": "A végén döntetlen.",
+  "minute": "<b>{minute}</b>. perc",
+  "ahead": "<b>{name}</b> {gold} arannyal vezet",
+  "level": "Döntetlen",
+  "won": "{name} nyert"
+}

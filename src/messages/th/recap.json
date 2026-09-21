@@ -1,0 +1,381 @@
+{
+  "season": "ซีซัน {year}",
+  "strip": "{wins, plural, other {# ชนะ}}และ {losses, plural, other {# แพ้}} เรียงจากเกมที่เก่าที่สุดก่อน",
+  "record": "ชนะ {wins} · แพ้ {losses}",
+  "recordChip": "ชนะ <good>{wins}</good> แพ้ <bad>{losses}</bad>",
+  "winRateChip": "อัตราชนะ <b>{rate}</b>",
+  "kdaChip": "KDA <b>{kda}</b>",
+  "gamesChip": "{count, plural, other {<b>#</b> เกม}}",
+  "gamesLabel": "{count, plural, other {# เกม}}",
+  "intro": {
+    "eyebrow": "สรุป{season}",
+    "caption": "{games, plural, other {เราไล่ดู # เกมของคุณแล้ว พร้อมดูผลงานของคุณหรือยัง?}}",
+    "scroll": "เลื่อนลง"
+  },
+  "games": {
+    "eyebrow": "คุณมาเล่น",
+    "played": "{count, plural, other {เกมที่เล่น}}",
+    "riftOnly": "{count, plural, other {เกมบน Summoner's Rift}}",
+    "wins": "{count, plural, other {ชนะ <good>#</good>}}",
+    "losses": "{count, plural, other {แพ้ <bad>#</bad>}}",
+    "hours": "{n, plural, other {<b>{value}</b> ชั่วโมง}}"
+  },
+  "win": {
+    "eyebrow": "อัตราชนะของคุณ"
+  },
+  "champion": {
+    "eyebrow": "แชมเปียนประจำตัวของคุณ",
+    "more": "ทุกเกมของคุณกับ {champion}",
+    "back": "กลับไปที่สรุปทั้งหมด",
+    "pageTitle": "{champion} · {name}#{tag} · Rift Recap",
+    "pageEyebrow": "รายงานแชมเปี้ยน",
+    "noneTitle": "ไม่มีเกมกับแชมเปี้ยนนี้",
+    "none": "{who} ไม่มีเกมกับ {champion} ในช่วงเวลานี้ ลองแชมเปี้ยนอื่นจากสรุป"
+  },
+  "kda": {
+    "eyebrow": "สถิติการต่อสู้ของคุณ",
+    "kills": "คิล",
+    "deaths": "ตาย",
+    "assists": "แอสซิสต์",
+    "perGame": "{value} / เกม",
+    "best": "เกมที่ดีที่สุดของคุณ",
+    "bestLine": "{champion} · {kills}/{deaths}/{assists}",
+    "victory": "ชนะ",
+    "defeat": "แพ้"
+  },
+  "style": {
+    "eyebrow": "สไตล์การเล่นของคุณ",
+    "mainRole": "ตำแหน่งหลัก · {share}",
+    "cs": "CS ต่อนาที",
+    "vision": "วิชั่นต่อนาที",
+    "damage": "ดาเมจต่อนาที",
+    "kp": "สัดส่วนการมีส่วนร่วมในคิล",
+    "penta": "{count, plural, other {เพนทาคิล <b>#</b> ครั้ง}}",
+    "quadra": "{count, plural, other {ควอดราคิล <b>#</b> ครั้ง}}",
+    "triple": "{count, plural, other {ทริปเปิลคิล <b>#</b> ครั้ง}}",
+    "firstBloods": "{count, plural, other {เฟิร์สต์บลัด <b>#</b> ครั้ง}}",
+    "deathless": "{count, plural, other {เกมไม่ตาย <b>#</b> เกม}}",
+    "longestWon": "เกมที่ยาวที่สุดของคุณกินเวลา {duration} กับ {champion} และคุณก็ชนะด้วย",
+    "longestLost": "เกมที่ยาวที่สุดของคุณกินเวลา {duration} กับ {champion} บางเกมก็จบไม่สวยเสียอย่างนั้น"
+  },
+  "mode": {
+    "aram": {
+      "eyebrow": "ลงหุบเหวคำราม",
+      "label": "{count, plural, other {เกม ARAM}}"
+    },
+    "normal": {
+      "eyebrow": "เล่นเอาสนุก",
+      "label": "{count, plural, other {เกมนอร์มอล}}"
+    }
+  },
+  "rank": {
+    "emblem": "ตราสัญลักษณ์ {title}",
+    "lp": "<b>{lp}</b> LP",
+    "caption": "แรงค์ของคุณตอนนี้ ทุกการไต่แรงค์เริ่มจากเกมถัดไป"
+  },
+  "persona": {
+    "eyebrow": "ซีซันนี้ คุณคือ",
+    "also": "และมีบางส่วนของ: {list}",
+    "main": "เมน <b>{champion}</b>",
+    "shareTitle": "ซีซัน League ของฉัน: {title}",
+    "compare": "เปรียบเทียบกับเพื่อน",
+    "squad": "สรุปทีม",
+    "search": "ค้นหาผู้เล่นคนอื่น",
+    "count": "1 ใน {count} แบบ",
+    "countEstimate": "1 ใน {count} แบบ · ความหายากเป็นค่าประมาณ"
+  },
+  "calendar": {
+    "eyebrow": "ปฏิทินของคุณ",
+    "note": "อ้างอิงจาก {count, plural, other {# เกม}}ล่าสุดของคุณ"
+  },
+  "clock": {
+    "eyebrow": "คุณชนะตอนไหน"
+  },
+  "items": {
+    "eyebrow": "ไอเทมโปรดของคุณ",
+    "inGames": "{games, plural, other {ใน <b>{count}</b> จาก # เกมของคุณ}}",
+    "winWith": "อัตราชนะ <b>{rate}</b> เมื่อมีมัน",
+    "without": "<b>{rate}</b> เมื่อไม่มี",
+    "boots": "รองเท้า"
+  },
+  "objectives": {
+    "eyebrow": "ออบเจกต์",
+    "lead": "ทีมของคุณเก็บได้ ใน {games, plural, other {# เกม}}",
+    "tiles": {
+      "tower": "ป้อม",
+      "dragon": "มังกร",
+      "baron": "บารอน",
+      "herald": "เฮรัลด์",
+      "grubs": "ตัวอ่อนแห่งความว่างเปล่า",
+      "inhibitor": "อินฮิบิเตอร์"
+    },
+    "youTotal": "คุณ: {count}",
+    "youSecured": "คุณเก็บได้ {count}",
+    "perGame": "{value} ต่อเกม",
+    "firstTower": "ป้อมแรกใน <b>{rate}</b> ของเกม",
+    "withWithout": "ชนะ <good>{withIt}</good> เมื่อมีมัน · <b>{without}</b> เมื่อไม่มี",
+    "stolen": "ขโมย <b>{count}</b>"
+  },
+  "tilt": {
+    "eyebrow": {
+      "tilt": "เช็กทิลต์",
+      "resilient": "เช็กการกลับมา",
+      "steady": "เช็กใจ"
+    },
+    "afterWin": "หลังชนะ",
+    "afterLoss": "หลังแพ้",
+    "tilts": "ทิลต์หลังแพ้",
+    "bounces": "กลับมาสู้"
+  },
+  "comfort": {
+    "eyebrow": "เซฟโซนของคุณ",
+    "lead": "อัตราชนะรายแชมเปียน เทียบกับ {rate} โดยรวม"
+  },
+  "gray": {
+    "eyebrow": "หน้าจอสีเทา",
+    "unit": "ชม.",
+    "spentDead": "เวลาที่ตาย",
+    "aliveAria": "มีชีวิต {alive} ของเวลา ตาย {dead}",
+    "alive": "มีชีวิต {value}",
+    "dead": "ตาย {value}",
+    "share": "<b>{share}</b> ของเวลาในเกมของคุณ",
+    "perGame": "<b>{minutes}</b> นาทีต่อเกม",
+    "films": "{n, plural, other {ประมาณ <b>#</b> เรื่อง}}"
+  },
+  "progress": {
+    "eyebrow": "ตั้งแต่ครั้งที่แล้ว",
+    "lead": "{date} · {saved, plural, other {# เกม}} → ตอนนี้ {games}",
+    "was": " · ก่อนหน้านี้เป็น {persona}",
+    "improved": "<good>▲ {count}</good> ดีขึ้น",
+    "slipped": "<bad>▼ {count}</bad> แย่ลง",
+    "mood": {
+      "better": "ดีขึ้น",
+      "worse": "แย่ลง",
+      "flat": "ไม่เปลี่ยน"
+    }
+  },
+  "trophies": {
+    "eyebrow": "ชั้นวางถ้วยรางวัลของคุณ",
+    "of": "ปลดล็อกแล้วจาก {total}",
+    "unlocked": "ปลดล็อกแล้ว",
+    "progress": "ทำได้ {percent}",
+    "next": "ใกล้ปลดล็อกที่สุด: {name} ({percent}) {text}",
+    "all": "ทุกถ้วยรางวัลที่คุณทำได้ คุณทำครบแล้ว",
+    "lines": "บิงโก <b>{count}</b>",
+    "free": "ฟรี",
+    "board": "กระดานบิงโกถ้วยรางวัล",
+    "nextBingo": "บิงโกถัดไป: {name} ({percent}) {text}",
+    "shareTitle": "บิงโกถ้วยรางวัล Rift Recap ของฉัน"
+  },
+  "blame": {
+    "eyebrow": "เป็นความผิดคุณหรือเปล่า?",
+    "carry": "คุณแบกทีม",
+    "weak": "จุดอ่อน",
+    "team": "ความพยายามของทีม",
+    "across": "ตลอด {losses, plural, other {# เกมที่แพ้}}ของคุณ",
+    "topDamage": "ดาเมจสูงสุด",
+    "chance": "แค่โชคล้วน ๆ จะได้ {rate}",
+    "deaths": "ความตายของทีม",
+    "average": "ค่าเฉลี่ยคือ {rate}"
+  },
+  "tierList": {
+    "eyebrow": "เทียร์ลิสต์ของคุณ",
+    "aria": "เทียร์ลิสต์แชมเปียน",
+    "title": "{name}: {winRate} ใน {games, plural, other {# เกม}}",
+    "note": "จัดอันดับตามอัตราชนะ แล้วตามด้วย KDA แชมเปียนที่เล่นน้อยกว่า 4 เกมไม่นับรวม"
+  },
+  "habits": {
+    "eyebrow": "นิสัยของคุณ",
+    "pings": "ปิง {value} ครั้งต่อเกม",
+    "flash": "แฟลชที่ปุ่ม {key} · {value} ครั้งต่อเกม",
+    "pairShare": "ใน {share} ของเกม",
+    "quits": "ศัตรูยอมแพ้ {enemy} · ฝั่งคุณ {ours}",
+    "ping": "สไตล์การปิง",
+    "spells": "สกิลเสริมผู้อัญเชิญ",
+    "surrender": "จบด้วยการยอมแพ้"
+  },
+  "damage": {
+    "eyebrow": "ดาเมจของคุณ",
+    "parts": {
+      "physical": "กายภาพ",
+      "magic": "เวท",
+      "true": "ทรู"
+    },
+    "partAria": "{label} {share}"
+  },
+  "comp": {
+    "eyebrow": "องค์ประกอบทีม",
+    "with": "เมื่อมี<b>{class}</b>",
+    "games": "{withGames, plural, other {# เกม}} เทียบกับ {withoutGames, plural, other {# เกม}}เมื่อไม่มี",
+    "versus": "เทียบกับ {rate}"
+  },
+  "sessions": {
+    "eyebrow": "ค่ำคืนของคุณ",
+    "lead": "{count, plural, other {# รอบ}}ที่เล่นรวด · ประมาณ {avg} เกมต่อรอบ",
+    "best": "คืนที่ดีที่สุด",
+    "worst": "คืนที่แย่ที่สุด",
+    "longest": "รอบที่เล่นรวดนานที่สุด",
+    "meta": "{games, plural, other {# เกม}} · {date}"
+  },
+  "highlights": {
+    "eyebrow": "ไฮไลต์",
+    "minutes": "{count, plural, other {# นาที}}",
+    "meta": "{what} · {date}",
+    "won": "ชนะ",
+    "lost": "แพ้",
+    "caption": "เกมที่คุณจะเอามาเล่าในงานเลี้ยง"
+  },
+  "lane": {
+    "lane": "เช็กเลน",
+    "gold": "นิสัยด้านทอง",
+    "cs": "CS เทียบคู่แข่งเลน",
+    "goldDiff": "ทองเทียบคู่แข่งเลน",
+    "damage": "ดาเมจเทียบคู่แข่งเลน",
+    "unspent": "ทองที่ยังไม่ใช้ตอนจบ",
+    "ahead": "นำด้านทองใน <b>{rate}</b> ของ {games, plural, other {# เกม}}",
+    "kills": "{value} คิลต่อเกม",
+    "csValue": "{value} CS"
+  },
+  "early": {
+    "eyebrow": "ที่นาทีที่ 15",
+    "titles": {
+      "early": "เผด็จการช่วงต้นเกม",
+      "late": "โตช้าแต่ชัวร์",
+      "steady": "มือนิ่ง"
+    },
+    "parts": {
+      "ahead": "นำ",
+      "even": "เสมอ",
+      "behind": "ตาม"
+    },
+    "aria": "{label} ใน {n, plural, other {# เกม}}",
+    "wonAhead": "ชนะ <good>{wins}</good> จาก {total} เมื่อนำ",
+    "wonBehind": "ชนะ <b>{wins}</b> จาก {total} เมื่อตาม",
+    "lead": "{games, plural, other {# เกมเลน}}ล่าสุดของคุณ เทียบกับคู่แข่งเลน"
+  },
+  "chapters": {
+    "eyebrow": "ซีซันของคุณแบ่งเป็นตอน",
+    "wins": "ชนะ {rate}",
+    "note": "แต่ละตอนให้คะแนนจากเกมของตัวเอง ดังนั้นตอนสั้น ๆ จะมั่นใจได้น้อยกว่า"
+  },
+  "flames": {
+    "eyebrow": "รักเก่า",
+    "lead": "แชมเปียนที่คุณรู้จักดีแต่แทบไม่ได้แตะเลยในซีซันนี้",
+    "mastery": "มาสเตอรี {level} · {played}",
+    "notPlayed": "ไม่ได้เล่น",
+    "caption": "{champion} มีแต้มมาสเตอรี {points} อยู่เบื้องหลัง มันคิดถึงคุณ"
+  },
+  "social": {
+    "duo": {
+      "eyebrow": "คู่หูของคุณ",
+      "together": "{count, plural, other {เกมที่เล่นด้วยกัน}}",
+      "winTogether": "อัตราชนะ <b>{rate}</b> เมื่อเล่นด้วยกัน",
+      "apart": "<b>{rate}</b> เมื่อแยกกัน",
+      "combo": "คอมโบที่ดีที่สุด <b>{pair}</b>",
+      "alone": "ทุกเกมในซีซันนี้เล่นกับ {name} นี่คือความมุ่งมั่น",
+      "better": "คุณชนะ {withRate} เมื่อเล่นกับ {name} และ {without} เมื่อไม่ได้เล่น รักษาวงไว้ด้วยกัน",
+      "worse": "คุณชนะน้อยลงเมื่อเล่นกับ {name} ({withRate} เทียบกับ {without} เมื่อเล่นเดี่ยว) มิตรภาพสำคัญกว่าสถิติ",
+      "same": "อัตราชนะใกล้เคียงกันไม่ว่าจะมีหรือไม่มี {name} สิ่งสำคัญคือเพื่อนร่วมทาง",
+      "seeRecap": "ดูสรุปของ {name}",
+      "versus": "ตัวต่อตัว"
+    },
+    "matchup": {
+      "single": "คู่แข่งเลนของคุณ",
+      "both": "ศัตรูคู่อาฆาตกับแมตช์อัพที่ดีที่สุด",
+      "nemesis": "ศัตรูคู่อาฆาตของคุณ",
+      "best": "แมตช์อัพที่ดีที่สุดของคุณ",
+      "vs": "VS",
+      "record": "<good>ชนะ {wins}</good> <bad>แพ้ {losses}</bad>",
+      "meta": "อัตราชนะ {rate}",
+      "metaAs": "อัตราชนะ {rate} · เมื่อเล่น {champion}",
+      "insightBoth": "แบน {nemesis} แล้วภาวนาให้เจอ {best}",
+      "insightNemesis": "{nemesis} คือคริปโตไนต์ของคุณ ลองแบนดู",
+      "insightBest": "{best} ไม่เคยมีโอกาสสู้คุณเลย"
+    }
+  },
+  "rail": {
+    "start": "เริ่ม",
+    "games": "เกม",
+    "week": "รายสัปดาห์",
+    "form": "ฟอร์ม",
+    "calendar": "ปฏิทิน",
+    "clock": "นาฬิกา",
+    "patches": "แพตช์",
+    "nights": "ค่ำคืน",
+    "wins": "ชนะ",
+    "progress": "ความก้าวหน้า",
+    "tilt": "ทิลต์",
+    "tiltGuard": "ป้ายหยุด",
+    "blame": "ใครผิด?",
+    "champion": "แชมเปียน",
+    "comfort": "เซฟโซน",
+    "flames": "รักเก่า",
+    "tierList": "เทียร์ลิสต์",
+    "pool": "ลองต่อ",
+    "combat": "การต่อสู้",
+    "highlights": "ไฮไลต์",
+    "damage": "ดาเมจ",
+    "gray": "จอเทา",
+    "playstyle": "สไตล์",
+    "lane": "เลน",
+    "early": "ช่วงต้นเกม",
+    "habits": "นิสัย",
+    "items": "ไอเทม",
+    "runes": "รูน",
+    "objectives": "ออบเจกต์",
+    "duo": "คู่หู",
+    "matchups": "แมตช์อัพ",
+    "comps": "ทีมคอมพ์",
+    "normals": "นอร์มอล",
+    "aram": "ARAM",
+    "chapters": "ตอน",
+    "trophies": "ถ้วยรางวัล",
+    "rank": "แรงค์",
+    "guess": "ทาย",
+    "you": "คุณ",
+    "back": "กลับ"
+  },
+  "page": {
+    "title": "{name}#{tag} · Rift Recap",
+    "description": "สรุปซีซัน League of Legends: สถิติ แบบผู้เล่น และการ์ดที่แชร์ได้",
+    "failed": "โหลดสรุปนี้ไม่ได้",
+    "noGamesTitle": "ยังไม่มีเกม",
+    "noGames": "เราไม่พบเกมของ {who} ตั้งแต่ {since} เล่นสักสองสามแมตช์แล้วกลับมาใหม่",
+    "noRangeTitle": "ไม่มีเกมในช่วงเวลานี้",
+    "noRange": "{who} ไม่ได้เล่นเกมเลยตั้งแต่ {since} ลองช่วงเวลาที่ยาวกว่านี้"
+  },
+  "tiltguard": {
+    "eyebrow": "ผู้พิทักษ์ทิลต์",
+    "step1": "หลังแพ้ 1 เกม",
+    "step2": "หลังแพ้ติด 2 เกม",
+    "step3": "หลังแพ้ติด 3+ เกม",
+    "live": "ตอนนี้"
+  },
+  "formcurve": {
+    "eyebrow": "ซีซันของคุณเป็นเส้นเดียว",
+    "lead": "อัตราชนะในทุก {games}",
+    "best": "สูงสุด <b>{rate}</b> · จบเมื่อ {date}",
+    "worst": "ต่ำสุด <b>{rate}</b> · จบเมื่อ {date}",
+    "now": "ตอนนี้ <b>{rate}</b>",
+    "aria": "อัตราชนะเคลื่อนที่: สูงสุด {best} ต่ำสุด {worst} ล่าสุด {now}",
+    "shareTitle": "ซีซันของฉันเป็นเส้นเดียว"
+  },
+  "week": {
+    "eyebrow": "7 วันที่ผ่านมาเทียบกับ 7 วันก่อนหน้า",
+    "lead": "ตอนนี้ {now} · ก่อนหน้า {before}"
+  },
+  "patches": {
+    "eyebrow": "ทีละแพตช์",
+    "title": "อัตราชนะตามแพตช์"
+  },
+  "runes": {
+    "eyebrow": "รูนหลักของคุณ",
+    "winWith": "อัตราชนะ <b>{rate}</b> เมื่อมีมัน",
+    "without": "<b>{rate}</b> เมื่อไม่มี"
+  },
+  "pool": {
+    "eyebrow": "แชมเปี้ยนที่น่าลอง",
+    "because": "เพราะ {champion} เหมาะกับคุณ: อัตราชนะ {rate}",
+    "note": "เลือกจากคลาสและสไตล์การเล่นที่คล้ายกัน เป็นแค่คำแนะนำ ไม่ใช่คำสัญญา"
+  }
+}

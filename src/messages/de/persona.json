@@ -1,0 +1,215 @@
+{
+  "onetrick": {
+    "title": "Der One-Trick",
+    "tagline": "Treue über alles.",
+    "description": "{share} deiner Spiele waren {top}. Manche nennen es Sturheit. Wir nennen es Meisterschaft."
+  },
+  "specialist": {
+    "title": "Der Spezialist",
+    "tagline": "Zwei Champions, totale Meisterschaft.",
+    "description": "{share} deiner Spiele waren {top} oder {second}. Du weißt genau, worin du gut bist."
+  },
+  "explorer": {
+    "title": "Der Entdecker",
+    "tagline": "Warum einen wählen, wenn man alle spielen kann?",
+    "description": "{unique, plural, one {# anderer Champion} other {# verschiedene Champions}} in {games, plural, one {# Spiel} other {# Spielen}}. Du bleibst nie lange am selben Ort."
+  },
+  "chameleon": {
+    "title": "Das Chamäleon",
+    "tagline": "Auto-Fill? Kein Problem.",
+    "description": "{roles, plural, one {# andere Rolle} other {# verschiedene Rollen}} und kein Liebling. Jede Lane ist ein Zuhause, und dein Team ist dankbar."
+  },
+  "showstopper": {
+    "title": "Der Showstopper",
+    "tagline": "Geboren für das Highlight-Video.",
+    "description": "{penta, plural, one {# Pentakill} other {# Pentakills}}, {quadra, plural, one {# Quadrakill} other {# Quadrakills}} und {triple, plural, one {# Triple} other {# Triples}}. Du lieferst die Clips.",
+    "descriptionAlt": "{quadra, plural, one {# Quadrakill} other {# Quadrakills}} und {triple, plural, one {# Triplekill} other {# Triplekills}}. Wenn die Kämpfe unübersichtlich werden, wirst du laut."
+  },
+  "thief": {
+    "title": "Der Dieb",
+    "tagline": "Schöner Drache. Schade, dass er jetzt mir gehört.",
+    "description": "{count, plural, one {# Objektiv} other {# Objektive}} gestohlen. Niemand hat gesagt, dass es fair sein muss."
+  },
+  "slayer": {
+    "title": "Der Schlächter",
+    "tagline": "Du bist hier, um Kills zu holen.",
+    "description": "{kills, plural, one {# Kill} other {# Kills}} in {games, plural, one {# Spiel} other {# Spielen}}, etwa {perGame} pro Match. Dein Name lebt im Kill-Feed."
+  },
+  "daredevil": {
+    "title": "Der Draufgänger",
+    "tagline": "Jeder Kampf lohnt sich.",
+    "description": "{deaths, plural, one {# Tod} other {# Tode}}, und keine Reue. Du bist nie aufgehört, in den Kampf zu rennen."
+  },
+  "playmaker": {
+    "title": "Der Spielmacher",
+    "tagline": "Der beste Freund deines Teams.",
+    "description": "{assists, plural, one {# Assist} other {# Assists}}, {perGame} pro Spiel. Du bereitest das Spiel vor und überlässt dem Team den Ruhm."
+  },
+  "unlucky": {
+    "title": "Der glücklose Held",
+    "tagline": "Tolle Werte, fragwürdige Mitspieler.",
+    "description": "Eine KDA von {kda}, aber nur {winRate} Siege. Die Zahlen sagen, dass du es nicht warst."
+  },
+  "phoenix": {
+    "title": "Der Phönix",
+    "tagline": "Du stehst jedes Mal wieder auf.",
+    "description": "Eine Niederlagenserie von {streak} Spielen, und du hast trotzdem mit {winRate} Siegen abgeschlossen. Das ist Biss."
+  },
+  "risingstar": {
+    "title": "Der Aufsteiger",
+    "tagline": "Du wurdest im Laufe der Saison besser.",
+    "description": "Deine Siegquote ist von {early} auf {late} gestiegen. Die Trendlinie zeigt nur nach oben."
+  },
+  "streaker": {
+    "title": "Die Siegesserie",
+    "tagline": "Wenn du einmal gewinnst, hörst du nicht mehr auf.",
+    "description": "{streak} Siege in Folge in deiner besten Phase. Niemand wollte im anderen Team sein."
+  },
+  "scout": {
+    "title": "Der Späher",
+    "tagline": "Deinen Wards entgeht nichts.",
+    "description": "{vision} Sichtpunkte pro Minute. Du hast für alle das Licht angemacht."
+  },
+  "farmer": {
+    "title": "Der Farmer",
+    "tagline": "Gold ist ein Lebensstil.",
+    "description": "{cs} Vasallen pro Minute. Keine einzige Kanonenwelle blieb zurück."
+  },
+  "heavyhitter": {
+    "title": "Das Schwergewicht",
+    "tagline": "Du machst Schaden. Sehr viel davon.",
+    "description": "{damage} Schaden an Champions pro Minute. Lebensbalken halten in deiner Nähe nicht lange."
+  },
+  "everpresent": {
+    "title": "Der Immer-Dabei",
+    "tagline": "Bei jedem Kampf bist du da.",
+    "description": "Du hast an {kp} der Kills deines Teams teilgenommen. Wenn ein Kampf stattfand, warst du dabei."
+  },
+  "opener": {
+    "title": "Der Eröffner",
+    "tagline": "First Blood ist dein Händedruck.",
+    "description": "{count, plural, one {# First Blood} other {# First Bloods}}. Du startest die Party, bevor die anderen da sind."
+  },
+  "demolisher": {
+    "title": "Die Abrissbirne",
+    "tagline": "Wenn es ein Fundament hat, fällt es.",
+    "description": "{turrets, plural, one {# Turm} other {# Türme}} in {games, plural, one {# Spiel} other {# Spielen}}, etwa {perGame} pro Match. Gebäude fürchten dich."
+  },
+  "untouchable": {
+    "title": "Der Unantastbare",
+    "tagline": "Sterben ist etwas für andere.",
+    "description": "Nur {perGame} Tode pro Spiel und {deathless, plural, one {# Spiel} other {# Spiele}} ohne einen einzigen Tod.",
+    "descriptionAlt": "Nur {perGame} Tode pro Spiel. Der graue Bildschirm kennt dich kaum."
+  },
+  "closer": {
+    "title": "Der Finisher",
+    "tagline": "Du gewinnst Spiele. So einfach ist das.",
+    "description": "Eine Siegquote von {winRate}. Wenn du in die Warteschlange gehst, sollte sich das gegnerische Team Sorgen machen."
+  },
+  "marathoner": {
+    "title": "Der Marathonläufer",
+    "tagline": "Spiele enden erst, wenn du es sagst.",
+    "description": "Deine Spiele dauerten im Schnitt {minutes} Minuten. Du spielst das lange Spiel, wortwörtlich."
+  },
+  "speedrunner": {
+    "title": "Der Speedrunner",
+    "tagline": "Warum warten? Beende es jetzt.",
+    "description": "Deine Spiele dauerten im Schnitt nur {minutes} Minuten. Nexus am Boden, bevor das Wasser kocht."
+  },
+  "assassin": {
+    "title": "Die Assassine",
+    "tagline": "Rein, raus und weg.",
+    "description": "{share} deiner Spiele waren auf Assassinen. Du suchst dir ein Ziel und löschst es aus."
+  },
+  "archmage": {
+    "title": "Der Erzmagier",
+    "tagline": "Abklingzeiten sind nur Vorschläge.",
+    "description": "{share} deiner Spiele waren auf Magiern. Erst die Zauber, dann die Fragen."
+  },
+  "sharpshooter": {
+    "title": "Der Scharfschütze",
+    "tagline": "Reichweite ist ein Lebensstil.",
+    "description": "{share} deiner Spiele waren auf Schützen. Jeder Kampf ist aus sicherer Entfernung besser."
+  },
+  "brawler": {
+    "title": "Der Raufbold",
+    "tagline": "Nah und persönlich.",
+    "description": "{share} deiner Spiele waren auf Kämpfern. Du magst deine Kämpfe in Armreichweite."
+  },
+  "bulwark": {
+    "title": "Das Bollwerk",
+    "tagline": "An dir kommt nichts vorbei.",
+    "description": "{share} deiner Spiele waren auf Tanks. Jemand muss den Schaden aufsaugen, und das bist du."
+  },
+  "pathfinder": {
+    "title": "Der Pfadfinder",
+    "tagline": "Der Dschungel gehört dir.",
+    "description": "{share} deiner Spiele waren als {role}. Du kennst jedes Lager, jeden Timer und jeden Busch."
+  },
+  "islander": {
+    "title": "Der Inselbewohner",
+    "tagline": "Top-Lane. Allein mit deinen Gedanken.",
+    "description": "{share} deiner Spiele waren als {role}. Eine ganze Lane für dich allein, und du magst es so."
+  },
+  "centerpiece": {
+    "title": "Der Mittelpunkt",
+    "tagline": "Alle Wege führen durch die Mitte.",
+    "description": "{share} deiner Spiele waren als {role}. Du bist dort, wo sich die Karte trifft und die Kämpfe beginnen."
+  },
+  "carry": {
+    "title": "Der Carry",
+    "tagline": "Jemand muss das Team tragen.",
+    "description": "{share} deiner Spiele waren als {role}. Dein Team übergibt dir spät im Spiel das Steuer, und du lieferst."
+  },
+  "guardian": {
+    "title": "Der Wächter",
+    "tagline": "Du hältst das Team am Leben.",
+    "description": "{share} deiner Spiele waren als {role}. Schilde, Heilung, Schutz und Wards. Das Team läuft mit dir."
+  },
+  "grinder": {
+    "title": "Der Vielspieler",
+    "tagline": "Beständig, verlässlich, immer in der Warteschlange.",
+    "description": "{games, plural, one {# Spiel} other {# Spiele}} und {hours} Stunden stetige Arbeit. Niemand trainiert so wie du."
+  },
+  "rarity": {
+    "common": "Häufig",
+    "uncommon": "Ungewöhnlich",
+    "rare": "Selten",
+    "legendary": "Legendär",
+    "under": "unter {share}",
+    "about": "etwa {share}",
+    "chip": "<b>{tier}</b> · {share} der Spieler",
+    "badge": "{tier} · {share} der Spieler"
+  },
+  "duration": "{minutes} Min.",
+  "insights": {
+    "games": {
+      "days": "Das sind {days} volle Tage in der Kluft.",
+      "films": "Das entspricht etwa {films, plural, one {# Spielfilm} other {# Spielfilmen}} reinem League."
+    },
+    "win": {
+      "dominant": "Dominant. Das gegnerische Team sah deinen Namen und seufzte.",
+      "good": "Mehr Siege als Niederlagen. Die LP fließen.",
+      "balanced": "Perfekt ausbalanciert, wie alle Dinge sein sollten.",
+      "challenge": "Das Matchmaking hat dich herausgefordert, und du bist weiter in die Warteschlange gegangen.",
+      "rough": "Eine harte Phase. Jede Legende hat ihren Erlösungsbogen, und deiner beginnt jetzt."
+    },
+    "streak": {
+      "long": "Deine längste Serie: {streak, plural, one {# Sieg} other {# Siege}} in Folge.",
+      "short": "Deine Siegesserien waren kurz, aber jedes Spiel war ein Neuanfang."
+    },
+    "comeback": "Du hast dich sogar von einer Niederlagenserie über {streak} Spiele erholt.",
+    "champion": {
+      "oneTrick": "{share} deiner Spiele waren {top}. Das ist One-Trick-Energie.",
+      "variety": "Du hast {unique, plural, one {# anderen Champion} other {# verschiedene Champions}} gespielt, aber {top} war dein Zuhause.",
+      "favorite": "{games, plural, one {# Spiel} other {# Spiele}} als {top}. Ein klarer Liebling."
+    },
+    "kda": {
+      "rarelyDie": "Du stirbst kaum. Gegnerische Jungler hassen das.",
+      "everyFight": "Jeder Kampf ist dein Kampf.",
+      "teamFirst": "Das Team steht an erster Stelle. Deine Carries stehen in deiner Schuld.",
+      "bold": "Mutig und aggressiv. Du hast den grauen Bildschirm oft gesehen.",
+      "balanced": "Ausgewogene, verlässliche Werte."
+    }
+  }
+}

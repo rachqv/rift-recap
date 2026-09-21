@@ -1,0 +1,28 @@
+{
+  "verdict": {
+    "perfect": "你比小队自己更了解小队。",
+    "good": "不错。看得出你一直在关注。",
+    "low": "也许你该多花点时间和朋友相处。"
+  },
+  "result": "测验结果",
+  "round": "谁拿到了？第{step}题，共{total}题",
+  "again": "再玩一次",
+  "group": "谁获得了这个奖项？",
+  "right": "答对了！",
+  "wrong": "不对，是{name}。",
+  "reveal": "{verdict}{line}",
+  "pick": "请选择一位玩家。",
+  "score": "查看你的得分",
+  "next": "下一个奖项",
+  "guess": {
+    "eyebrow": "猜猜你的类型",
+    "lead": "三条线索，四个类型，你是哪一个？",
+    "clueMain": "最常用：{champion}",
+    "clueRate": "胜率{rate}",
+    "clueKda": "KDA {kda}",
+    "group": "你是哪种类型？",
+    "right": "答对了。你很了解自己的玩法。",
+    "wrong": "差一点。你是{title}。",
+    "next": "继续查看完整揭晓。"
+  }
+}

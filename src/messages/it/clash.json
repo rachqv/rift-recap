@@ -1,0 +1,55 @@
+{
+  "team": "Squadra {name}",
+  "line": {
+    "few": "{games} tra le squadre finora: troppo presto per dirlo.",
+    "level": "{a} a {b}: quasi pari. Una differenza così piccola può essere solo fortuna.",
+    "lead": "{name} è avanti, {win} a {lose}. È più di quanto spiegherebbe la fortuna."
+  },
+  "rail": {
+    "start": "Le squadre",
+    "lanes": "Corsia per corsia",
+    "numbers": "I numeri",
+    "stars": "I migliori",
+    "end": "Riepiloghi delle squadre"
+  },
+  "slides": {
+    "intro": {
+      "eyebrow": "Squadra contro squadra",
+      "played": "{games} giocate una contro l'altra"
+    },
+    "lanes": {
+      "eyebrow": "Corsia per corsia",
+      "aria": "Risultati per corsia",
+      "note": "Una corsia compare solo se entrambe le squadre avevano qualcuno. Ogni partita va a chi ha giocato la corsia con il KDA migliore."
+    },
+    "numbers": {
+      "eyebrow": "Come ha giocato ogni squadra",
+      "aria": "Medie per giocatore e per partita",
+      "note": "Media per giocatore e per partita.",
+      "kda": "KDA",
+      "damage": "Danni ai campioni",
+      "gold": "Oro guadagnato",
+      "vision": "Punteggio visione"
+    },
+    "stars": {
+      "eyebrow": "I migliori",
+      "best": "Miglior KDA della squadra {team}",
+      "stat": "{kda} di KDA in {games}",
+      "record": "Ha vinto {wins} su {games}",
+      "note": "Contano solo i giocatori con almeno {min} partite tra le squadre."
+    },
+    "end": {
+      "eyebrow": "Continua",
+      "recap": "Riepilogo della squadra: {team}"
+    }
+  },
+  "page": {
+    "title": "{a} vs {b} · Squadra contro squadra",
+    "titleDemo": "Esempio di squadra contro squadra · Rift Recap",
+    "titleEmpty": "Squadra contro squadra · Rift Recap",
+    "description": "Due squadre a confronto: chi vince, corsia per corsia e come ha giocato ciascuna.",
+    "overlap": "{names} non può essere in entrambe le squadre.",
+    "atLeastTwo": "Ogni squadra ha bisogno di almeno due Riot ID.",
+    "noClash": "Queste squadre non hanno partite una contro l'altra {where}. Servono partite in cui almeno due giocatori per squadra erano nella stessa partita in squadre opposte, come una personalizzata 5v5."
+  }
+}

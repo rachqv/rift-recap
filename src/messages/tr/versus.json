@@ -1,0 +1,400 @@
+{
+  "rows": {
+    "winRate": "Galibiyet oranı",
+    "kda": "KDA",
+    "kills": "Maç başına öldürme",
+    "deaths": "Maç başına ölüm",
+    "assists": "Maç başına asist",
+    "cs": "Dakika başına CS",
+    "vision": "Dakika başına görüş",
+    "damage": "Dakika başına hasar",
+    "kp": "Öldürmelere katılım"
+  },
+  "verdict": {
+    "tie": "Her birinde {score} satır. Ürkütücü derecede dengelisiniz.",
+    "sweep": "{name}, önemli her satırı alıyor. {other} kapatması gereken çok fark var.",
+    "clear": "{name}, {hi} satıra karşı {lo} satırla kazandı. Yakın bile değildi.",
+    "edge": "{name}, {hi} satıra karşı {lo} satırla az farkla önde. {other} hemen arkasında."
+  },
+  "rematch": {
+    "changed": "Liderlik el değiştirdi: şimdi {name} önde.",
+    "improved": "{name}, o zamandan beri daha çok gelişti ({better} karşı {worse} puan galibiyet oranı).",
+    "same": "Geçen seferle yaklaşık aynı tablo."
+  },
+  "groups": {
+    "moments": {
+      "label": "Anlar",
+      "eyebrow": "Büyük anlar"
+    },
+    "habits": {
+      "label": "Alışkanlıklar",
+      "eyebrow": "Vadi alışkanlıkları"
+    },
+    "form": {
+      "label": "Form",
+      "eyebrow": "Form ve azim"
+    },
+    "identity": {
+      "label": "Kim kim",
+      "eyebrow": "Kim kim"
+    }
+  },
+  "short": {
+    "win": "{value}G",
+    "loss": "{value}Y",
+    "record": "{rate} · {games}m",
+    "champs": "{count, plural, one {# şmp.} other {# şmp.}}",
+    "minutes": "{value} dk",
+    "hours": "{value} sa",
+    "level": "Sv. {value}",
+    "seconds": "{value} sn",
+    "epic": "{dragons}E {barons}B",
+    "none": "Yok",
+    "noneLower": "yok",
+    "penta": "{count}P",
+    "quadra": "{count}Q",
+    "triple": "{count}T"
+  },
+  "multi": {
+    "penta": "{count, plural, one {# pentakill} other {# pentakill}}",
+    "quadra": "{count, plural, one {# quadrakill} other {# quadrakill}}",
+    "triple": "{count, plural, one {# triple kill} other {# triple kill}}"
+  },
+  "trend": {
+    "steady": "{name} {rate} seviyesinde sabit kaldı",
+    "change": "{name} galibiyetlerde {early} seviyesinden {late} seviyesine geçti"
+  },
+  "scenarios": {
+    "multikills": {
+      "title": "Öne çıkanlar",
+      "tagline": "Penta, quadra ve triple'lar, rakip sohbetinin ne kadar gürültülü olduğuna göre ağırlıklandırıldı.",
+      "line": "{name} şunları topladı: {list}. Öne çıkanlar klasörü dolu."
+    },
+    "firstBlood": {
+      "title": "İlk kan",
+      "tagline": "Birinin kavgayı başlatması gerek.",
+      "line": "{name}, maçların {rate} kadarında ilk kanı aldı. {other} şıklıkla geç kalıyor."
+    },
+    "flawless": {
+      "title": "Kusursuz maçlar",
+      "tagline": "Baştan sona sıfır ölüm.",
+      "line": "{name}, {count, plural, one {# maçı} other {# maçı}} bir kez bile ölmeden bitirdi. Dokunulmaz."
+    },
+    "careerGame": {
+      "title": "Kariyer maçı",
+      "tagline": "Partilerde anlatacakları maç.",
+      "line": "{name}, {champion} ile {kills}/{deaths}/{assists} yaptı.",
+      "lineLost": "{name}, {champion} ile {kills}/{deaths}/{assists} yaptı ve yine de kaybetti. Zor."
+    },
+    "spree": {
+      "title": "En büyük seri",
+      "tagline": "Ölmeden arka arkaya öldürmeler.",
+      "line": "{name}, ölmeden {count} öldürmeyi arka arkaya getirdi. Biri itfaiyeyi arasın."
+    },
+    "lifespan": {
+      "title": "En uzun yaşam",
+      "tagline": "Tek seferde hayatta kaldıkları en uzun süre.",
+      "line": "{name} bir keresinde {time} boyunca hayatta kaldı. Çeşme onu pek tanımıyor."
+    },
+    "soloKills": {
+      "title": "Solo öldürmeler",
+      "tagline": "Bire bir, yardıma gerek yok.",
+      "line": "{name}, maç başına ortalama {value} solo öldürme yapıyor. Bazıları bire bire seviyor."
+    },
+    "dodge": {
+      "title": "Matrix",
+      "tagline": "Havayı vurmaktan başka işe yaramayan yetenekler.",
+      "line": "{name}, maç başına {value} yetenekten kaçtı. Vurması zor, yakalaması daha zor."
+    },
+    "thief": {
+      "title": "Hedef hırsızı",
+      "tagline": "Ejderha mı? Hangi ejderha?",
+      "line": "{name}, {count, plural, one {# hedef} other {# hedef}} çaldı. {other} çukura daha yakından bakmalı."
+    },
+    "epic": {
+      "title": "Epik canavar avcısı",
+      "tagline": "Ejderhalar ve Baronlar bizzat bitirildi.",
+      "line": "{name}, {dragons, plural, one {# ejderhaya} other {# ejderhaya}} ve {barons, plural, one {# Baron'a} other {# Baron'a}} son vuruşu yaptı."
+    },
+    "siege": {
+      "title": "Yıkım ekibi",
+      "tagline": "Takımlarının kulelerinin yıktıkları payı.",
+      "line": "{name}, takımının kulelerinin {share} kadarını yıktı. İnşa edilen hiçbir şey ayakta kalmıyor."
+    },
+    "objDamage": {
+      "title": "Hedef hasarı",
+      "tagline": "Maç başına kulelere, ejderhalara ve Baron'a verilen hasar.",
+      "line": "{name}, maç başına hedeflere {value} hasar verdi. Harita sadece bir yapılacaklar listesi."
+    },
+    "flash": {
+      "title": "Sıçra bağımlısı",
+      "tagline": "Maç başına Sıçra kullanımı. Hep bekleme süresinde.",
+      "line": "{name}, maç başına {value} kez Sıçra kullanıyor. {other} ya daha cesur ya da daha yavaş."
+    },
+    "grayScreen": {
+      "title": "Gri ekranda geçen süre",
+      "tagline": "Her maçın ölü geçen payı. Az olan iyi.",
+      "line": "{other}, her maçın {otherShare} kadarını yeniden doğmayı bekleyerek geçiriyor. {name} yalnızca {share}."
+    },
+    "pings": {
+      "title": "Arka koltuk sürücüsü",
+      "tagline": "Maç başına ping.",
+      "line": "{name}, maç başına {value} kez ping attı. Mini harita hiç mola bulamadı."
+    },
+    "pinks": {
+      "title": "Pembe totem bütçesi",
+      "tagline": "Maç başına konulan kontrol totemleri.",
+      "line": "{name}, maç başına {value} kontrol totemi koyuyor. {other} altını kara gün için saklıyor."
+    },
+    "sweeper": {
+      "title": "Totem süpürücü",
+      "tagline": "Maç başına temizlenen rakip totemleri.",
+      "line": "{name}, maç başına {value} rakip totemi temizledi. O fenerden hiçbir şey saklanamaz."
+    },
+    "gold": {
+      "title": "Altın avcısı",
+      "tagline": "Dakika başına kazanılan altın.",
+      "line": "{name} dakikada {value} altın kazanırken {other} {otherValue} kazanıyor. Biri daha sık alışverişe gidiyor."
+    },
+    "tank": {
+      "title": "Yumruk torbası",
+      "tagline": "Maç başına emilen hasar.",
+      "line": "{name}, maç başına {value} hasar emdi. Birinin yapması gerekiyordu."
+    },
+    "medic": {
+      "title": "Takım sağlıkçısı",
+      "tagline": "Maç başına takım arkadaşlarına iyileştirme ve kalkan.",
+      "line": "{name}, maç başına takım için {value} hasarı iyileştirdi ve kalkanladı."
+    },
+    "cc": {
+      "title": "Kalabalık kontrolü",
+      "tagline": "Maç başına rakiplerin yerinde tutulduğu saniyeler.",
+      "line": "{name}, maç başına rakipleri {value, plural, one {# saniye} other {# saniye}} boyunca kilitledi. Kıpırdama."
+    },
+    "whiteFlag": {
+      "title": "Beyaz bayrak",
+      "tagline": "Pes etmeyle biten yenilgiler.",
+      "line": "{name} adlı oyuncunun takımı yenilgilerinin {share} kadarında pes etti. {other} Nexus'a kadar savaşıyor."
+    },
+    "crit": {
+      "title": "En büyük kritik",
+      "tagline": "Vurulan en sert tek kritik.",
+      "line": "{name} bir keresinde {value} kritik vurdu. Bu grup sohbetine düştü."
+    },
+    "teamDamage": {
+      "title": "Hasarı taşıyan",
+      "tagline": "Takımın şampiyonlara verdiği hasardaki pay.",
+      "line": "{name}, takımının hasarının {share} kadarını verdi. Takımın geri kalanı yakında durdu."
+    },
+    "hotStreak": {
+      "title": "Sıcak seri",
+      "tagline": "En uzun galibiyet serisi.",
+      "line": "{name} bir keresinde üst üste {win} kazandı. {other} en fazla {lose} yaptı."
+    },
+    "tilt": {
+      "title": "Tilt derinliği",
+      "tagline": "En uzun yenilgi serisi. Kısa olan iyi.",
+      "line": "{other} bir keresinde üst üste {lose} kaybetti. {name} hiç {win} sınırını geçmedi."
+    },
+    "momentum": {
+      "title": "İvme",
+      "tagline": "Maçların yeni yarısındaki galibiyet oranı, eski yarısıyla karşılaştırılıyor.",
+      "line": "{first}, buna karşılık {second}."
+    },
+    "ladder": {
+      "title": "Sıralama konumu",
+      "tagline": "Dereceli sıralamada kim daha yüksek.",
+      "line": "{name} ({title}), {other} ({otherTitle}) oyuncusunun üstünde. Resmen övünme hakkı."
+    },
+    "seasonRanked": {
+      "title": "Sezon dereceli sicili",
+      "tagline": "Bu sezonki tüm dereceli maçlardaki galibiyet oranı.",
+      "line": "{name}, dereceli maçların {rate} kadarını kazanırken {other} için bu {otherRate}."
+    },
+    "rankedForm": {
+      "title": "Dereceli baskısı",
+      "tagline": "Son dereceli maçlardaki galibiyet oranı.",
+      "line": "{name}, LP tehlikedeyken {rate} kazanıyor. {other} {otherRate} kazanıyor."
+    },
+    "normals": {
+      "title": "Kaybedecek bir şey yok",
+      "tagline": "Son normal maçlardaki galibiyet oranı.",
+      "line": "{name}, normal maçların {rate} kadarını kazanırken {other} için bu {otherRate}. Rahatlık ona yakışıyor."
+    },
+    "aram": {
+      "title": "Uçurum sakini",
+      "tagline": "ARAM köprüsündeki galibiyet oranı.",
+      "line": "{name}, köprüde {rate} kazanıyor. {other} {otherRate} kazanıyor. Kaos birinden yana."
+    },
+    "signature": {
+      "title": "Başrol enerjisi",
+      "tagline": "En çok oynanan şampiyondaki galibiyet oranı.",
+      "line": "{name}, {champion} ile {rate} kazanıyor. {other}, {otherChampion} ile {otherRate} kazanıyor."
+    },
+    "pool": {
+      "title": "Şampiyon havuzu",
+      "tagline": "Kaç farklı şampiyon oynadılar.",
+      "line": "{name}, {count, plural, one {# farklı şampiyon} other {# farklı şampiyon}} oynadı. {other} {otherCount} ile yetindi. Biriniz çeşitliliği seviyor."
+    },
+    "roleLoyalty": {
+      "title": "Rol sadakati",
+      "tagline": "Zamanlarının ne kadarı tek bir role gidiyor.",
+      "line": "{name}, zamanının {share} kadarında {role} oynuyor. {other} daha serbest dolaşıyor."
+    },
+    "closer": {
+      "title": "Bitirici",
+      "tagline": "Ortalama maç süresi. Kısa olan kazanır.",
+      "line": "{name} adlı oyuncunun maçları {value} dakikada bitiyor. {other} adlı oyuncunun maçları {otherValue} sürüyor. Birinin gideceği bir yer var."
+    },
+    "marathon": {
+      "title": "Maraton maçı",
+      "tagline": "En uzun tek maç.",
+      "line": "{name} bir keresinde {champion} ile {time} oynadı ve kazandı. Atıştırmalıklar işin içindeydi.",
+      "lineLost": "{name} bir keresinde {champion} ile {time} oynadı ve kaybetti. Atıştırmalıklar işin içindeydi."
+    },
+    "hours": {
+      "title": "Vadide geçen zaman",
+      "tagline": "Bu maçlarda geçirilen saatler.",
+      "line": "{name} {value} saat biriktirdi. {other} {otherValue} biriktirdi. Belki biraz çimene dokunmalı."
+    },
+    "level": {
+      "title": "Hesabın kıdemlisi",
+      "tagline": "Çağırıcı seviyesi.",
+      "line": "{name} seviye {level}. {other} seviye {otherLevel}. Biriniz uzun zamandır burada."
+    },
+    "kryptonite": {
+      "title": "Kriptonit",
+      "tagline": "En kötü koridor rakibi ve nasıl geçtiği.",
+      "line": "{other}, {enemy} karşısında kaybetmeye devam ediyor ({record}). {name} adlı oyuncunun en kötü düşmanı {theirEnemy} ise daha nazik bir hikâye.",
+      "lineNone": "{other}, {enemy} şampiyonunu yenemiyor ({record}). {name} adlı oyuncunun hiç baş düşmanı yok."
+    },
+    "bully": {
+      "title": "Favori kurban",
+      "tagline": "Koridorda en çok dövdükleri şampiyon.",
+      "line": "{name}, {champion} karşısında {record}. O şampiyon yeni bir koridor aramalı."
+    }
+  },
+  "slides": {
+    "small": "(Küçük bir örneklem, o yüzden hafife al.)",
+    "intro": {
+      "eyebrow": "Kafa kafaya",
+      "unranked": "Derecesiz",
+      "games": "{count, plural, one {# maç} other {# maç}} analiz edildi",
+      "vs": "VS",
+      "differentServers": "Sunucular farklı, bu yüzden karşılaştırılacak ortak maç yok."
+    },
+    "stats": {
+      "eyebrow": "Sayılar",
+      "aria": "İstatistik karşılaştırması",
+      "ties": "{count, plural, one {# satır} other {# satır}} karar vermek için fazla yakındı."
+    },
+    "style": {
+      "eyebrow": "İki farklı oyuncu",
+      "meta": "{games, plural, one {# maç} other {# maç}} · {rate} galibiyet",
+      "metaRole": "{games, plural, one {# maç} other {# maç}} · {rate} galibiyet · {role}"
+    },
+    "scenario": {
+      "eyebrow": "{group} · {position} / {total}",
+      "wins": "Kazanır",
+      "leads": "Önde",
+      "vs": "karşı"
+    },
+    "rhythm": {
+      "eyebrow": "Ne zaman oynuyorsunuz",
+      "note": "Kendi saat diliminde."
+    },
+    "faceoff": {
+      "eyebrow": "Yüz yüze",
+      "meetings": "{count, plural, one {rakip olarak <b>#</b> karşılaşma} other {rakip olarak <b>#</b> karşılaşma}}",
+      "duels": "{count, plural, one {<b>#</b> koridor düellosu} other {<b>#</b> koridor düellosu}} · {left}–{right}",
+      "better": "Daha sık daha iyi KDA: <b>{name}</b>",
+      "last": "Son karşılaştığınızda",
+      "lastRole": "Son karşılaştığınızda, rol: {role}",
+      "roles": {
+        "TOP": "üst koridor",
+        "JUNGLE": "orman",
+        "MIDDLE": "orta koridor",
+        "BOTTOM": "alt koridor",
+        "UTILITY": "destek",
+        "other": "aynı koridor"
+      },
+      "won": "Kazandı",
+      "lost": "Kaybetti",
+      "meta": "{champion} · {kills}/{deaths}/{assists}",
+      "even": "Karşı takımlarda olduğunuzda tam beraberlik. Belirleyici maç çoktan gecikti.",
+      "sweep": "{name}, {other} karşısında hiç kaybetmedi. {other} rövanş isteyebilir.",
+      "edge": "{name}, {hi} - {lo} üstünlüğü elinde tutuyor. {other} intikam planlıyor."
+    },
+    "timeline": {
+      "eyebrow": "Dakika dakika",
+      "kills": "<b>{meetings, plural, one {# karşılaşmada} other {# karşılaşmada}}</b> birbirinize yaptığınız öldürmeler",
+      "solo": "Solo öldürmeler: <sa>{left}</sa> – <sb>{right}</sb>",
+      "ahead": "{minute}. dakikada önde: <sa>{left}</sa> – <sb>{right}</sb>",
+      "aheadLevel": "({count} beraberlik)",
+      "firstDeath": "İlk ölen: <sa>{left}</sa> – <sb>{right}</sb>",
+      "firstDragon": "İlk ejderha: <sa>{left}</sa> – <sb>{right}</sb>",
+      "goldLead": "<b>{name}</b> için ortalama <b>{gold}</b> altın farkı",
+      "noEdge": "Değiş tokuş ettiğiniz öldürmelerde ikinizin de üstünlüğü yok.",
+      "killsLead": "{name}, aranızdaki öldürmeleri alıyor. Erken oyun şimdilik bir muamma.",
+      "level": "Ortalama {minute}. dakikada tam beraberlik. Kim kazanırsa kazansın, iş daha sonra belli oluyor.",
+      "lead": "{leader} genellikle {minute}. dakikada, ortalama {gold} altınla önde.",
+      "allWon": "{lead} Ve her üstünlük galibiyete dönüştü. {other} asla geri dönüş yolu bulamıyor.",
+      "noneWon": "{lead} Bir şekilde bu maçların hepsini kaybetti. {other} geri dönüş kralı.",
+      "someWon": "{lead} Bu {ahead} üstünlüğün {won} tanesini bitirdi."
+    },
+    "together": {
+      "eyebrow": "Birlikte oynadığınızda",
+      "chemistry": "Uyum · {label}",
+      "carry": "Birlikte oynadığınız maçlarda {name}, {kda} KDA ile taşıyor.",
+      "even": "Birlikte oynadığınızda tam beraberlik.",
+      "topDamage": "En yüksek hasar: <sa>{left}</sa> – <sb>{right}</sb>",
+      "winsMore": "<side>{name}</side> hasarda lider olduğunda daha çok kazanır",
+      "winsMoreRates": "({rate} karşı {other})",
+      "apart": "<side>{name}</side> ayrı {apart} → birlikte {together}",
+      "each": "{aName} {a}, {bName} {b} puan",
+      "eachOne": "{name} için {value} puan",
+      "lift": "İkiniz de birlikte ayrı olduğunuzdan daha çok kazanıyorsunuz ({each}). Birlikte sıraya girmeye devam edin.",
+      "drag": "İkiniz de birlikte ayrı olduğunuzdan daha az kazanıyorsunuz ({each}). Belki başkalarıyla sıraya girin.",
+      "mixed": "Birlikte oynamak birinize diğerinden daha çok yardım ediyor ({each}).",
+      "flat": "Birlikte sıraya girdiğinizde galibiyet oranınız neredeyse değişmiyor. Sadece arkadaşlık."
+    },
+    "verdict": {
+      "eyebrow": "Karar",
+      "rows": "{count, plural, one {# satır} other {# satır}}",
+      "wins": "{name} kazanıyor",
+      "tie": "Karar vermek için fazla yakın",
+      "score": "{a} satıra karşı {b} satır",
+      "scoreTied": "{a} satıra karşı {b} satır, {ties} berabere",
+      "main": "Main: <b>{champion}</b>",
+      "rematchChip": "{date}: <sa>{left}</sa> – <sb>{right}</sb>",
+      "sideBets": "Yan bahisler <sa>{left}</sa> – <sb>{right}</sb>",
+      "sideBetsNote": "Ama yan bahisleri {name} kazanıyor, yani grup sohbetinin malzemesi var.",
+      "recap": "{name} özeti",
+      "shareTitle": "{a} - {b}: League kafa kafaya",
+      "again": "Yeni eşleşme"
+    }
+  },
+  "rail": {
+    "start": "Başlangıç",
+    "numbers": "Sayılar",
+    "styles": "Tarzlar",
+    "hours": "Saatler",
+    "together": "Birlikte",
+    "faceoff": "Yüzleşme",
+    "timeline": "Zaman çizelgesi",
+    "verdict": "Karar"
+  },
+  "page": {
+    "titleDemo": "Örnek kafa kafaya · Rift Recap",
+    "titleEmpty": "Kafa kafaya · Rift Recap",
+    "title": "{a} - {b} · Kafa kafaya",
+    "description": "İki League oyuncusu istatistik istatistik karşılaştırıldı, ayrıca birlikte nasıl oynadıkları.",
+    "unreadableTwo": "{who} okunamadı. Riot ID'ler Ad#ETİKET gibi görünür.",
+    "first": "ilk oyuncu",
+    "second": "ikinci oyuncu",
+    "malformed": "Bu bağlantıdaki oyunculardan biri okunamadı.",
+    "notFound": "Bu oyunculardan biri bulunamadı. Yazımı ve sunucuyu kontrol et.",
+    "same": "İki farklı oyuncu seç.",
+    "noGames": "{since} tarihinden beri {names} için maç bulunamadı, o yüzden henüz karşılaştıracak bir şey yok."
+  }
+}

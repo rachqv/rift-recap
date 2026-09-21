@@ -1,0 +1,11 @@
+{
+  "share": "Share",
+  "download": "Download card",
+  "copyLink": "Copy link",
+  "linkCopied": "Link copied",
+  "copyFailed": "Couldn't copy the link",
+  "shareFailed": "Couldn't open the share sheet",
+  "saveLater": "Save to compare later",
+  "saveRematch": "Save for a rematch",
+  "savedOpenLater": "Link copied. Open it later"
+}

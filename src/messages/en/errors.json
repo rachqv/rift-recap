@@ -1,0 +1,15 @@
+{
+  "keyRejected": "The Riot API key was rejected. Development keys expire every 24 hours, so regenerate yours.",
+  "notFound": "No player found with that Riot ID in that region. Check the spelling and the region.",
+  "rateLimit": "Riot's rate limit was hit. Wait a minute and try again.",
+  "api": "Riot's API failed.",
+  "cardFailed": "Couldn't draw the card.",
+  "unknownRegion": "Unknown region.",
+  "noGamesCard": "No games to draw a card from.",
+  "noSharedGames": "These players have no games together.",
+  "badSquad": "Bad squad parameters.",
+  "playerMissing": "One of those players wasn't found.",
+  "badVersus": "Bad head-to-head parameters.",
+  "samePlayers": "Pick two different players.",
+  "notEnough": "Not enough games to compare."
+}

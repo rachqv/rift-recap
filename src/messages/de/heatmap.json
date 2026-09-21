@@ -1,0 +1,42 @@
+{
+  "insight": {
+    "nightOwl": "{share} deiner Spiele beginnen nach Mitternacht. Die Kluft schläft nie, und du auch nicht.",
+    "earlyBird": "{share} deiner Spiele finden vor Mittag statt. Du startest die Warteschlange mit dem Kaffee.",
+    "weekend": "{share} deiner Spiele finden am Wochenende statt. Samstage gehören der Kluft.",
+    "weekday": "Fast alle deine Spiele finden unter der Woche statt. Der Grind kennt keinen freien Tag.",
+    "streak": "{days, plural, one {# Tag} other {# Tage}} in Folge mit einem Spiel. Das ist eine Gewohnheit.",
+    "steady": "Gleichmäßig über den Kalender verteilt. Kein Muster, einfach League."
+  },
+  "aria": "Kalender mit {games, plural, one {# Spiel} other {# Spielen}} an {days, plural, one {# Tag} other {# Tagen}}",
+  "before": "{date}: vor deinem frühesten geladenen Spiel",
+  "day": "{date}: {detail}",
+  "dayGames": "{games, plural, one {# Spiel} other {# Spiele}}, {wins} gewonnen",
+  "dayNone": "keine Spiele",
+  "fewer": "Weniger",
+  "more": "Mehr",
+  "activeDays": "{count, plural, one {<b>#</b> aktiver Tag} other {<b>#</b> aktive Tage}}",
+  "busiest": "Aktivster Tag <b>{date}</b> · {games, plural, one {# Spiel} other {# Spiele}}",
+  "streak": "Längste Serie <b>{days, plural, one {# Tag} other {# Tage}}</b>",
+  "favorite": "Lieblingstag <b>{day}</b>",
+  "prime": "Hauptspielzeit <b>{hour}</b>",
+  "parts": {
+    "night": "Nacht",
+    "morning": "Morgen",
+    "afternoon": "Nachmittag",
+    "evening": "Abend"
+  },
+  "bestPart": "Am besten: <b>{part}</b> · <good>{rate}</good> Siege",
+  "worstPart": "(<bad>{rate}</bad> in der Zeit: {part})",
+  "bestMonth": "Bester Monat <b>{month}</b> · <good>{rate}</good>",
+  "worstMonth": "· schlechtester <b>{month}</b> <bad>{rate}</bad>",
+  "clock": {
+    "day": "Dein bester Tag: {best}, {bestRate} Siege. Dein schlechtester: {worst}, nur {worstRate}.",
+    "part": "Deine beste Tageszeit: {best}, {bestRate} Siege. Deine schlechteste: {worst}, nur {worstRate}.",
+    "steady": "Deine Siegquote bewegt sich kaum mit der Uhr. Jeder Tag, jede Uhrzeit: derselbe Spieler.",
+    "byPart": "Tageszeit",
+    "byDay": "Wochentag",
+    "bar": "{label}: {rate} Siege, {detail}",
+    "barFew": "{label}: {detail}. Zu wenige Spiele zum Vergleichen.",
+    "aria": "Siegquote nach Tageszeit und Wochentag"
+  }
+}

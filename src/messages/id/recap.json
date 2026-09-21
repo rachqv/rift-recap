@@ -1,0 +1,381 @@
+{
+  "season": "Musim {year}",
+  "strip": "{wins, plural, other {# kemenangan}} dan {losses, plural, other {# kekalahan}}, pertandingan terlama lebih dulu",
+  "record": "{wins}M · {losses}K",
+  "recordChip": "<good>{wins}</good>M <bad>{losses}</bad>K",
+  "winRateChip": "Win rate <b>{rate}</b>",
+  "kdaChip": "KDA <b>{kda}</b>",
+  "gamesChip": "{count, plural, other {<b>#</b> pertandingan}}",
+  "gamesLabel": "{count, plural, other {# pertandingan}}",
+  "intro": {
+    "eyebrow": "Rangkuman {season}",
+    "caption": "{games, plural, other {Kami meninjau # pertandinganmu. Siap melihat bagaimana kamu bermain?}}",
+    "scroll": "Gulir"
+  },
+  "games": {
+    "eyebrow": "Kamu hadir",
+    "played": "{count, plural, other {pertandingan dimainkan}}",
+    "riftOnly": "{count, plural, other {pertandingan Summoner's Rift}}",
+    "wins": "{count, plural, other {<good>#</good> kemenangan}}",
+    "losses": "{count, plural, other {<bad>#</bad> kekalahan}}",
+    "hours": "{n, plural, other {<b>{value}</b> jam}}"
+  },
+  "win": {
+    "eyebrow": "Win rate-mu"
+  },
+  "champion": {
+    "eyebrow": "Champion andalanmu",
+    "more": "Semua game {champion}-mu",
+    "back": "Kembali ke rekap lengkap",
+    "pageTitle": "{champion} · {name}#{tag} · Rift Recap",
+    "pageEyebrow": "Laporan champion",
+    "noneTitle": "Belum ada game dengan champion ini",
+    "none": "{who} belum punya game dengan {champion} di rentang waktu ini. Coba champion lain dari rekap."
+  },
+  "kda": {
+    "eyebrow": "Statistik tempurmu",
+    "kills": "kill",
+    "deaths": "kematian",
+    "assists": "assist",
+    "perGame": "{value} / pertandingan",
+    "best": "Pertandingan terbaikmu",
+    "bestLine": "{champion} · {kills}/{deaths}/{assists}",
+    "victory": "Menang",
+    "defeat": "Kalah"
+  },
+  "style": {
+    "eyebrow": "Cara bermainmu",
+    "mainRole": "role utama · {share}",
+    "cs": "CS per menit",
+    "vision": "vision per menit",
+    "damage": "damage per menit",
+    "kp": "keterlibatan kill",
+    "penta": "{count, plural, other {<b>#</b> pentakill}}",
+    "quadra": "{count, plural, other {<b>#</b> quadrakill}}",
+    "triple": "{count, plural, other {<b>#</b> triple kill}}",
+    "firstBloods": "{count, plural, other {<b>#</b> first blood}}",
+    "deathless": "{count, plural, other {<b>#</b> pertandingan tanpa mati}}",
+    "longestWon": "Pertandingan terpanjangmu berlangsung {duration} dengan {champion}. Dan kamu menang juga.",
+    "longestLost": "Pertandingan terpanjangmu berlangsung {duration} dengan {champion}. Kadang pertandingan memang tidak berakhir baik."
+  },
+  "mode": {
+    "aram": {
+      "eyebrow": "Menuruni Howling Abyss",
+      "label": "{count, plural, other {pertandingan ARAM}}"
+    },
+    "normal": {
+      "eyebrow": "Sekadar bersenang-senang",
+      "label": "{count, plural, other {pertandingan normal}}"
+    }
+  },
+  "rank": {
+    "emblem": "Emblem {title}",
+    "lp": "<b>{lp}</b> LP",
+    "caption": "Peringkatmu saat ini. Setiap pendakian dimulai dari pertandingan berikutnya."
+  },
+  "persona": {
+    "eyebrow": "Musim ini, kamu adalah",
+    "also": "Juga sedikit: {list}",
+    "main": "Main <b>{champion}</b>",
+    "shareTitle": "Musim League-ku: {title}",
+    "compare": "Bandingkan dengan teman",
+    "squad": "Rangkuman skuad",
+    "search": "Cari pemain lain",
+    "count": "1 dari {count} arketipe",
+    "countEstimate": "1 dari {count} arketipe · kelangkaan hanyalah perkiraan"
+  },
+  "calendar": {
+    "eyebrow": "Kalendermu",
+    "note": "Berdasarkan {count, plural, other {# pertandingan}} terakhirmu."
+  },
+  "clock": {
+    "eyebrow": "Kapan kamu menang"
+  },
+  "items": {
+    "eyebrow": "Item andalanmu",
+    "inGames": "{games, plural, other {Di <b>{count}</b> dari # pertandinganmu}}",
+    "winWith": "Win rate <b>{rate}</b> dengannya",
+    "without": "<b>{rate}</b> tanpanya",
+    "boots": "Sepatu"
+  },
+  "objectives": {
+    "eyebrow": "Objektif",
+    "lead": "Timmu berhasil mengambil, dalam {games, plural, other {# pertandingan}}",
+    "tiles": {
+      "tower": "Menara",
+      "dragon": "Naga",
+      "baron": "Baron",
+      "herald": "Herald",
+      "grubs": "Void Grub",
+      "inhibitor": "Inhibitor"
+    },
+    "youTotal": "kamu: {count}",
+    "youSecured": "kamu mengamankan {count}",
+    "perGame": "{value} per pertandingan",
+    "firstTower": "Menara pertama di <b>{rate}</b> pertandingan",
+    "withWithout": "<good>{withIt}</good> menang dengannya · <b>{without}</b> tanpanya",
+    "stolen": "<b>{count}</b> dicuri"
+  },
+  "tilt": {
+    "eyebrow": {
+      "tilt": "Cek tilt",
+      "resilient": "Cek bangkit lagi",
+      "steady": "Cek mental"
+    },
+    "afterWin": "Setelah menang",
+    "afterLoss": "Setelah kalah",
+    "tilts": "Tilt setelah kalah",
+    "bounces": "Bangkit lagi"
+  },
+  "comfort": {
+    "eyebrow": "Zona nyamanmu",
+    "lead": "Win rate per champion, dibanding {rate} secara keseluruhan"
+  },
+  "gray": {
+    "eyebrow": "Layar abu-abu",
+    "unit": "j",
+    "spentDead": "waktu dalam keadaan mati",
+    "aliveAria": "Hidup {alive} dari waktu, mati {dead}",
+    "alive": "Hidup {value}",
+    "dead": "Mati {value}",
+    "share": "<b>{share}</b> waktumu di dalam pertandingan",
+    "perGame": "<b>{minutes}</b> menit per pertandingan",
+    "films": "{n, plural, other {Sekitar <b>#</b> film}}"
+  },
+  "progress": {
+    "eyebrow": "Sejak terakhir kali",
+    "lead": "{date} · {saved, plural, other {# pertandingan}} → sekarang {games}",
+    "was": " · dulu {persona}",
+    "improved": "<good>▲ {count}</good> membaik",
+    "slipped": "<bad>▼ {count}</bad> menurun",
+    "mood": {
+      "better": "membaik",
+      "worse": "menurun",
+      "flat": "tidak berubah"
+    }
+  },
+  "trophies": {
+    "eyebrow": "Rak pialamu",
+    "of": "dari {total} terbuka",
+    "unlocked": "Terbuka",
+    "progress": "{percent} tercapai",
+    "next": "Paling dekat terbuka: {name} ({percent}). {text}",
+    "all": "Setiap piala yang bisa kamu raih, sudah kamu raih.",
+    "lines": "Bingo <b>{count}</b>",
+    "free": "Gratis",
+    "board": "Papan bingo piala",
+    "nextBingo": "Bingo berikutnya: {name} ({percent}). {text}",
+    "shareTitle": "Bingo piala Rift Recap-ku"
+  },
+  "blame": {
+    "eyebrow": "Apakah itu kamu?",
+    "carry": "Kamu membawa tim",
+    "weak": "Mata rantai terlemah",
+    "team": "Usaha tim",
+    "across": "Dalam {losses, plural, other {# kekalahan}}-mu",
+    "topDamage": "Damage tertinggi",
+    "chance": "Kebetulan saja menghasilkan {rate}",
+    "deaths": "Kematian tim",
+    "average": "Rata-ratanya {rate}"
+  },
+  "tierList": {
+    "eyebrow": "Tier list-mu",
+    "aria": "Tier list champion",
+    "title": "{name}: {winRate} dalam {games, plural, other {# pertandingan}}",
+    "note": "Diurutkan berdasarkan win rate, lalu KDA. Champion dengan kurang dari 4 pertandingan tidak disertakan."
+  },
+  "habits": {
+    "eyebrow": "Kebiasaanmu",
+    "pings": "{value} ping per pertandingan",
+    "flash": "Flash di tombol {key} · {value} kali per pertandingan",
+    "pairShare": "di {share} pertandingan",
+    "quits": "{enemy} kali musuh menyerah · {ours} kali timmu",
+    "ping": "Gaya ping",
+    "spells": "Summoner spell",
+    "surrender": "Berakhir dengan menyerah"
+  },
+  "damage": {
+    "eyebrow": "Damage-mu",
+    "parts": {
+      "physical": "Fisik",
+      "magic": "Sihir",
+      "true": "True"
+    },
+    "partAria": "{label} {share}"
+  },
+  "comp": {
+    "eyebrow": "Komposisi tim",
+    "with": "Dengan <b>{class}</b>",
+    "games": "{withGames, plural, other {# pertandingan}} dibanding {withoutGames, plural, other {# pertandingan}} tanpanya",
+    "versus": "lawan {rate}"
+  },
+  "sessions": {
+    "eyebrow": "Malam-malammu",
+    "lead": "{count, plural, other {# sesi}} · sekitar {avg} pertandingan tiap sesi",
+    "best": "Malam terbaik",
+    "worst": "Malam terburuk",
+    "longest": "Sesi terpanjang",
+    "meta": "{games, plural, other {# pertandingan}} · {date}"
+  },
+  "highlights": {
+    "eyebrow": "Sorotan",
+    "minutes": "{count, plural, other {# menit}}",
+    "meta": "{what} · {date}",
+    "won": "Menang",
+    "lost": "Kalah",
+    "caption": "Pertandingan yang akan kamu ceritakan di pesta."
+  },
+  "lane": {
+    "lane": "Cek lane",
+    "gold": "Kebiasaan emas",
+    "cs": "CS lawan lane",
+    "goldDiff": "Emas lawan lane",
+    "damage": "Damage lawan lane",
+    "unspent": "Emas belum terpakai di akhir",
+    "ahead": "Unggul emas di <b>{rate}</b> dari {games, plural, other {# pertandingan}}",
+    "kills": "{value} kill per pertandingan",
+    "csValue": "{value} CS"
+  },
+  "early": {
+    "eyebrow": "Di menit ke-15",
+    "titles": {
+      "early": "Penindas early game",
+      "late": "Pertumbuhan late game",
+      "steady": "Tangan mantap"
+    },
+    "parts": {
+      "ahead": "Unggul",
+      "even": "Imbang",
+      "behind": "Tertinggal"
+    },
+    "aria": "{label} dalam {n, plural, other {# pertandingan}}",
+    "wonAhead": "Menang <good>{wins}</good> dari {total} saat unggul",
+    "wonBehind": "Menang <b>{wins}</b> dari {total} saat tertinggal",
+    "lead": "{games, plural, other {# pertandingan lane}} terakhirmu, melawan lawan lane-mu"
+  },
+  "chapters": {
+    "eyebrow": "Musimmu dalam bab",
+    "wins": "{rate} menang",
+    "note": "Setiap bab dinilai dari pertandingannya sendiri, jadi bab yang pendek kurang pasti."
+  },
+  "flames": {
+    "eyebrow": "Cinta lama",
+    "lead": "Champion yang kamu kenal baik dan nyaris tak kamu sentuh musim ini",
+    "mastery": "Mastery {level} · {played}",
+    "notPlayed": "tidak dimainkan",
+    "caption": "{champion} punya {points} poin mastery. Dia merindukanmu."
+  },
+  "social": {
+    "duo": {
+      "eyebrow": "Duo-mu",
+      "together": "{count, plural, other {pertandingan bersama}}",
+      "winTogether": "Win rate <b>{rate}</b> bersama",
+      "apart": "<b>{rate}</b> terpisah",
+      "combo": "Kombo terbaik <b>{pair}</b>",
+      "alone": "Setiap pertandingan musim ini bersama {name}. Itu komitmen.",
+      "better": "Kamu menang {withRate} bersama {name} dan {without} tanpanya. Jaga band tetap utuh.",
+      "worse": "Kamu lebih jarang menang bersama {name} ({withRate} lawan {without} solo). Persahabatan di atas statistik.",
+      "same": "Win rate hampir sama dengan atau tanpa {name}. Yang penting teman bermain.",
+      "seeRecap": "Lihat rangkuman {name}",
+      "versus": "Adu langsung"
+    },
+    "matchup": {
+      "single": "Lawan lane-mu",
+      "both": "Musuh bebuyutan vs matchup terbaik",
+      "nemesis": "Musuh bebuyutanmu",
+      "best": "Matchup terbaikmu",
+      "vs": "VS",
+      "record": "<good>{wins}M</good> <bad>{losses}K</bad>",
+      "meta": "Win rate {rate}",
+      "metaAs": "Win rate {rate} · sebagai {champion}",
+      "insightBoth": "Ban {nemesis}, dan berharaplah bertemu {best}.",
+      "insightNemesis": "{nemesis} adalah kryptonite-mu. Pertimbangkan untuk ban.",
+      "insightBest": "{best} tak pernah punya peluang melawanmu."
+    }
+  },
+  "rail": {
+    "start": "Mulai",
+    "games": "Pertandingan",
+    "week": "Mingguan",
+    "form": "Performa",
+    "calendar": "Kalender",
+    "clock": "Jam",
+    "patches": "Patch",
+    "nights": "Malam",
+    "wins": "Kemenangan",
+    "progress": "Kemajuan",
+    "tilt": "Tilt",
+    "tiltGuard": "Tanda berhenti",
+    "blame": "Salahmu?",
+    "champion": "Champion",
+    "comfort": "Zona nyaman",
+    "flames": "Cinta lama",
+    "tierList": "Tier list",
+    "pool": "Coba ini",
+    "combat": "Tempur",
+    "highlights": "Sorotan",
+    "damage": "Damage",
+    "gray": "Layar abu-abu",
+    "playstyle": "Gaya main",
+    "lane": "Lane",
+    "early": "Early game",
+    "habits": "Kebiasaan",
+    "items": "Item",
+    "runes": "Rune",
+    "objectives": "Objektif",
+    "duo": "Duo",
+    "matchups": "Matchup",
+    "comps": "Komposisi tim",
+    "normals": "Normal",
+    "aram": "ARAM",
+    "chapters": "Bab",
+    "trophies": "Piala",
+    "rank": "Peringkat",
+    "guess": "Tebak",
+    "you": "Kamu",
+    "back": "Kembali"
+  },
+  "page": {
+    "title": "{name}#{tag} · Rift Recap",
+    "description": "Rangkuman musim League of Legends: statistik, arketipe, dan kartu yang bisa dibagikan.",
+    "failed": "Tidak bisa memuat rangkuman ini",
+    "noGamesTitle": "Belum ada pertandingan",
+    "noGames": "Kami tidak menemukan pertandingan untuk {who} sejak {since}. Mainkan beberapa pertandingan lalu kembali lagi.",
+    "noRangeTitle": "Tidak ada pertandingan dalam rentang waktu ini",
+    "noRange": "{who} belum memainkan pertandingan sejak {since}. Coba rentang waktu yang lebih panjang."
+  },
+  "tiltguard": {
+    "eyebrow": "Penjaga tilt",
+    "step1": "Setelah 1 kekalahan",
+    "step2": "Setelah 2 beruntun",
+    "step3": "Setelah 3+ beruntun",
+    "live": "Sekarang"
+  },
+  "formcurve": {
+    "eyebrow": "Musimmu sebagai satu garis",
+    "lead": "Win rate di setiap {games}",
+    "best": "Terbaik <b>{rate}</b> · berakhir {date}",
+    "worst": "Terburuk <b>{rate}</b> · berakhir {date}",
+    "now": "Sekarang <b>{rate}</b>",
+    "aria": "Win rate bergulir: terbaik {best}, terburuk {worst}, terbaru {now}",
+    "shareTitle": "Musimku sebagai satu garis"
+  },
+  "week": {
+    "eyebrow": "7 hari terakhir vs 7 hari sebelumnya",
+    "lead": "{now} sekarang · {before} sebelumnya"
+  },
+  "patches": {
+    "eyebrow": "Patch demi patch",
+    "title": "Win rate per patch"
+  },
+  "runes": {
+    "eyebrow": "Rune utamamu",
+    "winWith": "Win rate <b>{rate}</b> dengannya",
+    "without": "<b>{rate}</b> tanpanya"
+  },
+  "pool": {
+    "eyebrow": "Champion untuk dicoba",
+    "because": "Karena {champion} cocok untukmu: win rate {rate}",
+    "note": "Dipilih karena kelas dan gaya main yang mirip. Sekadar saran, bukan jaminan."
+  }
+}

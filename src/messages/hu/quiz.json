@@ -1,0 +1,28 @@
+{
+  "verdict": {
+    "perfect": "Jobban ismered a csapatodat, mint ahogy a csapat ismeri önmagát.",
+    "good": "Nem rossz. Egyértelműen figyeltél.",
+    "low": "Talán több időt kellene a barátaiddal töltened."
+  },
+  "result": "Kvíz eredménye",
+  "round": "Ki nyerte? {step}/{total}",
+  "again": "Újra",
+  "group": "Ki nyerte ezt a díjat?",
+  "right": "Helyes!",
+  "wrong": "Nem, {name} volt az.",
+  "reveal": "{verdict} {line}",
+  "pick": "Válassz egy játékost.",
+  "score": "Pontszám megtekintése",
+  "next": "Következő díj",
+  "guess": {
+    "eyebrow": "Találd ki az arketípusod",
+    "lead": "Három nyom, négy arketípus. Melyik vagy te?",
+    "clueMain": "Legtöbbet játszott: {champion}",
+    "clueRate": "Győzelmi arány {rate}",
+    "clueKda": "KDA {kda}",
+    "group": "Melyik arketípus vagy?",
+    "right": "Pontosan. Ismered a játékodat.",
+    "wrong": "Majdnem. Te {title} vagy.",
+    "next": "Menj tovább a teljes felfedésért."
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "tryRange": "Coba rentang waktu lain:",
+  "field": {
+    "recent": "Pemain terbaru"
+  },
+  "squad": {
+    "title": "Rangkuman skuad",
+    "lead": "Masukkan dua sampai lima Riot ID dari server yang sama. Kami melihat pertandingan yang kalian mainkan <em>bersama</em> dan membagikan penghargaan.",
+    "server": "Server",
+    "player": "Pemain {n} (Nama#TAG)",
+    "playerOptional": "Pemain {n} (Nama#TAG) opsional",
+    "playerAria": "Riot ID pemain {n}",
+    "submit": "Lihat rangkuman skuad",
+    "fine": "Paling cocok dengan orang yang biasa kamu ajak antre, karena hanya melihat pertandingan bersama. <link>Lihat contoh skuad</link>"
+  },
+  "clash": {
+    "title": "Tim lawan tim",
+    "lead": "Dua tim beranggotakan dua sampai lima pemain, dari server yang sama. Kami melihat game di mana kalian bermain <em>saling berhadapan</em>, seperti custom 5v5.",
+    "server": "Server",
+    "sideA": "Tim 1",
+    "sideB": "Tim 2",
+    "player": "{side}, pemain {n} (Nama#TAG)",
+    "playerOptional": "{side}, pemain {n} (Nama#TAG) opsional",
+    "playerAria": "Riot ID pemain {n}, {side}",
+    "submit": "Bandingkan kedua tim",
+    "fine": "Hanya menghitung game dengan minimal dua orang dari tiap tim di sisi berlawanan. <link>Lihat contoh</link>"
+  },
+  "versus": {
+    "title": "Adu langsung",
+    "lead": "Pilih dua pemain dan lihat siapa yang unggul: statistik demi statistik, gaya demi gaya, dan bagaimana kalian saat antre bersama.",
+    "player1": "Pemain 1",
+    "player2": "Pemain 2",
+    "serverAria": "Server {label}",
+    "riotId": "Riot ID (Nama#TAG)",
+    "riotIdAria": "Riot ID {label}",
+    "submit": "Bandingkan",
+    "fine": "Membandingkan pertandingan terbaru tiap pemain. <link>Lihat contoh adu langsung</link>"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "penta": {
+    "name": "Pentakill",
+    "text": "Κάνε ένα pentakill."
+  },
+  "quadra": {
+    "name": "Συλλέκτης quadrakill",
+    "text": "Κάνε {target, plural, one {# quadrakill} other {# quadrakill}}."
+  },
+  "triple": {
+    "name": "Τριπλή απειλή",
+    "text": "Κάνε {target, plural, one {# triple kill} other {# triple kill}}."
+  },
+  "flawless": {
+    "name": "Άψογος",
+    "text": "Τελείωσε έναν αγώνα χωρίς να πεθάνεις ούτε μία φορά."
+  },
+  "flawless5": {
+    "name": "Άθικτος",
+    "text": "Τελείωσε {target, plural, one {# αγώνα} other {# αγώνες}} χωρίς να πεθάνεις ούτε μία φορά."
+  },
+  "streak": {
+    "name": "Φλέγεσαι",
+    "text": "Κέρδισε {target, plural, one {# αγώνα} other {# αγώνες}} στη σειρά."
+  },
+  "winrate": {
+    "name": "Νικητής",
+    "text": "Κράτα ποσοστό νικών {target} σε πάνω από {games} αγώνες."
+  },
+  "kills": {
+    "name": "Μηχανή εξοντώσεων",
+    "text": "Κάνε {target, plural, one {# εξόντωση} other {# εξοντώσεις}} σε έναν αγώνα."
+  },
+  "perfect": {
+    "name": "Τέλειος αγώνας",
+    "text": "Παίξε έναν αγώνα με KDA {target}+."
+  },
+  "firstblood": {
+    "name": "Βασιλιάς του first blood",
+    "text": "Πάρε το first blood {target, plural, one {# φορά} other {# φορές}}."
+  },
+  "thief": {
+    "name": "Κλέφτης στόχων",
+    "text": "Κλέψε έναν στόχο."
+  },
+  "turrets": {
+    "name": "Κατεδαφιστής",
+    "text": "Γκρέμισε {target, plural, one {# πύργο} other {# πύργους}}."
+  },
+  "variety": {
+    "name": "Πολυτεχνίτης",
+    "text": "Παίξε {target, plural, one {# διαφορετικό ήρωα} other {# διαφορετικούς ήρωες}}."
+  },
+  "loyal": {
+    "name": "Πιστός",
+    "text": "Παίξε τον ίδιο ήρωα {target, plural, one {# φορά} other {# φορές}}."
+  },
+  "marathon": {
+    "name": "Μαραθώνιος",
+    "text": "Παίξε έναν αγώνα διάρκειας άνω των {minutes} λεπτών."
+  },
+  "bounce": {
+    "name": "Επιστροφή",
+    "text": "Κέρδισε το {target} των αγώνων μετά από ήττα."
+  },
+  "hours": {
+    "name": "Χρόνος στο Rift",
+    "text": "Πέρασε {target, plural, one {# ώρα} other {# ώρες}} σε αγώνες."
+  },
+  "dragon": {
+    "name": "Δρακοκτόνος",
+    "text": "Δώσε το τελικό χτύπημα σε {target, plural, one {# δράκο} other {# δράκους}}."
+  },
+  "baron": {
+    "name": "Κυνηγός του Βαρόνου",
+    "text": "Δώσε το τελικό χτύπημα σε {target, plural, one {# Βαρόνο} other {# Βαρόνους}}."
+  },
+  "teamplayer": {
+    "name": "Ομαδικός παίκτης",
+    "text": "Συμμετέχε στο {target} των σκοτωμών της ομάδας σου."
+  },
+  "duo": {
+    "name": "Αχώριστοι",
+    "text": "Παίξε {target, plural, one {# αγώνα} other {# αγώνες}} με τον ίδιο συμπαίκτη."
+  },
+  "vision": {
+    "name": "Παντεπόπτης",
+    "text": "Πιάσε κατά μέσο όρο {target} βαθμολογία όρασης το λεπτό."
+  },
+  "farm": {
+    "name": "Μάστορας του farm",
+    "text": "Πιάσε κατά μέσο όρο {target} CS το λεπτό."
+  },
+  "roles": {
+    "name": "Πολυπαικτικός",
+    "text": "Παίξε και τους {target, plural, one {# ρόλο} other {# ρόλους}}."
+  }
+}

@@ -1,0 +1,400 @@
+{
+  "rows": {
+    "winRate": "Tasso di vittorie",
+    "kda": "KDA",
+    "kills": "Uccisioni a partita",
+    "deaths": "Morti a partita",
+    "assists": "Assist a partita",
+    "cs": "CS al minuto",
+    "vision": "Visione al minuto",
+    "damage": "Danni al minuto",
+    "kp": "Partecipazione alle uccisioni"
+  },
+  "verdict": {
+    "tie": "{score} righe a testa. Siete stranamente alla pari.",
+    "sweep": "{name} si prende ogni riga che conta. {other} ha parecchio da recuperare.",
+    "clear": "{name} vince {hi} righe a {lo}. Non c'è stata storia.",
+    "edge": "{name} la spunta, {hi} righe a {lo}. {other} è subito dietro."
+  },
+  "rematch": {
+    "changed": "Il comando è passato di mano: ora {name} è in testa.",
+    "improved": "{name} è migliorato di più da allora ({better} contro {worse} punti di tasso di vittorie).",
+    "same": "Più o meno lo stesso quadro dell'ultima volta."
+  },
+  "groups": {
+    "moments": {
+      "label": "Momenti",
+      "eyebrow": "Grandi momenti"
+    },
+    "habits": {
+      "label": "Abitudini",
+      "eyebrow": "Abitudini sulla Landa"
+    },
+    "form": {
+      "label": "Forma",
+      "eyebrow": "Forma e grinta"
+    },
+    "identity": {
+      "label": "Chi è chi",
+      "eyebrow": "Chi è chi"
+    }
+  },
+  "short": {
+    "win": "{value}V",
+    "loss": "{value}S",
+    "record": "{rate} · {games}p",
+    "champs": "{count, plural, one {# camp.} other {# camp.}}",
+    "minutes": "{value} min",
+    "hours": "{value}h",
+    "level": "Liv. {value}",
+    "seconds": "{value}s",
+    "epic": "{dragons}D {barons}B",
+    "none": "Nessuno",
+    "noneLower": "nessuno",
+    "penta": "{count}P",
+    "quadra": "{count}Q",
+    "triple": "{count}T"
+  },
+  "multi": {
+    "penta": "{count, plural, one {# pentakill} other {# pentakill}}",
+    "quadra": "{count, plural, one {# quadrakill} other {# quadrakill}}",
+    "triple": "{count, plural, one {# triplekill} other {# triplekill}}"
+  },
+  "trend": {
+    "steady": "{name} è rimasto stabile al {rate}",
+    "change": "{name} è passato da {early} a {late} di vittorie"
+  },
+  "scenarios": {
+    "multikills": {
+      "title": "Momenti migliori",
+      "tagline": "Penta, quadra e triple, pesati in base a quanto è diventata rumorosa la chat nemica.",
+      "line": "{name} ha raccolto {list}. La cartella dei momenti migliori è piena."
+    },
+    "firstBlood": {
+      "title": "Primo sangue",
+      "tagline": "Qualcuno deve pur iniziare lo scontro.",
+      "line": "{name} ha fatto il primo sangue nel {rate} delle partite. {other} arriva in ritardo con stile."
+    },
+    "flawless": {
+      "title": "Partite impeccabili",
+      "tagline": "Zero morti, dall'inizio alla fine.",
+      "line": "{name} ha finito {count, plural, one {# partita} other {# partite}} senza morire nemmeno una volta. Intoccabile."
+    },
+    "careerGame": {
+      "title": "Partita della carriera",
+      "tagline": "Quella che tireranno fuori alle feste.",
+      "line": "{name} ha fatto {kills}/{deaths}/{assists} con {champion}.",
+      "lineLost": "{name} ha fatto {kills}/{deaths}/{assists} con {champion} e ha perso comunque. Dura."
+    },
+    "spree": {
+      "title": "Serie più lunga",
+      "tagline": "Uccisioni di fila senza morire.",
+      "line": "{name} ha messo in fila {count} uccisioni senza morire. Qualcuno chiami i pompieri."
+    },
+    "lifespan": {
+      "title": "Vita più lunga",
+      "tagline": "Il tempo più lungo in cui sono rimasti vivi di fila.",
+      "line": "{name} una volta è rimasto vivo per {time} di fila. La fontana lo conosceva a malapena."
+    },
+    "soloKills": {
+      "title": "Uccisioni in solitaria",
+      "tagline": "Uno contro uno, senza bisogno di aiuto.",
+      "line": "{name} fa in media {value} uccisioni in solitaria a partita. Alcuni amano proprio l'1v1."
+    },
+    "dodge": {
+      "title": "Matrix",
+      "tagline": "Skillshot che colpiscono solo l'aria.",
+      "line": "{name} ha schivato {value} skillshot a partita. Difficile da colpire, ancora più da prendere."
+    },
+    "thief": {
+      "title": "Ladro di obiettivi",
+      "tagline": "Drago? Quale drago?",
+      "line": "{name} ha rubato {count, plural, one {# obiettivo} other {# obiettivi}}. {other} dovrebbe tenere d'occhio la fossa."
+    },
+    "epic": {
+      "title": "Cacciatore di mostri epici",
+      "tagline": "Draghi e Baron finiti di persona.",
+      "line": "{name} ha dato il colpo di grazia a {dragons, plural, one {# drago} other {# draghi}} e {barons, plural, one {# Baron} other {# Baron}}."
+    },
+    "siege": {
+      "title": "Squadra di demolizione",
+      "tagline": "Quota delle torri della loro squadra che hanno abbattuto.",
+      "line": "{name} ha abbattuto il {share} delle torri della squadra. Nulla di costruito sopravvive."
+    },
+    "objDamage": {
+      "title": "Danni agli obiettivi",
+      "tagline": "Danni a torri, draghi e Baron, a partita.",
+      "line": "{name} ha inflitto {value} di danni agli obiettivi a partita. La mappa è solo una lista di cose da fare."
+    },
+    "flash": {
+      "title": "Dipendente dal Flash",
+      "tagline": "Utilizzi del Flash a partita. È sempre in ricarica.",
+      "line": "{name} usa il Flash {value} volte a partita. {other} è più coraggioso o più lento."
+    },
+    "grayScreen": {
+      "title": "Tempo sulla schermata grigia",
+      "tagline": "Quota di ogni partita passata da morti. Meno è meglio.",
+      "line": "{other} passa il {otherShare} di ogni partita ad aspettare la rinascita. {name} solo il {share}."
+    },
+    "pings": {
+      "title": "Suggeritore dal sedile posteriore",
+      "tagline": "Ping a partita.",
+      "line": "{name} ha pingato {value} volte a partita. La minimappa non ha mai avuto pace."
+    },
+    "pinks": {
+      "title": "Budget sentinelle di controllo",
+      "tagline": "Sentinelle di controllo piazzate a partita.",
+      "line": "{name} mette {value} sentinelle di controllo a partita. {other} tiene l'oro per i giorni di pioggia."
+    },
+    "sweeper": {
+      "title": "Spazzino di sentinelle",
+      "tagline": "Sentinelle nemiche eliminate a partita.",
+      "line": "{name} ha eliminato {value} sentinelle nemiche a partita. Niente si nasconde da quella lanterna."
+    },
+    "gold": {
+      "title": "Cercatore d'oro",
+      "tagline": "Oro guadagnato al minuto.",
+      "line": "{name} guadagna {value} di oro al minuto contro {otherValue} di {other}. Qualcuno va più spesso al negozio."
+    },
+    "tank": {
+      "title": "Sacco da boxe",
+      "tagline": "Danni assorbiti a partita.",
+      "line": "{name} ha assorbito {value} di danni a partita. Qualcuno doveva farlo."
+    },
+    "medic": {
+      "title": "Medico del team",
+      "tagline": "Cure e scudi sugli alleati, a partita.",
+      "line": "{name} ha curato e protetto {value} di danni a partita per il team."
+    },
+    "cc": {
+      "title": "Controllo della folla",
+      "tagline": "Secondi di nemici immobilizzati, a partita.",
+      "line": "{name} ha tenuto i nemici bloccati per {value, plural, one {# secondo} other {# secondi}} a partita. Fermi lì."
+    },
+    "whiteFlag": {
+      "title": "Bandiera bianca",
+      "tagline": "Sconfitte finite con una resa.",
+      "line": "Il team di {name} si è arreso nel {share} delle sconfitte. {other} combatte fino al Nexus."
+    },
+    "crit": {
+      "title": "Critico più grosso",
+      "tagline": "Il singolo colpo critico più forte.",
+      "line": "{name} una volta ha fatto un critico da {value}. Quello è finito nella chat di gruppo."
+    },
+    "teamDamage": {
+      "title": "Portare i danni",
+      "tagline": "Quota dei danni ai campioni del team.",
+      "line": "{name} ha inflitto il {share} dei danni del team. Il resto stava lì vicino."
+    },
+    "hotStreak": {
+      "title": "Serie calda",
+      "tagline": "La serie più lunga di vittorie.",
+      "line": "{name} una volta ha vinto {win} di fila. {other} si è fermato a {lose}."
+    },
+    "tilt": {
+      "title": "Profondità del tilt",
+      "tagline": "La serie più lunga di sconfitte. Più breve è meglio.",
+      "line": "{other} una volta ha perso {lose} di fila. {name} non è mai sceso oltre {win}."
+    },
+    "momentum": {
+      "title": "Slancio",
+      "tagline": "Tasso di vittorie nella metà più recente delle partite rispetto a quella più vecchia.",
+      "line": "{first}, mentre {second}."
+    },
+    "ladder": {
+      "title": "Posizione in classifica",
+      "tagline": "Chi è più in alto nella scala classificata.",
+      "line": "{name} ({title}) sta sopra {other} ({otherTitle}). Diritto di vantarsi, ufficialmente."
+    },
+    "seasonRanked": {
+      "title": "Bilancio classificato della stagione",
+      "tagline": "Tasso di vittorie su tutte le partite classificate della stagione.",
+      "line": "{name} vince il {rate} delle partite classificate contro il {otherRate} di {other}."
+    },
+    "rankedForm": {
+      "title": "Pressione della classificata",
+      "tagline": "Tasso di vittorie nelle partite classificate recenti.",
+      "line": "{name} vince il {rate} quando ci sono PL in gioco. {other} vince il {otherRate}."
+    },
+    "normals": {
+      "title": "Niente in gioco",
+      "tagline": "Tasso di vittorie nelle partite normali recenti.",
+      "line": "{name} vince il {rate} delle normali contro il {otherRate} di {other}. Rilassato gli sta bene."
+    },
+    "aram": {
+      "title": "Abitante dell'Abisso",
+      "tagline": "Tasso di vittorie sul ponte dell'ARAM.",
+      "line": "{name} vince il {rate} sul ponte. {other} vince il {otherRate}. Il caos favorisce qualcuno."
+    },
+    "signature": {
+      "title": "Energia da protagonista",
+      "tagline": "Tasso di vittorie con il campione più giocato.",
+      "line": "{name} vince il {rate} con {champion}. {other} vince il {otherRate} con {otherChampion}."
+    },
+    "pool": {
+      "title": "Pool di campioni",
+      "tagline": "Quanti campioni diversi hanno giocato.",
+      "line": "{name} ha giocato {count, plural, one {# campione diverso} other {# campioni diversi}}. {other} si è fermato a {otherCount}. A uno di voi piace la varietà."
+    },
+    "roleLoyalty": {
+      "title": "Fedeltà al ruolo",
+      "tagline": "Quanta parte del loro tempo va a un solo ruolo.",
+      "line": "{name} gioca {role} il {share} del tempo. {other} si muove più liberamente."
+    },
+    "closer": {
+      "title": "Il finalizzatore",
+      "tagline": "Durata media delle partite. Vince la più breve.",
+      "line": "Le partite di {name} finiscono in {value} minuti. Quelle di {other} durano {otherValue}. Qualcuno ha un impegno."
+    },
+    "marathon": {
+      "title": "Partita maratona",
+      "tagline": "La singola partita più lunga.",
+      "line": "{name} una volta ha giocato {time} con {champion} e l'ha vinta. C'erano degli snack di mezzo.",
+      "lineLost": "{name} una volta ha giocato {time} con {champion} e l'ha persa. C'erano degli snack di mezzo."
+    },
+    "hours": {
+      "title": "Tempo sulla Landa",
+      "tagline": "Ore passate in queste partite.",
+      "line": "{name} ha accumulato {value} ore. {other} ne ha accumulate {otherValue}. Magari tocca un po' d'erba."
+    },
+    "level": {
+      "title": "Veterano dell'account",
+      "tagline": "Livello evocatore.",
+      "line": "{name} è al livello {level}. {other} è al livello {otherLevel}. Uno di voi è qui da un po'."
+    },
+    "kryptonite": {
+      "title": "Kryptonite",
+      "tagline": "Il loro peggior avversario di corsia, e com'è andata.",
+      "line": "{other} continua a perdere contro {enemy} ({record}). Il peggior nemico di {name}, {theirEnemy}, è una storia più gentile.",
+      "lineNone": "{other} non riesce a battere {enemy} ({record}). {name} non ha nessuna nemesi."
+    },
+    "bully": {
+      "title": "Vittima preferita",
+      "tagline": "Il campione che hanno picchiato di più in corsia.",
+      "line": "{name} è {record} contro {champion}. Quel campione dovrebbe cercarsi un'altra corsia."
+    }
+  },
+  "slides": {
+    "small": "(Un piccolo campione, quindi prendilo alla leggera.)",
+    "intro": {
+      "eyebrow": "Testa a testa",
+      "unranked": "Senza rango",
+      "games": "{count, plural, one {# partita analizzata} other {# partite analizzate}}",
+      "vs": "VS",
+      "differentServers": "Server diversi, quindi non ci sono partite in comune da confrontare."
+    },
+    "stats": {
+      "eyebrow": "I numeri",
+      "aria": "Confronto delle statistiche",
+      "ties": "{count, plural, one {# riga era} other {# righe erano}} troppo vicina per decidere."
+    },
+    "style": {
+      "eyebrow": "Due giocatori diversi",
+      "meta": "{games, plural, one {# partita} other {# partite}} · {rate} di vittorie",
+      "metaRole": "{games, plural, one {# partita} other {# partite}} · {rate} di vittorie · {role}"
+    },
+    "scenario": {
+      "eyebrow": "{group} · {position} di {total}",
+      "wins": "Vince",
+      "leads": "Guida",
+      "vs": "contro"
+    },
+    "rhythm": {
+      "eyebrow": "Quando giocate",
+      "note": "Nel tuo fuso orario."
+    },
+    "faceoff": {
+      "eyebrow": "Faccia a faccia",
+      "meetings": "{count, plural, one {<b>#</b> incontro da nemici} other {<b>#</b> incontri da nemici}}",
+      "duels": "{count, plural, one {<b>#</b> duello in corsia} other {<b>#</b> duelli in corsia}} · {left}–{right}",
+      "better": "Miglior KDA più spesso: <b>{name}</b>",
+      "last": "L'ultima volta che vi siete incontrati",
+      "lastRole": "L'ultima volta che vi siete incontrati, come {role}",
+      "roles": {
+        "TOP": "corsia top",
+        "JUNGLE": "la giungla",
+        "MIDDLE": "corsia mid",
+        "BOTTOM": "corsia bot",
+        "UTILITY": "supporto",
+        "other": "la stessa corsia"
+      },
+      "won": "Vinta",
+      "lost": "Persa",
+      "meta": "{champion} · {kills}/{deaths}/{assists}",
+      "even": "In perfetta parità quando siete in squadre opposte. Lo spareggio è atteso da tempo.",
+      "sweep": "{name} non ha mai perso contro {other}. {other} è libero di chiedere la rivincita.",
+      "edge": "{name} ha la meglio, {hi} a {lo}. {other} sta tramando vendetta."
+    },
+    "timeline": {
+      "eyebrow": "Minuto per minuto",
+      "kills": "Uccisioni l'uno sull'altro, in <b>{meetings, plural, one {# incontro} other {# incontri}}</b>",
+      "solo": "Uccisioni in solitaria: <sa>{left}</sa> – <sb>{right}</sb>",
+      "ahead": "In vantaggio a {minute} min: <sa>{left}</sa> – <sb>{right}</sb>",
+      "aheadLevel": "({count} in parità)",
+      "firstDeath": "Primo a morire: <sa>{left}</sa> – <sb>{right}</sb>",
+      "firstDragon": "Primo drago: <sa>{left}</sa> – <sb>{right}</sb>",
+      "goldLead": "<b>{gold}</b> di vantaggio medio in oro per <b>{name}</b>",
+      "noEdge": "Nessuno di voi ha la meglio nelle uccisioni scambiate.",
+      "killsLead": "{name} si prende le uccisioni che vi scambiate. Per ora l'early game è un mistero.",
+      "level": "In perfetta parità a {minute} minuti in media. Chiunque vinca, si decide più tardi.",
+      "lead": "{leader} di solito è in vantaggio a {minute} minuti, di {gold} di oro in media.",
+      "allWon": "{lead} E ogni vantaggio è diventato una vittoria. {other} non trova mai la via del ritorno.",
+      "noneWon": "{lead} In qualche modo ha perso tutte quelle partite. {other} è il re della rimonta.",
+      "someWon": "{lead} Ha chiuso {won} di quei {ahead} vantaggi."
+    },
+    "together": {
+      "eyebrow": "Quando giocate insieme",
+      "chemistry": "Chimica · {label}",
+      "carry": "Nelle vostre partite insieme, {name} porta con un KDA di {kda}.",
+      "even": "In perfetta parità quando giocate insieme.",
+      "topDamage": "Più danni: <sa>{left}</sa> – <sb>{right}</sb>",
+      "winsMore": "Vince di più quando <side>{name}</side> guida nei danni",
+      "winsMoreRates": "({rate} contro {other})",
+      "apart": "<side>{name}</side> {apart} separati → {together} insieme",
+      "each": "{aName} {a}, {bName} {b} punti",
+      "eachOne": "{value} punti per {name}",
+      "lift": "Vincete entrambi di più insieme che separati ({each}). Continuate a giocare insieme.",
+      "drag": "Vincete entrambi meno insieme che separati ({each}). Forse è meglio giocare con altri.",
+      "mixed": "Giocare insieme aiuta uno di voi più dell'altro ({each}).",
+      "flat": "Il vostro tasso di vittorie cambia appena quando giocate insieme. È solo compagnia."
+    },
+    "verdict": {
+      "eyebrow": "Il verdetto",
+      "rows": "{count, plural, one {# riga} other {# righe}}",
+      "wins": "Vince {name}",
+      "tie": "Troppo vicino per decidere",
+      "score": "{a} righe a {b}",
+      "scoreTied": "{a} righe a {b}, {ties} in parità",
+      "main": "Main: <b>{champion}</b>",
+      "rematchChip": "{date}: <sa>{left}</sa> – <sb>{right}</sb>",
+      "sideBets": "Scommesse collaterali <sa>{left}</sa> – <sb>{right}</sb>",
+      "sideBetsNote": "Ma {name} vince le scommesse collaterali, quindi la chat di gruppo ha del materiale.",
+      "recap": "Riepilogo di {name}",
+      "shareTitle": "{a} contro {b}: testa a testa su League",
+      "again": "Nuovo scontro"
+    }
+  },
+  "rail": {
+    "start": "Inizio",
+    "numbers": "Numeri",
+    "styles": "Stili",
+    "hours": "Ore",
+    "together": "Insieme",
+    "faceoff": "Faccia a faccia",
+    "timeline": "Cronologia",
+    "verdict": "Verdetto"
+  },
+  "page": {
+    "titleDemo": "Testa a testa di esempio · Rift Recap",
+    "titleEmpty": "Testa a testa · Rift Recap",
+    "title": "{a} contro {b} · Testa a testa",
+    "description": "Due giocatori di League confrontati statistica per statistica, e come se la cavano insieme.",
+    "unreadableTwo": "Impossibile leggere {who}. I Riot ID hanno il formato Nome#TAG.",
+    "first": "il primo giocatore",
+    "second": "il secondo giocatore",
+    "malformed": "Uno dei giocatori in quel link non è stato letto correttamente.",
+    "notFound": "Uno di questi giocatori non è stato trovato. Controlla l'ortografia e il server.",
+    "same": "Scegli due giocatori diversi.",
+    "noGames": "Nessuna partita trovata per {names} dal {since}, quindi non c'è ancora nulla da confrontare."
+  }
+}

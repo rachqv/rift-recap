@@ -1,0 +1,15 @@
+{
+  "placeholder": "Riot ID (Nama#TAG)",
+  "riotId": "Riot ID",
+  "region": "Region",
+  "submit": "Lihat rangkumanku",
+  "suggestions": "Saran pemain",
+  "heading": {
+    "recent": "Pencarian terbaru",
+    "sample": "Pemain contoh"
+  },
+  "sample": "Contoh",
+  "count": "{count, plural, other {# saran tersedia}}",
+  "empty": "Tidak ada pemain tersimpan yang cocok. Tekan Enter untuk mencari <strong>{query}</strong> di Riot.",
+  "clear": "Hapus pencarian terbaru"
+}

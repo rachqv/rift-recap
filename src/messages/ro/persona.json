@@ -1,0 +1,215 @@
+{
+  "onetrick": {
+    "title": "One-Trick",
+    "tagline": "Loialitatea mai presus de toate.",
+    "description": "{share} din meciurile tale au fost cu {top}. Unii îi zic încăpățânare. Noi îi zicem măiestrie."
+  },
+  "specialist": {
+    "title": "Specialistul",
+    "tagline": "Doi campioni, măiestrie totală.",
+    "description": "{share} din meciurile tale au fost cu {top} sau {second}. Știi exact la ce ești bun."
+  },
+  "explorer": {
+    "title": "Exploratorul",
+    "tagline": "De ce să alegi unul când îi poți juca pe toți?",
+    "description": "{unique, plural, one {# campion diferit} few {# campioni diferiți} other {# de campioni diferiți}} în {games, plural, one {# meci} few {# meciuri} other {# de meciuri}}. Nu stai niciodată mult într-un loc."
+  },
+  "chameleon": {
+    "title": "Cameleonul",
+    "tagline": "Fill? Nicio problemă.",
+    "description": "{roles, plural, one {# rol diferit} few {# roluri diferite} other {# de roluri diferite}} și niciun favorit. Orice culoar e acasă, iar echipa îți e recunoscătoare."
+  },
+  "showstopper": {
+    "title": "Vedeta",
+    "tagline": "Născut pentru clipurile cu momente de top.",
+    "description": "{penta, plural, one {# pentakill} few {# pentakilluri} other {# de pentakilluri}}, {quadra, plural, one {# quadrakill} few {# quadrakilluri} other {# de quadrakilluri}} și {triple, plural, one {# triple} few {# triple} other {# de triple}}. Tu faci clipurile.",
+    "descriptionAlt": "{quadra, plural, one {# quadrakill} few {# quadrakilluri} other {# de quadrakilluri}} și {triple, plural, one {# triplekill} few {# triplekilluri} other {# de triplekilluri}}. Când luptele devin haotice, te faci auzit."
+  },
+  "thief": {
+    "title": "Hoțul",
+    "tagline": "Frumos dragon. Păcat că acum e al meu.",
+    "description": "{count, plural, one {# obiectiv furat} few {# obiective furate} other {# de obiective furate}}. Nimeni n-a zis că trebuie să fie corect."
+  },
+  "slayer": {
+    "title": "Ucigașul",
+    "tagline": "Ai venit aici după eliminări.",
+    "description": "{kills, plural, one {# eliminare} few {# eliminări} other {# de eliminări}} în {games, plural, one {# meci} few {# meciuri} other {# de meciuri}}, cam {perGame} pe meci. Numele tău trăiește în fluxul de eliminări."
+  },
+  "daredevil": {
+    "title": "Temerarul",
+    "tagline": "Merită să intri în orice luptă.",
+    "description": "{deaths, plural, one {# moarte} few {# morți} other {# de morți}} și niciun regret. Nu te-ai oprit niciodată din a intra în luptă."
+  },
+  "playmaker": {
+    "title": "Regizorul",
+    "tagline": "Cel mai bun prieten al echipei tale.",
+    "description": "{assists, plural, one {# asistență} few {# asistențe} other {# de asistențe}}, {perGame} pe meci. Pregătești acțiunea și lași gloria echipei."
+  },
+  "unlucky": {
+    "title": "Eroul ghinionist",
+    "tagline": "Statistici grozave, coechipieri dubioși.",
+    "description": "Un KDA de {kda}, dar doar {winRate} victorii. Cifrele spun că n-a fost vina ta."
+  },
+  "phoenix": {
+    "title": "Pasărea Phoenix",
+    "tagline": "Renaști de fiecare dată.",
+    "description": "O serie de {streak} înfrângeri, și tot ai încheiat cu {winRate} victorii. Asta e caracter."
+  },
+  "risingstar": {
+    "title": "Steaua în ascensiune",
+    "tagline": "Ai devenit mai bun pe măsură ce sezonul a avansat.",
+    "description": "Rata ta de victorii a urcat de la {early} la {late}. Linia de tendință arată doar în sus."
+  },
+  "streaker": {
+    "title": "Seria fierbinte",
+    "tagline": "Odată ce începi să câștigi, nu te mai oprești.",
+    "description": "{streak} victorii la rând în cea mai bună formă. Nimeni nu voia să fie în echipa adversă."
+  },
+  "scout": {
+    "title": "Iscoada",
+    "tagline": "Nimic nu scapă wardurilor tale.",
+    "description": "{vision} scor de viziune pe minut. Ai aprins lumina pentru toți."
+  },
+  "farmer": {
+    "title": "Fermierul",
+    "tagline": "Aurul e un stil de viață.",
+    "description": "{cs} minioni pe minut. Niciun val cu tun nu a fost lăsat în urmă."
+  },
+  "heavyhitter": {
+    "title": "Lovitorul greu",
+    "tagline": "Dai daune. Multe.",
+    "description": "{damage} daune campionilor în fiecare minut. Barele de viață nu rezistă mult lângă tine."
+  },
+  "everpresent": {
+    "title": "Mereu prezent",
+    "tagline": "În fiecare luptă, ești acolo.",
+    "description": "Ai participat la {kp} din eliminările echipei. Dacă a fost o luptă, ai fost în ea."
+  },
+  "opener": {
+    "title": "Deschizătorul",
+    "tagline": "Prima sângerare e strângerea ta de mână.",
+    "description": "{count, plural, one {# primă sângerare} few {# prime sângerări} other {# de prime sângerări}}. Începi petrecerea înainte să apară ceilalți."
+  },
+  "demolisher": {
+    "title": "Demolatorul",
+    "tagline": "Dacă are fundație, cade.",
+    "description": "{turrets, plural, one {# turn} few {# turnuri} other {# de turnuri}} în {games, plural, one {# meci} few {# meciuri} other {# de meciuri}}, cam {perGame} pe meci. Clădirile se tem de tine."
+  },
+  "untouchable": {
+    "title": "Intangibilul",
+    "tagline": "Moartea e pentru alții.",
+    "description": "Doar {perGame} morți pe meci și {deathless, plural, one {# meci} few {# meciuri} other {# de meciuri}} fără nicio moarte.",
+    "descriptionAlt": "Doar {perGame} morți pe meci. Ecranul gri abia te cunoaște."
+  },
+  "closer": {
+    "title": "Finalizatorul",
+    "tagline": "Câștigi meciuri. E simplu.",
+    "description": "O rată de victorii de {winRate}. Când intri la coadă, echipa adversă ar trebui să-și facă griji."
+  },
+  "marathoner": {
+    "title": "Maratonistul",
+    "tagline": "Meciurile nu se termină până nu spui tu.",
+    "description": "Meciurile tale au durat în medie {minutes} minute. Joci pe distanță lungă, la propriu."
+  },
+  "speedrunner": {
+    "title": "Speedrunnerul",
+    "tagline": "De ce să aștepți? Termină acum.",
+    "description": "Meciurile tale au durat în medie doar {minutes} minute. Nexusul cade înainte să fiarbă apa."
+  },
+  "assassin": {
+    "title": "Asasinul",
+    "tagline": "Intri, ieși și dispari.",
+    "description": "{share} din meciurile tale au fost cu asasini. Alegi o țintă și o ștergi."
+  },
+  "archmage": {
+    "title": "Arhimagul",
+    "tagline": "Timpii de reîncărcare sunt doar sugestii.",
+    "description": "{share} din meciurile tale au fost cu magi. Întâi vrăjile, întrebările după."
+  },
+  "sharpshooter": {
+    "title": "Ochitorul",
+    "tagline": "Raza de acțiune e un stil de viață.",
+    "description": "{share} din meciurile tale au fost cu trăgători. Orice luptă e mai bună de la o distanță sigură."
+  },
+  "brawler": {
+    "title": "Bătăușul",
+    "tagline": "De aproape și personal.",
+    "description": "{share} din meciurile tale au fost cu luptători. Îți plac luptele la distanță de braț."
+  },
+  "bulwark": {
+    "title": "Bastionul",
+    "tagline": "Nimic nu trece de tine.",
+    "description": "{share} din meciurile tale au fost cu tankuri. Cineva trebuie să absoarbă daunele, și ești tu."
+  },
+  "pathfinder": {
+    "title": "Descoperitorul",
+    "tagline": "Jungla e a ta.",
+    "description": "{share} din meciurile tale au fost pe rolul: {role}. Cunoști fiecare tabără, fiecare timer și fiecare tufiș."
+  },
+  "islander": {
+    "title": "Insularul",
+    "tagline": "Culoarul de sus. Singur cu gândurile tale.",
+    "description": "{share} din meciurile tale au fost pe rolul: {role}. Un întreg culoar doar pentru tine, și îți place așa."
+  },
+  "centerpiece": {
+    "title": "Piesa centrală",
+    "tagline": "Toate drumurile trec prin mid.",
+    "description": "{share} din meciurile tale au fost pe rolul: {role}. Ești acolo unde se întâlnește harta și unde încep luptele."
+  },
+  "carry": {
+    "title": "Carry-ul",
+    "tagline": "Cineva trebuie să țină echipa în spate.",
+    "description": "{share} din meciurile tale au fost pe rolul: {role}. Echipa îți dă volanul spre final, iar tu livrezi."
+  },
+  "guardian": {
+    "title": "Gardianul",
+    "tagline": "Îți ții echipa în viață.",
+    "description": "{share} din meciurile tale au fost pe rolul: {role}. Scuturi, vindecări, protecție și warduri. Echipa merge datorită ție."
+  },
+  "grinder": {
+    "title": "Grinderul",
+    "tagline": "Constant, de încredere, mereu la coadă.",
+    "description": "{games, plural, one {# meci} few {# meciuri} other {# de meciuri}} și {hours} ore de muncă susținută. Nimeni nu repetă ca tine."
+  },
+  "rarity": {
+    "common": "Comun",
+    "uncommon": "Neobișnuit",
+    "rare": "Rar",
+    "legendary": "Legendar",
+    "under": "sub {share}",
+    "about": "aproximativ {share}",
+    "chip": "<b>{tier}</b> · {share} dintre jucători",
+    "badge": "{tier} · {share} dintre jucători"
+  },
+  "duration": "{minutes} min",
+  "insights": {
+    "games": {
+      "days": "Asta înseamnă {days} zile întregi în Falie.",
+      "films": "Asta înseamnă aproximativ {films, plural, one {# film de lung metraj} few {# filme de lung metraj} other {# de filme de lung metraj}} de League pur."
+    },
+    "win": {
+      "dominant": "Dominant. Echipa adversă ți-a văzut numele și a oftat.",
+      "good": "Mai multe victorii decât înfrângeri. LP-ul curge.",
+      "balanced": "Perfect echilibrat, așa cum ar trebui să fie toate.",
+      "challenge": "Matchmaker-ul ți-a aruncat o provocare, iar tu ai continuat să intri la coadă.",
+      "rough": "O perioadă grea. Orice legendă are un arc de răscumpărare, iar al tău începe acum."
+    },
+    "streak": {
+      "long": "Cea mai lungă serie a ta: {streak, plural, one {# victorie} few {# victorii} other {# de victorii}} la rând.",
+      "short": "Seriile tale de victorii au fost scurte, dar fiecare meci a fost un nou început."
+    },
+    "comeback": "Ai revenit chiar și după o serie de {streak} înfrângeri.",
+    "champion": {
+      "oneTrick": "{share} din meciurile tale au fost cu {top}. Asta e energie de one-trick.",
+      "variety": "Ai jucat cu {unique, plural, one {# campion diferit} few {# campioni diferiți} other {# de campioni diferiți}}, dar {top} a fost casa ta.",
+      "favorite": "{games, plural, one {# meci} few {# meciuri} other {# de meciuri}} cu {top}. Un favorit clar."
+    },
+    "kda": {
+      "rarelyDie": "Abia mori. Junglistii inamici urăsc asta.",
+      "everyFight": "Fiecare luptă e lupta ta.",
+      "teamFirst": "Energie de echipă mai presus de toate. Carry-urile tale îți datorează ceva.",
+      "bold": "Îndrăzneț și agresiv. Ai văzut mult ecranul gri.",
+      "balanced": "Cifre echilibrate și de încredere."
+    }
+  }
+}

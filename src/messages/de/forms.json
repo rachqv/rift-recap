@@ -1,0 +1,39 @@
+{
+  "tryRange": "Probiere einen anderen Zeitraum:",
+  "field": {
+    "recent": "Zuletzt gesucht"
+  },
+  "squad": {
+    "title": "Squad-Rückblick",
+    "lead": "Gib zwei bis fünf Riot-IDs vom selben Server ein. Wir sehen uns die Spiele an, die ihr <em>zusammen</em> gespielt habt, und verteilen die Auszeichnungen.",
+    "server": "Server",
+    "player": "Spieler {n} (Name#TAG)",
+    "playerOptional": "Spieler {n} (Name#TAG) optional",
+    "playerAria": "Riot-ID von Spieler {n}",
+    "submit": "Squad-Rückblick anzeigen",
+    "fine": "Funktioniert am besten mit Leuten, mit denen du zusammen spielst, da nur gemeinsame Spiele zählen. <link>Beispiel-Squad ansehen</link>"
+  },
+  "clash": {
+    "title": "Team gegen Team",
+    "lead": "Zwei Teams aus zwei bis fünf Spielern, vom selben Server. Wir sehen uns die Spiele an, in denen ihr <em>gegeneinander</em> gespielt habt, etwa ein 5v5-Custom.",
+    "server": "Server",
+    "sideA": "Team 1",
+    "sideB": "Team 2",
+    "player": "{side}, Spieler {n} (Name#TAG)",
+    "playerOptional": "{side}, Spieler {n} (Name#TAG) optional",
+    "playerAria": "Riot-ID von Spieler {n} in {side}",
+    "submit": "Teams vergleichen",
+    "fine": "Zählt nur Spiele mit mindestens zwei aus jedem Team auf gegnerischen Seiten. <link>Ein Beispiel ansehen</link>"
+  },
+  "versus": {
+    "title": "Kopf-an-Kopf",
+    "lead": "Wähle zwei Spieler und sieh, wer vorn liegt: Statistik für Statistik, Stil für Stil und wie ihr euch schlagt, wenn ihr zusammen spielt.",
+    "player1": "Spieler 1",
+    "player2": "Spieler 2",
+    "serverAria": "Server: {label}",
+    "riotId": "Riot-ID (Name#TAG)",
+    "riotIdAria": "Riot-ID: {label}",
+    "submit": "Vergleichen",
+    "fine": "Vergleicht die letzten Spiele jedes Spielers. <link>Beispiel-Duell ansehen</link>"
+  }
+}

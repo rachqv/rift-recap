@@ -1,0 +1,215 @@
+{
+  "onetrick": {
+    "title": "The One-Trick",
+    "tagline": "Loyalty above all.",
+    "description": "{share} of your games were {top}. Some call it stubborn. We call it mastery."
+  },
+  "specialist": {
+    "title": "The Specialist",
+    "tagline": "Two champions, total mastery.",
+    "description": "{share} of your games were {top} or {second}. You know exactly what you're good at."
+  },
+  "explorer": {
+    "title": "The Explorer",
+    "tagline": "Why pick one when you can play them all?",
+    "description": "{unique, plural, one {# different champion} other {# different champions}} in {games, plural, one {# game} other {# games}}. You never stay in one place for long."
+  },
+  "chameleon": {
+    "title": "The Chameleon",
+    "tagline": "Fill? No problem.",
+    "description": "{roles, plural, one {# different role} other {# different roles}} and no favorite. Every lane is home, and your team is grateful."
+  },
+  "showstopper": {
+    "title": "The Showstopper",
+    "tagline": "Born for the highlight reel.",
+    "description": "{penta, plural, one {# pentakill} other {# pentakills}}, {quadra, plural, one {# quadrakill} other {# quadrakills}} and {triple, plural, one {# triple} other {# triples}}. You make the clips.",
+    "descriptionAlt": "{quadra, plural, one {# quadrakill} other {# quadrakills}} and {triple, plural, one {# triple kill} other {# triple kills}}. When fights get messy, you get loud."
+  },
+  "thief": {
+    "title": "The Thief",
+    "tagline": "Nice dragon. Shame it's mine now.",
+    "description": "{count, plural, one {# objective} other {# objectives}} stolen. Nobody said it had to be fair."
+  },
+  "slayer": {
+    "title": "The Slayer",
+    "tagline": "You came here to get kills.",
+    "description": "{kills, plural, one {# kill} other {# kills}} across {games, plural, one {# game} other {# games}}, about {perGame} a match. Your name lives in the kill feed."
+  },
+  "daredevil": {
+    "title": "The Daredevil",
+    "tagline": "Every fight is worth taking.",
+    "description": "{deaths, plural, one {# death} other {# deaths}}, and not one regret. You never stopped walking into the fight."
+  },
+  "playmaker": {
+    "title": "The Playmaker",
+    "tagline": "Your team's best friend.",
+    "description": "{assists, plural, one {# assist} other {# assists}}, {perGame} a game. You set up the play and let your team take the glory."
+  },
+  "unlucky": {
+    "title": "The Unlucky Hero",
+    "tagline": "Great stats, questionable teammates.",
+    "description": "A {kda} KDA but only {winRate} wins. The numbers say it wasn't you."
+  },
+  "phoenix": {
+    "title": "The Phoenix",
+    "tagline": "You rise every time.",
+    "description": "A {streak}-game losing streak, and you still finished on {winRate} wins. That's grit."
+  },
+  "risingstar": {
+    "title": "The Rising Star",
+    "tagline": "You got better as the season went on.",
+    "description": "Your win rate climbed from {early} to {late}. The trend line only points up."
+  },
+  "streaker": {
+    "title": "The Hot Streak",
+    "tagline": "Once you start winning, you don't stop.",
+    "description": "{streak} wins in a row at your best. Nobody wanted to be on the other team."
+  },
+  "scout": {
+    "title": "The Scout",
+    "tagline": "Nothing escapes your wards.",
+    "description": "{vision} vision score a minute. You turned the lights on for everyone."
+  },
+  "farmer": {
+    "title": "The Farmer",
+    "tagline": "Gold is a lifestyle.",
+    "description": "{cs} minions a minute. Not one cannon wave left behind."
+  },
+  "heavyhitter": {
+    "title": "The Heavy Hitter",
+    "tagline": "You deal damage. A lot of it.",
+    "description": "{damage} damage to champions every minute. Health bars don't last long around you."
+  },
+  "everpresent": {
+    "title": "The Ever-Present",
+    "tagline": "Every fight, you're there.",
+    "description": "You took part in {kp} of your team's kills. If a fight happened, you were in it."
+  },
+  "opener": {
+    "title": "The Opener",
+    "tagline": "First blood is your handshake.",
+    "description": "{count, plural, one {# first blood} other {# first bloods}}. You start the party before anyone else has arrived."
+  },
+  "demolisher": {
+    "title": "The Demolisher",
+    "tagline": "If it has a foundation, it's coming down.",
+    "description": "{turrets, plural, one {# turret} other {# turrets}} in {games, plural, one {# game} other {# games}}, about {perGame} a match. Buildings fear you."
+  },
+  "untouchable": {
+    "title": "The Untouchable",
+    "tagline": "Dying is for other people.",
+    "description": "Just {perGame} deaths a game, and {deathless, plural, one {# game} other {# games}} without dying once.",
+    "descriptionAlt": "Just {perGame} deaths a game. The gray screen barely knows you."
+  },
+  "closer": {
+    "title": "The Closer",
+    "tagline": "You win games. It's that simple.",
+    "description": "A {winRate} win rate. When you queue up, the enemy team should be worried."
+  },
+  "marathoner": {
+    "title": "The Marathoner",
+    "tagline": "Games don't end until you say so.",
+    "description": "Your games averaged {minutes} minutes. You play the long game, literally."
+  },
+  "speedrunner": {
+    "title": "The Speedrunner",
+    "tagline": "Why wait? End it now.",
+    "description": "Your games averaged just {minutes} minutes. Nexus down before the kettle boils."
+  },
+  "assassin": {
+    "title": "The Assassin",
+    "tagline": "In, out, and gone.",
+    "description": "{share} of your games were on assassins. You pick a target and delete it."
+  },
+  "archmage": {
+    "title": "The Archmage",
+    "tagline": "Cooldowns are just suggestions.",
+    "description": "{share} of your games were on mages. Spells first, questions later."
+  },
+  "sharpshooter": {
+    "title": "The Sharpshooter",
+    "tagline": "Range is a lifestyle.",
+    "description": "{share} of your games were on marksmen. Every fight is better from a safe distance."
+  },
+  "brawler": {
+    "title": "The Brawler",
+    "tagline": "Up close and personal.",
+    "description": "{share} of your games were on fighters. You like your fights within arm's reach."
+  },
+  "bulwark": {
+    "title": "The Bulwark",
+    "tagline": "Nothing gets past you.",
+    "description": "{share} of your games were on tanks. Somebody has to soak the damage, and it's you."
+  },
+  "pathfinder": {
+    "title": "The Pathfinder",
+    "tagline": "The jungle is yours.",
+    "description": "{share} of your games were as {role}. You know every camp, every timer and every bush."
+  },
+  "islander": {
+    "title": "The Islander",
+    "tagline": "Top lane. Alone with your thoughts.",
+    "description": "{share} of your games were as {role}. A whole lane to yourself, and you like it that way."
+  },
+  "centerpiece": {
+    "title": "The Centerpiece",
+    "tagline": "All roads lead through mid.",
+    "description": "{share} of your games were as {role}. You're where the map meets, and where the fights start."
+  },
+  "carry": {
+    "title": "The Carry",
+    "tagline": "Somebody has to hold the team up.",
+    "description": "{share} of your games were as {role}. Your team hands you the wheel late in the game, and you deliver."
+  },
+  "guardian": {
+    "title": "The Guardian",
+    "tagline": "You keep the team alive.",
+    "description": "{share} of your games were as {role}. Shields, heals, peels and wards. The team runs on you."
+  },
+  "grinder": {
+    "title": "The Grinder",
+    "tagline": "Consistent, dependable, always in queue.",
+    "description": "{games, plural, one {# game} other {# games}} and {hours} hours of steady work. Nobody puts in the reps like you."
+  },
+  "rarity": {
+    "common": "Common",
+    "uncommon": "Uncommon",
+    "rare": "Rare",
+    "legendary": "Legendary",
+    "under": "under {share}",
+    "about": "about {share}",
+    "chip": "<b>{tier}</b> · {share} of players",
+    "badge": "{tier} · {share} of players"
+  },
+  "duration": "{minutes} min",
+  "insights": {
+    "games": {
+      "days": "That's {days} full days inside the Rift.",
+      "films": "That's about {films, plural, one {# feature-length film} other {# feature-length films}} of pure League."
+    },
+    "win": {
+      "dominant": "Dominant. The enemy team saw your name and sighed.",
+      "good": "More wins than losses. The LP is flowing.",
+      "balanced": "Perfectly balanced, as all things should be.",
+      "challenge": "The matchmaker threw you a challenge and you kept queueing.",
+      "rough": "A rough patch. Every legend has a redemption arc, and yours starts now."
+    },
+    "streak": {
+      "long": "Your longest streak: {streak, plural, one {# win} other {# wins}} in a row.",
+      "short": "Your win streaks were short, but every game was a fresh start."
+    },
+    "comeback": "You even bounced back from a {streak}-game skid.",
+    "champion": {
+      "oneTrick": "{share} of your games were {top}. That's one-trick energy.",
+      "variety": "You played {unique, plural, one {# different champion} other {# different champions}}, but {top} was your home.",
+      "favorite": "{games, plural, one {# game} other {# games}} as {top}. A clear favorite."
+    },
+    "kda": {
+      "rarelyDie": "You barely die. Enemy junglers hate this.",
+      "everyFight": "Every fight is your fight.",
+      "teamFirst": "Team-first energy. Your carries owe you.",
+      "bold": "Bold and aggressive. You saw a lot of the gray screen.",
+      "balanced": "Balanced, dependable numbers."
+    }
+  }
+}

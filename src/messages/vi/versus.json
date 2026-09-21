@@ -1,0 +1,400 @@
+{
+  "rows": {
+    "winRate": "Tỷ lệ thắng",
+    "kda": "KDA",
+    "kills": "Hạ gục mỗi trận",
+    "deaths": "Chết mỗi trận",
+    "assists": "Hỗ trợ mỗi trận",
+    "cs": "CS mỗi phút",
+    "vision": "Tầm nhìn mỗi phút",
+    "damage": "Sát thương mỗi phút",
+    "kp": "Tỷ lệ tham gia hạ gục"
+  },
+  "verdict": {
+    "tie": "Mỗi bên {score} mục. Hai bạn ngang nhau đến rợn người.",
+    "sweep": "{name} lấy mọi mục quan trọng. {other} còn nhiều điều cần bắt kịp.",
+    "clear": "{name} thắng {hi} mục so với {lo}. Không hề sát nút.",
+    "edge": "{name} nhỉnh hơn, {hi} mục so với {lo}. {other} bám sát phía sau."
+  },
+  "rematch": {
+    "changed": "Ngôi đầu đã đổi chủ: giờ {name} đang dẫn.",
+    "improved": "{name} tiến bộ nhiều hơn kể từ đó ({better} so với {worse} điểm tỷ lệ thắng).",
+    "same": "Bức tranh gần giống lần trước."
+  },
+  "groups": {
+    "moments": {
+      "label": "Khoảnh khắc",
+      "eyebrow": "Những khoảnh khắc lớn"
+    },
+    "habits": {
+      "label": "Thói quen",
+      "eyebrow": "Thói quen trên Rift"
+    },
+    "form": {
+      "label": "Phong độ",
+      "eyebrow": "Phong độ và bản lĩnh"
+    },
+    "identity": {
+      "label": "Ai là ai",
+      "eyebrow": "Ai là ai"
+    }
+  },
+  "short": {
+    "win": "{value}T",
+    "loss": "{value}B",
+    "record": "{rate} · {games} trận",
+    "champs": "{count, plural, other {# tướng}}",
+    "minutes": "{value} phút",
+    "hours": "{value}g",
+    "level": "Cấp {value}",
+    "seconds": "{value}s",
+    "epic": "{dragons}R {barons}B",
+    "none": "Không",
+    "noneLower": "không",
+    "penta": "{count}P",
+    "quadra": "{count}Q",
+    "triple": "{count}T"
+  },
+  "multi": {
+    "penta": "{count, plural, other {# Pentakill}}",
+    "quadra": "{count, plural, other {# Quadrakill}}",
+    "triple": "{count, plural, other {# Triple Kill}}"
+  },
+  "trend": {
+    "steady": "{name} giữ vững ở mức {rate}",
+    "change": "{name} chuyển từ {early} sang {late} thắng"
+  },
+  "scenarios": {
+    "multikills": {
+      "title": "Khoảnh khắc nổi bật",
+      "tagline": "Penta, Quadra và Triple, tính theo mức độ ồn ào của khung chat địch.",
+      "line": "{name} sưu tầm được {list}. Thư mục highlight đã đầy."
+    },
+    "firstBlood": {
+      "title": "First Blood",
+      "tagline": "Phải có người mở màn giao tranh.",
+      "line": "{name} lấy First Blood trong {rate} số trận. {other} đến muộn một cách thời thượng."
+    },
+    "flawless": {
+      "title": "Trận không tì vết",
+      "tagline": "Không chết lần nào, từ đầu đến cuối.",
+      "line": "{name} hoàn thành {count, plural, other {# trận}} mà không chết lần nào. Bất khả xâm phạm."
+    },
+    "careerGame": {
+      "title": "Trận đời",
+      "tagline": "Trận họ sẽ nhắc mãi ở các buổi tiệc.",
+      "line": "{name} đạt {kills}/{deaths}/{assists} với {champion}.",
+      "lineLost": "{name} đạt {kills}/{deaths}/{assists} với {champion} mà vẫn thua. Đau thật."
+    },
+    "spree": {
+      "title": "Chuỗi hạ gục lớn nhất",
+      "tagline": "Hạ gục liên tiếp mà không chết.",
+      "line": "{name} nối {count} lần hạ gục mà không chết. Ai đó gọi cứu hỏa đi."
+    },
+    "lifespan": {
+      "title": "Sống lâu nhất",
+      "tagline": "Khoảng thời gian sống sót liền mạch dài nhất.",
+      "line": "{name} từng sống sót liền {time}. Suối nước gần như không biết họ."
+    },
+    "soloKills": {
+      "title": "Solo kill",
+      "tagline": "Một chọi một, không cần giúp đỡ.",
+      "line": "{name} trung bình {value} solo kill mỗi trận. Có người chỉ thích 1v1."
+    },
+    "dodge": {
+      "title": "Ma trận",
+      "tagline": "Những skillshot chỉ trúng không khí.",
+      "line": "{name} né {value} skillshot mỗi trận. Khó trúng, càng khó bắt."
+    },
+    "thief": {
+      "title": "Kẻ cướp mục tiêu",
+      "tagline": "Rồng à? Rồng nào?",
+      "line": "{name} cướp {count, plural, other {# mục tiêu}}. {other} nên để mắt đến hố rồng kỹ hơn."
+    },
+    "epic": {
+      "title": "Thợ săn quái sử thi",
+      "tagline": "Rồng và Baron do chính tay kết liễu.",
+      "line": "{name} tung đòn kết liễu {dragons, plural, other {# rồng}} và {barons, plural, other {# Baron}}."
+    },
+    "siege": {
+      "title": "Đội phá dỡ",
+      "tagline": "Tỷ lệ số trụ của đội do họ phá.",
+      "line": "{name} phá {share} số trụ của đội. Không công trình nào sống sót."
+    },
+    "objDamage": {
+      "title": "Sát thương lên mục tiêu",
+      "tagline": "Sát thương lên trụ, rồng và Baron mỗi trận.",
+      "line": "{name} đánh {value} sát thương mỗi trận lên mục tiêu. Bản đồ chỉ là danh sách việc cần làm."
+    },
+    "flash": {
+      "title": "Nghiện Tốc Biến",
+      "tagline": "Số lần bấm Tốc Biến mỗi trận. Lúc nào cũng đang hồi.",
+      "line": "{name} dùng Tốc Biến {value} lần mỗi trận. {other} hoặc là dũng cảm hơn, hoặc là chậm hơn."
+    },
+    "grayScreen": {
+      "title": "Thời gian trên màn hình xám",
+      "tagline": "Tỷ lệ mỗi trận nằm xuống. Càng ít càng tốt.",
+      "line": "{other} dành {otherShare} mỗi trận chờ hồi sinh. {name} chỉ {share}."
+    },
+    "pings": {
+      "title": "Tài xế ghế sau",
+      "tagline": "Số ping mỗi trận.",
+      "line": "{name} ping {value} lần mỗi trận. Minimap chưa bao giờ được nghỉ."
+    },
+    "pinks": {
+      "title": "Ngân sách mắt hồng",
+      "tagline": "Số mắt điều khiển cắm mỗi trận.",
+      "line": "{name} cắm {value} mắt điều khiển mỗi trận. {other} giữ vàng phòng lúc khó khăn."
+    },
+    "sweeper": {
+      "title": "Người quét mắt",
+      "tagline": "Số mắt địch dọn mỗi trận.",
+      "line": "{name} dọn {value} mắt địch mỗi trận. Không gì thoát khỏi chiếc đèn lồng đó."
+    },
+    "gold": {
+      "title": "Người đào vàng",
+      "tagline": "Vàng kiếm được mỗi phút.",
+      "line": "{name} kiếm {value} vàng mỗi phút so với {otherValue} của {other}. Có người đi mua đồ thường xuyên hơn."
+    },
+    "tank": {
+      "title": "Bao cát",
+      "tagline": "Sát thương hứng chịu mỗi trận.",
+      "line": "{name} hứng {value} sát thương mỗi trận. Ai đó phải làm việc này."
+    },
+    "medic": {
+      "title": "Y tá của đội",
+      "tagline": "Hồi máu và khiên cho đồng đội mỗi trận.",
+      "line": "{name} hồi máu và che chắn {value} sát thương mỗi trận cho đội."
+    },
+    "cc": {
+      "title": "Khống chế",
+      "tagline": "Số giây giữ địch đứng yên mỗi trận.",
+      "line": "{name} khống chế địch {value, plural, other {# giây}} mỗi trận. Đứng yên nhé."
+    },
+    "whiteFlag": {
+      "title": "Cờ trắng",
+      "tagline": "Những trận thua kết thúc bằng đầu hàng.",
+      "line": "Đội của {name} đầu hàng trong {share} số trận thua. {other} chiến đấu đến tận Nhà chính."
+    },
+    "crit": {
+      "title": "Chí mạng lớn nhất",
+      "tagline": "Cú chí mạng đơn lẻ mạnh nhất.",
+      "line": "{name} từng chí mạng {value}. Cú đó lên nhóm chat."
+    },
+    "teamDamage": {
+      "title": "Gánh sát thương",
+      "tagline": "Tỷ lệ sát thương lên tướng của đội.",
+      "line": "{name} gây {share} sát thương của đội. Những người còn lại đứng gần đó."
+    },
+    "hotStreak": {
+      "title": "Chuỗi thắng nóng",
+      "tagline": "Chuỗi thắng dài nhất.",
+      "line": "{name} từng thắng liền {win} trận. {other} tối đa chỉ được {lose}."
+    },
+    "tilt": {
+      "title": "Độ sâu của tilt",
+      "tagline": "Chuỗi thua dài nhất. Càng ngắn càng tốt.",
+      "line": "{other} từng thua liền {lose} trận. {name} chưa bao giờ chìm quá {win}."
+    },
+    "momentum": {
+      "title": "Đà",
+      "tagline": "Tỷ lệ thắng ở nửa gần đây so với nửa cũ của các trận.",
+      "line": "{first}, trong khi {second}."
+    },
+    "ladder": {
+      "title": "Vị trí trên bảng xếp hạng",
+      "tagline": "Ai cao hơn trên bảng xếp hạng.",
+      "line": "{name} ({title}) đứng trên {other} ({otherTitle}). Quyền khoe khoang chính thức."
+    },
+    "seasonRanked": {
+      "title": "Thành tích xếp hạng mùa giải",
+      "tagline": "Tỷ lệ thắng trên mọi trận xếp hạng mùa này.",
+      "line": "{name} thắng {rate} số trận xếp hạng, còn {other} là {otherRate}."
+    },
+    "rankedForm": {
+      "title": "Áp lực xếp hạng",
+      "tagline": "Tỷ lệ thắng trong các trận xếp hạng gần đây.",
+      "line": "{name} thắng {rate} khi có LP đặt cược. {other} thắng {otherRate}."
+    },
+    "normals": {
+      "title": "Không có gì để mất",
+      "tagline": "Tỷ lệ thắng trong các trận đấu thường gần đây.",
+      "line": "{name} thắng {rate} số trận thường, còn {other} là {otherRate}. Thư giãn hợp với họ."
+    },
+    "aram": {
+      "title": "Cư dân Vực Thẳm",
+      "tagline": "Tỷ lệ thắng trên cầu ARAM.",
+      "line": "{name} thắng {rate} trên cầu. {other} thắng {otherRate}. Hỗn loạn ưu ái ai đó."
+    },
+    "signature": {
+      "title": "Khí chất nhân vật chính",
+      "tagline": "Tỷ lệ thắng với tướng chơi nhiều nhất.",
+      "line": "{name} thắng {rate} với {champion}. {other} thắng {otherRate} với {otherChampion}."
+    },
+    "pool": {
+      "title": "Kho tướng",
+      "tagline": "Số tướng khác nhau họ đã chơi.",
+      "line": "{name} chơi {count, plural, other {# tướng}} khác nhau. {other} chốt ở {otherCount}. Một trong hai bạn thích sự đa dạng."
+    },
+    "roleLoyalty": {
+      "title": "Trung thành với vị trí",
+      "tagline": "Bao nhiêu thời gian dành cho một vị trí.",
+      "line": "{name} chơi {role} trong {share} thời gian. {other} di chuyển thoải mái hơn."
+    },
+    "closer": {
+      "title": "Người chốt hạ",
+      "tagline": "Thời lượng trận trung bình. Ngắn hơn thì thắng.",
+      "line": "Các trận của {name} kết thúc trong {value} phút. Của {other} mất {otherValue}. Có người đang vội."
+    },
+    "marathon": {
+      "title": "Trận marathon",
+      "tagline": "Trận đơn lẻ dài nhất.",
+      "line": "{name} từng chơi {time} với {champion} và thắng. Có đồ ăn vặt tham gia.",
+      "lineLost": "{name} từng chơi {time} với {champion} và thua. Có đồ ăn vặt tham gia."
+    },
+    "hours": {
+      "title": "Thời gian trên Rift",
+      "tagline": "Số giờ dành cho các trận này.",
+      "line": "{name} ghi nhận {value} giờ. {other} ghi nhận {otherValue}. Có lẽ nên ra ngoài chạm cỏ."
+    },
+    "level": {
+      "title": "Lão làng của tài khoản",
+      "tagline": "Cấp độ triệu hồi sư.",
+      "line": "{name} cấp {level}. {other} cấp {otherLevel}. Một trong hai bạn đã ở đây khá lâu."
+    },
+    "kryptonite": {
+      "title": "Kryptonite",
+      "tagline": "Đối thủ đường tệ nhất của họ và kết quả ra sao.",
+      "line": "{other} liên tục thua {enemy} ({record}). Kẻ thù tệ nhất của {name}, {theirEnemy}, là câu chuyện dễ chịu hơn.",
+      "lineNone": "{other} không thể thắng {enemy} ({record}). {name} chẳng có kẻ thù truyền kiếp nào."
+    },
+    "bully": {
+      "title": "Nạn nhân yêu thích",
+      "tagline": "Tướng họ đánh nhiều nhất ở đường.",
+      "line": "{name} là {record} trước {champion}. Tướng đó nên tìm đường khác."
+    }
+  },
+  "slides": {
+    "small": "(Mẫu nhỏ, nên đừng quá nghiêm trọng.)",
+    "intro": {
+      "eyebrow": "Đối đầu",
+      "unranked": "Chưa xếp hạng",
+      "games": "Đã phân tích {count, plural, other {# trận}}",
+      "vs": "VS",
+      "differentServers": "Khác máy chủ, nên không có trận chung nào để so sánh."
+    },
+    "stats": {
+      "eyebrow": "Các con số",
+      "aria": "So sánh chỉ số",
+      "ties": "{count, plural, other {# mục}} quá sát nút để phân định."
+    },
+    "style": {
+      "eyebrow": "Hai người chơi khác nhau",
+      "meta": "{games, plural, other {# trận}} · thắng {rate}",
+      "metaRole": "{games, plural, other {# trận}} · thắng {rate} · {role}"
+    },
+    "scenario": {
+      "eyebrow": "{group} · {position} trên {total}",
+      "wins": "Thắng",
+      "leads": "Dẫn",
+      "vs": "so với"
+    },
+    "rhythm": {
+      "eyebrow": "Khi các bạn chơi",
+      "note": "Theo múi giờ của bạn."
+    },
+    "faceoff": {
+      "eyebrow": "Mặt đối mặt",
+      "meetings": "{count, plural, other {<b>#</b> lần gặp với tư cách kẻ địch}}",
+      "duels": "{count, plural, other {<b>#</b> trận solo đường}} · {left}–{right}",
+      "better": "KDA cao hơn thường xuyên hơn: <b>{name}</b>",
+      "last": "Lần gần nhất hai bạn gặp nhau",
+      "lastRole": "Lần gần nhất hai bạn gặp nhau, ở vị trí {role}",
+      "roles": {
+        "TOP": "đường trên",
+        "JUNGLE": "khu rừng",
+        "MIDDLE": "đường giữa",
+        "BOTTOM": "đường dưới",
+        "UTILITY": "hỗ trợ",
+        "other": "cùng một đường"
+      },
+      "won": "Thắng",
+      "lost": "Thua",
+      "meta": "{champion} · {kills}/{deaths}/{assists}",
+      "even": "Hoàn toàn cân bằng khi ở hai phe đối nghịch. Trận phân định đã quá hạn từ lâu.",
+      "sweep": "{name} chưa bao giờ thua {other}. {other} cứ thoải mái xin tái đấu.",
+      "edge": "{name} chiếm ưu thế, {hi} so với {lo}. {other} đang lên kế hoạch trả thù."
+    },
+    "timeline": {
+      "eyebrow": "Từng phút một",
+      "kills": "Số lần hạ gục lẫn nhau, qua <b>{meetings, plural, other {# lần gặp}}</b>",
+      "solo": "Solo kill: <sa>{left}</sa> – <sb>{right}</sb>",
+      "ahead": "Dẫn ở phút {minute}: <sa>{left}</sa> – <sb>{right}</sb>",
+      "aheadLevel": "({count} lần hòa)",
+      "firstDeath": "Chết trước: <sa>{left}</sa> – <sb>{right}</sb>",
+      "firstDragon": "Rồng đầu tiên: <sa>{left}</sa> – <sb>{right}</sb>",
+      "goldLead": "<b>{gold}</b> vàng dẫn trung bình cho <b>{name}</b>",
+      "noEdge": "Không ai trong hai bạn chiếm ưu thế trong các lần hạ gục đổi nhau.",
+      "killsLead": "{name} lấy các lần hạ gục mà hai bạn đổi nhau. Đầu game hiện vẫn là ẩn số.",
+      "level": "Trung bình hoàn toàn cân bằng ở phút {minute}. Ai thắng thì cũng được định đoạt về sau.",
+      "lead": "{leader} thường dẫn ở phút {minute}, trung bình {gold} vàng.",
+      "allWon": "{lead} Và mọi lợi thế đều thành chiến thắng. {other} không bao giờ tìm được đường quay lại.",
+      "noneWon": "{lead} Thế nào đó họ thua tất cả những trận đó. {other} là vua lật kèo.",
+      "someWon": "{lead} Họ chốt được {won} trong {ahead} lợi thế đó."
+    },
+    "together": {
+      "eyebrow": "Khi các bạn chơi cùng nhau",
+      "chemistry": "Ăn ý · {label}",
+      "carry": "Trong các trận chơi cùng nhau, {name} gánh với KDA {kda}.",
+      "even": "Hoàn toàn cân bằng khi chơi cùng nhau.",
+      "topDamage": "Sát thương cao nhất: <sa>{left}</sa> – <sb>{right}</sb>",
+      "winsMore": "Thắng nhiều hơn khi <side>{name}</side> dẫn đầu sát thương",
+      "winsMoreRates": "({rate} so với {other})",
+      "apart": "<side>{name}</side> {apart} khi tách ra → {together} khi cùng nhau",
+      "each": "{aName} {a}, {bName} {b} điểm",
+      "eachOne": "{value} điểm cho {name}",
+      "lift": "Cả hai bạn thắng nhiều hơn khi chơi cùng so với khi tách ra ({each}). Cứ tiếp tục xếp hàng cùng nhau.",
+      "drag": "Cả hai bạn thắng ít hơn khi chơi cùng so với khi tách ra ({each}). Có lẽ nên xếp hàng với người khác.",
+      "mixed": "Chơi cùng nhau giúp một trong hai bạn nhiều hơn người kia ({each}).",
+      "flat": "Tỷ lệ thắng của các bạn gần như không đổi khi xếp hàng cùng nhau. Chỉ là có bầu bạn."
+    },
+    "verdict": {
+      "eyebrow": "Phán quyết",
+      "rows": "{count, plural, other {# mục}}",
+      "wins": "{name} thắng",
+      "tie": "Quá sát nút để phân định",
+      "score": "{a} mục so với {b}",
+      "scoreTied": "{a} mục so với {b}, {ties} hòa",
+      "main": "Main: <b>{champion}</b>",
+      "rematchChip": "{date}: <sa>{left}</sa> – <sb>{right}</sb>",
+      "sideBets": "Cược phụ <sa>{left}</sa> – <sb>{right}</sb>",
+      "sideBetsNote": "Nhưng {name} thắng cược phụ, nên nhóm chat có chuyện để bàn.",
+      "recap": "Tổng kết của {name}",
+      "shareTitle": "{a} với {b}: đối đầu Liên Minh",
+      "again": "Cặp đấu mới"
+    }
+  },
+  "rail": {
+    "start": "Bắt đầu",
+    "numbers": "Chỉ số",
+    "styles": "Phong cách",
+    "hours": "Giờ",
+    "together": "Cùng nhau",
+    "faceoff": "Đối mặt",
+    "timeline": "Dòng thời gian",
+    "verdict": "Phán quyết"
+  },
+  "page": {
+    "titleDemo": "Đối đầu mẫu · Rift Recap",
+    "titleEmpty": "Đối đầu · Rift Recap",
+    "title": "{a} với {b} · Đối đầu",
+    "description": "Hai người chơi Liên Minh được so sánh từng chỉ số, kèm theo cách họ chơi cùng nhau.",
+    "unreadableTwo": "Không đọc được {who}. Riot ID có dạng Tên#TAG.",
+    "first": "người chơi thứ nhất",
+    "second": "người chơi thứ hai",
+    "malformed": "Không đọc được một trong những người chơi trong liên kết đó.",
+    "notFound": "Không tìm thấy một trong những người chơi đó. Hãy kiểm tra chính tả và máy chủ.",
+    "same": "Hãy chọn hai người chơi khác nhau.",
+    "noGames": "Không tìm thấy trận nào cho {names} kể từ {since}, nên chưa có gì để so sánh."
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "title": "你的玩家 · Rift Recap"
+  },
+  "title": "你的玩家",
+  "lead": "你在這台裝置上查詢過的所有玩家，並附有前往回顧、正面對決或小隊的捷徑。",
+  "empty": "還沒有玩家。在<home>首頁</home>搜尋某人，他們就會出現在這裡。",
+  "recap": "回顧",
+  "versus": "正面對決",
+  "squad": "小隊",
+  "remove": "從清單中移除{name}",
+  "clear": "全部清除",
+  "pin": "將 {name} 置頂",
+  "unpin": "取消置頂 {name}",
+  "clearUnpinned": "清除未置頂的"
+}

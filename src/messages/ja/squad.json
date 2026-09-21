@@ -1,0 +1,181 @@
+{
+  "awards": {
+    "objectiveSteal": {
+      "title": "オブジェクトを盗みそうな人",
+      "tagline": "ドラゴンに気をつけて。そして消えるのを見届けて。",
+      "label": "スチールしたオブジェクト",
+      "line": "{name}は{count, plural, other {#個}}のオブジェクトをスチール。安全なものなど何もない。"
+    },
+    "objectiveTake": {
+      "title": "オブジェクトを取りそうな人",
+      "tagline": "ドラゴンの行くところには、必ずこの人もいる。",
+      "label": "1分あたりのオブジェクトダメージ",
+      "line": "{name}はオブジェクトに毎分{value}のダメージを与えた。"
+    },
+    "deaths": {
+      "title": "最多デス",
+      "tagline": "グレー画面？ 彼らにはシーズンパスがある。",
+      "label": "1試合あたりのデス",
+      "line": "{name}は1試合のうち約{minutes}分をグレー画面の前で過ごした。"
+    },
+    "pings": {
+      "title": "後部座席の指揮官",
+      "tagline": "自分のチームに「撤退」のピンを打ちがち。",
+      "label": "1試合あたりのピン",
+      "line": "{name}は1試合に{value}回ピンを打った。ミニマップは一休みもできなかった。"
+    },
+    "vision": {
+      "title": "灯台",
+      "tagline": "みんなのために明かりをつけた。",
+      "label": "1分あたりの視界スコア",
+      "line": "{name}の視界スコアは毎分{value}。誰も1人で暗闇に入らずに済んだ。"
+    },
+    "tank": {
+      "title": "サンドバッグ",
+      "tagline": "チームのために最もダメージを吸収した。",
+      "label": "1試合あたりの被ダメージ",
+      "line": "{name}は1試合に{value}のダメージを吸収した。"
+    },
+    "assists": {
+      "title": "親友",
+      "tagline": "いつもお膳立てをしてくれる。",
+      "label": "1試合あたりのアシスト",
+      "line": "{name}は平均{value}アシスト。チームのお気に入りの味方。"
+    },
+    "carry": {
+      "title": "キャリー",
+      "tagline": "みんなの分まで勝ちそうな人。",
+      "label": "KDA",
+      "line": "KDAは{value}。{name}が重い仕事をこなした。"
+    },
+    "damage": {
+      "title": "ヘビーヒッター",
+      "tagline": "体力バーが触れただけで溶ける。",
+      "label": "1分あたりのダメージ",
+      "line": "{name}は毎分{value}のチャンピオンへのダメージ。"
+    },
+    "farm": {
+      "title": "ファーマー",
+      "tagline": "キャノンウェーブは1つも取りこぼさない。",
+      "label": "1分あたりのCS",
+      "line": "毎分{value}体のミニオン。{name}はいつもウェーブの前にいた。"
+    },
+    "present": {
+      "title": "いつもそこにいる",
+      "tagline": "戦いがあれば、そこにいた。",
+      "label": "キル関与率",
+      "line": "{name}はチームのキルの{value}に関与した。"
+    },
+    "cc": {
+      "title": "集団制御の達人",
+      "tagline": "敵を止めて、みんなが仕事をできるようにした。",
+      "label": "1試合あたりのCC秒数",
+      "line": "{name}は1試合に敵を{value, plural, other {#秒}}間拘束した。"
+    }
+  },
+  "chemistry": {
+    "destiny": "運命のデュオ",
+    "great": "抜群の相性",
+    "solid": "堅実なパートナー",
+    "awkward": "ぎこちない二人",
+    "apart": "別々のほうが良い"
+  },
+  "slides": {
+    "intro": {
+      "eyebrow": "スクワッドリキャップ",
+      "together": "{count, plural, other {試合を一緒にプレイ}}",
+      "hours": "{n, plural, other {<b>{value}</b>時間}}",
+      "note": "見つかった{found}試合のうち、一緒にプレイした最新の{loaded}試合をもとにしています。"
+    },
+    "record": {
+      "eyebrow": "あなたたちの戦績",
+      "label": "一緒にプレイした時の勝率",
+      "bestStreak": "最長連勝 <good>{count, plural, other {#連勝}}</good>",
+      "worstSkid": "最長連敗 <bad>{count, plural, other {#連敗}}</bad>",
+      "all": "{members}全員で{games, plural, other {<b>#</b>試合}}",
+      "machine": "一緒にキューに入れば無敵のマシン。",
+      "good": "勝ちが負けを上回っている。スクワッドは結果を出している。",
+      "balanced": "完璧なバランス。カオスだけど、楽しいタイプの。",
+      "rough": "厳しい結果。でもグループチャットのネタには事欠かない。"
+    },
+    "pairs": {
+      "eyebrow": "デュオの相性",
+      "best": "ベストデュオ",
+      "worst": "要改善",
+      "games": "一緒に{count, plural, other {#試合}}",
+      "chemistry": "{icon} 相性{score} · {label}",
+      "captionBoth": "{a}と{b}は組むべきペア。{c}と{d}は、たぶん違う。",
+      "captionBest": "{a}と{b}が最強のペア。"
+    },
+    "award": {
+      "eyebrow": "アワード {position} / {total}",
+      "runner": "{n}位. {name} <b>{display}</b>"
+    },
+    "board": {
+      "eyebrow": "リーダーボード",
+      "aria": "スクワッドのリーダーボード",
+      "kda": "KDA",
+      "deaths": "デス",
+      "damage": "ダメージ/分",
+      "awards": "アワード",
+      "note": "KDA順。アワードは、それぞれが持ち帰ったトロフィー。"
+    },
+    "finale": {
+      "mvp": "スクワッドMVP",
+      "none": "これがスクワッド",
+      "awards": "{count, plural, other {#個}}のアワードで、誰よりも多い。",
+      "recap": "{name}のリキャップ",
+      "versus": "ヘッドトゥヘッド: {a}対{b}",
+      "shareTitle": "私たちのLeagueスクワッドリキャップ: {names}",
+      "another": "別のスクワッドを始める"
+    },
+    "rivalry": {
+      "eyebrow": "フレンドリーファイア",
+      "lead": "敵チームで{count, plural, other {#回}}対戦した、お互いの戦績",
+      "aria": "ヘッドトゥヘッドの戦績",
+      "cell": "{wins, plural, other {#勝}}、{losses, plural, other {#敗}}",
+      "even": "{a}と{b}は{games, plural, other {#回}}の対戦でぴったり互角。",
+      "edge": "{winner}が{loser}を{hi}対{lo}でリード。スクワッド最大のライバル関係。"
+    },
+    "combos": {
+      "eyebrow": "誰とキューに入るか",
+      "trio": "ベストトリオ",
+      "duo": "ベストデュオ",
+      "record": "一緒に{games, plural, other {#試合}}で{wins}勝{losses}敗",
+      "caption": "{names}: 一緒にキューに入れば、勝率が物語る。",
+      "games": "{count, plural, other {#試合}}"
+    },
+    "roles": {
+      "eyebrow": "ベストラインナップ",
+      "aria": "各メンバーのおすすめロール",
+      "swap": "机上の最適編成：一緒に遊んだ試合から見て、みんなが最も勝てているロール。サンプルが少ないので、目安として見てね。",
+      "settled": "みんな、すでに一番勝てるロールでプレイしている。入れ替えの必要なし。",
+      "was": "普段は{role}"
+    }
+  },
+  "rail": {
+    "start": "スタート",
+    "record": "戦績",
+    "duos": "デュオ",
+    "roles": "ロール",
+    "queue": "誰と組む",
+    "rivals": "ライバル",
+    "quiz": "クイズ",
+    "board": "ボード",
+    "mvp": "MVP"
+  },
+  "page": {
+    "title": "{names} · スクワッドリキャップ",
+    "titleDemo": "サンプルのスクワッドリキャップ · Rift Recap",
+    "titleEmpty": "スクワッドリキャップ · Rift Recap",
+    "description": "スクワッドが一緒にプレイした試合から贈るグループアワード。最多デス、最多オブジェクトスチールなど。",
+    "pickServer": "サーバーを選んでください。",
+    "unreadable": "{names}を読み取れませんでした。Riot IDは「名前#TAG」の形式です。",
+    "atLeastTwo": "Riot IDを2つ以上入力してください。",
+    "atMostFive": "スクワッドは最大5人までです。",
+    "notFound": "{region}で{names}のプレイヤーが見つかりません。綴りとサーバーを確認してください。",
+    "noShared": "{where}、皆さんに共通の試合がありません。一緒にプレイした試合から集計するため、もっと長い期間か、いつも一緒にキューに入る人を試してください。",
+    "whereSeason": "直近{count}試合の中に",
+    "whereRange": "{range}の間に"
+  }
+}

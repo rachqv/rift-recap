@@ -1,0 +1,81 @@
+{
+  "language": {
+    "label": "Nyelv"
+  },
+  "range": {
+    "label": "Időszak",
+    "season": "Ez a szezon",
+    "90d": "Elmúlt 90 nap",
+    "30d": "Elmúlt 30 nap",
+    "7d": "Elmúlt 7 nap"
+  },
+  "regions": {
+    "na1": "Észak-Amerika",
+    "br1": "Brazília",
+    "la1": "LAN",
+    "la2": "LAS",
+    "euw1": "Nyugat-Európa",
+    "eun1": "Észak- és Kelet-Európa",
+    "tr1": "Törökország",
+    "ru": "Oroszország",
+    "me1": "Közel-Kelet",
+    "kr": "Korea",
+    "jp1": "Japán",
+    "oc1": "Óceánia",
+    "ph2": "Fülöp-szigetek",
+    "sg2": "Szingapúr",
+    "th2": "Thaiföld",
+    "tw2": "Tajvan",
+    "vn2": "Vietnám"
+  },
+  "message": {
+    "tryAnother": "Próbálj ki egy másik játékost",
+    "tryServer": "Talán másik szerveren?",
+    "notFoundTitle": "Az oldal nem található",
+    "notFoundText": "Ez az oldal nem létezik, vagy áthelyezték. Menj vissza, és keress egy játékost.",
+    "crashTitle": "Valami elromlott",
+    "crashText": "Az oldal nem töltődött be rendesen. Próbáld újra, vagy keress másik játékost.",
+    "retry": "Próbáld újra"
+  },
+  "loading": {
+    "recap1": "Meccselőzményeid megidézése…",
+    "recap2": "Minden utolsó ütés megszámolása…",
+    "recap3": "A Szurdok jósdájának megkérdezése…",
+    "recap4": "A pentakilljeid fényesítése…",
+    "squad1": "A közös meccseitek keresése…",
+    "squad2": "Annak számolása, ki pingelt a legtöbbet…",
+    "squad3": "A halálok megmérése…",
+    "squad4": "A trófeák vésése…",
+    "versus1": "Mindkét játékos felmérése…",
+    "versus2": "Két meccselőzmény lekérése…",
+    "versus3": "Minden utolsó ütés megszámolása…",
+    "versus4": "Az ítélet előkészítése…"
+  },
+  "meta": {
+    "description": "Egy weboldal, amely a szezon előrehaladtával megmutatja a League of Legends-útvonaladat"
+  },
+  "roles": {
+    "TOP": "Top",
+    "JUNGLE": "Dzsungel",
+    "MIDDLE": "Közép",
+    "BOTTOM": "Alsó",
+    "UTILITY": "Támogató"
+  },
+  "tiers": {
+    "IRON": "Vas",
+    "BRONZE": "Bronz",
+    "SILVER": "Ezüst",
+    "GOLD": "Arany",
+    "PLATINUM": "Platina",
+    "EMERALD": "Smaragd",
+    "DIAMOND": "Gyémánt",
+    "MASTER": "Mester",
+    "GRANDMASTER": "Nagymester",
+    "CHALLENGER": "Kihívó"
+  },
+  "queues": {
+    "RANKED_SOLO_5x5": "Rangsorolt szóló/duó",
+    "RANKED_FLEX_SR": "Rangsorolt Flex"
+  },
+  "rankTitle": "{tier} {division}"
+}

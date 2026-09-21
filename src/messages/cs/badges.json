@@ -1,0 +1,98 @@
+{
+  "penta": {
+    "name": "Pentakill",
+    "text": "Získej pentakill."
+  },
+  "quadra": {
+    "name": "Sběratel quadrakillů",
+    "text": "Získej {target, plural, one {# quadrakill} few {# quadrakilly} other {# quadrakillů}}."
+  },
+  "triple": {
+    "name": "Trojnásobná hrozba",
+    "text": "Získej {target, plural, one {# triple kill} few {# triple killy} other {# triple killů}}."
+  },
+  "flawless": {
+    "name": "Bezchybný",
+    "text": "Dokonči zápas, aniž bys jednou zemřel."
+  },
+  "flawless5": {
+    "name": "Nedotknutelný",
+    "text": "Dokonči {target, plural, one {# zápas} few {# zápasy} other {# zápasů}}, aniž bys jednou zemřel."
+  },
+  "streak": {
+    "name": "V plamenech",
+    "text": "Vyhraj {target, plural, one {# zápas} few {# zápasy} other {# zápasů}} v řadě."
+  },
+  "winrate": {
+    "name": "Vítěz",
+    "text": "Udrž si poměr výher {target} ve více než {games} zápasech."
+  },
+  "kills": {
+    "name": "Stroj na zabíjení",
+    "text": "Získej {target, plural, one {# zabití} few {# zabití} other {# zabití}} v jednom zápase."
+  },
+  "perfect": {
+    "name": "Dokonalý zápas",
+    "text": "Odehraj zápas s KDA {target}+."
+  },
+  "firstblood": {
+    "name": "Král první krve",
+    "text": "Získej první krev {target, plural, one {# krát} few {# krát} other {# krát}}."
+  },
+  "thief": {
+    "name": "Zloděj cílů",
+    "text": "Ukradni cíl."
+  },
+  "turrets": {
+    "name": "Demolice",
+    "text": "Znič {target, plural, one {# věž} few {# věže} other {# věží}}."
+  },
+  "variety": {
+    "name": "Všestranný",
+    "text": "Zahraj si {target, plural, one {# jiného šampiona} few {# různé šampiony} other {# různých šampionů}}."
+  },
+  "loyal": {
+    "name": "Věrný",
+    "text": "Zahraj si za jednoho šampiona {target, plural, one {# krát} few {# krát} other {# krát}}."
+  },
+  "marathon": {
+    "name": "Maraton",
+    "text": "Odehraj zápas delší než {minutes} minut."
+  },
+  "bounce": {
+    "name": "Návrat",
+    "text": "Vyhraj {target} zápasů po porážce."
+  },
+  "hours": {
+    "name": "Čas na Riftu",
+    "text": "Strav v zápasech {target, plural, one {# hodinu} few {# hodiny} other {# hodin}}."
+  },
+  "dragon": {
+    "name": "Zabiják draků",
+    "text": "Zasaď poslední ránu {target, plural, one {# drakovi} few {# drakům} other {# drakům}}."
+  },
+  "baron": {
+    "name": "Lovec Barona",
+    "text": "Zasaď poslední ránu {target, plural, one {# Baronovi} few {# Baronům} other {# Baronům}}."
+  },
+  "teamplayer": {
+    "name": "Týmový hráč",
+    "text": "Podílej se na {target} zabití svého týmu."
+  },
+  "duo": {
+    "name": "Nerozlučná dvojka",
+    "text": "Odehraj {target, plural, one {# zápas} few {# zápasy} other {# zápasů}} se stejným spoluhráčem."
+  },
+  "vision": {
+    "name": "Vševidoucí",
+    "text": "Dosáhni v průměru {target} skóre vidění za minutu."
+  },
+  "farm": {
+    "name": "Mistr farmení",
+    "text": "Dosáhni v průměru {target} CS za minutu."
+  },
+  "roles": {
+    "name": "Všestranný",
+    "text": "Zahraj všech {target, plural, one {# roli} few {# role} other {# rolí}}."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "share": "Teilen",
+  "download": "Karte herunterladen",
+  "copyLink": "Link kopieren",
+  "linkCopied": "Link kopiert",
+  "copyFailed": "Der Link konnte nicht kopiert werden",
+  "shareFailed": "Das Teilen-Menü konnte nicht geöffnet werden",
+  "saveLater": "Speichern, um später zu vergleichen",
+  "saveRematch": "Für ein Rematch speichern",
+  "savedOpenLater": "Link kopiert. Öffne ihn später"
+}

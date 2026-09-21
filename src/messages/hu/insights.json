@@ -1,0 +1,256 @@
+{
+  "blame": {
+    "carry": "A vereségeid {topRate} részében te okoztad a legtöbb sebzést, és alig haltál meg. A csapat cserben hagyott.",
+    "weak": "A vereségeidben a csapat halálainak {deathShare} része rád esett, és ritkán vezettél sebzésben. Nézz először a tükörbe.",
+    "team": "A vereségeidben a csapat átlagán voltál: a sebzés {damageShare} része. Senkit sem lehet hibáztatni, vagy mindenkit."
+  },
+  "sessions": {
+    "contrast": "Egy {bestWins}-{bestLosses} végű este és egy {worstWins}-{worstLosses} végű. Ugyanaz a játékos, más estéken.",
+    "marathon": "{games, plural, one {# meccs} other {# meccs}} egy ültő helyben. Igyál vizet.",
+    "best": "A legjobb estéd {wins}-{losses} lett. Hajszold újra."
+  },
+  "early": {
+    "early": "A meccsek {ahead} részében a 15. percben megelőzöd a sávellenfeledet, és be is húzod. A korai játék zsarnoka.",
+    "late": "A meccsek {behind} részében a 15. percben hátrányban vagy, de ezek {comeback} részét mégis megnyered. Későn erősödsz, és sosem adod fel.",
+    "steady": "A meccsek {ahead} részében a 15. percben előnyben vagy, {behind} részében hátrányban. A meccs később dől el."
+  },
+  "tierlist": {
+    "solo": "{best} minden, amid van.",
+    "uniform": "A teljes bajnokkészleted a(z) {tier} szinten van, az élen {best} {winRate} nyerési aránnyal.",
+    "leadS": "{best} az S szintű választásod {winRate} nyerési aránnyal.",
+    "leadOther": "Semelyik sem érte el az S szintet. A listád élén a(z) {tier} szinten {best} áll {winRate} nyerési aránnyal.",
+    "lastD": "{worst} a D szintű választásod {winRate} nyerési aránnyal.",
+    "lastOther": "{worst} a lista alján van, a(z) {tier} szinten, {winRate} nyerési aránnyal.",
+    "both": "{lead} {last}"
+  },
+  "items": {
+    "better": "A meccsek {withIt} részét nyered meg {name} tárggyal, és {without} részét nélküle. Valamit jól csinál.",
+    "worse": "Alacsonyabb a nyerési arányod, ha {name} tárgyat építesz ({withIt} szemben {without}). Hűség vagy megszokás?",
+    "habit": "{name} tárgy zárta a meccseid {share} részét. Vannak szokások, amik megmaradnak.",
+    "friend": "{name} tárgy ott volt a meccseid {share} részének végén. Megbízható barát."
+  },
+  "habits": {
+    "flashEdge": "Flash a(z) {key} gombon, meccsenként {perGame} használat. A határon élsz.",
+    "flashCalm": "Flash a(z) {key} gombon, meccsenként {perGame} használat. Arra az időre tartogatod, amikor számít.",
+    "pair": "{a} és {b} a meccseid {share} részében. Tudod, mit szeretsz.",
+    "surrenderOften": "A meccseid {rate} része feladással végződött. Valakinek mindig van hova sietnie.",
+    "surrenderUs": "A csapatod gyakrabban adta fel, mint az ellenfél ({weQuit} szemben {enemyQuit}). Maradj optimista.",
+    "surrenderThem": "Az ellenfél {enemyQuit} alkalommal tűzte ki a fehér zászlót, szemben a te csapatod {weQuit} alkalmával. Látták, hogy jössz.",
+    "surrenderRare": "A meccseid mindössze {rate} része végződött feladással. Végigjátszod őket."
+  },
+  "spells": {
+    "1": "Tisztítás",
+    "3": "Kimerítés",
+    "4": "Flash",
+    "6": "Szellem",
+    "7": "Gyógyítás",
+    "11": "Csapás",
+    "12": "Teleport",
+    "13": "Tisztánlátás",
+    "14": "Gyújtás",
+    "21": "Gát",
+    "32": "Jelölés",
+    "unknown": "egy varázslat"
+  },
+  "pings": {
+    "getBackPings": {
+      "label": "Vissza",
+      "title": "Az aggódó",
+      "line": "A pingjeidet arra használod, hogy visszavonulásra szólítsd az embereket. A csapatod miattad él."
+    },
+    "enemyMissingPings": {
+      "label": "Ellenfél eltűnt",
+      "title": "A kilátó",
+      "line": "A „Hiányzik!” a védjegyed. Senki nem lép a ködbe anélkül, hogy tudnád."
+    },
+    "onMyWayPings": {
+      "label": "Úton vagyok",
+      "title": "A mentő",
+      "line": "Mindig úton vagy. Hogy megérkezel-e, az más kérdés."
+    },
+    "assistMePings": {
+      "label": "Segíts",
+      "title": "A felbujtó",
+      "line": "Segítséget kérsz pinggel, és a csapat rohan. Vagy legalábbis reméled."
+    },
+    "needVisionPings": {
+      "label": "Kell a látás",
+      "title": "A látáskoldus",
+      "line": "Valaki, kérlek, tegyen le egy wardot. Minden meccsen megkérdezed."
+    },
+    "commandPings": {
+      "label": "Parancs",
+      "title": "A parancsnok",
+      "line": "Rámutatsz a térképre, és elvárod, hogy a csapat kövessen. Többnyire követ."
+    },
+    "pushPings": {
+      "label": "Tolás",
+      "title": "A hullámtoló",
+      "line": "Told, told, told. Azt a tornyot most azonnal le akarod dönteni."
+    },
+    "holdPings": {
+      "label": "Tartás",
+      "title": "A fal",
+      "line": "Tartsátok a vonalat. Te vagy a higgadt hang a kaotikus lobbiban."
+    },
+    "allInPings": {
+      "label": "Mindent bele",
+      "title": "Az all-in kereskedő",
+      "line": "Ha all-int pingelsz, a harc megtörténik, akár tetszik az embereknek, akár nem."
+    },
+    "enemyVisionPings": {
+      "label": "Ellenséges látás",
+      "title": "A megfigyelő",
+      "line": "Minden ellenséges wardot bemondasz. Semmi sem bújhat el előled."
+    },
+    "visionClearedPings": {
+      "label": "Látás kitisztítva",
+      "title": "A takarító",
+      "line": "Kitakarítod a wardokat, és mindenkinek elmondod."
+    }
+  },
+  "chapters": {
+    "part": "{n}. rész",
+    "range": "{from}–{to}",
+    "same": "{title} az elejétől a végéig. Tudod, ki vagy.",
+    "changed": "{first} típusként indultál, és {last} típusként fejezted be. A változás szezonja."
+  },
+  "tilt": {
+    "tilt": "Győzelem után {afterWin} nyersz, de vereség után csak {afterLoss}. Talán sétálj egyet a meccsek között.",
+    "resilient": "Ha elveszítesz egyet, a következők {afterLoss} részét nyered meg, többet, mint a győzelem utáni {afterWin}. A vereségek csak felpörgetnek.",
+    "steady": "{afterWin} győzelem után, {afterLoss} vereség után. Semmi sem ráz meg."
+  },
+  "comfort": {
+    "trust": "{best} felviszi a nyerési arányodat {bestRate} értékre. Megbízható választás.",
+    "drag": "{best} felvisz {bestRate} értékre. {worst} levon {worstRate} értékre. Ideje elengedni?"
+  },
+  "gray": {
+    "heavy": "Ez minden meccs {share} része a szürke képernyőt bámulva. A kút név szerint ismer.",
+    "some": "Meccsenként körülbelül {minutes} perc újraéledésre várva. Összeadódik.",
+    "light": "Az idődnek csak {share} része telik halottként. A szürke képernyő alig ismer."
+  },
+  "modes": {
+    "aramPenta": "{penta, plural, one {# pentakill} other {# pentakill}} a hídon. A Szakadék előhozza a káoszod.",
+    "aramKills": "Meccsenként {kills} ölés. A tömegverekedés a te terepet.",
+    "aramBetter": "A Szakadékban többet nyersz, mint a Szurdokban. A hógolyó-effektus jól áll neked.",
+    "aramWorse": "A Szurdok jobban bánik veled, mint a Szakadék. Az a híd vad hely.",
+    "aramSteady": "{top} átvitt a káoszon. Állandó, akárcsak a Szurdokban.",
+    "normalBetter": "Jobban játszol, ha nincs tét. A normál meccseid nyerési aránya megelőzi a rangsoroltakét.",
+    "normalWorse": "A rangsorolt meccsek hozzák ki belőled a legjobbat. A normálok a bemelegítő körök.",
+    "normalExplore": "{unique, plural, one {# különböző bajnok} other {# különböző bajnok}} {games, plural, one {# normál meccsen} other {# normál meccsen}}. Itt kísérletezel.",
+    "normalMain": "{top} volt a bevált választásod, amikor nem volt tét ({winRate} győzelem)."
+  },
+  "objectives": {
+    "stolen": "{count, plural, one {# célpont} other {# célpont}} ellopva. Valahol egy ellenséges dzsungeles még mindig dühös.",
+    "firstTower": "Szerezd meg az első tornyot: a meccsek {withIt} részét nyered meg vele, és {without} részét nélküle.",
+    "firstDragon": "Szerezd meg az első sárkányt: a meccsek {withIt} részét nyered meg vele, és {without} részét nélküle.",
+    "firstHerald": "Szerezd meg az első Hírnököt: a meccsek {withIt} részét nyered meg vele, és {without} részét nélküle.",
+    "firstBaron": "Szerezd meg az első Baront: a meccsek {withIt} részét nyered meg vele, és {without} részét nélküle.",
+    "turrets": "A csapatod tornyainak {share} részét te döntötted le. A bontás csapatsport, és te vagy a bontás.",
+    "barons": "{count, plural, one {# Baron} other {# Baron}} biztosítva. Amikor kinyílik a verem, ott vagy.",
+    "dragons": "{count, plural, one {# sárkány} other {# sárkány}} biztosítva. A Szurdok vadvilága fél tőled.",
+    "default": "A csapataid {dragons, plural, one {# sárkányt} other {# sárkányt}} és {towers, plural, one {# tornyot} other {# tornyot}} szereztek ezeken a meccseken. Minden célpont számít."
+  },
+  "damage": {
+    "spellslinger": {
+      "style": "A varázslövész",
+      "line": "A sebzésed {share} része varázssebzés. A páncél csak javaslat."
+    },
+    "steel": {
+      "style": "Acél a varázslat helyett",
+      "line": "A sebzésed {share} része fizikai. Az ellenfelek, akik páncélt vesznek, utálnak."
+    },
+    "trueDamage": {
+      "style": "Az igaz sebzés szerelmese",
+      "line": "A sebzésed {share} része teljesen figyelmen kívül hagyja az ellenállásokat. Alattomos."
+    },
+    "mixed": {
+      "style": "A vegyes fenyegetés",
+      "line": "A fizikai és a mágikus egyensúlyban van. Az ellenfél nem halmozhat csak egyféle ellenállást."
+    }
+  },
+  "lane": {
+    "bully": "A meccsek {rate} részében aranyban megelőzöd a sávellenfeledet, átlagosan {gold} arannyal. A sáv zsarnoka.",
+    "behind": "A sávellenfeled a meccsek {rate} részében többet keres nálad. Ideje megnézni a hullámkezelésedet.",
+    "even": "Te és a sávellenfeled egyenlően váltotok ütéseket: a meccsek {rate} részében aranyban vezetsz."
+  },
+  "gold": {
+    "high": "Átlagosan {gold} el nem költött arannyal fejezed be a meccseket. Ez egy tárgy, amit sosem vettél meg.",
+    "mid": "A meccs végén nagyjából {gold} arany marad. Nem rossz, nem tökéletes.",
+    "low": "Csak {gold} arany marad el nem költve. Olyan gyorsan elköltöd, ahogy megkeresed."
+  },
+  "classes": {
+    "Tank": "Tank",
+    "Marksman": "Lövész",
+    "Mage": "Mágus",
+    "Assassin": "Bérgyilkos",
+    "Fighter": "Harcos",
+    "Support": "Támogató"
+  },
+  "comp": {
+    "better": "Ha van a csapatban {class}, {withRate} nyerési arányod van, nélküle {withoutRate}. Kérj egyet.",
+    "worse": "Ha van a csapatban {class}, csak {withRate} nyerési arányod van (nélküle {withoutRate}). Véletlen vagy átok?"
+  },
+  "highlights": {
+    "penta": "Pentakill",
+    "kills": "Legtöbb ölés",
+    "kda": "Legjobb KDA",
+    "longest": "Leghosszabb meccs"
+  },
+  "progress": {
+    "rows": {
+      "wr": "Nyerési arány",
+      "kda": "KDA",
+      "k": "Ölés meccsenként",
+      "d": "Halál meccsenként",
+      "a": "Asszisztok meccsenként",
+      "cs": "CS percenként",
+      "vs": "Látás percenként",
+      "dm": "Sebzés percenként",
+      "kp": "Ölésben való részvétel",
+      "rank": "Rang"
+    },
+    "flat": "Azóta semmi sem mozdult igazán. A következetesség is készség.",
+    "allUp": "Minden téren jobb: {total} statisztikából {better} emelkedett, és egy sem esett.",
+    "allDown": "Nehezebb időszak: {total} statisztikából {worse} esett. Minden mászásnak vannak hullámvölgyei.",
+    "moreUp": "Több emelkedett, mint esett: {better} statisztika javult és {worse} romlott.",
+    "mixed": "Vegyes kép: {better} statisztika javult, {worse} romlott."
+  },
+  "classInline": {
+    "Tank": "tank",
+    "Marksman": "lövész",
+    "Mage": "mágus",
+    "Assassin": "bérgyilkos",
+    "Fighter": "harcos",
+    "Support": "támogató"
+  },
+  "tiltguard": {
+    "stop": "{losses} vereség egymás után: a következő meccsen {rate} a győzelmi arányod (általában {base}). Ez a te stopjeled.",
+    "keepGoing": "Mégis újra sorba állsz: az esetek {keep} részében.",
+    "steady": "Még {losses} vereség után egymás után is {rate} a győzelmi arányod. A sorozatok nem zökkentenek ki.",
+    "liveStop": "Most éppen {run} vereség egymás után, és egy ilyen sorozat után a következő meccsen {rate} a győzelmi arányod. Talán itt az ideje megállni.",
+    "liveInfo": "Most éppen {run} vereséges sorozatban vagy. Egy ilyen után a következő meccsen {rate} a győzelmi arányod."
+  },
+  "formcurve": {
+    "swing": "Legrosszabb szakaszod {worst}, legjobb {best}: {games} alapján.",
+    "steady": "Bármelyik {games} alatt {worst} és {best} között maradtál. Nagyon egyenletes.",
+    "hot": "Mostanában szárnyalsz: {now} az utolsó {games} alatt, a szezonbeli {avg} ellenében.",
+    "cold": "Mostanában nehezebb: {now} az utolsó {games} alatt, a szezonbeli {avg} ellenében.",
+    "even": "Mostanában a szokásos szinteden vagy: {now} az utolsó {games} alatt, {avg} a szezonban."
+  },
+  "patches": {
+    "swing": "A {best} patchen ment a legjobban ({bestRate}), a {worst} patchen a legrosszabbul ({worstRate}).",
+    "steady": "Patchről patchre {worstRate} és {bestRate} között maradtál. Az új patchek alig zökkentenek ki."
+  },
+  "runes": {
+    "better": "{best} mellett {bestRate} a győzelmi arányod, {favorite} mellett {favoriteRate}. Érdemes gyakrabban választani?",
+    "loyal": "A meccseid {share} részében {name}. Ha megtalálod a kulcsrúnád, kitartasz mellette.",
+    "plain": "{name} a kulcsrúnád: {rate} győzelmi arány {games} alatt."
+  },
+  "championPage": {
+    "better": "{name} a szokásosnál jobb: {rate} az összesített {overall} ellenében.",
+    "worse": "{name} nehezebb: {rate} az összesített {overall} ellenében.",
+    "level": "{name} a szokásos szinteden van: {rate}, összesen {overall}.",
+    "few": "{games} eddig {name} karakterrel: {rate} győzelmi arány."
+  }
+}

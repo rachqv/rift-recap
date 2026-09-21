@@ -1,0 +1,381 @@
+{
+  "season": "Σεζόν {year}",
+  "strip": "{wins, plural, one {# νίκη} other {# νίκες}} και {losses, plural, one {# ήττα} other {# ήττες}}, από τον παλαιότερο αγώνα",
+  "record": "{wins}Ν · {losses}Η",
+  "recordChip": "<good>{wins}</good>Ν <bad>{losses}</bad>Η",
+  "winRateChip": "<b>{rate}</b> ποσοστό νικών",
+  "kdaChip": "<b>{kda}</b> KDA",
+  "gamesChip": "{count, plural, one {<b>#</b> αγώνας} other {<b>#</b> αγώνες}}",
+  "gamesLabel": "{count, plural, one {# αγώνας} other {# αγώνες}}",
+  "intro": {
+    "eyebrow": "Ανασκόπηση {season}",
+    "caption": "{games, plural, other {Εξετάσαμε # από τους αγώνες σου. Έτοιμος να δεις πώς τα πήγες;}}",
+    "scroll": "Κύλισε"
+  },
+  "games": {
+    "eyebrow": "Ήσουν εκεί",
+    "played": "{count, plural, one {αγώνας που παίχτηκε} other {αγώνες που παίχτηκαν}}",
+    "riftOnly": "{count, plural, one {αγώνας στο Summoner's Rift} other {αγώνες στο Summoner's Rift}}",
+    "wins": "{count, plural, one {<good>#</good> νίκη} other {<good>#</good> νίκες}}",
+    "losses": "{count, plural, one {<bad>#</bad> ήττα} other {<bad>#</bad> ήττες}}",
+    "hours": "{n, plural, one {<b>{value}</b> ώρα} other {<b>{value}</b> ώρες}}"
+  },
+  "win": {
+    "eyebrow": "Το ποσοστό νικών σου"
+  },
+  "champion": {
+    "eyebrow": "Ο ήρωάς σου-σήμα κατατεθέν",
+    "more": "Όλα τα παιχνίδια σου με {champion}",
+    "back": "Πίσω στην πλήρη ανασκόπηση",
+    "pageTitle": "{champion} · {name}#{tag} · Rift Recap",
+    "pageEyebrow": "Αναφορά ήρωα",
+    "noneTitle": "Κανένα παιχνίδι με αυτόν τον ήρωα",
+    "none": "Κανένα παιχνίδι με {champion} για {who} σε αυτή την περίοδο. Δοκίμασε άλλον ήρωα από την ανασκόπηση."
+  },
+  "kda": {
+    "eyebrow": "Τα στατιστικά μάχης σου",
+    "kills": "εξοντώσεις",
+    "deaths": "θάνατοι",
+    "assists": "βοήθειες",
+    "perGame": "{value} / αγώνα",
+    "best": "Ο καλύτερός σου αγώνας",
+    "bestLine": "{champion} · {kills}/{deaths}/{assists}",
+    "victory": "Νίκη",
+    "defeat": "Ήττα"
+  },
+  "style": {
+    "eyebrow": "Πώς παίζεις",
+    "mainRole": "κύριος ρόλος · {share}",
+    "cs": "CS ανά λεπτό",
+    "vision": "όραση ανά λεπτό",
+    "damage": "ζημιά ανά λεπτό",
+    "kp": "συμμετοχή σε εξοντώσεις",
+    "penta": "{count, plural, one {<b>#</b> pentakill} other {<b>#</b> pentakill}}",
+    "quadra": "{count, plural, one {<b>#</b> quadrakill} other {<b>#</b> quadrakill}}",
+    "triple": "{count, plural, one {<b>#</b> triple kill} other {<b>#</b> triple kill}}",
+    "firstBloods": "{count, plural, one {<b>#</b> first blood} other {<b>#</b> first blood}}",
+    "deathless": "{count, plural, one {<b>#</b> αγώνας χωρίς θάνατο} other {<b>#</b> αγώνες χωρίς θάνατο}}",
+    "longestWon": "Ο μεγαλύτερος αγώνας σου κράτησε {duration} με {champion}. Και τον κέρδισες κιόλας.",
+    "longestLost": "Ο μεγαλύτερος αγώνας σου κράτησε {duration} με {champion}. Κάποιες φορές απλώς δεν τελειώνουν καλά."
+  },
+  "mode": {
+    "aram": {
+      "eyebrow": "Στην Ουρλιάζουσα Άβυσσο",
+      "label": "{count, plural, one {αγώνας ARAM} other {αγώνες ARAM}}"
+    },
+    "normal": {
+      "eyebrow": "Απλώς για πλάκα",
+      "label": "{count, plural, one {κανονικός αγώνας} other {κανονικοί αγώνες}}"
+    }
+  },
+  "rank": {
+    "emblem": "Έμβλημα {title}",
+    "lp": "<b>{lp}</b> LP",
+    "caption": "Η κατάταξή σου αυτή τη στιγμή. Κάθε ανάβαση ξεκινά με τον επόμενο αγώνα."
+  },
+  "persona": {
+    "eyebrow": "Αυτή τη σεζόν, ήσουν",
+    "also": "Και λίγο από: {list}",
+    "main": "Main <b>{champion}</b>",
+    "shareTitle": "Η σεζόν μου στο League: {title}",
+    "compare": "Σύγκρινε με έναν φίλο",
+    "squad": "Ανασκόπηση ομάδας",
+    "search": "Αναζήτηση άλλου παίκτη",
+    "count": "1 από {count} αρχετύπους",
+    "countEstimate": "1 από {count} αρχετύπους · η σπανιότητα είναι εκτίμηση"
+  },
+  "calendar": {
+    "eyebrow": "Το ημερολόγιό σου",
+    "note": "Με βάση τους τελευταίους {count, plural, one {# αγώνα} other {# αγώνες}} σου."
+  },
+  "clock": {
+    "eyebrow": "Πότε κερδίζεις"
+  },
+  "items": {
+    "eyebrow": "Το αγαπημένο σου αντικείμενο",
+    "inGames": "{games, plural, one {Σε <b>{count}</b> από τον # αγώνα σου} other {Σε <b>{count}</b> από τους # αγώνες σου}}",
+    "winWith": "<b>{rate}</b> ποσοστό νικών με αυτό",
+    "without": "<b>{rate}</b> χωρίς",
+    "boots": "Μπότες"
+  },
+  "objectives": {
+    "eyebrow": "Στόχοι",
+    "lead": "Οι ομάδες σου πήραν, σε {games, plural, one {# αγώνα} other {# αγώνες}}",
+    "tiles": {
+      "tower": "Πύργοι",
+      "dragon": "Δράκοι",
+      "baron": "Baron",
+      "herald": "Κήρυκες",
+      "grubs": "Προνύμφες του Κενού",
+      "inhibitor": "Αναστολείς"
+    },
+    "youTotal": "εσύ: {count}",
+    "youSecured": "εξασφάλισες {count}",
+    "perGame": "{value} ανά αγώνα",
+    "firstTower": "Πρώτος πύργος στο <b>{rate}</b> των αγώνων",
+    "withWithout": "<good>{withIt}</good> νίκες με αυτόν · <b>{without}</b> χωρίς",
+    "stolen": "<b>{count}</b> κλάπηκαν"
+  },
+  "tilt": {
+    "eyebrow": {
+      "tilt": "Έλεγχος tilt",
+      "resilient": "Έλεγχος επιστροφής",
+      "steady": "Έλεγχος νοοτροπίας"
+    },
+    "afterWin": "Μετά από νίκη",
+    "afterLoss": "Μετά από ήττα",
+    "tilts": "Κάνει tilt μετά από ήττα",
+    "bounces": "Επιστρέφει δυναμικά"
+  },
+  "comfort": {
+    "eyebrow": "Η ζώνη άνεσής σου",
+    "lead": "Ποσοστό νικών ανά ήρωα, έναντι {rate} συνολικά"
+  },
+  "gray": {
+    "eyebrow": "Η γκρι οθόνη",
+    "unit": "ω",
+    "spentDead": "που πέρασες νεκρός",
+    "aliveAria": "Ζωντανός {alive} του χρόνου, νεκρός {dead}",
+    "alive": "Ζωντανός {value}",
+    "dead": "Νεκρός {value}",
+    "share": "<b>{share}</b> του χρόνου σου σε αγώνα",
+    "perGame": "<b>{minutes}</b> λ. ανά αγώνα",
+    "films": "{n, plural, one {Περίπου <b>#</b> ταινία} other {Περίπου <b>#</b> ταινίες}}"
+  },
+  "progress": {
+    "eyebrow": "Από την προηγούμενη φορά",
+    "lead": "{date} · {saved, plural, one {# αγώνας} other {# αγώνες}} → τώρα {games}",
+    "was": " · ήσουν {persona}",
+    "improved": "<good>▲ {count}</good> βελτιώθηκαν",
+    "slipped": "<bad>▼ {count}</bad> έπεσαν",
+    "mood": {
+      "better": "βελτιώθηκε",
+      "worse": "έπεσε",
+      "flat": "καμία αλλαγή"
+    }
+  },
+  "trophies": {
+    "eyebrow": "Το ράφι με τα τρόπαιά σου",
+    "of": "από {total} ξεκλείδωσαν",
+    "unlocked": "Ξεκλειδώθηκε",
+    "progress": "{percent} ολοκληρώθηκε",
+    "next": "Πιο κοντά στο ξεκλείδωμα: {name} ({percent}). {text}",
+    "all": "Κάθε τρόπαιο που μπορούσες να κερδίσεις, το κέρδισες.",
+    "lines": "Μπίνγκο <b>{count}</b>",
+    "free": "Δωρεάν",
+    "board": "Πίνακας μπίνγκο τροπαίων",
+    "nextBingo": "Επόμενο μπίνγκο: {name} ({percent}). {text}",
+    "shareTitle": "Το μπίνγκο τροπαίων μου στο Rift Recap"
+  },
+  "blame": {
+    "eyebrow": "Ήσουν εσύ;",
+    "carry": "Κουβάλησες",
+    "weak": "Ο αδύναμος κρίκος",
+    "team": "Ομαδική προσπάθεια",
+    "across": "Στις {losses, plural, one {# ήττα} other {# ήττες}} σου",
+    "topDamage": "Μεγαλύτερη ζημιά",
+    "chance": "Μόνο η τύχη θα έδινε {rate}",
+    "deaths": "Θάνατοι της ομάδας",
+    "average": "Ο μέσος όρος είναι {rate}"
+  },
+  "tierList": {
+    "eyebrow": "Η tier list σου",
+    "aria": "Tier list ηρώων",
+    "title": "{name}: {winRate} σε {games, plural, one {# αγώνα} other {# αγώνες}}",
+    "note": "Κατάταξη με βάση το ποσοστό νικών, μετά το KDA. Οι ήρωες με λιγότερους από 4 αγώνες αποκλείονται."
+  },
+  "habits": {
+    "eyebrow": "Οι συνήθειές σου",
+    "pings": "{value} ping ανά αγώνα",
+    "flash": "Flash στο {key} · {value} φορές ανά αγώνα",
+    "pairShare": "στο {share} των αγώνων",
+    "quits": "{enemy} εχθρικές παραδόσεις · {ours} δικές σου",
+    "ping": "Στιλ ping",
+    "spells": "Ξόρκια επικαλεστή",
+    "surrender": "Έληξε με παράδοση"
+  },
+  "damage": {
+    "eyebrow": "Η ζημιά σου",
+    "parts": {
+      "physical": "Σωματική",
+      "magic": "Μαγική",
+      "true": "Πραγματική"
+    },
+    "partAria": "{label} {share}"
+  },
+  "comp": {
+    "eyebrow": "Σύνθεση ομάδας",
+    "with": "Με <b>{class}</b>",
+    "games": "{withGames, plural, one {# αγώνας} other {# αγώνες}} έναντι {withoutGames, plural, one {# αγώνα} other {# αγώνων}} χωρίς",
+    "versus": "έναντι {rate}"
+  },
+  "sessions": {
+    "eyebrow": "Τα βράδια σου",
+    "lead": "{count, plural, one {# συνεδρία} other {# συνεδρίες}} · περίπου {avg} αγώνες η καθεμία",
+    "best": "Καλύτερο βράδυ",
+    "worst": "Χειρότερο βράδυ",
+    "longest": "Μεγαλύτερη συνεδρία",
+    "meta": "{games, plural, one {# αγώνας} other {# αγώνες}} · {date}"
+  },
+  "highlights": {
+    "eyebrow": "Highlight reel",
+    "minutes": "{count, plural, one {# λεπτό} other {# λεπτά}}",
+    "meta": "{what} · {date}",
+    "won": "Νίκη",
+    "lost": "Ήττα",
+    "caption": "Οι αγώνες που θα θυμάσαι στα πάρτι."
+  },
+  "lane": {
+    "lane": "Έλεγχος lane",
+    "gold": "Συνήθειες χρυσού",
+    "cs": "CS έναντι αντιπάλου lane",
+    "goldDiff": "Χρυσός έναντι αντιπάλου lane",
+    "damage": "Ζημιά έναντι αντιπάλου lane",
+    "unspent": "Αδιάθετος χρυσός στο τέλος",
+    "ahead": "Μπροστά σε χρυσό στο <b>{rate}</b> από {games, plural, one {# αγώνα} other {# αγώνες}}",
+    "kills": "{value} εξοντώσεις ανά αγώνα",
+    "csValue": "{value} CS"
+  },
+  "early": {
+    "eyebrow": "Στο 15ο λεπτό",
+    "titles": {
+      "early": "Τύραννος του early game",
+      "late": "Δυναμώνει στο late game",
+      "steady": "Σταθερό χέρι"
+    },
+    "parts": {
+      "ahead": "Μπροστά",
+      "even": "Ίσος",
+      "behind": "Πίσω"
+    },
+    "aria": "{label} σε {n, plural, one {# αγώνα} other {# αγώνες}}",
+    "wonAhead": "Κερδήθηκαν <good>{wins}</good> από {total} από θέση προβάδισμα",
+    "wonBehind": "Κερδήθηκαν <b>{wins}</b> από {total} από πίσω",
+    "lead": "Οι τελευταίοι σου {games, plural, one {# αγώνας στο lane} other {# αγώνες στο lane}}, έναντι του αντιπάλου lane"
+  },
+  "chapters": {
+    "eyebrow": "Η σεζόν σου σε κεφάλαια",
+    "wins": "{rate} νίκες",
+    "note": "Κάθε κεφάλαιο βαθμολογείται με τους δικούς του αγώνες, οπότε τα σύντομα είναι λιγότερο βέβαια."
+  },
+  "flames": {
+    "eyebrow": "Παλιές φλόγες",
+    "lead": "Ήρωες που ξέρεις καλά και δεν άγγιξες σχεδόν καθόλου αυτή τη σεζόν",
+    "mastery": "Mastery {level} · {played}",
+    "notPlayed": "δεν παίχτηκε",
+    "caption": "Ο/Η {champion} έχει {points} πόντους mastery πίσω του. Σε νοσταλγεί."
+  },
+  "social": {
+    "duo": {
+      "eyebrow": "Το ντουέτο σου",
+      "together": "{count, plural, one {αγώνας μαζί} other {αγώνες μαζί}}",
+      "winTogether": "<b>{rate}</b> ποσοστό νικών μαζί",
+      "apart": "<b>{rate}</b> χωριστά",
+      "combo": "Καλύτερο combo <b>{pair}</b>",
+      "alone": "Κάθε αγώνας αυτής της σεζόν ήταν με τον/την {name}. Αυτό είναι δέσμευση.",
+      "better": "Κερδίζεις {withRate} με τον/την {name} και {without} χωρίς. Κράτα το συγκρότημα ενωμένο.",
+      "worse": "Κερδίζεις λιγότερο με τον/την {name} ({withRate} έναντι {without} μόνος). Η φιλία πάνω από τα στατιστικά.",
+      "same": "Περίπου το ίδιο ποσοστό νικών με ή χωρίς τον/την {name}. Μετράει η παρέα.",
+      "seeRecap": "Δες την ανασκόπηση του/της {name}",
+      "versus": "Αντιπαράθεση"
+    },
+    "matchup": {
+      "single": "Ο αντίπαλος του lane σου",
+      "both": "Ο αντίπαλος-εφιάλτης έναντι του καλύτερου matchup",
+      "nemesis": "Ο εφιάλτης σου",
+      "best": "Το καλύτερό σου matchup",
+      "vs": "VS",
+      "record": "<good>{wins}Ν</good> <bad>{losses}Η</bad>",
+      "meta": "{rate} ποσοστό νικών",
+      "metaAs": "{rate} ποσοστό νικών · ως {champion}",
+      "insightBoth": "Κάνε ban το {nemesis} και ελπίζεις για {best}.",
+      "insightNemesis": "Το {nemesis} είναι ο κρυπτονίτης σου. Σκέψου ένα ban.",
+      "insightBest": "Το {best} δεν είχε ποτέ ελπίδα εναντίον σου."
+    }
+  },
+  "rail": {
+    "start": "Αρχή",
+    "games": "Αγώνες",
+    "week": "Εβδομάδα με εβδομάδα",
+    "form": "Φόρμα",
+    "calendar": "Ημερολόγιο",
+    "clock": "Ρολόι",
+    "patches": "Patch",
+    "nights": "Βράδια",
+    "wins": "Νίκες",
+    "progress": "Πρόοδος",
+    "tilt": "Tilt",
+    "tiltGuard": "Σήμα στοπ",
+    "blame": "Εσύ;",
+    "champion": "Ήρωας",
+    "comfort": "Άνεση",
+    "flames": "Παλιές φλόγες",
+    "tierList": "Tier list",
+    "pool": "Δοκίμασε",
+    "combat": "Μάχη",
+    "highlights": "Highlights",
+    "damage": "Ζημιά",
+    "gray": "Γκρι οθόνη",
+    "playstyle": "Στιλ παιχνιδιού",
+    "lane": "Lane",
+    "early": "Early game",
+    "habits": "Συνήθειες",
+    "items": "Αντικείμενα",
+    "runes": "Ρούνες",
+    "objectives": "Στόχοι",
+    "duo": "Ντουέτο",
+    "matchups": "Matchup",
+    "comps": "Συνθέσεις",
+    "normals": "Normal",
+    "aram": "ARAM",
+    "chapters": "Κεφάλαια",
+    "trophies": "Τρόπαια",
+    "rank": "Κατάταξη",
+    "guess": "Μάντεψε",
+    "you": "Εσύ",
+    "back": "Πίσω"
+  },
+  "page": {
+    "title": "{name}#{tag} · Rift Recap",
+    "description": "Μια ανασκόπηση σεζόν League of Legends: στατιστικά, ένα αρχέτυπο και μια κάρτα προς κοινοποίηση.",
+    "failed": "Δεν ήταν δυνατή η φόρτωση αυτής της ανασκόπησης",
+    "noGamesTitle": "Κανένας αγώνας ακόμα",
+    "noGames": "Δεν βρήκαμε αγώνες για {who} από {since}. Παίξε μερικούς αγώνες και ξαναέλα.",
+    "noRangeTitle": "Κανένας αγώνας σε αυτό το διάστημα",
+    "noRange": "Ο/Η {who} δεν έχει παίξει αγώνα από {since}. Δοκίμασε μεγαλύτερο διάστημα."
+  },
+  "tiltguard": {
+    "eyebrow": "Φρουρός του tilt",
+    "step1": "Μετά από 1 ήττα",
+    "step2": "Μετά από 2 στη σειρά",
+    "step3": "Μετά από 3+ στη σειρά",
+    "live": "Τώρα"
+  },
+  "formcurve": {
+    "eyebrow": "Η σεζόν σου ως γραμμή",
+    "lead": "Ποσοστό νικών σε οποιουσδήποτε {games}",
+    "best": "Καλύτερο <b>{rate}</b> · τελείωσε {date}",
+    "worst": "Χειρότερο <b>{rate}</b> · τελείωσε {date}",
+    "now": "Τώρα <b>{rate}</b>",
+    "aria": "Κινητό ποσοστό νικών: καλύτερο {best}, χειρότερο {worst}, τελευταίο {now}",
+    "shareTitle": "Η σεζόν μου ως γραμμή"
+  },
+  "week": {
+    "eyebrow": "Τελευταίες 7 ημέρες vs οι 7 πριν",
+    "lead": "{now} τώρα · {before} πριν"
+  },
+  "patches": {
+    "eyebrow": "Patch με patch",
+    "title": "Ποσοστό νικών ανά patch"
+  },
+  "runes": {
+    "eyebrow": "Η βασική σου ρούνα",
+    "winWith": "<b>{rate}</b> ποσοστό νικών με αυτήν",
+    "without": "<b>{rate}</b> χωρίς"
+  },
+  "pool": {
+    "eyebrow": "Ήρωες για δοκιμή",
+    "because": "Επειδή σου πάει καλά: {champion} ({rate} νίκες)",
+    "note": "Επιλέχθηκαν για παρόμοια κλάση και στυλ παιχνιδιού. Πρόταση, όχι υπόσχεση."
+  }
+}

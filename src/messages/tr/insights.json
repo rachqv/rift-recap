@@ -1,0 +1,256 @@
+{
+  "blame": {
+    "carry": "Yenilgilerinin {topRate} kadarında en çok hasarı sen verdin ve neredeyse hiç ölmedin. Takım seni yarı yolda bıraktı.",
+    "weak": "Yenilgilerinde takımının ölümlerinin {deathShare} kadarı sendeydi ve hasarda nadiren birinci oldun. Önce aynaya bak.",
+    "team": "Yenilgilerinde takımının ortalamasındaydın: hasarının {damageShare} kadarı. Suçlanacak kimse yok, ya da herkes."
+  },
+  "sessions": {
+    "contrast": "{bestWins}-{bestLosses} biten bir gece ve {worstWins}-{worstLosses} biten bir gece. Aynı oyuncu, farklı akşamlar.",
+    "marathon": "Tek oturuşta {games, plural, one {# maç} other {# maç}}. Su iç.",
+    "best": "En iyi gecen {wins}-{losses} bitti. Peşinden git."
+  },
+  "early": {
+    "early": "Maçların {ahead} kadarında 15. dakikada koridor rakibinin önündesin ve işi bitiriyorsun. Erken oyunun zorbası.",
+    "late": "Maçların {behind} kadarında 15. dakikada gerideysin ama yine de bunların {comeback} kadarını kazanıyorsun. Güçleniyorsun ve asla pes etmiyorsun.",
+    "steady": "Maçların {ahead} kadarında 15. dakikada öndesin, {behind} kadarında gerideysin. Oyun daha sonra belli oluyor."
+  },
+  "tierlist": {
+    "solo": "Elindeki tek şey {best}.",
+    "uniform": "Tüm havuzun {tier} kademesinde, başta {best} ile {winRate}.",
+    "leadS": "{best}, {winRate} ile S kademesindeki seçimin.",
+    "leadOther": "Hiçbiri S kademesine ulaşmadı. {best}, {tier} kademesinde {winRate} ile listenin başında.",
+    "lastD": "{worst}, {winRate} ile D kademesindeki seçimin.",
+    "lastOther": "{worst}, {tier} kademesinde {winRate} ile en altta.",
+    "both": "{lead} {last}"
+  },
+  "items": {
+    "better": "{name} ile maçların {withIt} kadarını, onsuz {without} kadarını kazanıyorsun. Doğru bir şey yapıyor.",
+    "worse": "{name} aldığında galibiyet oranın düşüyor ({withIt} karşı {without}). Sadakat mi, alışkanlık mı?",
+    "habit": "{name}, maçlarının {share} kadarını bitirdi. Bazı alışkanlıklar bırakılmaz.",
+    "friend": "{name}, maçlarının {share} kadarında sonda yer aldı. Güvenilir bir dost."
+  },
+  "habits": {
+    "flashEdge": "{key} tuşunda Sıçra, maç başına {perGame} kullanım. Sınırda yaşıyorsun.",
+    "flashCalm": "{key} tuşunda Sıçra, maç başına {perGame} kullanım. Onu asıl önemli an için saklıyorsun.",
+    "pair": "{a} ve {b}, maçlarının {share} kadarında. Neyi sevdiğini biliyorsun.",
+    "surrenderOften": "Maçlarının {rate} kadarı pes etmeyle bitti. Birinin hep gidecek bir yeri var.",
+    "surrenderUs": "Takımın düşmandan daha sık pes etti ({weQuit} karşı {enemyQuit}). İyimser kal.",
+    "surrenderThem": "Karşı takım senin takımının {weQuit} kez pes etmesine karşılık {enemyQuit} kez beyaz bayrak çekti. Geldiğini gördüler.",
+    "surrenderRare": "Maçlarının yalnızca {rate} kadarı pes etmeyle bitti. Sonuna kadar oynuyorsun."
+  },
+  "spells": {
+    "1": "Arındırma",
+    "3": "Bitkinlik",
+    "4": "Sıçra",
+    "6": "Hayalet",
+    "7": "İyileştirme",
+    "11": "Çarp",
+    "12": "Işınlanma",
+    "13": "Berraklık",
+    "14": "Tutuştur",
+    "21": "Bariyer",
+    "32": "İşaret",
+    "unknown": "bir büyü"
+  },
+  "pings": {
+    "getBackPings": {
+      "label": "Geri çekil",
+      "title": "Endişeli",
+      "line": "Ping'lerini insanlara geri çekilmelerini söylemek için harcıyorsun. Takımın senin sayende hayatta."
+    },
+    "enemyMissingPings": {
+      "label": "Rakip kayıp",
+      "title": "Gözcü",
+      "line": "\"Kayıp!\" senin ağzının sakızı. Sen bilmeden kimse sise girmiyor."
+    },
+    "onMyWayPings": {
+      "label": "Yoldayım",
+      "title": "Kurtarıcı",
+      "line": "Her zaman yoldasın. Varıp varmadığın ise başka bir hikâye."
+    },
+    "assistMePings": {
+      "label": "Yardım et",
+      "title": "Kışkırtıcı",
+      "line": "Yardım için ping atıyorsun ve takım koşarak geliyor. En azından umuyorsun."
+    },
+    "needVisionPings": {
+      "label": "Görüş lazım",
+      "title": "Görüş dilencisi",
+      "line": "Biri lütfen bir totem koysun. Her maçta soruyorsun."
+    },
+    "commandPings": {
+      "label": "Komut",
+      "title": "Komutan",
+      "line": "Haritayı gösteriyorsun ve takımın takip etmesini bekliyorsun. Çoğunlukla ediyorlar."
+    },
+    "pushPings": {
+      "label": "İt",
+      "title": "Dalga itici",
+      "line": "İt, it, it. O kuleyi hemen yıkılmış görmek istiyorsun."
+    },
+    "holdPings": {
+      "label": "Tut",
+      "title": "Duvar",
+      "line": "Hattı koruyun. Kaotik bir lobide sakin ses sensin."
+    },
+    "allInPings": {
+      "label": "Hepsini ortaya koy",
+      "title": "All-in tüccarı",
+      "line": "All-in ping attığında, insanlar istese de istemese de kavga oluyor."
+    },
+    "enemyVisionPings": {
+      "label": "Rakip görüşü",
+      "title": "Gözlemci",
+      "line": "Her rakip totemini duyuruyorsun. Senden hiçbir şey saklanamaz."
+    },
+    "visionClearedPings": {
+      "label": "Görüş temizlendi",
+      "title": "Temizlikçi",
+      "line": "Totemleri temizliyor ve herkese söylüyorsun."
+    }
+  },
+  "chapters": {
+    "part": "Bölüm {n}",
+    "range": "{from}–{to}",
+    "same": "Baştan sona {title}. Kim olduğunu biliyorsun.",
+    "changed": "{first} olarak başladın, {last} olarak bitirdin. Değişim dolu bir sezon."
+  },
+  "tilt": {
+    "tilt": "Galibiyetten sonra {afterWin}, yenilgiden sonra yalnızca {afterLoss} kazanıyorsun. Belki maçlar arasında yürüyüşe çık.",
+    "resilient": "Birini kaybet, sonrakilerin {afterLoss} kadarını kazanıyorsun; galibiyetten sonraki {afterWin} oranından fazla. Yenilgiler seni sadece hırslandırıyor.",
+    "steady": "Galibiyetten sonra {afterWin}, yenilgiden sonra {afterLoss}. Hiçbir şey seni sarsmıyor."
+  },
+  "comfort": {
+    "trust": "{best} seni {bestRate} oranına çıkarıyor. Güvenilir bir seçim.",
+    "drag": "{best} seni {bestRate} oranına çıkarıyor. {worst} ise seni {worstRate} oranına düşürüyor. Bırakma vakti mi?"
+  },
+  "gray": {
+    "heavy": "Her maçın {share} kadarını gri ekrana bakarak geçiriyorsun. Çeşme seni adınla tanıyor.",
+    "some": "Maç başına yaklaşık {minutes} dakika yeniden doğmayı bekliyorsun. Birikiyor.",
+    "light": "Zamanının yalnızca {share} kadarı ölü. Gri ekran seni pek tanımıyor."
+  },
+  "modes": {
+    "aramPenta": "Köprüde {penta, plural, one {# pentakill} other {# pentakill}}. Uçurum içindeki kaosu ortaya çıkarıyor.",
+    "aramKills": "Maç başına {kills} öldürme. Kavgada parlıyorsun.",
+    "aramBetter": "Uçurum'da Vadi'den daha çok kazanıyorsun. Kartopu etkisi sana yakışıyor.",
+    "aramWorse": "Vadi sana Uçurum'dan daha iyi davranıyor. O köprü vahşi bir yer.",
+    "aramSteady": "{top}, seni kaosun içinden taşıdı. Vadi'deki gibi istikrarlı.",
+    "normalBetter": "Riske edecek bir şey olmadığında daha iyi oynuyorsun. Normal maçların dereceli galibiyet oranını geçiyor.",
+    "normalWorse": "Dereceli maçlar en iyi yanını çıkarıyor. Normal maçlar senin ısınma turun.",
+    "normalExplore": "{games, plural, one {# normal maçta} other {# normal maçta}} {unique, plural, one {# farklı şampiyon} other {# farklı şampiyon}}. Deneyi burada yapıyorsun.",
+    "normalMain": "{top}, riske edecek bir şey olmadığında tercihindi ({winRate} galibiyet)."
+  },
+  "objectives": {
+    "stolen": "{count, plural, one {# hedef çalındı} other {# hedef çalındı}}. Bir yerlerde bir rakip ormancı hâlâ kızgın.",
+    "firstTower": "İlk kuleyi al: onunla maçların {withIt} kadarını, onsuz {without} kadarını kazanıyorsun.",
+    "firstDragon": "İlk ejderhayı al: onunla maçların {withIt} kadarını, onsuz {without} kadarını kazanıyorsun.",
+    "firstHerald": "İlk Haberci'yi al: onunla maçların {withIt} kadarını, onsuz {without} kadarını kazanıyorsun.",
+    "firstBaron": "İlk Baron'u al: onunla maçların {withIt} kadarını, onsuz {without} kadarını kazanıyorsun.",
+    "turrets": "Takımının kulelerinin {share} kadarını sen yıktın. Yıkım bir takım sporu, ve sen yıkımın kendisisin.",
+    "barons": "{count, plural, one {# Baron} other {# Baron}} güvence altında. Çukur açıldığında oradasın.",
+    "dragons": "{count, plural, one {# ejderha} other {# ejderha}} güvence altında. Vadi'nin yaban hayatı senden korkuyor.",
+    "default": "Takımların bu maçlarda {dragons, plural, one {# ejderha} other {# ejderha}} ve {towers, plural, one {# kule} other {# kule}} aldı. Her hedef önemli."
+  },
+  "damage": {
+    "spellslinger": {
+      "style": "Büyü silahşörü",
+      "line": "Hasarının {share} kadarı büyü. Zırh sadece bir öneri."
+    },
+    "steel": {
+      "style": "Büyüden çok çelik",
+      "line": "Hasarının {share} kadarı fiziksel. Zırh alan rakipler senden nefret ediyor."
+    },
+    "trueDamage": {
+      "style": "Gerçek hasar tutkunu",
+      "line": "Hasarının {share} kadarı dirençleri tamamen yok sayıyor. Sinsi."
+    },
+    "mixed": {
+      "style": "Karma tehdit",
+      "line": "Fiziksel ve büyü dengede. Rakip yalnızca tek bir direnç yığamaz."
+    }
+  },
+  "lane": {
+    "bully": "Maçların {rate} kadarında altında koridor rakibinin önünde bitiriyorsun, ortalama {gold} altın farkla. Koridor zorbası.",
+    "behind": "Koridor rakibin maçların {rate} kadarında senden çok kazanıyor. Dalga yönetimine bakma vakti.",
+    "even": "Sen ve koridor rakibin darbeleri eşit paylaşıyorsunuz: maçların {rate} kadarında altında öndesin."
+  },
+  "gold": {
+    "high": "Maçları ortalama {gold} harcanmamış altınla bitirdin. Bu, hiç almadığın bir eşya.",
+    "mid": "Maç sonunda yaklaşık {gold} altın artıyor. Fena değil, mükemmel de değil.",
+    "low": "Yalnızca {gold} altın harcanmadan kaldı. Kazandığın kadar hızlı harcıyorsun."
+  },
+  "classes": {
+    "Tank": "Tank",
+    "Marksman": "Nişancı",
+    "Mage": "Büyücü",
+    "Assassin": "Suikastçı",
+    "Fighter": "Dövüşçü",
+    "Support": "Destek"
+  },
+  "comp": {
+    "better": "Takımında {class} olduğunda {withRate}, olmadığında {withoutRate} kazanıyorsun. Bir tane iste.",
+    "worse": "Takımında {class} olduğunda yalnızca {withRate} kazanıyorsun (olmadığında {withoutRate}). Tesadüf mü, lanet mi?"
+  },
+  "highlights": {
+    "penta": "Pentakill",
+    "kills": "En çok öldürme",
+    "kda": "En iyi KDA",
+    "longest": "En uzun maç"
+  },
+  "progress": {
+    "rows": {
+      "wr": "Galibiyet oranı",
+      "kda": "KDA",
+      "k": "Maç başına öldürme",
+      "d": "Maç başına ölüm",
+      "a": "Maç başına asist",
+      "cs": "Dakika başına CS",
+      "vs": "Dakika başına görüş",
+      "dm": "Dakika başına hasar",
+      "kp": "Öldürmelere katılım",
+      "rank": "Rütbe"
+    },
+    "flat": "O zamandan beri pek bir şey kıpırdamadı. İstikrar bir beceridir.",
+    "allUp": "Her yönden daha iyi: {total} istatistiğin {better} tanesi yükseldi, hiçbiri düşmedi.",
+    "allDown": "Daha zor bir dönem: {total} istatistiğin {worse} tanesi düştü. Her tırmanışın çukurları olur.",
+    "moreUp": "Yükselenler daha fazla: {better} istatistik iyileşti, {worse} tanesi geriledi.",
+    "mixed": "Karışık bir tablo: {better} istatistik iyileşti, {worse} tanesi geriledi."
+  },
+  "classInline": {
+    "Tank": "tank",
+    "Marksman": "nişancı",
+    "Mage": "büyücü",
+    "Assassin": "suikastçı",
+    "Fighter": "dövüşçü",
+    "Support": "destek"
+  },
+  "tiltguard": {
+    "stop": "Üst üste {losses} yenilgiden sonra sonraki oyunun {rate} kadarını kazanıyorsun, normalde {base}. İşte durma işaretin.",
+    "keepGoing": "Buna rağmen zamanın {keep} kadarında yeniden kuyruğa giriyorsun.",
+    "steady": "Üst üste {losses} yenilgiden sonra bile {rate} kazanıyorsun. Seriler seni sarsmıyor.",
+    "liveStop": "Şu anda üst üste {run} yenilgidesin ve böyle bir seriden sonra sonraki oyunun {rate} kadarını kazanıyorsun. Belki burada durmalısın.",
+    "liveInfo": "Şu anda {run} yenilgilik bir serideyisin. Böyle bir seriden sonra sonraki oyunun {rate} kadarını kazanıyorsun."
+  },
+  "formcurve": {
+    "swing": "En kötü dönemde {worst}, en iyi dönemde {best}: her seferinde {games} üzerinden.",
+    "steady": "Herhangi {games} içinde {worst} ile {best} arasında kaldın. Çok istikrarlı.",
+    "hot": "Son zamanlarda formdasın: son {games} içinde {now}, sezon ortalaman {avg}.",
+    "cold": "Son zamanlarda daha zor: son {games} içinde {now}, sezon ortalaman {avg}.",
+    "even": "Son zamanlarda her zamanki seviyendesin: son {games} içinde {now}, sezonda {avg}."
+  },
+  "patches": {
+    "swing": "En iyi {best} yamasında ({bestRate}), en kötü {worst} yamasında ({worstRate}) oynadın.",
+    "steady": "Yamadan yamaya {worstRate} ile {bestRate} arasında kaldın. Yeni yamalar seni pek etkilemiyor."
+  },
+  "runes": {
+    "better": "{best} ile {bestRate} kazanıyorsun, {favorite} ile {favoriteRate}. Daha sık almaya değer mi?",
+    "loyal": "Oyunlarının {share} kadarında {name}. Ana rününü bulunca ona bağlı kalıyorsun.",
+    "plain": "{name} senin ana rünün: {games} içinde {rate} galibiyet."
+  },
+  "championPage": {
+    "better": "{name} ortalamanın üstünde: toplamda {overall} iken {rate}.",
+    "worse": "{name} daha zor: toplamda {overall} iken {rate}.",
+    "level": "{name} her zamanki seviyende: {rate}, toplamda {overall}.",
+    "few": "{name} ile şimdiye kadar {games}: {rate} galibiyet oranı."
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "penta": {
+    "name": "Pentakill",
+    "text": "Szerezz egy pentakillt."
+  },
+  "quadra": {
+    "name": "Quadrakill-gyűjtő",
+    "text": "Szerezz {target, plural, one {# quadrakillt} other {# quadrakillt}}."
+  },
+  "triple": {
+    "name": "Tripla fenyegetés",
+    "text": "Szerezz {target, plural, one {# triple killt} other {# triple killt}}."
+  },
+  "flawless": {
+    "name": "Hibátlan",
+    "text": "Fejezz be egy meccset úgy, hogy egyszer sem halsz meg."
+  },
+  "flawless5": {
+    "name": "Érinthetetlen",
+    "text": "Fejezz be {target, plural, one {# meccset} other {# meccset}} úgy, hogy egyszer sem halsz meg."
+  },
+  "streak": {
+    "name": "Lángol",
+    "text": "Nyerj meg {target, plural, one {# meccset} other {# meccset}} egymás után."
+  },
+  "winrate": {
+    "name": "Győztes",
+    "text": "Tarts {target} nyerési arányt több mint {games} meccsen."
+  },
+  "kills": {
+    "name": "Ölőgép",
+    "text": "Szerezz {target, plural, one {# ölést} other {# ölést}} egyetlen meccsen."
+  },
+  "perfect": {
+    "name": "Tökéletes meccs",
+    "text": "Játssz egy meccset {target}+ KDA-val."
+  },
+  "firstblood": {
+    "name": "Az első vér királya",
+    "text": "Szerezd meg az első vért {target, plural, one {# alkalommal} other {# alkalommal}}."
+  },
+  "thief": {
+    "name": "Célpontlopó",
+    "text": "Lopj el egy célpontot."
+  },
+  "turrets": {
+    "name": "Bontócsapat",
+    "text": "Rombolj le {target, plural, one {# tornyot} other {# tornyot}}."
+  },
+  "variety": {
+    "name": "Mindenes",
+    "text": "Játssz {target, plural, one {# különböző bajnokkal} other {# különböző bajnokkal}}."
+  },
+  "loyal": {
+    "name": "Hűséges",
+    "text": "Játssz ugyanazzal a bajnokkal {target, plural, one {# alkalommal} other {# alkalommal}}."
+  },
+  "marathon": {
+    "name": "Maraton",
+    "text": "Játssz egy {minutes} percnél hosszabb meccset."
+  },
+  "bounce": {
+    "name": "Visszatérés",
+    "text": "Nyerd meg a vereség utáni meccsek {target} részét."
+  },
+  "hours": {
+    "name": "Idő a Szurdokban",
+    "text": "Tölts {target, plural, one {# órát} other {# órát}} meccsekben."
+  },
+  "dragon": {
+    "name": "Sárkányölő",
+    "text": "Add meg a kegyelemdöfést {target, plural, one {# sárkánynak} other {# sárkánynak}}."
+  },
+  "baron": {
+    "name": "Báró-vadász",
+    "text": "Add meg a kegyelemdöfést {target, plural, one {# Bárónak} other {# Bárónak}}."
+  },
+  "teamplayer": {
+    "name": "Csapatjátékos",
+    "text": "Vegyél részt a csapatod ölésének {target}-ában."
+  },
+  "duo": {
+    "name": "Elválaszthatatlanok",
+    "text": "Játssz {target, plural, one {# meccset} other {# meccset}} ugyanazzal a csapattárssal."
+  },
+  "vision": {
+    "name": "Mindent látó",
+    "text": "Átlagosan {target} látáspontot érj el percenként."
+  },
+  "farm": {
+    "name": "Farmolás mestere",
+    "text": "Átlagosan {target} CS-t érj el percenként."
+  },
+  "roles": {
+    "name": "Sokoldalú",
+    "text": "Játssz mind az {target, plural, one {# szerepkörben} other {# szerepkörben}}."
+  }
+}

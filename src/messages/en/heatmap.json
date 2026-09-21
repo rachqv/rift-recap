@@ -1,0 +1,42 @@
+{
+  "insight": {
+    "nightOwl": "{share} of your games start after midnight. The Rift never sleeps, and neither do you.",
+    "earlyBird": "{share} of your games are before noon. Queueing with your coffee.",
+    "weekend": "{share} of your games are on weekends. Saturdays are for the Rift.",
+    "weekday": "Almost all your games are on weekdays. The grind doesn't take days off.",
+    "streak": "{days, plural, one {# day} other {# days}} in a row with a game. That's a habit.",
+    "steady": "Steady, spread across the calendar. No pattern, just League."
+  },
+  "aria": "Calendar of {games, plural, one {# game} other {# games}} on {days, plural, one {# day} other {# days}}",
+  "before": "{date}: before your earliest loaded game",
+  "day": "{date}: {detail}",
+  "dayGames": "{games, plural, one {# game} other {# games}}, {wins} won",
+  "dayNone": "no games",
+  "fewer": "Fewer",
+  "more": "More",
+  "activeDays": "{count, plural, one {<b>#</b> active day} other {<b>#</b> active days}}",
+  "busiest": "Busiest <b>{date}</b> · {games, plural, one {# game} other {# games}}",
+  "streak": "Longest streak <b>{days, plural, one {# day} other {# days}}</b>",
+  "favorite": "Favorite day <b>{day}</b>",
+  "prime": "Prime time <b>{hour}</b>",
+  "parts": {
+    "night": "night",
+    "morning": "morning",
+    "afternoon": "afternoon",
+    "evening": "evening"
+  },
+  "bestPart": "Best in the <b>{part}</b> · <good>{rate}</good> wins",
+  "worstPart": "(<bad>{rate}</bad> in the {part})",
+  "bestMonth": "Best month <b>{month}</b> · <good>{rate}</good>",
+  "worstMonth": "· worst <b>{month}</b> <bad>{rate}</bad>",
+  "clock": {
+    "day": "Your best day: {best}, {bestRate} wins. Your worst: {worst}, only {worstRate}.",
+    "part": "Your best time of day: {best}, {bestRate} wins. Your worst: {worst}, only {worstRate}.",
+    "steady": "Your win rate barely moves with the clock. Any day, any hour: same player.",
+    "byPart": "Time of day",
+    "byDay": "Day of the week",
+    "bar": "{label}: {rate} win rate, {detail}",
+    "barFew": "{label}: {detail}. Too few games to compare.",
+    "aria": "Win rate by time of day and by day of the week"
+  }
+}

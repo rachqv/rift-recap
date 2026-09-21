@@ -1,0 +1,331 @@
+.story {
+  height: 100dvh;
+  overflow-y: auto;
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+  overscroll-behavior: contain;
+  scrollbar-width: none;
+  outline: none;
+}
+
+.story::-webkit-scrollbar {
+  display: none;
+}
+
+.brand {
+  position: fixed;
+  top: 1.25rem;
+  inset-inline-start: 1.5rem;
+  z-index: 10;
+  font-family: var(--font-display), Georgia, serif;
+  font-size: 0.95rem;
+  font-weight: 800;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--gold-bright);
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.8);
+}
+
+/* One dot per slide, and there can be 30 of them. Each dot's height is the room the screen has for the rail divided by the
+   number of slides (capped, so a short story keeps roomy dots), and the visible circle shrinks with it, so they always fit. */
+.rail {
+  --dot: clamp(0.6rem, calc((100dvh - 9rem) / var(--n, 20)), 1.5rem);
+  --pip: clamp(4px, calc(var(--dot) * 0.35), 6px);
+  position: fixed;
+  top: 50%;
+  inset-inline-end: 1rem;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  transform: translateY(-50%);
+}
+
+.dot {
+  position: relative;
+  width: 1.5rem;
+  height: var(--dot);
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.dot::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: var(--pip);
+  height: var(--pip);
+  border: 1px solid var(--gold-bright);
+  border-radius: 50%;
+  background: transparent;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.8);
+  transition: transform 0.25s, background 0.25s, box-shadow 0.25s;
+}
+
+.dot[data-current="true"]::before {
+  background: var(--accent);
+  transform: scale(1.5);
+  box-shadow: 0 0 12px var(--accent);
+}
+
+.dot:focus-visible {
+  outline: 2px solid var(--hextech);
+  border-radius: 50%;
+}
+
+.tip {
+  position: absolute;
+  inset-inline-end: 1.75rem;
+  top: 50%;
+  padding: 0.25rem 0.6rem;
+  border: 1px solid rgba(200, 170, 110, 0.4);
+  border-radius: 6px;
+  background: rgba(5, 11, 24, 0.9);
+  color: var(--text);
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  white-space: nowrap;
+  opacity: 0;
+  transform: translate(6px, -50%);
+  pointer-events: none;
+  transition: opacity 0.2s, transform 0.2s;
+}
+
+.dot:hover .tip,
+.dot:focus-visible .tip {
+  opacity: 1;
+  transform: translate(0, -50%);
+}
+
+@media (max-width: 640px) {
+  .brand {
+    top: 1rem;
+    inset-inline-start: 1rem;
+    font-size: 0.8rem;
+  }
+
+  .rail {
+    inset-inline-end: 0.25rem;
+    gap: 0;
+  }
+
+  .tip {
+    display: none;
+  }
+}
+
+/*
+ * Slideshow and volume controls. They render into the top-right bar, level with the language switch, so every button
+ * there shares one height (--control-height). Outside the app (Storybook) there is no bar, so they float top right.
+ */
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.4rem;
+}
+
+.controls[data-floating] {
+  position: fixed;
+  top: 1rem;
+  inset-inline-end: 1.25rem;
+  z-index: 13;
+  --control-height: 2.2rem;
+}
+
+.play,
+.control {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.45rem;
+  height: var(--control-height, 2.2rem);
+  padding: 0 1rem;
+  border: 1px solid rgba(200, 170, 110, 0.55);
+  border-radius: 999px;
+  background: rgba(5, 11, 24, 0.82);
+  backdrop-filter: blur(10px);
+  color: var(--gold-bright);
+  font: inherit;
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  transition: border-color 0.2s, background 0.2s, transform 0.15s;
+}
+
+/* The start button is the one call to action on the first slide, so it gets a soft pulse. */
+.play {
+  border-color: var(--hextech);
+  color: var(--text);
+  box-shadow: 0 0 0 0 rgba(10, 200, 185, 0.5);
+  animation: playPulse 2.4s ease-out infinite;
+}
+
+.play:hover,
+.control:hover:not(:disabled) {
+  border-color: var(--gold-bright);
+  background: rgba(200, 170, 110, 0.18);
+  transform: translateY(-1px);
+}
+
+.play:focus-visible,
+.control:focus-visible {
+  outline: 2px solid var(--hextech);
+  outline-offset: 2px;
+}
+
+/* The step buttons: round, one to a slide edge; dimmed at the first and last slide, where there is nowhere to go. */
+.control.step {
+  width: var(--control-height, 2.2rem);
+  padding: 0; /* beats the phone rule below, which pads the wider buttons */
+}
+
+.control[data-state="done"] {
+  border-color: var(--hextech);
+  color: var(--hextech);
+}
+
+.control[data-state="failed"] {
+  border-color: var(--danger);
+  color: var(--danger);
+}
+
+.control:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+.control[aria-pressed="true"] {
+  border-color: var(--hextech);
+  color: var(--text);
+}
+
+/* A thin bar across the top that fills over the time the slideshow stays on this slide. */
+.progress {
+  position: fixed;
+  top: 0;
+  inset-inline-end: 0;
+  inset-inline-start: 0;
+  z-index: 12;
+  height: 3px;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.progress span {
+  display: block;
+  height: 100%;
+  background: linear-gradient(90deg, var(--hextech), var(--gold-bright));
+  transform-origin: left;
+  animation: slideProgress linear both;
+}
+
+.srOnly {
+  position: fixed;
+  width: 1px;
+  height: 1px;
+  margin: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+@keyframes slideProgress {
+  from {
+    transform: scaleX(0);
+  }
+
+  to {
+    transform: scaleX(1);
+  }
+}
+
+@keyframes playPulse {
+  70% {
+    box-shadow: 0 0 0 12px rgba(10, 200, 185, 0);
+  }
+
+  100% {
+    box-shadow: 0 0 0 0 rgba(10, 200, 185, 0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .play {
+    animation: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .play,
+  .control {
+    padding: 0 0.8rem;
+    font-size: 0.75rem;
+  }
+}
+
+/* The speaker (mute) and the volume slider, in one pill. Muted, the slider dims but keeps its position. */
+.sound {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.15rem;
+  height: var(--control-height, 2.2rem);
+  padding: 0 0.85rem 0 0.2rem;
+  border: 1px solid rgba(200, 170, 110, 0.55);
+  border-radius: 999px;
+  background: rgba(5, 11, 24, 0.82);
+  backdrop-filter: blur(10px);
+  color: var(--gold-bright);
+}
+
+.speaker {
+  display: grid;
+  place-items: center;
+  width: 1.8rem;
+  height: 1.8rem;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+
+.speaker:hover {
+  background: rgba(200, 170, 110, 0.18);
+}
+
+.speaker:focus-visible,
+.sound input:focus-visible {
+  outline: 2px solid var(--hextech);
+  outline-offset: 2px;
+}
+
+.sound input {
+  width: 5.5rem;
+  height: 1.4rem;
+  margin: 0;
+  background: transparent;
+  accent-color: var(--hextech);
+  cursor: pointer;
+}
+
+.sound[data-muted="true"] {
+  color: var(--muted);
+}
+
+.sound[data-muted="true"] input {
+  opacity: 0.45;
+  accent-color: var(--muted);
+}
+
+@media (max-width: 640px) {
+  .sound input {
+    width: 4.2rem;
+  }
+}

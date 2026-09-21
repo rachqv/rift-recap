@@ -1,0 +1,39 @@
+{
+  "tryRange": "試試其他時間範圍：",
+  "field": {
+    "recent": "最近的玩家"
+  },
+  "squad": {
+    "title": "小隊回顧",
+    "lead": "輸入來自同一伺服器的兩到五個 Riot ID。我們會檢視你們<em>一起</em>打過的對局，並頒發獎項。",
+    "server": "伺服器",
+    "player": "玩家{n}（名稱#TAG）",
+    "playerOptional": "玩家{n}（名稱#TAG）選填",
+    "playerAria": "玩家{n}的 Riot ID",
+    "submit": "查看小隊回顧",
+    "fine": "只計算共同對局，所以最適合常一起排隊的朋友。<link>查看範例小隊</link>"
+  },
+  "clash": {
+    "title": "小隊對小隊",
+    "lead": "兩支同一伺服器的小隊，每隊兩到五人。我們會查看你們<em>互相對戰</em>的對局，例如自訂5v5。",
+    "server": "伺服器",
+    "sideA": "小隊1",
+    "sideB": "小隊2",
+    "player": "{side}，玩家{n}（名稱#TAG）",
+    "playerOptional": "{side}，玩家{n}（名稱#TAG）選填",
+    "playerAria": "{side}玩家{n}的Riot ID",
+    "submit": "比較兩支小隊",
+    "fine": "只統計每隊至少兩人分屬敵對雙方的對局。<link>查看範例</link>"
+  },
+  "versus": {
+    "title": "正面對決",
+    "lead": "選擇兩位玩家，看看誰更勝一籌：逐項數據、逐種風格，以及一起排隊時的表現。",
+    "player1": "玩家1",
+    "player2": "玩家2",
+    "serverAria": "{label}的伺服器",
+    "riotId": "Riot ID（名稱#TAG）",
+    "riotIdAria": "{label}的 Riot ID",
+    "submit": "比較",
+    "fine": "比較每位玩家最近的對局。<link>查看範例對決</link>"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "keyRejected": "A Riot API-kulcsot elutasították. A fejlesztői kulcsok 24 óránként lejárnak, ezért generálj újat.",
+  "notFound": "Nem található játékos ezzel a Riot ID-vel ebben a régióban. Ellenőrizd a helyesírást és a régiót.",
+  "rateLimit": "Elérted a Riot kérési korlátját. Várj egy percet, majd próbáld újra.",
+  "api": "A Riot API hibát jelzett.",
+  "cardFailed": "Nem sikerült megrajzolni a kártyát.",
+  "unknownRegion": "Ismeretlen régió.",
+  "noGamesCard": "Nincs meccs, amiből kártyát lehetne rajzolni.",
+  "noSharedGames": "Ezeknek a játékosoknak nincs közös meccse.",
+  "badSquad": "Érvénytelen csapatparaméterek.",
+  "playerMissing": "Az egyik játékos nem található.",
+  "badVersus": "Érvénytelen szemtől szemben paraméterek.",
+  "samePlayers": "Válassz két különböző játékost.",
+  "notEnough": "Nincs elég meccs az összehasonlításhoz."
+}

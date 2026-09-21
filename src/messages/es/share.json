@@ -1,0 +1,11 @@
+{
+  "share": "Compartir",
+  "download": "Descargar tarjeta",
+  "copyLink": "Copiar enlace",
+  "linkCopied": "Enlace copiado",
+  "copyFailed": "No se pudo copiar el enlace",
+  "shareFailed": "No se pudo abrir el menú de compartir",
+  "saveLater": "Guardar para comparar más tarde",
+  "saveRematch": "Guardar para la revancha",
+  "savedOpenLater": "Enlace copiado. Ábrelo más tarde"
+}

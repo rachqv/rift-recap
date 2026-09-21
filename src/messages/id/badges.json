@@ -1,0 +1,98 @@
+{
+  "penta": {
+    "name": "Pentakill",
+    "text": "Raih satu pentakill."
+  },
+  "quadra": {
+    "name": "Kolektor quadrakill",
+    "text": "Raih {target, plural, other {# quadrakill}}."
+  },
+  "triple": {
+    "name": "Ancaman triple kill",
+    "text": "Raih {target, plural, other {# triple kill}}."
+  },
+  "flawless": {
+    "name": "Tanpa cela",
+    "text": "Selesaikan satu pertandingan tanpa mati sekali pun."
+  },
+  "flawless5": {
+    "name": "Tak tersentuh",
+    "text": "Selesaikan {target, plural, other {# pertandingan}} tanpa mati sekali pun."
+  },
+  "streak": {
+    "name": "Sedang membara",
+    "text": "Menang {target, plural, other {# pertandingan}} berturut-turut."
+  },
+  "winrate": {
+    "name": "Sang pemenang",
+    "text": "Pertahankan win rate {target} dalam lebih dari {games} pertandingan."
+  },
+  "kills": {
+    "name": "Mesin pembunuh",
+    "text": "Raih {target, plural, other {# kill}} dalam satu pertandingan."
+  },
+  "perfect": {
+    "name": "Pertandingan sempurna",
+    "text": "Mainkan satu pertandingan dengan KDA {target} ke atas."
+  },
+  "firstblood": {
+    "name": "Raja first blood",
+    "text": "Ambil first blood sebanyak {target, plural, other {# kali}}."
+  },
+  "thief": {
+    "name": "Pencuri objektif",
+    "text": "Curi satu objektif."
+  },
+  "turrets": {
+    "name": "Penghancur",
+    "text": "Hancurkan {target, plural, other {# menara}}."
+  },
+  "variety": {
+    "name": "Serba bisa",
+    "text": "Mainkan {target, plural, other {# champion}} yang berbeda."
+  },
+  "loyal": {
+    "name": "Setia",
+    "text": "Mainkan satu champion sebanyak {target, plural, other {# kali}}."
+  },
+  "marathon": {
+    "name": "Maraton",
+    "text": "Mainkan satu pertandingan yang lebih dari {minutes} menit."
+  },
+  "bounce": {
+    "name": "Bangkit lagi",
+    "text": "Menangkan {target} dari pertandingan setelah kalah."
+  },
+  "hours": {
+    "name": "Waktu di Rift",
+    "text": "Habiskan {target, plural, other {# jam}} dalam pertandingan."
+  },
+  "dragon": {
+    "name": "Pembunuh naga",
+    "text": "Berikan serangan penghabisan pada {target, plural, other {# naga}}."
+  },
+  "baron": {
+    "name": "Pemburu Baron",
+    "text": "Berikan serangan penghabisan pada {target, plural, other {# Baron}}."
+  },
+  "teamplayer": {
+    "name": "Pemain tim",
+    "text": "Ikut serta dalam {target} dari kill timmu."
+  },
+  "duo": {
+    "name": "Sehidup semati",
+    "text": "Mainkan {target, plural, other {# pertandingan}} dengan rekan setim yang sama."
+  },
+  "vision": {
+    "name": "Mata elang",
+    "text": "Capai rata-rata {target} skor visi per menit."
+  },
+  "farm": {
+    "name": "Master farming",
+    "text": "Capai rata-rata {target} CS per menit."
+  },
+  "roles": {
+    "name": "Serba bisa",
+    "text": "Mainkan semua {target, plural, other {# role}}."
+  }
+}

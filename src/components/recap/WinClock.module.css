@@ -1,0 +1,167 @@
+/* When you win: win rate bars by time of day and weekday */
+.wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: clamp(0.8rem, 2.2vh, 1.4rem);
+  width: 100%;
+}
+
+/* Same footprint as the real thing, so the slide doesn't jump when the chart appears. */
+.placeholder {
+  width: min(100%, 30rem);
+  height: 20rem;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  width: min(100%, 30rem);
+  margin-inline: auto; /* centered in any parent, not only a centering flex column */
+}
+
+.title {
+  margin: 0;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted);
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.9);
+}
+
+.bars {
+  --height: clamp(3.6rem, 12vh, 6rem);
+  position: relative; /* for the screen-reader text in each column */
+  display: grid;
+  grid-template-columns: repeat(var(--count), 1fr);
+  gap: 0.4rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.column {
+  display: grid;
+  grid-template-rows: auto var(--height) auto auto;
+  justify-items: center;
+  gap: 0.2rem;
+  min-width: 0;
+}
+
+.value {
+  font-size: 0.78rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  color: #ebe5d5;
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.9);
+}
+
+.column[data-rated="false"] .value {
+  color: var(--muted);
+}
+
+/* Your overall win rate, so a bar reads as above or below your usual. Inside the track, where 100% is the bar scale. */
+.track::before {
+  content: "";
+  position: absolute;
+  inset-inline: -0.2rem;
+  bottom: calc(var(--average) * 100%);
+  border-top: 1px dashed rgba(235, 229, 213, 0.45);
+  pointer-events: none;
+}
+
+.track {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+  height: 100%;
+}
+
+.bar {
+  --tone: #0ac8b9;
+  width: 100%;
+  height: calc(var(--rate) * 100%);
+  min-height: 0.25rem;
+  border-radius: 0.3rem 0.3rem 0.1rem 0.1rem;
+  background: linear-gradient(to top, color-mix(in srgb, var(--tone) 55%, transparent), var(--tone));
+  transform-origin: bottom;
+  opacity: 0;
+  transform: scaleY(0.05);
+}
+
+.column[data-tone="best"] .bar {
+  --tone: #3ddc97;
+  box-shadow: 0 0 12px rgba(61, 220, 151, 0.45);
+}
+
+.column[data-tone="worst"] .bar {
+  --tone: #ff6b7d;
+  box-shadow: 0 0 12px rgba(255, 107, 125, 0.4);
+}
+
+/* Too few games to call: an outline, not a bar, so it isn't read as a real (and very low) win rate. */
+.column[data-rated="false"] .bar {
+  height: 0.25rem;
+  background: none;
+  border: 1px dashed rgba(255, 255, 255, 0.3);
+  box-shadow: none;
+}
+
+[data-active="true"] .bar {
+  animation: rise 0.6s cubic-bezier(0.2, 0.9, 0.3, 1) both;
+  animation-delay: calc(var(--i) * 50ms + 0.25s);
+}
+
+.name {
+  font-size: 0.72rem;
+  letter-spacing: 0.04em;
+  color: #ebe5d5;
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.9);
+}
+
+.games {
+  font-size: 0.66rem;
+  color: var(--muted);
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.9);
+}
+
+/* Read by screen readers instead of the bars, which are only a picture. */
+.sr {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: scaleY(0.05);
+  }
+  to {
+    opacity: 1;
+    transform: scaleY(1);
+  }
+}
+
+@media (max-width: 480px) {
+  .bars {
+    gap: 0.25rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .bar {
+    opacity: 1;
+    transform: none;
+  }
+
+  [data-active="true"] .bar {
+    animation: none;
+  }
+}

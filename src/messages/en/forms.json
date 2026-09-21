@@ -1,0 +1,39 @@
+{
+  "tryRange": "Try another time range:",
+  "field": {
+    "recent": "Recent players"
+  },
+  "squad": {
+    "title": "Squad recap",
+    "lead": "Enter two to five Riot IDs from the same server. We look at the games you played <em>together</em> and hand out the awards.",
+    "server": "Server",
+    "player": "Player {n} (Name#TAG)",
+    "playerOptional": "Player {n} (Name#TAG) optional",
+    "playerAria": "Player {n} Riot ID",
+    "submit": "Get the squad recap",
+    "fine": "Works best with people you queue with, since it only looks at shared games. <link>See a sample squad</link>"
+  },
+  "clash": {
+    "title": "Squad vs squad",
+    "lead": "Two squads of two to five, from the same server. We look at the games where you played <em>against each other</em>, like a custom 5v5.",
+    "server": "Server",
+    "sideA": "Squad 1",
+    "sideB": "Squad 2",
+    "player": "{side} player {n} (Name#TAG)",
+    "playerOptional": "{side} player {n} (Name#TAG) optional",
+    "playerAria": "{side} player {n} Riot ID",
+    "submit": "Compare the squads",
+    "fine": "Only counts games with at least two of each squad on opposite teams. <link>See a sample clash</link>"
+  },
+  "versus": {
+    "title": "Head-to-head",
+    "lead": "Pick two players and see who comes out ahead: stat by stat, style by style, and how you do when you queue together.",
+    "player1": "Player 1",
+    "player2": "Player 2",
+    "serverAria": "{label} server",
+    "riotId": "Riot ID (Name#TAG)",
+    "riotIdAria": "{label} Riot ID",
+    "submit": "Compare",
+    "fine": "Compares each player's latest games. <link>See a sample matchup</link>"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "share": "共有",
+  "download": "カードをダウンロード",
+  "copyLink": "リンクをコピー",
+  "linkCopied": "リンクをコピーしました",
+  "copyFailed": "リンクをコピーできませんでした",
+  "shareFailed": "共有シートを開けませんでした",
+  "saveLater": "あとで比較するために保存",
+  "saveRematch": "リマッチ用に保存",
+  "savedOpenLater": "リンクをコピーしました。あとで開いてください"
+}

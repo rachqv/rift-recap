@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "title": "Beispiel-Rückblick · Rift Recap"
+  },
+  "switcher": {
+    "label": "Beispielspieler",
+    "previous": "Vorheriger Beispielspieler",
+    "next": "Nächster Beispielspieler",
+    "player": "Beispielspieler",
+    "show": "Anzeigen"
+  },
+  "players": {
+    "onetrick": "One-Trick",
+    "specialist": "Spezialist",
+    "explorer": "Entdecker",
+    "chameleon": "Chamäleon",
+    "showstopper": "Showstopper",
+    "slayer": "Schlächter",
+    "daredevil": "Draufgänger",
+    "support": "Spielmacher",
+    "unlucky": "Glückloser Held",
+    "phoenix": "Phönix",
+    "risingstar": "Aufsteiger",
+    "streaker": "Siegesserie",
+    "scout": "Späher",
+    "farmer": "Farmer",
+    "heavyhitter": "Schwergewicht",
+    "everpresent": "Immer dabei",
+    "opener": "Eröffner",
+    "untouchable": "Unantastbar",
+    "closer": "Finisher",
+    "marathoner": "Marathonläufer",
+    "speedrunner": "Speedrunner",
+    "assassin": "Assassine",
+    "archmage": "Erzmagier",
+    "sharpshooter": "Scharfschütze",
+    "brawler": "Raufbold",
+    "bulwark": "Bollwerk",
+    "aramfan": "ARAM-Fan",
+    "casual": "Gelegenheitsspieler",
+    "demolisher": "Abrissbirne",
+    "thief": "Dieb",
+    "grinder": "Vielspieler",
+    "pathfinder": "Pfadfinder",
+    "islander": "Inselbewohner",
+    "centerpiece": "Mittelpunkt",
+    "carry": "Carry",
+    "guardian": "Wächter"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "verdict": {
+    "perfect": "Svůj tým znáš lépe, než se zná tým sám.",
+    "good": "Není to špatné. Je vidět, že jsi sledoval.",
+    "low": "Možná bys měl trávit víc času s přáteli."
+  },
+  "result": "Výsledek kvízu",
+  "round": "Kdo to vyhrál? {step} z {total}",
+  "again": "Hrát znovu",
+  "group": "Kdo získal toto ocenění?",
+  "right": "Správně!",
+  "wrong": "Ne, byl to {name}.",
+  "reveal": "{verdict} {line}",
+  "pick": "Vyber hráče.",
+  "score": "Zobrazit skóre",
+  "next": "Další ocenění",
+  "guess": {
+    "eyebrow": "Hádej svůj archetyp",
+    "lead": "Tři nápovědy, čtyři archetypy. Který jsi ty?",
+    "clueMain": "Nejvíc hraný: {champion}",
+    "clueRate": "Poměr výher {rate}",
+    "clueKda": "KDA {kda}",
+    "group": "Který archetyp jsi?",
+    "right": "Přesně tak. Svou hru znáš.",
+    "wrong": "Skoro. Jsi {title}.",
+    "next": "Pokračuj pro celé odhalení."
+  }
+}

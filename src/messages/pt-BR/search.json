@@ -1,0 +1,15 @@
+{
+  "placeholder": "Riot ID (Nome#TAG)",
+  "riotId": "Riot ID",
+  "region": "Região",
+  "submit": "Ver meu resumo",
+  "suggestions": "Sugestões de jogadores",
+  "heading": {
+    "recent": "Pesquisas recentes",
+    "sample": "Jogadores de exemplo"
+  },
+  "sample": "Exemplo",
+  "count": "{count, plural, one {# sugestão disponível} other {# sugestões disponíveis}}",
+  "empty": "Nenhum jogador salvo corresponde. Pressione Enter para buscar <strong>{query}</strong> na Riot.",
+  "clear": "Limpar pesquisas recentes"
+}

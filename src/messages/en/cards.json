@@ -1,0 +1,39 @@
+{
+  "thisSeason": "This season, I was",
+  "disclaimer": "Rift Recap isn't endorsed by Riot Games and doesn't reflect the views or opinions of Riot Games or anyone officially involved in producing or managing Riot Games properties.",
+  "games": "Games",
+  "winRate": "Win rate",
+  "kda": "KDA",
+  "trophies": "Trophies",
+  "rank": "Rank",
+  "main": "Main",
+  "topChampion": "Top champion",
+  "gamesCount": "{count, plural, one {# game} other {# games}}",
+  "squad": {
+    "header": "Squad recap",
+    "gamesTogether": "Games together",
+    "hours": "Hours",
+    "together": "Together",
+    "awards": "The awards"
+  },
+  "versus": {
+    "header": "Head-to-head",
+    "vs": "VS",
+    "rowsWon": "Rows won",
+    "scenarios": "Best scenarios",
+    "numbers": "The numbers",
+    "unranked": "Unranked"
+  },
+  "bingo": {
+    "header": "Trophy bingo",
+    "free": "Free",
+    "lines": "Bingos",
+    "next": "Next bingo: {name}"
+  },
+  "form": {
+    "best": "Best stretch",
+    "worst": "Worst stretch",
+    "now": "Now",
+    "ended": "Ended {date}"
+  }
+}

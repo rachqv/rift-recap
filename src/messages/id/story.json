@@ -1,0 +1,17 @@
+{
+  "sections": "Bagian rangkuman",
+  "controls": "Tayangan slide dan suara",
+  "play": "Putar tayangan slide",
+  "pause": "Jeda",
+  "resume": "Lanjutkan",
+  "stop": "Hentikan tayangan slide",
+  "mute": "Bisukan",
+  "unmute": "Nyalakan suara",
+  "volume": "Volume",
+  "playing": "Tayangan slide diputar",
+  "paused": "Tayangan slide dijeda",
+  "label": "Rangkumanmu",
+  "previous": "Slide sebelumnya",
+  "next": "Slide berikutnya",
+  "copyLink": "Salin tautan ke slide ini"
+}

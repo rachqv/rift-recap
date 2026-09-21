@@ -1,0 +1,215 @@
+{
+  "onetrick": {
+    "title": "一英雄玩家",
+    "tagline": "忠诚高于一切。",
+    "description": "你有{share}的对局用的是{top}。有人管这叫固执，我们管这叫精通。"
+  },
+  "specialist": {
+    "title": "专精玩家",
+    "tagline": "两个英雄，完全精通。",
+    "description": "你有{share}的对局用的是{top}或{second}。你清楚自己擅长什么。"
+  },
+  "explorer": {
+    "title": "探索者",
+    "tagline": "能全玩，何必只选一个？",
+    "description": "{games, plural, other {#局}}里用了{unique, plural, other {#个}}不同的英雄。你从不在一个地方久留。"
+  },
+  "chameleon": {
+    "title": "变色龙",
+    "tagline": "补位？没问题。",
+    "description": "打了{roles, plural, other {#个}}不同的位置，没有特别偏爱。每条路都是家，队友很感激。"
+  },
+  "showstopper": {
+    "title": "全场焦点",
+    "tagline": "生来就是为了集锦。",
+    "description": "{penta, plural, other {#次}}五杀、{quadra, plural, other {#次}}四杀和{triple, plural, other {#次}}三杀。集锦是你做出来的。",
+    "descriptionAlt": "{quadra, plural, other {#次}}四杀和{triple, plural, other {#次}}三杀。团战越乱，你越响亮。"
+  },
+  "thief": {
+    "title": "窃贼",
+    "tagline": "好龙。可惜现在是我的了。",
+    "description": "偷取了{count, plural, other {#个}}目标。没人说必须公平。"
+  },
+  "slayer": {
+    "title": "屠戮者",
+    "tagline": "你来这里就是为了击杀。",
+    "description": "{games, plural, other {#局}}中共{kills, plural, other {#次击杀}}，平均每局约{perGame}次。你的名字常驻击杀播报。"
+  },
+  "daredevil": {
+    "title": "亡命徒",
+    "tagline": "每场战斗都值得一打。",
+    "description": "{deaths, plural, other {#次死亡}}，毫无后悔。你从未停止冲进战场。"
+  },
+  "playmaker": {
+    "title": "组织者",
+    "tagline": "队伍最好的朋友。",
+    "description": "{assists, plural, other {#次助攻}}，平均每局{perGame}次。你搭好局，把荣耀留给队友。"
+  },
+  "unlucky": {
+    "title": "不幸的英雄",
+    "tagline": "数据漂亮，队友存疑。",
+    "description": "KDA达到{kda}，胜率却只有{winRate}。数据说明这不是你的错。"
+  },
+  "phoenix": {
+    "title": "凤凰",
+    "tagline": "你每次都能浴火重生。",
+    "description": "经历过{streak}连败，最终胜率仍达到{winRate}。这就是韧性。"
+  },
+  "risingstar": {
+    "title": "新星",
+    "tagline": "随着赛季推进，你越打越好。",
+    "description": "你的胜率从{early}升到{late}。趋势线只朝一个方向：向上。"
+  },
+  "streaker": {
+    "title": "连胜狂",
+    "tagline": "一旦开始赢，就停不下来。",
+    "description": "巅峰时连胜{streak}局。没人想站在对面。"
+  },
+  "scout": {
+    "title": "侦察兵",
+    "tagline": "什么都逃不过你的眼位。",
+    "description": "每分钟{vision}视野得分。你为所有人点亮了灯。"
+  },
+  "farmer": {
+    "title": "农场主",
+    "tagline": "金币就是生活方式。",
+    "description": "每分钟{cs}个小兵。炮车兵线一波都不漏。"
+  },
+  "heavyhitter": {
+    "title": "重炮手",
+    "tagline": "你打伤害，而且是大量伤害。",
+    "description": "每分钟对英雄造成{damage}伤害。血条在你身边撑不了多久。"
+  },
+  "everpresent": {
+    "title": "无处不在",
+    "tagline": "每一场团战你都在。",
+    "description": "你参与了队伍{kp}的击杀。只要有团战，就有你。"
+  },
+  "opener": {
+    "title": "开团者",
+    "tagline": "一血就是你的握手礼。",
+    "description": "{count, plural, other {#次}}一血。别人还没到，你就开始了派对。"
+  },
+  "demolisher": {
+    "title": "拆迁队",
+    "tagline": "只要有地基，它就会倒下。",
+    "description": "{games, plural, other {#局}}中拆了{turrets, plural, other {#座}}防御塔，平均每局约{perGame}座。建筑都怕你。"
+  },
+  "untouchable": {
+    "title": "不可触碰",
+    "tagline": "死亡是别人的事。",
+    "description": "每局仅{perGame}次死亡，其中有{deathless, plural, other {#局}}一次都没死。",
+    "descriptionAlt": "每局仅{perGame}次死亡。灰屏几乎不认识你。"
+  },
+  "closer": {
+    "title": "终结者",
+    "tagline": "你就是赢。就这么简单。",
+    "description": "胜率{winRate}。你一开始排队，对面就该担心了。"
+  },
+  "marathoner": {
+    "title": "马拉松选手",
+    "tagline": "你不说结束，比赛就不会结束。",
+    "description": "你的对局平均时长{minutes}分钟。你打的是字面意义上的持久战。"
+  },
+  "speedrunner": {
+    "title": "速通玩家",
+    "tagline": "何必等？现在就结束。",
+    "description": "你的对局平均只有{minutes}分钟。水还没烧开，水晶就爆了。"
+  },
+  "assassin": {
+    "title": "刺客",
+    "tagline": "切入、撤离、消失。",
+    "description": "你有{share}的对局用的是刺客。选定目标，直接抹除。"
+  },
+  "archmage": {
+    "title": "大法师",
+    "tagline": "冷却时间只是个建议。",
+    "description": "你有{share}的对局用的是法师。先放技能，再问问题。"
+  },
+  "sharpshooter": {
+    "title": "神射手",
+    "tagline": "射程就是生活方式。",
+    "description": "你有{share}的对局用的是射手。每场战斗在安全距离外看都更好。"
+  },
+  "brawler": {
+    "title": "斗士",
+    "tagline": "近身肉搏。",
+    "description": "你有{share}的对局用的是战士。你喜欢伸手就能碰到的战斗。"
+  },
+  "bulwark": {
+    "title": "坚盾",
+    "tagline": "没有什么能越过你。",
+    "description": "你有{share}的对局用的是坦克。总得有人扛伤害，那就是你。"
+  },
+  "pathfinder": {
+    "title": "开拓者",
+    "tagline": "野区是你的。",
+    "description": "你有{share}的对局位置是{role}。你熟悉每个野怪营地、每个计时和每片草丛。"
+  },
+  "islander": {
+    "title": "孤岛居民",
+    "tagline": "上路。与自己的思绪独处。",
+    "description": "你有{share}的对局位置是{role}。整条路都归你，而你喜欢这样。"
+  },
+  "centerpiece": {
+    "title": "核心",
+    "tagline": "条条大路通中路。",
+    "description": "你有{share}的对局位置是{role}。你身处地图交汇之处，也是团战发起之地。"
+  },
+  "carry": {
+    "title": "带飞者",
+    "tagline": "总得有人撑起队伍。",
+    "description": "你有{share}的对局位置是{role}。后期队友把方向盘交给你，而你能交出答卷。"
+  },
+  "guardian": {
+    "title": "守护者",
+    "tagline": "你让队伍活下去。",
+    "description": "你有{share}的对局位置是{role}。护盾、治疗、保护和眼位。队伍靠你运转。"
+  },
+  "grinder": {
+    "title": "肝帝",
+    "tagline": "稳定、可靠、永远在排队。",
+    "description": "{games, plural, other {#局}}对局、{hours}小时的持续投入。没人像你这样刷。"
+  },
+  "rarity": {
+    "common": "普通",
+    "uncommon": "少见",
+    "rare": "稀有",
+    "legendary": "传说",
+    "under": "低于{share}",
+    "about": "约{share}",
+    "chip": "<b>{tier}</b> · 占玩家的{share}",
+    "badge": "{tier} · 占玩家的{share}"
+  },
+  "duration": "{minutes}分钟",
+  "insights": {
+    "games": {
+      "days": "相当于在峡谷里度过了整整{days}天。",
+      "films": "相当于看了{films, plural, other {约#部}}纯英雄联盟的长片电影。"
+    },
+    "win": {
+      "dominant": "统治力十足。敌方队伍看到你的名字就叹气。",
+      "good": "赢多输少。胜点源源不断。",
+      "balanced": "完美均衡，正如万物应有的样子。",
+      "challenge": "匹配系统给了你一场考验，而你继续排队。",
+      "rough": "一段艰难时期。每个传奇都有救赎篇章，而你的现在开始。"
+    },
+    "streak": {
+      "long": "你最长的连胜是{streak, plural, other {#连胜}}。",
+      "short": "你的连胜不长，但每一局都是新的开始。"
+    },
+    "comeback": "你甚至从{streak}连败中重新站了起来。",
+    "champion": {
+      "oneTrick": "你有{share}的对局用的是{top}。这就是一英雄玩家的气场。",
+      "variety": "你用了{unique, plural, other {#个}}不同的英雄，但{top}才是你的家。",
+      "favorite": "用{top}打了{games, plural, other {#局}}。明显的最爱。"
+    },
+    "kda": {
+      "rarelyDie": "你几乎不死。敌方打野恨死这一点。",
+      "everyFight": "每一场战斗都是你的战斗。",
+      "teamFirst": "团队至上。你的带飞对象欠你人情。",
+      "bold": "大胆又激进。你见过不少灰屏。",
+      "balanced": "均衡而可靠的数据。"
+    }
+  }
+}

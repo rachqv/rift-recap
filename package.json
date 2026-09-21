@@ -1,0 +1,40 @@
+{
+  "name": "rift-recap",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "test": "vitest run",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "test-storybook": "cross-env NODE_OPTIONS=--experimental-vm-modules test-storybook",
+    "test:stories": "concurrently -k -s first -n SB,TEST -c magenta,green \"http-server storybook-static --port 6006 --silent\" \"wait-on tcp:127.0.0.1:6006 && npm run test-storybook -- --url http://127.0.0.1:6006\"",
+    "test:stories:ci": "npm run build-storybook && npm run test:stories",
+    "i18n:status": "node scripts/i18n-status.mjs"
+  },
+  "dependencies": {
+    "intl-messageformat": "^12.1.2",
+    "next": "16.3.5",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "server-only": "^0.0.1"
+  },
+  "devDependencies": {
+    "@storybook/nextjs-vite": "^10.6.0",
+    "@storybook/test-runner": "^0.24.5",
+    "babel-plugin-react-compiler": "1.0.0",
+    "concurrently": "^10.0.5",
+    "cross-env": "^10.1.0",
+    "eslint": "^9",
+    "eslint-config-next": "16.3.5",
+    "http-server": "^14.1.1",
+    "storybook": "^10.6.0",
+    "vite": "^8.3.0",
+    "vitest": "^5.0.1",
+    "wait-on": "^9.1.0"
+  }
+}

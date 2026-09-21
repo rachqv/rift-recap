@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "title": "Deine Spieler · Rift Recap"
+  },
+  "title": "Deine Spieler",
+  "lead": "Alle, die du auf diesem Gerät gesucht hast, mit einer Verknüpfung zu ihrem Rückblick, einem Kopf-an-Kopf oder einem Squad.",
+  "empty": "Noch keine Spieler. Suche auf der <home>Startseite</home> jemanden, und er erscheint hier.",
+  "recap": "Rückblick",
+  "versus": "Kopf-an-Kopf",
+  "squad": "Squad",
+  "remove": "{name} aus dieser Liste entfernen",
+  "clear": "Alle löschen",
+  "pin": "{name} oben anheften",
+  "unpin": "Anheftung von {name} lösen",
+  "clearUnpinned": "Nicht angeheftete löschen"
+}

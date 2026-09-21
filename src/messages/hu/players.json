@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "title": "A játékosaid · Rift Recap"
+  },
+  "title": "A játékosaid",
+  "lead": "Mindenki, akit ezen az eszközön kerestél, gyorsgombbal az összegzésükhöz, a szemtől szemben nézetükhöz vagy a csapatukhoz.",
+  "empty": "Még nincsenek játékosok. Keress valakit a <home>főoldalon</home>, és megjelenik itt.",
+  "recap": "Összegzés",
+  "versus": "Szemtől szemben",
+  "squad": "Csapat",
+  "remove": "{name} eltávolítása erről a listáról",
+  "clear": "Összes törlése",
+  "pin": "{name} kitűzése felülre",
+  "unpin": "{name} kitűzésének megszüntetése",
+  "clearUnpinned": "Nem kitűzöttek törlése"
+}

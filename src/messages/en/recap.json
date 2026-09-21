@@ -1,0 +1,381 @@
+{
+  "season": "Season {year}",
+  "strip": "{wins, plural, one {# win} other {# wins}} and {losses, plural, one {# loss} other {# losses}}, oldest game first",
+  "record": "{wins}W · {losses}L",
+  "recordChip": "<good>{wins}</good>W <bad>{losses}</bad>L",
+  "winRateChip": "<b>{rate}</b> win rate",
+  "kdaChip": "<b>{kda}</b> KDA",
+  "gamesChip": "{count, plural, one {<b>#</b> game} other {<b>#</b> games}}",
+  "gamesLabel": "{count, plural, one {# game} other {# games}}",
+  "intro": {
+    "eyebrow": "{season} recap",
+    "caption": "{games, plural, other {We went through # of your games. Ready to see how you did?}}",
+    "scroll": "Scroll"
+  },
+  "games": {
+    "eyebrow": "You showed up",
+    "played": "{count, plural, one {game played} other {games played}}",
+    "riftOnly": "{count, plural, one {Summoner's Rift game} other {Summoner's Rift games}}",
+    "wins": "{count, plural, one {<good>#</good> win} other {<good>#</good> wins}}",
+    "losses": "{count, plural, one {<bad>#</bad> loss} other {<bad>#</bad> losses}}",
+    "hours": "{n, plural, one {<b>{value}</b> hour} other {<b>{value}</b> hours}}"
+  },
+  "win": {
+    "eyebrow": "Your win rate"
+  },
+  "champion": {
+    "eyebrow": "Your signature champion",
+    "more": "All your {champion} games",
+    "back": "Back to your full recap",
+    "pageTitle": "{champion} · {name}#{tag} · Rift Recap",
+    "noneTitle": "No games on this champion",
+    "none": "{who} has no games on {champion} in this time range. Try another champion from the recap.",
+    "pageEyebrow": "Champion report"
+  },
+  "kda": {
+    "eyebrow": "Your combat stats",
+    "kills": "kills",
+    "deaths": "deaths",
+    "assists": "assists",
+    "perGame": "{value} / game",
+    "best": "Your best game",
+    "bestLine": "{champion} · {kills}/{deaths}/{assists}",
+    "victory": "Victory",
+    "defeat": "Defeat"
+  },
+  "style": {
+    "eyebrow": "How you play",
+    "mainRole": "main role · {share}",
+    "cs": "CS per minute",
+    "vision": "vision per minute",
+    "damage": "damage per minute",
+    "kp": "kill participation",
+    "penta": "{count, plural, one {<b>#</b> pentakill} other {<b>#</b> pentakills}}",
+    "quadra": "{count, plural, one {<b>#</b> quadrakill} other {<b>#</b> quadrakills}}",
+    "triple": "{count, plural, one {<b>#</b> triple kill} other {<b>#</b> triple kills}}",
+    "firstBloods": "{count, plural, one {<b>#</b> first blood} other {<b>#</b> first bloods}}",
+    "deathless": "{count, plural, one {<b>#</b> deathless game} other {<b>#</b> deathless games}}",
+    "longestWon": "Your longest game was {duration} on {champion}. You won it, too.",
+    "longestLost": "Your longest game was {duration} on {champion}. Sometimes they just don't end well."
+  },
+  "mode": {
+    "aram": {
+      "eyebrow": "Down the Howling Abyss",
+      "label": "{count, plural, one {ARAM game} other {ARAM games}}"
+    },
+    "normal": {
+      "eyebrow": "Just for fun",
+      "label": "{count, plural, one {normal game} other {normal games}}"
+    }
+  },
+  "rank": {
+    "emblem": "{title} emblem",
+    "lp": "<b>{lp}</b> LP",
+    "caption": "Your rank right now. Every climb starts with the next game."
+  },
+  "persona": {
+    "eyebrow": "This season, you were",
+    "also": "Also a bit of {list}",
+    "main": "<b>{champion}</b> main",
+    "shareTitle": "My League season: {title}",
+    "compare": "Compare with a friend",
+    "squad": "Squad recap",
+    "search": "Search another player",
+    "count": "1 of {count} archetypes",
+    "countEstimate": "1 of {count} archetypes · rarity is an estimate"
+  },
+  "calendar": {
+    "eyebrow": "Your calendar",
+    "note": "Based on your latest {count, plural, one {# game} other {# games}}."
+  },
+  "clock": {
+    "eyebrow": "When you win"
+  },
+  "items": {
+    "eyebrow": "Your go-to item",
+    "inGames": "{games, plural, one {In <b>{count}</b> of your # game} other {In <b>{count}</b> of your # games}}",
+    "winWith": "<b>{rate}</b> win rate with it",
+    "without": "<b>{rate}</b> without",
+    "boots": "Boots"
+  },
+  "objectives": {
+    "eyebrow": "Objectives",
+    "lead": "Your teams took, across {games, plural, one {# game} other {# games}}",
+    "tiles": {
+      "tower": "Turrets",
+      "dragon": "Dragons",
+      "baron": "Barons",
+      "herald": "Heralds",
+      "grubs": "Void Grubs",
+      "inhibitor": "Inhibitors"
+    },
+    "youTotal": "you: {count}",
+    "youSecured": "you secured {count}",
+    "perGame": "{value} per game",
+    "firstTower": "First tower in <b>{rate}</b> of games",
+    "withWithout": "<good>{withIt}</good> wins with it · <b>{without}</b> without",
+    "stolen": "<b>{count}</b> stolen"
+  },
+  "tilt": {
+    "eyebrow": {
+      "tilt": "Tilt check",
+      "resilient": "Bounce-back check",
+      "steady": "Mindset check"
+    },
+    "afterWin": "After a win",
+    "afterLoss": "After a loss",
+    "tilts": "Tilts after a loss",
+    "bounces": "Bounces back"
+  },
+  "comfort": {
+    "eyebrow": "Your comfort zone",
+    "lead": "Win rate by champion, against your {rate} overall"
+  },
+  "gray": {
+    "eyebrow": "The gray screen",
+    "unit": "h",
+    "spentDead": "spent dead",
+    "aliveAria": "Alive {alive} of the time, dead {dead}",
+    "alive": "Alive {value}",
+    "dead": "Dead {value}",
+    "share": "<b>{share}</b> of your time in game",
+    "perGame": "<b>{minutes}</b> min a game",
+    "films": "{n, plural, one {About <b>#</b> film} other {About <b>#</b> films}}"
+  },
+  "progress": {
+    "eyebrow": "Since last time",
+    "lead": "{date} · {saved, plural, one {# game} other {# games}} → now {games}",
+    "was": " · was {persona}",
+    "improved": "<good>▲ {count}</good> improved",
+    "slipped": "<bad>▼ {count}</bad> slipped",
+    "mood": {
+      "better": "improved",
+      "worse": "slipped",
+      "flat": "no change"
+    }
+  },
+  "trophies": {
+    "eyebrow": "Your trophy shelf",
+    "of": "of {total} unlocked",
+    "unlocked": "Unlocked",
+    "progress": "{percent} there",
+    "next": "Closest to unlocking: {name} ({percent}). {text}",
+    "all": "Every trophy you could earn, you earned.",
+    "lines": "Bingos <b>{count}</b>",
+    "free": "Free",
+    "board": "Trophy bingo board",
+    "nextBingo": "Next bingo: {name} ({percent}). {text}",
+    "shareTitle": "My Rift Recap trophy bingo"
+  },
+  "blame": {
+    "eyebrow": "Was it you?",
+    "carry": "You carried",
+    "weak": "The weak link",
+    "team": "Team effort",
+    "across": "Across your {losses, plural, one {# loss} other {# losses}}",
+    "topDamage": "Top damage",
+    "chance": "Chance alone is {rate}",
+    "deaths": "Team's deaths",
+    "average": "Average is {rate}"
+  },
+  "tierList": {
+    "eyebrow": "Your tier list",
+    "aria": "Champion tier list",
+    "title": "{name}: {winRate} over {games, plural, one {# game} other {# games}}",
+    "note": "Ranked by win rate, then KDA. Champions with under 4 games are left out."
+  },
+  "habits": {
+    "eyebrow": "Your habits",
+    "pings": "{value} pings a game",
+    "flash": "Flash on {key} · {value} casts a game",
+    "pairShare": "in {share} of games",
+    "quits": "{enemy} enemy quits · {ours} yours",
+    "ping": "Ping style",
+    "spells": "Summoner spells",
+    "surrender": "Ended in surrender"
+  },
+  "damage": {
+    "eyebrow": "Your damage",
+    "parts": {
+      "physical": "Physical",
+      "magic": "Magic",
+      "true": "True"
+    },
+    "partAria": "{label} {share}"
+  },
+  "comp": {
+    "eyebrow": "Team composition",
+    "with": "With a <b>{class}</b>",
+    "games": "{withGames, plural, one {# game} other {# games}} vs {withoutGames, plural, one {# game} other {# games}} without",
+    "versus": "vs {rate}"
+  },
+  "sessions": {
+    "eyebrow": "Your nights",
+    "lead": "{count, plural, one {# sitting} other {# sittings}} · about {avg} games each",
+    "best": "Best night",
+    "worst": "Worst night",
+    "longest": "Longest sitting",
+    "meta": "{games, plural, one {# game} other {# games}} · {date}"
+  },
+  "highlights": {
+    "eyebrow": "Highlight reel",
+    "minutes": "{count, plural, one {# minute} other {# minutes}}",
+    "meta": "{what} · {date}",
+    "won": "Won",
+    "lost": "Lost",
+    "caption": "The games you'll bring up at parties."
+  },
+  "lane": {
+    "lane": "Lane check",
+    "gold": "Gold habits",
+    "cs": "CS vs lane opponent",
+    "goldDiff": "Gold vs lane opponent",
+    "damage": "Damage vs lane opponent",
+    "unspent": "Gold unspent at the end",
+    "ahead": "Ahead on gold in <b>{rate}</b> of {games, plural, one {# game} other {# games}}",
+    "kills": "{value} kills a game",
+    "csValue": "{value} CS"
+  },
+  "early": {
+    "eyebrow": "At 15 minutes",
+    "titles": {
+      "early": "Early-game bully",
+      "late": "Late-game scaler",
+      "steady": "Steady hand"
+    },
+    "parts": {
+      "ahead": "Ahead",
+      "even": "Level",
+      "behind": "Behind"
+    },
+    "aria": "{label} in {n, plural, one {# game} other {# games}}",
+    "wonAhead": "Won <good>{wins}</good> of {total} from ahead",
+    "wonBehind": "Won <b>{wins}</b> of {total} from behind",
+    "lead": "Your latest {games, plural, one {# lane game} other {# lane games}}, against your lane opponent"
+  },
+  "chapters": {
+    "eyebrow": "Your season in chapters",
+    "wins": "{rate} wins",
+    "note": "Each chapter is scored on its own games, so short ones are less certain."
+  },
+  "flames": {
+    "eyebrow": "Old flames",
+    "lead": "Champions you know well and hardly touched this season",
+    "mastery": "Mastery {level} · {played}",
+    "notPlayed": "not played",
+    "caption": "{champion} has {points} mastery points behind it. It misses you."
+  },
+  "social": {
+    "duo": {
+      "eyebrow": "Your duo",
+      "together": "{count, plural, one {game together} other {games together}}",
+      "winTogether": "<b>{rate}</b> win rate together",
+      "apart": "<b>{rate}</b> apart",
+      "combo": "Best combo <b>{pair}</b>",
+      "alone": "Every game this season was with {name}. That's commitment.",
+      "better": "You win {withRate} with {name} and {without} without. Keep the band together.",
+      "worse": "You win less with {name} ({withRate} vs {without} solo). Friendship over stats.",
+      "same": "About the same win rate with or without {name}. It's about the company.",
+      "seeRecap": "See {name}'s recap",
+      "versus": "Head-to-head"
+    },
+    "matchup": {
+      "single": "Your lane opponent",
+      "both": "Nemesis vs best matchup",
+      "nemesis": "Your nemesis",
+      "best": "Your best matchup",
+      "vs": "VS",
+      "record": "<good>{wins}W</good> <bad>{losses}L</bad>",
+      "meta": "{rate} win rate",
+      "metaAs": "{rate} win rate · as {champion}",
+      "insightBoth": "Ban {nemesis}, and hope for {best}.",
+      "insightNemesis": "{nemesis} is your kryptonite. Consider a ban.",
+      "insightBest": "{best} never stood a chance against you."
+    }
+  },
+  "rail": {
+    "start": "Start",
+    "games": "Games",
+    "week": "Week on week",
+    "form": "Form",
+    "calendar": "Calendar",
+    "clock": "Clock",
+    "patches": "Patches",
+    "nights": "Nights",
+    "wins": "Wins",
+    "progress": "Progress",
+    "tilt": "Tilt",
+    "tiltGuard": "Stop sign",
+    "blame": "Was it you?",
+    "champion": "Champion",
+    "comfort": "Comfort",
+    "flames": "Old flames",
+    "tierList": "Tier list",
+    "pool": "Try next",
+    "combat": "Combat",
+    "highlights": "Highlights",
+    "damage": "Damage",
+    "gray": "Gray screen",
+    "playstyle": "Playstyle",
+    "lane": "Lane",
+    "early": "Early game",
+    "habits": "Habits",
+    "items": "Items",
+    "runes": "Runes",
+    "objectives": "Objectives",
+    "duo": "Duo",
+    "matchups": "Matchups",
+    "comps": "Team comps",
+    "normals": "Normals",
+    "aram": "ARAM",
+    "chapters": "Chapters",
+    "trophies": "Trophies",
+    "rank": "Rank",
+    "guess": "Guess",
+    "you": "You",
+    "back": "Back"
+  },
+  "page": {
+    "title": "{name}#{tag} · Rift Recap",
+    "description": "A League of Legends season recap: stats, an archetype and a shareable card.",
+    "failed": "Couldn't load this recap",
+    "noGamesTitle": "No games yet",
+    "noGames": "We couldn't find any games for {who} since {since}. Play a few matches and come back.",
+    "noRangeTitle": "No games in this time range",
+    "noRange": "{who} hasn't played a game since {since}. Try a longer range."
+  },
+  "tiltguard": {
+    "eyebrow": "Tilt guard",
+    "step1": "After 1 loss",
+    "step2": "After 2 in a row",
+    "step3": "After 3+ in a row",
+    "live": "Right now"
+  },
+  "formcurve": {
+    "eyebrow": "Your season as a line",
+    "lead": "Win rate over any {games}",
+    "best": "Best <b>{rate}</b> · ended {date}",
+    "worst": "Worst <b>{rate}</b> · ended {date}",
+    "now": "Now <b>{rate}</b>",
+    "aria": "Rolling win rate: best {best}, worst {worst}, latest {now}",
+    "shareTitle": "My season as a line"
+  },
+  "week": {
+    "eyebrow": "Last 7 days vs the 7 before",
+    "lead": "{now} now · {before} then"
+  },
+  "patches": {
+    "eyebrow": "Patch by patch",
+    "title": "Win rate by patch"
+  },
+  "runes": {
+    "eyebrow": "Your keystone rune",
+    "winWith": "<b>{rate}</b> win rate with it",
+    "without": "<b>{rate}</b> without"
+  },
+  "pool": {
+    "eyebrow": "Champions to try",
+    "because": "Because {champion} works for you: {rate} win rate",
+    "note": "Picked for a similar class and playstyle. A suggestion, not a promise."
+  }
+}

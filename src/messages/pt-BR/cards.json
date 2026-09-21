@@ -1,0 +1,39 @@
+{
+  "thisSeason": "Nesta temporada, eu fui",
+  "disclaimer": "O Rift Recap não é endossado pela Riot Games e não reflete as opiniões da Riot Games nem de qualquer pessoa oficialmente envolvida na produção ou no gerenciamento das propriedades da Riot Games.",
+  "games": "Partidas",
+  "winRate": "Vitórias",
+  "kda": "KDA",
+  "trophies": "Troféus",
+  "rank": "Elo",
+  "main": "Main",
+  "topChampion": "Campeão favorito",
+  "gamesCount": "{count, plural, one {# partida} other {# partidas}}",
+  "squad": {
+    "header": "Resumo do grupo",
+    "gamesTogether": "Partidas juntos",
+    "hours": "Horas",
+    "together": "Juntos",
+    "awards": "Os prêmios"
+  },
+  "versus": {
+    "header": "Frente a frente",
+    "vs": "VS",
+    "rowsWon": "Linhas vencidas",
+    "scenarios": "Melhores cenários",
+    "numbers": "Os números",
+    "unranked": "Sem ranking"
+  },
+  "bingo": {
+    "header": "Bingo de troféus",
+    "free": "Grátis",
+    "lines": "Bingos",
+    "next": "Próximo bingo: {name}"
+  },
+  "form": {
+    "best": "Melhor fase",
+    "worst": "Pior fase",
+    "now": "Agora",
+    "ended": "Terminou em {date}"
+  }
+}

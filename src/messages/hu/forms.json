@@ -1,0 +1,39 @@
+{
+  "tryRange": "Próbálj ki egy másik időszakot:",
+  "field": {
+    "recent": "Legutóbbi játékosok"
+  },
+  "squad": {
+    "title": "Csapatösszegzés",
+    "lead": "Adj meg kettőtől ötig Riot ID-t ugyanarról a szerverről. Megnézzük a <em>közösen</em> játszott meccseiteket, és kiosztjuk a díjakat.",
+    "server": "Szerver",
+    "player": "{n}. játékos (Név#TAG)",
+    "playerOptional": "{n}. játékos (Név#TAG) nem kötelező",
+    "playerAria": "{n}. játékos Riot ID-je",
+    "submit": "Csapatösszegzés megtekintése",
+    "fine": "Azokkal működik a legjobban, akikkel együtt sorba állsz, mert csak a közös meccseket nézi. <link>Minta csapat megtekintése</link>"
+  },
+  "clash": {
+    "title": "Csapat csapat ellen",
+    "lead": "Két csapat, csapatonként két-öt játékos, ugyanarról a szerverről. Azokat a meccseket nézzük, ahol <em>egymás ellen</em> játszottatok, például egy egyéni 5v5-öt.",
+    "server": "Szerver",
+    "sideA": "1. csapat",
+    "sideB": "2. csapat",
+    "player": "{side}, {n}. játékos (Név#TAG)",
+    "playerOptional": "{side}, {n}. játékos (Név#TAG) nem kötelező",
+    "playerAria": "{side} {n}. játékosának Riot ID-ja",
+    "submit": "Csapatok összehasonlítása",
+    "fine": "Csak azok a meccsek számítanak, ahol mindkét csapatból legalább ketten ellenkező oldalon játszottak. <link>Példa megtekintése</link>"
+  },
+  "versus": {
+    "title": "Szemtől szemben",
+    "lead": "Válassz két játékost, és nézd meg, ki áll jobban: statisztikáról statisztikára, stílusról stílusra, és hogy hogyan teljesítetek, ha együtt álltok sorba.",
+    "player1": "1. játékos",
+    "player2": "2. játékos",
+    "serverAria": "{label} szervere",
+    "riotId": "Riot ID (Név#TAG)",
+    "riotIdAria": "{label} Riot ID-je",
+    "submit": "Összehasonlítás",
+    "fine": "Összehasonlítja mindkét játékos legutóbbi meccseit. <link>Minta párharc megtekintése</link>"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "language": {
+    "label": "语言"
+  },
+  "range": {
+    "label": "时间范围",
+    "season": "本赛季",
+    "90d": "最近90天",
+    "30d": "最近30天",
+    "7d": "最近7天"
+  },
+  "regions": {
+    "na1": "北美",
+    "br1": "巴西",
+    "la1": "拉美北部",
+    "la2": "拉美南部",
+    "euw1": "欧洲西部",
+    "eun1": "欧洲北欧和东部",
+    "tr1": "土耳其",
+    "ru": "俄罗斯",
+    "me1": "中东",
+    "kr": "韩国",
+    "jp1": "日本",
+    "oc1": "大洋洲",
+    "ph2": "菲律宾",
+    "sg2": "新加坡",
+    "th2": "泰国",
+    "tw2": "台湾",
+    "vn2": "越南"
+  },
+  "message": {
+    "tryAnother": "试试其他玩家",
+    "tryServer": "也许在其他服务器？",
+    "notFoundTitle": "找不到页面",
+    "notFoundText": "这个页面不存在，或已被移动。返回并搜索一名玩家吧。",
+    "crashTitle": "出了点问题",
+    "crashText": "页面没有正确加载。请重试，或搜索其他玩家。",
+    "retry": "重试"
+  },
+  "loading": {
+    "recap1": "正在召唤你的对局记录…",
+    "recap2": "正在数每一次补刀…",
+    "recap3": "正在请教峡谷神谕…",
+    "recap4": "正在给你的五杀抛光…",
+    "squad1": "正在查找你们的同队对局…",
+    "squad2": "正在数谁发信号最多…",
+    "squad3": "正在称量死亡次数…",
+    "squad4": "正在雕刻奖杯…",
+    "versus1": "正在打量两位玩家…",
+    "versus2": "正在拉取两份对局记录…",
+    "versus3": "正在数每一次补刀…",
+    "versus4": "正在准备裁决…"
+  },
+  "meta": {
+    "description": "一个随赛季推进，带你回顾英雄联盟旅程的网站"
+  },
+  "roles": {
+    "TOP": "上单",
+    "JUNGLE": "打野",
+    "MIDDLE": "中单",
+    "BOTTOM": "下路",
+    "UTILITY": "辅助"
+  },
+  "tiers": {
+    "IRON": "黑铁",
+    "BRONZE": "青铜",
+    "SILVER": "白银",
+    "GOLD": "黄金",
+    "PLATINUM": "铂金",
+    "EMERALD": "翡翠",
+    "DIAMOND": "钻石",
+    "MASTER": "大师",
+    "GRANDMASTER": "宗师",
+    "CHALLENGER": "王者"
+  },
+  "queues": {
+    "RANKED_SOLO_5x5": "单双排位",
+    "RANKED_FLEX_SR": "灵活排位"
+  },
+  "rankTitle": "{tier} {division}"
+}

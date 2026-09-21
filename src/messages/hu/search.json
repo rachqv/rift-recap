@@ -1,0 +1,15 @@
+{
+  "placeholder": "Riot ID (Név#TAG)",
+  "riotId": "Riot ID",
+  "region": "Régió",
+  "submit": "Az összegzésem megtekintése",
+  "suggestions": "Játékosjavaslatok",
+  "heading": {
+    "recent": "Legutóbbi keresések",
+    "sample": "Minta játékosok"
+  },
+  "sample": "Minta",
+  "count": "{count, plural, one {# javaslat érhető el} other {# javaslat érhető el}}",
+  "empty": "Nincs egyező mentett játékos. Nyomd meg az Entert, hogy a Riotnál rákeress erre: <strong>{query}</strong>.",
+  "clear": "Legutóbbi keresések törlése"
+}

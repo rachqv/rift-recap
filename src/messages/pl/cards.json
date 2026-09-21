@@ -1,0 +1,39 @@
+{
+  "thisSeason": "W tym sezonie byłem",
+  "disclaimer": "Rift Recap nie jest wspierany przez Riot Games i nie odzwierciedla poglądów ani opinii Riot Games ani osób oficjalnie zaangażowanych w tworzenie lub zarządzanie własnościami Riot Games.",
+  "games": "Gry",
+  "winRate": "Wygrane",
+  "kda": "KDA",
+  "trophies": "Trofea",
+  "rank": "Ranga",
+  "main": "Main",
+  "topChampion": "Najlepszy bohater",
+  "gamesCount": "{count, plural, one {# gra} few {# gry} many {# gier} other {# gry}}",
+  "squad": {
+    "header": "Podsumowanie drużyny",
+    "gamesTogether": "Gry razem",
+    "hours": "Godziny",
+    "together": "Razem",
+    "awards": "Nagrody"
+  },
+  "versus": {
+    "header": "Jeden na jednego",
+    "vs": "VS",
+    "rowsWon": "Wygrane wiersze",
+    "scenarios": "Najlepsze scenariusze",
+    "numbers": "Liczby",
+    "unranked": "Bez rangi"
+  },
+  "bingo": {
+    "header": "Bingo trofeów",
+    "free": "Gratis",
+    "lines": "Bingo",
+    "next": "Następne bingo: {name}"
+  },
+  "form": {
+    "best": "Najlepszy okres",
+    "worst": "Najgorszy okres",
+    "now": "Teraz",
+    "ended": "Zakończony {date}"
+  }
+}

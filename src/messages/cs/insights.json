@@ -1,0 +1,256 @@
+{
+  "blame": {
+    "carry": "V {topRate} tvých proher jsi udělil nejvíc poškození a skoro jsi nefeedoval. Tým tě zklamal.",
+    "weak": "V prohrách jsi měl {deathShare} smrtí týmu a málokdy jsi byl první v poškození. Nejdřív se podívej do zrcadla.",
+    "team": "V prohrách jsi byl na průměru týmu: {damageShare} poškození. Nikdo za to nemůže, nebo všichni."
+  },
+  "sessions": {
+    "contrast": "Jeden večer {bestWins}-{bestLosses} a jiný {worstWins}-{worstLosses}. Stejný hráč, jiné večery.",
+    "marathon": "{games, plural, one {# zápas} few {# zápasy} other {# zápasů}} v kuse. Pij vodu.",
+    "best": "Tvůj nejlepší večer skončil {wins}-{losses}. Honi ho."
+  },
+  "early": {
+    "early": "V {ahead} zápasů vedeš nad soupeřem z lajny v 15. minutě a dotáhneš to. Tyran early game.",
+    "late": "V {behind} zápasů jsi v 15. minutě pozadu, a přesto z nich vyhraješ {comeback}. Sílíš pozdě a nikdy to nevzdáváš.",
+    "steady": "V 15. minutě vedeš v {ahead} zápasů a jsi pozadu v {behind}. Zápas se rozhoduje později."
+  },
+  "tierlist": {
+    "solo": "{best} je všechno, co máš.",
+    "uniform": "Celý tvůj výběr šampionů je v tieru {tier}, v čele s {best} s poměrem {winRate}.",
+    "leadS": "{best} je tvoje volba tieru S s poměrem {winRate}.",
+    "leadOther": "Žádný nedosáhl na tier S. {best} vede tvůj seznam v tieru {tier} s poměrem {winRate}.",
+    "lastD": "{worst} je tvoje volba tieru D s poměrem {winRate}.",
+    "lastOther": "{worst} je na chvostu, v tieru {tier}, s poměrem {winRate}.",
+    "both": "{lead} {last}"
+  },
+  "items": {
+    "better": "S předmětem {name} vyhraješ {withIt} zápasů a bez něj {without}. Dělá něco správně.",
+    "worse": "Když stavíš {name}, máš nižší poměr výher ({withIt} oproti {without}). Věrnost, nebo zvyk?",
+    "habit": "Předmět {name} zakončil {share} tvých zápasů. Některé zvyky zůstávají.",
+    "friend": "Předmět {name} byl na konci {share} tvých zápasů. Spolehlivý přítel."
+  },
+  "habits": {
+    "flashEdge": "Skok na {key}, {perGame} použití za zápas. Žiješ na hraně.",
+    "flashCalm": "Skok na {key}, {perGame} použití za zápas. Šetříš ho na chvíli, kdy to platí.",
+    "pair": "{a} a {b} v {share} tvých zápasů. Víš, co máš rád.",
+    "surrenderOften": "{rate} tvých zápasů skončilo vzdáním se. Někdo má vždycky něco na práci.",
+    "surrenderUs": "Tvůj tým se vzdával častěji než nepřítel ({weQuit} ku {enemyQuit}). Zůstaň optimistou.",
+    "surrenderThem": "Nepřátelský tým vyvěsil bílou vlajku {enemyQuit}krát oproti {weQuit} u tvého. Viděli tě přicházet.",
+    "surrenderRare": "Jen {rate} tvých zápasů skončilo vzdáním se. Hraješ je do konce."
+  },
+  "spells": {
+    "1": "Očista",
+    "3": "Vyčerpání",
+    "4": "Skok",
+    "6": "Duch",
+    "7": "Léčení",
+    "11": "Zásah",
+    "12": "Teleport",
+    "13": "Jasnost",
+    "14": "Zapálení",
+    "21": "Bariéra",
+    "32": "Značka",
+    "unknown": "kouzlo"
+  },
+  "pings": {
+    "getBackPings": {
+      "label": "Ústup",
+      "title": "Strachovka",
+      "line": "Pingy utrácíš za to, že lidem říkáš, ať ustoupí. Tvůj tým žije díky tobě."
+    },
+    "enemyMissingPings": {
+      "label": "Nepřítel zmizel",
+      "title": "Hlídka",
+      "line": "„Chybí!“ je tvoje hláška. Nikdo nevstoupí do mlhy, aniž bys o tom věděl."
+    },
+    "onMyWayPings": {
+      "label": "Už jdu",
+      "title": "Zachránce",
+      "line": "Jsi vždycky na cestě. Jestli dorazíš, je jiný příběh."
+    },
+    "assistMePings": {
+      "label": "Pomoc",
+      "title": "Podněcovatel",
+      "line": "Pingneš o pomoc a tým se hrne. Aspoň v to doufáš."
+    },
+    "needVisionPings": {
+      "label": "Potřebuji vizi",
+      "title": "Žebrák o vizi",
+      "line": "Někdo, prosím, dejte tam ward. Ptáš se v každém zápase."
+    },
+    "commandPings": {
+      "label": "Příkaz",
+      "title": "Velitel",
+      "line": "Ukážeš na mapu a čekáš, že tým půjde za tebou. Většinou jde."
+    },
+    "pushPings": {
+      "label": "Tlačit",
+      "title": "Tlačič vln",
+      "line": "Tlač, tlač, tlač. Chceš tu věž dole hned teď."
+    },
+    "holdPings": {
+      "label": "Držet",
+      "title": "Zeď",
+      "line": "Držte linii. Jsi klidný hlas v chaotické lobby."
+    },
+    "allInPings": {
+      "label": "All-in",
+      "title": "Obchodník s all-iny",
+      "line": "Když pingneš all-in, boj se strhne, ať lidi chtějí, nebo ne."
+    },
+    "enemyVisionPings": {
+      "label": "Nepřátelská vize",
+      "title": "Pozorovatel",
+      "line": "Ohlašuješ každý nepřátelský ward. Před tebou se nic neschová."
+    },
+    "visionClearedPings": {
+      "label": "Vize vyčištěna",
+      "title": "Uklízeč",
+      "line": "Čistíš warda a říkáš to všem."
+    }
+  },
+  "chapters": {
+    "part": "Část {n}",
+    "range": "{from}–{to}",
+    "same": "{title} od začátku do konce. Víš, kdo jsi.",
+    "changed": "Začal jsi jako {first} a skončil jako {last}. Sezona změn."
+  },
+  "tilt": {
+    "tilt": "Po výhře vyhraješ {afterWin}, ale po prohře jen {afterLoss}. Možná se mezi zápasy projdi.",
+    "resilient": "Prohraješ jeden a z dalších vyhraješ {afterLoss}, víc než {afterWin} po výhře. Prohry tě jen nakopnou.",
+    "steady": "{afterWin} po výhře, {afterLoss} po prohře. Nic tebou nezatřese."
+  },
+  "comfort": {
+    "trust": "{best} tě vytáhne na {bestRate}. Volba, které můžeš věřit.",
+    "drag": "{best} tě vytáhne na {bestRate}. {worst} tě stáhne na {worstRate}. Není čas to pustit?"
+  },
+  "gray": {
+    "heavy": "To je {share} každého zápasu strávené zíráním na šedou obrazovku. Fontána tě zná jménem.",
+    "some": "Zhruba {minutes} minut za zápas čekáš na respawn. Sčítá se to.",
+    "light": "Jen {share} tvého času jsi mrtvý. Šedá obrazovka tě sotva zná."
+  },
+  "modes": {
+    "aramPenta": "{penta, plural, one {# pentakill} few {# pentakilly} other {# pentakillů}} na mostě. Propast z tebe vyvolá chaos.",
+    "aramKills": "{kills} zabití za zápas. V mele se ti daří.",
+    "aramBetter": "V Propasti vyhráváš víc než na Riftu. Sněhová koule ti sedí.",
+    "aramWorse": "Rift se k tobě chová líp než Propast. Ten most je divoké místo.",
+    "aramSteady": "{top} tě provedl chaosem. Stabilně, stejně jako na Riftu.",
+    "normalBetter": "Hraješ líp, když o nic nejde. Tvoje normální zápasy překonávají poměr výher v hodnocených.",
+    "normalWorse": "Hodnocené ze tebe dostanou to nejlepší. Normální zápasy jsou tvoje rozcvička.",
+    "normalExplore": "{unique, plural, one {# jiný šampion} few {# různí šampioni} other {# různých šampionů}} v {games, plural, one {# normálním zápase} few {# normálních zápasech} other {# normálních zápasech}}. Tady experimentuješ.",
+    "normalMain": "{top} byla tvoje jistota, když o nic nešlo ({winRate} výher)."
+  },
+  "objectives": {
+    "stolen": "{count, plural, one {# ukradený cíl} few {# ukradené cíle} other {# ukradených cílů}}. Někde je nepřátelský džunglař pořád naštvaný.",
+    "firstTower": "Získej první věž: s ní vyhraješ {withIt} zápasů a bez ní {without}.",
+    "firstDragon": "Získej prvního draka: s ním vyhraješ {withIt} zápasů a bez něj {without}.",
+    "firstHerald": "Získej prvního Herolda: s ním vyhraješ {withIt} zápasů a bez něj {without}.",
+    "firstBaron": "Získej prvního Barona: s ním vyhraješ {withIt} zápasů a bez něj {without}.",
+    "turrets": "Zbořil jsi {share} věží svého týmu. Demolice je týmový sport a ty jsi demolice.",
+    "barons": "{count, plural, one {# Baron zajištěn} few {# Baroni zajištěni} other {# Baronů zajištěno}}. Když se jáma otevře, jsi tam.",
+    "dragons": "{count, plural, one {# drak zajištěn} few {# draci zajištěni} other {# draků zajištěno}}. Divoká zvěř Riftu se tě bojí.",
+    "default": "Tvoje týmy v těchto zápasech získaly {dragons, plural, one {# draka} few {# draky} other {# draků}} a {towers, plural, one {# věž} few {# věže} other {# věží}}. Každý cíl se počítá."
+  },
+  "damage": {
+    "spellslinger": {
+      "style": "Střelec kouzel",
+      "line": "{share} tvého poškození je magické. Brnění je jen návrh."
+    },
+    "steel": {
+      "style": "Ocel nad kouzly",
+      "line": "{share} tvého poškození je fyzické. Nepřátelé, co staví brnění, tě nenávidí."
+    },
+    "trueDamage": {
+      "style": "Fanoušek čistého poškození",
+      "line": "{share} tvého poškození ignoruje odolnosti úplně. Zlomyslné."
+    },
+    "mixed": {
+      "style": "Smíšená hrozba",
+      "line": "Fyzické a magické v rovnováze. Nepřítel nemůže stavět jen jednu odolnost."
+    }
+  },
+  "lane": {
+    "bully": "V {rate} zápasů končíš ve zlatě před soupeřem z lajny, v průměru o {gold} zlata. Tyran lajny.",
+    "behind": "Tvůj soupeř z lajny vydělává víc než ty v {rate} zápasů. Čas podívat se na správu vln.",
+    "even": "Ty a soupeř z lajny si vyměňujete rány vyrovnaně: ve zlatě vedeš v {rate} zápasů."
+  },
+  "gold": {
+    "high": "Zápasy končíš v průměru s {gold} nevyužitého zlata. To je jeden předmět, který jsi nikdy nekoupil.",
+    "mid": "Na konci zápasu zbývá zhruba {gold} zlata. Ne špatné, ne dokonalé.",
+    "low": "Nevyužito jen {gold} zlata. Utrácíš ho tak rychle, jak ho vyděláváš."
+  },
+  "classes": {
+    "Tank": "Tank",
+    "Marksman": "Střelec",
+    "Mage": "Mág",
+    "Assassin": "Zabiják",
+    "Fighter": "Bojovník",
+    "Support": "Podpora"
+  },
+  "comp": {
+    "better": "Když je v týmu {class}, vyhráváš {withRate}, oproti {withoutRate} bez něj. Řekni si o jednoho.",
+    "worse": "Když je v týmu {class}, vyhráváš jen {withRate} ({withoutRate} bez něj). Náhoda, nebo prokletí?"
+  },
+  "highlights": {
+    "penta": "Pentakill",
+    "kills": "Nejvíc zabití",
+    "kda": "Nejlepší KDA",
+    "longest": "Nejdelší zápas"
+  },
+  "progress": {
+    "rows": {
+      "wr": "Poměr výher",
+      "kda": "KDA",
+      "k": "Zabití za zápas",
+      "d": "Smrti za zápas",
+      "a": "Asistence za zápas",
+      "cs": "CS za minutu",
+      "vs": "Vize za minutu",
+      "dm": "Poškození za minutu",
+      "kp": "Účast na zabitích",
+      "rank": "Rank"
+    },
+    "flat": "Od té doby se nic doopravdy nepohnulo. Stálost je dovednost.",
+    "allUp": "Lepší všude: {better} z {total} statistik vzrostlo a žádná neklesla.",
+    "allDown": "Těžší období: {worse} z {total} statistik kleslo. Každý výstup má své propady.",
+    "moreUp": "Víc nahoru než dolů: {better} statistik se zlepšilo a {worse} kleslo.",
+    "mixed": "Smíšený obraz: {better} statistik se zlepšilo, {worse} kleslo."
+  },
+  "classInline": {
+    "Tank": "tank",
+    "Marksman": "střelec",
+    "Mage": "mág",
+    "Assassin": "zabiják",
+    "Fighter": "bojovník",
+    "Support": "podpora"
+  },
+  "tiltguard": {
+    "stop": "Po {losses} prohrách v řadě vyhraješ {rate} dalších zápasů, jinak {base}. To je tvoje stopka.",
+    "keepGoing": "A přesto se do fronty vracíš v {keep} případů.",
+    "steady": "Ani po {losses} prohrách v řadě to s tebou nic nedělá: vyhráváš {rate}. Série tě nerozhodí.",
+    "liveStop": "Právě teď jsi v sérii proher: {run} v řadě. Po takové sérii vyhraješ {rate} dalších zápasů. Možná je čas skončit.",
+    "liveInfo": "Právě teď jsi v sérii proher: {run} v řadě. Po takové vyhraješ {rate} dalších zápasů."
+  },
+  "formcurve": {
+    "swing": "Od {worst} v nejhorším období po {best} v nejlepším, měřeno vždy z {games}.",
+    "steady": "Z libovolných {games} vyšlo {worst} až {best}. Velmi vyrovnané.",
+    "hot": "V poslední době ti to jde: {now} z posledních {games}, oproti {avg} za sezonu.",
+    "cold": "V poslední době je to těžší: {now} z posledních {games}, oproti {avg} za sezonu.",
+    "even": "V poslední době jsi na svém obvyklém výkonu: {now} z posledních {games}, {avg} za sezonu."
+  },
+  "patches": {
+    "swing": "Nejlépe ti šlo v patchi {best} ({bestRate}) a nejhůř v {worst} ({worstRate}).",
+    "steady": "Patch po patchi ses držel mezi {worstRate} a {bestRate}. Nové patche s tebou skoro nehnou."
+  },
+  "runes": {
+    "better": "S {best} vyhráváš {bestRate}, s {favorite} {favoriteRate}. Stojí za to ji brát častěji?",
+    "loyal": "{name} v {share} tvých her. Když najdeš svou klíčovou runu, držíš se jí.",
+    "plain": "{name} je tvoje klíčová runa: {rate} výher ({games})."
+  },
+  "championPage": {
+    "better": "{name} je nad tvým průměrem: {rate} oproti {overall} celkem.",
+    "worse": "{name} ti jde hůř: {rate} oproti {overall} celkem.",
+    "level": "{name} je na tvé obvyklé úrovni: {rate}, {overall} celkem.",
+    "few": "{games} s {name} zatím: {rate} výher."
+  }
+}

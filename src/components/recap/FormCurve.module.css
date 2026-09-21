@@ -1,0 +1,90 @@
+/* Your season as a line: the rolling win rate chart */
+.figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: clamp(0.6rem, 1.8vh, 1rem);
+  width: min(100%, 36rem);
+  margin: 0 auto; /* centered in the slide: the wrapper around it is full width, so it would sit at the left */
+}
+
+.svg {
+  width: 100%;
+  height: auto;
+  overflow: visible;
+}
+
+.grid {
+  stroke: rgba(255, 255, 255, 0.09);
+  stroke-width: 1;
+}
+
+.tick {
+  fill: var(--muted);
+  font-size: 11px;
+}
+
+.area {
+  fill: url(#formArea);
+}
+
+/* Your win rate over every game: the line to beat. */
+.average {
+  stroke: rgba(235, 229, 213, 0.5);
+  stroke-width: 1;
+  stroke-dasharray: 5 5;
+}
+
+/* Draws itself in when the slide comes up, like the win-rate ring. */
+.line {
+  fill: none;
+  stroke: #0ac8b9;
+  stroke-width: 3;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-dasharray: 100;
+  stroke-dashoffset: 100;
+  transition: stroke-dashoffset 2s cubic-bezier(0.2, 0.7, 0.2, 1) 0.4s;
+}
+
+[data-active="true"] .line {
+  stroke-dashoffset: var(--off);
+}
+
+.dots {
+  stroke: #050b18;
+  stroke-width: 2.5;
+  opacity: 0;
+  transition: opacity 0.5s ease 2s;
+}
+
+[data-active="true"] .dots {
+  opacity: 1;
+}
+
+.key {
+  display: inline-block;
+  width: 0.6rem;
+  height: 0.6rem;
+  margin-inline-end: 0.45rem;
+  border-radius: 50%;
+}
+
+/* Short screens: a smaller chart leaves room for the share buttons under the text. */
+@media (max-height: 720px) {
+  .figure {
+    width: min(100%, 28rem);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .line {
+    stroke-dashoffset: var(--off);
+    transition: none;
+  }
+
+  .dots {
+    opacity: 1;
+    transition: none;
+  }
+}

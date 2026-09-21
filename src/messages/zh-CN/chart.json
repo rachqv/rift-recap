@@ -1,0 +1,9 @@
+{
+  "aria": "{a}与{b}在最近一次对阵中的经济差。{result}",
+  "aheadEnd": "结束时{name}领先{gold}。",
+  "levelEnd": "结束时持平。",
+  "minute": "第<b>{minute}</b>分钟",
+  "ahead": "<b>{name}</b>领先{gold}金币",
+  "level": "持平",
+  "won": "{name}获胜"
+}

@@ -1,0 +1,39 @@
+{
+  "thisSeason": "Musim ini, aku adalah",
+  "disclaimer": "Rift Recap tidak didukung oleh Riot Games dan tidak mencerminkan pandangan atau pendapat Riot Games maupun siapa pun yang secara resmi terlibat dalam pembuatan atau pengelolaan properti Riot Games.",
+  "games": "Pertandingan",
+  "winRate": "Win rate",
+  "kda": "KDA",
+  "trophies": "Piala",
+  "rank": "Peringkat",
+  "main": "Main",
+  "topChampion": "Champion teratas",
+  "gamesCount": "{count, plural, other {# pertandingan}}",
+  "squad": {
+    "header": "Rangkuman skuad",
+    "gamesTogether": "Pertandingan bersama",
+    "hours": "Jam",
+    "together": "Bersama",
+    "awards": "Penghargaan"
+  },
+  "versus": {
+    "header": "Adu langsung",
+    "vs": "VS",
+    "rowsWon": "Baris dimenangkan",
+    "scenarios": "Skenario terbaik",
+    "numbers": "Angka-angkanya",
+    "unranked": "Belum berperingkat"
+  },
+  "bingo": {
+    "header": "Bingo piala",
+    "free": "Gratis",
+    "lines": "Bingo",
+    "next": "Bingo berikutnya: {name}"
+  },
+  "form": {
+    "best": "Periode terbaik",
+    "worst": "Periode terburuk",
+    "now": "Sekarang",
+    "ended": "Berakhir {date}"
+  }
+}

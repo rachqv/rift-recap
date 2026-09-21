@@ -1,0 +1,830 @@
+/* Shared vocabulary for every recap slide. Gradient text uses drop-shadow, never text-shadow. */
+
+/* A solid pill keeps the label legible over any splash art. */
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.45rem 1.1rem;
+  border: 1px solid rgba(10, 200, 185, 0.45);
+  border-radius: 999px;
+  background: rgba(5, 15, 28, 0.72);
+  backdrop-filter: blur(8px);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--hextech);
+}
+
+.caption {
+  max-width: 36rem;
+  margin: 0;
+  text-wrap: balance;
+  font-size: clamp(1.05rem, 2.4vw, 1.3rem);
+  line-height: 1.55;
+  color: #ebe5d5;
+  text-shadow:
+    0 1px 3px rgba(0, 0, 0, 0.9),
+    0 2px 18px rgba(0, 0, 0, 0.85);
+}
+
+.mega {
+  font-family: var(--font-display), Georgia, serif;
+  font-size: clamp(4.5rem, min(22vw, 27vh), 12rem);
+  font-weight: 800;
+  line-height: 0.9;
+  background: linear-gradient(180deg, #fff6dc 0%, var(--tone) 60%, #a07a3a 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  filter: drop-shadow(0 6px 30px rgba(0, 0, 0, 0.6)) drop-shadow(0 0 40px color-mix(in srgb, var(--tone) 35%, transparent));
+}
+
+/* Holds a ResultStrip at a fixed, centred width. */
+.stripWrap {
+  width: min(100%, 26rem);
+}
+
+.megaLabel {
+  font-size: 0.95rem;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--text);
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.85);
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.6rem;
+}
+
+.chip {
+  padding: 0.5rem 1.1rem;
+  border: 1px solid rgba(200, 170, 110, 0.35);
+  border-radius: 999px;
+  background: rgba(5, 11, 24, 0.6);
+  backdrop-filter: blur(10px);
+  font-size: 0.95rem;
+  color: #ebe5d5;
+}
+
+.chip b {
+  color: var(--gold-bright);
+  font-weight: 700;
+}
+
+.chip b.good,
+.good {
+  color: #3ddc97;
+}
+
+.chip b.bad,
+.bad {
+  color: #ff6b7d;
+}
+
+/* Intro */
+.avatar {
+  position: relative;
+  width: clamp(4.5rem, 12vh, 7rem);
+  height: clamp(4.5rem, 12vh, 7rem);
+}
+
+.avatar img {
+  width: 100%;
+  height: 100%;
+  border: 3px solid var(--accent);
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow:
+    0 0 0 6px rgba(5, 11, 24, 0.55),
+    0 0 40px rgba(200, 170, 110, 0.5);
+}
+
+.level {
+  position: absolute;
+  bottom: -0.3rem;
+  left: 50%;
+  min-width: 2.2rem;
+  padding: 0.1rem 0.5rem;
+  border: 1px solid var(--accent);
+  border-radius: 999px;
+  background: #0a1428;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--gold-bright);
+  transform: translateX(-50%);
+}
+
+.name {
+  margin: 0;
+  font-size: clamp(2.2rem, min(9vw, 10vh), 5.5rem);
+  font-weight: 800;
+  line-height: 1.05;
+  overflow-wrap: anywhere;
+  color: var(--text);
+  text-shadow:
+    0 2px 6px rgba(0, 0, 0, 0.7),
+    0 4px 40px rgba(0, 0, 0, 0.8);
+}
+
+/* Keep the tag whole: it wraps to its own line instead of splitting mid-tag. */
+.tag {
+  display: inline-block;
+  white-space: nowrap;
+  margin-inline-start: 0.4rem;
+  font-weight: 600;
+  color: var(--muted);
+}
+
+.scrollHint {
+  margin-top: 1.5rem;
+  font-size: 0.75rem;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--gold-bright);
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.9);
+}
+
+.scrollHint span {
+  display: inline-block;
+  animation: bob 1.6s ease-in-out infinite;
+}
+
+/* Win ring */
+.ring {
+  position: relative;
+  width: min(72vw, 36vh, 20rem);
+  aspect-ratio: 1;
+}
+
+.ring svg {
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  filter: drop-shadow(0 0 18px rgba(10, 200, 185, 0.35));
+}
+
+.track,
+.bar {
+  fill: none;
+  stroke-width: 7;
+}
+
+.track {
+  stroke: rgba(255, 255, 255, 0.1);
+}
+
+.bar {
+  stroke: url(#ringGradient);
+  stroke-linecap: round;
+  stroke-dasharray: 100;
+  stroke-dashoffset: 100;
+  transform: rotate(-90deg);
+  transform-origin: 50% 50%;
+  transition: stroke-dashoffset 1.8s cubic-bezier(0.2, 0.7, 0.2, 1) 0.4s;
+}
+
+[data-active="true"] .bar {
+  stroke-dashoffset: var(--off);
+}
+
+.ringCenter {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+}
+
+.ringValue {
+  font-family: var(--font-display), Georgia, serif;
+  font-size: clamp(3rem, 12vw, 5rem);
+  font-weight: 800;
+  color: var(--text);
+  text-shadow: 0 4px 24px rgba(0, 0, 0, 0.7);
+}
+
+/* Champion */
+.champion {
+  margin: 0;
+  font-size: clamp(2rem, min(14vw, 16vh, calc((100vw - 4.5rem) / (var(--chars, 8) * 0.82))), 8.5rem);
+  font-weight: 800;
+  line-height: 1;
+  text-transform: uppercase;
+  background: linear-gradient(180deg, #fff6dc, var(--tone) 70%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  filter: drop-shadow(0 6px 30px rgba(0, 0, 0, 0.7));
+}
+
+.epithet {
+  margin: 0;
+  font-size: clamp(1rem, 2.6vw, 1.4rem);
+  font-style: italic;
+  letter-spacing: 0.08em;
+  text-wrap: balance;
+  color: var(--text);
+  text-shadow:
+    0 1px 3px rgba(0, 0, 0, 0.9),
+    0 2px 18px rgba(0, 0, 0, 0.85);
+}
+
+.runners {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-top: 0.5rem;
+}
+
+.runner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.15rem;
+  min-width: 5.5rem;
+  padding: 0.55rem 0.8rem;
+  border: 1px solid rgba(200, 170, 110, 0.25);
+  border-radius: 14px;
+  background: rgba(5, 11, 24, 0.6);
+  backdrop-filter: blur(10px);
+  font-size: 0.85rem;
+  color: var(--text);
+}
+
+.runner small {
+  color: var(--muted);
+}
+
+.icon,
+.iconFallback {
+  border: 2px solid rgba(200, 170, 110, 0.6);
+  border-radius: 10px;
+  background: #0f1f3d;
+}
+
+/* KDA */
+.trio {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: clamp(0.75rem, 4vw, 3rem);
+  width: 100%;
+}
+
+.trio > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.trio small {
+  color: var(--muted);
+  font-size: 0.8rem;
+}
+
+.big {
+  font-family: var(--font-display), Georgia, serif;
+  font-size: clamp(2.4rem, min(11vw, 13vh), 6rem);
+  font-weight: 800;
+  line-height: 1;
+  filter: drop-shadow(0 4px 24px rgba(0, 0, 0, 0.7));
+}
+
+.kills {
+  color: #3ddc97;
+}
+
+.deaths {
+  color: #ff6b7d;
+}
+
+.assists {
+  color: var(--gold-bright);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 1rem 2rem;
+  border: 1px solid rgba(200, 170, 110, 0.35);
+  border-radius: 16px;
+  background: rgba(5, 11, 24, 0.65);
+  backdrop-filter: blur(12px);
+}
+
+.cardMain {
+  font-family: var(--font-display), Georgia, serif;
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: var(--gold-bright);
+}
+
+.card small {
+  color: var(--muted);
+}
+
+/* Playstyle tiles */
+.tiles {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(9.5rem, 1fr));
+  gap: 0.9rem;
+  width: 100%;
+}
+
+.tile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 1.4rem 1rem;
+  border: 1px solid rgba(200, 170, 110, 0.3);
+  border-radius: 16px;
+  background: linear-gradient(160deg, rgba(20, 40, 80, 0.7), rgba(8, 16, 34, 0.7));
+  backdrop-filter: blur(10px);
+}
+
+.tileValue {
+  font-family: var(--font-display), Georgia, serif;
+  font-size: clamp(1.8rem, 5vw, 2.6rem);
+  font-weight: 800;
+  color: var(--gold-bright);
+}
+
+.tileLabel {
+  font-size: 0.72rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+/* Rank */
+.emblemWrap {
+  /* The artwork sits in the middle band of a square canvas, so pull the neighbours in a little. */
+  width: clamp(8rem, 30vh, 17rem);
+  aspect-ratio: 1;
+  margin-block: -1rem;
+  filter: drop-shadow(0 10px 30px rgba(0, 0, 0, 0.6)) drop-shadow(0 0 45px color-mix(in srgb, var(--tone) 55%, transparent));
+}
+
+.emblem {
+  display: block;
+  width: 100%;
+  height: auto;
+  animation: float 5s ease-in-out infinite;
+}
+
+.tier {
+  font-size: clamp(2rem, min(15vw, 18vh, calc((100vw - 4.5rem) / (var(--chars, 8) * 0.82))), 9rem);
+  white-space: nowrap;
+}
+
+.division {
+  margin-inline-start: 0.25em;
+  font-size: 0.6em;
+}
+
+/* Persona */
+.stage {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+}
+
+.persona {
+  margin: 0;
+  font-size: clamp(2rem, min(13vw, 15vh, calc((100vw - 4.5rem) / (var(--chars, 8) * 0.82))), 8rem);
+  font-weight: 800;
+  line-height: 1;
+  text-transform: uppercase;
+  /* The tight dark shadow acts as an outline, keeping the title readable on any splash art. */
+  filter: drop-shadow(0 2px 3px rgba(0, 0, 0, 0.9)) drop-shadow(0 6px 30px rgba(0, 0, 0, 0.7))
+    drop-shadow(0 0 50px color-mix(in srgb, var(--tone) 55%, transparent));
+}
+
+:global([data-active="true"]) .persona {
+  animation: personaGlow 1.6s ease-out 0.9s both;
+}
+
+/* Words never break mid-word; each letter carries its own (vertical) gradient so it can animate on its own. */
+.word {
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.letter {
+  display: inline-block;
+  opacity: 0;
+  /* The top layer is a highlight parked off to the right; `glint` sweeps it across once the letters have landed. */
+  background:
+    linear-gradient(105deg, transparent 35%, rgba(255, 255, 255, 0.95) 50%, transparent 65%) 0% 0 / 250% 100% no-repeat,
+    linear-gradient(180deg, #ffffff 0%, color-mix(in srgb, var(--tone) 70%, #fff) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+:global([data-active="true"]) .letter {
+  animation:
+    letterIn 0.95s cubic-bezier(0.2, 0.8, 0.2, 1) both,
+    glint 0.8s ease-in-out both;
+  animation-delay: calc(0.45s + var(--n, 0) * 0.055s), calc(1.3s + var(--n, 0) * 0.06s);
+}
+
+:global([data-active="true"]) .stage {
+  animation: impact 0.45s ease-out 0.6s both;
+}
+
+/* The shockwave, flash and embers sit behind the title and never affect layout. */
+.burst {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.rays,
+.flash,
+.shockwave,
+.ember {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  opacity: 0;
+}
+
+/* Beams of light fanning out from behind the title, slowly turning as they fade. */
+.rays {
+  width: min(95vw, 60rem);
+  aspect-ratio: 1;
+  translate: -50% -50%;
+  border-radius: 50%;
+  background: repeating-conic-gradient(
+    from 0deg,
+    color-mix(in srgb, var(--tone) 55%, transparent) 0deg 4deg,
+    transparent 4deg 15deg
+  );
+  mask-image: radial-gradient(closest-side, #000 0%, transparent 100%);
+}
+
+:global([data-active="true"]) .rays {
+  animation: rays 3s ease-out 0.55s both;
+}
+
+.flash {
+  width: 130%;
+  height: 340%;
+  translate: -50% -50%;
+  background: radial-gradient(closest-side, color-mix(in srgb, var(--tone) 65%, transparent), transparent);
+}
+
+.shockwave {
+  width: 9rem;
+  aspect-ratio: 1;
+  translate: -50% -50%;
+  border: 2px solid color-mix(in srgb, var(--tone) 80%, #fff);
+  border-radius: 50%;
+  box-shadow: 0 0 24px color-mix(in srgb, var(--tone) 70%, transparent);
+}
+
+.ringLate {
+  border-width: 1px;
+}
+
+.ember {
+  width: var(--s, 4px);
+  height: var(--s, 4px);
+  border-radius: 50%;
+  background: color-mix(in srgb, var(--tone) 40%, #fff);
+  box-shadow: 0 0 10px 2px color-mix(in srgb, var(--tone) 80%, transparent);
+}
+
+:global([data-active="true"]) .flash {
+  animation: flash 1.4s ease-out 0.55s both;
+}
+
+:global([data-active="true"]) .shockwave {
+  animation: ring 1.3s cubic-bezier(0.1, 0.7, 0.3, 1) 0.6s both;
+}
+
+:global([data-active="true"]) .ringLate {
+  animation-delay: 0.85s;
+  animation-duration: 1.6s;
+}
+
+:global([data-active="true"]) .ember {
+  animation: ember 1.5s cubic-bezier(0.1, 0.7, 0.3, 1) both;
+  animation-delay: calc(0.6s + var(--w, 0s));
+}
+
+/* A thin light that draws itself under the title once it has landed. */
+.flare {
+  position: absolute;
+  inset-inline-start: 8%;
+  inset-inline-end: 8%;
+  bottom: -0.6rem;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, color-mix(in srgb, var(--tone) 75%, #fff), transparent);
+  opacity: 0;
+  transform: scaleX(0);
+}
+
+:global([data-active="true"]) .flare {
+  animation: flare 1.2s cubic-bezier(0.2, 0.8, 0.2, 1) 1.15s both;
+}
+
+@keyframes letterIn {
+  0% {
+    opacity: 0;
+    transform: translateY(0.35em) scale(1.9);
+    filter: blur(16px);
+  }
+  55% {
+    opacity: 1;
+    filter: blur(0);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+    filter: blur(0);
+  }
+}
+
+@keyframes glint {
+  from {
+    background-position: 100% 0, 0 0;
+  }
+  to {
+    background-position: 0% 0, 0 0;
+  }
+}
+
+@keyframes impact {
+  0%,
+  100% {
+    transform: none;
+  }
+  15% {
+    transform: translate(-5px, 4px) scale(1.03);
+  }
+  35% {
+    transform: translate(4px, -3px);
+  }
+  55% {
+    transform: translate(-2px, 2px);
+  }
+  75% {
+    transform: translate(1px, -1px);
+  }
+}
+
+@keyframes rays {
+  0% {
+    opacity: 0;
+    scale: 0.5;
+    rotate: -12deg;
+  }
+  20% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 0;
+    scale: 1.15;
+    rotate: 14deg;
+  }
+}
+
+@keyframes personaGlow {
+  0% {
+    filter: drop-shadow(0 2px 3px rgba(0, 0, 0, 0.9)) drop-shadow(0 6px 30px rgba(0, 0, 0, 0.7))
+      drop-shadow(0 0 110px var(--tone));
+  }
+  100% {
+    filter: drop-shadow(0 2px 3px rgba(0, 0, 0, 0.9)) drop-shadow(0 6px 30px rgba(0, 0, 0, 0.7))
+      drop-shadow(0 0 50px color-mix(in srgb, var(--tone) 55%, transparent));
+  }
+}
+
+@keyframes flash {
+  0% {
+    opacity: 0;
+    scale: 0.4;
+  }
+  25% {
+    opacity: 0.85;
+  }
+  100% {
+    opacity: 0;
+    scale: 1.1;
+  }
+}
+
+@keyframes ring {
+  0% {
+    opacity: 0.95;
+    scale: 0.2;
+  }
+  100% {
+    opacity: 0;
+    scale: 4;
+  }
+}
+
+@keyframes ember {
+  0% {
+    opacity: 0;
+    transform: translate(0, 0) scale(0.4);
+  }
+  15% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translate(calc(cos(var(--a)) * var(--d) * 1.5), calc(sin(var(--a)) * var(--d) - 2rem)) scale(1);
+  }
+}
+
+@keyframes flare {
+  0% {
+    opacity: 0;
+    transform: scaleX(0);
+  }
+  30% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.7;
+    transform: scaleX(1);
+  }
+}
+
+.also {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--gold-bright);
+  text-shadow:
+    0 1px 3px rgba(0, 0, 0, 0.9),
+    0 2px 14px rgba(0, 0, 0, 0.85);
+}
+
+.fineprint {
+  margin: 0;
+  font-size: 0.72rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--muted);
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.9);
+}
+
+.actions {
+  margin-top: 0.5rem;
+}
+
+.finaleLinks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.smallLink {
+  padding: 0.4rem 0.9rem;
+  border: 1px solid rgba(200, 170, 110, 0.4);
+  border-radius: 999px;
+  background: rgba(5, 11, 24, 0.65);
+  backdrop-filter: blur(8px);
+  color: var(--gold-bright);
+  font-size: 0.82rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: border-color 0.2s, background 0.2s;
+}
+
+.smallLink:hover {
+  border-color: var(--gold-bright);
+  background: rgba(200, 170, 110, 0.15);
+}
+
+.button {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  padding: 0.9rem 1.9rem;
+  border-radius: 999px;
+  background: linear-gradient(120deg, var(--gold-bright), var(--accent) 45%, #e0a94a);
+  color: #1a1204;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  box-shadow: 0 8px 24px -8px rgba(200, 170, 110, 0.8);
+  transition: transform 0.15s, filter 0.15s;
+}
+
+/* A slow light sweep across the main button while its slide is on screen. */
+.button::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(105deg, transparent 35%, rgba(255, 255, 255, 0.6) 50%, transparent 65%);
+  transform: translateX(-130%);
+}
+
+:global([data-active="true"]) .button::after {
+  animation: shine 4.5s ease-in-out 2.5s infinite;
+}
+
+@keyframes shine {
+  0%,
+  55% {
+    transform: translateX(-130%);
+  }
+  100% {
+    transform: translateX(130%);
+  }
+}
+
+.button:hover {
+  transform: translateY(-2px);
+  filter: brightness(1.08);
+}
+
+/* The finale carries the most content: drop the fine print on short screens. */
+@media (max-height: 720px) {
+  .fineprint {
+    display: none;
+  }
+
+  .actions {
+    margin-top: 0;
+  }
+}
+
+@keyframes bob {
+  50% {
+    transform: translateY(6px);
+  }
+}
+
+@keyframes float {
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+@media (max-width: 520px) {
+  .eyebrow {
+    padding: 0.4rem 0.9rem;
+    letter-spacing: 0.14em;
+    text-align: center;
+  }
+
+  .tiles {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.6rem;
+  }
+
+  /* An odd tile out spans the full row instead of leaving a gap. */
+  .tile:last-child:nth-child(odd) {
+    grid-column: 1 / -1;
+  }
+
+  .tile {
+    padding: 0.9rem 0.5rem;
+  }
+
+  .tileLabel {
+    font-size: 0.65rem;
+    letter-spacing: 0.1em;
+    text-align: center;
+  }
+
+  .chip {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.85rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .bar {
+    stroke-dashoffset: var(--off);
+  }
+
+  /* No animation: the archetype simply appears, without the burst. */
+  .letter {
+    opacity: 1;
+  }
+
+  .flare {
+    opacity: 0.7;
+    transform: none;
+  }
+}
+

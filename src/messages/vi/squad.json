@@ -1,0 +1,181 @@
+{
+  "awards": {
+    "objectiveSteal": {
+      "title": "Dễ cướp mục tiêu nhất",
+      "tagline": "Hãy canh con rồng của bạn. Rồi xem nó biến mất.",
+      "label": "mục tiêu bị cướp",
+      "line": "{name} cướp {count, plural, other {# mục tiêu}}. Chẳng gì là an toàn."
+    },
+    "objectiveTake": {
+      "title": "Dễ lấy mục tiêu nhất",
+      "tagline": "Rồng đi đâu, họ đi đó.",
+      "label": "sát thương lên mục tiêu mỗi phút",
+      "line": "{name} đánh {value} sát thương mỗi phút lên mục tiêu."
+    },
+    "deaths": {
+      "title": "Chết nhiều nhất",
+      "tagline": "Màn hình xám? Họ có vé năm.",
+      "label": "lần chết mỗi trận",
+      "line": "{name} dành khoảng {minutes} phút mỗi trận để nhìn màn hình xám."
+    },
+    "pings": {
+      "title": "Tài xế ghế sau",
+      "tagline": "Dễ ping \"lùi lại\" cho chính đồng đội nhất.",
+      "label": "ping mỗi trận",
+      "line": "{name} ping {value} lần mỗi trận. Minimap chưa bao giờ được nghỉ."
+    },
+    "vision": {
+      "title": "Ngọn hải đăng",
+      "tagline": "Bật đèn cho tất cả mọi người.",
+      "label": "điểm tầm nhìn mỗi phút",
+      "line": "{value} điểm tầm nhìn mỗi phút từ {name}. Không ai bước vào bóng tối một mình."
+    },
+    "tank": {
+      "title": "Bao cát",
+      "tagline": "Hứng nhiều sát thương nhất vì đội.",
+      "label": "sát thương nhận mỗi trận",
+      "line": "{name} hứng {value} sát thương mỗi trận."
+    },
+    "assists": {
+      "title": "Người bạn thân nhất",
+      "tagline": "Luôn ở đó để dọn đường.",
+      "label": "hỗ trợ mỗi trận",
+      "line": "{name} trung bình {value} lượt hỗ trợ. Đồng đội được cả đội yêu quý nhất."
+    },
+    "carry": {
+      "title": "Carry",
+      "tagline": "Dễ thắng thay cho tất cả nhất.",
+      "label": "KDA",
+      "line": "KDA {value}. {name} gánh phần việc nặng."
+    },
+    "damage": {
+      "title": "Sát thương hạng nặng",
+      "tagline": "Thanh máu tan chảy khi chạm vào.",
+      "label": "sát thương mỗi phút",
+      "line": "{value} sát thương lên tướng mỗi phút từ {name}."
+    },
+    "farm": {
+      "title": "Nông dân",
+      "tagline": "Không bỏ sót làn lính pháo nào.",
+      "label": "CS mỗi phút",
+      "line": "{value} lính mỗi phút. {name} luôn có mặt ở làn lính."
+    },
+    "present": {
+      "title": "Luôn có mặt",
+      "tagline": "Có giao tranh là có họ.",
+      "label": "tỷ lệ tham gia hạ gục",
+      "line": "{name} tham gia {value} số lần hạ gục của đội."
+    },
+    "cc": {
+      "title": "Bậc thầy khống chế",
+      "tagline": "Giữ địch đứng yên để những người còn lại làm việc.",
+      "label": "giây khống chế mỗi trận",
+      "line": "{name} khống chế địch {value, plural, other {# giây}} mỗi trận."
+    }
+  },
+  "chemistry": {
+    "destiny": "Cặp đôi định mệnh",
+    "great": "Ăn ý tuyệt vời",
+    "solid": "Đối tác vững",
+    "awkward": "Ngượng ngùng khi chơi cùng",
+    "apart": "Tách ra thì tốt hơn"
+  },
+  "slides": {
+    "intro": {
+      "eyebrow": "Tổng kết nhóm",
+      "together": "{count, plural, other {trận chơi cùng nhau}}",
+      "hours": "{n, plural, other {<b>{value}</b> giờ}}",
+      "note": "Dựa trên {loaded} trận gần nhất các bạn chơi cùng nhau (trên {found} trận tìm thấy)."
+    },
+    "record": {
+      "eyebrow": "Thành tích của các bạn",
+      "label": "tỷ lệ thắng khi chơi cùng",
+      "bestStreak": "Chuỗi thắng tốt nhất <good>{count, plural, other {# trận thắng}}</good>",
+      "worstSkid": "Chuỗi thua tệ nhất <bad>{count, plural, other {# trận thua}}</bad>",
+      "all": "Cả {members} cùng chơi trong {games, plural, other {<b>#</b> trận}}",
+      "machine": "Một cỗ máy khi cùng xếp hàng.",
+      "good": "Thắng nhiều hơn thua. Nhóm làm được việc.",
+      "balanced": "Cân bằng hoàn hảo. Hỗn loạn nhưng là kiểu vui.",
+      "rough": "Kết quả khó khăn. Nhưng nhóm chat có cả đống chuyện để kể."
+    },
+    "pairs": {
+      "eyebrow": "Sự ăn ý của cặp đôi",
+      "best": "Cặp đôi hay nhất",
+      "worst": "Cần cố gắng thêm",
+      "games": "{count, plural, other {# trận}} cùng nhau",
+      "chemistry": "{icon} ăn ý {score} · {label}",
+      "captionBoth": "{a} và {b} là cặp nên xếp hàng cùng. {c} và {d}, có lẽ không.",
+      "captionBest": "{a} và {b} là cặp mạnh nhất của các bạn."
+    },
+    "award": {
+      "eyebrow": "Giải thưởng {position} trên {total}",
+      "runner": "{n}. {name} <b>{display}</b>"
+    },
+    "board": {
+      "eyebrow": "Bảng xếp hạng",
+      "aria": "Bảng xếp hạng nhóm",
+      "kda": "KDA",
+      "deaths": "Chết",
+      "damage": "ST/phút",
+      "awards": "Giải",
+      "note": "Sắp xếp theo KDA. Giải thưởng là những chiếc cúp mỗi người mang về nhà."
+    },
+    "finale": {
+      "mvp": "MVP của nhóm",
+      "none": "Đó là cả nhóm",
+      "awards": "{count, plural, other {# giải thưởng}}, nhiều hơn bất kỳ ai.",
+      "recap": "Tổng kết của {name}",
+      "versus": "Đối đầu: {a} với {b}",
+      "shareTitle": "Tổng kết nhóm Liên Minh của chúng tôi: {names}",
+      "another": "Bắt đầu nhóm khác"
+    },
+    "rivalry": {
+      "eyebrow": "Bắn nhầm đồng đội",
+      "lead": "Thành tích đối đầu của các bạn, {count, plural, other {# lần gặp}} ở hai phe đối nghịch",
+      "aria": "Thành tích đối đầu",
+      "cell": "{wins, plural, other {# trận thắng}}, {losses, plural, other {# trận thua}}",
+      "even": "{a} và {b} hoàn toàn ngang nhau sau {games, plural, other {# lần gặp}}.",
+      "edge": "{winner} nhỉnh hơn {loser}, {hi} so với {lo}. Mối kình địch lớn nhất trong nhóm."
+    },
+    "combos": {
+      "eyebrow": "Nên xếp hàng với ai",
+      "trio": "Bộ ba hay nhất",
+      "duo": "Cặp đôi hay nhất",
+      "record": "{wins}T {losses}B trong {games, plural, other {# trận}} cùng nhau",
+      "caption": "{names}: xếp hàng cùng nhau và tỷ lệ thắng sẽ tự nói lên.",
+      "games": "{count, plural, other {# trận}}"
+    },
+    "roles": {
+      "eyebrow": "Đội hình tốt nhất",
+      "aria": "Vị trí gợi ý cho từng thành viên",
+      "swap": "Trên giấy, đây là đội hình tốt nhất: mỗi người ở vị trí thắng nhiều nhất, dựa trên các trận chơi cùng nhau. Mẫu nhỏ, nên chỉ xem là gợi ý.",
+      "settled": "Ai cũng đã chơi ở vị trí thắng nhiều nhất. Không cần đổi gì.",
+      "was": "thường chơi {role}"
+    }
+  },
+  "rail": {
+    "start": "Bắt đầu",
+    "record": "Thành tích",
+    "duos": "Cặp đôi",
+    "roles": "Vị trí",
+    "queue": "Xếp cùng ai",
+    "rivals": "Kình địch",
+    "quiz": "Câu đố",
+    "board": "Bảng",
+    "mvp": "MVP"
+  },
+  "page": {
+    "title": "{names} · Tổng kết nhóm",
+    "titleDemo": "Tổng kết nhóm mẫu · Rift Recap",
+    "titleEmpty": "Tổng kết nhóm · Rift Recap",
+    "description": "Giải thưởng nhóm từ các trận một nhóm chơi cùng nhau: chết nhiều nhất, cướp mục tiêu nhiều nhất và nhiều hơn nữa.",
+    "pickServer": "Hãy chọn một máy chủ.",
+    "unreadable": "Không đọc được {names}. Riot ID có dạng Tên#TAG.",
+    "atLeastTwo": "Hãy nhập ít nhất hai Riot ID.",
+    "atMostFive": "Một nhóm có tối đa năm người chơi.",
+    "notFound": "Không tìm thấy người chơi nào cho {names} ở {region}. Hãy kiểm tra chính tả và máy chủ.",
+    "noShared": "Không ai trong các bạn có trận chung {where}. Tính năng này dựa trên các trận chơi cùng nhau, nên hãy thử khoảng thời gian dài hơn hoặc những người bạn xếp hàng cùng.",
+    "whereSeason": "trong {count} trận gần nhất của các bạn",
+    "whereRange": "trong khoảng {range}"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "tryRange": "Tente outro período:",
+  "field": {
+    "recent": "Jogadores recentes"
+  },
+  "squad": {
+    "title": "Resumo do grupo",
+    "lead": "Informe de dois a cinco Riot IDs do mesmo servidor. Analisamos as partidas que vocês jogaram <em>juntos</em> e entregamos os prêmios.",
+    "server": "Servidor",
+    "player": "Jogador {n} (Nome#TAG)",
+    "playerOptional": "Jogador {n} (Nome#TAG) opcional",
+    "playerAria": "Riot ID do jogador {n}",
+    "submit": "Ver o resumo do grupo",
+    "fine": "Funciona melhor com quem você joga em grupo, já que só considera partidas em comum. <link>Ver um grupo de exemplo</link>"
+  },
+  "clash": {
+    "title": "Grupo contra grupo",
+    "lead": "Dois grupos de dois a cinco jogadores, do mesmo servidor. Olhamos as partidas em que vocês jogaram <em>um contra o outro</em>, como uma personalizada 5v5.",
+    "server": "Servidor",
+    "sideA": "Grupo 1",
+    "sideB": "Grupo 2",
+    "player": "{side}, jogador {n} (Nome#TAG)",
+    "playerOptional": "{side}, jogador {n} (Nome#TAG) opcional",
+    "playerAria": "Riot ID do jogador {n} de {side}",
+    "submit": "Comparar os grupos",
+    "fine": "Só conta partidas com pelo menos dois de cada grupo em times opostos. <link>Ver um exemplo</link>"
+  },
+  "versus": {
+    "title": "Frente a frente",
+    "lead": "Escolha dois jogadores e veja quem leva a melhor: estatística por estatística, estilo por estilo, e como vocês se saem jogando juntos.",
+    "player1": "Jogador 1",
+    "player2": "Jogador 2",
+    "serverAria": "Servidor de {label}",
+    "riotId": "Riot ID (Nome#TAG)",
+    "riotIdAria": "Riot ID de {label}",
+    "submit": "Comparar",
+    "fine": "Compara as partidas mais recentes de cada jogador. <link>Ver um confronto de exemplo</link>"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "keyRejected": "Khóa Riot API bị từ chối. Khóa phát triển hết hạn sau mỗi 24 giờ, hãy tạo khóa mới.",
+  "notFound": "Không tìm thấy người chơi nào có Riot ID này ở khu vực đó. Hãy kiểm tra chính tả và khu vực.",
+  "rateLimit": "Đã chạm giới hạn yêu cầu của Riot. Hãy đợi một phút rồi thử lại.",
+  "api": "Riot API bị lỗi.",
+  "cardFailed": "Không thể vẽ thẻ.",
+  "unknownRegion": "Khu vực không xác định.",
+  "noGamesCard": "Không có trận nào để vẽ thẻ.",
+  "noSharedGames": "Những người chơi này không có trận nào chơi cùng nhau.",
+  "badSquad": "Tham số nhóm không hợp lệ.",
+  "playerMissing": "Không tìm thấy một trong những người chơi đó.",
+  "badVersus": "Tham số đối đầu không hợp lệ.",
+  "samePlayers": "Hãy chọn hai người chơi khác nhau.",
+  "notEnough": "Không đủ trận để so sánh."
+}

@@ -1,0 +1,15 @@
+{
+  "keyRejected": "Kunci Riot API ditolak. Kunci pengembangan kedaluwarsa setiap 24 jam, jadi buat yang baru.",
+  "notFound": "Tidak ada pemain dengan Riot ID itu di region tersebut. Periksa ejaan dan region.",
+  "rateLimit": "Batas permintaan Riot tercapai. Tunggu semenit lalu coba lagi.",
+  "api": "Riot API gagal.",
+  "cardFailed": "Tidak bisa menggambar kartu.",
+  "unknownRegion": "Region tidak dikenal.",
+  "noGamesCard": "Tidak ada pertandingan untuk digambar menjadi kartu.",
+  "noSharedGames": "Para pemain ini tidak punya pertandingan bersama.",
+  "badSquad": "Parameter skuad tidak valid.",
+  "playerMissing": "Salah satu pemain itu tidak ditemukan.",
+  "badVersus": "Parameter adu langsung tidak valid.",
+  "samePlayers": "Pilih dua pemain yang berbeda.",
+  "notEnough": "Pertandingan tidak cukup untuk dibandingkan."
+}

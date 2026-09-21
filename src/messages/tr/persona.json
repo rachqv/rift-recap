@@ -1,0 +1,215 @@
+{
+  "onetrick": {
+    "title": "Tek Şampiyon",
+    "tagline": "Sadakat her şeyden önce.",
+    "description": "Maçlarının {share} kadarı {top} ile oynandı. Kimileri buna inat der. Biz ustalık diyoruz."
+  },
+  "specialist": {
+    "title": "Uzman",
+    "tagline": "İki şampiyon, tam ustalık.",
+    "description": "Maçlarının {share} kadarı {top} ya da {second} ile oynandı. Neyde iyi olduğunu tam olarak biliyorsun."
+  },
+  "explorer": {
+    "title": "Kâşif",
+    "tagline": "Hepsini oynayabilecekken neden birini seçesin?",
+    "description": "{games, plural, one {# maçta} other {# maçta}} {unique, plural, one {# farklı şampiyon} other {# farklı şampiyon}}. Hiçbir yerde uzun süre kalmıyorsun."
+  },
+  "chameleon": {
+    "title": "Bukalemun",
+    "tagline": "Boşluğu doldur? Sorun değil.",
+    "description": "{roles, plural, one {# farklı rol} other {# farklı rol}} ve favori yok. Her koridor evin, takımın da minnettar."
+  },
+  "showstopper": {
+    "title": "Şov Yıldızı",
+    "tagline": "Öne çıkan anlar için doğmuş.",
+    "description": "{penta, plural, one {# pentakill} other {# pentakill}}, {quadra, plural, one {# quadrakill} other {# quadrakill}} ve {triple, plural, one {# triple} other {# triple}}. Klipleri sen yapıyorsun.",
+    "descriptionAlt": "{quadra, plural, one {# quadrakill} other {# quadrakill}} ve {triple, plural, one {# triple kill} other {# triple kill}}. Kavgalar karıştığında sen ses getiriyorsun."
+  },
+  "thief": {
+    "title": "Hırsız",
+    "tagline": "Güzel ejderha. Ne yazık ki artık benim.",
+    "description": "{count, plural, one {# hedef çalındı} other {# hedef çalındı}}. Kimse adil olması gerektiğini söylemedi."
+  },
+  "slayer": {
+    "title": "Katil",
+    "tagline": "Buraya öldürme yapmaya geldin.",
+    "description": "{games, plural, one {# maçta} other {# maçta}} {kills, plural, one {# öldürme} other {# öldürme}}, maç başına yaklaşık {perGame}. Adın öldürme akışında yaşıyor."
+  },
+  "daredevil": {
+    "title": "Gözü Kara",
+    "tagline": "Her kavga girmeye değer.",
+    "description": "{deaths, plural, one {# ölüm} other {# ölüm}} ve tek bir pişmanlık yok. Kavgaya girmeyi hiç bırakmadın."
+  },
+  "playmaker": {
+    "title": "Oyun Kurucu",
+    "tagline": "Takımının en iyi dostu.",
+    "description": "{assists, plural, one {# asist} other {# asist}}, maç başına {perGame}. Oyunu kuruyor, zaferi takımına bırakıyorsun."
+  },
+  "unlucky": {
+    "title": "Şanssız Kahraman",
+    "tagline": "Harika istatistikler, şüpheli takım arkadaşları.",
+    "description": "{kda} KDA ama yalnızca {winRate} galibiyet. Rakamlar senin suçun olmadığını söylüyor."
+  },
+  "phoenix": {
+    "title": "Anka Kuşu",
+    "tagline": "Her seferinde yeniden doğuyorsun.",
+    "description": "{streak} maçlık bir yenilgi serisi ve yine de {winRate} galibiyetle bitirdin. Bu azim."
+  },
+  "risingstar": {
+    "title": "Yükselen Yıldız",
+    "tagline": "Sezon ilerledikçe daha iyi oldun.",
+    "description": "Galibiyet oranın {early} seviyesinden {late} seviyesine çıktı. Trend çizgisi sadece yukarı bakıyor."
+  },
+  "streaker": {
+    "title": "Sıcak Seri",
+    "tagline": "Kazanmaya başlayınca durmuyorsun.",
+    "description": "En iyi döneminde üst üste {streak} galibiyet. Kimse karşı takımda olmak istemedi."
+  },
+  "scout": {
+    "title": "Gözcü",
+    "tagline": "Totemlerinden hiçbir şey kaçmaz.",
+    "description": "Dakika başına {vision} görüş puanı. Herkes için ışıkları açtın."
+  },
+  "farmer": {
+    "title": "Çiftçi",
+    "tagline": "Altın bir yaşam tarzı.",
+    "description": "Dakikada {cs} minyon. Tek bir top dalgası bile geride kalmadı."
+  },
+  "heavyhitter": {
+    "title": "Ağır Vurucu",
+    "tagline": "Hasar veriyorsun. Hem de çok.",
+    "description": "Her dakika şampiyonlara {damage} hasar. Can barları senin yanında uzun yaşamaz."
+  },
+  "everpresent": {
+    "title": "Hep Orada",
+    "tagline": "Her kavgada oradasın.",
+    "description": "Takımının öldürmelerinin {kp} kadarına katıldın. Bir kavga olduysa, sen oradaydın."
+  },
+  "opener": {
+    "title": "Açılışçı",
+    "tagline": "İlk kan senin el sıkışman.",
+    "description": "{count, plural, one {# ilk kan} other {# ilk kan}}. Diğerleri gelmeden partiyi başlatıyorsun."
+  },
+  "demolisher": {
+    "title": "Yıkıcı",
+    "tagline": "Temeli varsa, yıkılır.",
+    "description": "{games, plural, one {# maçta} other {# maçta}} {turrets, plural, one {# kule} other {# kule}}, maç başına yaklaşık {perGame}. Binalar senden korkuyor."
+  },
+  "untouchable": {
+    "title": "Dokunulmaz",
+    "tagline": "Ölmek başkaları için.",
+    "description": "Maç başına yalnızca {perGame} ölüm ve {deathless, plural, one {# maç} other {# maç}} tek bir kez bile ölmeden.",
+    "descriptionAlt": "Maç başına yalnızca {perGame} ölüm. Gri ekran seni pek tanımıyor."
+  },
+  "closer": {
+    "title": "Bitirici",
+    "tagline": "Maç kazanırsın. Bu kadar basit.",
+    "description": "{winRate} galibiyet oranı. Sıraya girdiğinde rakip takımın endişelenmesi gerek."
+  },
+  "marathoner": {
+    "title": "Maratoncu",
+    "tagline": "Sen demeden maç bitmez.",
+    "description": "Maçların ortalama {minutes} dakika sürdü. Uzun oyunu oynuyorsun, kelimenin tam anlamıyla."
+  },
+  "speedrunner": {
+    "title": "Hız Koşucusu",
+    "tagline": "Neden bekleyelim? Şimdi bitir.",
+    "description": "Maçların ortalama yalnızca {minutes} dakika sürdü. Su kaynamadan Nexus yıkılıyor."
+  },
+  "assassin": {
+    "title": "Suikastçı",
+    "tagline": "İçeri, dışarı ve yok.",
+    "description": "Maçlarının {share} kadarı suikastçılarla oynandı. Bir hedef seçiyor ve siliyorsun."
+  },
+  "archmage": {
+    "title": "Başbüyücü",
+    "tagline": "Bekleme süreleri sadece öneri.",
+    "description": "Maçlarının {share} kadarı büyücülerle oynandı. Önce büyüler, sonra sorular."
+  },
+  "sharpshooter": {
+    "title": "Keskin Nişancı",
+    "tagline": "Menzil bir yaşam tarzı.",
+    "description": "Maçlarının {share} kadarı nişancılarla oynandı. Her kavga güvenli bir mesafeden daha iyi."
+  },
+  "brawler": {
+    "title": "Kavgacı",
+    "tagline": "Yakın ve kişisel.",
+    "description": "Maçlarının {share} kadarı dövüşçülerle oynandı. Kavgalarını kol mesafesinde seviyorsun."
+  },
+  "bulwark": {
+    "title": "Kale",
+    "tagline": "Senden hiçbir şey geçmez.",
+    "description": "Maçlarının {share} kadarı tanklarla oynandı. Birinin hasarı emmesi gerek ve o sensin."
+  },
+  "pathfinder": {
+    "title": "İz Sürücü",
+    "tagline": "Orman senin.",
+    "description": "Maçlarının {share} kadarında rolün: {role}. Her kampı, her zamanlayıcıyı ve her çalıyı biliyorsun."
+  },
+  "islander": {
+    "title": "Adalı",
+    "tagline": "Üst koridor. Düşüncelerinle baş başa.",
+    "description": "Maçlarının {share} kadarında rolün: {role}. Koşulsuz bir koridor sana ait ve böyle seviyorsun."
+  },
+  "centerpiece": {
+    "title": "Merkez",
+    "tagline": "Bütün yollar ortadan geçer.",
+    "description": "Maçlarının {share} kadarında rolün: {role}. Haritanın buluştuğu ve kavgaların başladığı yerdesin."
+  },
+  "carry": {
+    "title": "Carry",
+    "tagline": "Birinin takımı taşıması gerek.",
+    "description": "Maçlarının {share} kadarında rolün: {role}. Takımın oyunun sonlarında direksiyonu sana veriyor ve sen başarıyorsun."
+  },
+  "guardian": {
+    "title": "Koruyucu",
+    "tagline": "Takımı hayatta tutuyorsun.",
+    "description": "Maçlarının {share} kadarında rolün: {role}. Kalkanlar, iyileştirmeler, koruma ve totemler. Takım seninle çalışıyor."
+  },
+  "grinder": {
+    "title": "Çalışkan",
+    "tagline": "İstikrarlı, güvenilir, hep sırada.",
+    "description": "{games, plural, one {# maç} other {# maç}} ve {hours} saat düzenli emek. Kimse senin gibi tekrar yapmıyor."
+  },
+  "rarity": {
+    "common": "Yaygın",
+    "uncommon": "Nadir olmayan",
+    "rare": "Nadir",
+    "legendary": "Efsanevi",
+    "under": "{share} altı",
+    "about": "yaklaşık {share}",
+    "chip": "<b>{tier}</b> · oyuncuların {share} kadarı",
+    "badge": "{tier} · oyuncuların {share} kadarı"
+  },
+  "duration": "{minutes} dk",
+  "insights": {
+    "games": {
+      "days": "Bu, Vadi'nin içinde geçen {days} koca gün demek.",
+      "films": "Bu, saf League'den yaklaşık {films, plural, one {# uzun metrajlı film} other {# uzun metrajlı film}} demek."
+    },
+    "win": {
+      "dominant": "Baskın. Rakip takım adını görünce iç geçirdi.",
+      "good": "Yenilgiden çok galibiyet. LP akıyor.",
+      "balanced": "Her şeyin olması gerektiği gibi, mükemmel dengede.",
+      "challenge": "Eşleştirme sana zorlu bir sınav verdi ve sen sıraya girmeye devam ettin.",
+      "rough": "Zor bir dönem. Her efsanenin bir kefaret hikâyesi vardır ve seninki şimdi başlıyor."
+    },
+    "streak": {
+      "long": "En uzun serin: üst üste {streak, plural, one {# galibiyet} other {# galibiyet}}.",
+      "short": "Galibiyet serilerin kısaydı ama her maç yeni bir başlangıçtı."
+    },
+    "comeback": "{streak} maçlık bir düşüşten bile geri döndün.",
+    "champion": {
+      "oneTrick": "Maçlarının {share} kadarı {top} ile oynandı. Bu tek şampiyon enerjisi.",
+      "variety": "{unique, plural, one {# farklı şampiyon} other {# farklı şampiyon}} oynadın ama evin {top} oldu.",
+      "favorite": "{top} ile {games, plural, one {# maç} other {# maç}}. Açık bir favori."
+    },
+    "kda": {
+      "rarelyDie": "Neredeyse hiç ölmüyorsun. Rakip ormancılar bundan nefret ediyor.",
+      "everyFight": "Her kavga senin kavgan.",
+      "teamFirst": "Önce takım enerjisi. Carry'lerin sana borçlu.",
+      "bold": "Cesur ve saldırgan. Gri ekranı çok gördün.",
+      "balanced": "Dengeli, güvenilir rakamlar."
+    }
+  }
+}

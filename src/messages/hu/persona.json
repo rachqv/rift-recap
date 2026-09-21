@@ -1,0 +1,215 @@
+{
+  "onetrick": {
+    "title": "A One-Trick",
+    "tagline": "A hűség mindenekfelett.",
+    "description": "A meccseid {share} része {top} bajnokkal ment. Van, aki makacsságnak hívja. Mi mesterségnek."
+  },
+  "specialist": {
+    "title": "A Specialista",
+    "tagline": "Két bajnok, teljes mesteri szint.",
+    "description": "A meccseid {share} része {top} vagy {second} bajnokkal ment. Pontosan tudod, miben vagy jó."
+  },
+  "explorer": {
+    "title": "A Felfedező",
+    "tagline": "Miért választanál egyet, ha mindet játszhatod?",
+    "description": "{unique, plural, one {# különböző bajnok} other {# különböző bajnok}} {games, plural, one {# meccsen} other {# meccsen}}. Sosem maradsz sokáig egy helyen."
+  },
+  "chameleon": {
+    "title": "A Kaméleon",
+    "tagline": "Fill? Semmi gond.",
+    "description": "{roles, plural, one {# különböző szerep} other {# különböző szerep}} és nincs kedvenc. Minden sáv otthon, és a csapatod hálás."
+  },
+  "showstopper": {
+    "title": "A Főszereplő",
+    "tagline": "A legjobb pillanatok videójára született.",
+    "description": "{penta, plural, one {# pentakill} other {# pentakill}}, {quadra, plural, one {# quadrakill} other {# quadrakill}} és {triple, plural, one {# triple} other {# triple}}. Te csinálod a klipeket.",
+    "descriptionAlt": "{quadra, plural, one {# quadrakill} other {# quadrakill}} és {triple, plural, one {# triple kill} other {# triple kill}}. Ha a harcok zűrössé válnak, te hangos leszel."
+  },
+  "thief": {
+    "title": "A Tolvaj",
+    "tagline": "Szép sárkány. Kár, hogy mostantól az enyém.",
+    "description": "{count, plural, one {# célpont} other {# célpont}} ellopva. Senki sem mondta, hogy tisztességesnek kell lennie."
+  },
+  "slayer": {
+    "title": "A Gyilkos",
+    "tagline": "Ölésekért jöttél ide.",
+    "description": "{kills, plural, one {# ölés} other {# ölés}} {games, plural, one {# meccsen} other {# meccsen}}, meccsenként nagyjából {perGame}. A neved az ölésfolyamban él."
+  },
+  "daredevil": {
+    "title": "A Vakmerő",
+    "tagline": "Minden harcot érdemes megvívni.",
+    "description": "{deaths, plural, one {# halál} other {# halál}}, és egy szemernyi megbánás sem. Sosem hagytad abba, hogy a harcba rohanj."
+  },
+  "playmaker": {
+    "title": "A Játékszervező",
+    "tagline": "A csapatod legjobb barátja.",
+    "description": "{assists, plural, one {# assziszt} other {# assziszt}}, meccsenként {perGame}. Felépíted a játékot, és a dicsőséget a csapatnak hagyod."
+  },
+  "unlucky": {
+    "title": "A Balszerencsés hős",
+    "tagline": "Nagyszerű számok, kétes csapattársak.",
+    "description": "{kda} KDA, de csak {winRate} győzelem. A számok szerint nem te voltál."
+  },
+  "phoenix": {
+    "title": "A Főnix",
+    "tagline": "Minden alkalommal felállsz.",
+    "description": "{streak} meccses vereségsorozat, és mégis {winRate} győzelemmel zártál. Ez kitartás."
+  },
+  "risingstar": {
+    "title": "A Feltörekvő csillag",
+    "tagline": "A szezon előrehaladtával egyre jobb lettél.",
+    "description": "A nyerési arányod {early} értékről {late} értékre emelkedett. A trendvonal csak felfelé mutat."
+  },
+  "streaker": {
+    "title": "A Forró széria",
+    "tagline": "Ha egyszer elkezdesz nyerni, nem állsz meg.",
+    "description": "{streak} győzelem egymás után a legjobb formádban. Senki sem akart az ellenfél csapatában lenni."
+  },
+  "scout": {
+    "title": "A Felderítő",
+    "tagline": "A wardjaid elől semmi sem menekül.",
+    "description": "Percenként {vision} látáspont. Mindenki számára felkapcsoltad a lámpát."
+  },
+  "farmer": {
+    "title": "A Farmer",
+    "tagline": "Az arany életforma.",
+    "description": "Percenként {cs} minion. Egyetlen ágyús hullám sem maradt hátra."
+  },
+  "heavyhitter": {
+    "title": "A Nehézsúlyú ütő",
+    "tagline": "Sebzést okozol. Sokat.",
+    "description": "Percenként {damage} sebzés a bajnokokra. Az életerősávok nem élnek sokáig a közeledben."
+  },
+  "everpresent": {
+    "title": "A Mindig jelen lévő",
+    "tagline": "Minden harcban ott vagy.",
+    "description": "A csapatod ölései közül {kp} részében részt vettél. Ha volt harc, te benne voltál."
+  },
+  "opener": {
+    "title": "A Nyitó",
+    "tagline": "Az első vér a kézfogásod.",
+    "description": "{count, plural, one {# első vér} other {# első vér}}. Elindítod a bulit, mielőtt bárki más megérkezne."
+  },
+  "demolisher": {
+    "title": "A Bontócsapat",
+    "tagline": "Ha van alapja, le fog dőlni.",
+    "description": "{turrets, plural, one {# torony} other {# torony}} {games, plural, one {# meccsen} other {# meccsen}}, meccsenként nagyjából {perGame}. Az épületek félnek tőled."
+  },
+  "untouchable": {
+    "title": "Az Érinthetetlen",
+    "tagline": "A meghalás másoknak való.",
+    "description": "Meccsenként csak {perGame} halál, és {deathless, plural, one {# meccs} other {# meccs}} egyetlen halál nélkül.",
+    "descriptionAlt": "Meccsenként csak {perGame} halál. A szürke képernyő alig ismer."
+  },
+  "closer": {
+    "title": "A Lezáró",
+    "tagline": "Megnyered a meccseket. Ilyen egyszerű.",
+    "description": "{winRate} nyerési arány. Amikor beállsz a sorba, az ellenfél csapatnak aggódnia kell."
+  },
+  "marathoner": {
+    "title": "A Maratoni futó",
+    "tagline": "A meccsek addig nem érnek véget, amíg te nem mondod.",
+    "description": "A meccseid átlagosan {minutes} percig tartottak. Szó szerint a hosszú játékot játszod."
+  },
+  "speedrunner": {
+    "title": "A Speedrunner",
+    "tagline": "Minek várni? Fejezd be most.",
+    "description": "A meccseid átlagosan mindössze {minutes} percig tartottak. A Nexus leomlik, mielőtt felforrna a víz."
+  },
+  "assassin": {
+    "title": "A Bérgyilkos",
+    "tagline": "Be, ki, és eltűnsz.",
+    "description": "A meccseid {share} része bérgyilkossal ment. Kiválasztasz egy célpontot, és törlöd."
+  },
+  "archmage": {
+    "title": "A Főmágus",
+    "tagline": "A várakozási idők csak javaslatok.",
+    "description": "A meccseid {share} része mágussal ment. Először a varázslatok, aztán a kérdések."
+  },
+  "sharpshooter": {
+    "title": "A Mesterlövész",
+    "tagline": "A hatótáv életforma.",
+    "description": "A meccseid {share} része lövésszel ment. Minden harc jobb biztonságos távolságból."
+  },
+  "brawler": {
+    "title": "A Verekedő",
+    "tagline": "Közelről és személyesen.",
+    "description": "A meccseid {share} része harcossal ment. Szereted a karnyújtásnyi harcokat."
+  },
+  "bulwark": {
+    "title": "A Bástya",
+    "tagline": "Semmi sem jut át rajtad.",
+    "description": "A meccseid {share} része tankkal ment. Valakinek fel kell szívnia a sebzést, és az te vagy."
+  },
+  "pathfinder": {
+    "title": "Az Úttörő",
+    "tagline": "Az erdő a tiéd.",
+    "description": "A meccseid {share} része ezen a poszton volt: {role}. Ismersz minden tábort, minden időzítőt és minden bokrot."
+  },
+  "islander": {
+    "title": "A Szigetlakó",
+    "tagline": "Top sáv. Egyedül a gondolataiddal.",
+    "description": "A meccseid {share} része ezen a poszton volt: {role}. Egy egész sáv csak a tiéd, és ez tetszik."
+  },
+  "centerpiece": {
+    "title": "A Középpont",
+    "tagline": "Minden út a középen át vezet.",
+    "description": "A meccseid {share} része ezen a poszton volt: {role}. Ott vagy, ahol a térkép összefut, és ahol a harcok kezdődnek."
+  },
+  "carry": {
+    "title": "A Carry",
+    "tagline": "Valakinek cipelnie kell a csapatot.",
+    "description": "A meccseid {share} része ezen a poszton volt: {role}. A csapatod a játék végén átadja neked a kormányt, és te teljesítesz."
+  },
+  "guardian": {
+    "title": "Az Őrző",
+    "tagline": "Életben tartod a csapatot.",
+    "description": "A meccseid {share} része ezen a poszton volt: {role}. Pajzsok, gyógyítás, védelem és wardok. A csapat rád épül."
+  },
+  "grinder": {
+    "title": "A Gürizős",
+    "tagline": "Állandó, megbízható, mindig sorban.",
+    "description": "{games, plural, one {# meccs} other {# meccs}} és {hours} óra kitartó munka. Senki sem gyakorol úgy, mint te."
+  },
+  "rarity": {
+    "common": "Gyakori",
+    "uncommon": "Nem gyakori",
+    "rare": "Ritka",
+    "legendary": "Legendás",
+    "under": "kevesebb mint {share}",
+    "about": "körülbelül {share}",
+    "chip": "<b>{tier}</b> · a játékosok {share} része",
+    "badge": "{tier} · a játékosok {share} része"
+  },
+  "duration": "{minutes} perc",
+  "insights": {
+    "games": {
+      "days": "Ez {days} teljes nap a Szurdokban.",
+      "films": "Ez nagyjából {films, plural, one {# egész estés film} other {# egész estés film}} tiszta League."
+    },
+    "win": {
+      "dominant": "Domináns. Az ellenfél csapat meglátta a neved, és sóhajtott.",
+      "good": "Több győzelem, mint vereség. Folyik az LP.",
+      "balanced": "Tökéletesen kiegyensúlyozott, ahogy minden dolognak lennie kell.",
+      "challenge": "A párosító kihívás elé állított, te pedig továbbra is sorba álltál.",
+      "rough": "Nehéz időszak. Minden legendának megvan a megváltástörténete, és a tiéd most kezdődik."
+    },
+    "streak": {
+      "long": "A leghosszabb szériád: {streak, plural, one {# győzelem} other {# győzelem}} egymás után.",
+      "short": "A győzelmi szériáid rövidek voltak, de minden meccs új kezdet volt."
+    },
+    "comeback": "Még egy {streak} meccses zuhanásból is visszatértél.",
+    "champion": {
+      "oneTrick": "A meccseid {share} része {top} bajnokkal ment. Ez one-trick energia.",
+      "variety": "{unique, plural, one {# különböző bajnokkal} other {# különböző bajnokkal}} játszottál, de {top} volt az otthonod.",
+      "favorite": "{games, plural, one {# meccs} other {# meccs}} {top} bajnokkal. Egyértelmű kedvenc."
+    },
+    "kda": {
+      "rarelyDie": "Alig halsz meg. Az ellenséges dzsungelesek ezt utálják.",
+      "everyFight": "Minden harc a te harcod.",
+      "teamFirst": "Csapat az első energia. A carryid tartoznak neked.",
+      "bold": "Merész és agresszív. Sokat láttad a szürke képernyőt.",
+      "balanced": "Kiegyensúlyozott, megbízható számok."
+    }
+  }
+}

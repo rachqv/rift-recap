@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "title": "Örnek özet · Rift Recap"
+  },
+  "switcher": {
+    "label": "Örnek oyuncular",
+    "previous": "Önceki örnek oyuncu",
+    "next": "Sonraki örnek oyuncu",
+    "player": "Örnek oyuncu",
+    "show": "Göster"
+  },
+  "players": {
+    "onetrick": "Tek Şampiyon",
+    "specialist": "Uzman",
+    "explorer": "Kâşif",
+    "chameleon": "Bukalemun",
+    "showstopper": "Şov yıldızı",
+    "slayer": "Katil",
+    "daredevil": "Gözü kara",
+    "support": "Oyun kurucu",
+    "unlucky": "Şanssız kahraman",
+    "phoenix": "Anka kuşu",
+    "risingstar": "Yükselen yıldız",
+    "streaker": "Sıcak seri",
+    "scout": "Gözcü",
+    "farmer": "Çiftçi",
+    "heavyhitter": "Ağır vurucu",
+    "everpresent": "Hep orada",
+    "opener": "Açılışçı",
+    "untouchable": "Dokunulmaz",
+    "closer": "Bitirici",
+    "marathoner": "Maratoncu",
+    "speedrunner": "Hız koşucusu",
+    "assassin": "Suikastçı",
+    "archmage": "Başbüyücü",
+    "sharpshooter": "Keskin nişancı",
+    "brawler": "Kavgacı",
+    "bulwark": "Kale",
+    "aramfan": "ARAM hayranı",
+    "casual": "Rahat oyuncu",
+    "demolisher": "Yıkıcı",
+    "thief": "Hırsız",
+    "grinder": "Çalışkan",
+    "pathfinder": "İz sürücü",
+    "islander": "Adalı",
+    "centerpiece": "Merkez",
+    "carry": "Carry",
+    "guardian": "Koruyucu"
+  }
+}

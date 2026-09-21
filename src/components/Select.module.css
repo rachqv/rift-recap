@@ -1,0 +1,235 @@
+.root {
+  position: relative;
+  min-width: 0;
+}
+
+.trigger {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  letter-spacing: inherit;
+  text-align: start;
+  text-transform: inherit;
+  cursor: pointer;
+}
+
+.trigger:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.value {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.chevron {
+  flex: none;
+  opacity: 0.7;
+  transition: transform 0.2s;
+}
+
+.root[data-open] .chevron {
+  transform: rotate(180deg);
+}
+
+/* A form input: the server picker on the squad and versus forms. */
+.field .trigger {
+  padding: 0.8rem 1rem;
+  border: 1px solid rgba(200, 170, 110, 0.35);
+  border-radius: 12px;
+  background: rgba(15, 31, 61, 0.7);
+  color: var(--text);
+  letter-spacing: normal;
+  text-transform: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.field .trigger:focus-visible,
+.field[data-open] .trigger {
+  border-color: var(--hextech);
+  outline: 0;
+  box-shadow: 0 0 0 3px rgba(10, 200, 185, 0.2);
+}
+
+/* A segment inside a bar: the server picker next to the search box. */
+.inline .trigger {
+  padding: 0.85rem 1.1rem;
+  border-inline-start: 1px solid rgba(200, 170, 110, 0.25);
+  color: var(--gold-bright);
+  letter-spacing: normal;
+  text-transform: none;
+}
+
+.inline .trigger:focus-visible {
+  outline: 2px solid var(--hextech);
+  outline-offset: -2px;
+  border-radius: 999px;
+}
+
+@media (max-width: 640px) {
+  .inline .trigger {
+    border-inline-start: 0;
+    border-top: 1px solid rgba(200, 170, 110, 0.25);
+  }
+
+  .inline .trigger:focus-visible {
+    border-radius: 12px;
+  }
+}
+
+/* A small badge: the language switch. */
+.pill {
+  display: inline-block;
+}
+
+.pill .trigger {
+  height: var(--control-height, 2.2rem);
+  padding: 0 0.85rem;
+  border: 1px solid rgba(200, 170, 110, 0.55);
+  border-radius: 999px;
+  background: rgba(5, 11, 24, 0.82);
+  backdrop-filter: blur(10px);
+  color: var(--gold-bright);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  transition: border-color 0.2s, background 0.2s;
+}
+
+.pill .trigger:hover:not(:disabled),
+.pill[data-open] .trigger {
+  border-color: var(--gold-bright);
+  background: rgba(200, 170, 110, 0.16);
+}
+
+.pill .trigger:focus-visible {
+  outline: 2px solid var(--hextech);
+  outline-offset: 2px;
+}
+
+/* A smaller pill for tool bars: the sample-player switcher. */
+.compact {
+  display: inline-block;
+}
+
+.compact .trigger {
+  padding: 0.4rem 0.7rem;
+  border: 1px solid rgba(200, 170, 110, 0.35);
+  border-radius: 999px;
+  background: #0f1f3d;
+  color: var(--text);
+  letter-spacing: normal;
+  text-transform: none;
+}
+
+.compact .trigger:hover:not(:disabled),
+.compact[data-open] .trigger {
+  border-color: var(--gold-bright);
+}
+
+.compact .trigger:focus-visible {
+  outline: 2px solid var(--hextech);
+  outline-offset: 2px;
+}
+
+/* The open list. Opaque on purpose: anything see-through lets the page ghost through the options. */
+.list {
+  position: absolute;
+  z-index: 40;
+  min-width: 100%;
+  width: max-content;
+  max-width: min(20rem, 90vw);
+  max-height: 16rem;
+  margin: 0;
+  padding: 0.35rem;
+  overflow-y: auto;
+  border: 1px solid rgba(200, 170, 110, 0.4);
+  border-radius: 14px;
+  background: linear-gradient(180deg, #0c1a35, #08122a);
+  box-shadow: 0 24px 60px -20px rgba(0, 0, 0, 0.85);
+  list-style: none;
+  text-align: start;
+  letter-spacing: normal;
+  text-transform: none;
+  animation: open 0.14s ease-out;
+}
+
+.list[data-placement="bottom"] {
+  top: calc(100% + 0.4rem);
+}
+
+.list[data-placement="top"] {
+  bottom: calc(100% + 0.4rem);
+}
+
+.list[data-align="start"] {
+  inset-inline-start: 0;
+}
+
+.list[data-align="end"] {
+  inset-inline-end: 0;
+}
+
+@keyframes open {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .list {
+    animation: none;
+  }
+
+  .chevron {
+    transition: none;
+  }
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.55rem 0.75rem;
+  border-radius: 10px;
+  color: var(--text);
+  font-size: 0.9rem;
+  font-weight: 400;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.option[data-active] {
+  background: rgba(200, 170, 110, 0.16);
+  box-shadow: inset 0 0 0 1px rgba(200, 170, 110, 0.35);
+}
+
+.option[aria-selected="true"] {
+  color: var(--gold-bright);
+  font-weight: 700;
+}
+
+.label {
+  flex: 1;
+}
+
+.check {
+  flex: none;
+  color: var(--hextech);
+  visibility: hidden;
+}
+
+.option[aria-selected="true"] .check {
+  visibility: visible;
+}

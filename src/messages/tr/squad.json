@@ -1,0 +1,181 @@
+{
+  "awards": {
+    "objectiveSteal": {
+      "title": "Hedefi çalması en olası",
+      "tagline": "Ejderhana dikkat et. Sonra kaybolmasını izle.",
+      "label": "çalınan hedef",
+      "line": "{name}, {count, plural, one {# hedef} other {# hedef}} çaldı. Hiçbir şey güvende değil."
+    },
+    "objectiveTake": {
+      "title": "Hedefi almaya en yatkın",
+      "tagline": "Ejderha nereye, onlar oraya.",
+      "label": "dakika başına hedeflere hasar",
+      "line": "{name}, hedeflere dakikada {value} hasar verdi."
+    },
+    "deaths": {
+      "title": "En çok ölen",
+      "tagline": "Gri ekran mı? Sezonluk biletleri var.",
+      "label": "maç başına ölüm",
+      "line": "{name}, her maçın yaklaşık {minutes} dakikasını gri ekrana bakarak geçirdi."
+    },
+    "pings": {
+      "title": "Arka koltuk sürücüsü",
+      "tagline": "Kendi takımına \"geri çekil\" pingi atmaya en yatkın.",
+      "label": "maç başına ping",
+      "line": "{name}, maç başına {value} kez ping attı. Mini harita hiç mola bulamadı."
+    },
+    "vision": {
+      "title": "Deniz feneri",
+      "tagline": "Herkes için ışıkları açtı.",
+      "label": "dakika başına görüş puanı",
+      "line": "{name} için dakikada {value} görüş puanı. Kimse karanlığa tek başına girmedi."
+    },
+    "tank": {
+      "title": "Yumruk torbası",
+      "tagline": "Takım için en çok hasarı emdi.",
+      "label": "maç başına alınan hasar",
+      "line": "{name}, maç başına {value} hasar emdi."
+    },
+    "assists": {
+      "title": "En iyi dost",
+      "tagline": "Hazırlamak için hep orada.",
+      "label": "maç başına asist",
+      "line": "{name} ortalama {value} asist yaptı. Takımın favori takım arkadaşı."
+    },
+    "carry": {
+      "title": "Carry",
+      "tagline": "Herkes adına kazanmaya en yatkın.",
+      "label": "KDA",
+      "line": "{value} KDA. Ağır işi {name} yaptı."
+    },
+    "damage": {
+      "title": "Ağır vurucu",
+      "tagline": "Can barları temasla eriyor.",
+      "label": "dakika başına hasar",
+      "line": "{name} her dakika şampiyonlara {value} hasar verdi."
+    },
+    "farm": {
+      "title": "Çiftçi",
+      "tagline": "Tek bir top dalgası bile geride kalmadı.",
+      "label": "dakika başına CS",
+      "line": "Dakikada {value} minyon. {name} hep dalgadaydı."
+    },
+    "present": {
+      "title": "Hep orada",
+      "tagline": "Bir kavga olduysa, oradalardı.",
+      "label": "öldürmelere katılım",
+      "line": "{name}, takımın öldürmelerinin {value} kadarına katıldı."
+    },
+    "cc": {
+      "title": "Kalabalık kontrolcüsü",
+      "tagline": "Diğerleri çalışsın diye rakibi yerinde tuttu.",
+      "label": "maç başına kalabalık kontrolü saniyesi",
+      "line": "{name}, maç başına rakipleri {value, plural, one {# saniye} other {# saniye}} boyunca kilitledi."
+    }
+  },
+  "chemistry": {
+    "destiny": "Kaderin ikilisi",
+    "great": "Harika uyum",
+    "solid": "Sağlam ortaklar",
+    "awkward": "Birlikte tuhaf",
+    "apart": "Ayrı daha iyi"
+  },
+  "slides": {
+    "intro": {
+      "eyebrow": "Takım özeti",
+      "together": "{count, plural, one {birlikte maç} other {birlikte maç}}",
+      "hours": "{n, plural, one {<b>{value}</b> saat} other {<b>{value}</b> saat}}",
+      "note": "Bulunan {found} maç içinden birlikte oynadığınız en son {loaded} maça dayanıyor."
+    },
+    "record": {
+      "eyebrow": "Sicilin",
+      "label": "birlikte galibiyet oranı",
+      "bestStreak": "En iyi seri <good>{count, plural, one {# galibiyet} other {# galibiyet}}</good>",
+      "worstSkid": "En kötü seri <bad>{count, plural, one {# yenilgi} other {# yenilgi}}</bad>",
+      "all": "{members} kişinin hepsi birlikte {games, plural, one {<b>#</b> maçta} other {<b>#</b> maçta}}",
+      "machine": "Birlikte sıraya girince bir makine.",
+      "good": "Yenilgiden çok galibiyet. Takım işini yapıyor.",
+      "balanced": "Mükemmel dengede. Kaos ama eğlenceli türden.",
+      "rough": "Zor sonuçlar. Yine de grup sohbetinde anlatılacak hikâyeler var."
+    },
+    "pairs": {
+      "eyebrow": "İkili uyumu",
+      "best": "En iyi ikili",
+      "worst": "Çalışması lazım",
+      "games": "birlikte {count, plural, one {# maç} other {# maç}}",
+      "chemistry": "{icon} {score} uyum · {label}",
+      "captionBoth": "{a} ve {b} birlikte sıraya girmesi gerekenler. {c} ve {d}, belki değil.",
+      "captionBest": "{a} ve {b} en güçlü eşleşmeniz."
+    },
+    "award": {
+      "eyebrow": "Ödül {position} / {total}",
+      "runner": "{n}. {name} <b>{display}</b>"
+    },
+    "board": {
+      "eyebrow": "Sıralama tablosu",
+      "aria": "Takım sıralama tablosu",
+      "kda": "KDA",
+      "deaths": "Ölüm",
+      "damage": "Hasar/dk",
+      "awards": "Ödül",
+      "note": "KDA'ya göre sıralı. Ödüller, her birinizin eve götürdüğü kupalardır."
+    },
+    "finale": {
+      "mvp": "Takım MVP'si",
+      "none": "Takım bu kadar",
+      "awards": "{count, plural, one {# ödül} other {# ödül}}, herkesten fazla.",
+      "recap": "{name} özeti",
+      "versus": "Kafa kafaya: {a} - {b}",
+      "shareTitle": "League takım özetimiz: {names}",
+      "another": "Başka bir takım başlat"
+    },
+    "rivalry": {
+      "eyebrow": "Dost ateşi",
+      "lead": "Birbirinize karşı sicilin, karşı takımlarda {count, plural, one {# karşılaşma} other {# karşılaşma}}",
+      "aria": "Kafa kafaya sicil",
+      "cell": "{wins, plural, one {# galibiyet} other {# galibiyet}}, {losses, plural, one {# yenilgi} other {# yenilgi}}",
+      "even": "{a} ve {b}, {games, plural, one {# karşılaşmada} other {# karşılaşmada}} tam beraberlikte.",
+      "edge": "{winner}, {loser} karşısında {hi} - {lo} üstün. Takımdaki en büyük rekabet."
+    },
+    "combos": {
+      "eyebrow": "Kimlerle sıraya girmeli",
+      "trio": "En iyi üçlü",
+      "duo": "En iyi ikili",
+      "record": "birlikte {games, plural, one {# maçta} other {# maçta}} {wins}G {losses}Y",
+      "caption": "{names}: birlikte sıraya girin, galibiyet oranı kendini anlatır.",
+      "games": "{count, plural, one {# maç} other {# maç}}"
+    },
+    "roles": {
+      "eyebrow": "En iyi diziliş",
+      "aria": "Her üye için önerilen rol",
+      "swap": "Kağıt üzerinde en iyi diziliş bu: herkes birlikte oynadığınız oyunlara göre en çok kazandığı rolde. Küçük bir örneklem, o yüzden ipucu olarak alın.",
+      "settled": "Herkes zaten en çok kazandığı rolü oynuyor. Değiştirilecek bir şey yok.",
+      "was": "genelde {role}"
+    }
+  },
+  "rail": {
+    "start": "Başlangıç",
+    "record": "Sicil",
+    "duos": "İkililer",
+    "roles": "Roller",
+    "queue": "Kimlerle",
+    "rivals": "Rakipler",
+    "quiz": "Sınav",
+    "board": "Tablo",
+    "mvp": "MVP"
+  },
+  "page": {
+    "title": "{names} · Takım özeti",
+    "titleDemo": "Örnek takım özeti · Rift Recap",
+    "titleEmpty": "Takım özeti · Rift Recap",
+    "description": "Bir takımın birlikte oynadığı maçlardan grup ödülleri: en çok ölüm, en çok hedef hırsızlığı ve daha fazlası.",
+    "pickServer": "Bir sunucu seç.",
+    "unreadable": "{names} okunamadı. Riot ID'ler Ad#ETİKET gibi görünür.",
+    "atLeastTwo": "En az iki Riot ID gir.",
+    "atMostFive": "Bir takımda en fazla beş oyuncu olabilir.",
+    "notFound": "{region} bölgesinde {names} için oyuncu bulunamadı. Yazımı ve sunucuyu kontrol et.",
+    "noShared": "Hiçbirinizin {where} ortak maçı yok. Bu, birlikte oynanan maçlarla çalışır; o yüzden daha uzun bir aralık veya birlikte sıraya girdiğin kişileri dene.",
+    "whereSeason": "son {count} maçta",
+    "whereRange": "{range} içinde"
+  }
+}

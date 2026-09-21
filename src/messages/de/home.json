@@ -1,0 +1,43 @@
+{
+  "badge": "Saisonrückblick",
+  "title": {
+    "line1": "Deine Saison,",
+    "line2": "auf den Punkt."
+  },
+  "subtitle": "Jedes Spiel, jeder Pentakill, jeder fragwürdige Blitz. Gib deine Riot-ID ein und erlebe deine Reise durch die Kluft noch einmal.",
+  "error": "Gib deine Riot-ID im Format Name#TAG ein und wähle eine Region.",
+  "hint": "Kein Login nötig. Nur deine Riot-ID. <link>Beispiel-Rückblick ansehen →</link>",
+  "modes": {
+    "squad": "Squad-Rückblick",
+    "versus": "Kopf-an-Kopf",
+    "clash": "Team gegen Team",
+    "players": "Deine Spieler"
+  },
+  "features": {
+    "title": "Was in deinem Rückblick steckt",
+    "champions": {
+      "title": "Deine Champions",
+      "text": "Wer dich getragen hat, wer dich LP gekostet hat und den einen Pick, den du nicht lassen kannst."
+    },
+    "climb": {
+      "title": "Dein Aufstieg",
+      "text": "Siegquote, KDA und Rangentwicklung über die ganze Saison, als Geschichte erzählt."
+    },
+    "time": {
+      "title": "Deine Zeit",
+      "text": "Stunden auf der Kluft, dein längstes Spiel, deine späteste Nachtwarteschlange."
+    }
+  },
+  "sample": {
+    "label": "Beispiel-Rückblickskarten",
+    "games": "Gespielte Spiele",
+    "days": "≈ {days} Tage auf der Kluft verbracht",
+    "signature": "Signature-Champion",
+    "record": "{games} Spiele · {winRate} Siegquote",
+    "kda": "Saison-KDA",
+    "peak": "Höchster Rang",
+    "peakRank": "Smaragd II",
+    "climbed": "+{lp} LP in dieser Saison gewonnen"
+  },
+  "footer": "Rift Recap wird nicht von Riot Games unterstützt und gibt nicht die Ansichten oder Meinungen von Riot Games oder von Personen wieder, die offiziell an der Produktion oder Verwaltung von Riot-Games-Eigentum beteiligt sind. Riot Games und alle zugehörigen Eigentumsrechte sind Marken oder eingetragene Marken von Riot Games, Inc."
+}

@@ -1,0 +1,181 @@
+{
+  "awards": {
+    "objectiveSteal": {
+      "title": "Legvalószínűbb célpontlopó",
+      "tagline": "Vigyázz a sárkányodra. Aztán nézd, ahogy eltűnik.",
+      "label": "ellopott célpont",
+      "line": "{name} {count, plural, one {# célpontot} other {# célpontot}} lopott. Semmi sem biztonságos."
+    },
+    "objectiveTake": {
+      "title": "Legvalószínűbb célpontszerző",
+      "tagline": "Ahová a sárkány megy, oda mennek ők is.",
+      "label": "célpontokra mért sebzés percenként",
+      "line": "{name} percenként {value} sebzést okozott a célpontoknak."
+    },
+    "deaths": {
+      "title": "Legtöbb halál",
+      "tagline": "Szürke képernyő? Nekik szezonbérletük van.",
+      "label": "halál meccsenként",
+      "line": "{name} meccsenként nagyjából {minutes} percet töltött a szürke képernyőt bámulva."
+    },
+    "pings": {
+      "title": "A hátsó ülés sofőrje",
+      "tagline": "Legvalószínűbb, hogy „vissza” pinget küld a saját csapatának.",
+      "label": "ping meccsenként",
+      "line": "{name} meccsenként {value} alkalommal pingelt. A minitérkép sosem pihent."
+    },
+    "vision": {
+      "title": "A világítótorony",
+      "tagline": "Mindenki másnak felkapcsolta a lámpát.",
+      "label": "látáspont percenként",
+      "line": "Percenként {value} látáspont {name} nevű játékostól. Senki sem lépett egyedül a sötétbe."
+    },
+    "tank": {
+      "title": "A bokszzsák",
+      "tagline": "A csapatért a legtöbb sebzést szívta fel.",
+      "label": "elszenvedett sebzés meccsenként",
+      "line": "{name} meccsenként {value} sebzést szívott fel."
+    },
+    "assists": {
+      "title": "A legjobb barát",
+      "tagline": "Mindig ott van, hogy előkészítse a játékot.",
+      "label": "asszisztok meccsenként",
+      "line": "{name} átlagosan {value} asszisztot adott. A csapat kedvenc csapattársa."
+    },
+    "carry": {
+      "title": "A Carry",
+      "tagline": "Legvalószínűbb, hogy mindenki más helyett is megnyeri.",
+      "label": "KDA",
+      "line": "{value} KDA. {name} elvégezte a nehéz munkát."
+    },
+    "damage": {
+      "title": "A Nehézsúlyú ütő",
+      "tagline": "Az életerősávok érintésre elolvadnak.",
+      "label": "sebzés percenként",
+      "line": "Percenként {value} sebzés a bajnokokra {name} nevű játékostól."
+    },
+    "farm": {
+      "title": "A Farmer",
+      "tagline": "Egyetlen ágyús hullám sem maradt hátra.",
+      "label": "CS percenként",
+      "line": "Percenként {value} minion. {name} mindig a hullámnál volt."
+    },
+    "present": {
+      "title": "Mindig ott van",
+      "tagline": "Ha volt harc, ő benne volt.",
+      "label": "ölésben való részvétel",
+      "line": "{name} a csapat ölései közül {value} részében részt vett."
+    },
+    "cc": {
+      "title": "A tömegkontroll mestere",
+      "tagline": "Helyben tartotta az ellenfelet, hogy a többiek dolgozhassanak.",
+      "label": "tömegkontroll másodperc meccsenként",
+      "line": "{name} meccsenként {value, plural, one {# másodpercig} other {# másodpercig}} tartotta lezárva az ellenfeleket."
+    }
+  },
+  "chemistry": {
+    "destiny": "A sors duója",
+    "great": "Remek kémia",
+    "solid": "Szilárd partnerek",
+    "awkward": "Kínos együtt",
+    "apart": "Külön jobbak"
+  },
+  "slides": {
+    "intro": {
+      "eyebrow": "Csapatösszegzés",
+      "together": "{count, plural, one {közös meccs} other {közös meccs}}",
+      "hours": "{n, plural, one {<b>{value}</b> óra} other {<b>{value}</b> óra}}",
+      "note": "A legutóbbi {loaded} közös meccsetek alapján (a talált {found} közül)."
+    },
+    "record": {
+      "eyebrow": "A mérlegetek",
+      "label": "nyerési arány együtt",
+      "bestStreak": "Legjobb széria <good>{count, plural, one {# győzelem} other {# győzelem}}</good>",
+      "worstSkid": "Legrosszabb széria <bad>{count, plural, one {# vereség} other {# vereség}}</bad>",
+      "all": "Mind a(z) {members} játékos együtt {games, plural, one {<b>#</b> meccsen} other {<b>#</b> meccsen}}",
+      "machine": "Gép, ha együtt álltok sorba.",
+      "good": "Több győzelem, mint vereség. A csapat teljesít.",
+      "balanced": "Tökéletesen kiegyensúlyozott. Káosz, de a jó fajta.",
+      "rough": "Nehéz eredmények. De a csoportchatben lesznek történetek."
+    },
+    "pairs": {
+      "eyebrow": "Duókémia",
+      "best": "Legjobb duó",
+      "worst": "Munkára szorul",
+      "games": "{count, plural, one {# meccs} other {# meccs}} együtt",
+      "chemistry": "{icon} {score} kémia · {label}",
+      "captionBoth": "{a} és {b} azok, akiknek együtt kell sorba állniuk. {c} és {d}, talán nem.",
+      "captionBest": "{a} és {b} a legerősebb párosotok."
+    },
+    "award": {
+      "eyebrow": "{position}. díj a(z) {total} közül",
+      "runner": "{n}. {name} <b>{display}</b>"
+    },
+    "board": {
+      "eyebrow": "A ranglista",
+      "aria": "Csapat ranglista",
+      "kda": "KDA",
+      "deaths": "Halál",
+      "damage": "Sebzés/perc",
+      "awards": "Díjak",
+      "note": "KDA szerint rendezve. A díjak azok a trófeák, amiket mindenki hazavitt."
+    },
+    "finale": {
+      "mvp": "A csapat MVP-je",
+      "none": "Ennyi a csapat",
+      "awards": "{count, plural, one {# díj} other {# díj}}, többet, mint bárki más.",
+      "recap": "{name} összegzése",
+      "versus": "Szemtől szemben: {a} és {b}",
+      "shareTitle": "A mi League csapatösszegzésünk: {names}",
+      "another": "Új csapat indítása"
+    },
+    "rivalry": {
+      "eyebrow": "Baráti tűz",
+      "lead": "A mérlegetek egymás ellen, {count, plural, one {# találkozó} other {# találkozó}} ellenfelekként",
+      "aria": "Szemtől szemben mérlegek",
+      "cell": "{wins, plural, one {# győzelem} other {# győzelem}}, {losses, plural, one {# vereség} other {# vereség}}",
+      "even": "{a} és {b} {games, plural, one {# találkozó} other {# találkozó}} után pontosan egyenlő.",
+      "edge": "{winner} vezet {loser} ellen, {hi} a(z) {lo} ellenében. A csapat legnagyobb rivalizálása."
+    },
+    "combos": {
+      "eyebrow": "Kivel álljunk sorba",
+      "trio": "Legjobb trió",
+      "duo": "Legjobb duó",
+      "record": "{wins}GY {losses}V {games, plural, one {# közös meccsen} other {# közös meccsen}}",
+      "caption": "{names}: álljatok sorba együtt, és a nyerési arány önmagáért beszél.",
+      "games": "{count, plural, one {# meccs} other {# meccs}}"
+    },
+    "roles": {
+      "eyebrow": "A legjobb felállás",
+      "aria": "Javasolt szerep minden tagnak",
+      "swap": "Papíron ez a legjobb felállás: mindenki abban a szerepben, amelyben a legtöbbet nyer, a közös meccseitek alapján. Kis minta, ezért vegyétek tippnek.",
+      "settled": "Mindenki már abban a szerepben játszik, amelyben a legtöbbet nyer. Nincs mit cserélni.",
+      "was": "általában {role}"
+    }
+  },
+  "rail": {
+    "start": "Kezdés",
+    "record": "Mérleg",
+    "duos": "Duók",
+    "roles": "Szerepek",
+    "queue": "Kivel",
+    "rivals": "Riválisok",
+    "quiz": "Kvíz",
+    "board": "Tábla",
+    "mvp": "MVP"
+  },
+  "page": {
+    "title": "{names} · Csapatösszegzés",
+    "titleDemo": "Minta csapatösszegzés · Rift Recap",
+    "titleEmpty": "Csapatösszegzés · Rift Recap",
+    "description": "Csoportdíjak a csapat közösen játszott meccseiből: legtöbb halál, legtöbb célpontlopás és még sok más.",
+    "pickServer": "Válassz szervert.",
+    "unreadable": "Nem sikerült beolvasni: {names}. A Riot ID-k Név#TAG formájúak.",
+    "atLeastTwo": "Adj meg legalább két Riot ID-t.",
+    "atMostFive": "Egy csapatban legfeljebb öt játékos lehet.",
+    "notFound": "Nem található játékos ehhez: {names} ebben a régióban: {region}. Ellenőrizd a helyesírást és a szervert.",
+    "noShared": "Egyikőtöknek sincs közös meccse {where}. Ez a közösen játszott meccsekből dolgozik, ezért próbálj hosszabb időszakot vagy olyanokat, akikkel sorba állsz.",
+    "whereSeason": "a legutóbbi {count} meccsetek között",
+    "whereRange": "ebben az időszakban: {range}"
+  }
+}

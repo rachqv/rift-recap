@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "title": "Your players · Rift Recap"
+  },
+  "title": "Your players",
+  "lead": "Everyone you have looked up on this device, with a shortcut to their recap, a head-to-head or a squad.",
+  "empty": "No players yet. Look someone up on the <home>home page</home> and they will show up here.",
+  "recap": "Recap",
+  "versus": "Head-to-head",
+  "squad": "Squad",
+  "remove": "Remove {name} from this list",
+  "clear": "Clear all",
+  "pin": "Pin {name} to the top",
+  "unpin": "Unpin {name}",
+  "clearUnpinned": "Clear unpinned"
+}

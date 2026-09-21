@@ -1,0 +1,256 @@
+{
+  "blame": {
+    "carry": "Di {topRate} kekalahanmu, kamu memberi damage terbanyak dan hampir tidak feeding. Timmu mengecewakanmu.",
+    "weak": "Di pertandingan yang kalah, kamu menyumbang {deathShare} kematian timmu dan jarang jadi damage teratas. Ngaca dulu.",
+    "team": "Di pertandingan yang kalah, kamu rata-rata dengan timmu: {damageShare} damage tim. Tidak ada yang bisa disalahkan, atau semuanya."
+  },
+  "sessions": {
+    "contrast": "Satu malam {bestWins}-{bestLosses} dan malam lain {worstWins}-{worstLosses}. Pemain yang sama, malam yang berbeda.",
+    "marathon": "{games, plural, other {# pertandingan}} sekali duduk. Jangan lupa minum.",
+    "best": "Malam terbaikmu berakhir {wins}-{losses}. Kejar lagi."
+  },
+  "early": {
+    "early": "Unggul dari lawan lane di menit ke-15 pada {ahead} pertandingan, dan kamu menutupnya. Penindas early game.",
+    "late": "Tertinggal di menit ke-15 pada {behind} pertandingan, tapi tetap menang {comeback} di antaranya. Kamu tumbuh belakangan dan tidak pernah menyerah.",
+    "steady": "Unggul di menit ke-15 pada {ahead} pertandingan dan tertinggal pada {behind}. Pertandingan ditentukan belakangan."
+  },
+  "tierlist": {
+    "solo": "{best} adalah satu-satunya yang kamu punya.",
+    "uniform": "Seluruh pool-mu ada di tier {tier}, dipimpin {best} dengan {winRate}.",
+    "leadS": "{best} adalah pilihan tier S-mu dengan {winRate}.",
+    "leadOther": "Tidak ada yang mencapai tier S. {best} memimpin daftarmu di tier {tier} dengan {winRate}.",
+    "lastD": "{worst} adalah pilihan tier D-mu dengan {winRate}.",
+    "lastOther": "{worst} ada di dasar, di tier {tier}, dengan {winRate}.",
+    "both": "{lead} {last}"
+  },
+  "items": {
+    "better": "Kamu menang {withIt} pertandingan dengan {name} dan {without} tanpanya. Item ini melakukan sesuatu dengan benar.",
+    "worse": "Win rate-mu lebih rendah saat membeli {name} ({withIt} lawan {without}). Setia atau sekadar kebiasaan?",
+    "habit": "{name} menutup {share} pertandinganmu. Ada kebiasaan yang tak lekang.",
+    "friend": "{name} jadi item akhir di {share} pertandinganmu. Teman yang bisa diandalkan."
+  },
+  "habits": {
+    "flashEdge": "Flash di tombol {key}, {perGame} kali per pertandingan. Kamu hidup di tepi jurang.",
+    "flashCalm": "Flash di tombol {key}, {perGame} kali per pertandingan. Kamu menyimpannya untuk saat genting.",
+    "pair": "{a} dan {b} di {share} pertandinganmu. Kamu tahu apa yang kamu suka.",
+    "surrenderOften": "{rate} pertandinganmu berakhir dengan menyerah. Selalu ada yang punya urusan lain.",
+    "surrenderUs": "Timmu lebih sering menyerah daripada musuh ({weQuit} lawan {enemyQuit}). Tetap optimis.",
+    "surrenderThem": "Tim lawan mengibarkan bendera putih {enemyQuit} kali dibanding {weQuit} kali di timmu. Mereka melihatmu datang.",
+    "surrenderRare": "Hanya {rate} pertandinganmu yang berakhir dengan menyerah. Kamu mainkan sampai habis."
+  },
+  "spells": {
+    "1": "Cleanse",
+    "3": "Exhaust",
+    "4": "Flash",
+    "6": "Ghost",
+    "7": "Heal",
+    "11": "Smite",
+    "12": "Teleport",
+    "13": "Clarity",
+    "14": "Ignite",
+    "21": "Barrier",
+    "32": "Mark",
+    "unknown": "sebuah spell"
+  },
+  "pings": {
+    "getBackPings": {
+      "label": "Mundur",
+      "title": "Si Pencemas",
+      "line": "Kamu menghabiskan ping untuk menyuruh orang mundur. Timmu masih hidup berkatmu."
+    },
+    "enemyMissingPings": {
+      "label": "Musuh hilang",
+      "title": "Si Pengintai",
+      "line": "\"Missing!\" adalah kata andalanmu. Tak ada yang masuk kabut tanpa kamu tahu."
+    },
+    "onMyWayPings": {
+      "label": "Dalam perjalanan",
+      "title": "Si Penyelamat",
+      "line": "Kamu selalu dalam perjalanan. Sampai atau tidaknya, itu cerita lain."
+    },
+    "assistMePings": {
+      "label": "Bantu aku",
+      "title": "Si Pemancing",
+      "line": "Kamu ping minta bantuan dan tim berlarian datang. Atau setidaknya kamu berharap begitu."
+    },
+    "needVisionPings": {
+      "label": "Butuh vision",
+      "title": "Si Pengemis Vision",
+      "line": "Tolong, siapa saja, pasang ward. Kamu minta setiap pertandingan."
+    },
+    "commandPings": {
+      "label": "Perintah",
+      "title": "Sang Komandan",
+      "line": "Kamu menunjuk peta dan berharap tim mengikuti. Biasanya mereka ikut."
+    },
+    "pushPings": {
+      "label": "Push",
+      "title": "Si Pendorong Wave",
+      "line": "Push, push, push. Kamu ingin menara itu roboh sekarang juga."
+    },
+    "holdPings": {
+      "label": "Bertahan",
+      "title": "Sang Tembok",
+      "line": "Tahan garis. Kamu adalah suara tenang di lobi yang kacau."
+    },
+    "allInPings": {
+      "label": "All in",
+      "title": "Si Pedagang All-In",
+      "line": "Saat kamu ping all-in, pertarungan tetap terjadi, mau tak mau."
+    },
+    "enemyVisionPings": {
+      "label": "Vision musuh",
+      "title": "Si Pengamat",
+      "line": "Kamu menyerukan setiap ward musuh. Tak ada yang bisa bersembunyi darimu."
+    },
+    "visionClearedPings": {
+      "label": "Vision dibersihkan",
+      "title": "Si Petugas Kebersihan",
+      "line": "Kamu membersihkan ward dan memberi tahu semua orang."
+    }
+  },
+  "chapters": {
+    "part": "Bagian {n}",
+    "range": "{from}–{to}",
+    "same": "{title} dari awal sampai akhir. Kamu tahu siapa dirimu.",
+    "changed": "Kamu mulai sebagai {first} dan berakhir sebagai {last}. Musim penuh perubahan."
+  },
+  "tilt": {
+    "tilt": "Kamu menang {afterWin} setelah menang tapi hanya {afterLoss} setelah kalah. Mungkin jalan-jalan dulu di sela pertandingan.",
+    "resilient": "Kalah satu, kamu menang {afterLoss} dari pertandingan berikutnya, lebih tinggi dari {afterWin} setelah menang. Kekalahan justru membuatmu bersemangat.",
+    "steady": "{afterWin} setelah menang, {afterLoss} setelah kalah. Tak ada yang bisa mengguncangmu."
+  },
+  "comfort": {
+    "trust": "{best} mengangkatmu ke {bestRate}. Pilihan yang bisa dipercaya.",
+    "drag": "{best} mengangkatmu ke {bestRate}. {worst} menyeretmu turun ke {worstRate}. Saatnya melepaskan?"
+  },
+  "gray": {
+    "heavy": "Itu {share} dari setiap pertandingan menatap layar abu-abu. Air mancur kenal namamu.",
+    "some": "Sekitar {minutes} menit per pertandingan menunggu respawn. Lama-lama terasa.",
+    "light": "Hanya {share} waktumu dalam keadaan mati. Layar abu-abu hampir tak mengenalmu."
+  },
+  "modes": {
+    "aramPenta": "{penta, plural, other {# pentakill}} di jembatan. Abyss memunculkan kekacauan dalam dirimu.",
+    "aramKills": "{kills} kill per pertandingan. Tawuran adalah tempatmu bersinar.",
+    "aramBetter": "Kamu lebih sering menang di Abyss daripada di Rift. Snowball cocok untukmu.",
+    "aramWorse": "Rift memperlakukanmu lebih baik daripada Abyss. Jembatan itu tempat yang liar.",
+    "aramSteady": "{top} membawamu melewati kekacauan. Stabil, sama seperti di Rift.",
+    "normalBetter": "Kamu bermain lebih baik saat tak ada yang dipertaruhkan. Win rate normal-mu mengalahkan ranked.",
+    "normalWorse": "Ranked memunculkan yang terbaik darimu. Normal hanyalah putaran pemanasan.",
+    "normalExplore": "{unique, plural, other {# champion}} berbeda dalam {games, plural, other {# pertandingan normal}}. Di sinilah kamu bereksperimen.",
+    "normalMain": "{top} adalah andalanmu saat tak ada yang dipertaruhkan ({winRate} menang)."
+  },
+  "objectives": {
+    "stolen": "{count, plural, other {# objektif}} dicuri. Di suatu tempat, jungler musuh masih kesal.",
+    "firstTower": "Ambil menara pertama: kamu menang {withIt} pertandingan dengannya dan {without} tanpanya.",
+    "firstDragon": "Ambil naga pertama: kamu menang {withIt} pertandingan dengannya dan {without} tanpanya.",
+    "firstHerald": "Ambil Herald pertama: kamu menang {withIt} pertandingan dengannya dan {without} tanpanya.",
+    "firstBaron": "Ambil Baron pertama: kamu menang {withIt} pertandingan dengannya dan {without} tanpanya.",
+    "turrets": "Kamu menghancurkan {share} menara timmu. Penghancuran adalah olahraga tim, dan kamu adalah penghancurannya.",
+    "barons": "{count, plural, other {# Baron}} diamankan. Saat lubang terbuka, kamu ada di sana.",
+    "dragons": "{count, plural, other {# naga}} diamankan. Satwa liar Rift takut padamu.",
+    "default": "Timmu mengambil {dragons, plural, other {# naga}} dan {towers, plural, other {# menara}} sepanjang pertandingan ini. Setiap objektif berarti."
+  },
+  "damage": {
+    "spellslinger": {
+      "style": "Penembak sihir",
+      "line": "{share} damage-mu adalah sihir. Armor hanyalah saran."
+    },
+    "steel": {
+      "style": "Baja di atas sihir",
+      "line": "{share} damage-mu adalah fisik. Musuh yang membeli armor membencimu."
+    },
+    "trueDamage": {
+      "style": "Penggemar true damage",
+      "line": "{share} damage-mu mengabaikan resistansi sepenuhnya. Licik."
+    },
+    "mixed": {
+      "style": "Ancaman campuran",
+      "line": "Fisik dan sihir seimbang. Musuh tak bisa menumpuk satu jenis resistansi saja."
+    }
+  },
+  "lane": {
+    "bully": "Kamu unggul emas atas lawan lane di {rate} pertandingan, rata-rata {gold} emas. Penindas lane.",
+    "behind": "Lawan lane-mu mendapat lebih banyak daripada kamu di {rate} pertandingan. Saatnya melihat manajemen wave-mu.",
+    "even": "Kamu dan lawan lane-mu saling balas sama kuat: unggul emas di {rate} pertandingan."
+  },
+  "gold": {
+    "high": "Kamu mengakhiri pertandingan dengan rata-rata {gold} emas belum terpakai. Itu satu item yang tak pernah kamu beli.",
+    "mid": "Sekitar {gold} emas tersisa di akhir pertandingan. Tidak buruk, tidak sempurna.",
+    "low": "Hanya {gold} emas tak terpakai. Kamu menghabiskannya secepat kamu mendapatkannya."
+  },
+  "classes": {
+    "Tank": "Tank",
+    "Marksman": "Marksman",
+    "Mage": "Mage",
+    "Assassin": "Assassin",
+    "Fighter": "Fighter",
+    "Support": "Support"
+  },
+  "comp": {
+    "better": "Dengan {class} di timmu, kamu menang {withRate}, dibanding {withoutRate} tanpanya. Mintalah satu.",
+    "worse": "Dengan {class} di timmu, kamu hanya menang {withRate} ({withoutRate} tanpanya). Kebetulan, atau kutukan?"
+  },
+  "highlights": {
+    "penta": "Pentakill",
+    "kills": "Kill terbanyak",
+    "kda": "KDA terbaik",
+    "longest": "Pertandingan terpanjang"
+  },
+  "progress": {
+    "rows": {
+      "wr": "Win rate",
+      "kda": "KDA",
+      "k": "Kill per pertandingan",
+      "d": "Mati per pertandingan",
+      "a": "Assist per pertandingan",
+      "cs": "CS per menit",
+      "vs": "Vision per menit",
+      "dm": "Damage per menit",
+      "kp": "Keterlibatan kill",
+      "rank": "Peringkat"
+    },
+    "flat": "Sejak itu tidak ada yang benar-benar bergerak. Konsistensi adalah sebuah keahlian.",
+    "allUp": "Lebih baik di semua lini: {better} dari {total} statistik naik, dan tak satu pun turun.",
+    "allDown": "Masa yang lebih berat: {worse} dari {total} statistik turun. Setiap pendakian ada lembahnya.",
+    "moreUp": "Lebih banyak naik daripada turun: {better} statistik membaik dan {worse} menurun.",
+    "mixed": "Hasil campuran: {better} statistik membaik, {worse} menurun."
+  },
+  "classInline": {
+    "Tank": "tank",
+    "Marksman": "marksman",
+    "Mage": "mage",
+    "Assassin": "assassin",
+    "Fighter": "fighter",
+    "Support": "support"
+  },
+  "tiltguard": {
+    "stop": "Setelah {losses} kekalahan beruntun, kamu menang {rate} di pertandingan berikutnya, dibanding {base} biasanya. Itu tanda berhentimu.",
+    "keepGoing": "Tapi kamu tetap antre lagi di {keep} kesempatan.",
+    "steady": "Bahkan setelah {losses} kekalahan beruntun kamu menang {rate}. Rentetan tidak menggoyahkanmu.",
+    "liveStop": "Kamu sedang kalah {run} kali beruntun sekarang, dan setelah rentetan seperti ini kamu menang {rate} di pertandingan berikutnya. Mungkin saatnya berhenti.",
+    "liveInfo": "Kamu sedang dalam rentetan {run} kekalahan sekarang. Setelah rentetan seperti ini kamu menang {rate} di pertandingan berikutnya."
+  },
+  "formcurve": {
+    "swing": "Dari {worst} saat terendah sampai {best} saat tertinggi, dihitung per {games}.",
+    "steady": "Di setiap {games} kamu tetap di antara {worst} dan {best}. Sangat stabil.",
+    "hot": "Belakangan kamu sedang panas: {now} dalam {games} terakhir, dibanding {avg} sepanjang musim.",
+    "cold": "Belakangan lebih berat: {now} dalam {games} terakhir, dibanding {avg} sepanjang musim.",
+    "even": "Belakangan kamu di level biasanya: {now} dalam {games} terakhir, {avg} sepanjang musim."
+  },
+  "patches": {
+    "swing": "Kamu paling bagus di patch {best} ({bestRate}) dan paling buruk di patch {worst} ({worstRate}).",
+    "steady": "Dari patch ke patch kamu tetap di antara {worstRate} dan {bestRate}. Patch baru nyaris tidak memengaruhimu."
+  },
+  "runes": {
+    "better": "Dengan {best} kamu menang {bestRate}, dengan {favorite} {favoriteRate}. Layak lebih sering dipakai?",
+    "loyal": "{name} di {share} pertandinganmu. Sekali ketemu rune utama, kamu setia.",
+    "plain": "{name} adalah rune utamamu: win rate {rate} dalam {games}."
+  },
+  "championPage": {
+    "better": "{name} melebihi biasanya: {rate} dibanding {overall} secara keseluruhan.",
+    "worse": "{name} lebih sulit: {rate} dibanding {overall} secara keseluruhan.",
+    "level": "{name} setara biasanya: {rate}, {overall} secara keseluruhan.",
+    "few": "{games} dengan {name} sejauh ini: win rate {rate}."
+  }
+}

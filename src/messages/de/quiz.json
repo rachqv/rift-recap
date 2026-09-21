@@ -1,0 +1,28 @@
+{
+  "verdict": {
+    "perfect": "Du kennst dein Squad besser, als das Squad sich selbst kennt.",
+    "good": "Nicht schlecht. Du hast eindeutig aufgepasst.",
+    "low": "Du solltest vielleicht mehr Zeit mit deinen Freunden verbringen."
+  },
+  "result": "Quiz-Ergebnis",
+  "round": "Wer hat es gewonnen? {step} von {total}",
+  "again": "Nochmal spielen",
+  "group": "Wer hat diese Auszeichnung gewonnen?",
+  "right": "Richtig!",
+  "wrong": "Nein, es war {name}.",
+  "reveal": "{verdict} {line}",
+  "pick": "Wähle einen Spieler.",
+  "score": "Ergebnis ansehen",
+  "next": "Nächste Auszeichnung",
+  "guess": {
+    "eyebrow": "Errate deinen Archetyp",
+    "lead": "Drei Hinweise, vier Archetypen. Welcher bist du?",
+    "clueMain": "Am meisten gespielt: {champion}",
+    "clueRate": "Siegquote {rate}",
+    "clueKda": "KDA {kda}",
+    "group": "Welcher Archetyp bist du?",
+    "right": "Volltreffer. Du kennst dein Spiel.",
+    "wrong": "Knapp daneben. Du bist {title}.",
+    "next": "Weiter geht's zur ganzen Enthüllung."
+  }
+}

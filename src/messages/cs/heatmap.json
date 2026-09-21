@@ -1,0 +1,42 @@
+{
+  "insight": {
+    "nightOwl": "{share} tvých zápasů začíná po půlnoci. Rift nikdy nespí a ty taky ne.",
+    "earlyBird": "{share} tvých zápasů je před polednem. Do fronty s kávou v ruce.",
+    "weekend": "{share} tvých zápasů připadá na víkend. Soboty patří Riftu.",
+    "weekday": "Skoro všechny tvoje zápasy jsou ve všední dny. Grind nemá volno.",
+    "streak": "{days, plural, one {# den} few {# dny} other {# dní}} v řadě se zápasem. To už je zvyk.",
+    "steady": "Rovnoměrně rozložené po celém kalendáři. Žádný vzorec, jen League."
+  },
+  "aria": "Kalendář {games, plural, one {# zápasu} few {# zápasů} other {# zápasů}} za {days, plural, one {# den} few {# dny} other {# dní}}",
+  "before": "{date}: před tvým nejstarším načteným zápasem",
+  "day": "{date}: {detail}",
+  "dayGames": "{games, plural, one {# zápas} few {# zápasy} other {# zápasů}}, výher: {wins}",
+  "dayNone": "žádné zápasy",
+  "fewer": "Méně",
+  "more": "Více",
+  "activeDays": "{count, plural, one {<b>#</b> aktivní den} few {<b>#</b> aktivní dny} other {<b>#</b> aktivních dní}}",
+  "busiest": "Nejvytíženější den <b>{date}</b> · {games, plural, one {# zápas} few {# zápasy} other {# zápasů}}",
+  "streak": "Nejdelší série <b>{days, plural, one {# den} few {# dny} other {# dní}}</b>",
+  "favorite": "Oblíbený den <b>{day}</b>",
+  "prime": "Hlavní čas <b>{hour}</b>",
+  "parts": {
+    "night": "noc",
+    "morning": "ráno",
+    "afternoon": "odpoledne",
+    "evening": "večer"
+  },
+  "bestPart": "Nejlépe v čase: <b>{part}</b> · <good>{rate}</good> výher",
+  "worstPart": "(<bad>{rate}</bad> v čase: {part})",
+  "bestMonth": "Nejlepší měsíc <b>{month}</b> · <good>{rate}</good>",
+  "worstMonth": "· nejhorší <b>{month}</b> <bad>{rate}</bad>",
+  "clock": {
+    "day": "Tvůj nejlepší den: {best}, {bestRate} výher. Nejhorší: {worst}, jen {worstRate}.",
+    "part": "Tvoje nejlepší denní doba: {best}, {bestRate} výher. Nejhorší: {worst}, jen {worstRate}.",
+    "steady": "Tvoje procento výher se s hodinami skoro nemění. Kterýkoli den, kterákoli hodina: stejný hráč.",
+    "byPart": "Denní doba",
+    "byDay": "Den v týdnu",
+    "bar": "{label}: {rate} výher, {detail}",
+    "barFew": "{label}: {detail}. Příliš málo zápasů k porovnání.",
+    "aria": "Procento výher podle denní doby a dne v týdnu"
+  }
+}

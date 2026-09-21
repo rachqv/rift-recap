@@ -1,0 +1,98 @@
+{
+  "penta": {
+    "name": "Pentakill",
+    "text": "Ottieni un pentakill."
+  },
+  "quadra": {
+    "name": "Collezionista di quadra",
+    "text": "Ottieni {target, plural, one {# quadrakill} other {# quadrakill}}."
+  },
+  "triple": {
+    "name": "Tripla minaccia",
+    "text": "Ottieni {target, plural, one {# triplekill} other {# triplekill}}."
+  },
+  "flawless": {
+    "name": "Impeccabile",
+    "text": "Finisci una partita senza morire."
+  },
+  "flawless5": {
+    "name": "Intoccabile",
+    "text": "Finisci {target, plural, one {# partita} other {# partite}} senza morire."
+  },
+  "streak": {
+    "name": "In fiamme",
+    "text": "Vinci {target, plural, one {# partita} other {# partite}} di fila."
+  },
+  "winrate": {
+    "name": "Vincente",
+    "text": "Mantieni un tasso di vittorie del {target} in {games}+ partite."
+  },
+  "kills": {
+    "name": "Macchina da uccisioni",
+    "text": "Ottieni {target, plural, one {# uccisione} other {# uccisioni}} in una partita."
+  },
+  "perfect": {
+    "name": "Partita perfetta",
+    "text": "Gioca una partita con un KDA di {target}+."
+  },
+  "firstblood": {
+    "name": "Re del primo sangue",
+    "text": "Ottieni il primo sangue {target, plural, one {# volta} other {# volte}}."
+  },
+  "thief": {
+    "name": "Ladro di obiettivi",
+    "text": "Ruba un obiettivo."
+  },
+  "turrets": {
+    "name": "Demolitore",
+    "text": "Abbatti {target, plural, one {# torre} other {# torri}}."
+  },
+  "variety": {
+    "name": "Tuttofare",
+    "text": "Gioca {target, plural, one {# campione diverso} other {# campioni diversi}}."
+  },
+  "loyal": {
+    "name": "Fedele",
+    "text": "Gioca lo stesso campione {target, plural, one {# volta} other {# volte}}."
+  },
+  "marathon": {
+    "name": "Maratona",
+    "text": "Gioca una partita di oltre {minutes} minuti."
+  },
+  "bounce": {
+    "name": "Rimonta",
+    "text": "Vinci il {target} delle partite dopo una sconfitta."
+  },
+  "hours": {
+    "name": "Tempo sulla Landa",
+    "text": "Passa {target, plural, one {# ora} other {# ore}} in partita."
+  },
+  "dragon": {
+    "name": "Ammazzadraghi",
+    "text": "Dai il colpo finale a {target, plural, one {# drago} other {# draghi}}."
+  },
+  "baron": {
+    "name": "Cacciatore di Barone",
+    "text": "Dai il colpo finale a {target, plural, one {# Barone} other {# Baroni}}."
+  },
+  "teamplayer": {
+    "name": "Giocatore di squadra",
+    "text": "Partecipa al {target} delle uccisioni della tua squadra."
+  },
+  "duo": {
+    "name": "Inseparabili",
+    "text": "Gioca {target, plural, one {# partita} other {# partite}} con lo stesso compagno."
+  },
+  "vision": {
+    "name": "Onniveggente",
+    "text": "Raggiungi in media {target} di punteggio visione al minuto."
+  },
+  "farm": {
+    "name": "Maestro del farm",
+    "text": "Raggiungi in media {target} CS al minuto."
+  },
+  "roles": {
+    "name": "Jolly",
+    "text": "Gioca in tutti i {target, plural, one {# ruolo} other {# ruoli}}."
+  }
+}

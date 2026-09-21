@@ -1,0 +1,39 @@
+{
+  "tryRange": "Thử khoảng thời gian khác:",
+  "field": {
+    "recent": "Người chơi gần đây"
+  },
+  "squad": {
+    "title": "Tổng kết nhóm",
+    "lead": "Nhập từ hai đến năm Riot ID cùng máy chủ. Chúng tôi sẽ xem các trận bạn chơi <em>cùng nhau</em> và trao giải thưởng.",
+    "server": "Máy chủ",
+    "player": "Người chơi {n} (Tên#TAG)",
+    "playerOptional": "Người chơi {n} (Tên#TAG) tùy chọn",
+    "playerAria": "Riot ID của người chơi {n}",
+    "submit": "Xem tổng kết nhóm",
+    "fine": "Hiệu quả nhất với những người bạn xếp hàng cùng, vì chỉ xét các trận chung. <link>Xem nhóm mẫu</link>"
+  },
+  "clash": {
+    "title": "Đội đấu đội",
+    "lead": "Hai đội từ hai đến năm người, cùng máy chủ. Chúng tôi xem những trận mà các bạn chơi <em>đối đầu nhau</em>, như trận tùy chỉnh 5v5.",
+    "server": "Máy chủ",
+    "sideA": "Đội 1",
+    "sideB": "Đội 2",
+    "player": "{side}, người chơi {n} (Tên#TAG)",
+    "playerOptional": "{side}, người chơi {n} (Tên#TAG) không bắt buộc",
+    "playerAria": "Riot ID của người chơi {n}, {side}",
+    "submit": "So sánh hai đội",
+    "fine": "Chỉ tính những trận có ít nhất hai người của mỗi đội ở hai phe đối lập. <link>Xem ví dụ</link>"
+  },
+  "versus": {
+    "title": "Đối đầu",
+    "lead": "Chọn hai người chơi và xem ai nhỉnh hơn: từng chỉ số, từng phong cách, và cả khi hai người xếp hàng cùng nhau.",
+    "player1": "Người chơi 1",
+    "player2": "Người chơi 2",
+    "serverAria": "Máy chủ {label}",
+    "riotId": "Riot ID (Tên#TAG)",
+    "riotIdAria": "Riot ID của {label}",
+    "submit": "So sánh",
+    "fine": "So sánh các trận gần nhất của từng người chơi. <link>Xem cặp đấu mẫu</link>"
+  }
+}

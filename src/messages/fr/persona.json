@@ -1,0 +1,215 @@
+{
+  "onetrick": {
+    "title": "Le One-Trick",
+    "tagline": "La loyauté avant tout.",
+    "description": "{share} de tes parties étaient sur {top}. Certains appellent ça de l'entêtement. Nous, on appelle ça de la maîtrise."
+  },
+  "specialist": {
+    "title": "Le Spécialiste",
+    "tagline": "Deux champions, maîtrise totale.",
+    "description": "{share} de tes parties étaient sur {top} ou {second}. Tu sais exactement ce que tu sais faire."
+  },
+  "explorer": {
+    "title": "L'Explorateur",
+    "tagline": "Pourquoi en choisir un quand on peut tous les jouer ?",
+    "description": "{unique, plural, one {# champion différent} other {# champions différents}} en {games, plural, one {# partie} other {# parties}}. Tu ne restes jamais longtemps au même endroit."
+  },
+  "chameleon": {
+    "title": "Le Caméléon",
+    "tagline": "Auto-fill ? Aucun problème.",
+    "description": "{roles, plural, one {# rôle différent} other {# rôles différents}} et aucun favori. Chaque voie est ta maison, et ton équipe t'en est reconnaissante."
+  },
+  "showstopper": {
+    "title": "La Vedette",
+    "tagline": "Né pour les meilleurs moments.",
+    "description": "{penta, plural, one {# pentakill} other {# pentakills}}, {quadra, plural, one {# quadrakill} other {# quadrakills}} et {triple, plural, one {# triple} other {# triples}}. C'est toi qui fais les clips.",
+    "descriptionAlt": "{quadra, plural, one {# quadrakill} other {# quadrakills}} et {triple, plural, one {# triple kill} other {# triples kills}}. Quand les combats deviennent confus, tu fais du bruit."
+  },
+  "thief": {
+    "title": "Le Voleur",
+    "tagline": "Beau dragon. Dommage qu'il soit à moi maintenant.",
+    "description": "{count, plural, one {# objectif volé} other {# objectifs volés}}. Personne n'a dit que ce devait être équitable."
+  },
+  "slayer": {
+    "title": "Le Tueur",
+    "tagline": "Tu es venu ici pour faire des éliminations.",
+    "description": "{kills, plural, one {# élimination} other {# éliminations}} sur {games, plural, one {# partie} other {# parties}}, environ {perGame} par partie. Ton nom vit dans le fil des éliminations."
+  },
+  "daredevil": {
+    "title": "Le Casse-cou",
+    "tagline": "Chaque combat vaut la peine d'être pris.",
+    "description": "{deaths, plural, one {# mort} other {# morts}}, et aucun regret. Tu n'as jamais cessé de foncer dans le combat."
+  },
+  "playmaker": {
+    "title": "Le Meneur de jeu",
+    "tagline": "Le meilleur ami de ton équipe.",
+    "description": "{assists, plural, one {# assistance} other {# assistances}}, {perGame} par partie. Tu prépares l'action et tu laisses la gloire à ton équipe."
+  },
+  "unlucky": {
+    "title": "Le Héros malchanceux",
+    "tagline": "De super stats, des coéquipiers douteux.",
+    "description": "Un KDA de {kda} mais seulement {winRate} de victoires. Les chiffres disent que ce n'était pas toi."
+  },
+  "phoenix": {
+    "title": "Le Phénix",
+    "tagline": "Tu renais à chaque fois.",
+    "description": "Une série de {streak} défaites, et tu as quand même fini à {winRate} de victoires. C'est du cran."
+  },
+  "risingstar": {
+    "title": "L'Étoile montante",
+    "tagline": "Tu t'es amélioré au fil de la saison.",
+    "description": "Ton taux de victoire est passé de {early} à {late}. La courbe ne pointe que vers le haut."
+  },
+  "streaker": {
+    "title": "La Série chaude",
+    "tagline": "Une fois lancé, tu ne t'arrêtes plus.",
+    "description": "{streak} victoires d'affilée à ton meilleur. Personne ne voulait être dans l'autre équipe."
+  },
+  "scout": {
+    "title": "L'Éclaireur",
+    "tagline": "Rien n'échappe à tes balises.",
+    "description": "{vision} de score de vision par minute. Tu as allumé la lumière pour tout le monde."
+  },
+  "farmer": {
+    "title": "Le Fermier",
+    "tagline": "L'or est un mode de vie.",
+    "description": "{cs} sbires par minute. Pas une seule vague de canon laissée derrière."
+  },
+  "heavyhitter": {
+    "title": "Le Poids lourd",
+    "tagline": "Tu infliges des dégâts. Beaucoup.",
+    "description": "{damage} de dégâts aux champions chaque minute. Les barres de vie ne tiennent pas longtemps près de toi."
+  },
+  "everpresent": {
+    "title": "Le Toujours présent",
+    "tagline": "À chaque combat, tu es là.",
+    "description": "Tu as participé à {kp} des éliminations de ton équipe. S'il y a eu un combat, tu y étais."
+  },
+  "opener": {
+    "title": "L'Ouvreur",
+    "tagline": "Le premier sang est ta poignée de main.",
+    "description": "{count, plural, one {# premier sang} other {# premiers sangs}}. Tu lances la fête avant que les autres arrivent."
+  },
+  "demolisher": {
+    "title": "Le Démolisseur",
+    "tagline": "Si ça a des fondations, ça tombe.",
+    "description": "{turrets, plural, one {# tourelle} other {# tourelles}} en {games, plural, one {# partie} other {# parties}}, environ {perGame} par partie. Les bâtiments te craignent."
+  },
+  "untouchable": {
+    "title": "L'Intouchable",
+    "tagline": "Mourir, c'est pour les autres.",
+    "description": "Seulement {perGame} morts par partie, et {deathless, plural, one {# partie} other {# parties}} sans mourir une seule fois.",
+    "descriptionAlt": "Seulement {perGame} morts par partie. L'écran gris te connaît à peine."
+  },
+  "closer": {
+    "title": "Le Finisseur",
+    "tagline": "Tu gagnes des parties. C'est aussi simple que ça.",
+    "description": "Un taux de victoire de {winRate}. Quand tu lances une file, l'équipe adverse devrait s'inquiéter."
+  },
+  "marathoner": {
+    "title": "Le Marathonien",
+    "tagline": "Les parties ne se terminent que quand tu le décides.",
+    "description": "Tes parties ont duré {minutes} minutes en moyenne. Tu joues sur la durée, littéralement."
+  },
+  "speedrunner": {
+    "title": "Le Speedrunner",
+    "tagline": "Pourquoi attendre ? Finis-en maintenant.",
+    "description": "Tes parties n'ont duré que {minutes} minutes en moyenne. Nexus à terre avant que l'eau bouille."
+  },
+  "assassin": {
+    "title": "L'Assassin",
+    "tagline": "Entrer, sortir et disparaître.",
+    "description": "{share} de tes parties étaient sur des assassins. Tu choisis une cible et tu l'effaces."
+  },
+  "archmage": {
+    "title": "L'Archimage",
+    "tagline": "Les délais de récupération ne sont que des suggestions.",
+    "description": "{share} de tes parties étaient sur des mages. Les sorts d'abord, les questions ensuite."
+  },
+  "sharpshooter": {
+    "title": "Le Tireur d'élite",
+    "tagline": "La portée est un mode de vie.",
+    "description": "{share} de tes parties étaient sur des tireurs. Chaque combat est meilleur à bonne distance."
+  },
+  "brawler": {
+    "title": "Le Bagarreur",
+    "tagline": "De près et en personne.",
+    "description": "{share} de tes parties étaient sur des combattants. Tu aimes tes combats à portée de bras."
+  },
+  "bulwark": {
+    "title": "Le Rempart",
+    "tagline": "Rien ne passe.",
+    "description": "{share} de tes parties étaient sur des tanks. Quelqu'un doit encaisser les dégâts, et c'est toi."
+  },
+  "pathfinder": {
+    "title": "L'Éclaireur de jungle",
+    "tagline": "La jungle est à toi.",
+    "description": "{share} de tes parties étaient en {role}. Tu connais chaque camp, chaque timer et chaque buisson."
+  },
+  "islander": {
+    "title": "L'Insulaire",
+    "tagline": "Voie du haut. Seul avec tes pensées.",
+    "description": "{share} de tes parties étaient en {role}. Toute une voie pour toi, et tu aimes ça."
+  },
+  "centerpiece": {
+    "title": "La Pièce maîtresse",
+    "tagline": "Tous les chemins passent par le mid.",
+    "description": "{share} de tes parties étaient en {role}. Tu es là où la carte se rejoint, et où les combats commencent."
+  },
+  "carry": {
+    "title": "Le Carry",
+    "tagline": "Il faut bien que quelqu'un porte l'équipe.",
+    "description": "{share} de tes parties étaient en {role}. Ton équipe te passe le volant en fin de partie, et tu assures."
+  },
+  "guardian": {
+    "title": "Le Gardien",
+    "tagline": "Tu gardes l'équipe en vie.",
+    "description": "{share} de tes parties étaient en {role}. Boucliers, soins, protection et balises. L'équipe tourne grâce à toi."
+  },
+  "grinder": {
+    "title": "L'Acharné",
+    "tagline": "Régulier, fiable, toujours en file.",
+    "description": "{games, plural, one {# partie} other {# parties}} et {hours} heures de travail régulier. Personne ne s'entraîne comme toi."
+  },
+  "rarity": {
+    "common": "Commun",
+    "uncommon": "Peu commun",
+    "rare": "Rare",
+    "legendary": "Légendaire",
+    "under": "moins de {share}",
+    "about": "environ {share}",
+    "chip": "<b>{tier}</b> · {share} des joueurs",
+    "badge": "{tier} · {share} des joueurs"
+  },
+  "duration": "{minutes} min",
+  "insights": {
+    "games": {
+      "days": "Ça fait {days} jours entiers passés dans la Faille.",
+      "films": "Ça représente environ {films, plural, one {# long métrage} other {# longs métrages}} de pur League."
+    },
+    "win": {
+      "dominant": "Dominant. L'équipe adverse a vu ton nom et a soupiré.",
+      "good": "Plus de victoires que de défaites. Les PL coulent à flots.",
+      "balanced": "Parfaitement équilibré, comme toutes choses devraient l'être.",
+      "challenge": "Le matchmaking t'a lancé un défi et tu as continué à jouer.",
+      "rough": "Une mauvaise passe. Chaque légende a son arc de rédemption, et le tien commence maintenant."
+    },
+    "streak": {
+      "long": "Ta plus longue série : {streak, plural, one {# victoire} other {# victoires}} d'affilée.",
+      "short": "Tes séries de victoires étaient courtes, mais chaque partie était un nouveau départ."
+    },
+    "comeback": "Tu as même remonté d'une série de {streak} défaites.",
+    "champion": {
+      "oneTrick": "{share} de tes parties étaient sur {top}. C'est de l'énergie de one-trick.",
+      "variety": "Tu as joué {unique, plural, one {# champion différent} other {# champions différents}}, mais {top} était ta maison.",
+      "favorite": "{games, plural, one {# partie} other {# parties}} sur {top}. Un favori évident."
+    },
+    "kda": {
+      "rarelyDie": "Tu meurs à peine. Les junglers ennemis détestent ça.",
+      "everyFight": "Chaque combat est ton combat.",
+      "teamFirst": "L'équipe d'abord. Tes carries te doivent une fière chandelle.",
+      "bold": "Audacieux et agressif. Tu as beaucoup vu l'écran gris.",
+      "balanced": "Des chiffres équilibrés et fiables."
+    }
+  }
+}

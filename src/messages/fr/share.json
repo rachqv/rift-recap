@@ -1,0 +1,11 @@
+{
+  "share": "Partager",
+  "download": "Télécharger la carte",
+  "copyLink": "Copier le lien",
+  "linkCopied": "Lien copié",
+  "copyFailed": "Impossible de copier le lien",
+  "shareFailed": "Impossible d'ouvrir le menu de partage",
+  "saveLater": "Enregistrer pour comparer plus tard",
+  "saveRematch": "Enregistrer pour une revanche",
+  "savedOpenLater": "Lien copié. Ouvre-le plus tard"
+}

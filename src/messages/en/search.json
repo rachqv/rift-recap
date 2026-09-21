@@ -1,0 +1,15 @@
+{
+  "placeholder": "Riot ID (Name#TAG)",
+  "riotId": "Riot ID",
+  "region": "Region",
+  "submit": "Get my recap",
+  "suggestions": "Player suggestions",
+  "heading": {
+    "recent": "Recent searches",
+    "sample": "Sample players"
+  },
+  "sample": "Sample",
+  "count": "{count, plural, one {# suggestion available} other {# suggestions available}}",
+  "empty": "No saved players match. Press Enter to look up <strong>{query}</strong> on Riot.",
+  "clear": "Clear recent searches"
+}

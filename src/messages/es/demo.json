@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "title": "Resumen de ejemplo · Rift Recap"
+  },
+  "switcher": {
+    "label": "Jugadores de ejemplo",
+    "previous": "Jugador de ejemplo anterior",
+    "next": "Siguiente jugador de ejemplo",
+    "player": "Jugador de ejemplo",
+    "show": "Ver"
+  },
+  "players": {
+    "onetrick": "Monocampeón",
+    "specialist": "Especialista",
+    "explorer": "Explorador",
+    "chameleon": "Camaleón",
+    "showstopper": "Estrella",
+    "slayer": "Asesino",
+    "daredevil": "Temerario",
+    "support": "Creador de jugadas",
+    "unlucky": "Héroe sin suerte",
+    "phoenix": "Fénix",
+    "risingstar": "Estrella en ascenso",
+    "streaker": "Racha caliente",
+    "scout": "Explorador de visión",
+    "farmer": "Granjero",
+    "heavyhitter": "Gran pegador",
+    "everpresent": "Siempre presente",
+    "opener": "Abridor",
+    "untouchable": "Intocable",
+    "closer": "Cerrador",
+    "marathoner": "Maratoniano",
+    "speedrunner": "Velocista",
+    "assassin": "Asesino silencioso",
+    "archmage": "Archimago",
+    "sharpshooter": "Tirador certero",
+    "brawler": "Peleador",
+    "bulwark": "Baluarte",
+    "aramfan": "Fan del ARAM",
+    "casual": "Casual",
+    "demolisher": "Demoledor",
+    "thief": "Ladrón",
+    "grinder": "Currante",
+    "pathfinder": "Rastreador",
+    "islander": "Isleño",
+    "centerpiece": "Pieza central",
+    "carry": "Carry",
+    "guardian": "Guardián"
+  }
+}

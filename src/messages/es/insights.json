@@ -1,0 +1,256 @@
+{
+  "blame": {
+    "carry": "Hiciste el mayor daño en el {topRate} de tus derrotas y casi no regalaste muertes. El equipo te falló.",
+    "weak": "En tus derrotas acumulaste el {deathShare} de las muertes de tu equipo y casi nunca lideraste el daño. Mírate primero al espejo.",
+    "team": "En tus derrotas estuviste en la media de tu equipo: el {damageShare} de su daño. Nadie tiene la culpa, o todos."
+  },
+  "sessions": {
+    "contrast": "Una noche de {bestWins}-{bestLosses} y otra de {worstWins}-{worstLosses}. El mismo jugador, tardes distintas.",
+    "marathon": "{games, plural, one {# partida} other {# partidas}} de una sentada. Hidrátate.",
+    "best": "Tu mejor noche acabó {wins}-{losses}. Ve a por otra."
+  },
+  "early": {
+    "early": "Por delante de tu rival de línea a los 15 minutos en el {ahead} de las partidas, y las cierras. Un matón del early game.",
+    "late": "Por detrás a los 15 minutos en el {behind} de las partidas, pero aun así ganas el {comeback} de ellas. Escalas y nunca te rindes.",
+    "steady": "Por delante a los 15 en el {ahead} de las partidas y por detrás en el {behind}. La partida se decide más tarde."
+  },
+  "tierlist": {
+    "solo": "{best} es todo lo que tienes.",
+    "uniform": "Todo tu repertorio está en el nivel {tier}, liderado por {best} con un {winRate}.",
+    "leadS": "{best} es tu elección de nivel S con un {winRate}.",
+    "leadOther": "Nadie llegó al nivel S. {best} lidera tu lista en el nivel {tier} con un {winRate}.",
+    "lastD": "{worst} es tu elección de nivel D con un {winRate}.",
+    "lastOther": "{worst} está al final, en el nivel {tier}, con un {winRate}.",
+    "both": "{lead} {last}"
+  },
+  "items": {
+    "better": "Ganas el {withIt} de las partidas con {name} y el {without} sin él. Algo está haciendo bien.",
+    "worse": "Tu porcentaje de victorias baja cuando construyes {name} ({withIt} frente a {without}). ¿Lealtad o costumbre?",
+    "habit": "{name} acabó en el {share} de tus partidas. Hay hábitos que no se pierden.",
+    "friend": "{name} terminó en el {share} de tus partidas. Un amigo fiable."
+  },
+  "habits": {
+    "flashEdge": "Destello en {key}, {perGame} usos por partida. Vives al límite.",
+    "flashCalm": "Destello en {key}, {perGame} usos por partida. Lo guardas para cuando cuenta.",
+    "pair": "{a} y {b} en el {share} de tus partidas. Sabes lo que te gusta.",
+    "surrenderOften": "El {rate} de tus partidas acabó en rendición. Siempre hay alguien con prisa.",
+    "surrenderUs": "Tu equipo se rindió más veces que el enemigo ({weQuit} a {enemyQuit}). Mantén el optimismo.",
+    "surrenderThem": "El otro equipo levantó la bandera blanca {enemyQuit} veces frente a las {weQuit} del tuyo. Te vieron venir.",
+    "surrenderRare": "Solo el {rate} de tus partidas acabó en rendición. Tú las juegas hasta el final."
+  },
+  "spells": {
+    "1": "Purificar",
+    "3": "Agotar",
+    "4": "Destello",
+    "6": "Fantasma",
+    "7": "Curar",
+    "11": "Castigo",
+    "12": "Teletransporte",
+    "13": "Claridad",
+    "14": "Prender",
+    "21": "Barrera",
+    "32": "Marca",
+    "unknown": "un hechizo"
+  },
+  "pings": {
+    "getBackPings": {
+      "label": "Retirada",
+      "title": "El Preocupado",
+      "line": "Gastas tus pings diciéndole a la gente que se retire. Tu equipo sigue vivo gracias a ti."
+    },
+    "enemyMissingPings": {
+      "label": "Enemigo desaparecido",
+      "title": "El Vigía",
+      "line": "«¡Desaparecido!» es tu muletilla. Nadie entra en la niebla sin que lo sepas."
+    },
+    "onMyWayPings": {
+      "label": "En camino",
+      "title": "El Rescatador",
+      "line": "Siempre vas de camino. Si llegas o no es otra historia."
+    },
+    "assistMePings": {
+      "label": "Necesito ayuda",
+      "title": "El Instigador",
+      "line": "Haces ping pidiendo ayuda y el equipo acude corriendo. O eso esperas."
+    },
+    "needVisionPings": {
+      "label": "Necesito visión",
+      "title": "El Mendigo de Visión",
+      "line": "Alguien, por favor, que ponga una baliza. Lo pides en cada partida."
+    },
+    "commandPings": {
+      "label": "Comando",
+      "title": "El Comandante",
+      "line": "Señalas el mapa y esperas que el equipo te siga. Casi siempre lo hace."
+    },
+    "pushPings": {
+      "label": "Presionar",
+      "title": "El Empujador de Oleadas",
+      "line": "Empuja, empuja, empuja. Quieres esa torreta abajo ya."
+    },
+    "holdPings": {
+      "label": "Mantener",
+      "title": "El Muro",
+      "line": "Mantened la línea. Eres la voz tranquila en una sala caótica."
+    },
+    "allInPings": {
+      "label": "Todos dentro",
+      "title": "El Mercader del All-In",
+      "line": "Cuando haces ping de todos dentro, la pelea ocurre te guste a ti o no."
+    },
+    "enemyVisionPings": {
+      "label": "Visión enemiga",
+      "title": "El Observador",
+      "line": "Avisas de cada baliza enemiga. Nada se te esconde."
+    },
+    "visionClearedPings": {
+      "label": "Visión despejada",
+      "title": "El Conserje",
+      "line": "Limpias las balizas y se lo cuentas a todo el mundo."
+    }
+  },
+  "chapters": {
+    "part": "Parte {n}",
+    "range": "{from}–{to}",
+    "same": "{title} de principio a fin. Sabes quién eres.",
+    "changed": "Empezaste como {first} y acabaste como {last}. Una temporada de cambios."
+  },
+  "tilt": {
+    "tilt": "Ganas el {afterWin} tras una victoria, pero solo el {afterLoss} tras una derrota. Quizá te venga bien dar un paseo entre partidas.",
+    "resilient": "Pierdes una y ganas el {afterLoss} de las siguientes, más que el {afterWin} tras una victoria. Las derrotas te motivan.",
+    "steady": "{afterWin} tras una victoria, {afterLoss} tras una derrota. Nada te descoloca."
+  },
+  "comfort": {
+    "trust": "{best} te sube al {bestRate}. Una elección de confianza.",
+    "drag": "{best} te sube al {bestRate}. {worst} te hunde hasta el {worstRate}. ¿Toca dejarlo?"
+  },
+  "gray": {
+    "heavy": "Eso es el {share} de cada partida mirando la pantalla gris. La fuente te conoce por tu nombre.",
+    "some": "Unos {minutes} minutos por partida esperando para reaparecer. Se acumula.",
+    "light": "Solo el {share} de tu tiempo muerto. La pantalla gris apenas te conoce."
+  },
+  "modes": {
+    "aramPenta": "{penta, plural, one {# pentakill} other {# pentakills}} en el puente. El Abismo saca tu lado caótico.",
+    "aramKills": "{kills} asesinatos por partida. Una pelea de bar es donde te luces.",
+    "aramBetter": "Ganas más en el Abismo que en la Grieta. Las bolas de nieve te sientan bien.",
+    "aramWorse": "La Grieta te trata mejor que el Abismo. Ese puente es un sitio salvaje.",
+    "aramSteady": "{top} te llevó en volandas por el caos. Constante, igual que en la Grieta.",
+    "normalBetter": "Juegas mejor sin nada en juego. Tus normales superan tu porcentaje en clasificatoria.",
+    "normalWorse": "La clasificatoria saca lo mejor de ti. Las normales son tu vuelta de calentamiento.",
+    "normalExplore": "{unique, plural, one {# campeón distinto} other {# campeones distintos}} en {games, plural, one {# partida normal} other {# partidas normales}}. Aquí es donde experimentas.",
+    "normalMain": "{top} fue tu comodín cuando no había nada en juego ({winRate} de victorias)."
+  },
+  "objectives": {
+    "stolen": "{count, plural, one {# objetivo robado} other {# objetivos robados}}. En algún lugar, un jungla enemigo sigue enfadado.",
+    "firstTower": "Consigue la primera torreta: ganas el {withIt} de las partidas con ella y el {without} sin ella.",
+    "firstDragon": "Consigue el primer dragón: ganas el {withIt} de las partidas con él y el {without} sin él.",
+    "firstHerald": "Consigue el primer Heraldo: ganas el {withIt} de las partidas con él y el {without} sin él.",
+    "firstBaron": "Consigue el primer Barón: ganas el {withIt} de las partidas con él y el {without} sin él.",
+    "turrets": "Derribaste el {share} de las torretas de tu equipo. Demoler es un deporte de equipo, y tú eres la demolición.",
+    "barons": "{count, plural, one {# Barón asegurado} other {# Barones asegurados}}. Cuando se abre el foso, allí estás.",
+    "dragons": "{count, plural, one {# dragón asegurado} other {# dragones asegurados}}. La fauna de la Grieta te teme.",
+    "default": "Tus equipos consiguieron {dragons, plural, one {# dragón} other {# dragones}} y {towers, plural, one {# torreta} other {# torretas}} en estas partidas. Cada objetivo cuenta."
+  },
+  "damage": {
+    "spellslinger": {
+      "style": "El Lanzahechizos",
+      "line": "El {share} de tu daño es mágico. La armadura es solo una sugerencia."
+    },
+    "steel": {
+      "style": "Acero sobre hechizos",
+      "line": "El {share} de tu daño es físico. Los enemigos que construyen armadura te odian."
+    },
+    "trueDamage": {
+      "style": "Aficionado al daño verdadero",
+      "line": "El {share} de tu daño ignora por completo las resistencias. Traicionero."
+    },
+    "mixed": {
+      "style": "La amenaza mixta",
+      "line": "Físico y mágico en equilibrio. El enemigo no puede apilar una sola resistencia."
+    }
+  },
+  "lane": {
+    "bully": "Terminas por delante de tu rival de línea en oro en el {rate} de las partidas, por {gold} de oro de media. Matón de línea.",
+    "behind": "Tu rival de línea gana más oro que tú en el {rate} de las partidas. Toca revisar el manejo de oleadas.",
+    "even": "Tú y tu rival de línea os pegáis de igual a igual: por delante en oro en el {rate} de las partidas."
+  },
+  "gold": {
+    "high": "Terminaste las partidas con {gold} de oro sin gastar de media. Es un objeto que nunca compraste.",
+    "mid": "Unos {gold} de oro sobrantes al final de una partida. Ni mal ni perfecto.",
+    "low": "Solo {gold} de oro sin gastar. Lo gastas tan rápido como lo ganas."
+  },
+  "classes": {
+    "Tank": "Tanque",
+    "Marksman": "Tirador",
+    "Mage": "Mago",
+    "Assassin": "Asesino",
+    "Fighter": "Luchador",
+    "Support": "Apoyo"
+  },
+  "classInline": {
+    "Tank": "tanque",
+    "Marksman": "tirador",
+    "Mage": "mago",
+    "Assassin": "asesino",
+    "Fighter": "luchador",
+    "Support": "apoyo"
+  },
+  "comp": {
+    "better": "Con un {class} en tu equipo ganas el {withRate}, frente al {withoutRate} sin él. Pídelo.",
+    "worse": "Con un {class} en tu equipo ganas solo el {withRate} ({withoutRate} sin él). ¿Casualidad o maldición?"
+  },
+  "highlights": {
+    "penta": "Pentakill",
+    "kills": "Más asesinatos",
+    "kda": "Mejor KDA",
+    "longest": "Partida más larga"
+  },
+  "progress": {
+    "rows": {
+      "wr": "Victorias",
+      "kda": "KDA",
+      "k": "Asesinatos por partida",
+      "d": "Muertes por partida",
+      "a": "Asistencias por partida",
+      "cs": "CS por minuto",
+      "vs": "Visión por minuto",
+      "dm": "Daño por minuto",
+      "kp": "Participación en asesinatos",
+      "rank": "Rango"
+    },
+    "flat": "Nada se ha movido de verdad desde entonces. La constancia es una virtud.",
+    "allUp": "Mejor en todo: {better} de {total} estadísticas han subido y ninguna ha bajado.",
+    "allDown": "Una racha más dura: {worse} de {total} estadísticas han bajado. Toda subida tiene sus baches.",
+    "moreUp": "Más subidas que bajadas: {better} estadísticas mejoraron y {worse} bajaron.",
+    "mixed": "Un poco de todo: {better} estadísticas mejoraron, {worse} bajaron."
+  },
+  "tiltguard": {
+    "stop": "Después de {losses} derrotas seguidas ganas el {rate} de la siguiente partida, frente al {base} habitual. Ahí tienes tu señal de stop.",
+    "keepGoing": "Y aun así vuelves a jugar el {keep} de las veces.",
+    "steady": "Incluso tras {losses} derrotas seguidas ganas el {rate}. Las rachas no te afectan.",
+    "liveStop": "Llevas {run} derrotas seguidas ahora mismo y, tras una racha así, ganas el {rate} de la siguiente partida. Quizá sea hora de parar.",
+    "liveInfo": "Ahora mismo llevas una racha de {run} derrotas. Después de una así ganas el {rate} de la siguiente partida."
+  },
+  "formcurve": {
+    "swing": "Del {worst} en tu peor racha al {best} en la mejor, en ventanas de {games}.",
+    "steady": "En cualquier tramo de {games} te mantuviste entre el {worst} y el {best}. Muy estable.",
+    "hot": "Últimamente estás en racha: {now} en tus últimas {games}, frente al {avg} de la temporada.",
+    "cold": "Últimamente cuesta más: {now} en tus últimas {games}, frente al {avg} de la temporada.",
+    "even": "Últimamente estás en tu nivel de siempre: {now} en tus últimas {games}, {avg} en la temporada."
+  },
+  "patches": {
+    "swing": "Te fue mejor en el parche {best} ({bestRate}) y peor en el {worst} ({worstRate}).",
+    "steady": "Parche tras parche te mantuviste entre el {worstRate} y el {bestRate}. Los parches apenas te afectan."
+  },
+  "runes": {
+    "better": "{best} te da un {bestRate} de victorias, frente al {favoriteRate} con {favorite}. ¿Merece la pena usarla más?",
+    "loyal": "{name} en el {share} de tus partidas. Cuando encuentras tu runa clave, no la sueltas.",
+    "plain": "{name} es tu runa clave: {rate} de victorias en {games}."
+  },
+  "championPage": {
+    "better": "{name} supera tu nivel habitual: {rate} frente al {overall} en total.",
+    "worse": "{name} se te da peor: {rate} frente al {overall} en total.",
+    "level": "{name} está en tu nivel habitual: {rate}, {overall} en total.",
+    "few": "{games} con {name} por ahora: {rate} de victorias."
+  }
+}

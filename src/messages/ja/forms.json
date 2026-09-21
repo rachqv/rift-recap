@@ -1,0 +1,39 @@
+{
+  "tryRange": "別の期間を試す:",
+  "field": {
+    "recent": "最近のプレイヤー"
+  },
+  "squad": {
+    "title": "スクワッドリキャップ",
+    "lead": "同じサーバーのRiot IDを2〜5人分入力してください。<em>一緒に</em>プレイした試合を集計して、アワードを贈ります。",
+    "server": "サーバー",
+    "player": "プレイヤー{n}（名前#TAG）",
+    "playerOptional": "プレイヤー{n}（名前#TAG）任意",
+    "playerAria": "プレイヤー{n}のRiot ID",
+    "submit": "スクワッドリキャップを見る",
+    "fine": "共通の試合だけを見るので、いつも一緒にキューに入る仲間ほど向いています。<link>サンプルのスクワッドを見る</link>"
+  },
+  "clash": {
+    "title": "チーム対チーム",
+    "lead": "同じサーバーの2〜5人のチーム2つ。<em>お互いに対戦した</em>試合（カスタム5v5など）を見ます。",
+    "server": "サーバー",
+    "sideA": "チーム1",
+    "sideB": "チーム2",
+    "player": "{side}・プレイヤー{n}（名前#TAG）",
+    "playerOptional": "{side}・プレイヤー{n}（名前#TAG）任意",
+    "playerAria": "{side}のプレイヤー{n}のRiot ID",
+    "submit": "チームを比較",
+    "fine": "各チームから2人以上が敵同士になった試合のみ対象です。<link>サンプルを見る</link>"
+  },
+  "versus": {
+    "title": "ヘッドトゥヘッド",
+    "lead": "2人のプレイヤーを選んで、どちらが上回るか確かめましょう。統計ごと、スタイルごと、そして一緒にプレイしたときの成績まで比較します。",
+    "player1": "プレイヤー1",
+    "player2": "プレイヤー2",
+    "serverAria": "{label}のサーバー",
+    "riotId": "Riot ID（名前#TAG）",
+    "riotIdAria": "{label}のRiot ID",
+    "submit": "比較する",
+    "fine": "それぞれの最新の試合を比較します。<link>サンプルの対決を見る</link>"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "title": "Pemainmu · Rift Recap"
+  },
+  "title": "Pemainmu",
+  "lead": "Semua orang yang pernah kamu cari di perangkat ini, dengan pintasan ke rangkuman, adu langsung, atau skuad mereka.",
+  "empty": "Belum ada pemain. Cari seseorang di <home>beranda</home> dan mereka akan muncul di sini.",
+  "recap": "Rangkuman",
+  "versus": "Adu langsung",
+  "squad": "Skuad",
+  "remove": "Hapus {name} dari daftar ini",
+  "clear": "Hapus semua",
+  "pin": "Sematkan {name} di atas",
+  "unpin": "Lepas sematan {name}",
+  "clearUnpinned": "Hapus yang tidak disematkan"
+}

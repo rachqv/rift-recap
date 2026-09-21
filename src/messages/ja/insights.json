@@ -1,0 +1,256 @@
+{
+  "blame": {
+    "carry": "敗北の{topRate}でチーム最大のダメージを出し、ほとんど死ななかった。チームが足を引っ張った。",
+    "weak": "敗北した試合ではチームのデスの{deathShare}を占め、ダメージトップになることも少なかった。まず鏡を見てみよう。",
+    "team": "敗北した試合ではチーム平均並みで、ダメージの{damageShare}。責める相手はいない、あるいは全員。"
+  },
+  "sessions": {
+    "contrast": "{bestWins}-{bestLosses}の夜と、{worstWins}-{worstLosses}の夜。同じプレイヤー、違う夜。",
+    "marathon": "1回で{games, plural, other {#試合}}。水分補給を忘れずに。",
+    "best": "最高の夜は{wins}-{losses}。あの夜をもう一度。"
+  },
+  "early": {
+    "early": "15分時点でレーン相手をリードしたのは試合の{ahead}で、そのまま勝ち切る。序盤の暴君。",
+    "late": "15分時点で負けていたのは試合の{behind}だが、そのうち{comeback}は勝っている。後半に伸びて、決して諦めない。",
+    "steady": "15分時点でリードが{ahead}、ビハインドが{behind}。勝負は後半で決まる。"
+  },
+  "tierlist": {
+    "solo": "{best}がすべてだ。",
+    "uniform": "プール全体が{tier}ティアで、先頭は勝率{winRate}の{best}。",
+    "leadS": "{best}が勝率{winRate}のSティアの一枚。",
+    "leadOther": "Sティアには届かなかった。{tier}ティアで首位なのは勝率{winRate}の{best}。",
+    "lastD": "{worst}が勝率{winRate}のDティアの一枚。",
+    "lastOther": "{worst}は{tier}ティアの最下位で、勝率は{winRate}。",
+    "both": "{lead} {last}"
+  },
+  "items": {
+    "better": "{name}ありだと勝率{withIt}、なしだと{without}。しっかり仕事をしている。",
+    "worse": "{name}を買うと勝率が下がる（{withIt}対{without}）。忠誠心か、それとも習慣か。",
+    "habit": "試合の{share}で最後に{name}が完成した。手放せない習慣もある。",
+    "friend": "試合の{share}で{name}が最終ビルドに入っていた。頼れる相棒。"
+  },
+  "habits": {
+    "flashEdge": "フラッシュは{key}、1試合あたり{perGame}回。ギリギリを攻めている。",
+    "flashCalm": "フラッシュは{key}、1試合あたり{perGame}回。ここぞという時のために温存している。",
+    "pair": "試合の{share}で{a}と{b}。好みははっきりしている。",
+    "surrenderOften": "試合の{rate}がサレンダーで終わった。いつも誰かに用事がある。",
+    "surrenderUs": "味方のほうが敵よりサレンダーが多かった（{weQuit}対{enemyQuit}）。前向きにいこう。",
+    "surrenderThem": "敵チームは{enemyQuit}回白旗を上げ、味方は{weQuit}回。あなたが来るのを見抜かれていた。",
+    "surrenderRare": "サレンダーで終わった試合はわずか{rate}。最後まで戦い抜く。"
+  },
+  "spells": {
+    "1": "クレンズ",
+    "3": "エグゾースト",
+    "4": "フラッシュ",
+    "6": "ゴースト",
+    "7": "ヒール",
+    "11": "スマイト",
+    "12": "テレポート",
+    "13": "クラリティ",
+    "14": "イグナイト",
+    "21": "バリア",
+    "32": "マーク",
+    "unknown": "スペル"
+  },
+  "pings": {
+    "getBackPings": {
+      "label": "撤退",
+      "title": "心配性",
+      "line": "ピンは撤退の合図に使う。あなたのおかげでチームは生き残っている。"
+    },
+    "enemyMissingPings": {
+      "label": "敵がいない",
+      "title": "見張り番",
+      "line": "「ミッシング！」が口癖。あなたに気づかれずに霧へ入る者はいない。"
+    },
+    "onMyWayPings": {
+      "label": "向かっている",
+      "title": "救援隊",
+      "line": "いつも向かっている。着くかどうかは別の話。"
+    },
+    "assistMePings": {
+      "label": "助けて",
+      "title": "扇動者",
+      "line": "助けを求めてピンを打てば、チームが駆けつける。たぶん。"
+    },
+    "needVisionPings": {
+      "label": "視界が必要",
+      "title": "視界の物乞い",
+      "line": "誰かワードを置いてくれ。毎試合お願いしている。"
+    },
+    "commandPings": {
+      "label": "コマンド",
+      "title": "司令官",
+      "line": "マップを指し示せば、チームがついてくる。たいていは。"
+    },
+    "pushPings": {
+      "label": "プッシュ",
+      "title": "ウェーブプッシャー",
+      "line": "プッシュ、プッシュ、プッシュ。あのタワーを今すぐ折りたい。"
+    },
+    "holdPings": {
+      "label": "維持",
+      "title": "壁",
+      "line": "ラインを守れ。混沌としたロビーの中で、あなたは冷静な声。"
+    },
+    "allInPings": {
+      "label": "オールイン",
+      "title": "オールイン商人",
+      "line": "オールインのピンを打てば、誰が何と言おうと戦いは始まる。"
+    },
+    "enemyVisionPings": {
+      "label": "敵の視界",
+      "title": "スポッター",
+      "line": "敵のワードはすべて報告する。何も隠せない。"
+    },
+    "visionClearedPings": {
+      "label": "視界を除去",
+      "title": "掃除係",
+      "line": "ワードを掃除して、みんなに知らせる。"
+    }
+  },
+  "chapters": {
+    "part": "第{n}章",
+    "range": "{from}〜{to}",
+    "same": "最初から最後まで{title}。自分が何者か分かっている。",
+    "changed": "始まりは{first}、終わりは{last}。変化のシーズンだった。"
+  },
+  "tilt": {
+    "tilt": "勝利の後は{afterWin}、敗北の後は{afterLoss}しか勝てない。試合の合間に散歩でもしてみては。",
+    "resilient": "1敗しても次の試合の{afterLoss}に勝つ。勝利の後の{afterWin}より高い。負けるほど燃えるタイプ。",
+    "steady": "勝利の後は{afterWin}、敗北の後は{afterLoss}。何にも動じない。"
+  },
+  "comfort": {
+    "trust": "{best}なら勝率が{bestRate}まで上がる。信頼できる一枚。",
+    "drag": "{best}なら{bestRate}まで上がるが、{worst}だと{worstRate}まで落ちる。そろそろ手放す時では？"
+  },
+  "gray": {
+    "heavy": "1試合の{share}をグレー画面で過ごしている。噴水はあなたの名前を覚えている。",
+    "some": "1試合あたり約{minutes}分をリスポーン待ちに。積もり積もる。",
+    "light": "死んでいる時間はわずか{share}。グレー画面とはほとんど縁がない。"
+  },
+  "modes": {
+    "aramPenta": "ブリッジで{penta, plural, other {#回}}ペンタキル。アビスはあなたのカオスを引き出す。",
+    "aramKills": "1試合あたり{kills}キル。乱戦こそ本領発揮。",
+    "aramBetter": "リフトよりアビスのほうが勝てる。スノーボールがよく似合う。",
+    "aramWorse": "アビスよりリフトのほうが相性がいい。あの橋は荒れた場所だ。",
+    "aramSteady": "{top}がカオスを乗り切らせてくれた。リフトと同じく安定している。",
+    "normalBetter": "何もかかっていない時のほうが上手い。ノーマルの勝率がランクを上回っている。",
+    "normalWorse": "ランクで本領を発揮する。ノーマルはウォームアップだ。",
+    "normalExplore": "{games, plural, other {#試合}}のノーマルで{unique, plural, other {#体}}の異なるチャンピオン。ここが実験の場。",
+    "normalMain": "何もかかっていない時の定番は{top}（勝率{winRate}）。"
+  },
+  "objectives": {
+    "stolen": "{count, plural, other {#個}}のオブジェクトをスチール。どこかで敵のジャングラーがまだ怒っている。",
+    "firstTower": "先にタワーを取ると、勝率は{withIt}。取れないと{without}。",
+    "firstDragon": "先にドラゴンを取ると、勝率は{withIt}。取れないと{without}。",
+    "firstHerald": "先にヘラルドを取ると、勝率は{withIt}。取れないと{without}。",
+    "firstBaron": "先にバロンを取ると、勝率は{withIt}。取れないと{without}。",
+    "turrets": "チームのタワーの{share}を破壊した。解体はチームスポーツ、そしてあなたが解体そのもの。",
+    "barons": "バロンを{count, plural, other {#回}}確保。ピットが開く時、そこにいる。",
+    "dragons": "ドラゴンを{count, plural, other {#回}}確保。リフトの生き物たちはあなたを恐れている。",
+    "default": "これらの試合でチームは{dragons, plural, other {#体}}のドラゴンと{towers, plural, other {#基}}のタワーを獲得。オブジェクトはすべて大事。"
+  },
+  "damage": {
+    "spellslinger": {
+      "style": "スペルスリンガー",
+      "line": "ダメージの{share}が魔法。アーマーなんて飾りだ。"
+    },
+    "steel": {
+      "style": "魔法より鋼",
+      "line": "ダメージの{share}が物理。アーマーを積む敵はあなたが嫌いだ。"
+    },
+    "trueDamage": {
+      "style": "確定ダメージ愛好家",
+      "line": "ダメージの{share}が耐性を完全に無視する。ずるい。"
+    },
+    "mixed": {
+      "style": "ミックスの脅威",
+      "line": "物理と魔法のバランスが取れている。敵は片方の耐性だけでは対応できない。"
+    }
+  },
+  "lane": {
+    "bully": "試合の{rate}でレーン相手よりゴールドで上回り、平均{gold}ゴールドの差。レーンのいじめっ子。",
+    "behind": "試合の{rate}でレーン相手のほうが稼いでいる。ウェーブ管理を見直す時だ。",
+    "even": "レーン相手とは互角の殴り合い。ゴールドで上回るのは試合の{rate}。"
+  },
+  "gold": {
+    "high": "平均{gold}ゴールドを使わずに試合を終えている。買わなかったアイテムが1つある。",
+    "mid": "試合終了時に約{gold}ゴールドが余る。悪くないが完璧でもない。",
+    "low": "余りはわずか{gold}ゴールド。稼いだそばから使い切る。"
+  },
+  "classes": {
+    "Tank": "タンク",
+    "Marksman": "マークスマン",
+    "Mage": "メイジ",
+    "Assassin": "アサシン",
+    "Fighter": "ファイター",
+    "Support": "サポート"
+  },
+  "comp": {
+    "better": "チームに{class}がいると勝率{withRate}、いないと{withoutRate}。ぜひ1人お願いしよう。",
+    "worse": "チームに{class}がいると勝率は{withRate}しかない（いないと{withoutRate}）。偶然か、呪いか。"
+  },
+  "highlights": {
+    "penta": "ペンタキル",
+    "kills": "最多キル",
+    "kda": "最高KDA",
+    "longest": "最長の試合"
+  },
+  "progress": {
+    "rows": {
+      "wr": "勝率",
+      "kda": "KDA",
+      "k": "1試合あたりのキル",
+      "d": "1試合あたりのデス",
+      "a": "1試合あたりのアシスト",
+      "cs": "1分あたりのCS",
+      "vs": "1分あたりの視界",
+      "dm": "1分あたりのダメージ",
+      "kp": "キル関与率",
+      "rank": "ランク"
+    },
+    "flat": "あれから大きな変化はない。安定も立派な実力。",
+    "allUp": "全体的に向上: {total}項目中{better}項目が上昇し、下がったものはなし。",
+    "allDown": "少し苦しい時期: {total}項目中{worse}項目が下降。どんな昇格にも谷はある。",
+    "moreUp": "上昇のほうが多い: {better}項目が向上、{worse}項目が下降。",
+    "mixed": "まちまちの結果: {better}項目が向上、{worse}項目が下降。"
+  },
+  "classInline": {
+    "Tank": "タンク",
+    "Marksman": "マークスマン",
+    "Mage": "メイジ",
+    "Assassin": "アサシン",
+    "Fighter": "ファイター",
+    "Support": "サポート"
+  },
+  "tiltguard": {
+    "stop": "{losses}連敗したあとの次の試合は勝率{rate}（普段は{base}）。これがあなたのストップサイン。",
+    "keepGoing": "それでも{keep}の確率でまたキューに入る。",
+    "steady": "{losses}連敗したあとでも勝率は{rate}。連敗に動じない。",
+    "liveStop": "今まさに{run}連敗中。こういう流れのあとの次の試合は勝率{rate}。ここでやめておくのも手かも。",
+    "liveInfo": "今まさに{run}連敗中。こういう流れのあとの次の試合は勝率{rate}。"
+  },
+  "formcurve": {
+    "swing": "最も低い時は{worst}、最も高い時は{best}（{games}ごとの推移）。",
+    "steady": "どの{games}をとっても{worst}〜{best}の間。とても安定している。",
+    "hot": "最近は絶好調：直近{games}で{now}（シーズン平均は{avg}）。",
+    "cold": "最近は苦戦気味：直近{games}で{now}（シーズン平均は{avg}）。",
+    "even": "最近はいつも通り：直近{games}で{now}（シーズン平均は{avg}）。"
+  },
+  "patches": {
+    "swing": "一番調子が良かったのはパッチ{best}（{bestRate}）、一番悪かったのはパッチ{worst}（{worstRate}）。",
+    "steady": "パッチが変わっても勝率は{worstRate}〜{bestRate}の間。新パッチにほとんど動じない。"
+  },
+  "runes": {
+    "better": "{best}なら勝率{bestRate}、{favorite}では{favoriteRate}。もっと使ってみる価値あり？",
+    "loyal": "試合の{share}で{name}。キーストーンが決まったら、ずっとそれ。",
+    "plain": "{name}があなたのキーストーン：{games}で勝率{rate}。"
+  },
+  "championPage": {
+    "better": "{name}はいつもより好調：{rate}（全体は{overall}）。",
+    "worse": "{name}はやや苦手：{rate}（全体は{overall}）。",
+    "level": "{name}はいつも通り：{rate}（全体は{overall}）。",
+    "few": "{name}はこれまで{games}：勝率{rate}。"
+  }
+}

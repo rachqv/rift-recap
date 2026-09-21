@@ -1,0 +1,215 @@
+{
+  "onetrick": {
+    "title": "One-Trick",
+    "tagline": "Kesetiaan di atas segalanya.",
+    "description": "{share} pertandinganmu adalah {top}. Ada yang menyebutnya keras kepala. Kami menyebutnya penguasaan."
+  },
+  "specialist": {
+    "title": "Spesialis",
+    "tagline": "Dua champion, penguasaan total.",
+    "description": "{share} pertandinganmu adalah {top} atau {second}. Kamu tahu persis apa yang kamu kuasai."
+  },
+  "explorer": {
+    "title": "Penjelajah",
+    "tagline": "Kenapa pilih satu kalau bisa memainkan semuanya?",
+    "description": "{unique, plural, other {# champion}} berbeda dalam {games, plural, other {# pertandingan}}. Kamu tak pernah lama di satu tempat."
+  },
+  "chameleon": {
+    "title": "Bunglon",
+    "tagline": "Di-fill? Tak masalah.",
+    "description": "{roles, plural, other {# role}} berbeda dan tanpa favorit. Setiap lane adalah rumah, dan timmu berterima kasih."
+  },
+  "showstopper": {
+    "title": "Pusat perhatian",
+    "tagline": "Lahir untuk video highlight.",
+    "description": "{penta, plural, other {# pentakill}}, {quadra, plural, other {# quadrakill}}, dan {triple, plural, other {# triple}}. Kamulah yang membuat klipnya.",
+    "descriptionAlt": "{quadra, plural, other {# quadrakill}} dan {triple, plural, other {# triple kill}}. Saat pertarungan berantakan, kamu bersuara."
+  },
+  "thief": {
+    "title": "Pencuri",
+    "tagline": "Naga yang bagus. Sayang sekarang jadi milikku.",
+    "description": "{count, plural, other {# objektif}} dicuri. Tak ada yang bilang harus adil."
+  },
+  "slayer": {
+    "title": "Pembantai",
+    "tagline": "Kamu datang ke sini untuk mengejar kill.",
+    "description": "{kills, plural, other {# kill}} dalam {games, plural, other {# pertandingan}}, sekitar {perGame} per pertandingan. Namamu hidup di kill feed."
+  },
+  "daredevil": {
+    "title": "Nekat",
+    "tagline": "Setiap pertarungan layak dijalani.",
+    "description": "{deaths, plural, other {# kematian}}, dan tanpa penyesalan. Kamu tak pernah berhenti menerjang pertarungan."
+  },
+  "playmaker": {
+    "title": "Pengatur serangan",
+    "tagline": "Sahabat terbaik timmu.",
+    "description": "{assists, plural, other {# assist}}, {perGame} per pertandingan. Kamu menyiapkan serangan dan membiarkan tim meraih kejayaan."
+  },
+  "unlucky": {
+    "title": "Pahlawan sial",
+    "tagline": "Statistik hebat, rekan tim meragukan.",
+    "description": "KDA {kda} tapi hanya menang {winRate}. Angka-angka bilang itu bukan salahmu."
+  },
+  "phoenix": {
+    "title": "Feniks",
+    "tagline": "Kamu bangkit setiap kali.",
+    "description": "Rentetan kalah {streak} pertandingan, dan kamu tetap mengakhiri dengan {winRate} menang. Itu ketangguhan."
+  },
+  "risingstar": {
+    "title": "Bintang naik daun",
+    "tagline": "Kamu makin jago seiring musim berjalan.",
+    "description": "Win rate-mu naik dari {early} ke {late}. Garis tren hanya menunjuk ke atas."
+  },
+  "streaker": {
+    "title": "Rentetan panas",
+    "tagline": "Begitu mulai menang, kamu tak berhenti.",
+    "description": "{streak} kemenangan beruntun di masa terbaikmu. Tak ada yang mau berada di tim lawan."
+  },
+  "scout": {
+    "title": "Pengintai",
+    "tagline": "Tak ada yang lolos dari ward-mu.",
+    "description": "Skor vision {vision} per menit. Kamu menyalakan lampu untuk semua orang."
+  },
+  "farmer": {
+    "title": "Petani",
+    "tagline": "Emas adalah gaya hidup.",
+    "description": "{cs} minion per menit. Tak satu pun wave meriam tertinggal."
+  },
+  "heavyhitter": {
+    "title": "Pemukul berat",
+    "tagline": "Kamu memberi damage. Banyak.",
+    "description": "{damage} damage ke champion setiap menit. Bar darah tak bertahan lama di dekatmu."
+  },
+  "everpresent": {
+    "title": "Selalu hadir",
+    "tagline": "Di setiap pertarungan, kamu ada.",
+    "description": "Kamu ikut serta dalam {kp} kill timmu. Kalau ada pertarungan, kamu ada di dalamnya."
+  },
+  "opener": {
+    "title": "Pembuka",
+    "tagline": "First blood adalah jabat tanganmu.",
+    "description": "{count, plural, other {# first blood}}. Kamu memulai pesta sebelum yang lain tiba."
+  },
+  "demolisher": {
+    "title": "Penghancur",
+    "tagline": "Kalau punya fondasi, pasti roboh.",
+    "description": "{turrets, plural, other {# menara}} dalam {games, plural, other {# pertandingan}}, sekitar {perGame} per pertandingan. Bangunan takut padamu."
+  },
+  "untouchable": {
+    "title": "Tak tersentuh",
+    "tagline": "Mati itu urusan orang lain.",
+    "description": "Hanya {perGame} kematian per pertandingan, dan {deathless, plural, other {# pertandingan}} tanpa mati sekali pun.",
+    "descriptionAlt": "Hanya {perGame} kematian per pertandingan. Layar abu-abu hampir tak mengenalmu."
+  },
+  "closer": {
+    "title": "Penutup",
+    "tagline": "Kamu memenangkan pertandingan. Sesederhana itu.",
+    "description": "Win rate {winRate}. Saat kamu masuk antrean, tim lawan sebaiknya khawatir."
+  },
+  "marathoner": {
+    "title": "Pelari maraton",
+    "tagline": "Pertandingan tak berakhir sampai kamu bilang selesai.",
+    "description": "Pertandinganmu rata-rata berlangsung {minutes} menit. Kamu bermain jangka panjang, secara harfiah."
+  },
+  "speedrunner": {
+    "title": "Speedrunner",
+    "tagline": "Kenapa menunggu? Akhiri sekarang.",
+    "description": "Pertandinganmu rata-rata hanya {minutes} menit. Nexus roboh sebelum air mendidih."
+  },
+  "assassin": {
+    "title": "Pembunuh",
+    "tagline": "Masuk, keluar, dan lenyap.",
+    "description": "{share} pertandinganmu memakai assassin. Kamu pilih target lalu menghapusnya."
+  },
+  "archmage": {
+    "title": "Penyihir agung",
+    "tagline": "Cooldown hanyalah saran.",
+    "description": "{share} pertandinganmu memakai mage. Sihir dulu, pertanyaan belakangan."
+  },
+  "sharpshooter": {
+    "title": "Penembak jitu",
+    "tagline": "Jangkauan adalah gaya hidup.",
+    "description": "{share} pertandinganmu memakai marksman. Setiap pertarungan lebih baik dari jarak aman."
+  },
+  "brawler": {
+    "title": "Petarung jalanan",
+    "tagline": "Dekat dan pribadi.",
+    "description": "{share} pertandinganmu memakai fighter. Kamu suka pertarungan sejauh jangkauan tangan."
+  },
+  "bulwark": {
+    "title": "Benteng",
+    "tagline": "Tak ada yang lolos darimu.",
+    "description": "{share} pertandinganmu memakai tank. Seseorang harus menyerap damage, dan itu kamu."
+  },
+  "pathfinder": {
+    "title": "Pembuka jalan",
+    "tagline": "Hutan adalah milikmu.",
+    "description": "{share} pertandinganmu sebagai {role}. Kamu tahu setiap camp, setiap timer, dan setiap semak."
+  },
+  "islander": {
+    "title": "Penghuni pulau",
+    "tagline": "Lane atas. Sendirian bersama pikiranmu.",
+    "description": "{share} pertandinganmu sebagai {role}. Satu lane penuh untuk dirimu sendiri, dan kamu suka begitu."
+  },
+  "centerpiece": {
+    "title": "Pusat permainan",
+    "tagline": "Semua jalan melewati mid.",
+    "description": "{share} pertandinganmu sebagai {role}. Kamu ada di tempat peta bertemu dan pertarungan dimulai."
+  },
+  "carry": {
+    "title": "Carry",
+    "tagline": "Seseorang harus menopang tim.",
+    "description": "{share} pertandinganmu sebagai {role}. Timmu menyerahkan kemudi padamu di akhir permainan, dan kamu menuntaskannya."
+  },
+  "guardian": {
+    "title": "Penjaga",
+    "tagline": "Kamu menjaga tim tetap hidup.",
+    "description": "{share} pertandinganmu sebagai {role}. Shield, heal, peel, dan ward. Tim berjalan karenamu."
+  },
+  "grinder": {
+    "title": "Pekerja keras",
+    "tagline": "Konsisten, bisa diandalkan, selalu di antrean.",
+    "description": "{games, plural, other {# pertandingan}} dan {hours} jam kerja stabil. Tak ada yang berlatih sekeras dirimu."
+  },
+  "rarity": {
+    "common": "Umum",
+    "uncommon": "Tidak umum",
+    "rare": "Langka",
+    "legendary": "Legendaris",
+    "under": "di bawah {share}",
+    "about": "sekitar {share}",
+    "chip": "<b>{tier}</b> · {share} pemain",
+    "badge": "{tier} · {share} pemain"
+  },
+  "duration": "{minutes} mnt",
+  "insights": {
+    "games": {
+      "days": "Itu setara {days} hari penuh di dalam Rift.",
+      "films": "Itu setara sekitar {films, plural, other {# film layar lebar}} berisi League murni."
+    },
+    "win": {
+      "dominant": "Dominan. Tim lawan melihat namamu lalu menghela napas.",
+      "good": "Lebih banyak menang daripada kalah. LP mengalir.",
+      "balanced": "Seimbang sempurna, seperti seharusnya segala hal.",
+      "challenge": "Matchmaker melemparkan tantangan dan kamu terus antre.",
+      "rough": "Masa yang berat. Setiap legenda punya kisah penebusan, dan milikmu dimulai sekarang."
+    },
+    "streak": {
+      "long": "Rentetan terpanjangmu: {streak, plural, other {# kemenangan}} berturut-turut.",
+      "short": "Rentetan menangmu pendek, tapi setiap pertandingan adalah awal baru."
+    },
+    "comeback": "Kamu bahkan bangkit dari rentetan kalah {streak} pertandingan.",
+    "champion": {
+      "oneTrick": "{share} pertandinganmu adalah {top}. Itu energi one-trick.",
+      "variety": "Kamu memainkan {unique, plural, other {# champion}} berbeda, tapi {top} adalah rumahmu.",
+      "favorite": "{games, plural, other {# pertandingan}} sebagai {top}. Favorit yang jelas."
+    },
+    "kda": {
+      "rarelyDie": "Kamu nyaris tak pernah mati. Jungler musuh membencinya.",
+      "everyFight": "Setiap pertarungan adalah pertarunganmu.",
+      "teamFirst": "Energi tim di atas segalanya. Carry-mu berutang padamu.",
+      "bold": "Berani dan agresif. Kamu sering melihat layar abu-abu.",
+      "balanced": "Angka yang seimbang dan bisa diandalkan."
+    }
+  }
+}

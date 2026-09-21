@@ -1,0 +1,15 @@
+{
+  "placeholder": "Riot ID (ชื่อ#TAG)",
+  "riotId": "Riot ID",
+  "region": "ภูมิภาค",
+  "submit": "ดูสรุปของฉัน",
+  "suggestions": "ผู้เล่นที่แนะนำ",
+  "heading": {
+    "recent": "การค้นหาล่าสุด",
+    "sample": "ผู้เล่นตัวอย่าง"
+  },
+  "sample": "ตัวอย่าง",
+  "count": "{count, plural, other {มี # รายการแนะนำ}}",
+  "empty": "ไม่มีผู้เล่นที่บันทึกไว้ตรงกัน กด Enter เพื่อค้นหา <strong>{query}</strong> บน Riot",
+  "clear": "ล้างการค้นหาล่าสุด"
+}

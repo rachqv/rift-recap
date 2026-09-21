@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "title": "Jucătorii tăi · Rift Recap"
+  },
+  "title": "Jucătorii tăi",
+  "lead": "Toți cei pe care i-ai căutat pe acest dispozitiv, cu o scurtătură spre rezumatul, confruntarea sau echipa lor.",
+  "empty": "Niciun jucător încă. Caută pe cineva pe <home>pagina principală</home> și va apărea aici.",
+  "recap": "Rezumat",
+  "versus": "Față în față",
+  "squad": "Echipă",
+  "remove": "Elimină {name} din această listă",
+  "clear": "Șterge tot",
+  "pin": "Fixează {name} sus",
+  "unpin": "Anulează fixarea pentru {name}",
+  "clearUnpinned": "Șterge cele nefixate"
+}

@@ -1,0 +1,42 @@
+{
+  "insight": {
+    "nightOwl": "{share} ของเกมคุณเริ่มหลังเที่ยงคืน ริฟต์ไม่เคยหลับ และคุณก็เช่นกัน",
+    "earlyBird": "{share} ของเกมคุณอยู่ก่อนเที่ยง ต่อคิวไปพร้อมกาแฟ",
+    "weekend": "{share} ของเกมคุณเป็นช่วงสุดสัปดาห์ วันเสาร์เป็นของริฟต์",
+    "weekday": "เกมของคุณเกือบทั้งหมดอยู่ในวันธรรมดา การฟาร์มไม่มีวันหยุด",
+    "streak": "เล่นติดต่อกัน {days, plural, other {# วัน}} นี่คือนิสัยแล้ว",
+    "steady": "กระจายสม่ำเสมอทั้งปฏิทิน ไม่มีแพตเทิร์น มีแต่ League"
+  },
+  "aria": "ปฏิทินของ {games, plural, other {# เกม}} ใน {days, plural, other {# วัน}}",
+  "before": "{date}: ก่อนเกมที่เก่าที่สุดที่โหลดมา",
+  "day": "{date}: {detail}",
+  "dayGames": "{games, plural, other {# เกม}} ชนะ {wins}",
+  "dayNone": "ไม่มีเกม",
+  "fewer": "น้อยกว่า",
+  "more": "มากกว่า",
+  "activeDays": "{count, plural, other {เล่น <b>#</b> วัน}}",
+  "busiest": "วันที่ยุ่งที่สุด <b>{date}</b> · {games, plural, other {# เกม}}",
+  "streak": "สตรีคยาวที่สุด <b>{days, plural, other {# วัน}}</b>",
+  "favorite": "วันโปรด <b>{day}</b>",
+  "prime": "ช่วงไพรม์ไทม์ <b>{hour}</b>",
+  "parts": {
+    "night": "กลางคืน",
+    "morning": "ตอนเช้า",
+    "afternoon": "ตอนบ่าย",
+    "evening": "ตอนเย็น"
+  },
+  "bestPart": "เก่งที่สุดช่วง<b>{part}</b> · ชนะ <good>{rate}</good>",
+  "worstPart": "(<bad>{rate}</bad> ในช่วง{part})",
+  "bestMonth": "เดือนที่ดีที่สุด <b>{month}</b> · <good>{rate}</good>",
+  "worstMonth": "· แย่ที่สุด <b>{month}</b> <bad>{rate}</bad>",
+  "clock": {
+    "day": "วันที่เก่งที่สุด: {best} ชนะ {bestRate} วันที่แย่ที่สุด: {worst} เพียง {worstRate}",
+    "part": "ช่วงเวลาที่เก่งที่สุด: {best} ชนะ {bestRate} ช่วงที่แย่ที่สุด: {worst} เพียง {worstRate}",
+    "steady": "อัตราชนะของคุณแทบไม่เปลี่ยนตามเวลา วันไหน ชั่วโมงไหน ก็ยังเป็นผู้เล่นคนเดิม",
+    "byPart": "ช่วงเวลาของวัน",
+    "byDay": "วันในสัปดาห์",
+    "bar": "{label}: ชนะ {rate} {detail}",
+    "barFew": "{label}: {detail} เกมน้อยเกินกว่าจะเทียบ",
+    "aria": "อัตราชนะตามช่วงเวลาของวันและวันในสัปดาห์"
+  }
+}

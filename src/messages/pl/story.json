@@ -1,0 +1,17 @@
+{
+  "sections": "Sekcje podsumowania",
+  "controls": "Pokaz slajdów i dźwięk",
+  "play": "Odtwórz pokaz slajdów",
+  "pause": "Pauza",
+  "resume": "Wznów",
+  "stop": "Zatrzymaj pokaz slajdów",
+  "mute": "Wycisz",
+  "unmute": "Włącz dźwięk",
+  "volume": "Głośność",
+  "playing": "Pokaz slajdów trwa",
+  "paused": "Pokaz slajdów wstrzymany",
+  "label": "Twoje podsumowanie",
+  "previous": "Poprzedni slajd",
+  "next": "Następny slajd",
+  "copyLink": "Kopiuj link do tego slajdu"
+}

@@ -1,0 +1,43 @@
+{
+  "badge": "Sezon özeti",
+  "title": {
+    "line1": "Sezonun,",
+    "line2": "özetlendi."
+  },
+  "subtitle": "Her maç, her pentakill, her şüpheli Sıçra. Riot ID'ni gir ve Vadi'deki yolculuğunu yeniden yaşa.",
+  "error": "Riot ID'ni Ad#ETİKET biçiminde gir ve bir bölge seç.",
+  "hint": "Giriş yok. Sadece Riot ID'n yeter. <link>Örnek bir özete bak →</link>",
+  "modes": {
+    "squad": "Takım özeti",
+    "versus": "Kafa kafaya",
+    "clash": "Takıma karşı takım",
+    "players": "Oyuncuların"
+  },
+  "features": {
+    "title": "Özetinde neler var",
+    "champions": {
+      "title": "Şampiyonların",
+      "text": "Seni kim taşıdı, kim sana LP kaybettirdi ve kilitlemeden duramadığın o seçim."
+    },
+    "climb": {
+      "title": "Tırmanışın",
+      "text": "Tüm sezon boyunca galibiyet oranı, KDA ve rütbe hareketi, bir hikâye gibi anlatılıyor."
+    },
+    "time": {
+      "title": "Zamanın",
+      "text": "Vadi'de geçirdiğin saatler, en uzun maçın, en geç gece sıran."
+    }
+  },
+  "sample": {
+    "label": "Örnek özet kartları",
+    "games": "Oynanan maç",
+    "days": "≈ {days} gün Vadi'de geçti",
+    "signature": "İmza şampiyon",
+    "record": "{games} maç · {winRate} galibiyet oranı",
+    "kda": "Sezon KDA'sı",
+    "peak": "En yüksek rütbe",
+    "peakRank": "Zümrüt II",
+    "climbed": "Bu sezon +{lp} LP tırmanıldı"
+  },
+  "footer": "Rift Recap, Riot Games tarafından onaylanmamıştır ve Riot Games'in ya da Riot Games mülklerinin yapımında veya yönetiminde resmen yer alan kişilerin görüş ve fikirlerini yansıtmaz. Riot Games ve ilgili tüm mülkler, Riot Games, Inc.'in ticari markaları veya tescilli ticari markalarıdır."
+}

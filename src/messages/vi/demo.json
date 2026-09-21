@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "title": "Tổng kết mẫu · Rift Recap"
+  },
+  "switcher": {
+    "label": "Người chơi mẫu",
+    "previous": "Người chơi mẫu trước",
+    "next": "Người chơi mẫu tiếp theo",
+    "player": "Người chơi mẫu",
+    "show": "Hiển thị"
+  },
+  "players": {
+    "onetrick": "One-Trick",
+    "specialist": "Chuyên gia",
+    "explorer": "Nhà thám hiểm",
+    "chameleon": "Tắc kè hoa",
+    "showstopper": "Tâm điểm",
+    "slayer": "Kẻ sát nhân",
+    "daredevil": "Liều mạng",
+    "support": "Người kiến tạo",
+    "unlucky": "Anh hùng xui xẻo",
+    "phoenix": "Phượng hoàng",
+    "risingstar": "Ngôi sao đang lên",
+    "streaker": "Chuỗi thắng nóng",
+    "scout": "Trinh sát",
+    "farmer": "Nông dân",
+    "heavyhitter": "Sát thương hạng nặng",
+    "everpresent": "Luôn có mặt",
+    "opener": "Người mở màn",
+    "untouchable": "Bất khả xâm phạm",
+    "closer": "Người chốt hạ",
+    "marathoner": "Vận động viên marathon",
+    "speedrunner": "Speedrunner",
+    "assassin": "Sát thủ",
+    "archmage": "Đại pháp sư",
+    "sharpshooter": "Thiện xạ",
+    "brawler": "Dân đánh nhau",
+    "bulwark": "Pháo đài",
+    "aramfan": "Fan ARAM",
+    "casual": "Chơi thư giãn",
+    "demolisher": "Đội phá dỡ",
+    "thief": "Kẻ trộm",
+    "grinder": "Cày cuốc",
+    "pathfinder": "Người dẫn đường",
+    "islander": "Người đảo hoang",
+    "centerpiece": "Trung tâm",
+    "carry": "Carry",
+    "guardian": "Người bảo hộ"
+  }
+}

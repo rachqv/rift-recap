@@ -1,0 +1,55 @@
+{
+  "team": "{name}队",
+  "line": {
+    "few": "两队目前交手{games}：现在下结论为时尚早。",
+    "level": "{a}比{b}：基本持平。这么小的差距完全可能只是运气。",
+    "lead": "{name}以{win}比{lose}领先。这已超出运气能解释的范围。"
+  },
+  "rail": {
+    "start": "两支队伍",
+    "lanes": "逐路对比",
+    "numbers": "数据",
+    "stars": "亮眼表现",
+    "end": "小队回顾"
+  },
+  "slides": {
+    "intro": {
+      "eyebrow": "小队对小队",
+      "played": "彼此交手{games}"
+    },
+    "lanes": {
+      "eyebrow": "逐路对比",
+      "aria": "各路结果",
+      "note": "只有两队在该路都有人时才会显示。每场对局记给该路KDA更高的一方。"
+    },
+    "numbers": {
+      "eyebrow": "两队的表现",
+      "aria": "每名玩家每场的平均值",
+      "note": "每名玩家每场的平均值。",
+      "kda": "KDA",
+      "damage": "对英雄伤害",
+      "gold": "获得金币",
+      "vision": "视野得分"
+    },
+    "stars": {
+      "eyebrow": "亮眼表现",
+      "best": "{team}的最佳KDA",
+      "stat": "{games}，KDA {kda}",
+      "record": "{games}中赢了{wins}场",
+      "note": "只统计两队之间至少打过{min}场的玩家。"
+    },
+    "end": {
+      "eyebrow": "继续查看",
+      "recap": "小队回顾：{team}"
+    }
+  },
+  "page": {
+    "title": "{a} vs {b} · 小队对小队",
+    "titleDemo": "小队对小队示例 · Rift Recap",
+    "titleEmpty": "小队对小队 · Rift Recap",
+    "description": "两支小队正面对决：谁赢、逐路对比，以及双方各自的表现。",
+    "overlap": "{names}不能同时在两支队伍里。",
+    "atLeastTwo": "每支队伍至少需要两个Riot ID。",
+    "noClash": "这两支队伍{where}没有互相对战的对局。需要每队至少两人在同一场对局中分属敌对双方，比如自定义5v5。"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "team": "Đội {name}",
+  "line": {
+    "few": "{games} giữa hai đội cho đến nay: còn quá sớm để kết luận.",
+    "level": "{a} - {b}: gần như hòa. Chênh lệch nhỏ thế này rất có thể chỉ là may mắn.",
+    "lead": "{name} dẫn trước {win} - {lose}. Chênh lệch này lớn hơn mức may mắn có thể giải thích."
+  },
+  "rail": {
+    "start": "Hai đội",
+    "lanes": "Từng đường",
+    "numbers": "Các con số",
+    "stars": "Nổi bật",
+    "end": "Tổng kết các đội"
+  },
+  "slides": {
+    "intro": {
+      "eyebrow": "Đội đấu đội",
+      "played": "Đã đấu với nhau {games}"
+    },
+    "lanes": {
+      "eyebrow": "Từng đường",
+      "aria": "Kết quả theo đường",
+      "note": "Một đường chỉ hiện khi cả hai đội đều có người ở đó. Mỗi trận được tính cho người đi đường có KDA tốt hơn."
+    },
+    "numbers": {
+      "eyebrow": "Mỗi đội đã chơi thế nào",
+      "aria": "Trung bình mỗi người, mỗi trận",
+      "note": "Trung bình mỗi người, mỗi trận.",
+      "kda": "KDA",
+      "damage": "Sát thương lên tướng",
+      "gold": "Vàng kiếm được",
+      "vision": "Điểm tầm nhìn"
+    },
+    "stars": {
+      "eyebrow": "Nổi bật",
+      "best": "KDA tốt nhất của đội {team}",
+      "stat": "KDA {kda} qua {games}",
+      "record": "Thắng {wins} trong {games}",
+      "note": "Chỉ tính người chơi có ít nhất {min} trận giữa hai đội."
+    },
+    "end": {
+      "eyebrow": "Xem tiếp",
+      "recap": "Tổng kết nhóm: {team}"
+    }
+  },
+  "page": {
+    "title": "{a} vs {b} · Đội đấu đội",
+    "titleDemo": "Ví dụ đội đấu đội · Rift Recap",
+    "titleEmpty": "Đội đấu đội · Rift Recap",
+    "description": "Hai đội đối đầu: ai thắng, từng đường, và mỗi bên đã chơi thế nào.",
+    "overlap": "{names} không thể ở cả hai đội.",
+    "atLeastTwo": "Mỗi đội cần ít nhất hai Riot ID.",
+    "noClash": "Hai đội này chưa có trận nào đấu với nhau {where}. Cần những trận có ít nhất hai người của mỗi đội ở hai phe đối lập trong cùng một trận, như trận tùy chỉnh 5v5."
+  }
+}

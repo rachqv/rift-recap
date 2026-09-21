@@ -1,0 +1,30 @@
+{
+  "same": "Hai bạn có cùng giờ giấc. Rợn người.",
+  "daysShort": "{value} ngày",
+  "nightOwl": {
+    "title": "Cú đêm",
+    "tagline": "Các trận bắt đầu sau nửa đêm.",
+    "line": "{share} số trận của {name} bắt đầu sau nửa đêm. {other} thì có giờ đi ngủ."
+  },
+  "earlyBird": {
+    "title": "Chim sớm",
+    "tagline": "Các trận bắt đầu trước buổi trưa.",
+    "line": "{share} số trận của {name} diễn ra trước buổi trưa. Xếp hàng cùng ly cà phê. {other} thì ngủ nướng."
+  },
+  "weekend": {
+    "title": "Chiến binh cuối tuần",
+    "tagline": "Các trận chơi vào Thứ Bảy hoặc Chủ Nhật.",
+    "line": "{share} số trận của {name} rơi vào cuối tuần. {other} thiên về chơi ngày thường hơn."
+  },
+  "streak": {
+    "title": "Thói quen hằng ngày",
+    "tagline": "Chuỗi ngày liên tiếp có trận dài nhất.",
+    "line": "{name} chơi {days, plural, other {# ngày}} liên tiếp. {other} nghỉ sau {otherDays}."
+  },
+  "binge": {
+    "title": "Ngày cày liền tay",
+    "tagline": "Số trận nhiều nhất trong một ngày.",
+    "line": "{name} từng chơi {games, plural, other {# trận}} trong một ngày. Bữa tối bị bỏ qua."
+  },
+  "label": "Tình huống"
+}

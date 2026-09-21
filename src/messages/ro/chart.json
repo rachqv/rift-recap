@@ -1,0 +1,9 @@
+{
+  "aria": "Avantajul de aur dintre {a} și {b} în ultimul meci jucat unul împotriva celuilalt. {result}",
+  "aheadEnd": "{name} conduce la final cu {gold}.",
+  "levelEnd": "Egalitate la final.",
+  "minute": "Minutul <b>{minute}</b>",
+  "ahead": "<b>{name}</b> conduce cu {gold} aur",
+  "level": "Egalitate",
+  "won": "{name} a câștigat"
+}

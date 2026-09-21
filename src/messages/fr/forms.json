@@ -1,0 +1,39 @@
+{
+  "tryRange": "Essaie une autre période :",
+  "field": {
+    "recent": "Joueurs récents"
+  },
+  "squad": {
+    "title": "Récap d'équipe",
+    "lead": "Saisis de deux à cinq Riot ID du même serveur. On regarde les parties que vous avez jouées <em>ensemble</em> et on distribue les récompenses.",
+    "server": "Serveur",
+    "player": "Joueur {n} (Nom#TAG)",
+    "playerOptional": "Joueur {n} (Nom#TAG) facultatif",
+    "playerAria": "Riot ID du joueur {n}",
+    "submit": "Voir le récap d'équipe",
+    "fine": "Fonctionne mieux avec des gens avec qui tu joues en groupe, puisqu'il ne regarde que les parties communes. <link>Voir une équipe d'exemple</link>"
+  },
+  "clash": {
+    "title": "Équipe contre équipe",
+    "lead": "Deux équipes de deux à cinq joueurs, du même serveur. On regarde les parties où vous avez joué <em>les uns contre les autres</em>, comme une personnalisée 5v5.",
+    "server": "Serveur",
+    "sideA": "Équipe 1",
+    "sideB": "Équipe 2",
+    "player": "{side}, joueur {n} (Nom#TAG)",
+    "playerOptional": "{side}, joueur {n} (Nom#TAG) facultatif",
+    "playerAria": "Riot ID du joueur {n} de {side}",
+    "submit": "Comparer les équipes",
+    "fine": "Ne compte que les parties avec au moins deux joueurs de chaque équipe dans des camps opposés. <link>Voir un exemple</link>"
+  },
+  "versus": {
+    "title": "Face à face",
+    "lead": "Choisis deux joueurs et vois qui prend le dessus : stat par stat, style par style, et comment vous vous en sortez quand vous jouez ensemble.",
+    "player1": "Joueur 1",
+    "player2": "Joueur 2",
+    "serverAria": "Serveur : {label}",
+    "riotId": "Riot ID (Nom#TAG)",
+    "riotIdAria": "Riot ID : {label}",
+    "submit": "Comparer",
+    "fine": "Compare les dernières parties de chaque joueur. <link>Voir un duel d'exemple</link>"
+  }
+}

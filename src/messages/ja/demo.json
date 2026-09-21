@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "title": "サンプルリキャップ · Rift Recap"
+  },
+  "switcher": {
+    "label": "サンプルプレイヤー",
+    "previous": "前のサンプルプレイヤー",
+    "next": "次のサンプルプレイヤー",
+    "player": "サンプルプレイヤー",
+    "show": "表示"
+  },
+  "players": {
+    "onetrick": "ワンチャンプ",
+    "specialist": "スペシャリスト",
+    "explorer": "エクスプローラー",
+    "chameleon": "カメレオン",
+    "showstopper": "主役級",
+    "slayer": "スレイヤー",
+    "daredevil": "命知らず",
+    "support": "プレイメーカー",
+    "unlucky": "不運のヒーロー",
+    "phoenix": "フェニックス",
+    "risingstar": "ライジングスター",
+    "streaker": "連勝街道",
+    "scout": "スカウト",
+    "farmer": "ファーマー",
+    "heavyhitter": "ヘビーヒッター",
+    "everpresent": "常に最前線",
+    "opener": "オープナー",
+    "untouchable": "アンタッチャブル",
+    "closer": "クローザー",
+    "marathoner": "マラソンランナー",
+    "speedrunner": "スピードランナー",
+    "assassin": "アサシン",
+    "archmage": "大魔導師",
+    "sharpshooter": "狙撃手",
+    "brawler": "ブロウラー",
+    "bulwark": "鉄壁",
+    "aramfan": "ARAMファン",
+    "casual": "カジュアル",
+    "demolisher": "解体屋",
+    "thief": "盗賊",
+    "grinder": "努力家",
+    "pathfinder": "開拓者",
+    "islander": "孤島の住人",
+    "centerpiece": "中心人物",
+    "carry": "キャリー",
+    "guardian": "守護者"
+  }
+}

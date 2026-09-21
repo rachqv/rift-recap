@@ -1,0 +1,17 @@
+{
+  "sections": "Sezioni del riepilogo",
+  "controls": "Presentazione e audio",
+  "play": "Avvia la presentazione",
+  "pause": "Pausa",
+  "resume": "Riprendi",
+  "stop": "Ferma la presentazione",
+  "mute": "Disattiva l'audio",
+  "unmute": "Attiva l'audio",
+  "volume": "Volume",
+  "playing": "Presentazione in corso",
+  "paused": "Presentazione in pausa",
+  "label": "Il tuo riepilogo",
+  "previous": "Diapositiva precedente",
+  "next": "Diapositiva successiva",
+  "copyLink": "Copia il link a questa diapositiva"
+}

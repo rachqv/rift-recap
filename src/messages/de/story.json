@@ -1,0 +1,17 @@
+{
+  "sections": "Rückblick-Abschnitte",
+  "controls": "Diashow und Ton",
+  "play": "Diashow abspielen",
+  "pause": "Pause",
+  "resume": "Fortsetzen",
+  "stop": "Diashow beenden",
+  "mute": "Stumm schalten",
+  "unmute": "Ton einschalten",
+  "volume": "Lautstärke",
+  "playing": "Diashow läuft",
+  "paused": "Diashow pausiert",
+  "label": "Dein Rückblick",
+  "previous": "Vorherige Folie",
+  "next": "Nächste Folie",
+  "copyLink": "Link zu dieser Folie kopieren"
+}

@@ -1,0 +1,42 @@
+{
+  "insight": {
+    "nightOwl": "{share} din meciurile tale încep după miezul nopții. Falia nu doarme niciodată, iar tu nici atât.",
+    "earlyBird": "{share} din meciurile tale sunt înainte de prânz. Intri la coadă cu cafeaua în mână.",
+    "weekend": "{share} din meciurile tale cad în weekend. Sâmbetele sunt pentru Falie.",
+    "weekday": "Aproape toate meciurile tale sunt în timpul săptămânii. Grind-ul nu ia zile libere.",
+    "streak": "{days, plural, one {# zi} few {# zile} other {# de zile}} la rând cu meciuri. Asta e deja un obicei.",
+    "steady": "Constant, răspândit pe tot calendarul. Fără tipar, doar League."
+  },
+  "aria": "Calendarul a {games, plural, one {# meci} few {# meciuri} other {# de meciuri}} în {days, plural, one {# zi} few {# zile} other {# de zile}}",
+  "before": "{date}: înainte de cel mai vechi meci încărcat",
+  "day": "{date}: {detail}",
+  "dayGames": "{games, plural, one {# meci} few {# meciuri} other {# de meciuri}}, {wins} câștigate",
+  "dayNone": "niciun meci",
+  "fewer": "Mai puține",
+  "more": "Mai multe",
+  "activeDays": "{count, plural, one {<b>#</b> zi activă} few {<b>#</b> zile active} other {<b>#</b> de zile active}}",
+  "busiest": "Cea mai încărcată zi <b>{date}</b> · {games, plural, one {# meci} few {# meciuri} other {# de meciuri}}",
+  "streak": "Cea mai lungă serie <b>{days, plural, one {# zi} few {# zile} other {# de zile}}</b>",
+  "favorite": "Ziua preferată <b>{day}</b>",
+  "prime": "Ora de vârf <b>{hour}</b>",
+  "parts": {
+    "night": "noaptea",
+    "morning": "dimineața",
+    "afternoon": "după-amiaza",
+    "evening": "seara"
+  },
+  "bestPart": "Cel mai bine <b>{part}</b> · <good>{rate}</good> victorii",
+  "worstPart": "(<bad>{rate}</bad> în perioada: {part})",
+  "bestMonth": "Cea mai bună lună <b>{month}</b> · <good>{rate}</good>",
+  "worstMonth": "· cea mai slabă <b>{month}</b> <bad>{rate}</bad>",
+  "clock": {
+    "day": "Cea mai bună zi a ta: {best}, {bestRate} victorii. Cea mai slabă: {worst}, doar {worstRate}.",
+    "part": "Cel mai bun moment al zilei: {best}, {bestRate} victorii. Cel mai slab: {worst}, doar {worstRate}.",
+    "steady": "Rata ta de victorii abia se schimbă după ceas. Orice zi, orice oră: același jucător.",
+    "byPart": "Momentul zilei",
+    "byDay": "Ziua săptămânii",
+    "bar": "{label}: {rate} victorii, {detail}",
+    "barFew": "{label}: {detail}. Prea puține meciuri pentru comparație.",
+    "aria": "Rata de victorii după momentul zilei și ziua săptămânii"
+  }
+}

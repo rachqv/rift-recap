@@ -1,0 +1,15 @@
+{
+  "placeholder": "Riot ID（名称#TAG）",
+  "riotId": "Riot ID",
+  "region": "地区",
+  "submit": "获取我的回顾",
+  "suggestions": "玩家建议",
+  "heading": {
+    "recent": "最近搜索",
+    "sample": "示例玩家"
+  },
+  "sample": "示例",
+  "count": "{count, plural, other {有#条建议}}",
+  "empty": "没有匹配的已保存玩家。按回车键到 Riot 查找<strong>{query}</strong>。",
+  "clear": "清除最近搜索"
+}

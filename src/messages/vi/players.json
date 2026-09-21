@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "title": "Người chơi của bạn · Rift Recap"
+  },
+  "title": "Người chơi của bạn",
+  "lead": "Tất cả những người bạn đã tra cứu trên thiết bị này, kèm lối tắt đến bản tổng kết, đối đầu hoặc nhóm của họ.",
+  "empty": "Chưa có người chơi nào. Hãy tra cứu ai đó ở <home>trang chủ</home> và họ sẽ xuất hiện ở đây.",
+  "recap": "Tổng kết",
+  "versus": "Đối đầu",
+  "squad": "Nhóm",
+  "remove": "Xóa {name} khỏi danh sách này",
+  "clear": "Xóa tất cả",
+  "pin": "Ghim {name} lên đầu",
+  "unpin": "Bỏ ghim {name}",
+  "clearUnpinned": "Xóa những người chưa ghim"
+}

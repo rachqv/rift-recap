@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "title": "ملخص تجريبي · Rift Recap"
+  },
+  "switcher": {
+    "label": "لاعبون تجريبيون",
+    "previous": "اللاعب التجريبي السابق",
+    "next": "اللاعب التجريبي التالي",
+    "player": "لاعب تجريبي",
+    "show": "عرض"
+  },
+  "players": {
+    "onetrick": "لاعب البطل الواحد",
+    "specialist": "المتخصص",
+    "explorer": "المستكشف",
+    "chameleon": "الحرباء",
+    "showstopper": "نجم العرض",
+    "slayer": "المُجهِز",
+    "daredevil": "المتهوّر",
+    "support": "صانع اللعب",
+    "unlucky": "البطل سيئ الحظ",
+    "phoenix": "العنقاء",
+    "risingstar": "النجم الصاعد",
+    "streaker": "سلسلة النار",
+    "scout": "الكشّاف",
+    "farmer": "المزارع",
+    "heavyhitter": "الضارب الثقيل",
+    "everpresent": "الحاضر دائمًا",
+    "opener": "الفاتح",
+    "untouchable": "لا يُمَس",
+    "closer": "الحاسم",
+    "marathoner": "عدّاء الماراثون",
+    "speedrunner": "عدّاء السرعة",
+    "assassin": "القاتل",
+    "archmage": "كبير السحرة",
+    "sharpshooter": "القنّاص",
+    "brawler": "المشاكس",
+    "bulwark": "الحصن",
+    "aramfan": "معجب ARAM",
+    "casual": "اللاعب العابر",
+    "demolisher": "فريق الهدم",
+    "thief": "اللص",
+    "grinder": "المثابر",
+    "pathfinder": "كاشف الطريق",
+    "islander": "ساكن الجزيرة",
+    "centerpiece": "محور اللعب",
+    "carry": "الحامل",
+    "guardian": "الحارس"
+  }
+}

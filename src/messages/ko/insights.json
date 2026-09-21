@@ -1,0 +1,256 @@
+{
+  "blame": {
+    "carry": "패배한 게임의 {topRate}에서 가장 많은 피해를 줬고 거의 죽지 않았어요. 팀이 발목을 잡았네요.",
+    "weak": "패배한 게임에서 팀 데스의 {deathShare}를 차지했고 피해량 1위는 드물었어요. 먼저 거울부터 보세요.",
+    "team": "패배한 게임에서는 팀 평균 정도였고, 피해량의 {damageShare}를 담당했어요. 탓할 사람이 없거나, 모두의 탓이죠."
+  },
+  "sessions": {
+    "contrast": "{bestWins}-{bestLosses}로 끝난 밤과 {worstWins}-{worstLosses}로 끝난 밤. 같은 플레이어, 다른 저녁이에요.",
+    "marathon": "한 번에 {games, plural, other {#게임}}. 물 좀 마셔요.",
+    "best": "최고의 밤은 {wins}-{losses}로 끝났어요. 그 밤을 다시 쫓아가 봐요."
+  },
+  "early": {
+    "early": "게임의 {ahead}에서 15분 시점에 라인 상대를 앞섰고 그대로 마무리해요. 초반의 폭군이에요.",
+    "late": "게임의 {behind}에서 15분 시점에 뒤졌지만 그중 {comeback}는 이겨요. 후반에 강해지고 절대 포기하지 않아요.",
+    "steady": "15분 시점에 게임의 {ahead}는 앞서고 {behind}는 뒤져요. 승부는 후반에 갈려요."
+  },
+  "tierlist": {
+    "solo": "{best} 챔피언이 전부예요.",
+    "uniform": "챔피언 풀 전체가 {tier} 티어이고, 승률 {winRate}의 {best} 챔피언이 선두예요.",
+    "leadS": "{best} 챔피언이 승률 {winRate}의 S티어 픽이에요.",
+    "leadOther": "S티어에 오른 챔피언은 없어요. {tier} 티어에서 승률 {winRate}의 {best} 챔피언이 1위예요.",
+    "lastD": "{worst} 챔피언이 승률 {winRate}의 D티어 픽이에요.",
+    "lastOther": "{worst} 챔피언은 {tier} 티어 맨 아래이고 승률은 {winRate}예요.",
+    "both": "{lead} {last}"
+  },
+  "items": {
+    "better": "{name} 아이템이 있으면 게임의 {withIt}, 없으면 {without}를 이겨요. 뭔가 제대로 하고 있네요.",
+    "worse": "{name} 아이템을 사면 승률이 낮아져요({withIt} 대 {without}). 의리일까요, 습관일까요?",
+    "habit": "{name} 아이템이 게임의 {share}를 마무리했어요. 어떤 습관은 계속 가요.",
+    "friend": "{name} 아이템이 게임의 {share}에서 마지막 빌드에 있었어요. 믿음직한 친구예요."
+  },
+  "habits": {
+    "flashEdge": "점멸은 {key} 키, 한 게임에 {perGame}회. 아슬아슬하게 살아가네요.",
+    "flashCalm": "점멸은 {key} 키, 한 게임에 {perGame}회. 결정적인 순간을 위해 아껴 두는군요.",
+    "pair": "게임의 {share}에서 {a} 챔피언과 {b} 챔피언. 뭘 좋아하는지 잘 알고 있어요.",
+    "surrenderOften": "게임의 {rate}가 항복으로 끝났어요. 늘 누군가는 갈 곳이 있어요.",
+    "surrenderUs": "우리 팀이 적보다 더 자주 항복했어요({weQuit} 대 {enemyQuit}). 긍정적으로 생각해요.",
+    "surrenderThem": "상대 팀은 {enemyQuit}번 백기를 들었고, 우리 팀은 {weQuit}번이었어요. 당신이 오는 걸 봤나 봐요.",
+    "surrenderRare": "게임의 {rate}만 항복으로 끝났어요. 끝까지 해내는 스타일이에요."
+  },
+  "spells": {
+    "1": "정화",
+    "3": "탈진",
+    "4": "점멸",
+    "6": "유체화",
+    "7": "회복",
+    "11": "강타",
+    "12": "순간이동",
+    "13": "총명",
+    "14": "점화",
+    "21": "방어막",
+    "32": "표식",
+    "unknown": "주문"
+  },
+  "pings": {
+    "getBackPings": {
+      "label": "후퇴",
+      "title": "걱정 많은 사람",
+      "line": "핑을 후퇴하라고 알리는 데 써요. 팀이 살아 있는 건 당신 덕분이에요."
+    },
+    "enemyMissingPings": {
+      "label": "적 실종",
+      "title": "망보는 사람",
+      "line": "\"미아!\"가 입버릇이에요. 당신 몰래 안개 속에 들어가는 사람은 없어요."
+    },
+    "onMyWayPings": {
+      "label": "가는 중",
+      "title": "구조대",
+      "line": "늘 가는 중이에요. 도착하느냐는 또 다른 이야기죠."
+    },
+    "assistMePings": {
+      "label": "도와줘",
+      "title": "선동가",
+      "line": "도움을 청하는 핑을 찍으면 팀이 달려와요. 아마도요."
+    },
+    "needVisionPings": {
+      "label": "시야 필요",
+      "title": "시야 구걸러",
+      "line": "누가 와드 좀 놓아 주세요. 매 게임 부탁하고 있어요."
+    },
+    "commandPings": {
+      "label": "명령",
+      "title": "사령관",
+      "line": "지도를 가리키면 팀이 따라와요. 대부분은요."
+    },
+    "pushPings": {
+      "label": "밀기",
+      "title": "라인 푸셔",
+      "line": "밀어, 밀어, 밀어. 저 포탑을 지금 당장 부수고 싶어요."
+    },
+    "holdPings": {
+      "label": "유지",
+      "title": "벽",
+      "line": "라인을 지켜요. 혼란스러운 로비의 차분한 목소리예요."
+    },
+    "allInPings": {
+      "label": "올인",
+      "title": "올인 상인",
+      "line": "올인 핑을 찍으면 좋든 싫든 한타는 벌어져요."
+    },
+    "enemyVisionPings": {
+      "label": "적 시야",
+      "title": "관측자",
+      "line": "적 와드는 모두 알려 줘요. 아무것도 숨을 수 없어요."
+    },
+    "visionClearedPings": {
+      "label": "시야 제거",
+      "title": "청소부",
+      "line": "와드를 치우고 모두에게 알려요."
+    }
+  },
+  "chapters": {
+    "part": "{n}부",
+    "range": "{from}–{to}",
+    "same": "처음부터 끝까지 {title}. 자신이 누구인지 알고 있어요.",
+    "changed": "처음엔 {first}, 마지막엔 {last}. 변화의 시즌이었어요."
+  },
+  "tilt": {
+    "tilt": "승리 후에는 {afterWin}를, 패배 후에는 {afterLoss}만 이겨요. 게임 사이에 산책이라도 해 볼까요.",
+    "resilient": "한 판 지면 다음 게임의 {afterLoss}를 이겨요. 승리 후의 {afterWin}보다 높아요. 패배가 오히려 불을 붙여요.",
+    "steady": "승리 후 {afterWin}, 패배 후 {afterLoss}. 아무것도 당신을 흔들지 못해요."
+  },
+  "comfort": {
+    "trust": "{best} 챔피언으로 승률이 {bestRate}까지 올라가요. 믿을 수 있는 픽이에요.",
+    "drag": "{best} 챔피언으로 {bestRate}까지 올라가지만 {worst} 챔피언은 {worstRate}로 끌어내려요. 이제 놓아줄 때일까요?"
+  },
+  "gray": {
+    "heavy": "게임의 {share}를 회색 화면만 보고 있어요. 샘물이 당신 이름을 알아요.",
+    "some": "한 게임에 약 {minutes}분을 부활 대기로 보내요. 쌓이면 무시 못 해요.",
+    "light": "죽어 있는 시간은 겨우 {share}예요. 회색 화면이 당신을 거의 몰라요."
+  },
+  "modes": {
+    "aramPenta": "다리 위에서 {penta, plural, other {#회}}의 펜타킬. 나락은 당신의 혼돈을 끌어내요.",
+    "aramKills": "한 게임에 {kills}킬. 난전이 당신의 무대예요.",
+    "aramBetter": "협곡보다 나락에서 더 잘 이겨요. 눈덩이 굴리기가 잘 어울려요.",
+    "aramWorse": "나락보다 협곡이 더 잘 맞아요. 그 다리는 거친 곳이니까요.",
+    "aramSteady": "{top} 챔피언이 혼돈 속에서 당신을 이끌었어요. 협곡에서처럼 꾸준해요.",
+    "normalBetter": "걸린 게 없을 때 더 잘해요. 일반 게임 승률이 랭크보다 높아요.",
+    "normalWorse": "랭크에서 최고의 모습이 나와요. 일반 게임은 준비 운동이에요.",
+    "normalExplore": "일반 {games, plural, other {#게임}}에서 서로 다른 챔피언 {unique, plural, other {#명}}. 여기가 실험실이에요.",
+    "normalMain": "걸린 게 없을 때는 {top} 챔피언이 단골이었어요(승률 {winRate})."
+  },
+  "objectives": {
+    "stolen": "오브젝트 {count, plural, other {#개}} 스틸. 어딘가에서 적 정글러가 아직도 분해하고 있어요.",
+    "firstTower": "첫 포탑을 먼저 깨면 게임의 {withIt}를 이기고, 못 깨면 {without}를 이겨요.",
+    "firstDragon": "첫 드래곤을 먼저 잡으면 게임의 {withIt}를 이기고, 못 잡으면 {without}를 이겨요.",
+    "firstHerald": "첫 전령을 먼저 잡으면 게임의 {withIt}를 이기고, 못 잡으면 {without}를 이겨요.",
+    "firstBaron": "첫 바론을 먼저 잡으면 게임의 {withIt}를 이기고, 못 잡으면 {without}를 이겨요.",
+    "turrets": "팀 포탑의 {share}를 직접 깼어요. 철거는 팀 스포츠인데, 당신이 곧 철거예요.",
+    "barons": "바론 {count, plural, other {#회}} 확보. 구덩이가 열리면 언제나 그 자리에 있어요.",
+    "dragons": "드래곤 {count, plural, other {#회}} 확보. 협곡의 야생동물이 당신을 두려워해요.",
+    "default": "이 게임들에서 팀이 드래곤 {dragons, plural, other {#마리}}와 포탑 {towers, plural, other {#개}}를 가져갔어요. 오브젝트는 하나하나가 소중해요."
+  },
+  "damage": {
+    "spellslinger": {
+      "style": "주문 사수",
+      "line": "피해량의 {share}가 마법이에요. 방어력은 그저 권고 사항이에요."
+    },
+    "steel": {
+      "style": "주문보다 강철",
+      "line": "피해량의 {share}가 물리예요. 방어력을 쌓는 적들이 당신을 싫어해요."
+    },
+    "trueDamage": {
+      "style": "고정 피해 애호가",
+      "line": "피해량의 {share}가 저항을 완전히 무시해요. 치사하네요."
+    },
+    "mixed": {
+      "style": "혼합형 위협",
+      "line": "물리와 마법이 균형을 이뤄요. 적이 한 가지 저항만 쌓을 수 없어요."
+    }
+  },
+  "lane": {
+    "bully": "게임의 {rate}에서 라인 상대보다 골드가 앞서고, 평균 {gold} 골드 차이예요. 라인의 폭군이에요.",
+    "behind": "게임의 {rate}에서 라인 상대가 더 많이 벌어요. 웨이브 관리를 점검할 때예요.",
+    "even": "라인 상대와 막상막하예요. 게임의 {rate}에서 골드로 앞서요."
+  },
+  "gold": {
+    "high": "평균 {gold} 골드를 남긴 채 게임을 끝냈어요. 사지 않은 아이템이 하나 있는 셈이에요.",
+    "mid": "게임이 끝날 때 약 {gold} 골드가 남아요. 나쁘지 않지만 완벽하진 않아요.",
+    "low": "남긴 골드는 겨우 {gold}예요. 버는 만큼 빠르게 써요."
+  },
+  "classes": {
+    "Tank": "탱커",
+    "Marksman": "원거리 딜러",
+    "Mage": "마법사",
+    "Assassin": "암살자",
+    "Fighter": "전사",
+    "Support": "서포터"
+  },
+  "comp": {
+    "better": "팀에 {class} 유형이 있으면 {withRate}, 없으면 {withoutRate}를 이겨요. 하나 부탁해 보세요.",
+    "worse": "팀에 {class} 유형이 있으면 {withRate}만 이겨요(없으면 {withoutRate}). 우연일까요, 저주일까요?"
+  },
+  "highlights": {
+    "penta": "펜타킬",
+    "kills": "최다 킬",
+    "kda": "최고 KDA",
+    "longest": "가장 긴 게임"
+  },
+  "progress": {
+    "rows": {
+      "wr": "승률",
+      "kda": "KDA",
+      "k": "게임당 킬",
+      "d": "게임당 데스",
+      "a": "게임당 어시스트",
+      "cs": "분당 CS",
+      "vs": "분당 시야",
+      "dm": "분당 피해량",
+      "kp": "킬 관여율",
+      "rank": "랭크"
+    },
+    "flat": "그때 이후로 크게 달라진 건 없어요. 꾸준함도 실력이에요.",
+    "allUp": "전반적으로 좋아졌어요. {total}개 지표 중 {better}개가 올랐고 떨어진 건 없어요.",
+    "allDown": "조금 힘든 시기예요. {total}개 지표 중 {worse}개가 떨어졌어요. 모든 상승에는 굴곡이 있어요.",
+    "moreUp": "오른 게 더 많아요. {better}개 지표가 좋아지고 {worse}개가 떨어졌어요.",
+    "mixed": "엇갈린 결과예요. {better}개 지표가 좋아지고 {worse}개가 떨어졌어요."
+  },
+  "classInline": {
+    "Tank": "탱커",
+    "Marksman": "원거리 딜러",
+    "Mage": "마법사",
+    "Assassin": "암살자",
+    "Fighter": "전사",
+    "Support": "서포터"
+  },
+  "tiltguard": {
+    "stop": "{losses}연패 뒤 다음 게임 승률: {rate} (평소 {base}). 이게 나만의 스톱 신호예요.",
+    "keepGoing": "그런데도 {keep}의 확률로 다시 큐를 잡아요.",
+    "steady": "{losses}연패 뒤에도 승률은 {rate}. 연패에 흔들리지 않아요.",
+    "liveStop": "지금 {run}연패 중이에요. 이런 흐름 뒤 다음 게임 승률은 {rate}. 여기서 멈추는 것도 방법이에요.",
+    "liveInfo": "지금 {run}연패 중이에요. 이런 흐름 뒤 다음 게임 승률은 {rate}."
+  },
+  "formcurve": {
+    "swing": "가장 낮았을 때 {worst}, 가장 높았을 때 {best} ({games} 기준).",
+    "steady": "{games} 어느 구간을 봐도 {worst}에서 {best} 사이였어요. 아주 꾸준해요.",
+    "hot": "요즘 기세가 좋아요: 최근 {games} 승률 {now} (시즌 평균 {avg}).",
+    "cold": "요즘 조금 힘들어요: 최근 {games} 승률 {now} (시즌 평균 {avg}).",
+    "even": "요즘은 평소 실력이에요: 최근 {games} 승률 {now} (시즌 평균 {avg})."
+  },
+  "patches": {
+    "swing": "패치 {best}에서 가장 잘했고 ({bestRate}), 패치 {worst}에서 가장 부진했어요 ({worstRate}).",
+    "steady": "패치가 바뀌어도 승률은 {worstRate}에서 {bestRate} 사이였어요. 새 패치에 거의 흔들리지 않아요."
+  },
+  "runes": {
+    "better": "승률: {best} {bestRate}, {favorite} {favoriteRate}. 더 자주 써볼까요?",
+    "loyal": "게임의 {share}에서 {name}. 핵심 룬을 찾으면 계속 쓰는 타입이에요.",
+    "plain": "당신의 핵심 룬: {name}. {games} 승률 {rate}."
+  },
+  "championPage": {
+    "better": "{name}: 평소보다 좋아요. 승률 {rate} (전체 {overall}).",
+    "worse": "{name}: 조금 어려워요. 승률 {rate} (전체 {overall}).",
+    "level": "{name}: 평소 수준이에요. 승률 {rate} (전체 {overall}).",
+    "few": "{name}: 지금까지 {games}, 승률 {rate}."
+  }
+}

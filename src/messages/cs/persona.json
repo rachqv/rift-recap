@@ -1,0 +1,215 @@
+{
+  "onetrick": {
+    "title": "One-Trick",
+    "tagline": "Věrnost nade vše.",
+    "description": "{share} tvých zápasů bylo za {top}. Někdo tomu říká tvrdohlavost. My tomu říkáme mistrovství."
+  },
+  "specialist": {
+    "title": "Specialista",
+    "tagline": "Dva šampioni, dokonalé mistrovství.",
+    "description": "{share} tvých zápasů bylo za {top} nebo {second}. Přesně víš, v čem jsi dobrý."
+  },
+  "explorer": {
+    "title": "Objevitel",
+    "tagline": "Proč vybírat jednoho, když můžeš hrát za všechny?",
+    "description": "{unique, plural, one {# jiný šampion} few {# různí šampioni} other {# různých šampionů}} v {games, plural, one {# zápase} few {# zápasech} other {# zápasech}}. Nikdy nezůstaneš na jednom místě dlouho."
+  },
+  "chameleon": {
+    "title": "Chameleon",
+    "tagline": "Fill? Žádný problém.",
+    "description": "{roles, plural, one {# jiná role} few {# různé role} other {# různých rolí}} a žádná oblíbená. Každá lajna je domov a tvůj tým je vděčný."
+  },
+  "showstopper": {
+    "title": "Hvězda večera",
+    "tagline": "Zrozen pro sestřih nejlepších momentů.",
+    "description": "{penta, plural, one {# pentakill} few {# pentakilly} other {# pentakillů}}, {quadra, plural, one {# quadrakill} few {# quadrakilly} other {# quadrakillů}} a {triple, plural, one {# triple} few {# tripley} other {# triplů}}. Klipy děláš ty.",
+    "descriptionAlt": "{quadra, plural, one {# quadrakill} few {# quadrakilly} other {# quadrakillů}} a {triple, plural, one {# triple kill} few {# triple killy} other {# triple killů}}. Když se boje zamotají, ozveš se."
+  },
+  "thief": {
+    "title": "Zloděj",
+    "tagline": "Pěkný drak. Škoda, že je teď můj.",
+    "description": "{count, plural, one {# ukradený cíl} few {# ukradené cíle} other {# ukradených cílů}}. Nikdo neřekl, že to musí být fér."
+  },
+  "slayer": {
+    "title": "Zabiják",
+    "tagline": "Přišel jsi sem pro zabití.",
+    "description": "{kills, plural, one {# zabití} few {# zabití} other {# zabití}} v {games, plural, one {# zápase} few {# zápasech} other {# zápasech}}, zhruba {perGame} za zápas. Tvoje jméno žije v kill feedu."
+  },
+  "daredevil": {
+    "title": "Odvážlivec",
+    "tagline": "Každý boj stojí za to.",
+    "description": "{deaths, plural, one {# smrt} few {# smrti} other {# smrtí}} a ani špetka lítosti. Nikdy jsi nepřestal běhat do boje."
+  },
+  "playmaker": {
+    "title": "Tvůrce hry",
+    "tagline": "Nejlepší přítel tvého týmu.",
+    "description": "{assists, plural, one {# asistence} few {# asistence} other {# asistencí}}, {perGame} za zápas. Připravíš akci a slávu necháš týmu."
+  },
+  "unlucky": {
+    "title": "Smolař",
+    "tagline": "Skvělá čísla, pochybní spoluhráči.",
+    "description": "KDA {kda}, ale jen {winRate} výher. Čísla říkají, že to nebyla tvoje chyba."
+  },
+  "phoenix": {
+    "title": "Fénix",
+    "tagline": "Vstaneš pokaždé.",
+    "description": "Série {streak} proher a přesto jsi skončil s {winRate} výher. To je odhodlání."
+  },
+  "risingstar": {
+    "title": "Vycházející hvězda",
+    "tagline": "S postupem sezony ses zlepšoval.",
+    "description": "Tvůj poměr výher vzrostl z {early} na {late}. Trendová čára míří jen nahoru."
+  },
+  "streaker": {
+    "title": "Žhavá série",
+    "tagline": "Jakmile začneš vyhrávat, nezastavíš se.",
+    "description": "{streak} výher v řadě v nejlepší formě. Nikdo nechtěl být v druhém týmu."
+  },
+  "scout": {
+    "title": "Zvěd",
+    "tagline": "Nic neunikne tvým wardům.",
+    "description": "{vision} bodů vize za minutu. Rozsvítil jsi všem."
+  },
+  "farmer": {
+    "title": "Farmář",
+    "tagline": "Zlato je životní styl.",
+    "description": "{cs} miniónů za minutu. Ani jedna vlna s kanónem nezůstala pozadu."
+  },
+  "heavyhitter": {
+    "title": "Těžká váha",
+    "tagline": "Děláš poškození. Hodně.",
+    "description": "{damage} poškození šampionům každou minutu. Životní lišty u tebe dlouho nevydrží."
+  },
+  "everpresent": {
+    "title": "Vždy přítomný",
+    "tagline": "V každém boji jsi u toho.",
+    "description": "Zúčastnil ses {kp} zabití svého týmu. Pokud byl boj, byl jsi v něm."
+  },
+  "opener": {
+    "title": "Zahajovač",
+    "tagline": "První krev je tvůj pozdrav.",
+    "description": "{count, plural, one {# první krev} few {# první krve} other {# prvních krví}}. Party začneš dřív, než dorazí ostatní."
+  },
+  "demolisher": {
+    "title": "Demolice",
+    "tagline": "Pokud má základy, padne.",
+    "description": "{turrets, plural, one {# věž} few {# věže} other {# věží}} v {games, plural, one {# zápase} few {# zápasech} other {# zápasech}}, zhruba {perGame} za zápas. Budovy se tě bojí."
+  },
+  "untouchable": {
+    "title": "Nedotknutelný",
+    "tagline": "Umírání je pro ostatní.",
+    "description": "Jen {perGame} smrtí za zápas a {deathless, plural, one {# zápas} few {# zápasy} other {# zápasů}} bez jediné smrti.",
+    "descriptionAlt": "Jen {perGame} smrtí za zápas. Šedá obrazovka tě sotva zná."
+  },
+  "closer": {
+    "title": "Zakončovatel",
+    "tagline": "Vyhráváš zápasy. Tak jednoduché to je.",
+    "description": "Poměr výher {winRate}. Když vstoupíš do fronty, nepřátelský tým by se měl bát."
+  },
+  "marathoner": {
+    "title": "Maratonec",
+    "tagline": "Zápasy nekončí, dokud to neřekneš.",
+    "description": "Tvoje zápasy trvaly v průměru {minutes} minut. Hraješ dlouhou hru, doslova."
+  },
+  "speedrunner": {
+    "title": "Speedrunner",
+    "tagline": "Proč čekat? Ukonči to hned.",
+    "description": "Tvoje zápasy trvaly v průměru jen {minutes} minut. Nexus padne dřív, než se uvaří voda."
+  },
+  "assassin": {
+    "title": "Zabiják ze stínu",
+    "tagline": "Dovnitř, ven a pryč.",
+    "description": "{share} tvých zápasů bylo za zabijáky. Vybereš cíl a smažeš ho."
+  },
+  "archmage": {
+    "title": "Arcimág",
+    "tagline": "Cooldowny jsou jen návrh.",
+    "description": "{share} tvých zápasů bylo za mágy. Nejdřív kouzla, otázky potom."
+  },
+  "sharpshooter": {
+    "title": "Ostrostřelec",
+    "tagline": "Dosah je životní styl.",
+    "description": "{share} tvých zápasů bylo za střelce. Každý boj je lepší z bezpečné vzdálenosti."
+  },
+  "brawler": {
+    "title": "Rváč",
+    "tagline": "Zblízka a osobně.",
+    "description": "{share} tvých zápasů bylo za bojovníky. Máš rád boje na dosah ruky."
+  },
+  "bulwark": {
+    "title": "Bašta",
+    "tagline": "Nic tebou neprojde.",
+    "description": "{share} tvých zápasů bylo za tanky. Někdo musí pohltit poškození a to jsi ty."
+  },
+  "pathfinder": {
+    "title": "Stopař",
+    "tagline": "Džungle je tvoje.",
+    "description": "{share} tvých zápasů bylo na roli: {role}. Znáš každý tábor, každý časovač a každý keř."
+  },
+  "islander": {
+    "title": "Ostrovan",
+    "tagline": "Top lajna. Sám se svými myšlenkami.",
+    "description": "{share} tvých zápasů bylo na roli: {role}. Celá lajna jen pro tebe a líbí se ti to tak."
+  },
+  "centerpiece": {
+    "title": "Středobod",
+    "tagline": "Všechny cesty vedou přes mid.",
+    "description": "{share} tvých zápasů bylo na roli: {role}. Jsi tam, kde se mapa setkává a kde boje začínají."
+  },
+  "carry": {
+    "title": "Carry",
+    "tagline": "Někdo musí tým udržet.",
+    "description": "{share} tvých zápasů bylo na roli: {role}. Tým ti v pozdní hře předá volant a ty to zvládneš."
+  },
+  "guardian": {
+    "title": "Strážce",
+    "tagline": "Držíš tým naživu.",
+    "description": "{share} tvých zápasů bylo na roli: {role}. Štíty, léčení, ochrana a warda. Tým běží na tobě."
+  },
+  "grinder": {
+    "title": "Dříč",
+    "tagline": "Stálý, spolehlivý, vždy ve frontě.",
+    "description": "{games, plural, one {# zápas} few {# zápasy} other {# zápasů}} a {hours} hodin vytrvalé práce. Nikdo neopakuje jako ty."
+  },
+  "rarity": {
+    "common": "Běžný",
+    "uncommon": "Neobvyklý",
+    "rare": "Vzácný",
+    "legendary": "Legendární",
+    "under": "méně než {share}",
+    "about": "asi {share}",
+    "chip": "<b>{tier}</b> · {share} hráčů",
+    "badge": "{tier} · {share} hráčů"
+  },
+  "duration": "{minutes} min",
+  "insights": {
+    "games": {
+      "days": "To je {days} celých dní uvnitř Riftu.",
+      "films": "To odpovídá zhruba {films, plural, one {# celovečernímu filmu} few {# celovečerním filmům} other {# celovečerním filmům}} čistého Leaguu."
+    },
+    "win": {
+      "dominant": "Dominance. Nepřátelský tým uviděl tvoje jméno a povzdechl si.",
+      "good": "Víc výher než proher. LP teče.",
+      "balanced": "Dokonale vyrovnané, jak by všechno mělo být.",
+      "challenge": "Matchmaking ti hodil výzvu a ty ses dál řadil do fronty.",
+      "rough": "Těžké období. Každá legenda má svůj oblouk vykoupení a ten tvůj začíná teď."
+    },
+    "streak": {
+      "long": "Tvoje nejdelší série: {streak, plural, one {# výhra} few {# výhry} other {# výher}} v řadě.",
+      "short": "Tvoje série výher byly krátké, ale každý zápas byl nový začátek."
+    },
+    "comeback": "Vrátil ses dokonce i ze série {streak} proher.",
+    "champion": {
+      "oneTrick": "{share} tvých zápasů bylo za {top}. To je energie one-tricka.",
+      "variety": "Hrál jsi za {unique, plural, one {# jiného šampiona} few {# různé šampiony} other {# různých šampionů}}, ale {top} byl tvůj domov.",
+      "favorite": "{games, plural, one {# zápas} few {# zápasy} other {# zápasů}} za {top}. Jasný favorit."
+    },
+    "kda": {
+      "rarelyDie": "Skoro neumíráš. Nepřátelští džunglaři to nesnáší.",
+      "everyFight": "Každý boj je tvůj boj.",
+      "teamFirst": "Tým na prvním místě. Tví carry ti něco dluží.",
+      "bold": "Odvážný a agresivní. Šedou obrazovku jsi viděl často.",
+      "balanced": "Vyvážená, spolehlivá čísla."
+    }
+  }
+}

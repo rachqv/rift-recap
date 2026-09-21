@@ -1,0 +1,42 @@
+{
+  "insight": {
+    "nightOwl": "A meccseid közül {share} éjfél után kezdődik. A Szurdok soha nem alszik, és te sem.",
+    "earlyBird": "A meccseid közül {share} dél előtt van. Kávéval a kezedben állsz sorba.",
+    "weekend": "A meccseid közül {share} hétvégére esik. A szombatok a Szurdoké.",
+    "weekday": "Szinte az összes meccsed hétköznap van. A gürizésnek nincs szabadnapja.",
+    "streak": "{days, plural, one {# napon} other {# napon}} át egymás után volt meccsed. Ez már szokás.",
+    "steady": "Egyenletesen elosztva a naptárban. Nincs minta, csak League."
+  },
+  "aria": "{days, plural, one {# nap} other {# nap}} {games, plural, one {# meccsének} other {# meccsének}} naptára",
+  "before": "{date}: a legrégebbi betöltött meccsed előtt",
+  "day": "{date}: {detail}",
+  "dayGames": "{games, plural, one {# meccs} other {# meccs}}, {wins} nyert",
+  "dayNone": "nincs meccs",
+  "fewer": "Kevesebb",
+  "more": "Több",
+  "activeDays": "{count, plural, one {<b>#</b> aktív nap} other {<b>#</b> aktív nap}}",
+  "busiest": "Legzsúfoltabb nap <b>{date}</b> · {games, plural, one {# meccs} other {# meccs}}",
+  "streak": "Leghosszabb széria <b>{days, plural, one {# nap} other {# nap}}</b>",
+  "favorite": "Kedvenc nap <b>{day}</b>",
+  "prime": "Főműsoridő <b>{hour}</b>",
+  "parts": {
+    "night": "éjszaka",
+    "morning": "reggel",
+    "afternoon": "délután",
+    "evening": "este"
+  },
+  "bestPart": "Legjobb idősáv: <b>{part}</b> · <good>{rate}</good> győzelem",
+  "worstPart": "(<bad>{rate}</bad> ekkor: {part})",
+  "bestMonth": "Legjobb hónap <b>{month}</b> · <good>{rate}</good>",
+  "worstMonth": "· legrosszabb <b>{month}</b> <bad>{rate}</bad>",
+  "clock": {
+    "day": "A legjobb napod: {best}, {bestRate} győzelem. A legrosszabb: {worst}, csak {worstRate}.",
+    "part": "A legjobb napszakod: {best}, {bestRate} győzelem. A legrosszabb: {worst}, csak {worstRate}.",
+    "steady": "A győzelmi arányod alig változik az óra járásával. Bármelyik nap, bármelyik órában: ugyanaz a játékos.",
+    "byPart": "Napszak",
+    "byDay": "A hét napja",
+    "bar": "{label}: {rate} győzelem, {detail}",
+    "barFew": "{label}: {detail}. Túl kevés meccs az összehasonlításhoz.",
+    "aria": "Győzelmi arány napszak és a hét napja szerint"
+  }
+}

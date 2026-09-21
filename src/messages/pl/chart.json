@@ -1,0 +1,9 @@
+{
+  "aria": "Przewaga w złocie między {a} a {b} w ostatniej grze, którą rozegrali przeciwko sobie. {result}",
+  "aheadEnd": "{name} prowadzi na koniec o {gold}.",
+  "levelEnd": "Remis na koniec.",
+  "minute": "Minuta <b>{minute}</b>",
+  "ahead": "<b>{name}</b> prowadzi o {gold} złota",
+  "level": "Remis",
+  "won": "Wygrał {name}"
+}

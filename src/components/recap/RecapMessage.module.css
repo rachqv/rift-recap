@@ -1,0 +1,136 @@
+.main {
+  display: grid;
+  place-items: center;
+  min-height: 100dvh;
+  padding: 2rem 1.5rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  max-width: 34rem;
+  padding: 2.5rem 2rem;
+  border: 1px solid rgba(200, 170, 110, 0.35);
+  border-radius: 20px;
+  background: rgba(5, 11, 24, 0.72);
+  backdrop-filter: blur(14px);
+  text-align: center;
+  box-shadow: 0 30px 80px -30px rgba(0, 0, 0, 0.9);
+}
+
+.title {
+  margin: 0;
+  font-size: clamp(1.6rem, 5vw, 2.2rem);
+  color: var(--gold-bright);
+}
+
+.text {
+  margin: 0;
+  line-height: 1.6;
+  color: #d9d3c3;
+}
+
+.button {
+  margin-top: 0.5rem;
+  padding: 0.8rem 1.7rem;
+  border-radius: 999px;
+  background: linear-gradient(120deg, var(--gold-bright), var(--accent) 45%, #e0a94a);
+  color: #1a1204;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+/* "Maybe another server?": folded away until asked for, so the card stays as short as the message. */
+.servers {
+  max-width: 100%;
+  text-align: center;
+}
+
+.servers summary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.3rem 0.6rem;
+  border-radius: 999px;
+  color: var(--gold-bright);
+  font-size: 0.9rem;
+  cursor: pointer;
+  list-style: none;
+}
+
+.servers summary::-webkit-details-marker {
+  display: none;
+}
+
+.servers summary::after {
+  content: "▾";
+  font-size: 1em;
+  transition: transform 0.2s;
+}
+
+.servers[open] summary::after {
+  transform: rotate(180deg);
+}
+
+.servers summary:hover {
+  background: rgba(200, 170, 110, 0.14);
+}
+
+.servers summary:focus-visible {
+  outline: 2px solid var(--hextech);
+  outline-offset: 2px;
+}
+
+.serverList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.4rem;
+  margin: 0.7rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.server {
+  display: block;
+  padding: 0.35rem 0.8rem;
+  border: 1px solid rgba(200, 170, 110, 0.35);
+  border-radius: 999px;
+  color: var(--text);
+  font-size: 0.8rem;
+  text-decoration: none;
+  transition: border-color 0.2s, background 0.2s;
+}
+
+.server:hover,
+.server:focus-visible {
+  border-color: var(--gold-bright);
+  background: rgba(200, 170, 110, 0.16);
+  outline: 0;
+}
+
+/* A second, quieter button beside the main one: for a failure that may pass, such as "Try again". */
+.retry {
+  margin-top: 0.5rem;
+  padding: 0.75rem 1.6rem;
+  border: 1px solid rgba(200, 170, 110, 0.55);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--gold-bright);
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+  transition: border-color 0.2s, background 0.2s;
+}
+
+.retry:hover {
+  border-color: var(--gold-bright);
+  background: rgba(200, 170, 110, 0.16);
+}
+
+.retry:focus-visible {
+  outline: 2px solid var(--hextech);
+  outline-offset: 2px;
+}

@@ -1,0 +1,30 @@
+{
+  "same": "Kalian berdua punya jam main yang sama. Menyeramkan.",
+  "daysShort": "{value} hr",
+  "nightOwl": {
+    "title": "Burung hantu",
+    "tagline": "Pertandingan yang dimulai lewat tengah malam.",
+    "line": "{share} pertandingan {name} dimulai lewat tengah malam. {other} punya jam tidur."
+  },
+  "earlyBird": {
+    "title": "Burung pagi",
+    "tagline": "Pertandingan yang dimulai sebelum tengah hari.",
+    "line": "{share} pertandingan {name} sebelum tengah hari. Antre sambil ngopi. {other} bangun kesiangan."
+  },
+  "weekend": {
+    "title": "Prajurit akhir pekan",
+    "tagline": "Pertandingan yang dimainkan pada hari Sabtu atau Minggu.",
+    "line": "{share} pertandingan {name} jatuh di akhir pekan. {other} lebih sering main di hari kerja."
+  },
+  "streak": {
+    "title": "Kebiasaan harian",
+    "tagline": "Rentetan hari berturut-turut terpanjang dengan pertandingan.",
+    "line": "{name} bermain {days, plural, other {# hari}} berturut-turut. {other} istirahat setelah {otherDays}."
+  },
+  "binge": {
+    "title": "Hari maraton",
+    "tagline": "Pertandingan terbanyak dalam satu hari.",
+    "line": "{name} pernah memainkan {games, plural, other {# pertandingan}} dalam sehari. Makan malam terlewat."
+  },
+  "label": "Skenario"
+}

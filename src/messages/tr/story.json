@@ -1,0 +1,17 @@
+{
+  "sections": "Özet bölümleri",
+  "controls": "Slayt gösterisi ve ses",
+  "play": "Slayt gösterisini oynat",
+  "pause": "Duraklat",
+  "resume": "Devam et",
+  "stop": "Slayt gösterisini durdur",
+  "mute": "Sessize al",
+  "unmute": "Sesi aç",
+  "volume": "Ses düzeyi",
+  "playing": "Slayt gösterisi oynuyor",
+  "paused": "Slayt gösterisi duraklatıldı",
+  "label": "Özetin",
+  "previous": "Önceki slayt",
+  "next": "Sonraki slayt",
+  "copyLink": "Bu slaydın bağlantısını kopyala"
+}

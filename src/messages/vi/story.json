@@ -1,0 +1,17 @@
+{
+  "sections": "Các phần của bản tổng kết",
+  "controls": "Trình chiếu và âm thanh",
+  "play": "Phát trình chiếu",
+  "pause": "Tạm dừng",
+  "resume": "Tiếp tục",
+  "stop": "Dừng trình chiếu",
+  "mute": "Tắt tiếng",
+  "unmute": "Bật tiếng",
+  "volume": "Âm lượng",
+  "playing": "Đang phát trình chiếu",
+  "paused": "Trình chiếu đã tạm dừng",
+  "label": "Bản tổng kết của bạn",
+  "previous": "Slide trước",
+  "next": "Slide tiếp theo",
+  "copyLink": "Sao chép liên kết đến slide này"
+}

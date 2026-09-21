@@ -1,0 +1,4 @@
+/* While the page redraws in the new language. */
+.pending {
+  opacity: 0.6;
+}

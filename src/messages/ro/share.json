@@ -1,0 +1,11 @@
+{
+  "share": "Distribuie",
+  "download": "Descarcă cardul",
+  "copyLink": "Copiază linkul",
+  "linkCopied": "Link copiat",
+  "copyFailed": "Nu s-a putut copia linkul",
+  "shareFailed": "Nu s-a putut deschide fereastra de distribuire",
+  "saveLater": "Salvează pentru comparație ulterioară",
+  "saveRematch": "Salvează pentru revanșă",
+  "savedOpenLater": "Link copiat. Deschide-l mai târziu"
+}

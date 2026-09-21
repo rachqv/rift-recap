@@ -1,0 +1,897 @@
+/* Calendar */
+.calendar {
+  width: 100%;
+}
+
+.note {
+  margin: 0;
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.9);
+}
+
+/* Favorite item */
+.itemName {
+  margin: 0;
+  font-size: clamp(1.7rem, min(9vw, 9vh, calc((100vw - 4.5rem) / (var(--chars, 8) * 0.82))), 4.4rem);
+  font-weight: 800;
+  line-height: 1.02;
+  text-align: center;
+  text-transform: uppercase;
+  text-wrap: balance;
+  background: linear-gradient(180deg, #fff6dc, var(--tone) 70%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  filter: drop-shadow(0 6px 30px rgba(0, 0, 0, 0.7));
+}
+
+.hero {
+  padding: 0.35rem;
+  border: 2px solid var(--accent);
+  border-radius: 20px;
+  background: rgba(5, 11, 24, 0.7);
+  box-shadow:
+    0 0 0 6px rgba(5, 11, 24, 0.45),
+    0 0 50px rgba(200, 170, 110, 0.55);
+}
+
+.heroIcon {
+  display: block;
+  width: clamp(4rem, 13vh, 6.5rem);
+  height: clamp(4rem, 13vh, 6.5rem);
+  border-radius: 14px;
+}
+
+.iconFallback {
+  background: #0f1f3d;
+}
+
+.build {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.6rem;
+}
+
+.buildItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+  min-width: 4.4rem;
+  padding: 0.5rem 0.6rem;
+  border: 1px solid rgba(200, 170, 110, 0.25);
+  border-radius: 12px;
+  background: rgba(5, 11, 24, 0.6);
+  backdrop-filter: blur(10px);
+  font-size: 0.7rem;
+  color: var(--muted);
+}
+
+.buildIcon {
+  width: 2.6rem;
+  height: 2.6rem;
+  border: 1px solid rgba(200, 170, 110, 0.55);
+  border-radius: 8px;
+}
+
+/* Objectives */
+.lead {
+  margin: 0;
+  font-size: 0.85rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--text);
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.9);
+}
+
+.tiles {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.75rem;
+  width: min(100%, 44rem);
+}
+
+.tile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.15rem;
+  padding: 0.9rem 0.6rem;
+  border: 1px solid rgba(200, 170, 110, 0.3);
+  border-radius: 16px;
+  background: linear-gradient(160deg, rgba(20, 40, 80, 0.7), rgba(8, 16, 34, 0.7));
+  backdrop-filter: blur(10px);
+}
+
+.tile small {
+  font-size: 0.72rem;
+  color: var(--muted);
+}
+
+.tileIcon {
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.tileValue {
+  font-family: var(--font-display), Georgia, serif;
+  font-size: clamp(1.8rem, min(6vw, 5.5vh), 2.6rem);
+  font-weight: 800;
+  color: var(--gold-bright);
+}
+
+/* Short screens: drop the optional extras so every slide fits on one screen. */
+@media (max-height: 720px) {
+  .blurb,
+  .lead,
+  .note {
+    display: none;
+  }
+}
+
+/* Very short screens (small phones): the numbers and labels carry the meaning, so the emoji can go. */
+@media (max-height: 680px) {
+  .tileIcon {
+    display: none;
+  }
+}
+
+@media (max-width: 520px) {
+  .tile small {
+    font-size: 0.65rem;
+  }
+
+  .tileValue {
+    font-size: clamp(1.5rem, 8vw, 1.9rem);
+  }
+
+  .tiles {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.5rem;
+  }
+
+  .tile {
+    padding: 0.55rem 0.4rem;
+  }
+
+  .tileIcon {
+    font-size: 1.15rem;
+  }
+
+  .buildItem {
+    min-width: 3.6rem;
+    padding: 0.4rem 0.45rem;
+  }
+
+  .buildIcon {
+    width: 2.2rem;
+    height: 2.2rem;
+  }
+}
+
+/* Tilt check: two big numbers side by side */
+.versusPair {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(0.8rem, 4vw, 1.6rem);
+  width: min(100%, 34rem);
+}
+
+.formCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.2rem;
+  padding: 1.1rem 0.8rem;
+  border: 1px solid rgba(200, 170, 110, 0.3);
+  border-radius: 20px;
+  background: linear-gradient(160deg, rgba(20, 40, 80, 0.7), rgba(8, 16, 34, 0.7));
+  backdrop-filter: blur(10px);
+}
+
+.formCard[data-kind="win"] {
+  border-color: rgba(61, 220, 151, 0.5);
+}
+
+.formCard[data-kind="loss"] {
+  border-color: rgba(232, 64, 87, 0.5);
+}
+
+.formCard small {
+  font-size: 0.72rem;
+  color: var(--muted);
+}
+
+.formValue {
+  font-family: var(--font-display), Georgia, serif;
+  font-size: clamp(2.4rem, min(11vw, 10vh), 4.2rem);
+  font-weight: 800;
+  line-height: 1;
+  color: var(--gold-bright);
+  text-shadow: 0 4px 24px rgba(0, 0, 0, 0.6);
+}
+
+.formCard[data-kind="win"] .formValue {
+  color: #7af0bd;
+}
+
+.formCard[data-kind="loss"] .formValue {
+  color: #ff8a9b;
+}
+
+/* Comfort zone: one row per champion */
+.comfortRows {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: min(100%, 32rem);
+}
+
+.comfortRow {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto 3rem;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.5rem 0.8rem;
+  border: 1px solid rgba(200, 170, 110, 0.22);
+  border-radius: 14px;
+  background: rgba(5, 11, 24, 0.65);
+  backdrop-filter: blur(10px);
+}
+
+.comfortRow[data-good="true"] {
+  border-color: rgba(61, 220, 151, 0.4);
+}
+
+.comfortRow[data-good="false"] {
+  border-color: rgba(232, 64, 87, 0.4);
+}
+
+.comfortName {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  overflow: hidden;
+  font-weight: 700;
+  text-align: start;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: var(--text);
+}
+
+.comfortName small {
+  font-size: 0.7rem;
+  font-weight: 400;
+  color: var(--muted);
+}
+
+.comfortRate {
+  font-family: var(--font-display), Georgia, serif;
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: var(--gold-bright);
+}
+
+.comfortDelta {
+  font-size: 0.85rem;
+  font-weight: 800;
+  text-align: end;
+}
+
+.comfortRow[data-good="true"] .comfortDelta {
+  color: #7af0bd;
+}
+
+.comfortRow[data-good="false"] .comfortDelta {
+  color: #ff8a9b;
+}
+
+/* Gray screen */
+.megaUnit {
+  margin-inline-start: 0.15em;
+  font-size: 0.4em;
+}
+
+/* Since last time: one row per stat, before and after */
+.progressRow {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto auto auto 1.4rem;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.45rem 0.8rem;
+  border: 1px solid rgba(200, 170, 110, 0.2);
+  border-radius: 12px;
+  background: rgba(5, 11, 24, 0.65);
+  backdrop-filter: blur(10px);
+  color: var(--muted);
+}
+
+.progressLabel {
+  overflow: hidden;
+  font-size: 0.85rem;
+  text-align: start;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: var(--text);
+}
+
+.progressAfter {
+  font-family: var(--font-display), Georgia, serif;
+  font-weight: 800;
+  color: var(--gold-bright);
+}
+
+.progressMark {
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.progressRow[data-mood="better"] {
+  border-color: rgba(61, 220, 151, 0.4);
+}
+
+.progressRow[data-mood="better"] .progressMark {
+  color: #7af0bd;
+}
+
+.progressRow[data-mood="worse"] {
+  border-color: rgba(232, 64, 87, 0.4);
+}
+
+.progressRow[data-mood="worse"] .progressMark {
+  color: #ff8a9b;
+}
+
+/* Decoration for the tilt, comfort zone, gray screen and progress slides */
+.moodIcon,
+.skull {
+  font-size: clamp(2.2rem, 7vh, 3.6rem);
+  line-height: 1;
+  filter: drop-shadow(0 0 22px color-mix(in srgb, var(--tone) 70%, transparent));
+}
+
+.skull {
+  filter: grayscale(1) drop-shadow(0 0 22px rgba(190, 200, 220, 0.5));
+}
+
+.gauge {
+  width: min(100%, 30rem);
+}
+
+.gaugeTrack {
+  position: relative;
+  height: 0.55rem;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #e84057, #e0b458 50%, #3ddc97);
+  box-shadow: 0 0 18px rgba(0, 0, 0, 0.5);
+}
+
+.gaugeMarker {
+  position: absolute;
+  top: 50%;
+  width: 1.15rem;
+  height: 1.15rem;
+  border: 3px solid #050b18;
+  border-radius: 50%;
+  background: #f6eed8;
+  box-shadow: 0 0 0 2px rgba(246, 238, 216, 0.6), 0 0 16px rgba(246, 238, 216, 0.7);
+  transform: translate(-50%, -50%);
+}
+
+.gaugeLabels {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 0.5rem;
+  font-size: 0.68rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.9);
+}
+
+.comfortBar {
+  position: relative;
+  display: block;
+  height: 0.28rem;
+  margin-top: 0.3rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.comfortBar i {
+  position: absolute;
+  inset: 0 auto 0 0;
+  border-radius: inherit;
+  background: #a09b8c;
+}
+
+.comfortRow[data-good="true"] .comfortBar i {
+  background: #3ddc97;
+}
+
+.comfortRow[data-good="false"] .comfortBar i {
+  background: #e84057;
+}
+
+/* Where your overall win rate sits on every bar, so each one reads as above or below it. */
+.comfortBar b {
+  position: absolute;
+  top: -0.2rem;
+  bottom: -0.2rem;
+  width: 2px;
+  background: #f6eed8;
+  opacity: 0.85;
+}
+
+.aliveBar {
+  width: min(100%, 26rem);
+}
+
+.aliveTrack {
+  display: flex;
+  height: 0.7rem;
+  overflow: hidden;
+  border-radius: 999px;
+  /* The dead part of the bar is the part left over, in a gray with diagonal stripes. */
+  background: repeating-linear-gradient(45deg, #6b7383 0 6px, #4b5261 6px 12px);
+  box-shadow: 0 0 18px rgba(0, 0, 0, 0.5);
+}
+
+.aliveFill {
+  border-radius: 999px;
+  background: linear-gradient(90deg, #087f77, #0ac8b9);
+}
+
+.aliveLabels {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 0.4rem;
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.9);
+}
+
+@media (max-height: 760px) {
+  .moodIcon,
+  .skull {
+    display: none;
+  }
+}
+
+/* Trophy bingo board */
+.trophyCount {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+}
+
+.trophyBig {
+  font-family: var(--font-display), Georgia, serif;
+  font-size: clamp(2.6rem, 9vh, 4.2rem);
+  font-weight: 800;
+  line-height: 1;
+  color: var(--gold-bright);
+  text-shadow: 0 4px 24px rgba(0, 0, 0, 0.6);
+}
+
+.trophyOf {
+  font-size: 0.85rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+/* 5 columns whatever the width, and never taller than the screen has room for (the board is square: five rows of five). */
+.board {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 0.4rem;
+  width: min(100%, 30rem, 52vh);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.trophy {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.15rem;
+  aspect-ratio: 1;
+  min-width: 0;
+  overflow: hidden;
+  padding: 0.25rem 0.2rem;
+  border: 1px solid rgba(200, 170, 110, 0.45);
+  border-radius: 14px;
+  background: linear-gradient(160deg, rgba(40, 34, 14, 0.78), rgba(8, 16, 34, 0.75));
+  backdrop-filter: blur(8px);
+  box-shadow: 0 0 22px -10px rgba(240, 217, 160, 0.7);
+}
+
+.trophy[data-unlocked="false"] {
+  border-color: rgba(160, 155, 140, 0.18);
+  background: rgba(5, 11, 24, 0.55);
+  box-shadow: none;
+}
+
+.trophyIcon {
+  font-size: 1.25rem;
+  line-height: 1;
+}
+
+.trophy[data-free="true"] .trophyIcon {
+  color: var(--gold-bright);
+}
+
+/* Part of a finished line. */
+.trophy[data-line="true"] {
+  border-color: #0ac8b9;
+  box-shadow: 0 0 18px -4px rgba(10, 200, 185, 0.85);
+}
+
+.trophy[data-unlocked="false"] .trophyIcon {
+  filter: grayscale(1);
+  opacity: 0.45;
+}
+
+.trophyName {
+  max-width: 100%;
+  font-size: 0.58rem;
+  font-weight: 600;
+  line-height: 1.12;
+  text-align: center;
+  overflow-wrap: anywhere;
+  hyphens: auto;
+  color: var(--text);
+}
+
+.trophy[data-unlocked="false"] .trophyName {
+  color: var(--muted);
+}
+
+.trophyBar {
+  display: block;
+  width: 80%;
+  height: 0.2rem;
+  overflow: hidden;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.trophyBar i {
+  display: block;
+  height: 100%;
+  background: var(--gold-bright);
+}
+
+.srOnly {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+/* Tier list */
+.tierList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  width: min(100%, 32rem);
+  padding: 0.4rem;
+  border: 1px solid rgba(200, 170, 110, 0.3);
+  border-radius: 16px;
+  background: rgba(5, 11, 24, 0.7);
+  backdrop-filter: blur(10px);
+}
+
+.tierRow {
+  display: grid;
+  grid-template-columns: 2.6rem minmax(0, 1fr);
+  align-items: stretch;
+  gap: 0.4rem;
+  min-height: 3.1rem;
+}
+
+.tierKey {
+  display: grid;
+  place-items: center;
+  border-radius: 10px;
+  font-family: var(--font-display), Georgia, serif;
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: #1a1204;
+}
+
+.tierChamps {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.25rem 0.4rem;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.tierChamp {
+  display: block;
+}
+
+.tierChamp img,
+.tierChamp span {
+  border: 1px solid rgba(200, 170, 110, 0.5);
+  border-radius: 8px;
+}
+
+/* Habits */
+.habitTiles {
+  display: grid;
+  grid-template-columns: repeat(var(--n, 3), minmax(0, 1fr));
+  gap: 0.75rem;
+  width: min(100%, 40rem);
+}
+
+.habit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.2rem;
+  padding: 1rem 0.6rem;
+  border: 1px solid rgba(200, 170, 110, 0.3);
+  border-radius: 16px;
+  background: linear-gradient(160deg, rgba(20, 40, 80, 0.7), rgba(8, 16, 34, 0.7));
+  backdrop-filter: blur(10px);
+}
+
+.habit small {
+  font-size: 0.72rem;
+  color: var(--muted);
+}
+
+.habitTitle {
+  font-family: var(--font-display), Georgia, serif;
+  font-size: clamp(1.05rem, 4vw, 1.4rem);
+  font-weight: 800;
+  line-height: 1.15;
+  text-align: center;
+  text-wrap: balance;
+  color: var(--gold-bright);
+}
+
+@media (max-width: 520px) {
+  .habitTiles {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+
+  .habit {
+    padding: 0.6rem;
+  }
+}
+
+@media (max-height: 760px) {
+  .habit .tileIcon {
+    display: none;
+  }
+}
+
+/* Short screens: slides don't scroll, so the board and its caption shrink to keep the buttons on screen. */
+@media (max-height: 720px) {
+  .board {
+    gap: 0.3rem;
+    width: min(100%, 30rem, 44vh);
+  }
+
+  .trophyBig {
+    font-size: 2.2rem;
+  }
+
+  .trophyIcon {
+    font-size: 1rem;
+  }
+
+  .trophyName {
+    font-size: 0.5rem;
+  }
+
+  p.trophyNote {
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+}
+
+/* Tilt guard: the win rate of the next game as losses pile up */
+.guard {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.6rem;
+  width: min(100%, 28rem);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.guardStep {
+  display: grid;
+  grid-template-rows: auto clamp(4rem, 15vh, 7rem) auto auto;
+  justify-items: center;
+  gap: 0.25rem;
+  min-width: 0;
+}
+
+.guardValue {
+  font-size: 1rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  color: #ebe5d5;
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.9);
+}
+
+.guardStep[data-rated="false"] .guardValue {
+  color: var(--muted);
+}
+
+.guardTrack {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+  height: 100%;
+}
+
+/* Your usual win rate over all these games, so a bar reads as above or below it. */
+.guardTrack::before {
+  content: "";
+  position: absolute;
+  inset-inline: -0.3rem;
+  bottom: calc(var(--baseline) * 100%);
+  border-top: 1px dashed rgba(235, 229, 213, 0.45);
+  pointer-events: none;
+}
+
+.guardBar {
+  --bar: #0ac8b9;
+  width: 100%;
+  height: calc(var(--rate) * 100%);
+  min-height: 0.25rem;
+  border-radius: 0.3rem 0.3rem 0.1rem 0.1rem;
+  background: linear-gradient(to top, color-mix(in srgb, var(--bar) 55%, transparent), var(--bar));
+  transform-origin: bottom;
+  opacity: 0;
+  transform: scaleY(0.05);
+}
+
+/* From the stop sign on. */
+.guardStep[data-stop="true"] .guardBar {
+  --bar: #ff6b7d;
+  box-shadow: 0 0 12px rgba(255, 107, 125, 0.4);
+}
+
+/* Too few games to call: an outline, not a bar, so it isn't read as a real (and very low) win rate. */
+.guardStep[data-rated="false"] .guardBar {
+  height: 0.25rem;
+  background: none;
+  border: 1px dashed rgba(255, 255, 255, 0.3);
+}
+
+[data-active="true"] .guardBar {
+  animation: guardRise 0.6s cubic-bezier(0.2, 0.9, 0.3, 1) both;
+  animation-delay: calc(var(--i) * 90ms + 0.25s);
+}
+
+.guardLabel {
+  font-size: 0.72rem;
+  line-height: 1.2;
+  text-align: center;
+  color: #ebe5d5;
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.9);
+}
+
+.guardGames {
+  font-size: 0.66rem;
+  color: var(--muted);
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.9);
+}
+
+@keyframes guardRise {
+  from {
+    opacity: 0;
+    transform: scaleY(0.05);
+  }
+  to {
+    opacity: 1;
+    transform: scaleY(1);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .guardBar {
+    opacity: 1;
+    transform: none;
+  }
+
+  [data-active="true"] .guardBar {
+    animation: none;
+  }
+}
+
+/* Champions to try: a row for each champion you win with, and the ones like it */
+.pool {
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+  width: min(100%, 32rem);
+}
+
+.poolRow {
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+}
+
+.poolBecause {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  margin: 0;
+  font-size: 0.9rem;
+  color: #ebe5d5;
+  text-align: center;
+  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.9);
+}
+
+.poolPicks {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.6rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.poolCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.3rem;
+  min-width: 0;
+  padding: 0.7rem 0.5rem;
+  border: 1px solid rgba(200, 170, 110, 0.4);
+  border-radius: 14px;
+  background: rgba(5, 11, 24, 0.7);
+  backdrop-filter: blur(10px);
+  text-align: center;
+}
+
+.poolCard b {
+  font-size: 1rem;
+  color: var(--gold-bright);
+}
+
+.poolCard small {
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+@media (max-height: 720px) {
+  .pool {
+    gap: 0.7rem;
+  }
+
+  .poolCard {
+    flex-direction: row;
+    justify-content: center;
+    padding: 0.4rem 0.5rem;
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "sections": "Recap sections",
+  "controls": "Slideshow and sound",
+  "play": "Play slideshow",
+  "pause": "Pause",
+  "resume": "Resume",
+  "stop": "Stop slideshow",
+  "mute": "Mute",
+  "unmute": "Unmute",
+  "volume": "Volume",
+  "playing": "Slideshow playing",
+  "paused": "Slideshow paused",
+  "label": "Your recap",
+  "previous": "Previous slide",
+  "next": "Next slide",
+  "copyLink": "Copy link to this slide"
+}

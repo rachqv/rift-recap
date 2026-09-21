@@ -1,0 +1,15 @@
+{
+  "keyRejected": "Riot API 金鑰遭到拒絕。開發金鑰每24小時就會過期，請重新產生。",
+  "notFound": "在該地區找不到使用此 Riot ID 的玩家。請檢查拼字與地區。",
+  "rateLimit": "已達到 Riot 的請求上限。請等一分鐘後再試。",
+  "api": "Riot API 請求失敗。",
+  "cardFailed": "無法繪製卡片。",
+  "unknownRegion": "未知的地區。",
+  "noGamesCard": "沒有可用來繪製卡片的對局。",
+  "noSharedGames": "這些玩家沒有同隊對局。",
+  "badSquad": "小隊參數無效。",
+  "playerMissing": "其中一位玩家找不到。",
+  "badVersus": "正面對決參數無效。",
+  "samePlayers": "請選擇兩位不同的玩家。",
+  "notEnough": "對局數量不足，無法比較。"
+}

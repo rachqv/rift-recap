@@ -1,0 +1,9 @@
+{
+  "aria": "Rozdíl ve zlatě mezi {a} a {b} v posledním zápase, který spolu odehráli. {result}",
+  "aheadEnd": "Na konci vede {name} o {gold}.",
+  "levelEnd": "Na konci remíza.",
+  "minute": "Minuta <b>{minute}</b>",
+  "ahead": "<b>{name}</b> vede o {gold} zlata",
+  "level": "Remíza",
+  "won": "Vyhrál {name}"
+}

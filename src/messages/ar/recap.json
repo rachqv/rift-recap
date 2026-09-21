@@ -1,0 +1,381 @@
+{
+  "season": "موسم {year}",
+  "strip": "{wins, plural, one {انتصار واحد} two {انتصاران} few {# انتصارات} other {# انتصارًا}} و{losses, plural, one {خسارة واحدة} two {خسارتان} few {# خسائر} other {# خسارة}}، من أقدم مباراة",
+  "record": "{wins}ف · {losses}خ",
+  "recordChip": "<good>{wins}</good>ف <bad>{losses}</bad>خ",
+  "winRateChip": "نسبة فوز <b>{rate}</b>",
+  "kdaChip": "<b>{kda}</b> KDA",
+  "gamesChip": "{count, plural, one {<b>#</b> مباراة} two {<b>#</b> مباراتان} few {<b>#</b> مباريات} other {<b>#</b> مباراة}}",
+  "gamesLabel": "{count, plural, one {مباراة واحدة} two {مباراتان} few {# مباريات} other {# مباراة}}",
+  "intro": {
+    "eyebrow": "ملخص {season}",
+    "caption": "{games, plural, other {راجعنا # من مبارياتك. هل أنت مستعد لترى كيف كان أداؤك؟}}",
+    "scroll": "مرّر"
+  },
+  "games": {
+    "eyebrow": "كنت حاضرًا",
+    "played": "{count, plural, one {مباراة ملعوبة} two {مباراتان ملعوبتان} few {مباريات ملعوبة} other {مباراة ملعوبة}}",
+    "riftOnly": "{count, plural, one {مباراة على صدع المستدعي} two {مباراتان على صدع المستدعي} few {مباريات على صدع المستدعي} other {مباراة على صدع المستدعي}}",
+    "wins": "{count, plural, one {<good>#</good> انتصار} two {<good>#</good> انتصاران} few {<good>#</good> انتصارات} other {<good>#</good> انتصارًا}}",
+    "losses": "{count, plural, one {<bad>#</bad> خسارة} two {<bad>#</bad> خسارتان} few {<bad>#</bad> خسائر} other {<bad>#</bad> خسارة}}",
+    "hours": "{n, plural, one {<b>{value}</b> ساعة} two {<b>{value}</b> ساعتان} few {<b>{value}</b> ساعات} other {<b>{value}</b> ساعة}}"
+  },
+  "win": {
+    "eyebrow": "نسبة فوزك"
+  },
+  "champion": {
+    "eyebrow": "بطلك المميّز",
+    "more": "كل مبارياتك مع {champion}",
+    "back": "العودة إلى الملخص الكامل",
+    "pageTitle": "{champion} · {name}#{tag} · Rift Recap",
+    "pageEyebrow": "تقرير البطل",
+    "noneTitle": "لا مباريات مع هذا البطل",
+    "none": "لا توجد مباريات لـ{who} مع {champion} في هذه الفترة. جرّب بطلًا آخر من الملخص."
+  },
+  "kda": {
+    "eyebrow": "إحصائياتك القتالية",
+    "kills": "قتلات",
+    "deaths": "وفيات",
+    "assists": "مساعدات",
+    "perGame": "{value} / مباراة",
+    "best": "أفضل مباراة لك",
+    "bestLine": "{champion} · {kills}/{deaths}/{assists}",
+    "victory": "انتصار",
+    "defeat": "هزيمة"
+  },
+  "style": {
+    "eyebrow": "كيف تلعب",
+    "mainRole": "الدور الرئيسي · {share}",
+    "cs": "CS في الدقيقة",
+    "vision": "رؤية في الدقيقة",
+    "damage": "ضرر في الدقيقة",
+    "kp": "المشاركة في القتلات",
+    "penta": "{count, plural, one {<b>#</b> بنتاكيل} two {<b>#</b> بنتاكيلان} few {<b>#</b> بنتاكيلات} other {<b>#</b> بنتاكيل}}",
+    "quadra": "{count, plural, one {<b>#</b> كوادراكيل} two {<b>#</b> كوادراكيلان} few {<b>#</b> كوادراكيلات} other {<b>#</b> كوادراكيل}}",
+    "triple": "{count, plural, one {<b>#</b> تريبل كيل} two {<b>#</b> تريبل كيلان} few {<b>#</b> تريبل كيلات} other {<b>#</b> تريبل كيل}}",
+    "firstBloods": "{count, plural, other {<b>#</b> من الدم الأول}}",
+    "deathless": "{count, plural, one {<b>#</b> مباراة بلا موت} two {<b>#</b> مباراتان بلا موت} few {<b>#</b> مباريات بلا موت} other {<b>#</b> مباراة بلا موت}}",
+    "longestWon": "استغرقت أطول مباراة لك {duration} مع {champion}. وفزت بها أيضًا.",
+    "longestLost": "استغرقت أطول مباراة لك {duration} مع {champion}. أحيانًا لا تنتهي بخير."
+  },
+  "mode": {
+    "aram": {
+      "eyebrow": "في الهاوية العاوية",
+      "label": "{count, plural, one {مباراة ARAM} two {مباراتا ARAM} few {مباريات ARAM} other {مباراة ARAM}}"
+    },
+    "normal": {
+      "eyebrow": "للمتعة فقط",
+      "label": "{count, plural, one {مباراة عادية} two {مباراتان عاديتان} few {مباريات عادية} other {مباراة عادية}}"
+    }
+  },
+  "rank": {
+    "emblem": "شعار {title}",
+    "lp": "<b>{lp}</b> LP",
+    "caption": "رتبتك الآن. كل صعود يبدأ بالمباراة التالية."
+  },
+  "persona": {
+    "eyebrow": "في هذا الموسم، كنت",
+    "also": "وأيضًا قليلًا من: {list}",
+    "main": "لاعب <b>{champion}</b> الأساسي",
+    "shareTitle": "موسمي في League: {title}",
+    "compare": "قارن مع صديق",
+    "squad": "ملخص الفريق",
+    "search": "ابحث عن لاعب آخر",
+    "count": "واحد من {count} نمطًا",
+    "countEstimate": "واحد من {count} نمطًا · الندرة تقدير"
+  },
+  "calendar": {
+    "eyebrow": "تقويمك",
+    "note": "بناءً على آخر {count, plural, one {مباراة} two {مباراتين} few {# مباريات} other {# مباراة}} لك."
+  },
+  "clock": {
+    "eyebrow": "متى تفوز"
+  },
+  "items": {
+    "eyebrow": "قطعتك المفضلة",
+    "inGames": "{games, plural, one {في <b>{count}</b> من مباراتك} two {في <b>{count}</b> من مباراتيك} few {في <b>{count}</b> من مبارياتك الـ#} other {في <b>{count}</b> من مبارياتك الـ#}}",
+    "winWith": "نسبة فوز <b>{rate}</b> معها",
+    "without": "<b>{rate}</b> بدونها",
+    "boots": "الأحذية"
+  },
+  "objectives": {
+    "eyebrow": "الأهداف",
+    "lead": "أخذ فريقك، عبر {games, plural, one {مباراة واحدة} two {مباراتين} few {# مباريات} other {# مباراة}}",
+    "tiles": {
+      "tower": "الأبراج",
+      "dragon": "التنانين",
+      "baron": "البارونات",
+      "herald": "نُذُر الصدع",
+      "grubs": "يرقات الفراغ",
+      "inhibitor": "المثبّطات"
+    },
+    "youTotal": "أنت: {count}",
+    "youSecured": "أمّنت {count}",
+    "perGame": "{value} في المباراة",
+    "firstTower": "البرج الأول في <b>{rate}</b> من المباريات",
+    "withWithout": "فوز <good>{withIt}</good> معه · <b>{without}</b> بدونه",
+    "stolen": "<b>{count}</b> مسروقة"
+  },
+  "tilt": {
+    "eyebrow": {
+      "tilt": "فحص الانفعال",
+      "resilient": "فحص العودة",
+      "steady": "فحص العقلية"
+    },
+    "afterWin": "بعد الفوز",
+    "afterLoss": "بعد الخسارة",
+    "tilts": "ينفعل بعد الخسارة",
+    "bounces": "يعود بقوة"
+  },
+  "comfort": {
+    "eyebrow": "منطقة راحتك",
+    "lead": "نسبة الفوز لكل بطل، مقابل {rate} إجمالًا"
+  },
+  "gray": {
+    "eyebrow": "الشاشة الرمادية",
+    "unit": "س",
+    "spentDead": "قضيتها ميتًا",
+    "aliveAria": "حيّ في {alive} من الوقت، وميت في {dead}",
+    "alive": "حيّ {value}",
+    "dead": "ميت {value}",
+    "share": "<b>{share}</b> من وقتك داخل المباراة",
+    "perGame": "<b>{minutes}</b> دقائق في المباراة",
+    "films": "{n, plural, one {نحو <b>#</b> فيلم} two {نحو <b>#</b> فيلمين} few {نحو <b>#</b> أفلام} other {نحو <b>#</b> فيلمًا}}"
+  },
+  "progress": {
+    "eyebrow": "منذ آخر مرة",
+    "lead": "{date} · {saved, plural, one {مباراة واحدة} two {مباراتان} few {# مباريات} other {# مباراة}} ← الآن {games}",
+    "was": " · كنت سابقًا: {persona}",
+    "improved": "<good>▲ {count}</good> تحسّنت",
+    "slipped": "<bad>▼ {count}</bad> تراجعت",
+    "mood": {
+      "better": "تحسّن",
+      "worse": "تراجع",
+      "flat": "بلا تغيير"
+    }
+  },
+  "trophies": {
+    "eyebrow": "رف كؤوسك",
+    "of": "مفتوح من أصل {total}",
+    "unlocked": "مفتوح",
+    "progress": "أُنجز {percent}",
+    "next": "الأقرب إلى الفتح: {name} ({percent}). {text}",
+    "all": "كل كأس كان بإمكانك نيله، نلته.",
+    "lines": "بينغو <b>{count}</b>",
+    "free": "مجاني",
+    "board": "لوحة بينغو الكؤوس",
+    "nextBingo": "البينغو التالي: {name} ({percent}). {text}",
+    "shareTitle": "بينغو كؤوسي في Rift Recap"
+  },
+  "blame": {
+    "eyebrow": "هل كنت أنت؟",
+    "carry": "حملت الفريق",
+    "weak": "الحلقة الأضعف",
+    "team": "جهد الفريق",
+    "across": "عبر {losses, plural, one {خسارتك} two {خسارتيك} few {خسائرك الـ#} other {خسائرك الـ#}}",
+    "topDamage": "أعلى ضرر",
+    "chance": "الصدفة وحدها تعطي {rate}",
+    "deaths": "وفيات الفريق",
+    "average": "المتوسط {rate}"
+  },
+  "tierList": {
+    "eyebrow": "قائمة مستوياتك",
+    "aria": "قائمة مستويات الأبطال",
+    "title": "{name}: {winRate} في {games, plural, one {مباراة واحدة} two {مباراتين} few {# مباريات} other {# مباراة}}",
+    "note": "مرتبة حسب نسبة الفوز ثم KDA. الأبطال الذين لعبوا أقل من 4 مباريات مستبعدون."
+  },
+  "habits": {
+    "eyebrow": "عاداتك",
+    "pings": "{value} إشارات في المباراة",
+    "flash": "الوميض على الزر {key} · {value} مرات في المباراة",
+    "pairShare": "في {share} من المباريات",
+    "quits": "{enemy} استسلامات للخصم · {ours} لك",
+    "ping": "أسلوب الإشارات",
+    "spells": "تعاويذ المستدعي",
+    "surrender": "انتهت بالاستسلام"
+  },
+  "damage": {
+    "eyebrow": "ضررك",
+    "parts": {
+      "physical": "جسدي",
+      "magic": "سحري",
+      "true": "حقيقي"
+    },
+    "partAria": "{label} {share}"
+  },
+  "comp": {
+    "eyebrow": "تركيبة الفريق",
+    "with": "مع وجود <b>{class}</b>",
+    "games": "{withGames, plural, one {مباراة واحدة} two {مباراتان} few {# مباريات} other {# مباراة}} مقابل {withoutGames, plural, one {مباراة واحدة} two {مباراتين} few {# مباريات} other {# مباراة}} بدونه",
+    "versus": "مقابل {rate}"
+  },
+  "sessions": {
+    "eyebrow": "لياليك",
+    "lead": "{count, plural, one {جلسة واحدة} two {جلستان} few {# جلسات} other {# جلسة}} · نحو {avg} مباريات في كل جلسة",
+    "best": "أفضل ليلة",
+    "worst": "أسوأ ليلة",
+    "longest": "أطول جلسة",
+    "meta": "{games, plural, one {مباراة واحدة} two {مباراتان} few {# مباريات} other {# مباراة}} · {date}"
+  },
+  "highlights": {
+    "eyebrow": "أبرز اللحظات",
+    "minutes": "{count, plural, one {دقيقة واحدة} two {دقيقتان} few {# دقائق} other {# دقيقة}}",
+    "meta": "{what} · {date}",
+    "won": "فوز",
+    "lost": "خسارة",
+    "caption": "المباريات التي ستتحدث عنها في الحفلات."
+  },
+  "lane": {
+    "lane": "فحص الخط",
+    "gold": "عادات الذهب",
+    "cs": "CS مقابل خصم الخط",
+    "goldDiff": "الذهب مقابل خصم الخط",
+    "damage": "الضرر مقابل خصم الخط",
+    "unspent": "الذهب غير المُنفَق في النهاية",
+    "ahead": "متقدم في الذهب في <b>{rate}</b> من {games, plural, one {مباراة واحدة} two {مباراتين} few {# مباريات} other {# مباراة}}",
+    "kills": "{value} قتلات في المباراة",
+    "csValue": "{value} CS"
+  },
+  "early": {
+    "eyebrow": "في الدقيقة 15",
+    "titles": {
+      "early": "طاغية بداية المباراة",
+      "late": "قوي في المراحل المتأخرة",
+      "steady": "يد ثابتة"
+    },
+    "parts": {
+      "ahead": "متقدم",
+      "even": "متعادل",
+      "behind": "متأخر"
+    },
+    "aria": "{label} في {n, plural, one {مباراة واحدة} two {مباراتين} few {# مباريات} other {# مباراة}}",
+    "wonAhead": "فوز في <good>{wins}</good> من {total} من موقع التقدم",
+    "wonBehind": "فوز في <b>{wins}</b> من {total} من موقع التأخر",
+    "lead": "آخر {games, plural, one {مباراة خط واحدة} two {مباراتَي خط} few {# مباريات خط} other {# مباراة خط}} لك، مقابل خصم خطك"
+  },
+  "chapters": {
+    "eyebrow": "موسمك في فصول",
+    "wins": "{rate} فوزًا",
+    "note": "يُقيَّم كل فصل بحسب مبارياته وحدها، لذا الفصول القصيرة أقل يقينًا."
+  },
+  "flames": {
+    "eyebrow": "الحب القديم",
+    "lead": "أبطال تعرفهم جيدًا وبالكاد لمستهم هذا الموسم",
+    "mastery": "الإتقان {level} · {played}",
+    "notPlayed": "لم يُلعب",
+    "caption": "لدى {champion} {points} نقطة إتقان خلفه. إنه يشتاق إليك."
+  },
+  "social": {
+    "duo": {
+      "eyebrow": "شريكك",
+      "together": "{count, plural, one {مباراة معًا} two {مباراتان معًا} few {مباريات معًا} other {مباراة معًا}}",
+      "winTogether": "نسبة فوز <b>{rate}</b> معًا",
+      "apart": "<b>{rate}</b> منفصلين",
+      "combo": "أفضل ثنائي <b>{pair}</b>",
+      "alone": "كل مباراة هذا الموسم كانت مع {name}. هذا التزام.",
+      "better": "تفوز بنسبة {withRate} مع {name} و{without} بدونه. حافظوا على الفرقة متماسكة.",
+      "worse": "تفوز أقل مع {name} ({withRate} مقابل {without} منفردًا). الصداقة قبل الإحصائيات.",
+      "same": "نسبة الفوز متقاربة مع {name} أو بدونه. المهم هو الرفقة.",
+      "seeRecap": "شاهد ملخص {name}",
+      "versus": "وجهًا لوجه"
+    },
+    "matchup": {
+      "single": "خصم خطك",
+      "both": "العدو اللدود مقابل أفضل مواجهة",
+      "nemesis": "عدوك اللدود",
+      "best": "أفضل مواجهة لك",
+      "vs": "ضد",
+      "record": "<good>{wins}ف</good> <bad>{losses}خ</bad>",
+      "meta": "نسبة فوز {rate}",
+      "metaAs": "نسبة فوز {rate} · مع {champion}",
+      "insightBoth": "احظر {nemesis}، وتمنَّ أن تقابل {best}.",
+      "insightNemesis": "{nemesis} هو كريبتونيتك. فكّر في حظره.",
+      "insightBest": "{best} لم يكن لديه فرصة أمامك."
+    }
+  },
+  "rail": {
+    "start": "البداية",
+    "games": "المباريات",
+    "week": "أسبوعًا بأسبوع",
+    "form": "الأداء",
+    "calendar": "التقويم",
+    "clock": "الساعة",
+    "patches": "التحديثات",
+    "nights": "الليالي",
+    "wins": "الانتصارات",
+    "progress": "التقدّم",
+    "tilt": "الانفعال",
+    "tiltGuard": "إشارة التوقف",
+    "blame": "أنت؟",
+    "champion": "البطل",
+    "comfort": "الراحة",
+    "flames": "الحب القديم",
+    "tierList": "المستويات",
+    "pool": "جرّب",
+    "combat": "القتال",
+    "highlights": "اللحظات",
+    "damage": "الضرر",
+    "gray": "الشاشة الرمادية",
+    "playstyle": "الأسلوب",
+    "lane": "الخط",
+    "early": "البداية",
+    "habits": "العادات",
+    "items": "القطع",
+    "runes": "الرونات",
+    "objectives": "الأهداف",
+    "duo": "الشريك",
+    "matchups": "المواجهات",
+    "comps": "التركيبات",
+    "normals": "العادية",
+    "aram": "ARAM",
+    "chapters": "الفصول",
+    "trophies": "الكؤوس",
+    "rank": "الرتبة",
+    "guess": "خمّن",
+    "you": "أنت",
+    "back": "رجوع"
+  },
+  "page": {
+    "title": "{name}#{tag} · Rift Recap",
+    "description": "ملخص موسم League of Legends: إحصائيات ونمط لاعب وبطاقة قابلة للمشاركة.",
+    "failed": "تعذّر تحميل هذا الملخص",
+    "noGamesTitle": "لا مباريات بعد",
+    "noGames": "لم نعثر على أي مباريات لـ{who} منذ {since}. العب بضع مباريات ثم عُد.",
+    "noRangeTitle": "لا مباريات في هذه الفترة",
+    "noRange": "لم يلعب {who} أي مباراة منذ {since}. جرّب فترة أطول."
+  },
+  "tiltguard": {
+    "eyebrow": "حارس التيلت",
+    "step1": "بعد خسارة واحدة",
+    "step2": "بعد خسارتين متتاليتين",
+    "step3": "بعد 3+ متتالية",
+    "live": "الآن"
+  },
+  "formcurve": {
+    "eyebrow": "موسمك على شكل خط",
+    "lead": "نسبة الفوز في أي {games}",
+    "best": "الأفضل <b>{rate}</b> · انتهت في {date}",
+    "worst": "الأسوأ <b>{rate}</b> · انتهت في {date}",
+    "now": "الآن <b>{rate}</b>",
+    "aria": "نسبة الفوز المتحركة: الأفضل {best}، الأسوأ {worst}، الأحدث {now}",
+    "shareTitle": "موسمي على شكل خط"
+  },
+  "week": {
+    "eyebrow": "آخر 7 أيام مقابل الـ7 قبلها",
+    "lead": "{now} الآن · {before} قبلها"
+  },
+  "patches": {
+    "eyebrow": "تحديثًا بعد تحديث",
+    "title": "نسبة الفوز حسب التحديث"
+  },
+  "runes": {
+    "eyebrow": "رونتك الأساسية",
+    "winWith": "نسبة فوز <b>{rate}</b> معها",
+    "without": "<b>{rate}</b> بدونها"
+  },
+  "pool": {
+    "eyebrow": "أبطال تستحق التجربة",
+    "because": "لأن {champion} يناسبك: نسبة فوز {rate}",
+    "note": "اختيرت لتشابه الفئة وأسلوب اللعب. اقتراح وليس وعدًا."
+  }
+}

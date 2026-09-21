@@ -1,0 +1,42 @@
+{
+  "insight": {
+    "nightOwl": "Maçlarının {share} kadarı gece yarısından sonra başlıyor. Vadi hiç uyumaz, sen de uyumuyorsun.",
+    "earlyBird": "Maçlarının {share} kadarı öğleden önce. Kahveyle birlikte sıraya giriyorsun.",
+    "weekend": "Maçlarının {share} kadarı hafta sonu. Cumartesiler Vadi içindir.",
+    "weekday": "Neredeyse tüm maçların hafta içi. Çalışkanlık izin günü tanımaz.",
+    "streak": "Üst üste {days, plural, one {# gün} other {# gün}} maç var. Bu artık bir alışkanlık.",
+    "steady": "Takvime düzenli yayılmış. Belirli bir desen yok, sadece League."
+  },
+  "aria": "{days, plural, one {# günde} other {# günde}} {games, plural, one {# maçın} other {# maçın}} takvimi",
+  "before": "{date}: yüklenen en eski maçından önce",
+  "day": "{date}: {detail}",
+  "dayGames": "{games, plural, one {# maç} other {# maç}}, {wins} galibiyet",
+  "dayNone": "maç yok",
+  "fewer": "Az",
+  "more": "Çok",
+  "activeDays": "{count, plural, one {<b>#</b> aktif gün} other {<b>#</b> aktif gün}}",
+  "busiest": "En yoğun gün <b>{date}</b> · {games, plural, one {# maç} other {# maç}}",
+  "streak": "En uzun seri <b>{days, plural, one {# gün} other {# gün}}</b>",
+  "favorite": "Favori gün <b>{day}</b>",
+  "prime": "En yoğun saat <b>{hour}</b>",
+  "parts": {
+    "night": "gece",
+    "morning": "sabah",
+    "afternoon": "öğleden sonra",
+    "evening": "akşam"
+  },
+  "bestPart": "En iyi zaman: <b>{part}</b> · <good>{rate}</good> galibiyet",
+  "worstPart": "(<bad>{rate}</bad>, zaman: {part})",
+  "bestMonth": "En iyi ay <b>{month}</b> · <good>{rate}</good>",
+  "worstMonth": "· en kötü <b>{month}</b> <bad>{rate}</bad>",
+  "clock": {
+    "day": "En iyi günün: {best}, {bestRate} galibiyet. En kötüsü: {worst}, yalnızca {worstRate}.",
+    "part": "Günün en iyi zamanı: {best}, {bestRate} galibiyet. En kötüsü: {worst}, yalnızca {worstRate}.",
+    "steady": "Galibiyet oranın saate göre neredeyse hiç değişmiyor. Hangi gün, hangi saat olursa olsun: aynı oyuncu.",
+    "byPart": "Günün saati",
+    "byDay": "Haftanın günü",
+    "bar": "{label}: {rate} galibiyet, {detail}",
+    "barFew": "{label}: {detail}. Karşılaştırmak için çok az maç.",
+    "aria": "Günün saatine ve haftanın gününe göre galibiyet oranı"
+  }
+}

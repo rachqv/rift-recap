@@ -1,0 +1,181 @@
+{
+  "awards": {
+    "objectiveSteal": {
+      "title": "Am ehesten, das Objektiv zu stehlen",
+      "tagline": "Pass auf deinen Drachen auf. Dann sieh zu, wie er verschwindet.",
+      "label": "gestohlene Objektive",
+      "line": "{name} hat {count, plural, one {# Objektiv} other {# Objektive}} gestohlen. Nichts ist sicher."
+    },
+    "objectiveTake": {
+      "title": "Am ehesten, das Objektiv zu holen",
+      "tagline": "Wo der Drache hingeht, gehen sie auch hin.",
+      "label": "Schaden an Objektiven pro Minute",
+      "line": "{name} hat pro Minute {value} Schaden in Objektive gesteckt."
+    },
+    "deaths": {
+      "title": "Meiste Tode",
+      "tagline": "Grauer Bildschirm? Sie haben eine Jahreskarte.",
+      "label": "Tode pro Spiel",
+      "line": "{name} hat etwa {minutes} Minuten jedes Spiels auf den grauen Bildschirm gestarrt."
+    },
+    "pings": {
+      "title": "Der Beifahrer-Besserwisser",
+      "tagline": "Am ehesten, das eigene Team zurückzupingen.",
+      "label": "Pings pro Spiel",
+      "line": "{name} hat {value} Mal pro Spiel gepingt. Die Minimap bekam nie eine Pause."
+    },
+    "vision": {
+      "title": "Der Leuchtturm",
+      "tagline": "Hat für alle anderen das Licht angemacht.",
+      "label": "Sichtpunkte pro Minute",
+      "line": "{value} Sichtpunkte pro Minute von {name}. Niemand ging allein ins Dunkle."
+    },
+    "tank": {
+      "title": "Der Punchingball",
+      "tagline": "Hat für das Team den meisten Schaden aufgesogen.",
+      "label": "erlittener Schaden pro Spiel",
+      "line": "{name} hat {value} Schaden pro Spiel aufgesogen."
+    },
+    "assists": {
+      "title": "Der beste Freund",
+      "tagline": "Immer da, um es vorzubereiten.",
+      "label": "Assists pro Spiel",
+      "line": "{name} kam im Schnitt auf {value} Assists. Der Lieblingsmitspieler des Teams."
+    },
+    "carry": {
+      "title": "Der Carry",
+      "tagline": "Am ehesten, es für alle anderen zu gewinnen.",
+      "label": "KDA",
+      "line": "Eine KDA von {value}. {name} hat die schwere Arbeit erledigt."
+    },
+    "damage": {
+      "title": "Das Schwergewicht",
+      "tagline": "Lebensbalken schmelzen bei Kontakt.",
+      "label": "Schaden pro Minute",
+      "line": "{value} Schaden an Champions pro Minute von {name}."
+    },
+    "farm": {
+      "title": "Der Farmer",
+      "tagline": "Keine einzige Kanonenwelle blieb zurück.",
+      "label": "CS pro Minute",
+      "line": "{value} Vasallen pro Minute. {name} war immer an der Welle."
+    },
+    "present": {
+      "title": "Immer da",
+      "tagline": "Wenn ein Kampf stattfand, waren sie dabei.",
+      "label": "Kill-Beteiligung",
+      "line": "{name} hat an {value} der Kills des Teams teilgenommen."
+    },
+    "cc": {
+      "title": "Der Massenkontrolleur",
+      "tagline": "Hat den Gegner festgehalten, damit die anderen arbeiten konnten.",
+      "label": "Sekunden Massenkontrolle pro Spiel",
+      "line": "{name} hat Gegner pro Spiel {value, plural, one {# Sekunde} other {# Sekunden}} lang festgesetzt."
+    }
+  },
+  "chemistry": {
+    "destiny": "Duo des Schicksals",
+    "great": "Tolle Chemie",
+    "solid": "Solide Partner",
+    "awkward": "Zusammen unbeholfen",
+    "apart": "Getrennt besser"
+  },
+  "slides": {
+    "intro": {
+      "eyebrow": "Squad-Rückblick",
+      "together": "{count, plural, one {Spiel zusammen} other {Spiele zusammen}}",
+      "hours": "{n, plural, one {<b>{value}</b> Stunde} other {<b>{value}</b> Stunden}}",
+      "note": "Basierend auf euren {loaded} letzten gemeinsamen Spielen (von {found} gefundenen)."
+    },
+    "record": {
+      "eyebrow": "Eure Bilanz",
+      "label": "Siegquote zusammen",
+      "bestStreak": "Beste Serie <good>{count, plural, one {# Sieg} other {# Siege}}</good>",
+      "worstSkid": "Schlechteste Serie <bad>{count, plural, one {# Niederlage} other {# Niederlagen}}</bad>",
+      "all": "Alle {members} zusammen in {games, plural, one {<b>#</b> Spiel} other {<b>#</b> Spielen}}",
+      "machine": "Eine Maschine, wenn ihr zusammen spielt.",
+      "good": "Mehr Siege als Niederlagen. Das Squad liefert.",
+      "balanced": "Perfekt ausbalanciert. Chaos, aber die lustige Art.",
+      "rough": "Harte Ergebnisse. Der Gruppenchat hat aber Geschichten."
+    },
+    "pairs": {
+      "eyebrow": "Duo-Chemie",
+      "best": "Bestes Duo",
+      "worst": "Braucht Arbeit",
+      "games": "{count, plural, one {# Spiel} other {# Spiele}} zusammen",
+      "chemistry": "{icon} {score} Chemie · {label}",
+      "captionBoth": "{a} und {b} sind die, die man zusammen spielen sollte. {c} und {d}, vielleicht nicht.",
+      "captionBest": "{a} und {b} sind euer stärkstes Paar."
+    },
+    "award": {
+      "eyebrow": "Auszeichnung {position} von {total}",
+      "runner": "{n}. {name} <b>{display}</b>"
+    },
+    "board": {
+      "eyebrow": "Die Bestenliste",
+      "aria": "Squad-Bestenliste",
+      "kda": "KDA",
+      "deaths": "Tode",
+      "damage": "Schad./Min.",
+      "awards": "Ausz.",
+      "note": "Nach KDA sortiert. Die Auszeichnungen sind die Trophäen, die jeder von euch mit nach Hause genommen hat."
+    },
+    "finale": {
+      "mvp": "Squad-MVP",
+      "none": "Das ist das Squad",
+      "awards": "{count, plural, one {# Auszeichnung} other {# Auszeichnungen}}, mehr als jeder andere.",
+      "recap": "Rückblick von {name}",
+      "versus": "Kopf-an-Kopf: {a} gegen {b}",
+      "shareTitle": "Unser League-Squad-Rückblick: {names}",
+      "another": "Weiteres Squad starten"
+    },
+    "rivalry": {
+      "eyebrow": "Friendly Fire",
+      "lead": "Eure Bilanz gegeneinander, {count, plural, one {# Begegnung} other {# Begegnungen}} in gegnerischen Teams",
+      "aria": "Kopf-an-Kopf-Bilanzen",
+      "cell": "{wins, plural, one {# Sieg} other {# Siege}}, {losses, plural, one {# Niederlage} other {# Niederlagen}}",
+      "even": "{a} und {b} stehen nach {games, plural, one {# Begegnung} other {# Begegnungen}} völlig gleichauf.",
+      "edge": "{winner} hat die Nase vorn gegenüber {loser}, {hi} zu {lo}. Die größte Rivalität im Squad."
+    },
+    "combos": {
+      "eyebrow": "Mit wem spielen",
+      "trio": "Bestes Trio",
+      "duo": "Bestes Duo",
+      "record": "{wins}S {losses}N in {games, plural, one {# Spiel} other {# Spielen}} zusammen",
+      "caption": "{names}: Spielt zusammen, und die Siegquote spricht für sich.",
+      "games": "{count, plural, one {# Spiel} other {# Spiele}}"
+    },
+    "roles": {
+      "eyebrow": "Eure beste Aufstellung",
+      "aria": "Empfohlene Rolle für jedes Mitglied",
+      "swap": "Auf dem Papier ist das eure beste Aufstellung: jeder in der Rolle, in der er am meisten gewinnt, nach euren gemeinsamen Spielen. Eine kleine Stichprobe, also nehmt es als Hinweis.",
+      "settled": "Alle spielen schon die Rolle, in der sie am meisten gewinnen. Nichts zu tauschen.",
+      "was": "sonst {role}"
+    }
+  },
+  "rail": {
+    "start": "Start",
+    "record": "Bilanz",
+    "duos": "Duos",
+    "roles": "Rollen",
+    "queue": "Mit wem spielen",
+    "rivals": "Rivalen",
+    "quiz": "Quiz",
+    "board": "Bestenliste",
+    "mvp": "MVP"
+  },
+  "page": {
+    "title": "{names} · Squad-Rückblick",
+    "titleDemo": "Beispiel-Squad-Rückblick · Rift Recap",
+    "titleEmpty": "Squad-Rückblick · Rift Recap",
+    "description": "Gruppenauszeichnungen aus den Spielen, die ein Squad zusammen gespielt hat: meiste Tode, meiste Objektivdiebstähle und mehr.",
+    "pickServer": "Wähle einen Server.",
+    "unreadable": "{names} konnte nicht gelesen werden. Riot-IDs sehen aus wie Name#TAG.",
+    "atLeastTwo": "Gib mindestens zwei Riot-IDs ein.",
+    "atMostFive": "Ein Squad hat höchstens fünf Spieler.",
+    "notFound": "Kein Spieler für {names} auf {region} gefunden. Prüfe die Schreibweise und den Server.",
+    "noShared": "Keiner von euch hat {where} ein gemeinsames Spiel. Das funktioniert mit gemeinsam gespielten Spielen, also probiere einen längeren Zeitraum oder Leute, mit denen du zusammen spielst.",
+    "whereSeason": "in euren letzten {count}",
+    "whereRange": "im Zeitraum: {range}"
+  }
+}

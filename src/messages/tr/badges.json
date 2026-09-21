@@ -1,0 +1,98 @@
+{
+  "penta": {
+    "name": "Pentakill",
+    "text": "Bir pentakill yap."
+  },
+  "quadra": {
+    "name": "Quadra koleksiyoncusu",
+    "text": "{target, plural, one {# quadrakill} other {# quadrakill}} yap."
+  },
+  "triple": {
+    "name": "Üçlü tehdit",
+    "text": "{target, plural, one {# triple kill} other {# triple kill}} yap."
+  },
+  "flawless": {
+    "name": "Kusursuz",
+    "text": "Bir maçı hiç ölmeden bitir."
+  },
+  "flawless5": {
+    "name": "Dokunulmaz",
+    "text": "{target, plural, one {# maçı} other {# maçı}} hiç ölmeden bitir."
+  },
+  "streak": {
+    "name": "Ateş gibi",
+    "text": "Üst üste {target, plural, one {# maç} other {# maç}} kazan."
+  },
+  "winrate": {
+    "name": "Kazanan",
+    "text": "{games}+ maçta {target} galibiyet oranını koru."
+  },
+  "kills": {
+    "name": "Öldürme makinesi",
+    "text": "Tek maçta {target, plural, one {# öldürme} other {# öldürme}} yap."
+  },
+  "perfect": {
+    "name": "Mükemmel maç",
+    "text": "{target}+ KDA ile bir maç oyna."
+  },
+  "firstblood": {
+    "name": "İlk kan kralı",
+    "text": "{target, plural, one {# kez} other {# kez}} ilk kanı al."
+  },
+  "thief": {
+    "name": "Hedef hırsızı",
+    "text": "Bir hedefi çal."
+  },
+  "turrets": {
+    "name": "Yıkıcı",
+    "text": "{target, plural, one {# kule} other {# kule}} yık."
+  },
+  "variety": {
+    "name": "Her işin ustası",
+    "text": "{target, plural, one {# farklı şampiyon} other {# farklı şampiyon}} oyna."
+  },
+  "loyal": {
+    "name": "Sadık",
+    "text": "Aynı şampiyonu {target, plural, one {# kez} other {# kez}} oyna."
+  },
+  "marathon": {
+    "name": "Maraton",
+    "text": "{minutes} dakikadan uzun süren bir maç oyna."
+  },
+  "bounce": {
+    "name": "Geri dönüş",
+    "text": "Bir yenilgiden sonraki maçların {target} kadarını kazan."
+  },
+  "hours": {
+    "name": "Vadide geçen zaman",
+    "text": "Maçlarda {target, plural, one {# saat} other {# saat}} geçir."
+  },
+  "dragon": {
+    "name": "Ejderha avcısı",
+    "text": "{target, plural, one {# ejderhaya} other {# ejderhaya}} son vuruşu yap."
+  },
+  "baron": {
+    "name": "Baron avcısı",
+    "text": "{target, plural, one {# Baron'a} other {# Baron'a}} son vuruşu yap."
+  },
+  "teamplayer": {
+    "name": "Takım oyuncusu",
+    "text": "Takımının öldürmelerinin {target} kadarına katıl."
+  },
+  "duo": {
+    "name": "Can yoldaş",
+    "text": "Aynı takım arkadaşınla {target, plural, one {# maç} other {# maç}} oyna."
+  },
+  "vision": {
+    "name": "Her şeyi gören",
+    "text": "Dakika başına ortalama {target} görüş puanına ulaş."
+  },
+  "farm": {
+    "name": "Farm ustası",
+    "text": "Dakika başına ortalama {target} CS'e ulaş."
+  },
+  "roles": {
+    "name": "Her role uygun",
+    "text": "{target, plural, one {# rolün} other {# rolün}} hepsini oyna."
+  }
+}

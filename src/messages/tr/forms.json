@@ -1,0 +1,39 @@
+{
+  "tryRange": "Başka bir zaman aralığı dene:",
+  "field": {
+    "recent": "Son oyuncular"
+  },
+  "squad": {
+    "title": "Takım özeti",
+    "lead": "Aynı sunucudan iki ila beş Riot ID gir. <em>Birlikte</em> oynadığınız maçlara bakıp ödülleri dağıtıyoruz.",
+    "server": "Sunucu",
+    "player": "Oyuncu {n} (Ad#ETİKET)",
+    "playerOptional": "Oyuncu {n} (Ad#ETİKET) isteğe bağlı",
+    "playerAria": "Oyuncu {n} Riot ID",
+    "submit": "Takım özetini getir",
+    "fine": "Yalnızca ortak maçlara baktığı için birlikte sıraya girdiğin kişilerle en iyi sonucu verir. <link>Örnek bir takıma bak</link>"
+  },
+  "clash": {
+    "title": "Takıma karşı takım",
+    "lead": "Aynı sunucudan, ikişer ile beşer oyunculu iki takım. <em>Birbirinize karşı</em> oynadığınız oyunlara bakıyoruz, örneğin özel bir 5v5.",
+    "server": "Sunucu",
+    "sideA": "1. takım",
+    "sideB": "2. takım",
+    "player": "{side}, oyuncu {n} (Ad#TAG)",
+    "playerOptional": "{side}, oyuncu {n} (Ad#TAG) isteğe bağlı",
+    "playerAria": "{side} oyuncu {n} Riot ID'si",
+    "submit": "Takımları karşılaştır",
+    "fine": "Yalnızca her takımdan en az iki kişinin karşı taraflarda olduğu oyunlar sayılır. <link>Örneği gör</link>"
+  },
+  "versus": {
+    "title": "Kafa kafaya",
+    "lead": "İki oyuncu seç ve kimin önde olduğunu gör: istatistik istatistik, stil stil ve birlikte oynadığınızda nasıl olduğunuz.",
+    "player1": "Oyuncu 1",
+    "player2": "Oyuncu 2",
+    "serverAria": "Sunucu: {label}",
+    "riotId": "Riot ID (Ad#ETİKET)",
+    "riotIdAria": "Riot ID: {label}",
+    "submit": "Karşılaştır",
+    "fine": "Her oyuncunun son maçlarını karşılaştırır. <link>Örnek bir eşleşmeye bak</link>"
+  }
+}

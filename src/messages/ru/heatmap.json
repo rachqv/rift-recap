@@ -1,0 +1,42 @@
+{
+  "insight": {
+    "nightOwl": "{share} ваших игр начинается после полуночи. Ущелье никогда не спит, и вы тоже.",
+    "earlyBird": "{share} ваших игр проходит до полудня. Очередь с утренним кофе.",
+    "weekend": "{share} ваших игр приходится на выходные. Субботы созданы для Ущелья.",
+    "weekday": "Почти все ваши игры проходят в будни. Гринд не берёт выходных.",
+    "streak": "{days, plural, one {# день} few {# дня} many {# дней} other {# дня}} подряд с играми. Это уже привычка.",
+    "steady": "Ровно, по всему календарю. Никакой закономерности, просто League."
+  },
+  "aria": "Календарь: {games, plural, one {# игра} few {# игры} many {# игр} other {# игры}} за {days, plural, one {# день} few {# дня} many {# дней} other {# дня}}",
+  "before": "{date}: раньше вашей самой ранней загруженной игры",
+  "day": "{date}: {detail}",
+  "dayGames": "{games, plural, one {# игра} few {# игры} many {# игр} other {# игры}}, побед: {wins}",
+  "dayNone": "нет игр",
+  "fewer": "Меньше",
+  "more": "Больше",
+  "activeDays": "{count, plural, one {<b>#</b> активный день} few {<b>#</b> активных дня} many {<b>#</b> активных дней} other {<b>#</b> активного дня}}",
+  "busiest": "Самый насыщенный день <b>{date}</b> · {games, plural, one {# игра} few {# игры} many {# игр} other {# игры}}",
+  "streak": "Самая длинная серия <b>{days, plural, one {# день} few {# дня} many {# дней} other {# дня}}</b>",
+  "favorite": "Любимый день <b>{day}</b>",
+  "prime": "Лучшее время <b>{hour}</b>",
+  "parts": {
+    "night": "ночь",
+    "morning": "утро",
+    "afternoon": "день",
+    "evening": "вечер"
+  },
+  "bestPart": "Лучше всего: <b>{part}</b> · <good>{rate}</good> побед",
+  "worstPart": "(<bad>{rate}</bad>, время: {part})",
+  "bestMonth": "Лучший месяц <b>{month}</b> · <good>{rate}</good>",
+  "worstMonth": "· худший <b>{month}</b> <bad>{rate}</bad>",
+  "clock": {
+    "day": "Ваш лучший день: {best}, побед — {bestRate}. Худший: {worst}, всего {worstRate}.",
+    "part": "Ваше лучшее время суток: {best}, побед — {bestRate}. Худшее: {worst}, всего {worstRate}.",
+    "steady": "Ваш процент побед почти не зависит от времени. Любой день, любой час: тот же игрок.",
+    "byPart": "Время суток",
+    "byDay": "День недели",
+    "bar": "{label}: побед — {rate}, {detail}",
+    "barFew": "{label}: {detail}. Слишком мало игр для сравнения.",
+    "aria": "Процент побед по времени суток и дню недели"
+  }
+}

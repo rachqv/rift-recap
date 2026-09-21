@@ -1,0 +1,39 @@
+{
+  "thisSeason": "本賽季，我是",
+  "disclaimer": "Rift Recap 未獲 Riot Games 認可，也不代表 Riot Games 或任何正式參與製作、管理 Riot Games 資產的人員之觀點或意見。",
+  "games": "對局",
+  "winRate": "勝率",
+  "kda": "KDA",
+  "trophies": "獎盃",
+  "rank": "段位",
+  "main": "主玩",
+  "topChampion": "最常用英雄",
+  "gamesCount": "{count, plural, other {#場}}",
+  "squad": {
+    "header": "小隊回顧",
+    "gamesTogether": "同隊對局",
+    "hours": "小時",
+    "together": "同隊",
+    "awards": "獎項"
+  },
+  "versus": {
+    "header": "正面對決",
+    "vs": "VS",
+    "rowsWon": "勝出項目",
+    "scenarios": "精彩對比",
+    "numbers": "數據一覽",
+    "unranked": "未定級"
+  },
+  "bingo": {
+    "header": "獎盃賓果",
+    "free": "免費",
+    "lines": "賓果",
+    "next": "下一個賓果：{name}"
+  },
+  "form": {
+    "best": "最佳階段",
+    "worst": "最差階段",
+    "now": "目前",
+    "ended": "結束於{date}"
+  }
+}

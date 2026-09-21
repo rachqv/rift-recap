@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "title": "Tvoji hráči · Rift Recap"
+  },
+  "title": "Tvoji hráči",
+  "lead": "Všichni, které jsi na tomto zařízení hledal, se zkratkou k jejich souhrnu, souboji nebo týmu.",
+  "empty": "Zatím žádní hráči. Vyhledej někoho na <home>úvodní stránce</home> a objeví se tady.",
+  "recap": "Souhrn",
+  "versus": "Tváří v tvář",
+  "squad": "Tým",
+  "remove": "Odebrat {name} z tohoto seznamu",
+  "clear": "Vymazat vše",
+  "pin": "Připnout {name} nahoru",
+  "unpin": "Odepnout {name}",
+  "clearUnpinned": "Smazat nepřipnuté"
+}

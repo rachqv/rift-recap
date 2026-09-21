@@ -1,0 +1,48 @@
+.avatar {
+  --ring: var(--accent);
+  flex: none;
+  border: 3px solid var(--ring);
+  border-radius: 50%;
+  object-fit: cover;
+  background: #0f1f3d;
+  box-shadow:
+    0 0 0 4px rgba(5, 11, 24, 0.55),
+    0 0 26px color-mix(in srgb, var(--ring) 55%, transparent);
+}
+
+.sm {
+  width: 2.4rem;
+  height: 2.4rem;
+  border-width: 2px;
+  box-shadow: 0 0 12px color-mix(in srgb, var(--ring) 45%, transparent);
+}
+
+.md {
+  width: clamp(3.4rem, 9vh, 5rem);
+  height: clamp(3.4rem, 9vh, 5rem);
+}
+
+.lg {
+  width: clamp(4.5rem, 13vh, 7rem);
+  height: clamp(4.5rem, 13vh, 7rem);
+}
+
+.fallback {
+  display: grid;
+  place-items: center;
+  font-family: var(--font-display), Georgia, serif;
+  font-weight: 800;
+  color: var(--gold-bright);
+}
+
+.sm.fallback {
+  font-size: 1rem;
+}
+
+.md.fallback {
+  font-size: 1.6rem;
+}
+
+.lg.fallback {
+  font-size: 2.4rem;
+}

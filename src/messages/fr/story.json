@@ -1,0 +1,17 @@
+{
+  "sections": "Sections du récap",
+  "controls": "Diaporama et son",
+  "play": "Lancer le diaporama",
+  "pause": "Pause",
+  "resume": "Reprendre",
+  "stop": "Arrêter le diaporama",
+  "mute": "Couper le son",
+  "unmute": "Activer le son",
+  "volume": "Volume",
+  "playing": "Diaporama en cours",
+  "paused": "Diaporama en pause",
+  "label": "Ton récap",
+  "previous": "Diapositive précédente",
+  "next": "Diapositive suivante",
+  "copyLink": "Copier le lien de cette diapositive"
+}

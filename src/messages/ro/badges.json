@@ -1,0 +1,98 @@
+{
+  "penta": {
+    "name": "Pentakill",
+    "text": "Realizează un pentakill."
+  },
+  "quadra": {
+    "name": "Colecționar de quadrakill",
+    "text": "Realizează {target, plural, one {# quadrakill} few {# quadrakilluri} other {# de quadrakilluri}}."
+  },
+  "triple": {
+    "name": "Amenințare triplă",
+    "text": "Realizează {target, plural, one {# triplekill} few {# triplekilluri} other {# de triplekilluri}}."
+  },
+  "flawless": {
+    "name": "Impecabil",
+    "text": "Termină un meci fără să mori nicio dată."
+  },
+  "flawless5": {
+    "name": "Intangibil",
+    "text": "Termină {target, plural, one {# meci} few {# meciuri} other {# de meciuri}} fără să mori nicio dată."
+  },
+  "streak": {
+    "name": "În flăcări",
+    "text": "Câștigă {target, plural, one {# meci} few {# meciuri} other {# de meciuri}} la rând."
+  },
+  "winrate": {
+    "name": "Învingătorul",
+    "text": "Menține o rată de victorii de {target} în peste {games} meciuri."
+  },
+  "kills": {
+    "name": "Mașină de eliminări",
+    "text": "Realizează {target, plural, one {# eliminare} few {# eliminări} other {# de eliminări}} într-un singur meci."
+  },
+  "perfect": {
+    "name": "Meci perfect",
+    "text": "Joacă un meci cu un KDA de {target}+."
+  },
+  "firstblood": {
+    "name": "Regele primei sângerări",
+    "text": "Ia prima sângerare de {target, plural, one {# dată} few {# ori} other {# de ori}}."
+  },
+  "thief": {
+    "name": "Hoțul de obiective",
+    "text": "Fură un obiectiv."
+  },
+  "turrets": {
+    "name": "Demolatorul",
+    "text": "Distruge {target, plural, one {# turn} few {# turnuri} other {# de turnuri}}."
+  },
+  "variety": {
+    "name": "Bun la toate",
+    "text": "Joacă cu {target, plural, one {# campion diferit} few {# campioni diferiți} other {# de campioni diferiți}}."
+  },
+  "loyal": {
+    "name": "Loialul",
+    "text": "Joacă cu același campion de {target, plural, one {# dată} few {# ori} other {# de ori}}."
+  },
+  "marathon": {
+    "name": "Maraton",
+    "text": "Joacă un meci mai lung de {minutes} minute."
+  },
+  "bounce": {
+    "name": "Revenirea",
+    "text": "Câștigă {target} din meciurile de după o înfrângere."
+  },
+  "hours": {
+    "name": "Timp pe Falie",
+    "text": "Petrece {target, plural, one {# oră} few {# ore} other {# de ore}} în meciuri."
+  },
+  "dragon": {
+    "name": "Ucigașul de dragoni",
+    "text": "Dă lovitura fatală la {target, plural, one {# dragon} few {# dragoni} other {# de dragoni}}."
+  },
+  "baron": {
+    "name": "Vânătorul de Baron",
+    "text": "Dă lovitura fatală la {target, plural, one {# Baron} few {# Baroni} other {# de Baroni}}."
+  },
+  "teamplayer": {
+    "name": "Jucător de echipă",
+    "text": "Participă la {target} din eliminările echipei tale."
+  },
+  "duo": {
+    "name": "Nedespărțiții",
+    "text": "Joacă {target, plural, one {# meci} few {# meciuri} other {# de meciuri}} cu același coechipier."
+  },
+  "vision": {
+    "name": "Atotvăzătorul",
+    "text": "Atinge în medie {target} scor de vizibilitate pe minut."
+  },
+  "farm": {
+    "name": "Maestrul farmului",
+    "text": "Atinge în medie {target} CS pe minut."
+  },
+  "roles": {
+    "name": "Polivalentul",
+    "text": "Joacă pe toate cele {target, plural, one {# rol} few {# roluri} other {# de roluri}}."
+  }
+}

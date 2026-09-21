@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "title": "Sample recap · Rift Recap"
+  },
+  "switcher": {
+    "label": "Sample players",
+    "previous": "Previous sample player",
+    "next": "Next sample player",
+    "player": "Sample player",
+    "show": "Show"
+  },
+  "players": {
+    "onetrick": "One-Trick",
+    "specialist": "Specialist",
+    "explorer": "Explorer",
+    "chameleon": "Chameleon",
+    "showstopper": "Showstopper",
+    "slayer": "Slayer",
+    "daredevil": "Daredevil",
+    "support": "Playmaker",
+    "unlucky": "Unlucky Hero",
+    "phoenix": "Phoenix",
+    "risingstar": "Rising Star",
+    "streaker": "Hot Streak",
+    "scout": "Scout",
+    "farmer": "Farmer",
+    "heavyhitter": "Heavy Hitter",
+    "everpresent": "Ever-Present",
+    "opener": "Opener",
+    "untouchable": "Untouchable",
+    "closer": "Closer",
+    "marathoner": "Marathoner",
+    "speedrunner": "Speedrunner",
+    "assassin": "Assassin",
+    "archmage": "Archmage",
+    "sharpshooter": "Sharpshooter",
+    "brawler": "Brawler",
+    "bulwark": "Bulwark",
+    "aramfan": "ARAM Fan",
+    "casual": "Casual",
+    "demolisher": "Demolisher",
+    "thief": "Thief",
+    "grinder": "Grinder",
+    "pathfinder": "Pathfinder",
+    "islander": "Islander",
+    "centerpiece": "Centerpiece",
+    "carry": "Carry",
+    "guardian": "Guardian"
+  }
+}

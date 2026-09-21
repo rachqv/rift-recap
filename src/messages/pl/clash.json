@@ -1,0 +1,55 @@
+{
+  "team": "Drużyna {name}",
+  "line": {
+    "few": "{games} między drużynami na razie: za wcześnie na wnioski.",
+    "level": "{a} do {b}: mniej więcej remis. Tak mała różnica może być zwykłym szczęściem.",
+    "lead": "{name} prowadzi {win} do {lose}. To więcej, niż wyjaśniłby przypadek."
+  },
+  "rail": {
+    "start": "Drużyny",
+    "lanes": "Linia po linii",
+    "numbers": "Liczby",
+    "stars": "Wyróżnieni",
+    "end": "Podsumowania drużyn"
+  },
+  "slides": {
+    "intro": {
+      "eyebrow": "Drużyna przeciw drużynie",
+      "played": "{games} rozegranych przeciwko sobie"
+    },
+    "lanes": {
+      "eyebrow": "Linia po linii",
+      "aria": "Wyniki według linii",
+      "note": "Linia pojawia się tylko wtedy, gdy obie drużyny miały w niej kogoś. Każda gra trafia do gracza z lepszym KDA na tej linii."
+    },
+    "numbers": {
+      "eyebrow": "Jak grała każda drużyna",
+      "aria": "Średnie na gracza i grę",
+      "note": "Średnia na gracza i grę.",
+      "kda": "KDA",
+      "damage": "Obrażenia zadane bohaterom",
+      "gold": "Zdobyte złoto",
+      "vision": "Wynik widzenia"
+    },
+    "stars": {
+      "eyebrow": "Wyróżnieni",
+      "best": "Najlepsze KDA w drużynie {team}",
+      "stat": "KDA {kda} w {games}",
+      "record": "Wygrano {wins} z {games}",
+      "note": "Liczą się tylko gracze z co najmniej {min} grami między drużynami."
+    },
+    "end": {
+      "eyebrow": "Dalej",
+      "recap": "Podsumowanie drużyny: {team}"
+    }
+  },
+  "page": {
+    "title": "{a} vs {b} · Drużyna przeciw drużynie",
+    "titleDemo": "Przykład: drużyna przeciw drużynie · Rift Recap",
+    "titleEmpty": "Drużyna przeciw drużynie · Rift Recap",
+    "description": "Dwie drużyny twarzą w twarz: kto wygrywa, linia po linii i jak grała każda strona.",
+    "overlap": "{names} nie może być w obu drużynach.",
+    "atLeastTwo": "Każda drużyna potrzebuje co najmniej dwóch Riot ID.",
+    "noClash": "Te drużyny nie mają gier przeciwko sobie {where}. Potrzebne są gry, w których co najmniej dwóch graczy z każdej drużyny było w tym samym meczu po przeciwnych stronach, jak własna gra 5v5."
+  }
+}

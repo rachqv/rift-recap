@@ -1,0 +1,43 @@
+{
+  "badge": "赛季回顾",
+  "title": {
+    "line1": "你的赛季，",
+    "line2": "尽在这里。"
+  },
+  "subtitle": "每一局、每一次五杀、每一次可疑的闪现。输入你的 Riot ID，重温你在峡谷的旅程。",
+  "error": "请按“名称#TAG”的格式输入你的 Riot ID，并选择地区。",
+  "hint": "无需登录，只需你的 Riot ID。<link>查看示例回顾 →</link>",
+  "modes": {
+    "squad": "小队回顾",
+    "versus": "正面对决",
+    "clash": "小队对小队",
+    "players": "你的玩家"
+  },
+  "features": {
+    "title": "回顾里有什么",
+    "champions": {
+      "title": "你的英雄",
+      "text": "谁带你赢，谁让你掉了胜点，还有你忍不住一直选的那一个。"
+    },
+    "climb": {
+      "title": "你的攀升",
+      "text": "整个赛季的胜率、KDA 和段位变化，讲成一个故事。"
+    },
+    "time": {
+      "title": "你的时间",
+      "text": "在峡谷度过的小时数、最长的一局、最晚的一次排队。"
+    }
+  },
+  "sample": {
+    "label": "示例回顾卡片",
+    "games": "已打对局",
+    "days": "约{days}天在峡谷中度过",
+    "signature": "招牌英雄",
+    "record": "{games}局 · 胜率{winRate}",
+    "kda": "赛季KDA",
+    "peak": "最高段位",
+    "peakRank": "翡翠 II",
+    "climbed": "本赛季攀升+{lp}胜点"
+  },
+  "footer": "Rift Recap 未获得 Riot Games 认可，也不代表 Riot Games 或任何正式参与制作、管理 Riot Games 资产的人员的观点或意见。Riot Games 及所有相关资产均为 Riot Games, Inc. 的商标或注册商标。"
+}

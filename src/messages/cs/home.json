@@ -1,0 +1,43 @@
+{
+  "badge": "Souhrn sezony",
+  "title": {
+    "line1": "Tvoje sezona,",
+    "line2": "shrnutá."
+  },
+  "subtitle": "Každý zápas, každý pentakill, každý pochybný Skok. Zadej své Riot ID a prožij si znovu svou cestu po Riftu.",
+  "error": "Zadej své Riot ID ve tvaru Jméno#TAG a vyber oblast.",
+  "hint": "Bez přihlášení. Stačí tvoje Riot ID. <link>Zobrazit ukázkový souhrn →</link>",
+  "modes": {
+    "squad": "Souhrn týmu",
+    "versus": "Tváří v tvář",
+    "clash": "Tým proti týmu",
+    "players": "Tvoji hráči"
+  },
+  "features": {
+    "title": "Co je v tvém souhrnu",
+    "champions": {
+      "title": "Tvoji šampioni",
+      "text": "Kdo tě táhl, kdo tě stál LP a ta jedna volba, kterou nedokážeš přestat zamykat."
+    },
+    "climb": {
+      "title": "Tvůj výstup",
+      "text": "Poměr výher, KDA a pohyb ranku za celou sezonu, vyprávěné jako příběh."
+    },
+    "time": {
+      "title": "Tvůj čas",
+      "text": "Hodiny strávené na Riftu, tvůj nejdelší zápas, tvoje nejpozdější noční fronta."
+    }
+  },
+  "sample": {
+    "label": "Ukázkové karty souhrnu",
+    "games": "Odehrané zápasy",
+    "days": "≈ {days} dní strávených na Riftu",
+    "signature": "Podpisový šampion",
+    "record": "{games} zápasů · poměr výher {winRate}",
+    "kda": "KDA sezony",
+    "peak": "Nejvyšší rank",
+    "peakRank": "Smaragd II",
+    "climbed": "+{lp} LP vyšplháno v této sezoně"
+  },
+  "footer": "Rift Recap není podporován společností Riot Games a neodráží názory Riot Games ani nikoho, kdo se oficiálně podílí na tvorbě nebo správě majetku Riot Games. Riot Games a veškerý související majetek jsou ochranné známky nebo registrované ochranné známky společnosti Riot Games, Inc."
+}

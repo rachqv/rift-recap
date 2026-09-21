@@ -1,0 +1,39 @@
+{
+  "thisSeason": "Bu sezon ben",
+  "disclaimer": "Rift Recap, Riot Games tarafından onaylanmamıştır ve Riot Games'in ya da Riot Games mülklerinin yapımında veya yönetiminde resmen yer alan kişilerin görüş ve fikirlerini yansıtmaz.",
+  "games": "Maç",
+  "winRate": "Galibiyet",
+  "kda": "KDA",
+  "trophies": "Kupalar",
+  "rank": "Rütbe",
+  "main": "Ana",
+  "topChampion": "En iyi şampiyon",
+  "gamesCount": "{count, plural, one {# maç} other {# maç}}",
+  "squad": {
+    "header": "Takım özeti",
+    "gamesTogether": "Birlikte maç",
+    "hours": "Saat",
+    "together": "Birlikte",
+    "awards": "Ödüller"
+  },
+  "versus": {
+    "header": "Kafa kafaya",
+    "vs": "VS",
+    "rowsWon": "Kazanılan satır",
+    "scenarios": "En iyi senaryolar",
+    "numbers": "Sayılar",
+    "unranked": "Derecesiz"
+  },
+  "bingo": {
+    "header": "Kupa bingosu",
+    "free": "Bedava",
+    "lines": "Bingo",
+    "next": "Sıradaki bingo: {name}"
+  },
+  "form": {
+    "best": "En iyi dönem",
+    "worst": "En kötü dönem",
+    "now": "Şimdi",
+    "ended": "{date} tarihinde bitti"
+  }
+}

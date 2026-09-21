@@ -1,0 +1,98 @@
+{
+  "penta": {
+    "name": "펜타킬",
+    "text": "펜타킬을 달성하세요."
+  },
+  "quadra": {
+    "name": "쿼드라킬 수집가",
+    "text": "쿼드라킬을 {target, plural, other {#회}} 달성하세요."
+  },
+  "triple": {
+    "name": "트리플 위협",
+    "text": "트리플킬을 {target, plural, other {#회}} 달성하세요."
+  },
+  "flawless": {
+    "name": "무결점",
+    "text": "한 번도 죽지 않고 게임을 끝내세요."
+  },
+  "flawless5": {
+    "name": "손댈 수 없는 자",
+    "text": "한 번도 죽지 않고 {target, plural, other {#게임}}을 끝내세요."
+  },
+  "streak": {
+    "name": "불타는 중",
+    "text": "{target, plural, other {#게임}} 연속으로 승리하세요."
+  },
+  "winrate": {
+    "name": "승리자",
+    "text": "{games}게임 이상에서 승률 {target}를 유지하세요."
+  },
+  "kills": {
+    "name": "킬 머신",
+    "text": "한 게임에서 {target, plural, other {#킬}}을 달성하세요."
+  },
+  "perfect": {
+    "name": "퍼펙트 게임",
+    "text": "KDA {target} 이상으로 게임을 마치세요."
+  },
+  "firstblood": {
+    "name": "퍼스트 블러드의 왕",
+    "text": "퍼스트 블러드를 {target, plural, other {#회}} 따내세요."
+  },
+  "thief": {
+    "name": "오브젝트 도둑",
+    "text": "오브젝트를 스틸하세요."
+  },
+  "turrets": {
+    "name": "철거반",
+    "text": "포탑을 {target, plural, other {#개}} 파괴하세요."
+  },
+  "variety": {
+    "name": "만능 플레이어",
+    "text": "서로 다른 챔피언을 {target, plural, other {#명}} 플레이하세요."
+  },
+  "loyal": {
+    "name": "일편단심",
+    "text": "한 챔피언을 {target, plural, other {#회}} 플레이하세요."
+  },
+  "marathon": {
+    "name": "마라톤",
+    "text": "{minutes}분보다 긴 게임을 플레이하세요."
+  },
+  "bounce": {
+    "name": "반등",
+    "text": "패배 후 게임의 {target}를 이기세요."
+  },
+  "hours": {
+    "name": "협곡에서 보낸 시간",
+    "text": "게임에서 {target, plural, other {#시간}}을 보내세요."
+  },
+  "dragon": {
+    "name": "용 사냥꾼",
+    "text": "용에게 마지막 일격을 {target, plural, other {#회}} 가하세요."
+  },
+  "baron": {
+    "name": "바론 사냥꾼",
+    "text": "바론에게 마지막 일격을 {target, plural, other {#회}} 가하세요."
+  },
+  "teamplayer": {
+    "name": "팀 플레이어",
+    "text": "팀 킬의 {target}에 관여하세요."
+  },
+  "duo": {
+    "name": "단짝",
+    "text": "같은 팀원과 {target, plural, other {#게임}} 플레이하세요."
+  },
+  "vision": {
+    "name": "전지적 시야",
+    "text": "분당 평균 시야 점수 {target} 이상을 기록하세요."
+  },
+  "farm": {
+    "name": "파밍 장인",
+    "text": "분당 평균 CS {target} 이상을 기록하세요."
+  },
+  "roles": {
+    "name": "만능 플레이어",
+    "text": "{target, plural, other {#개}} 포지션을 모두 플레이하세요."
+  }
+}

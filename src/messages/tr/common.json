@@ -1,0 +1,81 @@
+{
+  "language": {
+    "label": "Dil"
+  },
+  "range": {
+    "label": "Zaman aralığı",
+    "season": "Bu sezon",
+    "90d": "Son 90 gün",
+    "30d": "Son 30 gün",
+    "7d": "Son 7 gün"
+  },
+  "regions": {
+    "na1": "Kuzey Amerika",
+    "br1": "Brezilya",
+    "la1": "LAN",
+    "la2": "LAS",
+    "euw1": "Batı Avrupa",
+    "eun1": "Kuzey ve Doğu Avrupa",
+    "tr1": "Türkiye",
+    "ru": "Rusya",
+    "me1": "Orta Doğu",
+    "kr": "Kore",
+    "jp1": "Japonya",
+    "oc1": "Okyanusya",
+    "ph2": "Filipinler",
+    "sg2": "Singapur",
+    "th2": "Tayland",
+    "tw2": "Tayvan",
+    "vn2": "Vietnam"
+  },
+  "message": {
+    "tryAnother": "Başka bir oyuncu dene",
+    "tryServer": "Belki başka bir sunucuda?",
+    "notFoundTitle": "Sayfa bulunamadı",
+    "notFoundText": "Bu sayfa yok ya da taşınmış. Geri dön ve bir oyuncu ara.",
+    "crashTitle": "Bir şeyler ters gitti",
+    "crashText": "Sayfa düzgün yüklenmedi. Tekrar dene ya da başka bir oyuncu ara.",
+    "retry": "Tekrar dene"
+  },
+  "loading": {
+    "recap1": "Maç geçmişin çağrılıyor…",
+    "recap2": "Her son vuruş sayılıyor…",
+    "recap3": "Vadi'nin kahinine danışılıyor…",
+    "recap4": "Pentakill'lerin parlatılıyor…",
+    "squad1": "Birlikte oynadığınız maçlar bulunuyor…",
+    "squad2": "En çok kimin ping attığı sayılıyor…",
+    "squad3": "Ölümler tartılıyor…",
+    "squad4": "Kupalar kazınıyor…",
+    "versus1": "İki oyuncu da değerlendiriliyor…",
+    "versus2": "İki maç geçmişi çekiliyor…",
+    "versus3": "Her son vuruş sayılıyor…",
+    "versus4": "Karar hazırlanıyor…"
+  },
+  "meta": {
+    "description": "Sezon ilerledikçe League of Legends yolculuğunu keşfedebileceğin bir web sitesi"
+  },
+  "roles": {
+    "TOP": "Üst",
+    "JUNGLE": "Orman",
+    "MIDDLE": "Orta",
+    "BOTTOM": "Alt",
+    "UTILITY": "Destek"
+  },
+  "tiers": {
+    "IRON": "Demir",
+    "BRONZE": "Bronz",
+    "SILVER": "Gümüş",
+    "GOLD": "Altın",
+    "PLATINUM": "Platin",
+    "EMERALD": "Zümrüt",
+    "DIAMOND": "Elmas",
+    "MASTER": "Master",
+    "GRANDMASTER": "Grandmaster",
+    "CHALLENGER": "Challenger"
+  },
+  "queues": {
+    "RANKED_SOLO_5x5": "Dereceli Tek/Çift",
+    "RANKED_FLEX_SR": "Dereceli Esnek"
+  },
+  "rankTitle": "{tier} {division}"
+}

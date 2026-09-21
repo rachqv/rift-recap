@@ -1,0 +1,43 @@
+{
+  "badge": "Season recap",
+  "title": {
+    "line1": "Your season,",
+    "line2": "wrapped."
+  },
+  "subtitle": "Every game, every pentakill, every questionable Flash. Drop your Riot ID and relive your journey through the Rift.",
+  "error": "Enter your Riot ID like Name#TAG and pick a region.",
+  "hint": "No login needed. Just your Riot ID. <link>See a sample recap →</link>",
+  "modes": {
+    "squad": "Squad recap",
+    "versus": "Head-to-head",
+    "clash": "Squad vs squad",
+    "players": "Your players"
+  },
+  "features": {
+    "title": "What's in your recap",
+    "champions": {
+      "title": "Your champions",
+      "text": "Who carried you, who cost you LP, and the one pick you can't stop locking in."
+    },
+    "climb": {
+      "title": "Your climb",
+      "text": "Win rate, KDA and rank movement across the whole season, told as a story."
+    },
+    "time": {
+      "title": "Your time",
+      "text": "Hours spent in the Rift, your longest game, your latest night-time queue."
+    }
+  },
+  "sample": {
+    "label": "Sample recap cards",
+    "games": "Games played",
+    "days": "≈ {days} days spent in the Rift",
+    "signature": "Signature champion",
+    "record": "{games} games · {winRate} win rate",
+    "kda": "Season KDA",
+    "peak": "Peak rank",
+    "peakRank": "Emerald II",
+    "climbed": "+{lp} LP climbed this season"
+  },
+  "footer": "Rift Recap isn't endorsed by Riot Games and doesn't reflect the views or opinions of Riot Games or anyone officially involved in producing or managing Riot Games properties. Riot Games and all associated properties are trademarks or registered trademarks of Riot Games, Inc."
+}

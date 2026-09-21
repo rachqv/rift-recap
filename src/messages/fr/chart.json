@@ -1,0 +1,9 @@
+{
+  "aria": "Avance en or entre {a} et {b} lors de la dernière partie qu'ils ont jouée l'un contre l'autre. {result}",
+  "aheadEnd": "{name} est en avance de {gold} à la fin.",
+  "levelEnd": "Égalité à la fin.",
+  "minute": "Minute <b>{minute}</b>",
+  "ahead": "<b>{name}</b> a {gold} d'or d'avance",
+  "level": "Égalité",
+  "won": "{name} a gagné"
+}

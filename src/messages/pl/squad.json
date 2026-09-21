@@ -1,0 +1,181 @@
+{
+  "awards": {
+    "objectiveSteal": {
+      "title": "Najbardziej skłonny do kradzieży celu",
+      "tagline": "Pilnuj swojego smoka. Potem patrz, jak znika.",
+      "label": "skradzione cele",
+      "line": "{name} ukradł {count, plural, one {# cel} few {# cele} many {# celów} other {# celu}}. Nic nie jest bezpieczne."
+    },
+    "objectiveTake": {
+      "title": "Najbardziej skłonny do zdobywania celu",
+      "tagline": "Gdzie smok, tam i oni.",
+      "label": "obrażenia w cele na minutę",
+      "line": "{name} zadawał celom {value} obrażeń na minutę."
+    },
+    "deaths": {
+      "title": "Najwięcej śmierci",
+      "tagline": "Szary ekran? Mają karnet sezonowy.",
+      "label": "śmierci na grę",
+      "line": "{name} spędzał około {minutes} min każdej gry, gapiąc się w szary ekran."
+    },
+    "pings": {
+      "title": "Kierowca z tylnego siedzenia",
+      "tagline": "Najbardziej skłonny do pingowania „wycofać się” własnej drużynie.",
+      "label": "pingi na grę",
+      "line": "{name} pingował {value} razy na grę. Minimapa nigdy nie miała wytchnienia."
+    },
+    "vision": {
+      "title": "Latarnia",
+      "tagline": "Zapalił światło dla wszystkich innych.",
+      "label": "punkty wizji na minutę",
+      "line": "{value} punktów wizji na minutę od {name}. Nikt nie szedł sam w ciemność."
+    },
+    "tank": {
+      "title": "Worek treningowy",
+      "tagline": "Wchłonął najwięcej obrażeń dla drużyny.",
+      "label": "otrzymane obrażenia na grę",
+      "line": "{name} wchłaniał {value} obrażeń na grę."
+    },
+    "assists": {
+      "title": "Najlepszy przyjaciel",
+      "tagline": "Zawsze gotów przygotować akcję.",
+      "label": "asysty na grę",
+      "line": "{name} miał średnio {value} asyst. Ulubiony kolega z drużyny."
+    },
+    "carry": {
+      "title": "Carry",
+      "tagline": "Najbardziej skłonny wygrać za wszystkich innych.",
+      "label": "KDA",
+      "line": "KDA {value}. {name} wykonał ciężką robotę."
+    },
+    "damage": {
+      "title": "Ciężka artyleria",
+      "tagline": "Paski zdrowia topnieją przy kontakcie.",
+      "label": "obrażenia na minutę",
+      "line": "{value} obrażeń zadanych bohaterom co minutę przez {name}."
+    },
+    "farm": {
+      "title": "Farmer",
+      "tagline": "Ani jednej fali z działem nie zostawiono.",
+      "label": "CS na minutę",
+      "line": "{value} stworów na minutę. {name} zawsze był przy fali."
+    },
+    "present": {
+      "title": "Zawsze obecny",
+      "tagline": "Jeśli była walka, byli w niej.",
+      "label": "udział w zabójstwach",
+      "line": "{name} brał udział w {value} zabójstw drużyny."
+    },
+    "cc": {
+      "title": "Kontroler tłumu",
+      "tagline": "Unieruchomił wroga, żeby reszta mogła pracować.",
+      "label": "sekundy kontroli tłumu na grę",
+      "line": "{name} unieruchamiał wrogów na {value, plural, one {# sekundę} few {# sekundy} many {# sekund} other {# sekundy}} na grę."
+    }
+  },
+  "chemistry": {
+    "destiny": "Duo przeznaczenia",
+    "great": "Świetna chemia",
+    "solid": "Solidni partnerzy",
+    "awkward": "Niezręczni razem",
+    "apart": "Lepiej osobno"
+  },
+  "slides": {
+    "intro": {
+      "eyebrow": "Podsumowanie drużyny",
+      "together": "{count, plural, one {gra razem} few {gry razem} many {gier razem} other {gry razem}}",
+      "hours": "{n, plural, one {<b>{value}</b> godzina} few {<b>{value}</b> godziny} many {<b>{value}</b> godzin} other {<b>{value}</b> godziny}}",
+      "note": "Na podstawie waszych {loaded} ostatnich wspólnych gier (z {found} znalezionych)."
+    },
+    "record": {
+      "eyebrow": "Wasz bilans",
+      "label": "odsetek wygranych razem",
+      "bestStreak": "Najlepsza seria <good>{count, plural, one {# wygrana} few {# wygrane} many {# wygranych} other {# wygranej}}</good>",
+      "worstSkid": "Najgorsza seria <bad>{count, plural, one {# porażka} few {# porażki} many {# porażek} other {# porażki}}</bad>",
+      "all": "Wszyscy ({members}) razem w {games, plural, one {<b>#</b> grze} few {<b>#</b> grach} many {<b>#</b> grach} other {<b>#</b> grach}}",
+      "machine": "Maszyna, gdy gracie razem.",
+      "good": "Więcej wygranych niż porażek. Drużyna dowozi.",
+      "balanced": "Idealnie zrównoważeni. Chaos, ale ten zabawny.",
+      "rough": "Trudne wyniki. Ale czat grupowy ma o czym opowiadać."
+    },
+    "pairs": {
+      "eyebrow": "Chemia duo",
+      "best": "Najlepsze duo",
+      "worst": "Trzeba popracować",
+      "games": "{count, plural, one {# gra} few {# gry} many {# gier} other {# gry}} razem",
+      "chemistry": "{icon} {score} chemii · {label}",
+      "captionBoth": "{a} i {b} to ci, których warto łączyć w kolejce. {c} i {d}, może niekoniecznie.",
+      "captionBest": "{a} i {b} to wasza najmocniejsza para."
+    },
+    "award": {
+      "eyebrow": "Nagroda {position} z {total}",
+      "runner": "{n}. {name} <b>{display}</b>"
+    },
+    "board": {
+      "eyebrow": "Tabela wyników",
+      "aria": "Tabela wyników drużyny",
+      "kda": "KDA",
+      "deaths": "Śmierci",
+      "damage": "Obr./min",
+      "awards": "Nagrody",
+      "note": "Posortowane według KDA. Nagrody to trofea, które każdy z was zabrał do domu."
+    },
+    "finale": {
+      "mvp": "MVP drużyny",
+      "none": "To cała drużyna",
+      "awards": "{count, plural, one {# nagroda} few {# nagrody} many {# nagród} other {# nagrody}}, więcej niż ktokolwiek inny.",
+      "recap": "Podsumowanie: {name}",
+      "versus": "Jeden na jednego: {a} kontra {b}",
+      "shareTitle": "Nasze podsumowanie drużyny w League: {names}",
+      "another": "Zacznij kolejną drużynę"
+    },
+    "rivalry": {
+      "eyebrow": "Przyjazny ogień",
+      "lead": "Wasz bilans przeciwko sobie, {count, plural, one {# spotkanie} few {# spotkania} many {# spotkań} other {# spotkania}} w przeciwnych drużynach",
+      "aria": "Bilanse pojedynków",
+      "cell": "{wins, plural, one {# wygrana} few {# wygrane} many {# wygranych} other {# wygranej}}, {losses, plural, one {# porażka} few {# porażki} many {# porażek} other {# porażki}}",
+      "even": "{a} i {b} są idealnie na remis po {games, plural, one {# spotkaniu} few {# spotkaniach} many {# spotkaniach} other {# spotkaniach}}.",
+      "edge": "{winner} ma przewagę nad {loser}, {hi} do {lo}. Największa rywalizacja w drużynie."
+    },
+    "combos": {
+      "eyebrow": "Z kim grać w kolejce",
+      "trio": "Najlepsze trio",
+      "duo": "Najlepsze duo",
+      "record": "{wins}W {losses}P w {games, plural, one {# grze} few {# grach} many {# grach} other {# grach}} razem",
+      "caption": "{names}: grajcie razem, a odsetek wygranych mówi sam za siebie.",
+      "games": "{count, plural, one {# gra} few {# gry} many {# gier} other {# gry}}"
+    },
+    "roles": {
+      "eyebrow": "Najlepszy skład",
+      "aria": "Proponowana rola dla każdego członka",
+      "swap": "Na papierze to najlepszy skład: każdy w roli, w której wygrywa najczęściej, według waszych wspólnych gier. Mała próba, więc traktujcie to jako wskazówkę.",
+      "settled": "Wszyscy już grają w roli, w której wygrywają najczęściej. Nie ma czego zamieniać.",
+      "was": "zwykle {role}"
+    }
+  },
+  "rail": {
+    "start": "Start",
+    "record": "Bilans",
+    "duos": "Duo",
+    "roles": "Role",
+    "queue": "Z kim grać",
+    "rivals": "Rywale",
+    "quiz": "Quiz",
+    "board": "Tabela",
+    "mvp": "MVP"
+  },
+  "page": {
+    "title": "{names} · Podsumowanie drużyny",
+    "titleDemo": "Przykładowe podsumowanie drużyny · Rift Recap",
+    "titleEmpty": "Podsumowanie drużyny · Rift Recap",
+    "description": "Nagrody grupowe z gier rozegranych razem przez drużynę: najwięcej śmierci, najwięcej kradzieży celów i więcej.",
+    "pickServer": "Wybierz serwer.",
+    "unreadable": "Nie udało się odczytać: {names}. Riot ID wyglądają jak Nazwa#TAG.",
+    "atLeastTwo": "Wpisz co najmniej dwa Riot ID.",
+    "atMostFive": "Drużyna ma najwyżej pięciu graczy.",
+    "notFound": "Nie znaleziono gracza dla {names} na {region}. Sprawdź pisownię i serwer.",
+    "noShared": "Nikt z was nie ma wspólnej gry {where}. To działa na podstawie gier rozegranych razem, więc spróbuj dłuższego okresu lub osób, z którymi grasz.",
+    "whereSeason": "w waszych ostatnich {count}",
+    "whereRange": "w okresie: {range}"
+  }
+}

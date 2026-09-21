@@ -1,0 +1,381 @@
+{
+  "season": "Sezon {year}",
+  "strip": "{wins, plural, one {# wygrana} few {# wygrane} many {# wygranych} other {# wygranej}} i {losses, plural, one {# porażka} few {# porażki} many {# porażek} other {# porażki}}, od najstarszej gry",
+  "record": "{wins}W · {losses}P",
+  "recordChip": "<good>{wins}</good>W <bad>{losses}</bad>P",
+  "winRateChip": "<b>{rate}</b> wygranych",
+  "kdaChip": "<b>{kda}</b> KDA",
+  "gamesChip": "{count, plural, one {<b>#</b> gra} few {<b>#</b> gry} many {<b>#</b> gier} other {<b>#</b> gry}}",
+  "gamesLabel": "{count, plural, one {# gra} few {# gry} many {# gier} other {# gry}}",
+  "intro": {
+    "eyebrow": "Podsumowanie: {season}",
+    "caption": "{games, plural, other {Przejrzeliśmy # twoich gier. Gotowy zobaczyć, jak ci poszło?}}",
+    "scroll": "Przewiń"
+  },
+  "games": {
+    "eyebrow": "Byłeś obecny",
+    "played": "{count, plural, one {rozegrana gra} few {rozegrane gry} many {rozegranych gier} other {rozegrane gry}}",
+    "riftOnly": "{count, plural, one {gra na Kanionie Przywoływaczy} few {gry na Kanionie Przywoływaczy} many {gier na Kanionie Przywoływaczy} other {gry na Kanionie Przywoływaczy}}",
+    "wins": "{count, plural, one {<good>#</good> wygrana} few {<good>#</good> wygrane} many {<good>#</good> wygranych} other {<good>#</good> wygranej}}",
+    "losses": "{count, plural, one {<bad>#</bad> porażka} few {<bad>#</bad> porażki} many {<bad>#</bad> porażek} other {<bad>#</bad> porażki}}",
+    "hours": "{n, plural, one {<b>{value}</b> godzina} few {<b>{value}</b> godziny} many {<b>{value}</b> godzin} other {<b>{value}</b> godziny}}"
+  },
+  "win": {
+    "eyebrow": "Twój odsetek wygranych"
+  },
+  "champion": {
+    "eyebrow": "Twój bohater znak rozpoznawczy",
+    "more": "Wszystkie twoje gry na {champion}",
+    "back": "Wróć do pełnego podsumowania",
+    "pageTitle": "{champion} · {name}#{tag} · Rift Recap",
+    "pageEyebrow": "Raport postaci",
+    "noneTitle": "Brak gier na tej postaci",
+    "none": "{who} nie ma gier na {champion} w tym okresie. Wybierz inną postać z podsumowania."
+  },
+  "kda": {
+    "eyebrow": "Twoje statystyki walki",
+    "kills": "zabójstw",
+    "deaths": "śmierci",
+    "assists": "asyst",
+    "perGame": "{value} / grę",
+    "best": "Twoja najlepsza gra",
+    "bestLine": "{champion} · {kills}/{deaths}/{assists}",
+    "victory": "Zwycięstwo",
+    "defeat": "Porażka"
+  },
+  "style": {
+    "eyebrow": "Jak grasz",
+    "mainRole": "główna rola · {share}",
+    "cs": "CS na minutę",
+    "vision": "wizja na minutę",
+    "damage": "obrażenia na minutę",
+    "kp": "udział w zabójstwach",
+    "penta": "{count, plural, one {<b>#</b> pentakill} few {<b>#</b> pentakille} many {<b>#</b> pentakilli} other {<b>#</b> pentakille}}",
+    "quadra": "{count, plural, one {<b>#</b> quadrakill} few {<b>#</b> quadrakille} many {<b>#</b> quadrakilli} other {<b>#</b> quadrakille}}",
+    "triple": "{count, plural, one {<b>#</b> triple kill} few {<b>#</b> triple kille} many {<b>#</b> triple killi} other {<b>#</b> triple kille}}",
+    "firstBloods": "{count, plural, one {<b>#</b> pierwsza krew} few {<b>#</b> pierwsze krwie} many {<b>#</b> pierwszych krwi} other {<b>#</b> pierwszej krwi}}",
+    "deathless": "{count, plural, one {<b>#</b> gra bez śmierci} few {<b>#</b> gry bez śmierci} many {<b>#</b> gier bez śmierci} other {<b>#</b> gry bez śmierci}}",
+    "longestWon": "Twoja najdłuższa gra trwała {duration} na {champion}. I jeszcze ją wygrałeś.",
+    "longestLost": "Twoja najdłuższa gra trwała {duration} na {champion}. Czasem po prostu nie kończą się dobrze."
+  },
+  "mode": {
+    "aram": {
+      "eyebrow": "W Wyjącej Otchłani",
+      "label": "{count, plural, one {gra ARAM} few {gry ARAM} many {gier ARAM} other {gry ARAM}}"
+    },
+    "normal": {
+      "eyebrow": "Tylko dla zabawy",
+      "label": "{count, plural, one {gra normalna} few {gry normalne} many {gier normalnych} other {gry normalne}}"
+    }
+  },
+  "rank": {
+    "emblem": "Emblemat: {title}",
+    "lp": "<b>{lp}</b> LP",
+    "caption": "Twoja ranga w tej chwili. Każda wspinaczka zaczyna się od następnej gry."
+  },
+  "persona": {
+    "eyebrow": "W tym sezonie byłeś",
+    "also": "Także trochę: {list}",
+    "main": "Main <b>{champion}</b>",
+    "shareTitle": "Mój sezon w League: {title}",
+    "compare": "Porównaj ze znajomym",
+    "squad": "Podsumowanie drużyny",
+    "search": "Wyszukaj innego gracza",
+    "count": "1 z {count} archetypów",
+    "countEstimate": "1 z {count} archetypów · rzadkość to szacunek"
+  },
+  "calendar": {
+    "eyebrow": "Twój kalendarz",
+    "note": "Na podstawie twoich ostatnich {count, plural, one {# gry} few {# gier} many {# gier} other {# gier}}."
+  },
+  "clock": {
+    "eyebrow": "Kiedy wygrywasz"
+  },
+  "items": {
+    "eyebrow": "Twój ulubiony przedmiot",
+    "inGames": "{games, plural, one {W <b>{count}</b> z twojej # gry} few {W <b>{count}</b> z twoich # gier} many {W <b>{count}</b> z twoich # gier} other {W <b>{count}</b> z twoich # gier}}",
+    "winWith": "<b>{rate}</b> wygranych z nim",
+    "without": "<b>{rate}</b> bez niego",
+    "boots": "Buty"
+  },
+  "objectives": {
+    "eyebrow": "Cele",
+    "lead": "Twoje drużyny zdobyły w {games, plural, one {# grze} few {# grach} many {# grach} other {# grach}}",
+    "tiles": {
+      "tower": "Wieże",
+      "dragon": "Smoki",
+      "baron": "Baronowie",
+      "herald": "Heraldzi",
+      "grubs": "Larwy Pustki",
+      "inhibitor": "Inhibitory"
+    },
+    "youTotal": "ty: {count}",
+    "youSecured": "zabezpieczyłeś {count}",
+    "perGame": "{value} na grę",
+    "firstTower": "Pierwsza wieża w <b>{rate}</b> gier",
+    "withWithout": "<good>{withIt}</good> wygranych z nią · <b>{without}</b> bez niej",
+    "stolen": "<b>{count}</b> skradzionych"
+  },
+  "tilt": {
+    "eyebrow": {
+      "tilt": "Test tiltu",
+      "resilient": "Test odbicia",
+      "steady": "Test nastawienia"
+    },
+    "afterWin": "Po wygranej",
+    "afterLoss": "Po porażce",
+    "tilts": "Tiltuje po porażce",
+    "bounces": "Odbija się"
+  },
+  "comfort": {
+    "eyebrow": "Twoja strefa komfortu",
+    "lead": "Odsetek wygranych według bohatera, przy {rate} ogółem"
+  },
+  "gray": {
+    "eyebrow": "Szary ekran",
+    "unit": "godz.",
+    "spentDead": "spędzone martwym",
+    "aliveAria": "Żywy przez {alive} czasu, martwy przez {dead}",
+    "alive": "Żywy {value}",
+    "dead": "Martwy {value}",
+    "share": "<b>{share}</b> twojego czasu w grze",
+    "perGame": "<b>{minutes}</b> min na grę",
+    "films": "{n, plural, one {Około <b>#</b> film} few {Około <b>#</b> filmy} many {Około <b>#</b> filmów} other {Około <b>#</b> filmu}}"
+  },
+  "progress": {
+    "eyebrow": "Od ostatniego razu",
+    "lead": "{date} · {saved, plural, one {# gra} few {# gry} many {# gier} other {# gry}} → teraz {games}",
+    "was": " · byłeś: {persona}",
+    "improved": "<good>▲ {count}</good> poprawionych",
+    "slipped": "<bad>▼ {count}</bad> pogorszonych",
+    "mood": {
+      "better": "poprawione",
+      "worse": "pogorszone",
+      "flat": "bez zmian"
+    }
+  },
+  "trophies": {
+    "eyebrow": "Twoja półka z trofeami",
+    "of": "z {total} odblokowanych",
+    "unlocked": "Odblokowane",
+    "progress": "{percent} ukończone",
+    "next": "Najbliżej odblokowania: {name} ({percent}). {text}",
+    "all": "Każde trofeum, które mogłeś zdobyć, zdobyłeś.",
+    "lines": "Bingo <b>{count}</b>",
+    "free": "Gratis",
+    "board": "Plansza bingo trofeów",
+    "nextBingo": "Następne bingo: {name} ({percent}). {text}",
+    "shareTitle": "Moje bingo trofeów w Rift Recap"
+  },
+  "blame": {
+    "eyebrow": "Czy to ty?",
+    "carry": "Poniosłeś drużynę",
+    "weak": "Słabe ogniwo",
+    "team": "Wysiłek zespołowy",
+    "across": "W twoich {losses, plural, one {# porażce} few {# porażkach} many {# porażkach} other {# porażkach}}",
+    "topDamage": "Najwięcej obrażeń",
+    "chance": "Sam przypadek dałby {rate}",
+    "deaths": "Śmierci drużyny",
+    "average": "Średnia to {rate}"
+  },
+  "tierList": {
+    "eyebrow": "Twoja tier lista",
+    "aria": "Tier lista bohaterów",
+    "title": "{name}: {winRate} w {games, plural, one {# grze} few {# grach} many {# grach} other {# grach}}",
+    "note": "Uporządkowane według odsetka wygranych, potem KDA. Bohaterowie z mniej niż 4 grami są pominięci."
+  },
+  "habits": {
+    "eyebrow": "Twoje nawyki",
+    "pings": "{value} pingów na grę",
+    "flash": "Błysk na {key} · {value} użyć na grę",
+    "pairShare": "w {share} gier",
+    "quits": "{enemy} poddań wrogów · {ours} twoich",
+    "ping": "Styl pingowania",
+    "spells": "Zaklęcia przywoływacza",
+    "surrender": "Zakończone poddaniem"
+  },
+  "damage": {
+    "eyebrow": "Twoje obrażenia",
+    "parts": {
+      "physical": "Fizyczne",
+      "magic": "Magiczne",
+      "true": "Nieuchronne"
+    },
+    "partAria": "{label} {share}"
+  },
+  "comp": {
+    "eyebrow": "Skład drużyny",
+    "with": "Z rolą: <b>{class}</b>",
+    "games": "{withGames, plural, one {# gra} few {# gry} many {# gier} other {# gry}} wobec {withoutGames, plural, one {# gry} few {# gier} many {# gier} other {# gier}} bez",
+    "versus": "wobec {rate}"
+  },
+  "sessions": {
+    "eyebrow": "Twoje wieczory",
+    "lead": "{count, plural, one {# sesja} few {# sesje} many {# sesji} other {# sesji}} · około {avg} gier każda",
+    "best": "Najlepszy wieczór",
+    "worst": "Najgorszy wieczór",
+    "longest": "Najdłuższa sesja",
+    "meta": "{games, plural, one {# gra} few {# gry} many {# gier} other {# gry}} · {date}"
+  },
+  "highlights": {
+    "eyebrow": "Najlepsze momenty",
+    "minutes": "{count, plural, one {# minuta} few {# minuty} many {# minut} other {# minuty}}",
+    "meta": "{what} · {date}",
+    "won": "Wygrana",
+    "lost": "Przegrana",
+    "caption": "Gry, o których będziesz opowiadać na imprezach."
+  },
+  "lane": {
+    "lane": "Test linii",
+    "gold": "Nawyki złota",
+    "cs": "CS wobec rywala z linii",
+    "goldDiff": "Złoto wobec rywala z linii",
+    "damage": "Obrażenia wobec rywala z linii",
+    "unspent": "Niewydane złoto na koniec",
+    "ahead": "Prowadzenie w złocie w <b>{rate}</b> z {games, plural, one {# gry} few {# gier} many {# gier} other {# gier}}",
+    "kills": "{value} zabójstw na grę",
+    "csValue": "{value} CS"
+  },
+  "early": {
+    "eyebrow": "Po 15 minutach",
+    "titles": {
+      "early": "Tyran wczesnej gry",
+      "late": "Skalujący się w późnej grze",
+      "steady": "Pewna ręka"
+    },
+    "parts": {
+      "ahead": "Prowadzi",
+      "even": "Remis",
+      "behind": "Przegrywa"
+    },
+    "aria": "{label} w {n, plural, one {# grze} few {# grach} many {# grach} other {# grach}}",
+    "wonAhead": "Wygrane <good>{wins}</good> z {total} z prowadzenia",
+    "wonBehind": "Wygrane <b>{wins}</b> z {total} z przegrywania",
+    "lead": "Twoje ostatnie {games, plural, one {# gra na linii} few {# gry na linii} many {# gier na linii} other {# gry na linii}}, przeciw rywalowi z linii"
+  },
+  "chapters": {
+    "eyebrow": "Twój sezon w rozdziałach",
+    "wins": "{rate} wygranych",
+    "note": "Każdy rozdział jest oceniany według własnych gier, więc krótkie są mniej pewne."
+  },
+  "flames": {
+    "eyebrow": "Dawne miłości",
+    "lead": "Bohaterowie, których dobrze znasz i ledwo dotknąłeś w tym sezonie",
+    "mastery": "Mistrzostwo {level} · {played}",
+    "notPlayed": "nie grano",
+    "caption": "{champion} ma za sobą {points} punktów mistrzostwa. Tęskni za tobą."
+  },
+  "social": {
+    "duo": {
+      "eyebrow": "Twoje duo",
+      "together": "{count, plural, one {gra razem} few {gry razem} many {gier razem} other {gry razem}}",
+      "winTogether": "<b>{rate}</b> wygranych razem",
+      "apart": "<b>{rate}</b> osobno",
+      "combo": "Najlepsze combo <b>{pair}</b>",
+      "alone": "Każda gra w tym sezonie była z {name}. To zaangażowanie.",
+      "better": "Z {name} wygrywasz {withRate}, a bez {without}. Trzymajcie zespół razem.",
+      "worse": "Z {name} wygrywasz mniej ({withRate} wobec {without} solo). Przyjaźń ponad statystyki.",
+      "same": "Mniej więcej ten sam odsetek wygranych z {name} i bez. Liczy się towarzystwo.",
+      "seeRecap": "Zobacz podsumowanie: {name}",
+      "versus": "Jeden na jednego"
+    },
+    "matchup": {
+      "single": "Twój rywal z linii",
+      "both": "Nemezis kontra najlepsze starcie",
+      "nemesis": "Twoje nemezis",
+      "best": "Twoje najlepsze starcie",
+      "vs": "VS",
+      "record": "<good>{wins}W</good> <bad>{losses}P</bad>",
+      "meta": "{rate} wygranych",
+      "metaAs": "{rate} wygranych · jako {champion}",
+      "insightBoth": "Zbanuj {nemesis} i miej nadzieję na {best}.",
+      "insightNemesis": "{nemesis} to twój kryptonit. Rozważ bana.",
+      "insightBest": "{best} nigdy nie miał z tobą szans."
+    }
+  },
+  "rail": {
+    "start": "Start",
+    "games": "Gry",
+    "week": "Tydzień do tygodnia",
+    "form": "Forma",
+    "calendar": "Kalendarz",
+    "clock": "Zegar",
+    "patches": "Patche",
+    "nights": "Wieczory",
+    "wins": "Wygrane",
+    "progress": "Postępy",
+    "tilt": "Tilt",
+    "tiltGuard": "Znak stopu",
+    "blame": "Czy to ty?",
+    "champion": "Bohater",
+    "comfort": "Komfort",
+    "flames": "Dawne miłości",
+    "tierList": "Tier lista",
+    "pool": "Wypróbuj",
+    "combat": "Walka",
+    "highlights": "Momenty",
+    "damage": "Obrażenia",
+    "gray": "Szary ekran",
+    "playstyle": "Styl gry",
+    "lane": "Linia",
+    "early": "Wczesna gra",
+    "habits": "Nawyki",
+    "items": "Przedmioty",
+    "runes": "Runy",
+    "objectives": "Cele",
+    "duo": "Duo",
+    "matchups": "Starcia",
+    "comps": "Składy",
+    "normals": "Normalne",
+    "aram": "ARAM",
+    "chapters": "Rozdziały",
+    "trophies": "Trofea",
+    "rank": "Ranga",
+    "guess": "Zgadnij",
+    "you": "Ty",
+    "back": "Wróć"
+  },
+  "page": {
+    "title": "{name}#{tag} · Rift Recap",
+    "description": "Podsumowanie sezonu League of Legends: statystyki, archetyp i karta do udostępnienia.",
+    "failed": "Nie udało się wczytać tego podsumowania",
+    "noGamesTitle": "Na razie brak gier",
+    "noGames": "Nie znaleźliśmy żadnych gier gracza {who} od {since}. Zagraj kilka meczów i wróć.",
+    "noRangeTitle": "Brak gier w tym okresie",
+    "noRange": "Gracz {who} nie rozegrał żadnej gry od {since}. Spróbuj dłuższego okresu."
+  },
+  "tiltguard": {
+    "eyebrow": "Straż tiltu",
+    "step1": "Po 1 porażce",
+    "step2": "Po 2 z rzędu",
+    "step3": "Po 3+ z rzędu",
+    "live": "Teraz"
+  },
+  "formcurve": {
+    "eyebrow": "Twój sezon jako linia",
+    "lead": "Odsetek wygranych z dowolnych {games}",
+    "best": "Najlepszy <b>{rate}</b> · zakończony {date}",
+    "worst": "Najgorszy <b>{rate}</b> · zakończony {date}",
+    "now": "Teraz <b>{rate}</b>",
+    "aria": "Kroczący odsetek wygranych: najlepszy {best}, najgorszy {worst}, ostatni {now}",
+    "shareTitle": "Mój sezon jako linia"
+  },
+  "week": {
+    "eyebrow": "Ostatnie 7 dni vs poprzednie 7",
+    "lead": "{now} teraz · {before} wcześniej"
+  },
+  "patches": {
+    "eyebrow": "Patch po patchu",
+    "title": "Odsetek wygranych według patcha"
+  },
+  "runes": {
+    "eyebrow": "Twoja runa kluczowa",
+    "winWith": "<b>{rate}</b> wygranych z nią",
+    "without": "<b>{rate}</b> bez niej"
+  },
+  "pool": {
+    "eyebrow": "Postacie do wypróbowania",
+    "because": "Bo {champion} ci wychodzi: {rate} wygranych",
+    "note": "Wybrane za podobną klasę i styl gry. Sugestia, nie obietnica."
+  }
+}

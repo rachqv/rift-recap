@@ -1,0 +1,98 @@
+{
+  "penta": {
+    "name": "Pentakill",
+    "text": "Réalise un pentakill."
+  },
+  "quadra": {
+    "name": "Collectionneur de quadras",
+    "text": "Réalise {target, plural, one {# quadrakill} other {# quadrakills}}."
+  },
+  "triple": {
+    "name": "Triple menace",
+    "text": "Réalise {target, plural, one {# triple kill} other {# triples kills}}."
+  },
+  "flawless": {
+    "name": "Sans faute",
+    "text": "Termine une partie sans mourir."
+  },
+  "flawless5": {
+    "name": "Intouchable",
+    "text": "Termine {target, plural, one {# partie} other {# parties}} sans mourir."
+  },
+  "streak": {
+    "name": "En feu",
+    "text": "Gagne {target, plural, one {# partie} other {# parties}} d'affilée."
+  },
+  "winrate": {
+    "name": "Vainqueur",
+    "text": "Garde un taux de victoire de {target} sur {games}+ parties."
+  },
+  "kills": {
+    "name": "Machine à éliminations",
+    "text": "Réalise {target, plural, one {# élimination} other {# éliminations}} en une partie."
+  },
+  "perfect": {
+    "name": "Partie parfaite",
+    "text": "Joue une partie avec un KDA de {target}+."
+  },
+  "firstblood": {
+    "name": "Roi du premier sang",
+    "text": "Fais le premier sang {target, plural, one {# fois} other {# fois}}."
+  },
+  "thief": {
+    "name": "Voleur d'objectifs",
+    "text": "Vole un objectif."
+  },
+  "turrets": {
+    "name": "Démolisseur",
+    "text": "Détruis {target, plural, one {# tourelle} other {# tourelles}}."
+  },
+  "variety": {
+    "name": "Touche-à-tout",
+    "text": "Joue {target, plural, one {# champion différent} other {# champions différents}}."
+  },
+  "loyal": {
+    "name": "Fidèle",
+    "text": "Joue le même champion {target, plural, one {# fois} other {# fois}}."
+  },
+  "marathon": {
+    "name": "Marathon",
+    "text": "Joue une partie de plus de {minutes} minutes."
+  },
+  "bounce": {
+    "name": "Retour en force",
+    "text": "Gagne {target} des parties après une défaite."
+  },
+  "hours": {
+    "name": "Temps sur la Faille",
+    "text": "Passe {target, plural, one {# heure} other {# heures}} en partie."
+  },
+  "dragon": {
+    "name": "Tueur de dragons",
+    "text": "Porte le coup fatal à {target, plural, one {# dragon} other {# dragons}}."
+  },
+  "baron": {
+    "name": "Chasseur de Baron",
+    "text": "Porte le coup fatal à {target, plural, one {# Baron} other {# Barons}}."
+  },
+  "teamplayer": {
+    "name": "Esprit d'équipe",
+    "text": "Participe à {target} des éliminations de ton équipe."
+  },
+  "duo": {
+    "name": "Inséparables",
+    "text": "Joue {target, plural, one {# partie} other {# parties}} avec le même coéquipier."
+  },
+  "vision": {
+    "name": "Œil de lynx",
+    "text": "Atteins en moyenne {target} de score de vision par minute."
+  },
+  "farm": {
+    "name": "Maître du farm",
+    "text": "Fais en moyenne {target} CS par minute."
+  },
+  "roles": {
+    "name": "Polyvalent",
+    "text": "Joue les {target, plural, one {# rôle} other {# rôles}}."
+  }
+}

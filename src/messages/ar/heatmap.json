@@ -1,0 +1,42 @@
+{
+  "insight": {
+    "nightOwl": "{share} من مبارياتك تبدأ بعد منتصف الليل. الصدع لا ينام أبدًا، وأنت كذلك.",
+    "earlyBird": "{share} من مبارياتك قبل الظهر. تدخل الطابور مع فنجان القهوة.",
+    "weekend": "{share} من مبارياتك تقع في عطلة نهاية الأسبوع. أيام السبت مخصصة للصدع.",
+    "weekday": "تقريبًا كل مبارياتك في أيام الأسبوع. الجهد المتواصل لا يعرف عطلة.",
+    "streak": "{days, plural, one {يوم واحد} two {يومان} few {# أيام} other {# يومًا}} متتالية فيها مباريات. هذه عادة الآن.",
+    "steady": "موزّعة بانتظام على التقويم. لا نمط، فقط League."
+  },
+  "aria": "تقويم {games, plural, one {مباراة واحدة} two {مباراتين} few {# مباريات} other {# مباراة}} في {days, plural, one {يوم واحد} two {يومين} few {# أيام} other {# يومًا}}",
+  "before": "{date}: قبل أقدم مباراة محمّلة لديك",
+  "day": "{date}: {detail}",
+  "dayGames": "{games, plural, one {مباراة واحدة} two {مباراتان} few {# مباريات} other {# مباراة}}، فوز في {wins}",
+  "dayNone": "لا مباريات",
+  "fewer": "أقل",
+  "more": "أكثر",
+  "activeDays": "{count, plural, one {<b>#</b> يوم نشط} two {<b>#</b> يومان نشطان} few {<b>#</b> أيام نشطة} other {<b>#</b> يومًا نشطًا}}",
+  "busiest": "أكثر الأيام ازدحامًا <b>{date}</b> · {games, plural, one {مباراة واحدة} two {مباراتان} few {# مباريات} other {# مباراة}}",
+  "streak": "أطول سلسلة <b>{days, plural, one {يوم واحد} two {يومان} few {# أيام} other {# يومًا}}</b>",
+  "favorite": "اليوم المفضّل <b>{day}</b>",
+  "prime": "وقت الذروة <b>{hour}</b>",
+  "parts": {
+    "night": "الليل",
+    "morning": "الصباح",
+    "afternoon": "بعد الظهر",
+    "evening": "المساء"
+  },
+  "bestPart": "الأفضل في وقت: <b>{part}</b> · <good>{rate}</good> فوزًا",
+  "worstPart": "(<bad>{rate}</bad> في وقت: {part})",
+  "bestMonth": "أفضل شهر <b>{month}</b> · <good>{rate}</good>",
+  "worstMonth": "· الأسوأ <b>{month}</b> <bad>{rate}</bad>",
+  "clock": {
+    "day": "أفضل يوم لك: {best}، فوز بنسبة {bestRate}. أسوأ يوم: {worst}، {worstRate} فقط.",
+    "part": "أفضل وقت في اليوم لك: {best}، فوز بنسبة {bestRate}. أسوأ وقت: {worst}، {worstRate} فقط.",
+    "steady": "نسبة فوزك بالكاد تتغير مع الساعة. أي يوم وأي ساعة: اللاعب نفسه.",
+    "byPart": "وقت اليوم",
+    "byDay": "يوم الأسبوع",
+    "bar": "{label}: نسبة الفوز {rate}، {detail}",
+    "barFew": "{label}: {detail}. عدد المباريات قليل جدًا للمقارنة.",
+    "aria": "نسبة الفوز حسب وقت اليوم ويوم الأسبوع"
+  }
+}

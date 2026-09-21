@@ -1,0 +1,181 @@
+{
+  "awards": {
+    "objectiveSteal": {
+      "title": "最可能偷目標的人",
+      "tagline": "看好你的龍。然後看著它消失。",
+      "label": "偷取的目標",
+      "line": "{name}偷取了{count, plural, other {#個}}目標。沒有什麼是安全的。"
+    },
+    "objectiveTake": {
+      "title": "最可能拿下目標的人",
+      "tagline": "龍在哪，他們就在哪。",
+      "label": "每分鐘對目標的傷害",
+      "line": "{name}每分鐘對目標造成{value}傷害。"
+    },
+    "deaths": {
+      "title": "死亡最多",
+      "tagline": "灰畫面？他們有年票。",
+      "label": "每場死亡",
+      "line": "{name}每場約有{minutes}分鐘在盯著灰畫面。"
+    },
+    "pings": {
+      "title": "後座指揮官",
+      "tagline": "最可能對自己隊伍發「撤退」訊號的人。",
+      "label": "每場訊號數",
+      "line": "{name}每場發了{value}次訊號。小地圖從未歇過。"
+    },
+    "vision": {
+      "title": "燈塔",
+      "tagline": "為其他人點亮了燈。",
+      "label": "每分鐘視野分數",
+      "line": "{name}每分鐘視野分數{value}。沒人獨自走進黑暗。"
+    },
+    "tank": {
+      "title": "沙包",
+      "tagline": "為隊伍承受了最多傷害。",
+      "label": "每場承受傷害",
+      "line": "{name}每場承受了{value}傷害。"
+    },
+    "assists": {
+      "title": "最好的朋友",
+      "tagline": "總是在那裡替你鋪路。",
+      "label": "每場助攻",
+      "line": "{name}平均每場{value}次助攻。隊伍最喜歡的隊友。"
+    },
+    "carry": {
+      "title": "帶飛者",
+      "tagline": "最可能替所有人贏下比賽的人。",
+      "label": "KDA",
+      "line": "KDA {value}。{name}扛起了重擔。"
+    },
+    "damage": {
+      "title": "重砲手",
+      "tagline": "血條一碰就融化。",
+      "label": "每分鐘傷害",
+      "line": "{name}每分鐘對英雄造成{value}傷害。"
+    },
+    "farm": {
+      "title": "農場主",
+      "tagline": "砲車兵線一波都不漏。",
+      "label": "每分鐘補兵",
+      "line": "每分鐘{value}隻小兵。{name}總是在兵線上。"
+    },
+    "present": {
+      "title": "永遠在場",
+      "tagline": "只要有團戰，他們就在。",
+      "label": "參團率",
+      "line": "{name}參與了隊伍{value}的擊殺。"
+    },
+    "cc": {
+      "title": "控制大師",
+      "tagline": "把敵人定住，讓其他人輸出。",
+      "label": "每場控制時長（秒）",
+      "line": "{name}每場控制敵人{value, plural, other {#秒}}。"
+    }
+  },
+  "chemistry": {
+    "destiny": "命中註定的搭檔",
+    "great": "默契十足",
+    "solid": "可靠搭檔",
+    "awkward": "同隊尷尬",
+    "apart": "分開更好"
+  },
+  "slides": {
+    "intro": {
+      "eyebrow": "小隊回顧",
+      "together": "{count, plural, other {同隊對局}}",
+      "hours": "{n, plural, other {<b>{value}</b>小時}}",
+      "note": "根據你們最近{loaded}場同隊對局（共找到{found}場）。"
+    },
+    "record": {
+      "eyebrow": "你們的戰績",
+      "label": "同隊勝率",
+      "bestStreak": "最佳連勝 <good>{count, plural, other {#連勝}}</good>",
+      "worstSkid": "最慘連敗 <bad>{count, plural, other {#連敗}}</bad>",
+      "all": "全部{members}人同隊打了{games, plural, other {<b>#</b>場}}",
+      "machine": "一起排隊時是台機器。",
+      "good": "贏多輸少。小隊可靠。",
+      "balanced": "完美均衡。混亂，但是好玩的那種。",
+      "rough": "戰績艱難。不過群組裡肯定有故事。"
+    },
+    "pairs": {
+      "eyebrow": "雙人默契",
+      "best": "最佳搭檔",
+      "worst": "需要磨合",
+      "games": "同隊{count, plural, other {#場}}",
+      "chemistry": "{icon} 默契{score} · {label}",
+      "captionBoth": "{a}和{b}是該一起排的搭檔。{c}和{d}，也許不是。",
+      "captionBest": "{a}和{b}是你們最強的組合。"
+    },
+    "award": {
+      "eyebrow": "獎項 {position}/{total}",
+      "runner": "{n}. {name} <b>{display}</b>"
+    },
+    "board": {
+      "eyebrow": "排行榜",
+      "aria": "小隊排行榜",
+      "kda": "KDA",
+      "deaths": "死亡",
+      "damage": "傷害/分",
+      "awards": "獎項",
+      "note": "依 KDA 排序。獎項是你們各自帶回家的獎盃。"
+    },
+    "finale": {
+      "mvp": "小隊 MVP",
+      "none": "這就是小隊",
+      "awards": "{count, plural, other {#項獎項}}，比任何人都多。",
+      "recap": "{name}的回顧",
+      "versus": "正面對決：{a}對{b}",
+      "shareTitle": "我們的英雄聯盟小隊回顧：{names}",
+      "another": "開始另一個小隊"
+    },
+    "rivalry": {
+      "eyebrow": "友軍火力",
+      "lead": "你們彼此對戰的戰績，作為對手交手{count, plural, other {#次}}",
+      "aria": "正面對決戰績",
+      "cell": "{wins, plural, other {#勝}}，{losses, plural, other {#敗}}",
+      "even": "{a}和{b}在{games, plural, other {#次}}交手中勢均力敵。",
+      "edge": "{winner}對{loser}占優，{hi}比{lo}。小隊裡最大的宿敵關係。"
+    },
+    "combos": {
+      "eyebrow": "該和誰排",
+      "trio": "最佳三人組",
+      "duo": "最佳雙人組",
+      "record": "同隊{games, plural, other {#場}}，{wins}勝{losses}敗",
+      "caption": "{names}：一起排隊，勝率會說話。",
+      "games": "{count, plural, other {#場}}"
+    },
+    "roles": {
+      "eyebrow": "最佳陣容",
+      "aria": "每位成員的建議位置",
+      "swap": "紙面上的最佳陣容：根據你們一起打的對局，每個人都在自己勝率最高的位置。樣本較小，僅供參考。",
+      "settled": "大家已經都在自己勝率最高的位置上，無需調換。",
+      "was": "通常打{role}"
+    }
+  },
+  "rail": {
+    "start": "開始",
+    "record": "戰績",
+    "duos": "雙人",
+    "roles": "位置",
+    "queue": "排隊對象",
+    "rivals": "對手",
+    "quiz": "測驗",
+    "board": "榜單",
+    "mvp": "MVP"
+  },
+  "page": {
+    "title": "{names} · 小隊回顧",
+    "titleDemo": "範例小隊回顧 · Rift Recap",
+    "titleEmpty": "小隊回顧 · Rift Recap",
+    "description": "根據小隊一起打過的對局頒發的團體獎項：死亡最多、偷目標最多等等。",
+    "pickServer": "請選擇伺服器。",
+    "unreadable": "無法讀取{names}。Riot ID 的格式類似「名稱#TAG」。",
+    "atLeastTwo": "請至少輸入兩個 Riot ID。",
+    "atMostFive": "一個小隊最多五名玩家。",
+    "notFound": "在{region}找不到{names}對應的玩家。請檢查拼字與伺服器。",
+    "noShared": "{where}你們沒有共同的對局。此功能依據同隊對局，請嘗試更長的時間範圍或常一起排隊的朋友。",
+    "whereSeason": "在你們最近的{count}場中",
+    "whereRange": "在{range}內"
+  }
+}

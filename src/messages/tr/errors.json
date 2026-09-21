@@ -1,0 +1,15 @@
+{
+  "keyRejected": "Riot API anahtarı reddedildi. Geliştirici anahtarları 24 saatte bir sona erer, o yüzden yenisini oluştur.",
+  "notFound": "Bu bölgede bu Riot ID'ye sahip bir oyuncu bulunamadı. Yazımı ve bölgeyi kontrol et.",
+  "rateLimit": "Riot'un istek sınırına ulaşıldı. Bir dakika bekleyip tekrar dene.",
+  "api": "Riot API'si başarısız oldu.",
+  "cardFailed": "Kart çizilemedi.",
+  "unknownRegion": "Bilinmeyen bölge.",
+  "noGamesCard": "Kart çizmek için maç yok.",
+  "noSharedGames": "Bu oyuncuların birlikte oynadığı maç yok.",
+  "badSquad": "Takım parametreleri hatalı.",
+  "playerMissing": "Bu oyunculardan biri bulunamadı.",
+  "badVersus": "Kafa kafaya parametreleri hatalı.",
+  "samePlayers": "İki farklı oyuncu seç.",
+  "notEnough": "Karşılaştırmak için yeterli maç yok."
+}

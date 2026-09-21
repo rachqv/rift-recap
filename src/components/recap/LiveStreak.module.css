@@ -1,0 +1,33 @@
+/* The "right now" note on the tilt guard slide */
+.live {
+  max-width: 30rem;
+  margin: 0;
+  padding: 0.6rem 1.1rem;
+  border: 1px solid rgba(10, 200, 185, 0.5);
+  border-radius: 14px;
+  background: rgba(5, 15, 28, 0.78);
+  backdrop-filter: blur(8px);
+  text-wrap: balance;
+  text-align: center;
+  font-size: 0.95rem;
+  line-height: 1.45;
+  color: #ebe5d5;
+}
+
+.live b {
+  margin-inline-end: 0.35rem;
+  font-size: 0.72rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #0ac8b9;
+}
+
+/* Past the stop sign. */
+.live[data-stop="true"] {
+  border-color: rgba(255, 107, 125, 0.7);
+  box-shadow: 0 0 22px -8px rgba(255, 107, 125, 0.7);
+}
+
+.live[data-stop="true"] b {
+  color: #ff6b7d;
+}

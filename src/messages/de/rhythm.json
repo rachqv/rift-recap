@@ -1,0 +1,30 @@
+{
+  "same": "Ihr habt dieselben Zeiten. Unheimlich.",
+  "daysShort": "{value} T",
+  "nightOwl": {
+    "title": "Nachteule",
+    "tagline": "Spiele, die nach Mitternacht beginnen.",
+    "line": "{share} der Spiele von {name} beginnen nach Mitternacht. {other} hat eine Schlafenszeit."
+  },
+  "earlyBird": {
+    "title": "Frühaufsteher",
+    "tagline": "Spiele, die vor Mittag beginnen.",
+    "line": "{share} der Spiele von {name} sind vor Mittag. Spielt mit dem Kaffee. {other} schläft aus."
+  },
+  "weekend": {
+    "title": "Wochenend-Krieger",
+    "tagline": "Spiele an einem Samstag oder Sonntag.",
+    "line": "{share} der Spiele von {name} fallen aufs Wochenende. {other} ist eher ein Werktagsspieler."
+  },
+  "streak": {
+    "title": "Tägliche Gewohnheit",
+    "tagline": "Längste Serie von Tagen in Folge mit einem Spiel.",
+    "line": "{name} hat {days, plural, one {# Tag} other {# Tage}} in Folge gespielt. {other} hat nach {otherDays} eine Pause eingelegt."
+  },
+  "binge": {
+    "title": "Binge-Tag",
+    "tagline": "Die meisten Spiele an einem einzigen Tag.",
+    "line": "{name} hat einmal {games, plural, one {# Spiel} other {# Spiele}} an einem einzigen Tag gespielt. Das Abendessen fiel aus."
+  },
+  "label": "Szenarien"
+}

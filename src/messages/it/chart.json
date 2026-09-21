@@ -1,0 +1,9 @@
+{
+  "aria": "Vantaggio in oro tra {a} e {b} nell'ultima partita giocata l'uno contro l'altro. {result}",
+  "aheadEnd": "{name} è in vantaggio di {gold} alla fine.",
+  "levelEnd": "In parità alla fine.",
+  "minute": "Minuto <b>{minute}</b>",
+  "ahead": "<b>{name}</b> in vantaggio di {gold} di oro",
+  "level": "Parità",
+  "won": "Ha vinto {name}"
+}

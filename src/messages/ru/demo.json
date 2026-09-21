@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "title": "Пример итогов · Rift Recap"
+  },
+  "switcher": {
+    "label": "Примеры игроков",
+    "previous": "Предыдущий пример игрока",
+    "next": "Следующий пример игрока",
+    "player": "Пример игрока",
+    "show": "Показать"
+  },
+  "players": {
+    "onetrick": "Ван-трик",
+    "specialist": "Специалист",
+    "explorer": "Исследователь",
+    "chameleon": "Хамелеон",
+    "showstopper": "Звезда шоу",
+    "slayer": "Убийца",
+    "daredevil": "Сорвиголова",
+    "support": "Плеймейкер",
+    "unlucky": "Невезучий герой",
+    "phoenix": "Феникс",
+    "risingstar": "Восходящая звезда",
+    "streaker": "Горячая серия",
+    "scout": "Разведчик",
+    "farmer": "Фармер",
+    "heavyhitter": "Тяжеловес",
+    "everpresent": "Всегда на месте",
+    "opener": "Зачинщик",
+    "untouchable": "Неприкосновенный",
+    "closer": "Завершитель",
+    "marathoner": "Марафонец",
+    "speedrunner": "Спидраннер",
+    "assassin": "Ассасин",
+    "archmage": "Архимаг",
+    "sharpshooter": "Меткий стрелок",
+    "brawler": "Драчун",
+    "bulwark": "Оплот",
+    "aramfan": "Фанат ARAM",
+    "casual": "Казуал",
+    "demolisher": "Разрушитель",
+    "thief": "Вор",
+    "grinder": "Трудяга",
+    "pathfinder": "Следопыт",
+    "islander": "Островитянин",
+    "centerpiece": "Центр внимания",
+    "carry": "Керри",
+    "guardian": "Страж"
+  }
+}

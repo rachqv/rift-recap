@@ -1,0 +1,15 @@
+{
+  "placeholder": "Riot ID (Jméno#TAG)",
+  "riotId": "Riot ID",
+  "region": "Oblast",
+  "submit": "Zobrazit můj souhrn",
+  "suggestions": "Návrhy hráčů",
+  "heading": {
+    "recent": "Nedávná hledání",
+    "sample": "Ukázkoví hráči"
+  },
+  "sample": "Ukázka",
+  "count": "{count, plural, one {# dostupný návrh} few {# dostupné návrhy} other {# dostupných návrhů}}",
+  "empty": "Žádný uložený hráč neodpovídá. Stiskni Enter a vyhledej <strong>{query}</strong> u Riotu.",
+  "clear": "Vymazat nedávná hledání"
+}

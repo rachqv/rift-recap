@@ -1,0 +1,9 @@
+{
+  "aria": "{a}と{b}が直接対戦した最新の試合でのゴールド差。{result}",
+  "aheadEnd": "終了時は{name}が{gold}リード。",
+  "levelEnd": "終了時は互角。",
+  "minute": "<b>{minute}</b>分",
+  "ahead": "<b>{name}</b>が{gold}ゴールドリード",
+  "level": "互角",
+  "won": "{name}の勝利"
+}

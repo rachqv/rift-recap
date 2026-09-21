@@ -1,0 +1,81 @@
+{
+  "language": {
+    "label": "Język"
+  },
+  "range": {
+    "label": "Okres",
+    "season": "Ten sezon",
+    "90d": "Ostatnie 90 dni",
+    "30d": "Ostatnie 30 dni",
+    "7d": "Ostatnie 7 dni"
+  },
+  "regions": {
+    "na1": "Ameryka Północna",
+    "br1": "Brazylia",
+    "la1": "LAN",
+    "la2": "LAS",
+    "euw1": "EU Zachód",
+    "eun1": "EU Nordic i Wschód",
+    "tr1": "Turcja",
+    "ru": "Rosja",
+    "me1": "Bliski Wschód",
+    "kr": "Korea",
+    "jp1": "Japonia",
+    "oc1": "Oceania",
+    "ph2": "Filipiny",
+    "sg2": "Singapur",
+    "th2": "Tajlandia",
+    "tw2": "Tajwan",
+    "vn2": "Wietnam"
+  },
+  "message": {
+    "tryAnother": "Spróbuj innego gracza",
+    "tryServer": "Może inny serwer?",
+    "notFoundTitle": "Nie znaleziono strony",
+    "notFoundText": "Ta strona nie istnieje albo została przeniesiona. Wróć i wyszukaj gracza.",
+    "crashTitle": "Coś poszło nie tak",
+    "crashText": "Strona nie załadowała się poprawnie. Spróbuj ponownie albo wyszukaj innego gracza.",
+    "retry": "Spróbuj ponownie"
+  },
+  "loading": {
+    "recap1": "Przyzywanie twojej historii gier…",
+    "recap2": "Liczenie każdego ostatniego uderzenia…",
+    "recap3": "Konsultacja z wyrocznią Kanionu…",
+    "recap4": "Polerowanie twoich pentakilli…",
+    "squad1": "Szukanie waszych wspólnych gier…",
+    "squad2": "Liczenie, kto pingował najwięcej…",
+    "squad3": "Ważenie śmierci…",
+    "squad4": "Grawerowanie trofeów…",
+    "versus1": "Oglądanie obu graczy…",
+    "versus2": "Pobieranie dwóch historii gier…",
+    "versus3": "Liczenie każdego ostatniego uderzenia…",
+    "versus4": "Przygotowywanie werdyktu…"
+  },
+  "meta": {
+    "description": "Strona, dzięki której poznasz swoją podróż w League of Legends w miarę trwania sezonu"
+  },
+  "roles": {
+    "TOP": "Góra",
+    "JUNGLE": "Dżungla",
+    "MIDDLE": "Środek",
+    "BOTTOM": "Dół",
+    "UTILITY": "Wsparcie"
+  },
+  "tiers": {
+    "IRON": "Żelazo",
+    "BRONZE": "Brąz",
+    "SILVER": "Srebro",
+    "GOLD": "Złoto",
+    "PLATINUM": "Platyna",
+    "EMERALD": "Szmaragd",
+    "DIAMOND": "Diament",
+    "MASTER": "Mistrz",
+    "GRANDMASTER": "Arcymistrz",
+    "CHALLENGER": "Pretendent"
+  },
+  "queues": {
+    "RANKED_SOLO_5x5": "Rankingowa Solo/Duo",
+    "RANKED_FLEX_SR": "Rankingowa Elastyczna"
+  },
+  "rankTitle": "{tier} {division}"
+}

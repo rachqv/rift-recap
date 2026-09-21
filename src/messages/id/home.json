@@ -1,0 +1,43 @@
+{
+  "badge": "Rangkuman musim",
+  "title": {
+    "line1": "Musimmu,",
+    "line2": "dirangkum."
+  },
+  "subtitle": "Setiap pertandingan, setiap pentakill, setiap Flash yang meragukan. Masukkan Riot ID dan hidupkan lagi perjalananmu di Rift.",
+  "error": "Masukkan Riot ID seperti Nama#TAG dan pilih region.",
+  "hint": "Tanpa login. Cukup Riot ID-mu. <link>Lihat contoh rangkuman →</link>",
+  "modes": {
+    "squad": "Rangkuman skuad",
+    "versus": "Adu langsung",
+    "clash": "Tim lawan tim",
+    "players": "Pemainmu"
+  },
+  "features": {
+    "title": "Isi rangkumanmu",
+    "champions": {
+      "title": "Champion-mu",
+      "text": "Siapa yang membawamu, siapa yang menguras LP-mu, dan satu pilihan yang tak berhenti kamu kunci."
+    },
+    "climb": {
+      "title": "Pendakianmu",
+      "text": "Win rate, KDA, dan pergerakan peringkat sepanjang musim, dituturkan sebagai cerita."
+    },
+    "time": {
+      "title": "Waktumu",
+      "text": "Jam yang dihabiskan di Rift, pertandingan terpanjangmu, antrean paling malam."
+    }
+  },
+  "sample": {
+    "label": "Contoh kartu rangkuman",
+    "games": "Pertandingan dimainkan",
+    "days": "≈ {days} hari dihabiskan di Rift",
+    "signature": "Champion andalan",
+    "record": "{games} pertandingan · win rate {winRate}",
+    "kda": "KDA musim ini",
+    "peak": "Peringkat tertinggi",
+    "peakRank": "Zamrud II",
+    "climbed": "+{lp} LP didaki musim ini"
+  },
+  "footer": "Rift Recap tidak didukung oleh Riot Games dan tidak mencerminkan pandangan atau pendapat Riot Games maupun siapa pun yang secara resmi terlibat dalam pembuatan atau pengelolaan properti Riot Games. Riot Games dan semua properti terkait adalah merek dagang atau merek dagang terdaftar milik Riot Games, Inc."
+}

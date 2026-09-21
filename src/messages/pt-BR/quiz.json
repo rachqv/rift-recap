@@ -1,0 +1,28 @@
+{
+  "verdict": {
+    "perfect": "Você conhece seu grupo melhor do que o próprio grupo se conhece.",
+    "good": "Nada mal. Dá para ver que você esteve de olho.",
+    "low": "Talvez seja bom passar mais tempo com seus amigos."
+  },
+  "result": "Resultado do quiz",
+  "round": "Quem levou? {step} de {total}",
+  "again": "Jogar de novo",
+  "group": "Quem ganhou este prêmio?",
+  "right": "Acertou!",
+  "wrong": "Não, foi {name}.",
+  "reveal": "{verdict} {line}",
+  "pick": "Escolha um jogador.",
+  "score": "Ver sua pontuação",
+  "next": "Próximo prêmio",
+  "guess": {
+    "eyebrow": "Adivinhe seu arquétipo",
+    "lead": "Três pistas, quatro arquétipos. Qual é você?",
+    "clueMain": "Mais jogado: {champion}",
+    "clueRate": "Taxa de vitórias {rate}",
+    "clueKda": "KDA {kda}",
+    "group": "Qual arquétipo é você?",
+    "right": "Acertou. Você conhece o seu jogo.",
+    "wrong": "Quase. Você é {title}.",
+    "next": "Continue para ver a revelação completa."
+  }
+}

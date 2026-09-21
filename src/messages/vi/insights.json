@@ -1,0 +1,256 @@
+{
+  "blame": {
+    "carry": "Trong {topRate} số trận thua, bạn gây sát thương nhiều nhất và gần như không chết. Đồng đội đã làm bạn thất vọng.",
+    "weak": "Trong các trận thua, bạn chiếm {deathShare} số lần chết của đội và hiếm khi dẫn đầu sát thương. Hãy nhìn lại bản thân trước.",
+    "team": "Trong các trận thua, bạn ngang mức trung bình của đội: {damageShare} sát thương. Không ai đáng trách, hoặc ai cũng đáng trách."
+  },
+  "sessions": {
+    "contrast": "Một đêm {bestWins}-{bestLosses} và một đêm {worstWins}-{worstLosses}. Cùng một người chơi, khác buổi tối.",
+    "marathon": "{games, plural, other {# trận}} liền một mạch. Nhớ uống nước.",
+    "best": "Đêm tuyệt nhất của bạn là {wins}-{losses}. Hãy đuổi theo nó."
+  },
+  "early": {
+    "early": "Dẫn trước đối thủ đường ở phút 15 trong {ahead} số trận, và bạn chốt hạ được. Bạo chúa đầu game.",
+    "late": "Thua ở phút 15 trong {behind} số trận, nhưng vẫn thắng {comeback} trong số đó. Bạn mạnh dần về cuối và không bao giờ bỏ cuộc.",
+    "steady": "Dẫn ở phút 15 trong {ahead} số trận và thua thế trong {behind}. Trận đấu được định đoạt về sau."
+  },
+  "tierlist": {
+    "solo": "{best} là tất cả những gì bạn có.",
+    "uniform": "Cả kho tướng của bạn nằm ở bậc {tier}, dẫn đầu là {best} với {winRate}.",
+    "leadS": "{best} là lựa chọn bậc S của bạn với {winRate}.",
+    "leadOther": "Không tướng nào lên được bậc S. {best} dẫn đầu danh sách ở bậc {tier} với {winRate}.",
+    "lastD": "{worst} là lựa chọn bậc D của bạn với {winRate}.",
+    "lastOther": "{worst} nằm cuối bảng, ở bậc {tier}, với {winRate}.",
+    "both": "{lead} {last}"
+  },
+  "items": {
+    "better": "Bạn thắng {withIt} số trận khi có {name} và {without} khi không có. Nó đang làm điều gì đó đúng.",
+    "worse": "Tỷ lệ thắng của bạn thấp hơn khi lên {name} ({withIt} so với {without}). Trung thành hay thói quen?",
+    "habit": "{name} kết thúc {share} số trận của bạn. Có những thói quen mình giữ mãi.",
+    "friend": "{name} có mặt cuối trận trong {share} số trận của bạn. Một người bạn đáng tin cậy."
+  },
+  "habits": {
+    "flashEdge": "Tốc Biến ở phím {key}, {perGame} lần mỗi trận. Bạn sống trên lằn ranh.",
+    "flashCalm": "Tốc Biến ở phím {key}, {perGame} lần mỗi trận. Bạn dành nó cho lúc quan trọng.",
+    "pair": "{a} và {b} trong {share} số trận của bạn. Bạn biết mình thích gì.",
+    "surrenderOften": "{rate} số trận của bạn kết thúc bằng đầu hàng. Lúc nào cũng có người bận việc.",
+    "surrenderUs": "Đội bạn đầu hàng nhiều hơn đối phương ({weQuit} so với {enemyQuit}). Hãy lạc quan.",
+    "surrenderThem": "Đội bên kia giơ cờ trắng {enemyQuit} lần so với {weQuit} lần của đội bạn. Họ thấy bạn đang đến.",
+    "surrenderRare": "Chỉ {rate} số trận của bạn kết thúc bằng đầu hàng. Bạn luôn chơi đến cùng."
+  },
+  "spells": {
+    "1": "Thanh Tẩy",
+    "3": "Kiệt Sức",
+    "4": "Tốc Biến",
+    "6": "Tốc Hành",
+    "7": "Hồi Máu",
+    "11": "Trừng Phạt",
+    "12": "Dịch Chuyển",
+    "13": "Thông Thái",
+    "14": "Thiêu Đốt",
+    "21": "Khiên Chắn",
+    "32": "Dấu",
+    "unknown": "một phép bổ trợ"
+  },
+  "pings": {
+    "getBackPings": {
+      "label": "Lùi lại",
+      "title": "Người hay lo",
+      "line": "Bạn dùng ping để bảo mọi người rút lui. Đội còn sống là nhờ bạn."
+    },
+    "enemyMissingPings": {
+      "label": "Địch mất tích",
+      "title": "Người canh gác",
+      "line": "\"Mất tích!\" là câu cửa miệng của bạn. Không ai bước vào sương mù mà bạn không biết."
+    },
+    "onMyWayPings": {
+      "label": "Đang đến",
+      "title": "Người cứu hộ",
+      "line": "Bạn luôn đang trên đường. Đến nơi hay không lại là chuyện khác."
+    },
+    "assistMePings": {
+      "label": "Hỗ trợ tôi",
+      "title": "Kẻ xúi giục",
+      "line": "Bạn ping xin giúp và cả đội chạy đến. Hoặc bạn hy vọng thế."
+    },
+    "needVisionPings": {
+      "label": "Cần tầm nhìn",
+      "title": "Người xin mắt",
+      "line": "Ai đó làm ơn cắm mắt đi. Ván nào bạn cũng xin."
+    },
+    "commandPings": {
+      "label": "Chỉ huy",
+      "title": "Chỉ huy",
+      "line": "Bạn chỉ vào bản đồ và mong đội đi theo. Phần lớn là họ theo."
+    },
+    "pushPings": {
+      "label": "Đẩy",
+      "title": "Người đẩy lính",
+      "line": "Đẩy, đẩy, đẩy. Bạn muốn cái trụ đó sập ngay bây giờ."
+    },
+    "holdPings": {
+      "label": "Giữ vị trí",
+      "title": "Bức tường",
+      "line": "Giữ vững phòng tuyến. Bạn là giọng nói bình tĩnh giữa phòng chờ hỗn loạn."
+    },
+    "allInPings": {
+      "label": "Dồn hết",
+      "title": "Thương nhân all-in",
+      "line": "Khi bạn ping all-in, giao tranh sẽ nổ ra dù mọi người có muốn hay không."
+    },
+    "enemyVisionPings": {
+      "label": "Tầm nhìn địch",
+      "title": "Người quan sát",
+      "line": "Bạn báo từng con mắt của địch. Chẳng gì thoát khỏi bạn."
+    },
+    "visionClearedPings": {
+      "label": "Đã dọn mắt",
+      "title": "Người dọn dẹp",
+      "line": "Bạn dọn mắt và báo cho tất cả mọi người."
+    }
+  },
+  "chapters": {
+    "part": "Phần {n}",
+    "range": "{from}–{to}",
+    "same": "{title} từ đầu đến cuối. Bạn biết mình là ai.",
+    "changed": "Bạn bắt đầu là {first} và kết thúc là {last}. Một mùa giải thay đổi."
+  },
+  "tilt": {
+    "tilt": "Bạn thắng {afterWin} sau một trận thắng nhưng chỉ {afterLoss} sau một trận thua. Có lẽ nên đi dạo giữa các trận.",
+    "resilient": "Thua một trận thì bạn thắng {afterLoss} số trận sau, cao hơn {afterWin} sau khi thắng. Thua chỉ khiến bạn hăng hơn.",
+    "steady": "{afterWin} sau khi thắng, {afterLoss} sau khi thua. Không gì làm bạn lung lay."
+  },
+  "comfort": {
+    "trust": "{best} nâng bạn lên {bestRate}. Một lựa chọn đáng tin.",
+    "drag": "{best} nâng bạn lên {bestRate}. {worst} kéo bạn xuống {worstRate}. Đến lúc buông rồi chứ?"
+  },
+  "gray": {
+    "heavy": "Đó là {share} mỗi trận nhìn chằm chằm màn hình xám. Suối nước biết tên bạn.",
+    "some": "Khoảng {minutes} phút mỗi trận chờ hồi sinh. Cộng dồn lại đáng kể.",
+    "light": "Chỉ {share} thời gian của bạn là nằm xuống. Màn hình xám hầu như không biết bạn."
+  },
+  "modes": {
+    "aramPenta": "{penta, plural, other {# Pentakill}} trên cầu. Vực Thẳm đánh thức sự hỗn loạn trong bạn.",
+    "aramKills": "{kills} lần hạ gục mỗi trận. Hỗn chiến là sân khấu của bạn.",
+    "aramBetter": "Bạn thắng nhiều hơn ở Vực Thẳm so với Rift. Lăn cầu tuyết rất hợp với bạn.",
+    "aramWorse": "Rift đối xử với bạn tốt hơn Vực Thẳm. Cây cầu đó là nơi hoang dã.",
+    "aramSteady": "{top} đã đưa bạn vượt qua hỗn loạn. Ổn định như trên Rift.",
+    "normalBetter": "Bạn chơi hay hơn khi không có gì để mất. Tỷ lệ thắng thường của bạn cao hơn xếp hạng.",
+    "normalWorse": "Xếp hạng khơi dậy điều tốt nhất ở bạn. Đấu thường chỉ là khởi động.",
+    "normalExplore": "{unique, plural, other {# tướng}} khác nhau trong {games, plural, other {# trận đấu thường}}. Đây là nơi bạn thử nghiệm.",
+    "normalMain": "{top} là lựa chọn của bạn khi không có gì phải lo ({winRate} thắng)."
+  },
+  "objectives": {
+    "stolen": "Cướp {count, plural, other {# mục tiêu}}. Đâu đó một tay đi rừng địch vẫn còn tức.",
+    "firstTower": "Lấy trụ đầu tiên: bạn thắng {withIt} số trận khi có nó và {without} khi không.",
+    "firstDragon": "Lấy rồng đầu tiên: bạn thắng {withIt} số trận khi có nó và {without} khi không.",
+    "firstHerald": "Lấy Sứ Giả Khe Nứt đầu tiên: bạn thắng {withIt} số trận khi có nó và {without} khi không.",
+    "firstBaron": "Lấy Baron đầu tiên: bạn thắng {withIt} số trận khi có nó và {without} khi không.",
+    "turrets": "Bạn phá {share} số trụ của đội. Phá dỡ là môn thể thao đồng đội, và bạn chính là sự phá dỡ.",
+    "barons": "Chốt {count, plural, other {# Baron}}. Khi hố mở ra, bạn ở đó.",
+    "dragons": "Chốt {count, plural, other {# rồng}}. Muông thú trên Rift đều sợ bạn.",
+    "default": "Đội của bạn đã lấy {dragons, plural, other {# rồng}} và {towers, plural, other {# trụ}} qua các trận này. Mục tiêu nào cũng quan trọng."
+  },
+  "damage": {
+    "spellslinger": {
+      "style": "Xạ thủ phép thuật",
+      "line": "{share} sát thương của bạn là phép. Giáp chỉ là lời khuyên."
+    },
+    "steel": {
+      "style": "Thép hơn phép",
+      "line": "{share} sát thương của bạn là vật lý. Kẻ địch lên giáp ghét bạn lắm."
+    },
+    "trueDamage": {
+      "style": "Fan sát thương chuẩn",
+      "line": "{share} sát thương của bạn bỏ qua hoàn toàn kháng tính. Gian xảo."
+    },
+    "mixed": {
+      "style": "Mối đe dọa hỗn hợp",
+      "line": "Vật lý và phép cân bằng. Địch không thể chỉ chồng một loại kháng."
+    }
+  },
+  "lane": {
+    "bully": "Bạn kết thúc dẫn trước đối thủ đường về vàng trong {rate} số trận, trung bình hơn {gold} vàng. Bạo chúa đường.",
+    "behind": "Đối thủ đường kiếm nhiều hơn bạn trong {rate} số trận. Đã đến lúc xem lại cách quản lý làn lính.",
+    "even": "Bạn và đối thủ đường ngang tài ngang sức: dẫn về vàng trong {rate} số trận."
+  },
+  "gold": {
+    "high": "Bạn kết thúc trận với trung bình {gold} vàng chưa tiêu. Đó là một món đồ bạn chưa từng mua.",
+    "mid": "Khoảng {gold} vàng còn dư cuối trận. Không tệ, cũng không hoàn hảo.",
+    "low": "Chỉ còn {gold} vàng chưa tiêu. Bạn tiêu nhanh bằng lúc kiếm."
+  },
+  "classes": {
+    "Tank": "Đỡ đòn",
+    "Marksman": "Xạ thủ",
+    "Mage": "Pháp sư",
+    "Assassin": "Sát thủ",
+    "Fighter": "Đấu sĩ",
+    "Support": "Hỗ trợ"
+  },
+  "comp": {
+    "better": "Khi đội có {class}, bạn thắng {withRate}, so với {withoutRate} khi không có. Hãy xin một người.",
+    "worse": "Khi đội có {class}, bạn chỉ thắng {withRate} ({withoutRate} khi không có). Trùng hợp hay lời nguyền?"
+  },
+  "highlights": {
+    "penta": "Pentakill",
+    "kills": "Nhiều hạ gục nhất",
+    "kda": "KDA tốt nhất",
+    "longest": "Trận dài nhất"
+  },
+  "progress": {
+    "rows": {
+      "wr": "Tỷ lệ thắng",
+      "kda": "KDA",
+      "k": "Hạ gục mỗi trận",
+      "d": "Chết mỗi trận",
+      "a": "Hỗ trợ mỗi trận",
+      "cs": "CS mỗi phút",
+      "vs": "Tầm nhìn mỗi phút",
+      "dm": "Sát thương mỗi phút",
+      "kp": "Tỷ lệ tham gia hạ gục",
+      "rank": "Hạng"
+    },
+    "flat": "Từ đó đến giờ chẳng có gì thay đổi nhiều. Ổn định cũng là một kỹ năng.",
+    "allUp": "Tốt hơn toàn diện: {better} trên {total} chỉ số tăng, không chỉ số nào giảm.",
+    "allDown": "Một giai đoạn khó khăn hơn: {worse} trên {total} chỉ số giảm. Hành trình leo hạng nào cũng có lúc xuống.",
+    "moreUp": "Tăng nhiều hơn giảm: {better} chỉ số cải thiện và {worse} tụt xuống.",
+    "mixed": "Kết quả lẫn lộn: {better} chỉ số cải thiện, {worse} tụt xuống."
+  },
+  "classInline": {
+    "Tank": "đỡ đòn",
+    "Marksman": "xạ thủ",
+    "Mage": "pháp sư",
+    "Assassin": "sát thủ",
+    "Fighter": "đấu sĩ",
+    "Support": "hỗ trợ"
+  },
+  "tiltguard": {
+    "stop": "Sau {losses} trận thua liên tiếp, bạn thắng {rate} trận kế tiếp, so với {base} thường ngày. Đó là biển báo dừng của bạn.",
+    "keepGoing": "Vậy mà bạn vẫn vào hàng chờ lại trong {keep} số lần.",
+    "steady": "Ngay cả sau {losses} trận thua liên tiếp bạn vẫn thắng {rate}. Chuỗi thua không làm bạn nao núng.",
+    "liveStop": "Bạn đang thua {run} trận liên tiếp, và sau một chuỗi như vậy bạn thắng {rate} trận kế tiếp. Có lẽ nên dừng lại ở đây.",
+    "liveInfo": "Bạn đang trong chuỗi {run} trận thua. Sau một chuỗi như vậy bạn thắng {rate} trận kế tiếp."
+  },
+  "formcurve": {
+    "swing": "Từ {worst} lúc thấp nhất đến {best} lúc cao nhất, tính theo từng {games}.",
+    "steady": "Trong bất kỳ {games} nào bạn cũng nằm giữa {worst} và {best}. Rất ổn định.",
+    "hot": "Gần đây bạn đang phong độ: {now} trong {games} gần nhất, so với {avg} cả mùa.",
+    "cold": "Gần đây khó khăn hơn: {now} trong {games} gần nhất, so với {avg} cả mùa.",
+    "even": "Gần đây bạn giữ đúng phong độ thường ngày: {now} trong {games} gần nhất, {avg} cả mùa."
+  },
+  "patches": {
+    "swing": "Bạn chơi tốt nhất ở bản {best} ({bestRate}) và tệ nhất ở bản {worst} ({worstRate}).",
+    "steady": "Qua từng bản cập nhật, bạn luôn nằm giữa {worstRate} và {bestRate}. Bản mới hầu như không làm bạn bận tâm."
+  },
+  "runes": {
+    "better": "Với {best} bạn thắng {bestRate}, còn với {favorite} là {favoriteRate}. Có nên dùng nhiều hơn?",
+    "loyal": "{name} trong {share} số trận của bạn. Đã tìm được ngọc chủ chốt là bạn gắn bó luôn.",
+    "plain": "{name} là ngọc chủ chốt của bạn: thắng {rate} trong {games}."
+  },
+  "championPage": {
+    "better": "{name} vượt mức thường ngày của bạn: {rate} so với {overall} tổng thể.",
+    "worse": "{name} khó hơn: {rate} so với {overall} tổng thể.",
+    "level": "{name} đúng mức thường ngày của bạn: {rate}, {overall} tổng thể.",
+    "few": "{games} với {name} cho đến nay: thắng {rate}."
+  }
+}

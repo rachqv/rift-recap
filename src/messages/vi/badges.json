@@ -1,0 +1,98 @@
+{
+  "penta": {
+    "name": "Pentakill",
+    "text": "Ghi một Pentakill."
+  },
+  "quadra": {
+    "name": "Nhà sưu tầm Quadrakill",
+    "text": "Ghi {target, plural, other {# Quadrakill}}."
+  },
+  "triple": {
+    "name": "Mối đe dọa Triple Kill",
+    "text": "Ghi {target, plural, other {# Triple Kill}}."
+  },
+  "flawless": {
+    "name": "Không tì vết",
+    "text": "Hoàn thành một trận mà không chết lần nào."
+  },
+  "flawless5": {
+    "name": "Bất khả xâm phạm",
+    "text": "Hoàn thành {target, plural, other {# trận}} mà không chết lần nào."
+  },
+  "streak": {
+    "name": "Đang cháy",
+    "text": "Thắng liên tiếp {target, plural, other {# trận}}."
+  },
+  "winrate": {
+    "name": "Người chiến thắng",
+    "text": "Giữ tỷ lệ thắng {target} trong hơn {games} trận."
+  },
+  "kills": {
+    "name": "Cỗ máy hạ gục",
+    "text": "Hạ gục {target, plural, other {# lần}} trong một trận."
+  },
+  "perfect": {
+    "name": "Trận đấu hoàn hảo",
+    "text": "Chơi một trận với KDA từ {target} trở lên."
+  },
+  "firstblood": {
+    "name": "Vua First Blood",
+    "text": "Lấy First Blood {target, plural, other {# lần}}."
+  },
+  "thief": {
+    "name": "Kẻ cướp mục tiêu",
+    "text": "Cướp một mục tiêu."
+  },
+  "turrets": {
+    "name": "Đội phá dỡ",
+    "text": "Phá {target, plural, other {# trụ}}."
+  },
+  "variety": {
+    "name": "Đa năng",
+    "text": "Chơi {target, plural, other {# tướng}} khác nhau."
+  },
+  "loyal": {
+    "name": "Trung thành",
+    "text": "Chơi cùng một tướng {target, plural, other {# lần}}."
+  },
+  "marathon": {
+    "name": "Marathon",
+    "text": "Chơi một trận dài hơn {minutes} phút."
+  },
+  "bounce": {
+    "name": "Vùng lên",
+    "text": "Thắng {target} số trận sau khi thua."
+  },
+  "hours": {
+    "name": "Thời gian trên Rift",
+    "text": "Dành {target, plural, other {# giờ}} trong các trận đấu."
+  },
+  "dragon": {
+    "name": "Kẻ diệt Rồng",
+    "text": "Tung đòn kết liễu {target, plural, other {# con Rồng}}."
+  },
+  "baron": {
+    "name": "Thợ săn Baron",
+    "text": "Tung đòn kết liễu Baron {target, plural, other {# lần}}."
+  },
+  "teamplayer": {
+    "name": "Người chơi đồng đội",
+    "text": "Tham gia {target} số lượt hạ gục của đội."
+  },
+  "duo": {
+    "name": "Bạn thân chiến trường",
+    "text": "Chơi {target, plural, other {# trận}} với cùng một đồng đội."
+  },
+  "vision": {
+    "name": "Mắt thần",
+    "text": "Đạt trung bình {target} điểm tầm nhìn mỗi phút."
+  },
+  "farm": {
+    "name": "Bậc thầy farm",
+    "text": "Đạt trung bình {target} CS mỗi phút."
+  },
+  "roles": {
+    "name": "Chơi mọi vị trí",
+    "text": "Chơi cả {target, plural, other {# vị trí}}."
+  }
+}

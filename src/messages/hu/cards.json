@@ -1,0 +1,39 @@
+{
+  "thisSeason": "Ebben a szezonban én voltam",
+  "disclaimer": "A Rift Recapet nem támogatja a Riot Games, és nem tükrözi a Riot Games vagy bárki más véleményét, aki hivatalosan részt vesz a Riot Games tulajdonok előállításában vagy kezelésében.",
+  "games": "Meccsek",
+  "winRate": "Nyerési arány",
+  "kda": "KDA",
+  "trophies": "Trófeák",
+  "rank": "Rang",
+  "main": "Main",
+  "topChampion": "Legjobb bajnok",
+  "gamesCount": "{count, plural, one {# meccs} other {# meccs}}",
+  "squad": {
+    "header": "Csapatösszegzés",
+    "gamesTogether": "Közös meccsek",
+    "hours": "Órák",
+    "together": "Együtt",
+    "awards": "Díjak"
+  },
+  "versus": {
+    "header": "Szemtől szemben",
+    "vs": "VS",
+    "rowsWon": "Megnyert sorok",
+    "scenarios": "Legjobb forgatókönyvek",
+    "numbers": "A számok",
+    "unranked": "Rang nélkül"
+  },
+  "bingo": {
+    "header": "Trófea-bingó",
+    "free": "Ingyen",
+    "lines": "Bingó",
+    "next": "Következő bingó: {name}"
+  },
+  "form": {
+    "best": "Legjobb szakasz",
+    "worst": "Legrosszabb szakasz",
+    "now": "Most",
+    "ended": "Vége: {date}"
+  }
+}

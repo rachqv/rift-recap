@@ -1,0 +1,28 @@
+{
+  "verdict": {
+    "perfect": "Bạn hiểu nhóm của mình hơn cả chính nhóm hiểu mình.",
+    "good": "Không tệ. Rõ ràng bạn đã theo dõi sát.",
+    "low": "Có lẽ bạn nên dành nhiều thời gian hơn cho bạn bè."
+  },
+  "result": "Kết quả câu đố",
+  "round": "Ai đã giành giải? {step} trên {total}",
+  "again": "Chơi lại",
+  "group": "Ai đã nhận giải thưởng này?",
+  "right": "Chính xác!",
+  "wrong": "Không phải, là {name}.",
+  "reveal": "{verdict} {line}",
+  "pick": "Hãy chọn một người chơi.",
+  "score": "Xem điểm của bạn",
+  "next": "Giải thưởng tiếp theo",
+  "guess": {
+    "eyebrow": "Đoán kiểu người chơi của bạn",
+    "lead": "Ba manh mối, bốn kiểu người chơi. Bạn là kiểu nào?",
+    "clueMain": "Chơi nhiều nhất: {champion}",
+    "clueRate": "Tỷ lệ thắng {rate}",
+    "clueKda": "KDA {kda}",
+    "group": "Bạn là kiểu người chơi nào?",
+    "right": "Chính xác. Bạn hiểu lối chơi của mình.",
+    "wrong": "Gần đúng. Bạn là {title}.",
+    "next": "Tiếp tục để xem kết quả đầy đủ."
+  }
+}

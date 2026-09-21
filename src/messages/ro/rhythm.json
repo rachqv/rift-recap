@@ -1,0 +1,30 @@
+{
+  "same": "Voi doi aveți același program. Înfricoșător.",
+  "daysShort": "{value} z",
+  "nightOwl": {
+    "title": "Bufnița de noapte",
+    "tagline": "Meciuri care încep după miezul nopții.",
+    "line": "{share} din meciurile lui {name} încep după miezul nopții. {other} are oră de culcare."
+  },
+  "earlyBird": {
+    "title": "Pasărea matinală",
+    "tagline": "Meciuri care încep înainte de prânz.",
+    "line": "{share} din meciurile lui {name} sunt înainte de prânz. Intră la coadă cu cafeaua. {other} doarme până târziu."
+  },
+  "weekend": {
+    "title": "Războinicul de weekend",
+    "tagline": "Meciuri jucate sâmbăta sau duminica.",
+    "line": "{share} din meciurile lui {name} cad în weekend. {other} e mai degrabă un jucător de zile lucrătoare."
+  },
+  "streak": {
+    "title": "Obiceiul zilnic",
+    "tagline": "Cea mai lungă serie de zile la rând cu un meci.",
+    "line": "{name} a jucat {days, plural, one {# zi} few {# zile} other {# de zile}} la rând. {other} a făcut o pauză după {otherDays}."
+  },
+  "binge": {
+    "title": "Ziua de maraton",
+    "tagline": "Cele mai multe meciuri într-o singură zi.",
+    "line": "{name} a jucat odată {games, plural, one {# meci} few {# meciuri} other {# de meciuri}} într-o singură zi. Cina a fost sărită."
+  },
+  "label": "Scenarii"
+}

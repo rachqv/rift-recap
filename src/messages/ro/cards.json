@@ -1,0 +1,39 @@
+{
+  "thisSeason": "În acest sezon, am fost",
+  "disclaimer": "Rift Recap nu este susținut de Riot Games și nu reflectă opiniile Riot Games sau ale vreunei persoane implicate oficial în producerea ori gestionarea proprietăților Riot Games.",
+  "games": "Meciuri",
+  "winRate": "Rata de victorii",
+  "kda": "KDA",
+  "trophies": "Trofee",
+  "rank": "Rang",
+  "main": "Main",
+  "topChampion": "Campion de top",
+  "gamesCount": "{count, plural, one {# meci} few {# meciuri} other {# de meciuri}}",
+  "squad": {
+    "header": "Rezumatul echipei",
+    "gamesTogether": "Meciuri împreună",
+    "hours": "Ore",
+    "together": "Împreună",
+    "awards": "Premiile"
+  },
+  "versus": {
+    "header": "Față în față",
+    "vs": "VS",
+    "rowsWon": "Rânduri câștigate",
+    "scenarios": "Cele mai bune scenarii",
+    "numbers": "Cifrele",
+    "unranked": "Fără rang"
+  },
+  "bingo": {
+    "header": "Bingo de trofee",
+    "free": "Gratis",
+    "lines": "Bingo-uri",
+    "next": "Următorul bingo: {name}"
+  },
+  "form": {
+    "best": "Cea mai bună perioadă",
+    "worst": "Cea mai slabă perioadă",
+    "now": "Acum",
+    "ended": "Încheiată pe {date}"
+  }
+}

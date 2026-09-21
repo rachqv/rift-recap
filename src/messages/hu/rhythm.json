@@ -1,0 +1,30 @@
+{
+  "same": "Ugyanabban az időben játszotok. Kísérteties.",
+  "daysShort": "{value} nap",
+  "nightOwl": {
+    "title": "Éjszakai bagoly",
+    "tagline": "Éjfél után kezdődő meccsek.",
+    "line": "{name} nevű játékos meccseinek {share} része éjfél után kezdődik. {other} nevű játékosnak van lefekvési ideje."
+  },
+  "earlyBird": {
+    "title": "Korán kelő",
+    "tagline": "Dél előtt kezdődő meccsek.",
+    "line": "{name} nevű játékos meccseinek {share} része dél előtt van. Kávéval áll sorba. {other} nevű játékos sokáig alszik."
+  },
+  "weekend": {
+    "title": "Hétvégi harcos",
+    "tagline": "Szombaton vagy vasárnap játszott meccsek.",
+    "line": "{name} nevű játékos meccseinek {share} része hétvégére esik. {other} nevű játékos inkább hétköznap játszik."
+  },
+  "streak": {
+    "title": "Napi szokás",
+    "tagline": "A leghosszabb egymás utáni meccsnapok száma.",
+    "line": "{name} nevű játékos {days, plural, one {# napon} other {# napon}} át játszott egymás után. {other} nevű játékos {otherDays} után szünetet tartott."
+  },
+  "binge": {
+    "title": "Maratoni nap",
+    "tagline": "A legtöbb meccs egyetlen nap alatt.",
+    "line": "{name} nevű játékos egyszer {games, plural, one {# meccset} other {# meccset}} játszott egy nap alatt. A vacsora kimaradt."
+  },
+  "label": "Forgatókönyvek"
+}

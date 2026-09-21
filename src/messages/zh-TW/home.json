@@ -1,0 +1,43 @@
+{
+  "badge": "賽季回顧",
+  "title": {
+    "line1": "你的賽季，",
+    "line2": "盡在這裡。"
+  },
+  "subtitle": "每一場、每一次五殺、每一次可疑的閃現。輸入你的 Riot ID，重溫你在峽谷的旅程。",
+  "error": "請以「名稱#TAG」的格式輸入你的 Riot ID，並選擇地區。",
+  "hint": "不必登入，只需要你的 Riot ID。<link>查看範例回顧 →</link>",
+  "modes": {
+    "squad": "小隊回顧",
+    "versus": "正面對決",
+    "clash": "小隊對小隊",
+    "players": "你的玩家"
+  },
+  "features": {
+    "title": "回顧裡有什麼",
+    "champions": {
+      "title": "你的英雄",
+      "text": "誰帶你贏，誰讓你掉了 LP，還有你忍不住一直選的那一位。"
+    },
+    "climb": {
+      "title": "你的攀升",
+      "text": "整個賽季的勝率、KDA 與段位變化，說成一個故事。"
+    },
+    "time": {
+      "title": "你的時間",
+      "text": "在峽谷度過的時數、最長的一場、最晚的一次排隊。"
+    }
+  },
+  "sample": {
+    "label": "範例回顧卡片",
+    "games": "已打對局",
+    "days": "約{days}天在峽谷中度過",
+    "signature": "招牌英雄",
+    "record": "{games}場 · 勝率{winRate}",
+    "kda": "賽季 KDA",
+    "peak": "最高段位",
+    "peakRank": "翡翠 II",
+    "climbed": "本賽季攀升+{lp} LP"
+  },
+  "footer": "Rift Recap 未獲 Riot Games 認可，也不代表 Riot Games 或任何正式參與製作、管理 Riot Games 資產的人員之觀點或意見。Riot Games 及所有相關資產皆為 Riot Games, Inc. 的商標或註冊商標。"
+}

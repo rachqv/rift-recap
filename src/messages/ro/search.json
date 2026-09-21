@@ -1,0 +1,15 @@
+{
+  "placeholder": "Riot ID (Nume#TAG)",
+  "riotId": "Riot ID",
+  "region": "Regiune",
+  "submit": "Vezi rezumatul meu",
+  "suggestions": "Sugestii de jucători",
+  "heading": {
+    "recent": "Căutări recente",
+    "sample": "Jucători exemplu"
+  },
+  "sample": "Exemplu",
+  "count": "{count, plural, one {# sugestie disponibilă} few {# sugestii disponibile} other {# de sugestii disponibile}}",
+  "empty": "Niciun jucător salvat nu se potrivește. Apasă Enter ca să cauți <strong>{query}</strong> la Riot.",
+  "clear": "Șterge căutările recente"
+}

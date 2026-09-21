@@ -1,0 +1,15 @@
+{
+  "placeholder": "Riot ID (이름#TAG)",
+  "riotId": "Riot ID",
+  "region": "지역",
+  "submit": "내 리캡 보기",
+  "suggestions": "플레이어 추천",
+  "heading": {
+    "recent": "최근 검색",
+    "sample": "샘플 플레이어"
+  },
+  "sample": "샘플",
+  "count": "{count, plural, other {추천 #개}}",
+  "empty": "일치하는 저장된 플레이어가 없어요. Enter 키를 누르면 Riot에서 <strong>{query}</strong>을(를) 검색해요.",
+  "clear": "최근 검색 지우기"
+}

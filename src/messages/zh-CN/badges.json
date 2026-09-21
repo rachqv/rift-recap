@@ -1,0 +1,98 @@
+{
+  "penta": {
+    "name": "五杀",
+    "text": "完成一次五杀。"
+  },
+  "quadra": {
+    "name": "四杀收藏家",
+    "text": "完成{target, plural, other {#次}}四杀。"
+  },
+  "triple": {
+    "name": "三杀威胁",
+    "text": "完成{target, plural, other {#次}}三杀。"
+  },
+  "flawless": {
+    "name": "零死亡",
+    "text": "一局比赛全程不死亡。"
+  },
+  "flawless5": {
+    "name": "不可触碰",
+    "text": "{target, plural, other {#局}}比赛全程不死亡。"
+  },
+  "streak": {
+    "name": "势如破竹",
+    "text": "连胜{target, plural, other {#局}}。"
+  },
+  "winrate": {
+    "name": "赢家",
+    "text": "在{games}+局比赛中保持{target}的胜率。"
+  },
+  "kills": {
+    "name": "击杀机器",
+    "text": "单局取得{target, plural, other {#次击杀}}。"
+  },
+  "perfect": {
+    "name": "完美对局",
+    "text": "打出KDA达到{target}+的一局。"
+  },
+  "firstblood": {
+    "name": "一血之王",
+    "text": "拿下{target, plural, other {#次}}一血。"
+  },
+  "thief": {
+    "name": "目标窃贼",
+    "text": "偷取一个史诗目标。"
+  },
+  "turrets": {
+    "name": "拆迁队",
+    "text": "摧毁{target, plural, other {#座}}防御塔。"
+  },
+  "variety": {
+    "name": "全能选手",
+    "text": "使用{target, plural, other {#个}}不同的英雄。"
+  },
+  "loyal": {
+    "name": "忠诚",
+    "text": "使用同一个英雄{target, plural, other {#次}}。"
+  },
+  "marathon": {
+    "name": "马拉松",
+    "text": "打一局超过{minutes}分钟的比赛。"
+  },
+  "bounce": {
+    "name": "绝地反弹",
+    "text": "在失利后的比赛中取得{target}的胜率。"
+  },
+  "hours": {
+    "name": "峡谷时光",
+    "text": "在对局中度过{target, plural, other {#小时}}。"
+  },
+  "dragon": {
+    "name": "屠龙勇士",
+    "text": "拿下{target, plural, other {#条}}小龙的最后一击。"
+  },
+  "baron": {
+    "name": "大龙猎手",
+    "text": "拿下{target, plural, other {#次}}大龙的最后一击。"
+  },
+  "teamplayer": {
+    "name": "团队玩家",
+    "text": "参与团队{target}的击杀。"
+  },
+  "duo": {
+    "name": "形影不离",
+    "text": "与同一位队友进行{target, plural, other {#场}}对局。"
+  },
+  "vision": {
+    "name": "洞察全图",
+    "text": "平均每分钟视野得分达到{target}。"
+  },
+  "farm": {
+    "name": "补刀大师",
+    "text": "平均每分钟补刀达到{target}。"
+  },
+  "roles": {
+    "name": "全能选手",
+    "text": "打遍全部{target, plural, other {#个}}位置。"
+  }
+}

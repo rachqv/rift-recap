@@ -1,0 +1,42 @@
+{
+  "insight": {
+    "nightOwl": "El {share} de tus partidas empiezan pasada la medianoche. La Grieta nunca duerme, y tú tampoco.",
+    "earlyBird": "El {share} de tus partidas son antes del mediodía. Cola con el café en la mano.",
+    "weekend": "El {share} de tus partidas caen en fin de semana. Los sábados son para la Grieta.",
+    "weekday": "Casi todas tus partidas son entre semana. El esfuerzo no descansa.",
+    "streak": "{days, plural, one {# día} other {# días}} seguidos con partida. Eso es un hábito.",
+    "steady": "Constante y repartido por el calendario. Sin patrón, solo League."
+  },
+  "aria": "Calendario de {games, plural, one {# partida} other {# partidas}} en {days, plural, one {# día} other {# días}}",
+  "before": "{date}: antes de tu primera partida cargada",
+  "day": "{date}: {detail}",
+  "dayGames": "{games, plural, one {# partida} other {# partidas}}, {wins} ganadas",
+  "dayNone": "sin partidas",
+  "fewer": "Menos",
+  "more": "Más",
+  "activeDays": "{count, plural, one {<b>#</b> día activo} other {<b>#</b> días activos}}",
+  "busiest": "Día más intenso: <b>{date}</b> · {games, plural, one {# partida} other {# partidas}}",
+  "streak": "Racha más larga: <b>{days, plural, one {# día} other {# días}}</b>",
+  "favorite": "Día favorito: <b>{day}</b>",
+  "prime": "Hora punta: <b>{hour}</b>",
+  "parts": {
+    "night": "noche",
+    "morning": "mañana",
+    "afternoon": "tarde",
+    "evening": "atardecer"
+  },
+  "bestPart": "Mejor por la <b>{part}</b> · <good>{rate}</good> de victorias",
+  "worstPart": "(<bad>{rate}</bad> por la {part})",
+  "bestMonth": "Mejor mes: <b>{month}</b> · <good>{rate}</good>",
+  "worstMonth": "· peor: <b>{month}</b> <bad>{rate}</bad>",
+  "clock": {
+    "day": "Tu mejor día: {best}, con {bestRate} de victorias. El peor: {worst}, con solo {worstRate}.",
+    "part": "Tu mejor momento del día: {best}, con {bestRate} de victorias. El peor: {worst}, con solo {worstRate}.",
+    "steady": "Tu porcentaje de victorias apenas cambia con el reloj. Cualquier día, a cualquier hora: el mismo jugador.",
+    "byPart": "Momento del día",
+    "byDay": "Día de la semana",
+    "bar": "{label}: {rate} de victorias, {detail}",
+    "barFew": "{label}: {detail}. Muy pocas partidas para comparar.",
+    "aria": "Porcentaje de victorias por momento del día y por día de la semana"
+  }
+}

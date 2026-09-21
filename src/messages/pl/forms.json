@@ -1,0 +1,39 @@
+{
+  "tryRange": "Spróbuj innego okresu:",
+  "field": {
+    "recent": "Ostatni gracze"
+  },
+  "squad": {
+    "title": "Podsumowanie drużyny",
+    "lead": "Wpisz od dwóch do pięciu Riot ID z tego samego serwera. Sprawdzamy gry, które rozegraliście <em>razem</em>, i rozdajemy nagrody.",
+    "server": "Serwer",
+    "player": "Gracz {n} (Nazwa#TAG)",
+    "playerOptional": "Gracz {n} (Nazwa#TAG) opcjonalnie",
+    "playerAria": "Riot ID gracza {n}",
+    "submit": "Pokaż podsumowanie drużyny",
+    "fine": "Działa najlepiej z osobami, z którymi grasz w kolejce, bo liczą się tylko wspólne gry. <link>Zobacz przykładową drużynę</link>"
+  },
+  "clash": {
+    "title": "Drużyna przeciw drużynie",
+    "lead": "Dwie drużyny po dwóch do pięciu graczy, z tego samego serwera. Patrzymy na gry, w których graliście <em>przeciwko sobie</em>, jak własna gra 5v5.",
+    "server": "Serwer",
+    "sideA": "Drużyna 1",
+    "sideB": "Drużyna 2",
+    "player": "{side}, gracz {n} (Nazwa#TAG)",
+    "playerOptional": "{side}, gracz {n} (Nazwa#TAG) opcjonalnie",
+    "playerAria": "Riot ID gracza {n}, {side}",
+    "submit": "Porównaj drużyny",
+    "fine": "Liczą się tylko gry z co najmniej dwoma graczami z każdej drużyny po przeciwnych stronach. <link>Zobacz przykład</link>"
+  },
+  "versus": {
+    "title": "Jeden na jednego",
+    "lead": "Wybierz dwóch graczy i zobacz, kto wygrywa: statystyka po statystyce, styl po stylu, i jak wam idzie, gdy gracie razem.",
+    "player1": "Gracz 1",
+    "player2": "Gracz 2",
+    "serverAria": "Serwer: {label}",
+    "riotId": "Riot ID (Nazwa#TAG)",
+    "riotIdAria": "Riot ID: {label}",
+    "submit": "Porównaj",
+    "fine": "Porównuje ostatnie gry każdego gracza. <link>Zobacz przykładowy pojedynek</link>"
+  }
+}

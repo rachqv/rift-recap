@@ -1,0 +1,381 @@
+{
+  "season": "Sezonul {year}",
+  "strip": "{wins, plural, one {# victorie} few {# victorii} other {# de victorii}} și {losses, plural, one {# înfrângere} few {# înfrângeri} other {# de înfrângeri}}, cel mai vechi meci primul",
+  "record": "{wins}V · {losses}Î",
+  "recordChip": "<good>{wins}</good>V <bad>{losses}</bad>Î",
+  "winRateChip": "<b>{rate}</b> rată de victorii",
+  "kdaChip": "<b>{kda}</b> KDA",
+  "gamesChip": "{count, plural, one {<b>#</b> meci} few {<b>#</b> meciuri} other {<b>#</b> de meciuri}}",
+  "gamesLabel": "{count, plural, one {# meci} few {# meciuri} other {# de meciuri}}",
+  "intro": {
+    "eyebrow": "Rezumat {season}",
+    "caption": "{games, plural, other {Am parcurs # dintre meciurile tale. Ești gata să vezi cum te-ai descurcat?}}",
+    "scroll": "Derulează"
+  },
+  "games": {
+    "eyebrow": "Ai fost prezent",
+    "played": "{count, plural, one {meci jucat} few {meciuri jucate} other {de meciuri jucate}}",
+    "riftOnly": "{count, plural, one {meci pe Falia Invocatorului} few {meciuri pe Falia Invocatorului} other {de meciuri pe Falia Invocatorului}}",
+    "wins": "{count, plural, one {<good>#</good> victorie} few {<good>#</good> victorii} other {<good>#</good> de victorii}}",
+    "losses": "{count, plural, one {<bad>#</bad> înfrângere} few {<bad>#</bad> înfrângeri} other {<bad>#</bad> de înfrângeri}}",
+    "hours": "{n, plural, one {<b>{value}</b> oră} few {<b>{value}</b> ore} other {<b>{value}</b> de ore}}"
+  },
+  "win": {
+    "eyebrow": "Rata ta de victorii"
+  },
+  "champion": {
+    "eyebrow": "Campionul tău de semnătură",
+    "more": "Toate meciurile tale cu {champion}",
+    "back": "Înapoi la rezumatul complet",
+    "pageTitle": "{champion} · {name}#{tag} · Rift Recap",
+    "pageEyebrow": "Raportul campionului",
+    "noneTitle": "Niciun meci cu acest campion",
+    "none": "{who} nu are meciuri cu {champion} în această perioadă. Încearcă alt campion din rezumat."
+  },
+  "kda": {
+    "eyebrow": "Statisticile tale de luptă",
+    "kills": "eliminări",
+    "deaths": "morți",
+    "assists": "asistențe",
+    "perGame": "{value} / meci",
+    "best": "Cel mai bun meci al tău",
+    "bestLine": "{champion} · {kills}/{deaths}/{assists}",
+    "victory": "Victorie",
+    "defeat": "Înfrângere"
+  },
+  "style": {
+    "eyebrow": "Cum joci",
+    "mainRole": "rol principal · {share}",
+    "cs": "CS pe minut",
+    "vision": "viziune pe minut",
+    "damage": "daune pe minut",
+    "kp": "participare la eliminări",
+    "penta": "{count, plural, one {<b>#</b> pentakill} few {<b>#</b> pentakilluri} other {<b>#</b> de pentakilluri}}",
+    "quadra": "{count, plural, one {<b>#</b> quadrakill} few {<b>#</b> quadrakilluri} other {<b>#</b> de quadrakilluri}}",
+    "triple": "{count, plural, one {<b>#</b> triplekill} few {<b>#</b> triplekilluri} other {<b>#</b> de triplekilluri}}",
+    "firstBloods": "{count, plural, one {<b>#</b> primă sângerare} few {<b>#</b> prime sângerări} other {<b>#</b> de prime sângerări}}",
+    "deathless": "{count, plural, one {<b>#</b> meci fără morți} few {<b>#</b> meciuri fără morți} other {<b>#</b> de meciuri fără morți}}",
+    "longestWon": "Cel mai lung meci al tău a durat {duration} cu {champion}. Și l-ai și câștigat.",
+    "longestLost": "Cel mai lung meci al tău a durat {duration} cu {champion}. Uneori pur și simplu nu se termină bine."
+  },
+  "mode": {
+    "aram": {
+      "eyebrow": "În Abisul Urlător",
+      "label": "{count, plural, one {meci ARAM} few {meciuri ARAM} other {de meciuri ARAM}}"
+    },
+    "normal": {
+      "eyebrow": "Doar pentru distracție",
+      "label": "{count, plural, one {meci normal} few {meciuri normale} other {de meciuri normale}}"
+    }
+  },
+  "rank": {
+    "emblem": "Emblema {title}",
+    "lp": "<b>{lp}</b> LP",
+    "caption": "Rangul tău în acest moment. Orice urcuș începe cu următorul meci."
+  },
+  "persona": {
+    "eyebrow": "În acest sezon, ai fost",
+    "also": "Și puțin din: {list}",
+    "main": "Main <b>{champion}</b>",
+    "shareTitle": "Sezonul meu de League: {title}",
+    "compare": "Compară cu un prieten",
+    "squad": "Rezumatul echipei",
+    "search": "Caută alt jucător",
+    "count": "1 din {count} arhetipuri",
+    "countEstimate": "1 din {count} arhetipuri · raritatea este o estimare"
+  },
+  "calendar": {
+    "eyebrow": "Calendarul tău",
+    "note": "Pe baza ultimelor tale {count, plural, one {# meci} few {# meciuri} other {# de meciuri}}."
+  },
+  "clock": {
+    "eyebrow": "Când câștigi"
+  },
+  "items": {
+    "eyebrow": "Obiectul tău preferat",
+    "inGames": "{games, plural, one {În <b>{count}</b> din cel # meci al tău} few {În <b>{count}</b> din cele # meciuri ale tale} other {În <b>{count}</b> din cele # de meciuri ale tale}}",
+    "winWith": "<b>{rate}</b> rată de victorii cu el",
+    "without": "<b>{rate}</b> fără",
+    "boots": "Ghete"
+  },
+  "objectives": {
+    "eyebrow": "Obiective",
+    "lead": "Echipele tale au luat, în {games, plural, one {# meci} few {# meciuri} other {# de meciuri}}",
+    "tiles": {
+      "tower": "Turnuri",
+      "dragon": "Dragoni",
+      "baron": "Baroni",
+      "herald": "Vestitori",
+      "grubs": "Larvele Vidului",
+      "inhibitor": "Inhibitori"
+    },
+    "youTotal": "tu: {count}",
+    "youSecured": "tu ai asigurat {count}",
+    "perGame": "{value} pe meci",
+    "firstTower": "Primul turn în <b>{rate}</b> din meciuri",
+    "withWithout": "<good>{withIt}</good> victorii cu el · <b>{without}</b> fără",
+    "stolen": "<b>{count}</b> furate"
+  },
+  "tilt": {
+    "eyebrow": {
+      "tilt": "Verificare de tilt",
+      "resilient": "Verificare de revenire",
+      "steady": "Verificare de mentalitate"
+    },
+    "afterWin": "După o victorie",
+    "afterLoss": "După o înfrângere",
+    "tilts": "Face tilt după o înfrângere",
+    "bounces": "Revine"
+  },
+  "comfort": {
+    "eyebrow": "Zona ta de confort",
+    "lead": "Rata de victorii pe campion, față de {rate} în general"
+  },
+  "gray": {
+    "eyebrow": "Ecranul gri",
+    "unit": "h",
+    "spentDead": "petrecute mort",
+    "aliveAria": "Viu {alive} din timp, mort {dead}",
+    "alive": "Viu {value}",
+    "dead": "Mort {value}",
+    "share": "<b>{share}</b> din timpul tău în joc",
+    "perGame": "<b>{minutes}</b> min pe meci",
+    "films": "{n, plural, one {Aproximativ <b>#</b> film} few {Aproximativ <b>#</b> filme} other {Aproximativ <b>#</b> de filme}}"
+  },
+  "progress": {
+    "eyebrow": "De data trecută",
+    "lead": "{date} · {saved, plural, one {# meci} few {# meciuri} other {# de meciuri}} → acum {games}",
+    "was": " · erai {persona}",
+    "improved": "<good>▲ {count}</good> îmbunătățite",
+    "slipped": "<bad>▼ {count}</bad> scăzute",
+    "mood": {
+      "better": "îmbunătățit",
+      "worse": "scăzut",
+      "flat": "neschimbat"
+    }
+  },
+  "trophies": {
+    "eyebrow": "Raftul tău cu trofee",
+    "of": "din {total} deblocate",
+    "unlocked": "Deblocat",
+    "progress": "{percent} realizat",
+    "next": "Cel mai aproape de deblocare: {name} ({percent}). {text}",
+    "all": "Fiecare trofeu pe care puteai să-l câștigi, l-ai câștigat.",
+    "lines": "Bingo-uri <b>{count}</b>",
+    "free": "Gratis",
+    "board": "Tabla de bingo a trofeelor",
+    "nextBingo": "Următorul bingo: {name} ({percent}). {text}",
+    "shareTitle": "Bingo-ul meu de trofee Rift Recap"
+  },
+  "blame": {
+    "eyebrow": "Ai fost tu?",
+    "carry": "Ai dus echipa",
+    "weak": "Veriga slabă",
+    "team": "Efort de echipă",
+    "across": "În cele {losses, plural, one {# înfrângere} few {# înfrângeri} other {# de înfrângeri}} ale tale",
+    "topDamage": "Cele mai multe daune",
+    "chance": "Doar din întâmplare ar fi {rate}",
+    "deaths": "Morțile echipei",
+    "average": "Media este {rate}"
+  },
+  "tierList": {
+    "eyebrow": "Tier list-ul tău",
+    "aria": "Tier list de campioni",
+    "title": "{name}: {winRate} în {games, plural, one {# meci} few {# meciuri} other {# de meciuri}}",
+    "note": "Ordonat după rata de victorii, apoi după KDA. Campionii cu mai puțin de 4 meciuri sunt excluși."
+  },
+  "habits": {
+    "eyebrow": "Obiceiurile tale",
+    "pings": "{value} ping-uri pe meci",
+    "flash": "Flash pe {key} · {value} folosiri pe meci",
+    "pairShare": "în {share} din meciuri",
+    "quits": "{enemy} predări inamice · {ours} ale tale",
+    "ping": "Stil de ping",
+    "spells": "Vrăjile invocatorului",
+    "surrender": "Încheiat cu predare"
+  },
+  "damage": {
+    "eyebrow": "Daunele tale",
+    "parts": {
+      "physical": "Fizice",
+      "magic": "Magice",
+      "true": "Pure"
+    },
+    "partAria": "{label} {share}"
+  },
+  "comp": {
+    "eyebrow": "Compoziția echipei",
+    "with": "Cu un <b>{class}</b>",
+    "games": "{withGames, plural, one {# meci} few {# meciuri} other {# de meciuri}} față de {withoutGames, plural, one {# meci} few {# meciuri} other {# de meciuri}} fără",
+    "versus": "față de {rate}"
+  },
+  "sessions": {
+    "eyebrow": "Serile tale",
+    "lead": "{count, plural, one {# sesiune} few {# sesiuni} other {# de sesiuni}} · cam {avg} meciuri fiecare",
+    "best": "Cea mai bună seară",
+    "worst": "Cea mai proastă seară",
+    "longest": "Cea mai lungă sesiune",
+    "meta": "{games, plural, one {# meci} few {# meciuri} other {# de meciuri}} · {date}"
+  },
+  "highlights": {
+    "eyebrow": "Momente de top",
+    "minutes": "{count, plural, one {# minut} few {# minute} other {# de minute}}",
+    "meta": "{what} · {date}",
+    "won": "Câștigat",
+    "lost": "Pierdut",
+    "caption": "Meciurile pe care le vei povesti la petreceri."
+  },
+  "lane": {
+    "lane": "Verificare culoar",
+    "gold": "Obiceiuri cu aurul",
+    "cs": "CS față de adversarul de culoar",
+    "goldDiff": "Aur față de adversarul de culoar",
+    "damage": "Daune față de adversarul de culoar",
+    "unspent": "Aur nefolosit la final",
+    "ahead": "În față la aur în <b>{rate}</b> din {games, plural, one {# meci} few {# meciuri} other {# de meciuri}}",
+    "kills": "{value} eliminări pe meci",
+    "csValue": "{value} CS"
+  },
+  "early": {
+    "eyebrow": "La minutul 15",
+    "titles": {
+      "early": "Tiranul începutului de meci",
+      "late": "Cel care crește târziu",
+      "steady": "Mână sigură"
+    },
+    "parts": {
+      "ahead": "În față",
+      "even": "Egal",
+      "behind": "În urmă"
+    },
+    "aria": "{label} în {n, plural, one {# meci} few {# meciuri} other {# de meciuri}}",
+    "wonAhead": "Câștigate <good>{wins}</good> din {total} din poziție avantajoasă",
+    "wonBehind": "Câștigate <b>{wins}</b> din {total} din urmă",
+    "lead": "Ultimele tale {games, plural, one {# meci de culoar} few {# meciuri de culoar} other {# de meciuri de culoar}}, față de adversarul de culoar"
+  },
+  "chapters": {
+    "eyebrow": "Sezonul tău pe capitole",
+    "wins": "{rate} victorii",
+    "note": "Fiecare capitol este evaluat pe propriile meciuri, deci cele scurte sunt mai puțin sigure."
+  },
+  "flames": {
+    "eyebrow": "Vechi flăcări",
+    "lead": "Campioni pe care îi cunoști bine și abia i-ai atins în acest sezon",
+    "mastery": "Măiestrie {level} · {played}",
+    "notPlayed": "nejucat",
+    "caption": "{champion} are {points} puncte de măiestrie în spate. Îi lipsești."
+  },
+  "social": {
+    "duo": {
+      "eyebrow": "Duo-ul tău",
+      "together": "{count, plural, one {meci împreună} few {meciuri împreună} other {de meciuri împreună}}",
+      "winTogether": "<b>{rate}</b> rată de victorii împreună",
+      "apart": "<b>{rate}</b> separat",
+      "combo": "Cel mai bun combo <b>{pair}</b>",
+      "alone": "Toate meciurile din acest sezon au fost cu {name}. Asta e angajament.",
+      "better": "Câștigi {withRate} cu {name} și {without} fără. Păstrați trupa unită.",
+      "worse": "Câștigi mai puțin cu {name} ({withRate} față de {without} solo). Prietenia înaintea statisticilor.",
+      "same": "Aproximativ aceeași rată de victorii cu sau fără {name}. Contează compania.",
+      "seeRecap": "Vezi rezumatul lui {name}",
+      "versus": "Față în față"
+    },
+    "matchup": {
+      "single": "Adversarul tău de culoar",
+      "both": "Nemesis vs cel mai bun matchup",
+      "nemesis": "Nemesis-ul tău",
+      "best": "Cel mai bun matchup al tău",
+      "vs": "VS",
+      "record": "<good>{wins}V</good> <bad>{losses}Î</bad>",
+      "meta": "{rate} rată de victorii",
+      "metaAs": "{rate} rată de victorii · ca {champion}",
+      "insightBoth": "Dă ban lui {nemesis} și speră la {best}.",
+      "insightNemesis": "{nemesis} e kryptonita ta. Ia în calcul un ban.",
+      "insightBest": "{best} nu a avut niciodată vreo șansă împotriva ta."
+    }
+  },
+  "rail": {
+    "start": "Început",
+    "games": "Meciuri",
+    "week": "Săptămână la săptămână",
+    "form": "Formă",
+    "calendar": "Calendar",
+    "clock": "Ceas",
+    "patches": "Patch-uri",
+    "nights": "Seri",
+    "wins": "Victorii",
+    "progress": "Progres",
+    "tilt": "Tilt",
+    "tiltGuard": "Semnal de oprire",
+    "blame": "Tu ai fost?",
+    "champion": "Campion",
+    "comfort": "Confort",
+    "flames": "Vechi flăcări",
+    "tierList": "Tier list",
+    "pool": "De încercat",
+    "combat": "Luptă",
+    "highlights": "Momente de top",
+    "damage": "Daune",
+    "gray": "Ecran gri",
+    "playstyle": "Stil de joc",
+    "lane": "Culoar",
+    "early": "Început de meci",
+    "habits": "Obiceiuri",
+    "items": "Obiecte",
+    "runes": "Rune",
+    "objectives": "Obiective",
+    "duo": "Duo",
+    "matchups": "Matchup-uri",
+    "comps": "Compoziții",
+    "normals": "Normale",
+    "aram": "ARAM",
+    "chapters": "Capitole",
+    "trophies": "Trofee",
+    "rank": "Rang",
+    "guess": "Ghicește",
+    "you": "Tu",
+    "back": "Înapoi"
+  },
+  "page": {
+    "title": "{name}#{tag} · Rift Recap",
+    "description": "Un rezumat de sezon League of Legends: statistici, un arhetip și un card de distribuit.",
+    "failed": "Nu s-a putut încărca acest rezumat",
+    "noGamesTitle": "Încă niciun meci",
+    "noGames": "Nu am găsit niciun meci pentru {who} din {since}. Joacă câteva meciuri și revino.",
+    "noRangeTitle": "Niciun meci în acest interval de timp",
+    "noRange": "{who} nu a jucat niciun meci din {since}. Încearcă un interval mai lung."
+  },
+  "tiltguard": {
+    "eyebrow": "Paza anti-tilt",
+    "step1": "După 1 înfrângere",
+    "step2": "După 2 la rând",
+    "step3": "După 3+ la rând",
+    "live": "Chiar acum"
+  },
+  "formcurve": {
+    "eyebrow": "Sezonul tău ca o linie",
+    "lead": "Rata de victorii în orice interval de {games}",
+    "best": "Cel mai bun <b>{rate}</b> · încheiat pe {date}",
+    "worst": "Cel mai slab <b>{rate}</b> · încheiat pe {date}",
+    "now": "Acum <b>{rate}</b>",
+    "aria": "Rata de victorii glisantă: cea mai bună {best}, cea mai slabă {worst}, ultima {now}",
+    "shareTitle": "Sezonul meu ca o linie"
+  },
+  "week": {
+    "eyebrow": "Ultimele 7 zile vs cele 7 dinainte",
+    "lead": "{now} acum · {before} înainte"
+  },
+  "patches": {
+    "eyebrow": "Patch cu patch",
+    "title": "Rata de victorii pe patch"
+  },
+  "runes": {
+    "eyebrow": "Runa ta principală",
+    "winWith": "<b>{rate}</b> rată de victorii cu ea",
+    "without": "<b>{rate}</b> fără"
+  },
+  "pool": {
+    "eyebrow": "Campioni de încercat",
+    "because": "Pentru că {champion} îți merge: {rate} victorii",
+    "note": "Aleși pentru o clasă și un stil de joc asemănătoare. O sugestie, nu o promisiune."
+  }
+}

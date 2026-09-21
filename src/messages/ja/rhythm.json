@@ -1,0 +1,30 @@
+{
+  "same": "2人とも同じ時間帯にプレイしている。不気味なほどに。",
+  "daysShort": "{value}日",
+  "nightOwl": {
+    "title": "夜型",
+    "tagline": "深夜0時を過ぎて始まる試合。",
+    "line": "{name}の試合の{share}が深夜0時を過ぎてから始まる。{other}には就寝時間がある。"
+  },
+  "earlyBird": {
+    "title": "朝型",
+    "tagline": "正午前に始まる試合。",
+    "line": "{name}の試合の{share}が正午前。コーヒーと一緒にキューに入る。{other}は寝坊する。"
+  },
+  "weekend": {
+    "title": "週末の戦士",
+    "tagline": "土曜または日曜にプレイした試合。",
+    "line": "{name}の試合の{share}が週末。{other}は平日派。"
+  },
+  "streak": {
+    "title": "毎日の習慣",
+    "tagline": "試合を連続でプレイした最長の日数。",
+    "line": "{name}は{days, plural, other {#日}}連続でプレイ。{other}は{otherDays}で休憩を入れた。"
+  },
+  "binge": {
+    "title": "ぶっ通しの日",
+    "tagline": "1日で最も多くプレイした試合数。",
+    "line": "{name}は1日で{games, plural, other {#試合}}をプレイしたことがある。夕食は抜き。"
+  },
+  "label": "シナリオ"
+}

@@ -1,0 +1,43 @@
+{
+  "badge": "Récap de la saison",
+  "title": {
+    "line1": "Ta saison,",
+    "line2": "en résumé."
+  },
+  "subtitle": "Chaque partie, chaque pentakill, chaque Saut éclair douteux. Entre ton Riot ID et revis ton parcours sur la Faille.",
+  "error": "Entre ton Riot ID sous la forme Nom#TAG et choisis une région.",
+  "hint": "Pas de connexion. Juste ton Riot ID. <link>Voir un récap d'exemple →</link>",
+  "modes": {
+    "squad": "Récap d'équipe",
+    "versus": "Face à face",
+    "clash": "Équipe contre équipe",
+    "players": "Tes joueurs"
+  },
+  "features": {
+    "title": "Ce que contient ton récap",
+    "champions": {
+      "title": "Tes champions",
+      "text": "Celui qui t'a porté, celui qui t'a coûté des PL, et le pick que tu ne peux pas t'empêcher de sélectionner."
+    },
+    "climb": {
+      "title": "Ta progression",
+      "text": "Taux de victoire, KDA et évolution du rang sur toute la saison, racontés comme une histoire."
+    },
+    "time": {
+      "title": "Ton temps",
+      "text": "Les heures passées sur la Faille, ta plus longue partie, ta dernière file de nuit."
+    }
+  },
+  "sample": {
+    "label": "Cartes de récap d'exemple",
+    "games": "Parties jouées",
+    "days": "≈ {days} jours passés sur la Faille",
+    "signature": "Champion signature",
+    "record": "{games} parties · {winRate} de victoires",
+    "kda": "KDA de la saison",
+    "peak": "Meilleur rang",
+    "peakRank": "Émeraude II",
+    "climbed": "+{lp} PL gagnés cette saison"
+  },
+  "footer": "Rift Recap n'est pas approuvé par Riot Games et ne reflète pas les opinions de Riot Games ni de toute personne officiellement impliquée dans la production ou la gestion des propriétés de Riot Games. Riot Games et toutes les propriétés associées sont des marques commerciales ou des marques déposées de Riot Games, Inc."
+}

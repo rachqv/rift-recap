@@ -1,0 +1,381 @@
+{
+  "season": "{year}賽季",
+  "strip": "{wins, plural, other {#勝}}{losses, plural, other {#敗}}，從最早的對局開始",
+  "record": "{wins}勝 · {losses}敗",
+  "recordChip": "<good>{wins}</good>勝 <bad>{losses}</bad>敗",
+  "winRateChip": "勝率<b>{rate}</b>",
+  "kdaChip": "KDA <b>{kda}</b>",
+  "gamesChip": "{count, plural, other {<b>#</b>場}}",
+  "gamesLabel": "{count, plural, other {#場}}",
+  "intro": {
+    "eyebrow": "{season}回顧",
+    "caption": "{games, plural, other {我們回顧了你的#場對局。準備好看看你的表現了嗎？}}",
+    "scroll": "向下捲動"
+  },
+  "games": {
+    "eyebrow": "你來了",
+    "played": "{count, plural, other {已打對局}}",
+    "riftOnly": "{count, plural, other {召喚峽谷對局}}",
+    "wins": "{count, plural, other {<good>#</good>勝}}",
+    "losses": "{count, plural, other {<bad>#</bad>敗}}",
+    "hours": "{n, plural, other {<b>{value}</b>小時}}"
+  },
+  "win": {
+    "eyebrow": "你的勝率"
+  },
+  "champion": {
+    "eyebrow": "你的招牌英雄",
+    "more": "{champion}的全部對局",
+    "back": "返回完整回顧",
+    "pageTitle": "{champion} · {name}#{tag} · Rift Recap",
+    "pageEyebrow": "英雄報告",
+    "noneTitle": "沒有這個英雄的對局",
+    "none": "{who}在此時間範圍內沒有使用{champion}的對局。試試回顧裡的其他英雄。"
+  },
+  "kda": {
+    "eyebrow": "你的戰鬥數據",
+    "kills": "擊殺",
+    "deaths": "死亡",
+    "assists": "助攻",
+    "perGame": "每場{value}",
+    "best": "你最棒的一場",
+    "bestLine": "{champion} · {kills}/{deaths}/{assists}",
+    "victory": "勝利",
+    "defeat": "敗北"
+  },
+  "style": {
+    "eyebrow": "你的打法",
+    "mainRole": "主要位置 · {share}",
+    "cs": "每分鐘補兵",
+    "vision": "每分鐘視野",
+    "damage": "每分鐘傷害",
+    "kp": "參團率",
+    "penta": "{count, plural, other {<b>#</b>次五殺}}",
+    "quadra": "{count, plural, other {<b>#</b>次四殺}}",
+    "triple": "{count, plural, other {<b>#</b>次三殺}}",
+    "firstBloods": "{count, plural, other {<b>#</b>次第一滴血}}",
+    "deathless": "{count, plural, other {<b>#</b>場零死亡}}",
+    "longestWon": "你最長的一場用{champion}打了{duration}，而且你贏了。",
+    "longestLost": "你最長的一場用{champion}打了{duration}。有些對局就是結局不太好。"
+  },
+  "mode": {
+    "aram": {
+      "eyebrow": "在嚎哭深淵",
+      "label": "{count, plural, other {隨機單中對局}}"
+    },
+    "normal": {
+      "eyebrow": "只為好玩",
+      "label": "{count, plural, other {一般對戰}}"
+    }
+  },
+  "rank": {
+    "emblem": "{title}徽章",
+    "lp": "<b>{lp}</b> LP",
+    "caption": "你目前的段位。每一次攀升都從下一場開始。"
+  },
+  "persona": {
+    "eyebrow": "本賽季，你是",
+    "also": "還有一點：{list}",
+    "main": "<b>{champion}</b>主玩",
+    "shareTitle": "我的英雄聯盟賽季：{title}",
+    "compare": "與朋友比較",
+    "squad": "小隊回顧",
+    "search": "搜尋其他玩家",
+    "count": "{count}種類型中的1種",
+    "countEstimate": "{count}種類型中的1種 · 稀有度為估算值"
+  },
+  "calendar": {
+    "eyebrow": "你的日曆",
+    "note": "根據你最近的{count, plural, other {#場}}對局。"
+  },
+  "clock": {
+    "eyebrow": "你什麼時候贏"
+  },
+  "items": {
+    "eyebrow": "你的常用裝備",
+    "inGames": "{games, plural, other {在你的#場中有<b>{count}</b>場}}",
+    "winWith": "有它時勝率<b>{rate}</b>",
+    "without": "沒有時<b>{rate}</b>",
+    "boots": "鞋子"
+  },
+  "objectives": {
+    "eyebrow": "目標",
+    "lead": "在{games, plural, other {#場}}中，你的隊伍拿下了",
+    "tiles": {
+      "tower": "防禦塔",
+      "dragon": "龍",
+      "baron": "男爵",
+      "herald": "峽谷先鋒",
+      "grubs": "虛空幼蟲",
+      "inhibitor": "抑制器"
+    },
+    "youTotal": "你：{count}",
+    "youSecured": "你拿下了{count}",
+    "perGame": "每場{value}",
+    "firstTower": "在<b>{rate}</b>的對局中拿下首座防禦塔",
+    "withWithout": "有它時<good>{withIt}</good>勝率 · 沒有時<b>{without}</b>",
+    "stolen": "偷取<b>{count}</b>個"
+  },
+  "tilt": {
+    "eyebrow": {
+      "tilt": "心態檢查",
+      "resilient": "反彈檢查",
+      "steady": "心理素質檢查"
+    },
+    "afterWin": "贏了之後",
+    "afterLoss": "輸了之後",
+    "tilts": "輸後上頭",
+    "bounces": "輸後反彈"
+  },
+  "comfort": {
+    "eyebrow": "你的舒適圈",
+    "lead": "各英雄的勝率，整體為{rate}"
+  },
+  "gray": {
+    "eyebrow": "灰畫面",
+    "unit": "小時",
+    "spentDead": "死亡時間",
+    "aliveAria": "存活{alive}的時間，死亡{dead}",
+    "alive": "存活{value}",
+    "dead": "死亡{value}",
+    "share": "占你遊戲時間的<b>{share}</b>",
+    "perGame": "每場<b>{minutes}</b>分鐘",
+    "films": "{n, plural, other {約<b>#</b>部電影}}"
+  },
+  "progress": {
+    "eyebrow": "自上次以來",
+    "lead": "{date} · {saved, plural, other {#場}} → 現在{games}",
+    "was": " · 當時是{persona}",
+    "improved": "<good>▲ {count}</good>項進步",
+    "slipped": "<bad>▼ {count}</bad>項下滑",
+    "mood": {
+      "better": "進步",
+      "worse": "下滑",
+      "flat": "沒有變化"
+    }
+  },
+  "trophies": {
+    "eyebrow": "你的獎盃架",
+    "of": "已解鎖，共{total}個",
+    "unlocked": "已解鎖",
+    "progress": "已完成{percent}",
+    "next": "最接近解鎖：{name}（{percent}）。{text}",
+    "all": "你能獲得的每一座獎盃，你都拿到了。",
+    "lines": "賓果 <b>{count}</b>",
+    "free": "免費",
+    "board": "獎盃賓果盤",
+    "nextBingo": "下一個賓果：{name}（{percent}）。{text}",
+    "shareTitle": "我的 Rift Recap 獎盃賓果"
+  },
+  "blame": {
+    "eyebrow": "是你的問題嗎？",
+    "carry": "你帶飛了",
+    "weak": "薄弱環節",
+    "team": "團隊問題",
+    "across": "在你的{losses, plural, other {#場敗局}}中",
+    "topDamage": "傷害第一",
+    "chance": "純靠運氣是{rate}",
+    "deaths": "隊伍死亡",
+    "average": "平均為{rate}"
+  },
+  "tierList": {
+    "eyebrow": "你的梯隊榜",
+    "aria": "英雄梯隊榜",
+    "title": "{name}：{games, plural, other {#場}}勝率{winRate}",
+    "note": "依勝率排序，其次是 KDA。少於4場的英雄不計入。"
+  },
+  "habits": {
+    "eyebrow": "你的習慣",
+    "pings": "每場{value}次訊號",
+    "flash": "閃現在{key}鍵 · 每場{value}次",
+    "pairShare": "占{share}的對局",
+    "quits": "敵方投降{enemy}次 · 我方{ours}次",
+    "ping": "訊號風格",
+    "spells": "召喚師技能",
+    "surrender": "以投降作結"
+  },
+  "damage": {
+    "eyebrow": "你的傷害",
+    "parts": {
+      "physical": "物理",
+      "magic": "魔法",
+      "true": "真實"
+    },
+    "partAria": "{label}{share}"
+  },
+  "comp": {
+    "eyebrow": "隊伍陣容",
+    "with": "隊伍裡有<b>{class}</b>時",
+    "games": "有時{withGames, plural, other {#場}}，沒有時{withoutGames, plural, other {#場}}",
+    "versus": "對比{rate}"
+  },
+  "sessions": {
+    "eyebrow": "你的夜晚",
+    "lead": "{count, plural, other {#次}}連續遊玩 · 每次約{avg}場",
+    "best": "最棒的一晚",
+    "worst": "最糟的一晚",
+    "longest": "最長的一次連續遊玩",
+    "meta": "{games, plural, other {#場}} · {date}"
+  },
+  "highlights": {
+    "eyebrow": "精彩片段",
+    "minutes": "{count, plural, other {#分鐘}}",
+    "meta": "{what} · {date}",
+    "won": "勝利",
+    "lost": "敗北",
+    "caption": "你會在聚會上拿出來聊的對局。"
+  },
+  "lane": {
+    "lane": "對線檢查",
+    "gold": "金幣習慣",
+    "cs": "對線補兵差",
+    "goldDiff": "對線經濟差",
+    "damage": "對線傷害差",
+    "unspent": "結束時未花金幣",
+    "ahead": "在{games, plural, other {#場}}中有<b>{rate}</b>經濟領先",
+    "kills": "每場{value}次擊殺",
+    "csValue": "{value}補兵"
+  },
+  "early": {
+    "eyebrow": "15分鐘時",
+    "titles": {
+      "early": "前期霸主",
+      "late": "後期成長型",
+      "steady": "穩健之手"
+    },
+    "parts": {
+      "ahead": "領先",
+      "even": "平手",
+      "behind": "落後"
+    },
+    "aria": "{n, plural, other {#場}}中{label}",
+    "wonAhead": "領先時{total}場贏了<good>{wins}</good>場",
+    "wonBehind": "落後時{total}場贏了<b>{wins}</b>場",
+    "lead": "你最近的{games, plural, other {#場對線}}，與對線對手比較"
+  },
+  "chapters": {
+    "eyebrow": "分章看你的賽季",
+    "wins": "勝率{rate}",
+    "note": "每一章只依自己的對局計分，所以較短的章節不太確定。"
+  },
+  "flames": {
+    "eyebrow": "舊愛",
+    "lead": "你很熟悉，但本賽季幾乎沒碰過的英雄",
+    "mastery": "熟練度{level} · {played}",
+    "notPlayed": "未使用",
+    "caption": "{champion}有{points}點熟練度。它在想你。"
+  },
+  "social": {
+    "duo": {
+      "eyebrow": "你的搭檔",
+      "together": "{count, plural, other {同隊對局}}",
+      "winTogether": "同隊勝率<b>{rate}</b>",
+      "apart": "分開時<b>{rate}</b>",
+      "combo": "最佳組合 <b>{pair}</b>",
+      "alone": "本賽季的每一場都和{name}一起。這就是執著。",
+      "better": "和{name}一起時你的勝率是{withRate}，沒有時是{without}。別讓樂團解散。",
+      "worse": "和{name}一起時你贏得比較少（{withRate}對單排的{without}）。友情高於數據。",
+      "same": "有沒有{name}，勝率都差不多。重點是陪伴。",
+      "seeRecap": "查看{name}的回顧",
+      "versus": "正面對決"
+    },
+    "matchup": {
+      "single": "你的對線對手",
+      "both": "天敵與最佳對位",
+      "nemesis": "你的天敵",
+      "best": "你的最佳對位",
+      "vs": "VS",
+      "record": "<good>{wins}勝</good> <bad>{losses}敗</bad>",
+      "meta": "勝率{rate}",
+      "metaAs": "勝率{rate} · 使用{champion}",
+      "insightBoth": "禁用{nemesis}，然後祈禱遇到{best}。",
+      "insightNemesis": "{nemesis}是你的剋星。考慮禁掉吧。",
+      "insightBest": "{best}在你面前從來沒有機會。"
+    }
+  },
+  "rail": {
+    "start": "開始",
+    "games": "對局",
+    "week": "週對比",
+    "form": "狀態",
+    "calendar": "日曆",
+    "clock": "時鐘",
+    "patches": "版本",
+    "nights": "夜晚",
+    "wins": "勝利",
+    "progress": "進步",
+    "tilt": "心態",
+    "tiltGuard": "止損訊號",
+    "blame": "誰的鍋",
+    "champion": "英雄",
+    "comfort": "舒適圈",
+    "flames": "舊愛",
+    "tierList": "梯隊榜",
+    "pool": "試試看",
+    "combat": "戰鬥",
+    "highlights": "精華",
+    "damage": "傷害",
+    "gray": "灰畫面",
+    "playstyle": "打法",
+    "lane": "對線",
+    "early": "前期",
+    "habits": "習慣",
+    "items": "裝備",
+    "runes": "符文",
+    "objectives": "目標",
+    "duo": "搭檔",
+    "matchups": "對位",
+    "comps": "陣容",
+    "normals": "一般",
+    "aram": "隨機單中",
+    "chapters": "章節",
+    "trophies": "獎盃",
+    "rank": "段位",
+    "guess": "猜類型",
+    "you": "你",
+    "back": "返回"
+  },
+  "page": {
+    "title": "{name}#{tag} · Rift Recap",
+    "description": "英雄聯盟賽季回顧：數據、玩家類型和可分享的卡片。",
+    "failed": "無法載入此回顧",
+    "noGamesTitle": "尚無對局",
+    "noGames": "自{since}以來我們找不到{who}的對局。打幾場再回來吧。",
+    "noRangeTitle": "此時間範圍內沒有對局",
+    "noRange": "{who}自{since}以來沒有打過對局。試試更長的時間範圍。"
+  },
+  "tiltguard": {
+    "eyebrow": "上頭守衛",
+    "step1": "輸1場後",
+    "step2": "連敗2場後",
+    "step3": "連敗3場以上後",
+    "live": "此刻"
+  },
+  "formcurve": {
+    "eyebrow": "用一條線看你的賽季",
+    "lead": "任意{games}的勝率",
+    "best": "最高 <b>{rate}</b> · 結束於{date}",
+    "worst": "最低 <b>{rate}</b> · 結束於{date}",
+    "now": "目前 <b>{rate}</b>",
+    "aria": "滾動勝率：最高{best}，最低{worst}，最近{now}",
+    "shareTitle": "用一條線看我的賽季"
+  },
+  "week": {
+    "eyebrow": "最近7天 vs 之前7天",
+    "lead": "現在{now} · 之前{before}"
+  },
+  "patches": {
+    "eyebrow": "逐版本回顧",
+    "title": "各版本勝率"
+  },
+  "runes": {
+    "eyebrow": "你的基石符文",
+    "winWith": "有它時勝率<b>{rate}</b>",
+    "without": "沒有時<b>{rate}</b>"
+  },
+  "pool": {
+    "eyebrow": "值得一試的英雄",
+    "because": "因為你用{champion}很順手：勝率{rate}",
+    "note": "依相近的定位與玩法挑選。只是建議，並非保證。"
+  }
+}

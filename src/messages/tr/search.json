@@ -1,0 +1,15 @@
+{
+  "placeholder": "Riot ID (Ad#ETİKET)",
+  "riotId": "Riot ID",
+  "region": "Bölge",
+  "submit": "Özetimi getir",
+  "suggestions": "Oyuncu önerileri",
+  "heading": {
+    "recent": "Son aramalar",
+    "sample": "Örnek oyuncular"
+  },
+  "sample": "Örnek",
+  "count": "{count, plural, one {# öneri mevcut} other {# öneri mevcut}}",
+  "empty": "Kayıtlı oyuncu eşleşmiyor. Riot'ta <strong>{query}</strong> aramak için Enter'a bas.",
+  "clear": "Son aramaları temizle"
+}

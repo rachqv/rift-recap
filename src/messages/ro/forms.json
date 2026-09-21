@@ -1,0 +1,39 @@
+{
+  "tryRange": "Încearcă alt interval de timp:",
+  "field": {
+    "recent": "Jucători recenți"
+  },
+  "squad": {
+    "title": "Rezumatul echipei",
+    "lead": "Introdu între doi și cinci Riot ID de pe același server. Ne uităm la meciurile jucate <em>împreună</em> și împărțim premiile.",
+    "server": "Server",
+    "player": "Jucătorul {n} (Nume#TAG)",
+    "playerOptional": "Jucătorul {n} (Nume#TAG) opțional",
+    "playerAria": "Riot ID-ul jucătorului {n}",
+    "submit": "Vezi rezumatul echipei",
+    "fine": "Funcționează cel mai bine cu oamenii cu care intri la coadă, pentru că ia în calcul doar meciurile comune. <link>Vezi o echipă exemplu</link>"
+  },
+  "clash": {
+    "title": "Echipă contra echipă",
+    "lead": "Două echipe de câte doi până la cinci jucători, de pe același server. Ne uităm la jocurile în care ați jucat <em>unii împotriva altora</em>, ca un 5v5 personalizat.",
+    "server": "Server",
+    "sideA": "Echipa 1",
+    "sideB": "Echipa 2",
+    "player": "{side}, jucătorul {n} (Nume#TAG)",
+    "playerOptional": "{side}, jucătorul {n} (Nume#TAG) opțional",
+    "playerAria": "Riot ID-ul jucătorului {n} din {side}",
+    "submit": "Compară echipele",
+    "fine": "Contează doar jocurile cu cel puțin doi din fiecare echipă de părți opuse. <link>Vezi un exemplu</link>"
+  },
+  "versus": {
+    "title": "Față în față",
+    "lead": "Alege doi jucători și vezi cine e în față: statistică cu statistică, stil cu stil și cum vă descurcați când intrați la coadă împreună.",
+    "player1": "Jucătorul 1",
+    "player2": "Jucătorul 2",
+    "serverAria": "Serverul pentru {label}",
+    "riotId": "Riot ID (Nume#TAG)",
+    "riotIdAria": "Riot ID pentru {label}",
+    "submit": "Compară",
+    "fine": "Compară ultimele meciuri ale fiecărui jucător. <link>Vezi o confruntare exemplu</link>"
+  }
+}

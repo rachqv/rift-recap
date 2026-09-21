@@ -1,0 +1,30 @@
+{
+  "same": "Vosotros dos jugáis a las mismas horas. Qué miedo.",
+  "daysShort": "{value} d",
+  "nightOwl": {
+    "title": "Búho nocturno",
+    "tagline": "Partidas que empiezan pasada la medianoche.",
+    "line": "El {share} de las partidas de {name} empiezan pasada la medianoche. {other} tiene hora de acostarse."
+  },
+  "earlyBird": {
+    "title": "Madrugador",
+    "tagline": "Partidas que empiezan antes del mediodía.",
+    "line": "El {share} de las partidas de {name} son antes del mediodía. Cola con el café. {other} se queda en la cama."
+  },
+  "weekend": {
+    "title": "Guerrero de fin de semana",
+    "tagline": "Partidas jugadas en sábado o domingo.",
+    "line": "El {share} de las partidas de {name} caen en fin de semana. {other} es más de jugar entre semana."
+  },
+  "streak": {
+    "title": "Hábito diario",
+    "tagline": "La racha más larga de días seguidos con partida.",
+    "line": "{name} jugó {days, plural, one {# día} other {# días}} seguidos. {other} hizo un descanso a los {otherDays}."
+  },
+  "binge": {
+    "title": "Día de atracón",
+    "tagline": "Más partidas en un solo día.",
+    "line": "{name} jugó una vez {games, plural, one {# partida} other {# partidas}} en un solo día. Se saltó la cena."
+  },
+  "label": "Escenarios"
+}

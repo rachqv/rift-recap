@@ -1,0 +1,43 @@
+{
+  "badge": "Tổng kết mùa giải",
+  "title": {
+    "line1": "Mùa giải của bạn,",
+    "line2": "gói gọn."
+  },
+  "subtitle": "Mọi trận đấu, mọi Pentakill, mọi cú Tốc Biến đáng ngờ. Nhập Riot ID và sống lại hành trình của bạn trên Rift.",
+  "error": "Nhập Riot ID theo dạng Tên#TAG và chọn khu vực.",
+  "hint": "Không cần đăng nhập. Chỉ cần Riot ID của bạn. <link>Xem bản tổng kết mẫu →</link>",
+  "modes": {
+    "squad": "Tổng kết nhóm",
+    "versus": "Đối đầu",
+    "clash": "Đội đấu đội",
+    "players": "Người chơi của bạn"
+  },
+  "features": {
+    "title": "Trong bản tổng kết có gì",
+    "champions": {
+      "title": "Các tướng của bạn",
+      "text": "Ai đã gánh bạn, ai khiến bạn mất LP, và vị tướng bạn không thể ngừng chọn."
+    },
+    "climb": {
+      "title": "Hành trình leo hạng",
+      "text": "Tỷ lệ thắng, KDA và biến động hạng cả mùa, kể như một câu chuyện."
+    },
+    "time": {
+      "title": "Thời gian của bạn",
+      "text": "Số giờ trên Rift, trận dài nhất, lượt xếp hàng khuya nhất."
+    }
+  },
+  "sample": {
+    "label": "Thẻ tổng kết mẫu",
+    "games": "Số trận đã chơi",
+    "days": "≈ {days} ngày trên Rift",
+    "signature": "Tướng đặc trưng",
+    "record": "{games} trận · thắng {winRate}",
+    "kda": "KDA cả mùa",
+    "peak": "Hạng cao nhất",
+    "peakRank": "Ngọc Lục Bảo II",
+    "climbed": "+{lp} LP leo được trong mùa này"
+  },
+  "footer": "Rift Recap không được Riot Games chứng thực và không phản ánh quan điểm hay ý kiến của Riot Games hoặc bất kỳ ai chính thức tham gia sản xuất hay quản lý các tài sản của Riot Games. Riot Games và mọi tài sản liên quan là nhãn hiệu hoặc nhãn hiệu đã đăng ký của Riot Games, Inc."
+}
