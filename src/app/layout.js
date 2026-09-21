@@ -1,6 +1,7 @@
 import { Cinzel, Inter } from "next/font/google";
 import LanguageSwitch from "@/components/LanguageSwitch";
 import Parallax from "@/components/Parallax";
+import SiteSound from "@/components/SiteSound";
 import { TOP_BAR_SLOT } from "@/components/topBar";
 import { LOCALES } from "@/lib/i18n/config";
 import { I18nProvider } from "@/lib/i18n/client";
@@ -46,7 +47,9 @@ export default async function RootLayout({ children }) {
           <Parallax />
           <header className="top-bar">
             <LanguageSwitch />
-            {/* Pages with their own controls (the recap's slideshow and volume) put them here, level with the language switch. */}
+            {/* The site's sound (speaker, volume and the soundtrack) lives here so it keeps playing from page to page. */}
+            <SiteSound />
+            {/* Pages with their own controls (the recap's slideshow) put them here, level with the language switch. */}
             <div id={TOP_BAR_SLOT} className="top-bar-slot" />
           </header>
           {children}

@@ -5,8 +5,9 @@ import { useEffect, useRef, useState, useSyncExternalStore } from "react";
 import { createPortal } from "react-dom";
 import { TOP_BAR_SLOT } from "@/components/topBar";
 import { useT } from "@/lib/i18n/client";
-import { DEFAULT_VOLUME, readSound, readSoundOnServer, readVolume, readVolumeOnServer, subscribeSound, subscribeVolume, writeSound, writeVolume } from "@/lib/soundSetting";
-import { playSlideChange, startAmbient } from "./ambient";
+import { existingAudioContext } from "@/lib/audio";
+import { readSound, readSoundOnServer, readVolume, readVolumeOnServer, subscribeSound, subscribeVolume } from "@/lib/soundSetting";
+import { playSlideChange } from "./ambient";
 import { copyText } from "./ShareButtons";
 import styles from "./Story.module.css";
 
@@ -25,14 +26,6 @@ const HASH_MS = 200;
 
 /** Slides glide into view, unless the viewer has asked their system for less motion. */
 const scrollBehavior = () => (window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "instant" : "smooth");
-
-/** The page's AudioContext, made on first use (from a click or key press, since browsers only allow audio after one). */
-function audioContext(ref) {
-  const Context = window.AudioContext || window.webkitAudioContext;
-  if (!Context) return null;
-  ref.current ??= new Context();
-  return ref.current;
-}
 
 // The top bar's slot for page controls (see the layout). Not there on the server or outside the app (Storybook).
 const subscribeNothing = () => () => {};
@@ -64,23 +57,6 @@ function LinkIcon({ state }) {
   );
 }
 
-/** A speaker icon: waves for how loud it is, or a cross when muted. */
-function Speaker({ muted, level }) {
-  return (
-    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-      <path d="M11 5 6 9H3v6h3l5 4z" fill="currentColor" />
-      {muted ? (
-        <path d="m16 9 5 6m0-6-5 6" />
-      ) : (
-        <>
-          <path d="M15.5 9.5a3.5 3.5 0 0 1 0 5" />
-          {level > 0.45 && <path d="M18.5 7a7 7 0 0 1 0 10" />}
-        </>
-      )}
-    </svg>
-  );
-}
-
 /**
  * Scroll-snap container for the recap slides. Marks the slide in view with `data-active="true"`
  * (which triggers its reveal animations) and renders a progress rail.
@@ -107,11 +83,8 @@ export default function Story({ labels, ids, children }) {
   const active = now.index;
   const music = useSyncExternalStore(subscribeSound, readSound, readSoundOnServer);
   const volume = useSyncExternalStore(subscribeVolume, readVolume, readVolumeOnServer);
-  const muted = !music || volume === 0;
   const topBar = useSyncExternalStore(subscribeNothing, readTopBarSlot, readNoTopBarSlot);
   const volumeRef = useRef(volume);
-  const padRef = useRef(null); // the playing pad's controls
-  const audioRef = useRef(null); // the AudioContext, created on a click because browsers only allow audio after one
 
 
   useEffect(() => {
@@ -197,60 +170,17 @@ export default function Story({ labels, ids, children }) {
     if (heardSlide.current === active) return;
     const timer = setTimeout(() => {
       heardSlide.current = active;
-      const ctx = audioRef.current;
+      // The soundtrack (see SiteSound) made the context; without it, or while it is muted, there is nothing to play.
+      const ctx = existingAudioContext();
       if (music && ctx?.state === "running") playSlideChange(ctx, volumeRef.current);
     }, SETTLE_MS);
     return () => clearTimeout(timer);
   }, [active, music]);
 
-  // The soundtrack plays whenever it is switched on, slideshow or not. A choice remembered from an earlier visit can't
-  // start by itself (browsers block audio until the page has been clicked or a key pressed), so it starts on the first one.
-  useEffect(() => {
-    if (!music) return;
-    let pad = null;
-    let cancelled = false;
-
-    async function begin() {
-      if (pad) return;
-      const ctx = audioContext(audioRef);
-      if (!ctx) return;
-      try {
-        // While the page has had no click or key press this waits, so the attempt made at load never finishes on its own:
-        // every gesture tries again, and whichever resolves first starts the pad (the check below stops a second one).
-        await ctx.resume();
-      } catch {
-        // Still blocked; the next gesture tries again.
-      }
-      if (!cancelled && !pad && ctx.state === "running") {
-        pad = startAmbient(ctx, volumeRef.current);
-        padRef.current = pad;
-      }
-    }
-
-    begin();
-    const gestures = ["pointerdown", "keydown", "touchend"];
-    gestures.forEach((name) => window.addEventListener(name, begin, { passive: true }));
-    return () => {
-      cancelled = true;
-      gestures.forEach((name) => window.removeEventListener(name, begin));
-      pad?.stop();
-      padRef.current = null;
-    };
-  }, [music]);
-
-  // The slider moves the pad while it plays, and the sounds that start later read the same value.
+  // The sounds that start later (the slide change) read the slider's value from here; the soundtrack itself follows it in SiteSound.
   useEffect(() => {
     volumeRef.current = volume;
-    padRef.current?.setVolume(volume);
   }, [volume]);
-
-  useEffect(
-    () => () => {
-      audioRef.current?.close();
-      audioRef.current = null; // a remount (dev strict mode) must not reuse a closed context
-    },
-    [],
-  );
 
   function start() {
     // The first slide may want longer than the default.
@@ -315,7 +245,7 @@ export default function Story({ labels, ids, children }) {
   }, []);
 
   // Starting the slideshow is always the viewer's choice: the button is on the first slide, and nothing plays before it is pressed.
-  // The speaker and volume slider are on every slide: they are the one control for all sound. Play is only on the first.
+  // The speaker and volume slider are in the top bar of every page (SiteSound): they are the one control for all sound. Play is only on the first slide.
   const controls = (
     <div className={styles.controls} data-floating={!topBar || undefined} role="group" aria-label={t("story.controls")}>
       {/* Step to the neighbouring slide: for touch, where there is no arrow key. Like the rail, stepping pauses a slideshow. */}
@@ -346,35 +276,6 @@ export default function Story({ labels, ids, children }) {
           </button>
         </>
       )}
-      <div className={styles.sound} data-muted={muted}>
-        <button
-          type="button"
-          className={styles.speaker}
-          aria-label={t(muted ? "story.unmute" : "story.mute")}
-          aria-pressed={muted}
-          onClick={() => {
-            if (!muted) return writeSound(false);
-            writeSound(true);
-            if (volume === 0) writeVolume(DEFAULT_VOLUME); // unmuting from a slider at zero would still be silent
-          }}
-        >
-          <Speaker muted={muted} level={volume} />
-        </button>
-        <input
-          type="range"
-          min="0"
-          max="100"
-          step="5"
-          value={Math.round(volume * 100)}
-          aria-label={t("story.volume")}
-          aria-valuetext={t.percent(volume)}
-          onChange={(event) => {
-            const next = Number(event.target.value) / 100;
-            writeVolume(next);
-            if (next > 0 && !music) writeSound(true); // moving the slider is asking for sound
-          }}
-        />
-      </div>
     </div>
   );
 

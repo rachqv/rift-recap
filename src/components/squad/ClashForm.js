@@ -1,5 +1,6 @@
 "use client";
 
+import Form from "next/form";
 import Link from "next/link";
 import { useState } from "react";
 import RangeSwitch from "@/components/RangeSwitch";
@@ -28,7 +29,7 @@ export default function ClashForm({ region: initialRegion, a: initialA = [], b: 
   const everyone = [...sides.a, ...sides.b].filter(Boolean);
 
   return (
-    <form action="/clash" className={styles.form}>
+    <Form action="/clash" className={styles.form}>
       <h1 className={styles.title}>{t("forms.clash.title")}</h1>
       <p className={styles.lead}>{t.rich("forms.clash.lead", { em: (chunks) => <em>{chunks}</em> })}</p>
       {error && (
@@ -77,6 +78,6 @@ export default function ClashForm({ region: initialRegion, a: initialA = [], b: 
         {t("forms.clash.submit")}
       </button>
       <p className={styles.fine}>{t.rich("forms.clash.fine", { link: (chunks) => <Link href="/clash?demo=1">{chunks}</Link> })}</p>
-    </form>
+    </Form>
   );
 }

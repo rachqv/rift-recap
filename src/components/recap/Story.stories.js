@@ -1,4 +1,5 @@
 import { expect, fireEvent, userEvent, waitFor, within } from "storybook/test";
+import SiteSound from "@/components/SiteSound";
 import Slide, { Reveal } from "./Slide";
 import Story from "./Story";
 
@@ -8,7 +9,7 @@ export default {
   parameters: { layout: "fullscreen" },
 };
 
-// Three simple slides are enough to exercise the container: the rail, the keyboard, the slideshow and the sound controls.
+// Three simple slides are enough to exercise the container: the rail, the keyboard, the slideshow and the sound control beside it.
 const slides = ["First", "Second", "Third"].map((title) => (
   <Slide key={title}>
     <Reveal i={0}>
@@ -152,48 +153,15 @@ export const SlideshowControls = {
   },
 };
 
-/** Sound starts muted; the speaker toggles it, and the setting is remembered. */
-export const SpeakerMutesAndUnmutes = {
-  args,
-  beforeEach: cleanSoundSettings,
-  play: async ({ canvasElement }) => {
-    const canvas = within(canvasElement);
-    await userEvent.click(canvas.getByRole("button", { name: "Unmute" }));
-    await waitFor(() => expect(canvas.getByRole("button", { name: "Mute" })).toBeInTheDocument());
-    await expect(window.localStorage.getItem("rift-recap:music")).toBe("on");
-
-    await userEvent.click(canvas.getByRole("button", { name: "Mute" }));
-    await waitFor(() => expect(canvas.getByRole("button", { name: "Unmute" })).toBeInTheDocument());
-    await expect(window.localStorage.getItem("rift-recap:music")).toBe("off");
-  },
-};
-
-/** The volume slider starts at 75%, stores what you pick, and moving it while muted unmutes. */
-export const VolumeSlider = {
-  args,
-  beforeEach: cleanSoundSettings,
-  play: async ({ canvasElement }) => {
-    const canvas = within(canvasElement);
-    const slider = canvas.getByRole("slider", { name: "Volume" });
-    await expect(slider).toHaveValue("75");
-    await expect(canvas.getByRole("button", { name: "Unmute" })).toBeInTheDocument();
-
-    await fireEvent.change(slider, { target: { value: "40" } });
-    await waitFor(() => expect(slider).toHaveValue("40"));
-    await expect(window.localStorage.getItem("rift-recap:volume")).toBe("0.4");
-    await waitFor(() => expect(canvas.getByRole("button", { name: "Mute" })).toBeInTheDocument()); // it unmuted
-
-    // Dragging to zero counts as muted, and the speaker then restores a usable volume instead of staying silent.
-    await fireEvent.change(slider, { target: { value: "0" } });
-    await waitFor(() => expect(canvas.getByRole("button", { name: "Unmute" })).toBeInTheDocument());
-    await userEvent.click(canvas.getByRole("button", { name: "Unmute" }));
-    await waitFor(() => expect(slider).toHaveValue("75"));
-  },
-};
-
-/** Arrow keys on the slider adjust the volume; they must not also change slides. */
+/** Arrow keys on the site's volume slider adjust the volume; they must not also change slides. */
 export const SliderKeysDontChangeSlides = {
   args,
+  render: (props) => (
+    <>
+      <SiteSound />
+      <Story {...props} />
+    </>
+  ),
   beforeEach: cleanSoundSettings,
   play: async ({ canvasElement }) => {
     const canvas = within(canvasElement);

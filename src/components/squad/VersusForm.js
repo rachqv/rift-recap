@@ -1,5 +1,6 @@
 "use client";
 
+import Form from "next/form";
 import Link from "next/link";
 import { useState } from "react";
 import RangeSwitch from "@/components/RangeSwitch";
@@ -51,7 +52,7 @@ export default function VersusForm({ a = {}, b = {}, error, ranges }) {
   const [valueB, setValueB] = useState(b.id ?? "");
 
   return (
-    <form action="/versus" className={styles.form}>
+    <Form action="/versus" className={styles.form}>
       <h1 className={styles.title}>{t("forms.versus.title")}</h1>
       <p className={styles.lead}>
         {t("forms.versus.lead")}
@@ -75,6 +76,6 @@ export default function VersusForm({ a = {}, b = {}, error, ranges }) {
       <p className={styles.fine}>
         {t.rich("forms.versus.fine", { link: (chunks) => <Link href="/versus?demo=1">{chunks}</Link> })}
       </p>
-    </form>
+    </Form>
   );
 }

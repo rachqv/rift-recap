@@ -1,3 +1,4 @@
+import Form from "next/form";
 import Link from "next/link";
 import RecapView from "@/components/recap/RecapView";
 import Select from "@/components/Select";
@@ -26,7 +27,7 @@ export default async function DemoPage({ searchParams }) {
   return (
     <>
       <RecapView {...getDemoData(current)} index={index} share={{ cardUrl: `/demo/card?style=${current}` }} championHref={(id) => `/demo/champion/${encodeURIComponent(id)}?style=${current}`} saved={readRecapSnapshot(decodeSnapshot(since))} t={t} />
-      <form className={styles.switcher} action="/demo" aria-label={t("demo.switcher.label")}>
+      <Form className={styles.switcher} action="/demo" aria-label={t("demo.switcher.label")}>
         <Link href={`/demo?style=${previous}`} aria-label={t("demo.switcher.previous")} scroll={false}>
           ‹
         </Link>
@@ -43,7 +44,7 @@ export default async function DemoPage({ searchParams }) {
         <Link href={`/demo?style=${next}`} aria-label={t("demo.switcher.next")} scroll={false}>
           ›
         </Link>
-      </form>
+      </Form>
     </>
   );
 }

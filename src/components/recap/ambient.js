@@ -3,7 +3,7 @@ import { loudness } from "@/lib/soundSetting";
 // The page's sounds, all synthesized with the Web Audio API (no audio files). The soundtrack is a slow, quiet pad: a few sine and
 // triangle voices on a minor-add9 chord, with a low drone under them and a slow filter sweep so it breathes.
 
-const ROOT = 110; // A2
+export const ROOT = 110; // A2
 // Semitone offsets from the root: root, fifth, octave, minor third, ninth. Each becomes one voice.
 const VOICES = [
   { ratio: 1, gain: 0.07, type: "sine" },

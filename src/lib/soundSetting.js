@@ -1,7 +1,8 @@
 // The sound settings: one on/off switch and one volume.
 //
-// The switch: the speaker button (mute and unmute). It covers the slideshow's ambient pad, the soft sound when a slide changes and
-// the archetype reveal on the last slide. Off by default, and remembered in this browser. Shaped for useSyncExternalStore.
+// The switch: the speaker button in the top bar (mute and unmute). It covers the ambient soundtrack (on every page), the soft sound
+// when a slide changes and the archetype reveal on the last slide. Off by default, and remembered in this browser. Shaped for
+// useSyncExternalStore.
 
 const KEY = "rift-recap:music";
 const EVENT = "rift-recap:music-change";

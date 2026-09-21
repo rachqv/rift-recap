@@ -1,5 +1,6 @@
 "use client";
 
+import Form from "next/form";
 import Link from "next/link";
 import { useState } from "react";
 import RangeSwitch from "@/components/RangeSwitch";
@@ -26,7 +27,7 @@ export default function SquadForm({ region: initialRegion, values: initialValues
   const setValue = (index, value) => setValues((current) => current.map((v, i) => (i === index ? value : v)));
 
   return (
-    <form action="/squad" className={styles.form}>
+    <Form action="/squad" className={styles.form}>
       <h1 className={styles.title}>{t("forms.squad.title")}</h1>
       <p className={styles.lead}>
         {t.rich("forms.squad.lead", { em: (chunks) => <em>{chunks}</em> })}
@@ -71,6 +72,6 @@ export default function SquadForm({ region: initialRegion, values: initialValues
       <p className={styles.fine}>
         {t.rich("forms.squad.fine", { link: (chunks) => <Link href="/squad?demo=1">{chunks}</Link> })}
       </p>
-    </form>
+    </Form>
   );
 }
