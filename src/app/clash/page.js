@@ -5,20 +5,30 @@ import SetupShell from "@/components/squad/SetupShell";
 import { getLocale, getT } from "@/lib/i18n/server";
 import { RANGES, rangeOf } from "@/lib/recap/config";
 import { errorMessage } from "@/lib/recap/load";
-import { paramPairs, rangeLinks } from "@/lib/recap/range";
+import { paramPairs, rangeLinks, withRange } from "@/lib/recap/range";
 import { RiotApiError } from "@/lib/riot/client";
 import { getDemoClash } from "@/lib/squad/demoClash";
 import { loadClash } from "@/lib/squad/load";
-import { formatRiotId, MIN_SQUAD, parseClashParams } from "@/lib/squad/parse";
+import { clashCardPath, formatRiotId, MIN_SQUAD, parseClashParams } from "@/lib/squad/parse";
 
 export async function generateMetadata({ searchParams }) {
   const sp = await searchParams;
-  const t = await getT();
+  const [locale, t] = [await getLocale(), await getT()];
   if (sp.demo != null) return { title: t("clash.page.titleDemo") };
 
-  const { regionValid, a, b } = parseClashParams(sp);
+  const { region, regionValid, a, b } = parseClashParams(sp);
   if (!regionValid || a.length < MIN_SQUAD || b.length < MIN_SQUAD) return { title: t("clash.page.titleEmpty") };
-  return { title: t("clash.page.title", { a: a[0].gameName, b: b[0].gameName }), description: t("clash.page.description"), robots: { index: false } };
+  const title = t("clash.page.title", { a: a[0].gameName, b: b[0].gameName });
+  const description = t("clash.page.description");
+  // The card has no cookie to say which language, so the link carries it.
+  const card = `${withRange(clashCardPath(region, a, b), rangeOf(sp.range))}&format=og&lang=${locale}`;
+  return {
+    title,
+    description,
+    robots: { index: false },
+    openGraph: { title, description, type: "website", images: [{ url: card, width: 1200, height: 630, alt: title }] },
+    twitter: { card: "summary_large_image", title, description, images: [card] },
+  };
 }
 
 /** What is wrong with the input, as a message; null when nothing has been entered yet; undefined when it is fine. */
@@ -36,7 +46,7 @@ export default async function ClashPage({ searchParams }) {
   const range = rangeOf(sp.range);
   const [locale, t] = [await getLocale(), await getT()];
 
-  if (sp.demo != null) return <ClashView data={getDemoClash()} t={t} />;
+  if (sp.demo != null) return <ClashView data={getDemoClash()} share={{ cardUrl: "/clash/card?demo=1" }} t={t} />;
 
   const parsed = parseClashParams(sp);
   const { region, regionValid, a, b } = parsed;
@@ -77,7 +87,7 @@ export default async function ClashPage({ searchParams }) {
       {[...data.a, ...data.b].map((member) => (
         <RememberPlayer key={member.puuid} gameName={member.gameName} tagLine={member.tagLine} region={region} />
       ))}
-      <ClashView data={data} ranges={rangeLinks("/clash", paramPairs(sp), range, t)} t={t} />
+      <ClashView data={data} share={{ cardUrl: withRange(clashCardPath(region, a, b), range) }} ranges={rangeLinks("/clash", paramPairs(sp), range, t)} t={t} />
     </>
   );
 }

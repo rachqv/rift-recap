@@ -1,12 +1,13 @@
 import { NextResponse } from "next/server";
-import { clientKey, createRateLimiter } from "@/lib/rateLimit";
+import { clientKey, createSharedRateLimiter } from "@/lib/rateLimit";
 
 // Everything that costs Riot API requests (a player's games) or draws an image, per visitor address. Generous for real use (a
-// recap is one page load), tight enough that a script can't burn the API key's budget. See lib/rateLimit.js for its limits.
-const pages = createRateLimiter({ limit: 30, windowMs: 60_000 });
-const cards = createRateLimiter({ limit: 20, windowMs: 60_000 });
+// recap is one page load), tight enough that a script can't burn the API key's budget. The counts are shared between serverless
+// instances when a Redis store is configured (see lib/rateLimit.js and .env.example); otherwise they are per instance.
+const pages = createSharedRateLimiter({ name: "pages", limit: 30, windowMs: 60_000 });
+const cards = createSharedRateLimiter({ name: "cards", limit: 20, windowMs: 60_000 });
 
-export function proxy(request) {
+export async function proxy(request) {
   // Local development reloads constantly; the limit is for a deployed site.
   if (process.env.NODE_ENV !== "production") return NextResponse.next();
 
@@ -16,7 +17,7 @@ export function proxy(request) {
   const loadsPlayers = pathname.startsWith("/recap/") || searchParams.size > 0;
   if (!isCard && !loadsPlayers) return NextResponse.next();
 
-  const { ok, retryAfter } = (isCard ? cards : pages)(clientKey(request.headers));
+  const { ok, retryAfter } = await (isCard ? cards : pages)(clientKey(request.headers));
   if (ok) return NextResponse.next();
 
   return new NextResponse("Too many requests. Wait a moment and try again.", {

@@ -8,10 +8,10 @@ Drop in a Riot ID and get a scrollable, animated story of your games: who you ar
 
 ![Next.js 16](https://img.shields.io/badge/Next.js-16-black?logo=nextdotjs)
 ![React 19](https://img.shields.io/badge/React-19-61dafb?logo=react&logoColor=black)
-![Unit tests](https://img.shields.io/badge/unit%20tests-731%20passing-3ddc97)
+[![CI](https://github.com/rachqv/rift-recap/actions/workflows/ci.yml/badge.svg)](https://github.com/rachqv/rift-recap/actions/workflows/ci.yml)
 ![Storybook](https://img.shields.io/badge/Storybook-10-ff4785?logo=storybook&logoColor=white)
-![Story tests](https://img.shields.io/badge/story%20tests-63%20passing-3ddc97)
 ![No database](https://img.shields.io/badge/database-none-c8aa6e)
+![License: MIT](https://img.shields.io/badge/license-MIT-c8aa6e)
 
 </div>
 
@@ -102,7 +102,7 @@ A few slides need more games than a 40-game sample has, so they only appear for 
 
 A development key allows **20 requests/second and 100 requests/2 minutes**. Every game is one request, so a first, uncached head-to-head (~160 games) can hit the limit. Finished matches and timelines are cached for a week, so waiting a minute and retrying carries on where it stopped. If your development key has expired, the app says so straight away instead of quietly showing old data. A production key doesn't have this problem.
 
-The site also limits each visitor (`src/proxy.js`): 30 recap, head-to-head, squad or squad vs squad loads and 20 card images per minute, then a `429` with `Retry-After`. The counts live in memory (`src/lib/rateLimit.js`), so the limit is exact on a single server (`next start`) but per instance on serverless hosts. On Vercel, add a WAF rate-limit rule for a hard limit.
+The site also limits each visitor (`src/proxy.js`): 30 recap, head-to-head, squad or squad vs squad loads and 20 card images per minute, then a `429` with `Retry-After`. By default the counts live in memory (`src/lib/rateLimit.js`), which is exact on a single server (`next start`) but per instance on serverless hosts, where every warm instance counts on its own. For a limit that holds across instances, set `UPSTASH_REDIS_REST_URL` and `UPSTASH_REDIS_REST_TOKEN` (a free [Upstash](https://upstash.com) Redis database, or Vercel KV, whose `KV_REST_API_*` variables are read too) and the counts are kept there instead. If the store is unreachable or slow, the site falls back to counting in memory rather than blocking anyone. On Vercel a WAF rate-limit rule is another way to get a hard limit.
 
 ---
 
@@ -129,6 +129,7 @@ Requires **Node.js 20.9 or newer** (developed on Node 24).
 |---|---|---|
 | `RIOT_API_KEY` | For real players | Your Riot API key. Read only on the server and never sent to the browser |
 | `SITE_URL` | No | Public address used for link-preview images. Defaults to `http://localhost:3000` (or your Vercel production URL) |
+| `UPSTASH_REDIS_REST_URL`, `UPSTASH_REDIS_REST_TOKEN` | No | A Redis store that makes the rate limit hold across serverless instances (`KV_REST_API_URL` and `KV_REST_API_TOKEN` work too). Without one the limit is per instance. See [Rate limits](#rate-limits) |
 
 The knobs that shape the data live in one file, [`src/lib/recap/config.js`](src/lib/recap/config.js): the season start, how many games each mode loads, how many timelines to read, and the available time ranges. Nothing else to configure.
 
@@ -220,7 +221,7 @@ Two things to avoid: a placeholder named like a tag in the same message (`<b>` a
 
 - **Arabic share cards are drawn in English.** The card renderer (Satori) fails on every Arabic font tried. The Arabic site itself is unaffected. Remove `ar` from `UNDRAWABLE` in [`src/lib/card/fonts.js`](src/lib/card/fonts.js) to try again after a renderer upgrade.
 - **Arabic RTL is CSS-logical, not fully audited.** The layout mirrors (`dir="rtl"` plus logical properties such as `inset-inline-start`). Centred elements, decorative backgrounds, the gauges and the progress bars keep their fixed direction. Names and numbers inside sentences are kept intact with Unicode isolates.
-- **Squad vs squad has no share card yet, and needs games against each other.** Squads that only ever queue on the same team have none, and the page says so. Both squads have to be on one server, and the page reads each player's latest 300 matches (or the chosen range) and loads only the games both squads share, so a long history of custom games can be cut off.
+- **Squad vs squad needs games against each other.** Squads that only ever queue on the same team have none, and the page says so. Both squads have to be on one server, and the page reads each player's latest 300 matches (or the chosen range) and loads only the games both squads share, so a long history of custom games can be cut off.
 - **Champion voice lines** follow the page's language for the 16 languages Riot recorded a voice pack for (all but English, which uses the default pack, and Traditional Chinese, Vietnamese, Thai and Indonesian). Those four play the English line, as does any language whose file can't be loaded: the player switches to English rather than staying silent. Which folder a language uses is `voice` in [`src/lib/i18n/config.js`](src/lib/i18n/config.js). Separately, some archetype titles carry an article ("El Ladrón"), so a list of them can't always be joined with a contraction.
 
 ## 🧪 Testing
@@ -233,7 +234,7 @@ There are two layers, and they check different things.
 npm test
 ```
 
-731 tests cover the pure logic: stats, tiers, sessions, timelines, snapshots, archetype scoring, the trophy bingo board, keystone runes, champions to try, the one-champion report, squad vs squad, the squad lineup, the tilt guard, the win-rate line, time-of-day and patch charts, week-on-week comparisons, and the translation system (every message in every language keeps its placeholders, every `t("key")` in the code exists, and no English text is left without a use). They're the fastest way to see what each piece is supposed to do, and they document the edge cases (small samples, missing data, malformed links).
+The unit tests cover the pure logic: stats, tiers, sessions, timelines, snapshots, archetype scoring, the trophy bingo board, keystone runes, champions to try, the one-champion report, squad vs squad, the squad lineup, the tilt guard, the win-rate line, time-of-day and patch charts, week-on-week comparisons, and the translation system (every message in every language keeps its placeholders, every `t("key")` in the code exists, and no English text is left without a use). They're the fastest way to see what each piece is supposed to do, and they document the edge cases (small samples, missing data, malformed links).
 
 ### Component tests (Storybook + Jest)
 
@@ -244,7 +245,7 @@ npm run test:stories:ci    # build Storybook, then test every story in a real br
 
 Components are documented as **stories** (`*.stories.js` next to each component), and each story has a `play` function that clicks, types and presses keys like a user and then asserts on the result. The [Storybook test runner](https://github.com/storybookjs/test-runner) runs those in Chromium through **Jest** and Playwright.
 
-63 stories currently cover the slideshow and its keyboard, rail and sound controls, the squad quiz (a perfect score, all wrong, play again), the recent-players list, the range switch, the dropdown's keyboard behavior, the archetype guessing game (a wrong guess and a right one), the squad lineup (a swap and a settled squad), champions to try, the gold-lead chart's scrubbing, the result strip, and the data slides (tier list, trophy bingo board, tilt, tilt guard, was-it-you, damage, when you win, patch by patch, your season as a line, last 7 days vs the 7 before, your keystone rune, the champion link and report, the squad vs squad slides). Stories use the same seeded sample data as the demo pages (`src/test/fixtures.js`), so they are deterministic.
+The stories cover the slideshow and its keyboard, rail and sound controls, the squad quiz (a perfect score, all wrong, play again), the recent-players list, the range switch, the dropdown's keyboard behavior, the archetype guessing game (a wrong guess and a right one), the squad lineup (a swap and a settled squad), champions to try, the gold-lead chart's scrubbing, the result strip, and the data slides (tier list, trophy bingo board, tilt, tilt guard, was-it-you, damage, when you win, patch by patch, your season as a line, last 7 days vs the 7 before, your keystone rune, the champion link and report, the squad vs squad slides and their share row). Stories use the same seeded sample data as the demo pages (`src/test/fixtures.js`), so they are deterministic.
 
 First-time setup for the test runner needs the browser it drives:
 
@@ -273,4 +274,4 @@ Built on data from Riot Games' API, Data Dragon and Community Dragon. Fonts: [Ci
 
 ## 📄 License
 
-No license has been chosen yet. Add a `LICENSE` file before accepting contributions or reuse.
+[MIT](LICENSE).

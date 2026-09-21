@@ -174,3 +174,5 @@ export function clashPath(region, a, b) {
   for (const player of b) query.append("b", formatRiotId(player));
   return `/clash?${query}`;
 }
+
+export const clashCardPath = (region, a, b) => clashPath(region, a, b).replace("/clash?", "/clash/card?");

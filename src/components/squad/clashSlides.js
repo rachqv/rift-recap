@@ -1,5 +1,6 @@
 import Link from "next/link";
 import RangeSwitch from "@/components/RangeSwitch";
+import ShareButtons from "@/components/recap/ShareButtons";
 import Slide, { Reveal } from "@/components/recap/Slide";
 import base from "@/components/recap/slides.module.css";
 import { defaultT } from "@/lib/i18n/en";
@@ -161,8 +162,8 @@ export function ClashStarsSlide({ stars, teams, t = defaultT }) {
   );
 }
 
-/** The way on: each squad's own recap. `hrefs` is `{ a, b }`. */
-export function ClashEndSlide({ teams, hrefs, t = defaultT }) {
+/** The way on: each squad's own recap (`hrefs` is `{ a, b }`) and the share buttons (`share` is `{ cardUrl }`). */
+export function ClashEndSlide({ teams, hrefs, share, t = defaultT }) {
   return (
     <Slide>
       <Reveal i={0} className={base.eyebrow}>
@@ -175,6 +176,11 @@ export function ClashEndSlide({ teams, hrefs, t = defaultT }) {
           </Link>
         ))}
       </Reveal>
+      {share && (
+        <Reveal i={2}>
+          <ShareButtons cardUrl={share.cardUrl} title={t("clash.page.title", { a: teams.a.members[0].gameName, b: teams.b.members[0].gameName })} />
+        </Reveal>
+      )}
     </Slide>
   );
 }
